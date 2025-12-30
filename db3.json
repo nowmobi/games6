@@ -1,0 +1,940 @@
+[
+  {
+    "info1": [
+      "puzzle",
+      "girl",
+      "sports",
+      "action",
+      "adventure",
+      "racing",
+      "kids"
+    ],
+    "info2": [
+      "sports",
+      "action",
+      "racing",
+      "adventure",
+      "puzzle",
+      "girl",
+      "kids"
+    ],
+    "info3": [
+      "adventure",
+      "action",
+      "sports",
+      "girl",
+      "racing",
+      "puzzle",
+      "kids"
+    ],
+    "info4": [
+      "action",
+      "adventure",
+      "puzzle",
+      "girl",
+      "kids",
+      "racing",
+      "sports"
+    ],
+    "info5": [
+      "puzzle",
+      "girl",
+      "kids",
+      "racing",
+      "sports",
+      "action",
+      "adventure"
+    ]
+  },
+  {
+    "id": 179,
+    "name": "Racing Monster Trucks",
+    "image": "./icons/179.jpg",
+    "description": "Race monster trucks through challenging tracks and perform stunts in this thrilling game.",
+    "rating": 4.1,
+    "downloads": "11.3K",
+    "category": "racing"
+  },
+  {
+    "id": 180,
+    "name": "Truck Trials",
+    "image": "./icons/180.jpg",
+    "description": "Test your driving skills through obstacle courses in this challenging truck game.",
+    "rating": 4.2,
+    "downloads": "7.3K",
+    "category": "racing"
+  },
+  {
+    "id": 181,
+    "name": "Word Slide",
+    "image": "./icons/181.jpg",
+    "description": "Slide letters to form words in this engaging and educational puzzle game.",
+    "rating": 4.6,
+    "downloads": "4.7K",
+    "category": "kids"
+  },
+  {
+    "id": 182,
+    "name": "Alien Attack",
+    "image": "./icons/182.jpg",
+    "description": "You're a space trooper left alone by accident. Surrounded by aliens, fight them off using five weapons looted from bosses. Features hardcore gameplay, retro - style pixel - art graphics and chip sounds, and split - screen co - op.",
+    "rating": 4.3,
+    "downloads": "13.9K",
+    "category": "action"
+  },
+  {
+    "id": 183,
+    "name": "Galaga Assault",
+    "image": "./icons/183.jpg",
+    "description": "A modern take on the classic Galaga. In redemption mode, shoot enemy ships to earn tickets and face a boss for more. Players can add up to 12 ships for more firepower. Also has an amusement mode like the old - school Galaga with new features.",
+    "rating": 4.8,
+    "downloads": "5.6K",
+    "category": "action"
+  },
+  {
+    "id": 184,
+    "name": "Galaxy Attack",
+    "image": "./icons/184.jpg",
+    "description": "Take control of a spaceship to protect Earth from alien swarms. Face increasing numbers of enemies in hazardous environments. Upgrade your spacecraft, collect items, and engage in multiplayer battles across 140 + levels.",
+    "rating": 4.9,
+    "downloads": "8.1K",
+    "category": "action"
+  },
+  {
+    "id": 185,
+    "name": "Galaxy War",
+    "image": "./icons/185.jpg",
+    "description": "In this 1979 arcade shoot - em - up, guide missiles upwards to destroy horizontally - scrolling alien invaders. Avoid asteroids and enemy projectiles. Later adapted for Super Famicom with different graphical modes.",
+    "rating": 4.8,
+    "downloads": "13.7K",
+    "category": "action"
+  },
+  {
+    "id": 186,
+    "name": "Germ War",
+    "image": "./icons/186.jpg",
+    "description": "Details are scarce. Likely a game where you combat germs, perhaps in a body or a lab setting. It might involve strategies to stop germ spread and mutations.",
+    "rating": 4.9,
+    "downloads": "8.0K",
+    "category": "action"
+  },
+  {
+    "id": 207,
+    "name": "Puppy Blast",
+    "image": "./icons/207.jpg",
+    "description": "Blast puppy - related objects. Use power - ups to clear areas filled with puppy - themed items and progress through levels.",
+    "rating": 4.6,
+    "downloads": "16.2K",
+    "category": "puzzle"
+  },
+  {
+    "id": 241,
+    "name": "Bus_Driving",
+    "image": "./icons/241.jpg",
+    "description": "Drive a bus through various routes. Navigate traffic, pick up passengers, and complete driving missions.",
+    "rating": 4.4,
+    "downloads": "15.1K",
+    "category": "racing"
+  },
+  {
+    "id": 242,
+    "name": "Parking_Fury",
+    "image": "./icons/242.jpg",
+    "description": "Park cars in a challenging environment. Maneuver vehicles into tight parking spaces while avoiding collisions.",
+    "rating": 4.7,
+    "downloads": "12.6K",
+    "category": "racing"
+  },
+  {
+    "id": 245,
+    "name": "Move The Car",
+    "image": "./icons/245.jpg",
+    "description": "Move cars to their designated spots. Rearrange vehicles in a parking lot or garage to make space.",
+    "rating": 4.6,
+    "downloads": "13.7K",
+    "category": "racing"
+  },
+  {
+    "id": 246,
+    "name": "Parking_Ace_3d",
+    "image": "./icons/246.jpg",
+    "description": "Ace parking in a 3D environment. Park vehicles in detailed 3D parking lots with precision.",
+    "rating": 4.2,
+    "downloads": "2.5K",
+    "category": "racing"
+  },
+  {
+    "id": 247,
+    "name": "ParkingOut",
+    "image": "./icons/247.jpg",
+    "description": "Parking cars out of difficult situations. Get cars out of tight spots or crowded areas.",
+    "rating": 4.6,
+    "downloads": "7.3K",
+    "category": "racing"
+  },
+  {
+    "id": 248,
+    "name": "Parking_Slot",
+    "image": "./icons/248.jpg",
+    "description": "Find and park in available parking slots. Navigate a parking area to park your vehicle in the correct spot.",
+    "rating": 4.3,
+    "downloads": "14.4K",
+    "category": "racing"
+  },
+  {
+    "id": 249,
+    "name": "Pocket_Parking",
+    "image": "./icons/249.jpg",
+    "description": "Park in a pocket - sized parking area. Use touch controls to park vehicles in small, challenging spaces.",
+    "rating": 4.0,
+    "downloads": "13.9K",
+    "category": "racing"
+  },
+  {
+    "id": 250,
+    "name": "parkmania",
+    "image": "./icons/250.jpg",
+    "description": "Experience parking mania. Park a variety of vehicles in different, often chaotic, parking scenarios.",
+    "rating": 4.8,
+    "downloads": "8.5K",
+    "category": "racing"
+  },
+  {
+    "id": 263,
+    "name": "Piano Title",
+    "image": "./icons/263.jpg",
+    "description": "Play piano - themed levels. Tap tiles to play melodies and progress through musical challenges.",
+    "rating": 4.7,
+    "downloads": "4.7K",
+    "category": "action"
+  },
+  {
+    "id": 264,
+    "name": "Pinao_Keys",
+    "image": "./icons/264.jpg",
+    "description": "Press piano keys to play music. Use the in - game piano keys to create beautiful tunes.",
+    "rating": 4.1,
+    "downloads": "9.3K",
+    "category": "girl"
+  },
+  {
+    "id": 265,
+    "name": "Music_Surf_Christmas",
+    "image": "./icons/265.jpg",
+    "description": "Surf along to Christmas music. Slide and jump on musical tiles in a Christmas - themed environment.",
+    "rating": 4.9,
+    "downloads": "8.2K",
+    "category": "action"
+  },
+  {
+    "id": 266,
+    "name": "Piano_Music_Tiles",
+    "image": "./icons/266.jpg",
+    "description": "Tap piano - music - themed tiles. Follow the rhythm to play songs by tapping the correct tiles.",
+    "rating": 4.7,
+    "downloads": "7.2K",
+    "category": "action"
+  },
+  {
+    "id": 267,
+    "name": "Perfect_Piano_2",
+    "image": "./icons/267.jpg",
+    "description": "Play the piano perfectly. Use the virtual piano to practice and play a variety of songs.",
+    "rating": 4.2,
+    "downloads": "5.4K",
+    "category": "action"
+  },
+  {
+    "id": 268,
+    "name": "BlobOpera",
+    "image": "./icons/268.jpg",
+    "description": "Create music with blobs. Manipulate blob - like characters to produce unique musical sounds.",
+    "rating": 4.3,
+    "downloads": "10.4K",
+    "category": "puzzle"
+  },
+  {
+    "id": 270,
+    "name": "Piano_Fire",
+    "image": "./icons/270.jpg",
+    "description": "Ignite the stage with your piano - playing talent. Play fast - paced melodies, hit the right notes, and experience the thrill of a high - energy piano - themed game.",
+    "rating": 4.1,
+    "downloads": "1.3K",
+    "category": "puzzle"
+  },
+  {
+    "id": 271,
+    "name": "One_Connect-main",
+    "image": "./icons/271.jpg",
+    "description": "Connect identical tiles with lines in this engaging puzzle game. Navigate through various levels, avoid crossing lines, and complete the connections to progress.",
+    "rating": 5.0,
+    "downloads": "3.5K",
+    "category": "puzzle"
+  },
+  {
+    "id": 272,
+    "name": "king-of-mahjong",
+    "image": "./icons/272.jpg",
+    "description": "Become the king of mahjong! Compete against other players, use strategic tile - matching, and aim for winning hands in this classic tile - based game.",
+    "rating": 4.5,
+    "downloads": "8.0K",
+    "category": "puzzle"
+  },
+  {
+    "id": 273,
+    "name": "Monster-duo",
+    "image": "./icons/273.jpg",
+    "description": "Team up with a monster buddy. Embark on adventures, fight enemies, and use your combined powers to overcome challenges in a fantasy - themed world.",
+    "rating": 4.8,
+    "downloads": "10.9K",
+    "category": "puzzle"
+  },
+  {
+    "id": 274,
+    "name": "onet-paradise",
+    "image": "./icons/274.jpg",
+    "description": "In this paradise - themed onet game, match pairs of tiles to clear the board. Enjoy beautiful visuals and relaxing gameplay as you work through levels.",
+    "rating": 4.3,
+    "downloads": "9.1K",
+    "category": "girl"
+  },
+  {
+    "id": 275,
+    "name": "onet-fruit-classic",
+    "image": "./icons/275.jpg",
+    "description": "Play the classic onet game with a fruit twist. Match fruit - shaped tiles to clear the screen, and test your matching speed and skills.",
+    "rating": 4.6,
+    "downloads": "11.3K",
+    "category": "puzzle"
+  },
+  {
+    "id": 276,
+    "name": "onet-world",
+    "image": "./icons/276.jpg",
+    "description": "Explore the onet world. Match tiles across different maps and scenarios, and unlock new levels and challenges as you go.",
+    "rating": 4.7,
+    "downloads": "3.7K",
+    "category": "puzzle"
+  },
+  {
+    "id": 278,
+    "name": "Christmas_Connect",
+    "image": "./icons/278.jpg",
+    "description": "Get into the Christmas spirit! Connect Christmas - themed items like ornaments and presents. Overcome holiday - themed levels and spread the festive cheer.",
+    "rating": 4.4,
+    "downloads": "3.3K",
+    "category": "puzzle"
+  },
+  {
+    "id": 284,
+    "name": "food-puzzle",
+    "image": "./icons/284.jpg",
+    "description": "Solve food - themed puzzles. Arrange food items, match ingredients, and complete levels in a mouth - watering culinary adventure.",
+    "rating": 4.3,
+    "downloads": "15.9K",
+    "category": "puzzle"
+  },
+  {
+    "id": 285,
+    "name": "fruits-slot-machine",
+    "image": "./icons/285.jpg",
+    "description": "Spin the slot machine with fruit symbols. Try your luck to get winning combinations of fruits and win big in this classic - style slot game.",
+    "rating": 4.9,
+    "downloads": "8.0K",
+    "category": "kids"
+  },
+  {
+    "id": 286,
+    "name": "kids-alphabet",
+    "image": "./icons/286.jpg",
+    "description": "Help kids learn the alphabet in a fun way. Match letters, play letter - related games, and make learning the ABCs an enjoyable experience.",
+    "rating": 4.2,
+    "downloads": "9.6K",
+    "category": "kids"
+  },
+  {
+    "id": 287,
+    "name": "plinko-frenzy",
+    "image": "./icons/287.jpg",
+    "description": "Drop discs down a plinko board. Navigate through the pegs and land in high - scoring areas to win points in this fast - paced arcade game.",
+    "rating": 4.2,
+    "downloads": "1.2K",
+    "category": "puzzle"
+  },
+  {
+    "id": 288,
+    "name": "quiz-star",
+    "image": "./icons/288.jpg",
+    "description": "Test your knowledge in a quiz show. Answer a variety of questions across different topics, and aim to become the quiz star.",
+    "rating": 4.6,
+    "downloads": "4.4K",
+    "category": "puzzle"
+  },
+  {
+    "id": 289,
+    "name": "tetra-blocks",
+    "image": "./icons/289.jpg",
+    "description": "Arrange falling tetra - shaped blocks. Create complete lines to clear them and avoid filling up the board in this addictive block - stacking game.",
+    "rating": 4.1,
+    "downloads": "15.7K",
+    "category": "puzzle"
+  },
+  {
+    "id": 290,
+    "name": "two-dots-remastered",
+    "image": "./icons/290.jpg",
+    "description": "Connect two dots of the same color. Solve puzzles, create chains, and enjoy the remastered version of this popular dot - connecting game.",
+    "rating": 4.4,
+    "downloads": "7.8K",
+    "category": "puzzle"
+  },
+  {
+    "id": 291,
+    "name": "bubble-up-endless",
+    "image": "./icons/291.jpg",
+    "description": "Pop bubbles non - stop in an endless mode. Shoot bubbles, create large combos, and see how high of a score you can achieve in this never - ending bubble - shooting experience.",
+    "rating": 4.1,
+    "downloads": "9.0K",
+    "category": "puzzle"
+  },
+  {
+    "id": 292,
+    "name": "free-birds",
+    "image": "./icons/292.jpg",
+    "description": "Help birds break free. Solve puzzles to release the birds from their cages, and navigate through various levels filled with obstacles.",
+    "rating": 4.2,
+    "downloads": "11.4K",
+    "category": "puzzle"
+  },
+  {
+    "id": 293,
+    "name": "jigsaw-casual",
+    "image": "./icons/293.jpg",
+    "description": "Put together jigsaw puzzles at your own pace. Choose from different pictures, piece them together, and enjoy a relaxing casual gaming experience.",
+    "rating": 4.6,
+    "downloads": "4.1K",
+    "category": "puzzle"
+  },
+  {
+    "id": 294,
+    "name": "kids-spelling",
+    "image": "./icons/294.jpg",
+    "description": "Teach kids spelling through games. Match words with their correct spellings, and have fun while improving spelling skills in a kid - friendly environment.",
+    "rating": 4.2,
+    "downloads": "9.6K",
+    "category": "kids"
+  },
+  {
+    "id": 295,
+    "name": "word-haven",
+    "image": "./icons/295.jpg",
+    "description": "Explore a world of words. Solve word puzzles, find hidden words, and expand your vocabulary in this word - based adventure game.",
+    "rating": 4.4,
+    "downloads": "1.6K",
+    "category": "puzzle"
+  },
+  {
+    "id": 296,
+    "name": "shapes-puzzle",
+    "image": "./icons/296.jpg",
+    "description": "Solve shape - related puzzles. Fit shapes into the right spaces, and complete levels by achieving specific shape - arrangement goals.",
+    "rating": 4.8,
+    "downloads": "11.2K",
+    "category": "puzzle"
+  },
+  {
+    "id": 297,
+    "name": "sport-challenge",
+    "image": "./icons/297.jpg",
+    "description": "Take on various sports challenges. Compete in different sports events, test your athletic skills, and strive for victory in this sports - themed game.",
+    "rating": 4.8,
+    "downloads": "10.9K",
+    "category": "puzzle"
+  },
+  {
+    "id": 298,
+    "name": "word-clues",
+    "image": "./icons/298.jpg",
+    "description": "Find words using clues. Solve word puzzles, think logically, and discover the right words based on the given hints in this engaging word game.",
+    "rating": 4.6,
+    "downloads": "5.4K",
+    "category": "puzzle"
+  },
+  {
+    "id": 299,
+    "name": "2048-remastered",
+    "image": "./icons/299.jpg",
+    "description": "Combine tiles with the same numbers to reach 2048. Slide the tiles around the board, strategize your moves, and experience the remastered version of this classic number - combining game.",
+    "rating": 4.8,
+    "downloads": "4.7K",
+    "category": "puzzle"
+  },
+  {
+    "id": 300,
+    "name": "kids-coloring",
+    "image": "./icons/300.jpg",
+    "description": "Let kids unleash their creativity. Color in various pictures, choose different colors, and have a blast in this kid - friendly coloring game.",
+    "rating": 4.5,
+    "downloads": "6.2K",
+    "category": "kids"
+  },
+  {
+    "id": 301,
+    "name": "stacky-clown",
+    "image": "./icons/301.jpg",
+    "description": "Stack objects with a clown. Keep the stack stable, avoid it from falling, and complete levels by reaching certain stacking heights in this wacky game.",
+    "rating": 4.9,
+    "downloads": "2.5K",
+    "category": "puzzle"
+  },
+  {
+    "id": 302,
+    "name": "memory-match",
+    "image": "./icons/302.jpg",
+    "description": "Test your memory. Flip over cards to find matching pairs. Remember the card positions and complete the levels as quickly as possible.",
+    "rating": 4.2,
+    "downloads": "8.0K",
+    "category": "puzzle"
+  },
+  {
+    "id": 303,
+    "name": "parking-way",
+    "image": "./icons/303.jpg",
+    "description": "Find the right way to park cars. Navigate through parking lots, avoid obstacles, and park the cars in the designated spots in this parking - themed game.",
+    "rating": 4.2,
+    "downloads": "4.2K",
+    "category": "puzzle"
+  },
+  {
+    "id": 304,
+    "name": "world-cup-fever",
+    "image": "./icons/304.jpg",
+    "description": "Catch the world - cup fever! Participate in football matches, control your team, and aim for victory in this exciting world - cup - themed game.",
+    "rating": 4.5,
+    "downloads": "6.6K",
+    "category": "puzzle"
+  },
+  {
+    "id": 308,
+    "name": "blastify2",
+    "image": "./icons/308.jpg",
+    "description": "Blast your way through levels. Use explosive power - ups, clear obstacles, and complete the second installment of this action - packed blasting game.",
+    "rating": 4.8,
+    "downloads": "1.3K",
+    "category": "puzzle"
+  },
+  {
+    "id": 309,
+    "name": "pixel-match",
+    "image": "./icons/309.jpg",
+    "description": "Match pixel - art elements. Solve pixel - based puzzles, find matching pixel patterns, and enjoy the retro - style pixel - matching gameplay.",
+    "rating": 4.1,
+    "downloads": "6.8K",
+    "category": "puzzle"
+  },
+  {
+    "id": 310,
+    "name": "dd-bottle-flip",
+    "image": "./icons/310.jpg",
+    "description": "Flip bottles and land them successfully. Adjust the force and angle, and complete levels by landing the bottles in the right places in this bottle - flipping game.",
+    "rating": 4.5,
+    "downloads": "6.8K",
+    "category": "puzzle"
+  },
+  {
+    "id": 311,
+    "name": "Blumgi_ball",
+    "image": "./icons/311.jpg",
+    "description": "Control a ball through challenging courses. Navigate ramps, loops, and obstacles, and reach the finish line in this fast - paced ball - rolling game.",
+    "rating": 4.3,
+    "downloads": "8.2K",
+    "category": "action"
+  },
+  {
+    "id": 312,
+    "name": "Basketball_Crazy",
+    "image": "./icons/312.jpg",
+    "description": "Get crazy about basketball! Shoot hoops, perform dunks, and compete in exciting basketball games with wild and unpredictable gameplay.",
+    "rating": 4.2,
+    "downloads": "13.2K",
+    "category": "sports"
+  },
+  {
+    "id": 313,
+    "name": "Basketball_REAL",
+    "image": "./icons/313.jpg",
+    "description": "Experience real - life basketball. Control players, make strategic moves, and play intense matches in this realistic basketball simulation game.",
+    "rating": 4.2,
+    "downloads": "12.2K",
+    "category": "sports"
+  },
+  {
+    "id": 314,
+    "name": "basketball-legends-2020",
+    "image": "./icons/314.jpg",
+    "description": "Play with basketball legends from 2020. Team up with iconic players, showcase your skills, and compete in high - profile basketball tournaments.",
+    "rating": 4.3,
+    "downloads": "5.6K",
+    "category": "sports"
+  },
+  {
+    "id": 315,
+    "name": "La_Football",
+    "image": "./icons/315.jpg",
+    "description": "Dive into the world of football. Manage your team, train players, and compete in leagues to become the football champion in this engaging game.",
+    "rating": 4.2,
+    "downloads": "1.8K",
+    "category": "sports"
+  },
+  {
+    "id": 316,
+    "name": "FootballKick3D",
+    "image": "./icons/316.jpg",
+    "description": "Kick footballs in a 3D environment. Aim for the goal, adjust your kick power and angle, and score goals in this realistic 3D football - kicking game.",
+    "rating": 4.1,
+    "downloads": "8.3K",
+    "category": "sports"
+  },
+  {
+    "id": 317,
+    "name": "Freekick_Football_3D",
+    "image": "./icons/317.jpg",
+    "description": "Take free - kicks in 3D football. Strategize your shots, bend the ball around walls, and score goals in this exciting free - kick - focused football game.",
+    "rating": 4.5,
+    "downloads": "14.2K",
+    "category": "sports"
+  },
+  {
+    "id": 318,
+    "name": "tooncup",
+    "image": "./icons/318.jpg",
+    "description": "Join the toon - themed football cup. Control cute toon characters, play in colorful stadiums, and win the cup in this fun - filled football game.",
+    "rating": 4.4,
+    "downloads": "1.6K",
+    "category": "action"
+  },
+  {
+    "id": 319,
+    "name": "scooer_hero",
+    "image": "./icons/319.jpg",
+    "description": "Become a scooter hero. Ride your scooter through the city, perform tricks, and complete missions in this action - packed scooter - riding game.",
+    "rating": 4.6,
+    "downloads": "14.9K",
+    "category": "sports"
+  },
+  {
+    "id": 320,
+    "name": "basket-swooshes",
+    "image": "./icons/320.jpg",
+    "description": "Make the perfect basketball shots. Aim for the net, hear the swooshes, and score points in this simple yet addictive basketball - shooting game.",
+    "rating": 4.7,
+    "downloads": "14.2K",
+    "category": "sports"
+  },
+  {
+    "id": 321,
+    "name": "subway_surfers_rio",
+    "image": "./icons/321.jpg",
+    "description": "Surf through the streets of Rio. Run from the cops, dodge obstacles, and collect coins in this subway - surfing adventure set in the vibrant city of Rio.",
+    "rating": 4.5,
+    "downloads": "1.5K",
+    "category": "action"
+  },
+  {
+    "id": 322,
+    "name": "SubwaySurfers_vegas",
+    "image": "./icons/322.jpg",
+    "description": "Experience subway surfing in Vegas. Race through the neon - lit streets, perform stunts, and enjoy the glitz and glamour in this Vegas - themed game.",
+    "rating": 4.9,
+    "downloads": "3.5K",
+    "category": "action"
+  },
+  {
+    "id": 323,
+    "name": "Subway_Surfer_Hongkong",
+    "image": "./icons/323.jpg",
+    "description": "Surf the subways of Hong Kong. Navigate through the busy streets, avoid trains, and collect rewards in this Hong - Kong - inspired subway - surfing game.",
+    "rating": 4.8,
+    "downloads": "3.5K",
+    "category": "action"
+  },
+  {
+    "id": 324,
+    "name": "Subway_Surfer_IceIsland",
+    "image": "./icons/324.jpg",
+    "description": "Surf on an ice - covered island. Slide on ice, face cold - weather obstacles, and have a unique subway - surfing experience in this icy game.",
+    "rating": 4.9,
+    "downloads": "4.1K",
+    "category": "action"
+  },
+  {
+    "id": 325,
+    "name": "Subway_Surfer_Marrakesh",
+    "image": "./icons/325.jpg",
+    "description": "Explore Marrakesh while subway surfing. Discover the city's architecture, dodge local obstacles, and collect treasures in this Marrakesh - themed game.",
+    "rating": 4.6,
+    "downloads": "5.4K",
+    "category": "action"
+  },
+  {
+    "id": 326,
+    "name": "subway-surfers-venice",
+    "image": "./icons/326.jpg",
+    "description": "Surf through the canals of Venice. Glide on waterways, avoid gondolas, and have a unique subway - surfing experience in this Venetian - inspired game.",
+    "rating": 4.0,
+    "downloads": "8.3K",
+    "category": "action"
+  },
+  {
+    "id": 327,
+    "name": "subway-surfers_san-francisco",
+    "image": "./icons/327.jpg",
+    "description": "Surf the subways of San Francisco. Navigate the hilly streets, pass by landmarks, and collect coins in this San - Francisco - themed game.",
+    "rating": 4.7,
+    "downloads": "3.3K",
+    "category": "action"
+  },
+  {
+    "id": 328,
+    "name": "subway-surfers-tokyo",
+    "image": "./icons/328.jpg",
+    "description": "Surf through the streets of Tokyo. Dash through the busy metropolis, avoid trains, and collect items in this Tokyo - themed subway - surfing game.",
+    "rating": 4.4,
+    "downloads": "15.7K",
+    "category": "action"
+  },
+  {
+    "id": 329,
+    "name": "subway-surfers-winter-holiday",
+    "image": "./icons/329.jpg",
+    "description": "Have a winter - holiday subway - surfing experience. Run in the snow, collect winter - themed items, and enjoy the festive atmosphere in this game.",
+    "rating": 4.5,
+    "downloads": "7.3K",
+    "category": "action"
+  },
+  {
+    "id": 330,
+    "name": "Subway-Surfers-Zurich",
+    "image": "./icons/330.jpg",
+    "description": "Surf the subways of Zurich. Explore the city's beautiful scenery, dodge obstacles, and collect coins in this Zurich - themed subway - surfing game.",
+    "rating": 4.4,
+    "downloads": "10.2K",
+    "category": "action"
+  },
+  {
+    "id": 331,
+    "name": "motox3m4",
+    "image": "./icons/331.jpg",
+    "description": "Ride a motocross bike in the fourth installment. Conquer challenging tracks, perform stunts, and race against the clock in this extreme motocross game.",
+    "rating": 4.3,
+    "downloads": "11.6K",
+    "category": "action"
+  },
+  {
+    "id": 332,
+    "name": "motox3m5",
+    "image": "./icons/332.jpg",
+    "description": "Take on more difficult motocross challenges in the fifth part. Navigate complex tracks, avoid hazards, and aim for the best times in this high - octane game.",
+    "rating": 4.6,
+    "downloads": "9.5K",
+    "category": "action"
+  },
+  {
+    "id": 333,
+    "name": "motox3m6",
+    "image": "./icons/333.jpg",
+    "description": "Face the toughest motocross tracks in the sixth version. Use your skills to ride over jumps, through loops, and win races in this intense motocross adventure.",
+    "rating": 4.9,
+    "downloads": "12.8K",
+    "category": "action"
+  },
+  {
+    "id": 334,
+    "name": "motox3m3",
+    "image": "./icons/334.jpg",
+    "description": "Race on motocross tracks in the third game. Master the controls, perform tricks, and compete for high scores in this exciting motocross racing game.",
+    "rating": 4.2,
+    "downloads": "7.1K",
+    "category": "action"
+  },
+  {
+    "id": 335,
+    "name": "motox3m1",
+    "image": "./icons/335.jpg",
+    "description": "Start your motocross journey in the first game. Learn to ride on various tracks, overcome obstacles, and improve your skills in this entry - level motocross game.",
+    "rating": 4.5,
+    "downloads": "9.8K",
+    "category": "action"
+  },
+  {
+    "id": 336,
+    "name": "motox3m2",
+    "image": "./icons/336.jpg",
+    "description": "Progress in your motocross career in the second game. Take on more challenging tracks, perform better stunts, and aim for victory in this motocross sequel.",
+    "rating": 4.6,
+    "downloads": "15.9K",
+    "category": "action"
+  },
+  {
+    "id": 13,
+    "name": "Papa Cherry Saga",
+    "image": "./icons/13.jpg",
+    "description": "Match colorful candies and complete sweet challenges in this fun, match-3 puzzle game.",
+    "rating": 4.2,
+    "downloads": "12.2K",
+    "category": "girl"
+  },
+  {
+    "id": 120,
+    "name": "1010 Color Match",
+    "image": "./icons/120.jpg",
+    "description": "Match colors and shapes in this addictive puzzle game.",
+    "rating": 4.0,
+    "downloads": "11.4K",
+    "category": "girl"
+  },
+  {
+    "id": 124,
+    "name": "Ball Sort Puzzle",
+    "image": "./icons/124.jpg",
+    "description": "Sort colored balls into tubes in this relaxing and satisfying puzzle game.",
+    "rating": 4.2,
+    "downloads": "13.3K",
+    "category": "girl"
+  },
+  {
+    "id": 127,
+    "name": "Fruita Crush",
+    "image": "./icons/127.jpg",
+    "description": "Match fruits to crush them in this colorful and fun puzzle game.",
+    "rating": 4.5,
+    "downloads": "9.7K",
+    "category": "girl"
+  },
+  {
+    "id": 95,
+    "name": "Bod The Robber 2",
+    "image": "./icons/95.jpg",
+    "description": "Help Bod steal treasures while avoiding traps and guards in this stealth game.",
+    "rating": 4.2,
+    "downloads": "8.0K",
+    "category": "adventure"
+  },
+  {
+    "id": 97,
+    "name": "Bomb It 7",
+    "image": "./icons/97.jpg",
+    "description": "Continue the bomb-throwing fun with new levels and challenges.",
+    "rating": 4.4,
+    "downloads": "9.7K",
+    "category": "adventure"
+  },
+  {
+    "id": 98,
+    "name": "Fireboy & Watergirl 2",
+    "image": "./icons/98.jpg",
+    "description": "Solve puzzles and navigate levels using both characters' unique abilities.",
+    "rating": 4.7,
+    "downloads": "3.4K",
+    "category": "adventure"
+  },
+  {
+    "id": 99,
+    "name": "Fireboy & Watergirl 3",
+    "image": "./icons/99.jpg",
+    "description": "Team up to solve puzzles in this cooperative adventure game.",
+    "rating": 4.7,
+    "downloads": "2.8K",
+    "category": "adventure"
+  },
+  {
+    "id": 100,
+    "name": "Fireboy & Watergirl 4",
+    "image": "./icons/100.jpg",
+    "description": "Cooperate with Fireboy and Watergirl to solve puzzles in this exciting adventure.",
+    "rating": 4.4,
+    "downloads": "15.6K",
+    "category": "adventure"
+  },
+  {
+    "id": 101,
+    "name": "Fireboy & Watergirl 5",
+    "image": "./icons/101.jpg",
+    "description": "Team up to navigate new challenges and overcome obstacles together.",
+    "rating": 4.4,
+    "downloads": "3.1K",
+    "category": "adventure"
+  },
+  {
+    "id": 102,
+    "name": "Fireboy & Watergirl 6",
+    "image": "./icons/102.jpg",
+    "description": "Explore new worlds and solve intricate puzzles with both characters.",
+    "rating": 4.2,
+    "downloads": "14.3K",
+    "category": "adventure"
+  },
+  {
+    "id": 103,
+    "name": "Fireboy & Watergirl",
+    "image": "./icons/103.jpg",
+    "description": "Guide Fireboy and Watergirl through challenging levels using their unique abilities.",
+    "rating": 4.4,
+    "downloads": "13.9K",
+    "category": "adventure"
+  },
+  {
+    "id": 104,
+    "name": "OvO",
+    "image": "./icons/104.jpg",
+    "description": "Jump and dash through levels filled with obstacles in this fast-paced platformer.",
+    "rating": 4.2,
+    "downloads": "14.8K",
+    "category": "adventure"
+  },
+  {
+    "id": 107,
+    "name": "Stickman Hook",
+    "image": "./icons/107.jpg",
+    "description": "Swing through levels using a hook and avoid obstacles in this addictive game.",
+    "rating": 4.9,
+    "downloads": "11.5K",
+    "category": "adventure"
+  },
+  {
+    "id": 132,
+    "name": "Save The Doge",
+    "image": "./icons/132.jpg",
+    "description": "Protect Doge from obstacles and collect coins in this fun adventure.",
+    "rating": 5.0,
+    "downloads": "6.0K",
+    "category": "kids"
+  },
+  {
+    "id": 133,
+    "name": "Snail Bob 2",
+    "image": "./icons/133.jpg",
+    "description": "Guide Snail Bob through clever puzzles and challenges in this charming game.",
+    "rating": 5.0,
+    "downloads": "8.5K",
+    "category": "kids"
+  },
+  {
+    "id": 134,
+    "name": "Snail Bob 3",
+    "image": "./icons/134.jpg",
+    "description": "Help Snail Bob on his new adventure filled with puzzles and fun.",
+    "rating": 4.5,
+    "downloads": "2.1K",
+    "category": "kids"
+  },
+  {
+    "id": 135,
+    "name": "Snail Bob 4",
+    "image": "./icons/135.jpg",
+    "description": "Help Snail Bob navigate through tricky puzzles and obstacles in this fun adventure.",
+    "rating": 4.5,
+    "downloads": "11.7K",
+    "category": "kids"
+  }
+]
