@@ -1,0 +1,32 @@
+{
+	"type": "View",
+	"props": {
+		"width": 750,
+		"mouseThrough": false,
+		"mouseEnabled": true,
+		"height": 1334
+	},
+	"compId": 2,
+	"child": [
+		{
+			"type": "Image",
+			"props": {
+				"visible": true,
+				"var": "pngBg",
+				"top": 0,
+				"skin": "images/grid/maskGray.png",
+				"sizeGrid": "2,3,4,3",
+				"right": 0,
+				"mouseThrough": false,
+				"left": 0,
+				"bottom": 0,
+				"alpha": 0.7
+			},
+			"compId": 238
+		}
+	],
+	"loadList": [
+		"images/grid/maskGray.png"
+	],
+	"loadList3D": []
+}

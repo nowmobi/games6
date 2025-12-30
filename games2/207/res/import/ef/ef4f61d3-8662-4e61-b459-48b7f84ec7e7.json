@@ -1,0 +1,634 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "dynamic_def",
+  "json": {
+    "streak": {
+      "1": {
+        "id": 1,
+        "winOrLost": -1,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 0,
+        "cube": 0,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "2": {
+        "id": 2,
+        "winOrLost": -2,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 0,
+        "cube": 0,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "3": {
+        "id": 3,
+        "winOrLost": -3,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 3,
+        "cube": 0,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "4": {
+        "id": 4,
+        "winOrLost": -5,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 4,
+        "cube": 0,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "5": {
+        "id": 5,
+        "winOrLost": -7,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 6,
+        "cube": 0,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "6": {
+        "id": 6,
+        "winOrLost": -12,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 8,
+        "cube": 0,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "7": {
+        "id": 7,
+        "winOrLost": -16,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 10,
+        "cube": 0,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "8": {
+        "id": 8,
+        "winOrLost": -24,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 12,
+        "cube": 0,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "9": {
+        "id": 9,
+        "winOrLost": -32,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 14,
+        "cube": 5,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "10": {
+        "id": 10,
+        "winOrLost": -40,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 16,
+        "cube": 10,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "11": {
+        "id": 11,
+        "winOrLost": -48,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 18,
+        "cube": 20,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "12": {
+        "id": 12,
+        "winOrLost": -64,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 20,
+        "cube": 40,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "13": {
+        "id": 13,
+        "winOrLost": 5,
+        "openlevel": 50,
+        "closelevel": -1,
+        "steps": 0,
+        "cube": 0,
+        "barrier": 2,
+        "nobarrier1": 2,
+        "nobarrier2": 2,
+        "nobarrier3": 1
+      },
+      "14": {
+        "id": 14,
+        "winOrLost": 9,
+        "openlevel": 50,
+        "closelevel": -1,
+        "steps": 0,
+        "cube": 0,
+        "barrier": 3,
+        "nobarrier1": 3,
+        "nobarrier2": 3,
+        "nobarrier3": 2
+      },
+      "15": {
+        "id": 15,
+        "winOrLost": 12,
+        "openlevel": 50,
+        "closelevel": -1,
+        "steps": 0,
+        "cube": 0,
+        "barrier": 5,
+        "nobarrier1": 5,
+        "nobarrier2": 5,
+        "nobarrier3": 4
+      },
+      "16": {
+        "id": 16,
+        "winOrLost": 18,
+        "openlevel": 50,
+        "closelevel": -1,
+        "steps": 0,
+        "cube": 0,
+        "barrier": 8,
+        "nobarrier1": 8,
+        "nobarrier2": 8,
+        "nobarrier3": 7
+      },
+      "17": {
+        "id": 17,
+        "winOrLost": 24,
+        "openlevel": 50,
+        "closelevel": -1,
+        "steps": 0,
+        "cube": 0,
+        "barrier": 12,
+        "nobarrier1": 12,
+        "nobarrier2": 12,
+        "nobarrier3": 10
+      },
+      "18": {
+        "id": 18,
+        "winOrLost": 30,
+        "openlevel": 50,
+        "closelevel": -1,
+        "steps": 0,
+        "cube": 0,
+        "barrier": 20,
+        "nobarrier1": 20,
+        "nobarrier2": 20,
+        "nobarrier3": 15
+      }
+    },
+    "nobarrier": {
+      "1": {
+        "id": 1,
+        "key": 1,
+        "tileid": 35,
+        "level": 30
+      },
+      "2": {
+        "id": 2,
+        "key": 2,
+        "tileid": 9,
+        "level": 45
+      },
+      "3": {
+        "id": 3,
+        "key": 2,
+        "tileid": 10,
+        "level": 45
+      },
+      "4": {
+        "id": 4,
+        "key": 2,
+        "tileid": 11,
+        "level": 45
+      },
+      "5": {
+        "id": 5,
+        "key": 2,
+        "tileid": 12,
+        "level": 45
+      },
+      "6": {
+        "id": 6,
+        "key": 2,
+        "tileid": 13,
+        "level": 45
+      },
+      "7": {
+        "id": 7,
+        "key": 2,
+        "tileid": 19,
+        "level": 45
+      },
+      "8": {
+        "id": 8,
+        "key": 3,
+        "tileid": 16,
+        "level": 85
+      }
+    },
+    "streak_qqplay": {
+      "1": {
+        "id": 1,
+        "winOrLost": -2,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 0,
+        "cube": 0,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "2": {
+        "id": 2,
+        "winOrLost": -3,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 0,
+        "cube": 0,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "3": {
+        "id": 3,
+        "winOrLost": -5,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 3,
+        "cube": 0,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "4": {
+        "id": 4,
+        "winOrLost": -7,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 4,
+        "cube": 0,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "5": {
+        "id": 5,
+        "winOrLost": -12,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 6,
+        "cube": 0,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "6": {
+        "id": 6,
+        "winOrLost": -17,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 8,
+        "cube": 0,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "7": {
+        "id": 7,
+        "winOrLost": -25,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 10,
+        "cube": 0,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "8": {
+        "id": 8,
+        "winOrLost": -35,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 12,
+        "cube": 0,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "9": {
+        "id": 9,
+        "winOrLost": -45,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 14,
+        "cube": 5,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "10": {
+        "id": 10,
+        "winOrLost": -55,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 16,
+        "cube": 10,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "11": {
+        "id": 11,
+        "winOrLost": -65,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 18,
+        "cube": 20,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "12": {
+        "id": 12,
+        "winOrLost": -81,
+        "openlevel": 0,
+        "closelevel": 200,
+        "steps": 20,
+        "cube": 40,
+        "barrier": 0,
+        "nobarrier1": 0,
+        "nobarrier2": 0,
+        "nobarrier3": 0
+      },
+      "13": {
+        "id": 13,
+        "winOrLost": 5,
+        "openlevel": 33,
+        "closelevel": -1,
+        "steps": 0,
+        "cube": 0,
+        "barrier": 3,
+        "nobarrier1": 3,
+        "nobarrier2": 3,
+        "nobarrier3": 2
+      },
+      "14": {
+        "id": 14,
+        "winOrLost": 9,
+        "openlevel": 33,
+        "closelevel": -1,
+        "steps": 0,
+        "cube": 0,
+        "barrier": 4,
+        "nobarrier1": 4,
+        "nobarrier2": 4,
+        "nobarrier3": 3
+      },
+      "15": {
+        "id": 15,
+        "winOrLost": 12,
+        "openlevel": 33,
+        "closelevel": -1,
+        "steps": 0,
+        "cube": 0,
+        "barrier": 6,
+        "nobarrier1": 6,
+        "nobarrier2": 6,
+        "nobarrier3": 5
+      },
+      "16": {
+        "id": 16,
+        "winOrLost": 18,
+        "openlevel": 33,
+        "closelevel": -1,
+        "steps": 0,
+        "cube": 0,
+        "barrier": 9,
+        "nobarrier1": 9,
+        "nobarrier2": 9,
+        "nobarrier3": 8
+      },
+      "17": {
+        "id": 17,
+        "winOrLost": 24,
+        "openlevel": 33,
+        "closelevel": -1,
+        "steps": 0,
+        "cube": 0,
+        "barrier": 13,
+        "nobarrier1": 13,
+        "nobarrier2": 13,
+        "nobarrier3": 11
+      },
+      "18": {
+        "id": 18,
+        "winOrLost": 30,
+        "openlevel": 33,
+        "closelevel": -1,
+        "steps": 0,
+        "cube": 0,
+        "barrier": 21,
+        "nobarrier1": 21,
+        "nobarrier2": 21,
+        "nobarrier3": 16
+      }
+    },
+    "preItems": {
+      "16": {
+        "id": 16,
+        "mapList": {
+          "-1.0": {
+            "id": -1,
+            "itemCount": 3,
+            "itemsId": "9,10,11"
+          },
+          "-2.0": {
+            "id": -2,
+            "itemCount": 4,
+            "itemsId": "9,10,11"
+          },
+          "-3.0": {
+            "id": -3,
+            "itemCount": 5,
+            "itemsId": "9,10,11"
+          }
+        }
+      },
+      "23": {
+        "id": 23,
+        "mapList": {
+          "-1.0": {
+            "id": -1,
+            "itemCount": 3,
+            "itemsId": "9,10,11"
+          },
+          "-2.0": {
+            "id": -2,
+            "itemCount": 4,
+            "itemsId": "9,10,11"
+          },
+          "-3.0": {
+            "id": -3,
+            "itemCount": 5,
+            "itemsId": "9,10,11"
+          }
+        }
+      },
+      "29": {
+        "id": 29,
+        "mapList": {
+          "-1.0": {
+            "id": -1,
+            "itemCount": 2,
+            "itemsId": "9,10,11"
+          },
+          "-2.0": {
+            "id": -2,
+            "itemCount": 3,
+            "itemsId": "9,10,11"
+          },
+          "-3.0": {
+            "id": -3,
+            "itemCount": 4,
+            "itemsId": "9,10,11"
+          }
+        }
+      },
+      "36": {
+        "id": 36,
+        "mapList": {
+          "-1.0": {
+            "id": -1,
+            "itemCount": 2,
+            "itemsId": "9,10,11"
+          },
+          "-2.0": {
+            "id": -2,
+            "itemCount": 3,
+            "itemsId": "9,10,11"
+          },
+          "-3.0": {
+            "id": -3,
+            "itemCount": 4,
+            "itemsId": "9,10,11"
+          }
+        }
+      },
+      "44": {
+        "id": 44,
+        "mapList": {
+          "-1.0": {
+            "id": -1,
+            "itemCount": 2,
+            "itemsId": "9,10,11"
+          },
+          "-2.0": {
+            "id": -2,
+            "itemCount": 3,
+            "itemsId": "9,10,11"
+          },
+          "-3.0": {
+            "id": -3,
+            "itemCount": 4,
+            "itemsId": "9,10,11"
+          }
+        }
+      },
+      "50": {
+        "id": 50,
+        "mapList": {
+          "-1.0": {
+            "id": -1,
+            "itemCount": 2,
+            "itemsId": "9,10,11"
+          },
+          "-2.0": {
+            "id": -2,
+            "itemCount": 3,
+            "itemsId": "9,10,11"
+          },
+          "-3.0": {
+            "id": -3,
+            "itemCount": 4,
+            "itemsId": "9,10,11"
+          }
+        }
+      },
+      "60": {
+        "id": 60,
+        "mapList": {
+          "-2.0": {
+            "id": -2,
+            "itemCount": 2,
+            "itemsId": "9,10,11"
+          },
+          "-3.0": {
+            "id": -3,
+            "itemCount": 3,
+            "itemsId": "9,10,11"
+          },
+          "-4.0": {
+            "id": -4,
+            "itemCount": 4,
+            "itemsId": "9,10,11"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+	"type": "View",
+	"props": {
+		"width": 96,
+		"height": 92
+	},
+	"compId": 2,
+	"child": [
+		{
+			"type": "Image",
+			"props": {
+				"y": 43,
+				"x": 48,
+				"width": 84,
+				"var": "btnSolider",
+				"skin": "images/man/icon_head_bg1.png",
+				"rotation": 0,
+				"height": 86,
+				"anchorY": 0.5,
+				"anchorX": 0.5
+			},
+			"compId": 22,
+			"child": [
+				{
+					"type": "Image",
+					"props": {
+						"y": 39,
+						"x": 42,
+						"width": 76,
+						"var": "imgIcon",
+						"skin": "images/man/soliderA8_1.png",
+						"rotation": 90,
+						"height": 76,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 9
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 3,
+						"x": 4,
+						"width": 76,
+						"var": "imgColdBg",
+						"skin": "images/man/icon_sb_djs_zz.png",
+						"rotation": 0,
+						"height": 76
+					},
+					"compId": 41,
+					"child": [
+						{
+							"type": "Image",
+							"props": {
+								"y": 38,
+								"x": 38,
+								"width": 50,
+								"var": "imgCold",
+								"skin": "images/man/icon_sb_djs_jdt2.png",
+								"rotation": 0,
+								"height": 50,
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 39
+						},
+						{
+							"type": "Image",
+							"props": {
+								"y": 28,
+								"x": 29,
+								"var": "imgPause",
+								"skin": "images/man/secPause.png"
+							},
+							"compId": 45
+						}
+					]
+				},
+				{
+					"type": "Box",
+					"props": {
+						"y": 31,
+						"x": 2,
+						"width": 80,
+						"var": "boxCold",
+						"height": 24
+					},
+					"compId": 40
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 62,
+						"x": -1,
+						"width": 86,
+						"var": "imgCostBg",
+						"skin": "images/man/icon_sb_zjjgbg.png",
+						"sizeGrid": "0,19,0,32"
+					},
+					"compId": 30,
+					"child": [
+						{
+							"type": "Image",
+							"props": {
+								"y": -66,
+								"x": -2,
+								"var": "iconJob",
+								"skin": "images/man/icon_job_1.png"
+							},
+							"compId": 44
+						},
+						{
+							"type": "Image",
+							"props": {
+								"y": -24,
+								"x": 67,
+								"var": "iconHelp",
+								"skin": "images/man/icon_sb_zl.png"
+							},
+							"compId": 43
+						},
+						{
+							"type": "Label",
+							"props": {
+								"y": 5,
+								"x": 25,
+								"width": 54,
+								"var": "labCost",
+								"text": "消耗",
+								"fontSize": 20,
+								"color": "#ad5510",
+								"bold": true,
+								"align": "center"
+							},
+							"compId": 38
+						}
+					]
+				}
+			]
+		}
+	],
+	"loadList": [
+		"images/man/icon_head_bg1.png",
+		"images/man/soliderA8_1.png",
+		"images/man/icon_sb_djs_zz.png",
+		"images/man/icon_sb_djs_jdt2.png",
+		"images/man/secPause.png",
+		"images/man/icon_sb_zjjgbg.png",
+		"images/man/icon_job_1.png",
+		"images/man/icon_sb_zl.png"
+	],
+	"loadList3D": []
+}

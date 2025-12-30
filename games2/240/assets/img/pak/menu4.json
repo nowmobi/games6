@@ -1,0 +1,253 @@
+{
+  "frames": {
+    "ziara1": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 1143,
+        "h": 1143
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1143,
+        "h": 1143
+      },
+      "sourceSize": {
+        "w": 1143,
+        "h": 1143
+      }
+    },
+    "claim-tabulka": {
+      "frame": {
+        "x": 2,
+        "y": 1147,
+        "w": 475,
+        "h": 513
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 475,
+        "h": 513
+      },
+      "sourceSize": {
+        "w": 475,
+        "h": 513
+      }
+    },
+    "bs_spectrum": {
+      "frame": {
+        "x": 2,
+        "y": 1662,
+        "w": 118,
+        "h": 144
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 118,
+        "h": 144
+      },
+      "sourceSize": {
+        "w": 118,
+        "h": 144
+      }
+    },
+    "bs_saw": {
+      "frame": {
+        "x": 2,
+        "y": 1808,
+        "w": 132,
+        "h": 143
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 132,
+        "h": 143
+      },
+      "sourceSize": {
+        "w": 132,
+        "h": 143
+      }
+    },
+    "bs_wand": {
+      "frame": {
+        "x": 122,
+        "y": 1662,
+        "w": 92,
+        "h": 140
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 92,
+        "h": 140
+      },
+      "sourceSize": {
+        "w": 92,
+        "h": 140
+      }
+    },
+    "bs_spray": {
+      "frame": {
+        "x": 136,
+        "y": 1804,
+        "w": 81,
+        "h": 138
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 81,
+        "h": 138
+      },
+      "sourceSize": {
+        "w": 81,
+        "h": 138
+      }
+    },
+    "bs_hammer": {
+      "frame": {
+        "x": 216,
+        "y": 1662,
+        "w": 108,
+        "h": 130
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 108,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 108,
+        "h": 130
+      }
+    },
+    "bs_tnt": {
+      "frame": {
+        "x": 219,
+        "y": 1794,
+        "w": 95,
+        "h": 121
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 95,
+        "h": 121
+      },
+      "sourceSize": {
+        "w": 95,
+        "h": 121
+      }
+    },
+    "ziara2": {
+      "frame": {
+        "x": 2,
+        "y": 1953,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      "sourceSize": {
+        "w": 50,
+        "h": 50
+      }
+    },
+    "ziara3": {
+      "frame": {
+        "x": 2,
+        "y": 2005,
+        "w": 32,
+        "h": 32
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 32,
+        "h": 32
+      }
+    },
+    "5px_empty": {
+      "frame": {
+        "x": 2,
+        "y": 2039,
+        "w": 5,
+        "h": 5
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "5px_white": {
+      "frame": {
+        "x": 9,
+        "y": 2039,
+        "w": 5,
+        "h": 5
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    }
+  },
+  "meta": {
+    "image": "../../assets/img/pak/menu4.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 2048
+    },
+    "scale": 1
+  }
+}

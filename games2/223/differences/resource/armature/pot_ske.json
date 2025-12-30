@@ -1,0 +1,484 @@
+{
+  "frameRate": 24,
+  "name": "pot",
+  "version": "5.5",
+  "compatibleVersion": "5.5",
+  "armature": [
+    {
+      "type": "Armature",
+      "frameRate": 24,
+      "name": "pot",
+      "aabb": {
+        "x": -160.5,
+        "y": -111.5,
+        "width": 321,
+        "height": 223
+      },
+      "bone": [
+        {
+          "name": "root"
+        },
+        {
+          "length": 50,
+          "name": "bone",
+          "parent": "root",
+          "transform": {
+            "skX": -90,
+            "skY": -90
+          }
+        },
+        {
+          "length": 50,
+          "name": "bone1",
+          "parent": "root",
+          "transform": {
+            "x": 44,
+            "y": -50,
+            "skX": -90,
+            "skY": -90
+          }
+        },
+        {
+          "length": 50,
+          "name": "bone11",
+          "parent": "root",
+          "transform": {
+            "x": -19.15,
+            "y": -86.2,
+            "skX": 180,
+            "skY": 180
+          }
+        },
+        {
+          "length": 50,
+          "name": "bone12",
+          "parent": "root",
+          "transform": {
+            "x": -44,
+            "y": -55,
+            "skX": -138.7734,
+            "skY": -138.7734
+          }
+        },
+        {
+          "length": 50,
+          "name": "bone121",
+          "parent": "root",
+          "transform": {
+            "x": 22,
+            "y": -75,
+            "skX": 39.0163,
+            "skY": 39.0163
+          }
+        }
+      ],
+      "slot": [
+        {
+          "name": "矩形 1",
+          "parent": "bone1"
+        },
+        {
+          "name": "矩形 11",
+          "parent": "bone11"
+        },
+        {
+          "name": "矩形 12",
+          "parent": "bone12"
+        },
+        {
+          "name": "矩形 13",
+          "parent": "bone121"
+        },
+        {
+          "name": "4",
+          "parent": "bone"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "矩形 1",
+              "display": [
+                {
+                  "name": "矩形 1",
+                  "transform": {
+                    "skX": 90,
+                    "skY": 90
+                  }
+                }
+              ]
+            },
+            {
+              "name": "矩形 13",
+              "display": [
+                {
+                  "name": "矩形 1",
+                  "transform": {
+                    "skX": -39.02,
+                    "skY": -39.02
+                  }
+                }
+              ]
+            },
+            {
+              "name": "矩形 11",
+              "display": [
+                {
+                  "name": "矩形 1",
+                  "transform": {
+                    "skX": 180,
+                    "skY": 180
+                  }
+                }
+              ]
+            },
+            {
+              "name": "4",
+              "display": [
+                {
+                  "name": "4",
+                  "transform": {
+                    "skX": 90,
+                    "skY": 90
+                  }
+                }
+              ]
+            },
+            {
+              "name": "矩形 12",
+              "display": [
+                {
+                  "name": "矩形 1",
+                  "transform": {
+                    "skX": 138.77,
+                    "skY": 138.77
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "animation": [
+        {
+          "duration": 16,
+          "playTimes": 0,
+          "name": "pot",
+          "frame": [
+            {
+              "duration": 6
+            },
+            {
+              "duration": 0,
+              "events": [
+                {
+                  "name": "change"
+                }
+              ]
+            }
+          ],
+          "bone": [
+            {
+              "name": "bone1",
+              "translateFrame": [
+                {
+                  "duration": 16,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "x": 49.26,
+                  "y": -60.51
+                }
+              ],
+              "rotateFrame": [
+                {
+                  "duration": 6
+                },
+                {
+                  "duration": 10,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "rotate": 87.16
+                }
+              ],
+              "scaleFrame": [
+                {
+                  "duration": 16,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "x": 0.6,
+                  "y": 0.6
+                }
+              ]
+            },
+            {
+              "name": "bone11",
+              "translateFrame": [
+                {
+                  "duration": 16,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "x": -47.82,
+                  "y": -40.75
+                }
+              ],
+              "rotateFrame": [
+                {
+                  "duration": 6
+                },
+                {
+                  "duration": 10,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "rotate": 15.16
+                }
+              ],
+              "scaleFrame": [
+                {
+                  "duration": 16,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "x": 0.6,
+                  "y": 0.6
+                }
+              ]
+            },
+            {
+              "name": "bone12",
+              "translateFrame": [
+                {
+                  "duration": 16,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "x": -74.73,
+                  "y": -44.04
+                }
+              ],
+              "rotateFrame": [
+                {
+                  "duration": 6
+                },
+                {
+                  "duration": 10,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "rotate": -144.85
+                }
+              ],
+              "scaleFrame": [
+                {
+                  "duration": 16,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "x": 0.6,
+                  "y": 0.6
+                }
+              ]
+            },
+            {
+              "name": "bone121",
+              "translateFrame": [
+                {
+                  "duration": 16,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "x": 98.33,
+                  "y": 25.18
+                }
+              ],
+              "rotateFrame": [
+                {
+                  "duration": 6
+                },
+                {
+                  "duration": 10,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "rotate": 87.16
+                }
+              ],
+              "scaleFrame": [
+                {
+                  "duration": 16,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "x": 0.6,
+                  "y": 0.6
+                }
+              ]
+            }
+          ],
+          "slot": [
+            {
+              "name": "矩形 1",
+              "colorFrame": [
+                {
+                  "duration": 6,
+                  "tweenEasing": 0,
+                  "value": {
+                    "aM": 0
+                  }
+                },
+                {
+                  "duration": 4,
+                  "tweenEasing": 0,
+                  "value": {
+                    "aM": 0
+                  }
+                },
+                {
+                  "duration": 6,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "value": {
+                    "aM": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "矩形 11",
+              "colorFrame": [
+                {
+                  "duration": 6,
+                  "tweenEasing": 0,
+                  "value": {
+                    "aM": 0
+                  }
+                },
+                {
+                  "duration": 4,
+                  "tweenEasing": 0,
+                  "value": {
+                    "aM": 0
+                  }
+                },
+                {
+                  "duration": 6,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "value": {
+                    "aM": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "矩形 12",
+              "colorFrame": [
+                {
+                  "duration": 6,
+                  "tweenEasing": 0,
+                  "value": {
+                    "aM": 0
+                  }
+                },
+                {
+                  "duration": 4,
+                  "tweenEasing": 0,
+                  "value": {
+                    "aM": 0
+                  }
+                },
+                {
+                  "duration": 6,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "value": {
+                    "aM": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "矩形 13",
+              "colorFrame": [
+                {
+                  "duration": 6,
+                  "tweenEasing": 0,
+                  "value": {
+                    "aM": 0
+                  }
+                },
+                {
+                  "duration": 4,
+                  "tweenEasing": 0,
+                  "value": {
+                    "aM": 0
+                  }
+                },
+                {
+                  "duration": 6,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "value": {
+                    "aM": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "4",
+              "colorFrame": [
+                {
+                  "duration": 6,
+                  "tweenEasing": 0,
+                  "value": {
+                    "aM": 0
+                  }
+                },
+                {
+                  "duration": 6,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 4,
+                  "value": {
+                    "aM": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "defaultActions": [
+        {
+          "gotoAndPlay": "pot"
+        }
+      ]
+    }
+  ]
+}

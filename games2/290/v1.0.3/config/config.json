@@ -1,0 +1,34 @@
+{
+  "InitCoins": 0,
+  "LevelDoneCoinsReward": [
+    15,
+    40
+  ],
+  "WatchAdCoins": 100,
+  "Boosters": {
+    "Eraser": {
+      "Price": 80,
+      "UnlockLevel": 4,
+      "InitValue": 1,
+      "Text": "Tap a dot to delete it."
+    },
+    "Shuffle": {
+      "Price": 100,
+      "UnlockLevel": 6,
+      "InitValue": 1,
+      "Text": "Tap a dot to shuffle all of the dots."
+    },
+    "ColorBurst": {
+      "Price": 120,
+      "UnlockLevel": 10,
+      "InitValue": 1,
+      "Text": "Tap a dot to clear all dots of the same color."
+    },
+    "SureShot": {
+      "Price": 150,
+      "UnlockLevel": 15,
+      "InitValue": 1,
+      "Text": "Tap a dot to clear all the dots from that row and its cross column."
+    }
+  }
+}

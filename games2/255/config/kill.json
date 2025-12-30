@@ -1,0 +1,32 @@
+{
+  "1": {
+    "sound": "kill5",
+    "diamond": 88,
+    "title": "Frostbolt",
+    "max": 3,
+    "effect": [
+      "kill5",
+      "kill",
+      "hurt"
+    ],
+    "wait": 45,
+    "openLv": 3,
+    "id": 1,
+    "icon": "kill5"
+  },
+  "5": {
+    "sound": "kill1",
+    "diamond": 128,
+    "title": "Blade",
+    "max": 3,
+    "effect": [
+      "kill1",
+      "kill",
+      "hurt"
+    ],
+    "wait": 90,
+    "openLv": 10,
+    "id": 5,
+    "icon": "kill1"
+  }
+}

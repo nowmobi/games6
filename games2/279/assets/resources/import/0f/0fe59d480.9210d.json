@@ -1,0 +1,208 @@
+[
+  1,
+  [
+    "18556b5f1@6c48a"
+  ],
+  [
+    "_textureSource"
+  ],
+  [
+    "cc.SpriteFrame",
+    "cc.SpriteAtlas"
+  ],
+  0,
+  [
+    [
+      [
+        {
+          "name": "bnt_shock_open",
+          "rect": {
+            "x": 3,
+            "y": 76,
+            "width": 67,
+            "height": 67
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 67,
+            "height": 67
+          },
+          "rotated": false,
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "packable": true
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        {
+          "name": "bnt_shock_close",
+          "rect": {
+            "x": 3,
+            "y": 3,
+            "width": 69,
+            "height": 67
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 69,
+            "height": 67
+          },
+          "rotated": false,
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "packable": true
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        {
+          "name": "bnt_music_close",
+          "rect": {
+            "x": 3,
+            "y": 206,
+            "width": 56,
+            "height": 45
+          },
+          "offset": {
+            "x": 0,
+            "y": -0.5
+          },
+          "originalSize": {
+            "width": 64,
+            "height": 64
+          },
+          "rotated": false,
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "packable": true
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        {
+          "name": "auto-atlas",
+          "spriteFrames": [
+            "bnt_shock_close",
+            "08jSk6+oNEtLLNQNnr9gLI@f9941",
+            "bnt_shock_open",
+            "01hQRyDnRMwrvPzfjrenzn@f9941",
+            "bnt_music_open",
+            "c3PIZ2xAFKq7ooOtX7+4xR@f9941",
+            "bnt_music_close",
+            "11pmTohT5AAZ2S5AUaUr9f@f9941"
+          ]
+        }
+      ],
+      [
+        1
+      ],
+      0,
+      [],
+      [],
+      []
+    ],
+    [
+      [
+        {
+          "name": "bnt_music_open",
+          "rect": {
+            "x": 3,
+            "y": 149,
+            "width": 57,
+            "height": 51
+          },
+          "offset": {
+            "x": 0.5,
+            "y": -0.5
+          },
+          "originalSize": {
+            "width": 64,
+            "height": 64
+          },
+          "rotated": false,
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "packable": true
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ]
+  ]
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "laser",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "laser",
+    "_level": 1,
+    "_components": [
+      {
+        "__type__": "0d3bdyThSBH2JUdjZhkLQRF",
+        "node": {
+          "__id__": 1
+        }
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "50dcAcgFZNOoUVQN4jdecf"
+      },
+      "fileId": "83e4evTi1AWY8VZpeTVqN1"
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 37,
+      "height": 230
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "GameConfig",
+      [
+        {
+          "isNetConfig": 0,
+          "MaxLv": 40,
+          "MaxPower": 5,
+          "PowerAddTime": 1800,
+          "HammerPrice": 25,
+          "ExchangeCardPrice": 40,
+          "DealCardsPrice": 10,
+          "PowerPrice": 15,
+          "HammerUnlock": 4,
+          "ExchangeCardUnlock": 6,
+          "DealCardsUnlock": 8,
+          "FreeGold": 5,
+          "Gold1": 15,
+          "Gold2": 25,
+          "Gold3": 35,
+          "Gold4": 50
+        }
+      ]
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

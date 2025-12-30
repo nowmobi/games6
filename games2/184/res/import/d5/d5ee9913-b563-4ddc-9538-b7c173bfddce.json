@@ -1,0 +1,129 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "skel_mainfire",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "faSw+6QJadoAi7YJvIEzgw+fKCI",
+      "spine": "3.6.53",
+      "width": 35,
+      "height": 60,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "x0001",
+        "parent": "root",
+        "length": 24.46,
+        "rotation": 90,
+        "x": -0.16,
+        "y": -3.6,
+        "color": "64ff00ff"
+      }
+    ],
+    "slots": [
+      {
+        "name": "x0001",
+        "bone": "x0001",
+        "attachment": "x0001",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "x0001": {
+          "x0001": {
+            "x": 20.82,
+            "y": 0.14,
+            "rotation": -90,
+            "width": 35,
+            "height": 60
+          },
+          "x0002": {
+            "x": 20.82,
+            "y": 0.14,
+            "rotation": -90,
+            "width": 35,
+            "height": 60
+          }
+        }
+      }
+    },
+    "animations": {
+      "play": {
+        "slots": {
+          "x0001": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "x0001"
+              },
+              {
+                "time": 0.0333,
+                "name": "x0002"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "x0001": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nskel_mainfire.png\r\nsize: 128,64\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nx0001\r\n  rotate: false\r\n  xy: 39, 2\r\n  size: 35, 60\r\n  orig: 35, 60\r\n  offset: 0, 0\r\n  index: -1\r\nx0002\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 35, 60\r\n  orig: 35, 60\r\n  offset: 0, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "96hhBRrZlFkpOOjwbQvuuD"
+    }
+  ],
+  "textureNames": [
+    "skel_mainfire.png"
+  ]
+}

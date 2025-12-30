@@ -1,0 +1,76 @@
+{
+    "frames": {
+        "bottom_img.png": {
+            "frame": {
+                "h": 58,
+                "idx": 0,
+                "w": 78,
+                "x": 203,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 58,
+                "w": 78
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "com_bg.png": {
+            "frame": {
+                "h": 100,
+                "idx": 0,
+                "w": 100,
+                "x": 102,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 100,
+                "w": 100
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "dia_img_bg2.png": {
+            "frame": {
+                "h": 1331,
+                "idx": 0,
+                "w": 101,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 1331,
+                "w": 101
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "lootbox_img_bg.png": {
+            "frame": {
+                "h": 46,
+                "idx": 0,
+                "w": 46,
+                "x": 282,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 46,
+                "w": 46
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "image": "ui_real_uncompress.png",
+        "prefix": "ui_real_uncompress/"
+    }
+}

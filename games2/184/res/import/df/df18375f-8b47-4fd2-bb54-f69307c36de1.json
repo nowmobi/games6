@@ -1,0 +1,128 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "tech",
+  "json": {
+    "101": {
+      "id": 101,
+      "lv": "1,10",
+      "name": "1,1",
+      "time": 0,
+      "stage": "1*1",
+      "limit": "Clear 1-1 to unlock",
+      "promote": "5*200"
+    },
+    "102": {
+      "id": 102,
+      "lv": "10,25",
+      "name": "1,2",
+      "time": 0,
+      "stage": "1*8",
+      "limit": "Clear 1-8 to unlock",
+      "promote": "11*20"
+    },
+    "103": {
+      "id": 103,
+      "lv": "25,50",
+      "name": "2,1",
+      "time": 0,
+      "stage": "5*10",
+      "limit": "Clear 5-10 to unlock",
+      "promote": "6*300"
+    },
+    "104": {
+      "id": 104,
+      "lv": "50,80",
+      "name": "2,2",
+      "time": 0,
+      "stage": "7*10",
+      "limit": "Clear 7-10 to unlock",
+      "promote": "12*50"
+    },
+    "105": {
+      "id": 105,
+      "lv": "80,120",
+      "name": "2,3",
+      "time": 0,
+      "stage": "9*10",
+      "limit": "Clear 9-10 to unlock",
+      "promote": "5*800"
+    },
+    "106": {
+      "id": 106,
+      "lv": "120,200",
+      "name": "3,1",
+      "time": 0,
+      "stage": "11*10",
+      "limit": "Clear 1-10 to unlock",
+      "promote": "6*1500"
+    },
+    "201": {
+      "id": 201,
+      "lv": "1,10",
+      "name": "1,1",
+      "time": 0,
+      "stage": "2*4",
+      "limit": "Clear 2-4 to unlock",
+      "promote": "105*120"
+    },
+    "202": {
+      "id": 202,
+      "lv": "10,25",
+      "name": "1,2",
+      "time": 0,
+      "stage": "1*8",
+      "limit": "Clear 1-8 to unlock",
+      "promote": "102*20"
+    },
+    "203": {
+      "id": 203,
+      "lv": "25,50",
+      "name": "2,1",
+      "time": 0,
+      "stage": "4*10",
+      "limit": "Clear 4-10 to unlock",
+      "promote": "105*150"
+    },
+    "204": {
+      "id": 204,
+      "lv": "50,80",
+      "name": "2,2",
+      "time": 0,
+      "stage": "6*10",
+      "limit": "Clear 6-10 to unlock",
+      "promote": "111*20"
+    },
+    "205": {
+      "id": 205,
+      "lv": "80,120",
+      "name": "2,3",
+      "time": 0,
+      "stage": "9*10",
+      "limit": "Clear 9-10 to unlock",
+      "promote": "102*20"
+    },
+    "206": {
+      "id": 206,
+      "lv": "120,200",
+      "name": "3,1",
+      "time": 0,
+      "stage": "11*10",
+      "limit": "Clear 11-10 to unlock",
+      "promote": "105*300"
+    },
+    "allID": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206
+    ]
+  }
+}

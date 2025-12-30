@@ -1,0 +1,155 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "Hint_effects",
+    "_duration": 0.7666666666666667,
+    "wrapMode": "2",
+    "curveData": {
+      "paths": {
+        "effect/blow": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 0,
+                "value": 0.41,
+                "curve": "cubicOut"
+              },
+              {
+                "frame": 0.7666666666666667,
+                "value": 1
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0,
+                "value": 0.41,
+                "curve": "cubicOut"
+              },
+              {
+                "frame": 0.7666666666666667,
+                "value": 1
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 180
+              },
+              {
+                "frame": 0.7666666666666667,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "effect/blow02": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 0.03333333333333333,
+                "value": 0.35,
+                "curve": "cubicOut"
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": 1.78
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0.03333333333333333,
+                "value": 0.35,
+                "curve": "cubicOut"
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": 1.78
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 0.03333333333333333,
+                "value": 0
+              },
+              {
+                "frame": 0.2,
+                "value": 200
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "finger_ani": {
+          "comps": {
+            "cc.Sprite": {
+              "spriteFrame": [
+                {
+                  "frame": 0,
+                  "value": {
+                    "__uuid__": "88R+Sm/w9Aw6vCT5vOOlZb"
+                  }
+                },
+                {
+                  "frame": 0.2,
+                  "value": {
+                    "__uuid__": "ac3RL7AEVCk6Bb1MZoGbqg"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "h1_0",
+      "texture": "2aKQnxh4BHWLQj6wxLdTjp",
+      "rect": [
+        858,
+        408,
+        58,
+        63
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        58,
+        63
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "h1_1",
+      "texture": "2aKQnxh4BHWLQj6wxLdTjp",
+      "rect": [
+        1110,
+        370,
+        61,
+        54
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        61,
+        54
+      ],
+      "rotated": 1
+    }
+  }
+]

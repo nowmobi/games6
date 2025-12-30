@@ -1,0 +1,47 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "virusexplode2",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "virusexplode2",
+    "_level": 1,
+    "_components": [
+      {
+        "__type__": "sp.Skeleton",
+        "node": {
+          "__id__": 1
+        },
+        "defaultAnimation": "idle",
+        "_N$skeletonData": {
+          "__uuid__": "5cfVchrFBMm6OOF3Lezkyg"
+        }
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "90JPM1dIZDY6q14ISHDEho"
+      },
+      "fileId": "25GlFT4F1In6US8kS2jOsG"
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 30,
+      "height": 30
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  }
+]

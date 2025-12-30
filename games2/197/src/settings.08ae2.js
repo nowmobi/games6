@@ -1,0 +1,1 @@
+window._CCSettings={platform:"web-mobile",groupList:["default"],collisionMatrix:[[true]],hasResourcesBundle:true,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/scene/start.fire",orientation:"portrait",jsList:["assets/scripts/ccstudio/k-cocos/k-cocos.e61dd.js"],bundleVers:{internal:"52d36",resources:"d6b08",main:"62340"}};

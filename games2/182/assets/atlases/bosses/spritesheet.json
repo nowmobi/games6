@@ -1,0 +1,606 @@
+{
+  "frames": [
+    {
+      "filename": "boss-3-1-body",
+      "frame": {
+        "w": 158,
+        "h": 437,
+        "x": 10,
+        "y": 10
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-3-2-body",
+      "frame": {
+        "w": 158,
+        "h": 437,
+        "x": 178,
+        "y": 10
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-3-3-body",
+      "frame": {
+        "w": 158,
+        "h": 437,
+        "x": 346,
+        "y": 10
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-2-1-body",
+      "frame": {
+        "w": 124,
+        "h": 319,
+        "x": 10,
+        "y": 457
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-2-2-body",
+      "frame": {
+        "w": 124,
+        "h": 319,
+        "x": 144,
+        "y": 457
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-2-3-body",
+      "frame": {
+        "w": 124,
+        "h": 319,
+        "x": 278,
+        "y": 457
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-1-2-body",
+      "frame": {
+        "w": 131,
+        "h": 259,
+        "x": 514,
+        "y": 10
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-1-3-body",
+      "frame": {
+        "w": 131,
+        "h": 259,
+        "x": 514,
+        "y": 279
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-1-1-body",
+      "frame": {
+        "w": 131,
+        "h": 258,
+        "x": 655,
+        "y": 10
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-3-1-wing",
+      "frame": {
+        "w": 201,
+        "h": 240,
+        "x": 10,
+        "y": 786
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-3-2-wing",
+      "frame": {
+        "w": 201,
+        "h": 240,
+        "x": 221,
+        "y": 786
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-3-3-wing",
+      "frame": {
+        "w": 201,
+        "h": 240,
+        "x": 432,
+        "y": 548
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-1-1-wing",
+      "frame": {
+        "w": 173,
+        "h": 232,
+        "x": 796,
+        "y": 10
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-1-2-wing",
+      "frame": {
+        "w": 173,
+        "h": 232,
+        "x": 796,
+        "y": 252
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-1-3-wing",
+      "frame": {
+        "w": 173,
+        "h": 232,
+        "x": 655,
+        "y": 494
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-2-2-wingleft",
+      "frame": {
+        "w": 139,
+        "h": 216,
+        "x": 432,
+        "y": 798
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-2-1-wingleft",
+      "frame": {
+        "w": 139,
+        "h": 211,
+        "x": 581,
+        "y": 798
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-2-1-wingright",
+      "frame": {
+        "w": 138,
+        "h": 211,
+        "x": 730,
+        "y": 736
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-2-2-wingright",
+      "frame": {
+        "w": 138,
+        "h": 211,
+        "x": 979,
+        "y": 10
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-2-3-wingleft",
+      "frame": {
+        "w": 139,
+        "h": 211,
+        "x": 838,
+        "y": 494
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-2-3-wingright",
+      "frame": {
+        "w": 138,
+        "h": 211,
+        "x": 979,
+        "y": 231
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-1-1-backpart",
+      "frame": {
+        "w": 29,
+        "h": 162,
+        "x": 655,
+        "y": 278
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-1-2-backpart",
+      "frame": {
+        "w": 29,
+        "h": 162,
+        "x": 694,
+        "y": 278
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-1-3-backpart",
+      "frame": {
+        "w": 29,
+        "h": 162,
+        "x": 733,
+        "y": 278
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-3-1-gunbig",
+      "frame": {
+        "w": 63,
+        "h": 161,
+        "x": 987,
+        "y": 452
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-3-2-gunbig",
+      "frame": {
+        "w": 63,
+        "h": 155,
+        "x": 987,
+        "y": 623
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-3-3-gunbig",
+      "frame": {
+        "w": 63,
+        "h": 155,
+        "x": 878,
+        "y": 715
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-3-1-spinner",
+      "frame": {
+        "w": 139,
+        "h": 119,
+        "x": 878,
+        "y": 880
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-3-2-spinner",
+      "frame": {
+        "w": 139,
+        "h": 119,
+        "x": 10,
+        "y": 1036
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-3-3-spinner",
+      "frame": {
+        "w": 139,
+        "h": 119,
+        "x": 159,
+        "y": 1036
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "enginefire",
+      "frame": {
+        "w": 50,
+        "h": 139,
+        "x": 1060,
+        "y": 452
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-2-1-flap",
+      "frame": {
+        "w": 124,
+        "h": 103,
+        "x": 730,
+        "y": 957
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-2-2-flap",
+      "frame": {
+        "w": 124,
+        "h": 95,
+        "x": 581,
+        "y": 1019
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-2-3-flap",
+      "frame": {
+        "w": 124,
+        "h": 95,
+        "x": 432,
+        "y": 1024
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-1-1-gun",
+      "frame": {
+        "w": 43,
+        "h": 111,
+        "x": 308,
+        "y": 1036
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-1-2-gun",
+      "frame": {
+        "w": 43,
+        "h": 110,
+        "x": 361,
+        "y": 1036
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-1-3-gun",
+      "frame": {
+        "w": 42,
+        "h": 110,
+        "x": 1060,
+        "y": 601
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-2-2-gunbig",
+      "frame": {
+        "w": 43,
+        "h": 93,
+        "x": 1060,
+        "y": 721
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-2-3-gunbig",
+      "frame": {
+        "w": 43,
+        "h": 93,
+        "x": 1027,
+        "y": 824
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-3-1-gunsmall",
+      "frame": {
+        "w": 46,
+        "h": 93,
+        "x": 1027,
+        "y": 927
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-3-3-gunsmall",
+      "frame": {
+        "w": 46,
+        "h": 93,
+        "x": 864,
+        "y": 1030
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-2-1-gunbig",
+      "frame": {
+        "w": 43,
+        "h": 92,
+        "x": 920,
+        "y": 1030
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-3-2-gunsmall",
+      "frame": {
+        "w": 46,
+        "h": 92,
+        "x": 973,
+        "y": 1030
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-2-1-gunsmall",
+      "frame": {
+        "w": 43,
+        "h": 63,
+        "x": 412,
+        "y": 457
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-2-2-gunsmall",
+      "frame": {
+        "w": 43,
+        "h": 62,
+        "x": 951,
+        "y": 788
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "boss-2-3-gunsmall",
+      "frame": {
+        "w": 43,
+        "h": 62,
+        "x": 715,
+        "y": 1070
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  ],
+  "meta": {
+    "description": "Atlas generado con Atlas Packer Gamma V2",
+    "web": "https://gammafp.github.io/atlas-packer-phaser/"
+  }
+}

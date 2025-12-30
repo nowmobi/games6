@@ -1,0 +1,2138 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "cfg",
+      {
+        "data": [
+          {
+            "id": 1,
+            "start": 1,
+            "end": 10,
+            "growth": 0.45,
+            "scorerate": 1
+          },
+          {
+            "id": 2,
+            "start": 2,
+            "end": 16,
+            "growth": 0.61,
+            "scorerate": 1.913
+          },
+          {
+            "id": 3,
+            "start": 3,
+            "end": 18,
+            "growth": 0.62,
+            "scorerate": 2.563
+          },
+          {
+            "id": 4,
+            "start": 4,
+            "end": 21,
+            "growth": 0.63,
+            "scorerate": 3.294
+          },
+          {
+            "id": 5,
+            "start": 5,
+            "end": 22,
+            "growth": 0.64,
+            "scorerate": 3.883
+          },
+          {
+            "id": 6,
+            "start": 5,
+            "end": 23,
+            "growth": 0.65,
+            "scorerate": 4.086
+          },
+          {
+            "id": 7,
+            "start": 5,
+            "end": 23,
+            "growth": 0.651,
+            "scorerate": 4.146
+          },
+          {
+            "id": 8,
+            "start": 5,
+            "end": 23,
+            "growth": 0.652,
+            "scorerate": 4.205
+          },
+          {
+            "id": 9,
+            "start": 5,
+            "end": 24,
+            "growth": 0.653,
+            "scorerate": 4.355
+          },
+          {
+            "id": 10,
+            "start": 6,
+            "end": 25,
+            "growth": 0.654,
+            "scorerate": 4.936
+          },
+          {
+            "id": 11,
+            "start": 6,
+            "end": 25,
+            "growth": 0.655,
+            "scorerate": 5.002
+          },
+          {
+            "id": 12,
+            "start": 6,
+            "end": 26,
+            "growth": 0.656,
+            "scorerate": 5.168
+          },
+          {
+            "id": 13,
+            "start": 6,
+            "end": 26,
+            "growth": 0.657,
+            "scorerate": 5.234
+          },
+          {
+            "id": 14,
+            "start": 6,
+            "end": 27,
+            "growth": 0.658,
+            "scorerate": 5.401
+          },
+          {
+            "id": 15,
+            "start": 7,
+            "end": 28,
+            "growth": 0.659,
+            "scorerate": 6.015
+          },
+          {
+            "id": 16,
+            "start": 7,
+            "end": 28,
+            "growth": 0.66,
+            "scorerate": 6.087
+          },
+          {
+            "id": 17,
+            "start": 7,
+            "end": 29,
+            "growth": 0.661,
+            "scorerate": 6.269
+          },
+          {
+            "id": 18,
+            "start": 7,
+            "end": 29,
+            "growth": 0.662,
+            "scorerate": 6.342
+          },
+          {
+            "id": 19,
+            "start": 7,
+            "end": 29,
+            "growth": 0.663,
+            "scorerate": 6.415
+          },
+          {
+            "id": 20,
+            "start": 8,
+            "end": 31,
+            "growth": 0.664,
+            "scorerate": 7.17
+          },
+          {
+            "id": 21,
+            "start": 8,
+            "end": 31,
+            "growth": 0.665,
+            "scorerate": 7.25
+          },
+          {
+            "id": 22,
+            "start": 8,
+            "end": 31,
+            "growth": 0.666,
+            "scorerate": 7.329
+          },
+          {
+            "id": 23,
+            "start": 8,
+            "end": 32,
+            "growth": 0.667,
+            "scorerate": 7.526
+          },
+          {
+            "id": 24,
+            "start": 8,
+            "end": 32,
+            "growth": 0.668,
+            "scorerate": 7.606
+          },
+          {
+            "id": 25,
+            "start": 8,
+            "end": 33,
+            "growth": 0.669,
+            "scorerate": 7.804
+          },
+          {
+            "id": 26,
+            "start": 8,
+            "end": 33,
+            "growth": 0.67,
+            "scorerate": 7.884
+          },
+          {
+            "id": 27,
+            "start": 8,
+            "end": 33,
+            "growth": 0.671,
+            "scorerate": 7.963
+          },
+          {
+            "id": 28,
+            "start": 8,
+            "end": 34,
+            "growth": 0.672,
+            "scorerate": 8.163
+          },
+          {
+            "id": 29,
+            "start": 8,
+            "end": 34,
+            "growth": 0.673,
+            "scorerate": 8.243
+          },
+          {
+            "id": 30,
+            "start": 8,
+            "end": 34,
+            "growth": 0.674,
+            "scorerate": 8.323
+          },
+          {
+            "id": 31,
+            "start": 8,
+            "end": 35,
+            "growth": 0.675,
+            "scorerate": 8.525
+          },
+          {
+            "id": 32,
+            "start": 8,
+            "end": 35,
+            "growth": 0.676,
+            "scorerate": 8.605
+          },
+          {
+            "id": 33,
+            "start": 8,
+            "end": 36,
+            "growth": 0.677,
+            "scorerate": 8.808
+          },
+          {
+            "id": 34,
+            "start": 8,
+            "end": 36,
+            "growth": 0.678,
+            "scorerate": 8.889
+          },
+          {
+            "id": 35,
+            "start": 8,
+            "end": 36,
+            "growth": 0.679,
+            "scorerate": 8.969
+          },
+          {
+            "id": 36,
+            "start": 8,
+            "end": 37,
+            "growth": 0.68,
+            "scorerate": 9.174
+          },
+          {
+            "id": 37,
+            "start": 8,
+            "end": 37,
+            "growth": 0.6801,
+            "scorerate": 9.242
+          },
+          {
+            "id": 38,
+            "start": 8,
+            "end": 37,
+            "growth": 0.6802,
+            "scorerate": 9.31
+          },
+          {
+            "id": 39,
+            "start": 8,
+            "end": 38,
+            "growth": 0.6803,
+            "scorerate": 9.504
+          },
+          {
+            "id": 40,
+            "start": 8,
+            "end": 38,
+            "growth": 0.6804,
+            "scorerate": 9.572
+          },
+          {
+            "id": 41,
+            "start": 8,
+            "end": 38,
+            "growth": 0.6805,
+            "scorerate": 9.64
+          },
+          {
+            "id": 42,
+            "start": 8,
+            "end": 39,
+            "growth": 0.6806,
+            "scorerate": 9.834
+          },
+          {
+            "id": 43,
+            "start": 8,
+            "end": 39,
+            "growth": 0.6807,
+            "scorerate": 9.902
+          },
+          {
+            "id": 44,
+            "start": 8,
+            "end": 39,
+            "growth": 0.6808,
+            "scorerate": 9.969
+          },
+          {
+            "id": 45,
+            "start": 8,
+            "end": 40,
+            "growth": 0.6809,
+            "scorerate": 10.163
+          },
+          {
+            "id": 46,
+            "start": 8,
+            "end": 40,
+            "growth": 0.681,
+            "scorerate": 10.231
+          },
+          {
+            "id": 47,
+            "start": 8,
+            "end": 41,
+            "growth": 0.6811,
+            "scorerate": 10.426
+          },
+          {
+            "id": 48,
+            "start": 8,
+            "end": 41,
+            "growth": 0.6812,
+            "scorerate": 10.493
+          },
+          {
+            "id": 49,
+            "start": 8,
+            "end": 41,
+            "growth": 0.6813,
+            "scorerate": 10.56
+          },
+          {
+            "id": 50,
+            "start": 8,
+            "end": 42,
+            "growth": 0.6814,
+            "scorerate": 10.755
+          },
+          {
+            "id": 51,
+            "start": 8,
+            "end": 42,
+            "growth": 0.6815,
+            "scorerate": 10.822
+          },
+          {
+            "id": 52,
+            "start": 8,
+            "end": 42,
+            "growth": 0.6816,
+            "scorerate": 10.889
+          },
+          {
+            "id": 53,
+            "start": 8,
+            "end": 43,
+            "growth": 0.6817,
+            "scorerate": 11.085
+          },
+          {
+            "id": 54,
+            "start": 8,
+            "end": 43,
+            "growth": 0.6818,
+            "scorerate": 11.151
+          },
+          {
+            "id": 55,
+            "start": 8,
+            "end": 43,
+            "growth": 0.6819,
+            "scorerate": 11.218
+          },
+          {
+            "id": 56,
+            "start": 8,
+            "end": 44,
+            "growth": 0.682,
+            "scorerate": 11.414
+          },
+          {
+            "id": 57,
+            "start": 8,
+            "end": 44,
+            "growth": 0.6821,
+            "scorerate": 11.48
+          },
+          {
+            "id": 58,
+            "start": 8,
+            "end": 44,
+            "growth": 0.6822,
+            "scorerate": 11.546
+          },
+          {
+            "id": 59,
+            "start": 8,
+            "end": 45,
+            "growth": 0.6823,
+            "scorerate": 11.743
+          },
+          {
+            "id": 60,
+            "start": 8,
+            "end": 45,
+            "growth": 0.6824,
+            "scorerate": 11.809
+          },
+          {
+            "id": 61,
+            "start": 8,
+            "end": 45,
+            "growth": 0.6825,
+            "scorerate": 11.875
+          },
+          {
+            "id": 62,
+            "start": 8,
+            "end": 46,
+            "growth": 0.6826,
+            "scorerate": 12.072
+          },
+          {
+            "id": 63,
+            "start": 8,
+            "end": 46,
+            "growth": 0.6827,
+            "scorerate": 12.138
+          },
+          {
+            "id": 64,
+            "start": 8,
+            "end": 46,
+            "growth": 0.6828,
+            "scorerate": 12.204
+          },
+          {
+            "id": 65,
+            "start": 8,
+            "end": 47,
+            "growth": 0.6829,
+            "scorerate": 12.402
+          },
+          {
+            "id": 66,
+            "start": 8,
+            "end": 47,
+            "growth": 0.683,
+            "scorerate": 12.467
+          },
+          {
+            "id": 67,
+            "start": 8,
+            "end": 47,
+            "growth": 0.6831,
+            "scorerate": 12.532
+          },
+          {
+            "id": 68,
+            "start": 8,
+            "end": 48,
+            "growth": 0.6832,
+            "scorerate": 12.731
+          },
+          {
+            "id": 69,
+            "start": 8,
+            "end": 48,
+            "growth": 0.6833,
+            "scorerate": 12.796
+          },
+          {
+            "id": 70,
+            "start": 8,
+            "end": 49,
+            "growth": 0.6834,
+            "scorerate": 12.994
+          },
+          {
+            "id": 71,
+            "start": 9,
+            "end": 50,
+            "growth": 0.6835,
+            "scorerate": 13.993
+          },
+          {
+            "id": 72,
+            "start": 9,
+            "end": 50,
+            "growth": 0.6836,
+            "scorerate": 14.063
+          },
+          {
+            "id": 73,
+            "start": 9,
+            "end": 51,
+            "growth": 0.6837,
+            "scorerate": 14.273
+          },
+          {
+            "id": 74,
+            "start": 9,
+            "end": 51,
+            "growth": 0.6838,
+            "scorerate": 14.343
+          },
+          {
+            "id": 75,
+            "start": 9,
+            "end": 51,
+            "growth": 0.6839,
+            "scorerate": 14.412
+          },
+          {
+            "id": 76,
+            "start": 9,
+            "end": 52,
+            "growth": 0.684,
+            "scorerate": 14.623
+          },
+          {
+            "id": 77,
+            "start": 9,
+            "end": 52,
+            "growth": 0.6841,
+            "scorerate": 14.692
+          },
+          {
+            "id": 78,
+            "start": 9,
+            "end": 52,
+            "growth": 0.6842,
+            "scorerate": 14.762
+          },
+          {
+            "id": 79,
+            "start": 9,
+            "end": 53,
+            "growth": 0.6843,
+            "scorerate": 14.973
+          },
+          {
+            "id": 80,
+            "start": 9,
+            "end": 53,
+            "growth": 0.6844,
+            "scorerate": 15.042
+          },
+          {
+            "id": 81,
+            "start": 9,
+            "end": 53,
+            "growth": 0.6845,
+            "scorerate": 15.112
+          },
+          {
+            "id": 82,
+            "start": 9,
+            "end": 54,
+            "growth": 0.6846,
+            "scorerate": 15.323
+          },
+          {
+            "id": 83,
+            "start": 9,
+            "end": 54,
+            "growth": 0.6847,
+            "scorerate": 15.392
+          },
+          {
+            "id": 84,
+            "start": 9,
+            "end": 54,
+            "growth": 0.6848,
+            "scorerate": 15.461
+          },
+          {
+            "id": 85,
+            "start": 9,
+            "end": 54,
+            "growth": 0.6849,
+            "scorerate": 15.53
+          },
+          {
+            "id": 86,
+            "start": 9,
+            "end": 54,
+            "growth": 0.685,
+            "scorerate": 15.599
+          },
+          {
+            "id": 87,
+            "start": 9,
+            "end": 54,
+            "growth": 0.6851,
+            "scorerate": 15.667
+          },
+          {
+            "id": 88,
+            "start": 9,
+            "end": 55,
+            "growth": 0.6852,
+            "scorerate": 15.88
+          },
+          {
+            "id": 89,
+            "start": 9,
+            "end": 55,
+            "growth": 0.6853,
+            "scorerate": 15.948
+          },
+          {
+            "id": 90,
+            "start": 9,
+            "end": 55,
+            "growth": 0.6854,
+            "scorerate": 16.016
+          },
+          {
+            "id": 91,
+            "start": 9,
+            "end": 55,
+            "growth": 0.6855,
+            "scorerate": 16.084
+          },
+          {
+            "id": 92,
+            "start": 9,
+            "end": 55,
+            "growth": 0.6856,
+            "scorerate": 16.152
+          },
+          {
+            "id": 93,
+            "start": 9,
+            "end": 55,
+            "growth": 0.6857,
+            "scorerate": 16.219
+          },
+          {
+            "id": 94,
+            "start": 9,
+            "end": 55,
+            "growth": 0.6858,
+            "scorerate": 16.286
+          },
+          {
+            "id": 95,
+            "start": 9,
+            "end": 56,
+            "growth": 0.6859,
+            "scorerate": 16.501
+          },
+          {
+            "id": 96,
+            "start": 9,
+            "end": 56,
+            "growth": 0.686,
+            "scorerate": 16.568
+          },
+          {
+            "id": 97,
+            "start": 9,
+            "end": 56,
+            "growth": 0.6861,
+            "scorerate": 16.635
+          },
+          {
+            "id": 98,
+            "start": 9,
+            "end": 56,
+            "growth": 0.6862,
+            "scorerate": 16.702
+          },
+          {
+            "id": 99,
+            "start": 9,
+            "end": 56,
+            "growth": 0.6863,
+            "scorerate": 16.769
+          },
+          {
+            "id": 100,
+            "start": 9,
+            "end": 56,
+            "growth": 0.6864,
+            "scorerate": 16.835
+          },
+          {
+            "id": 101,
+            "start": 9,
+            "end": 56,
+            "growth": 0.6865,
+            "scorerate": 16.901
+          },
+          {
+            "id": 102,
+            "start": 9,
+            "end": 57,
+            "growth": 0.6866,
+            "scorerate": 17.118
+          },
+          {
+            "id": 103,
+            "start": 9,
+            "end": 57,
+            "growth": 0.6867,
+            "scorerate": 17.184
+          },
+          {
+            "id": 104,
+            "start": 9,
+            "end": 57,
+            "growth": 0.6868,
+            "scorerate": 17.25
+          },
+          {
+            "id": 105,
+            "start": 9,
+            "end": 57,
+            "growth": 0.6869,
+            "scorerate": 17.316
+          },
+          {
+            "id": 106,
+            "start": 9,
+            "end": 57,
+            "growth": 0.687,
+            "scorerate": 17.382
+          },
+          {
+            "id": 107,
+            "start": 9,
+            "end": 57,
+            "growth": 0.6871,
+            "scorerate": 17.447
+          },
+          {
+            "id": 108,
+            "start": 9,
+            "end": 57,
+            "growth": 0.6872,
+            "scorerate": 17.512
+          },
+          {
+            "id": 109,
+            "start": 9,
+            "end": 58,
+            "growth": 0.6873,
+            "scorerate": 17.731
+          },
+          {
+            "id": 110,
+            "start": 9,
+            "end": 58,
+            "growth": 0.6874,
+            "scorerate": 17.796
+          },
+          {
+            "id": 111,
+            "start": 9,
+            "end": 58,
+            "growth": 0.6875,
+            "scorerate": 17.861
+          },
+          {
+            "id": 112,
+            "start": 9,
+            "end": 58,
+            "growth": 0.6876,
+            "scorerate": 17.926
+          },
+          {
+            "id": 113,
+            "start": 9,
+            "end": 58,
+            "growth": 0.6877,
+            "scorerate": 17.991
+          },
+          {
+            "id": 114,
+            "start": 9,
+            "end": 58,
+            "growth": 0.6878,
+            "scorerate": 18.056
+          },
+          {
+            "id": 115,
+            "start": 9,
+            "end": 58,
+            "growth": 0.6879,
+            "scorerate": 18.12
+          },
+          {
+            "id": 116,
+            "start": 9,
+            "end": 59,
+            "growth": 0.688,
+            "scorerate": 18.34
+          },
+          {
+            "id": 117,
+            "start": 9,
+            "end": 59,
+            "growth": 0.6881,
+            "scorerate": 18.405
+          },
+          {
+            "id": 118,
+            "start": 9,
+            "end": 59,
+            "growth": 0.6882,
+            "scorerate": 18.469
+          },
+          {
+            "id": 119,
+            "start": 9,
+            "end": 59,
+            "growth": 0.6883,
+            "scorerate": 18.533
+          },
+          {
+            "id": 120,
+            "start": 9,
+            "end": 59,
+            "growth": 0.6884,
+            "scorerate": 18.597
+          },
+          {
+            "id": 121,
+            "start": 10,
+            "end": 60,
+            "growth": 0.6885,
+            "scorerate": 19.836
+          },
+          {
+            "id": 122,
+            "start": 10,
+            "end": 60,
+            "growth": 0.6886,
+            "scorerate": 19.904
+          },
+          {
+            "id": 123,
+            "start": 10,
+            "end": 61,
+            "growth": 0.6887,
+            "scorerate": 20.137
+          },
+          {
+            "id": 124,
+            "start": 10,
+            "end": 61,
+            "growth": 0.6888,
+            "scorerate": 20.205
+          },
+          {
+            "id": 125,
+            "start": 10,
+            "end": 61,
+            "growth": 0.6889,
+            "scorerate": 20.273
+          },
+          {
+            "id": 126,
+            "start": 10,
+            "end": 61,
+            "growth": 0.689,
+            "scorerate": 20.34
+          },
+          {
+            "id": 127,
+            "start": 10,
+            "end": 61,
+            "growth": 0.6891,
+            "scorerate": 20.407
+          },
+          {
+            "id": 128,
+            "start": 10,
+            "end": 61,
+            "growth": 0.6892,
+            "scorerate": 20.474
+          },
+          {
+            "id": 129,
+            "start": 10,
+            "end": 61,
+            "growth": 0.6893,
+            "scorerate": 20.541
+          },
+          {
+            "id": 130,
+            "start": 10,
+            "end": 62,
+            "growth": 0.6894,
+            "scorerate": 20.776
+          },
+          {
+            "id": 131,
+            "start": 10,
+            "end": 62,
+            "growth": 0.6895,
+            "scorerate": 20.843
+          },
+          {
+            "id": 132,
+            "start": 10,
+            "end": 62,
+            "growth": 0.6896,
+            "scorerate": 20.91
+          },
+          {
+            "id": 133,
+            "start": 10,
+            "end": 62,
+            "growth": 0.6897,
+            "scorerate": 20.977
+          },
+          {
+            "id": 134,
+            "start": 10,
+            "end": 62,
+            "growth": 0.6898,
+            "scorerate": 21.043
+          },
+          {
+            "id": 135,
+            "start": 10,
+            "end": 62,
+            "growth": 0.6899,
+            "scorerate": 21.11
+          },
+          {
+            "id": 136,
+            "start": 10,
+            "end": 62,
+            "growth": 0.69,
+            "scorerate": 21.176
+          },
+          {
+            "id": 137,
+            "start": 10,
+            "end": 63,
+            "growth": 0.6901,
+            "scorerate": 21.412
+          },
+          {
+            "id": 138,
+            "start": 10,
+            "end": 63,
+            "growth": 0.6902,
+            "scorerate": 21.479
+          },
+          {
+            "id": 139,
+            "start": 10,
+            "end": 63,
+            "growth": 0.6903,
+            "scorerate": 21.545
+          },
+          {
+            "id": 140,
+            "start": 10,
+            "end": 63,
+            "growth": 0.6904,
+            "scorerate": 21.611
+          },
+          {
+            "id": 141,
+            "start": 10,
+            "end": 63,
+            "growth": 0.6905,
+            "scorerate": 21.677
+          },
+          {
+            "id": 142,
+            "start": 10,
+            "end": 63,
+            "growth": 0.6906,
+            "scorerate": 21.743
+          },
+          {
+            "id": 143,
+            "start": 10,
+            "end": 64,
+            "growth": 0.6907,
+            "scorerate": 21.98
+          },
+          {
+            "id": 144,
+            "start": 10,
+            "end": 64,
+            "growth": 0.6908,
+            "scorerate": 22.046
+          },
+          {
+            "id": 145,
+            "start": 10,
+            "end": 64,
+            "growth": 0.6909,
+            "scorerate": 22.112
+          },
+          {
+            "id": 146,
+            "start": 10,
+            "end": 64,
+            "growth": 0.691,
+            "scorerate": 22.178
+          },
+          {
+            "id": 147,
+            "start": 10,
+            "end": 64,
+            "growth": 0.6911,
+            "scorerate": 22.243
+          },
+          {
+            "id": 148,
+            "start": 10,
+            "end": 64,
+            "growth": 0.6912,
+            "scorerate": 22.308
+          },
+          {
+            "id": 149,
+            "start": 10,
+            "end": 64,
+            "growth": 0.6913,
+            "scorerate": 22.374
+          },
+          {
+            "id": 150,
+            "start": 10,
+            "end": 65,
+            "growth": 0.6914,
+            "scorerate": 22.613
+          },
+          {
+            "id": 151,
+            "start": 10,
+            "end": 65,
+            "growth": 0.6915,
+            "scorerate": 22.678
+          },
+          {
+            "id": 152,
+            "start": 10,
+            "end": 65,
+            "growth": 0.6916,
+            "scorerate": 22.744
+          },
+          {
+            "id": 153,
+            "start": 10,
+            "end": 65,
+            "growth": 0.6917,
+            "scorerate": 22.809
+          },
+          {
+            "id": 154,
+            "start": 10,
+            "end": 65,
+            "growth": 0.6918,
+            "scorerate": 22.873
+          },
+          {
+            "id": 155,
+            "start": 10,
+            "end": 65,
+            "growth": 0.6919,
+            "scorerate": 22.938
+          },
+          {
+            "id": 156,
+            "start": 10,
+            "end": 65,
+            "growth": 0.692,
+            "scorerate": 23.003
+          },
+          {
+            "id": 157,
+            "start": 10,
+            "end": 66,
+            "growth": 0.6921,
+            "scorerate": 23.244
+          },
+          {
+            "id": 158,
+            "start": 10,
+            "end": 66,
+            "growth": 0.6922,
+            "scorerate": 23.309
+          },
+          {
+            "id": 159,
+            "start": 10,
+            "end": 66,
+            "growth": 0.6923,
+            "scorerate": 23.373
+          },
+          {
+            "id": 160,
+            "start": 10,
+            "end": 66,
+            "growth": 0.6924,
+            "scorerate": 23.438
+          },
+          {
+            "id": 161,
+            "start": 10,
+            "end": 66,
+            "growth": 0.6925,
+            "scorerate": 23.502
+          },
+          {
+            "id": 162,
+            "start": 10,
+            "end": 66,
+            "growth": 0.6926,
+            "scorerate": 23.566
+          },
+          {
+            "id": 163,
+            "start": 10,
+            "end": 66,
+            "growth": 0.6927,
+            "scorerate": 23.63
+          },
+          {
+            "id": 164,
+            "start": 10,
+            "end": 67,
+            "growth": 0.6928,
+            "scorerate": 23.873
+          },
+          {
+            "id": 165,
+            "start": 10,
+            "end": 67,
+            "growth": 0.6929,
+            "scorerate": 23.938
+          },
+          {
+            "id": 166,
+            "start": 10,
+            "end": 67,
+            "growth": 0.693,
+            "scorerate": 24.002
+          },
+          {
+            "id": 167,
+            "start": 10,
+            "end": 67,
+            "growth": 0.6931,
+            "scorerate": 24.066
+          },
+          {
+            "id": 168,
+            "start": 10,
+            "end": 67,
+            "growth": 0.6932,
+            "scorerate": 24.13
+          },
+          {
+            "id": 169,
+            "start": 10,
+            "end": 67,
+            "growth": 0.6933,
+            "scorerate": 24.193
+          },
+          {
+            "id": 170,
+            "start": 10,
+            "end": 67,
+            "growth": 0.6934,
+            "scorerate": 24.257
+          },
+          {
+            "id": 171,
+            "start": 11,
+            "end": 69,
+            "growth": 0.6935,
+            "scorerate": 25.885
+          },
+          {
+            "id": 172,
+            "start": 11,
+            "end": 69,
+            "growth": 0.6936,
+            "scorerate": 25.953
+          },
+          {
+            "id": 173,
+            "start": 11,
+            "end": 69,
+            "growth": 0.6937,
+            "scorerate": 26.02
+          },
+          {
+            "id": 174,
+            "start": 11,
+            "end": 69,
+            "growth": 0.6938,
+            "scorerate": 26.087
+          },
+          {
+            "id": 175,
+            "start": 11,
+            "end": 69,
+            "growth": 0.6939,
+            "scorerate": 26.154
+          },
+          {
+            "id": 176,
+            "start": 11,
+            "end": 69,
+            "growth": 0.694,
+            "scorerate": 26.221
+          },
+          {
+            "id": 177,
+            "start": 11,
+            "end": 69,
+            "growth": 0.6941,
+            "scorerate": 26.288
+          },
+          {
+            "id": 178,
+            "start": 11,
+            "end": 70,
+            "growth": 0.6942,
+            "scorerate": 26.545
+          },
+          {
+            "id": 179,
+            "start": 11,
+            "end": 70,
+            "growth": 0.6943,
+            "scorerate": 26.612
+          },
+          {
+            "id": 180,
+            "start": 11,
+            "end": 70,
+            "growth": 0.6944,
+            "scorerate": 26.678
+          },
+          {
+            "id": 181,
+            "start": 11,
+            "end": 70,
+            "growth": 0.6945,
+            "scorerate": 26.745
+          },
+          {
+            "id": 182,
+            "start": 11,
+            "end": 70,
+            "growth": 0.6946,
+            "scorerate": 26.812
+          },
+          {
+            "id": 183,
+            "start": 11,
+            "end": 70,
+            "growth": 0.6947,
+            "scorerate": 26.878
+          },
+          {
+            "id": 184,
+            "start": 11,
+            "end": 71,
+            "growth": 0.6948,
+            "scorerate": 27.136
+          },
+          {
+            "id": 185,
+            "start": 11,
+            "end": 71,
+            "growth": 0.6949,
+            "scorerate": 27.203
+          },
+          {
+            "id": 186,
+            "start": 11,
+            "end": 71,
+            "growth": 0.695,
+            "scorerate": 27.269
+          },
+          {
+            "id": 187,
+            "start": 11,
+            "end": 71,
+            "growth": 0.6951,
+            "scorerate": 27.336
+          },
+          {
+            "id": 188,
+            "start": 11,
+            "end": 71,
+            "growth": 0.6952,
+            "scorerate": 27.402
+          },
+          {
+            "id": 189,
+            "start": 11,
+            "end": 71,
+            "growth": 0.6953,
+            "scorerate": 27.468
+          },
+          {
+            "id": 190,
+            "start": 11,
+            "end": 71,
+            "growth": 0.6954,
+            "scorerate": 27.534
+          },
+          {
+            "id": 191,
+            "start": 11,
+            "end": 72,
+            "growth": 0.6955,
+            "scorerate": 27.794
+          },
+          {
+            "id": 192,
+            "start": 11,
+            "end": 72,
+            "growth": 0.6956,
+            "scorerate": 27.86
+          },
+          {
+            "id": 193,
+            "start": 11,
+            "end": 72,
+            "growth": 0.6957,
+            "scorerate": 27.926
+          },
+          {
+            "id": 194,
+            "start": 11,
+            "end": 72,
+            "growth": 0.6958,
+            "scorerate": 27.992
+          },
+          {
+            "id": 195,
+            "start": 11,
+            "end": 72,
+            "growth": 0.6959,
+            "scorerate": 28.058
+          },
+          {
+            "id": 196,
+            "start": 11,
+            "end": 72,
+            "growth": 0.696,
+            "scorerate": 28.124
+          },
+          {
+            "id": 197,
+            "start": 11,
+            "end": 72,
+            "growth": 0.6961,
+            "scorerate": 28.19
+          },
+          {
+            "id": 198,
+            "start": 11,
+            "end": 73,
+            "growth": 0.6962,
+            "scorerate": 28.451
+          },
+          {
+            "id": 199,
+            "start": 11,
+            "end": 73,
+            "growth": 0.6963,
+            "scorerate": 28.517
+          },
+          {
+            "id": 200,
+            "start": 11,
+            "end": 73,
+            "growth": 0.6964,
+            "scorerate": 28.582
+          },
+          {
+            "id": 201,
+            "start": 11,
+            "end": 73,
+            "growth": 0.6965,
+            "scorerate": 28.648
+          },
+          {
+            "id": 202,
+            "start": 11,
+            "end": 73,
+            "growth": 0.6966,
+            "scorerate": 28.714
+          },
+          {
+            "id": 203,
+            "start": 11,
+            "end": 73,
+            "growth": 0.6967,
+            "scorerate": 28.779
+          },
+          {
+            "id": 204,
+            "start": 11,
+            "end": 73,
+            "growth": 0.6968,
+            "scorerate": 28.844
+          },
+          {
+            "id": 205,
+            "start": 11,
+            "end": 74,
+            "growth": 0.6969,
+            "scorerate": 29.107
+          },
+          {
+            "id": 206,
+            "start": 11,
+            "end": 74,
+            "growth": 0.697,
+            "scorerate": 29.172
+          },
+          {
+            "id": 207,
+            "start": 11,
+            "end": 74,
+            "growth": 0.6971,
+            "scorerate": 29.238
+          },
+          {
+            "id": 208,
+            "start": 11,
+            "end": 74,
+            "growth": 0.6972,
+            "scorerate": 29.303
+          },
+          {
+            "id": 209,
+            "start": 11,
+            "end": 74,
+            "growth": 0.6973,
+            "scorerate": 29.368
+          },
+          {
+            "id": 210,
+            "start": 11,
+            "end": 74,
+            "growth": 0.6974,
+            "scorerate": 29.433
+          },
+          {
+            "id": 211,
+            "start": 11,
+            "end": 75,
+            "growth": 0.6975,
+            "scorerate": 29.697
+          },
+          {
+            "id": 212,
+            "start": 11,
+            "end": 75,
+            "growth": 0.6976,
+            "scorerate": 29.762
+          },
+          {
+            "id": 213,
+            "start": 11,
+            "end": 75,
+            "growth": 0.6977,
+            "scorerate": 29.828
+          },
+          {
+            "id": 214,
+            "start": 11,
+            "end": 75,
+            "growth": 0.6978,
+            "scorerate": 29.893
+          },
+          {
+            "id": 215,
+            "start": 11,
+            "end": 75,
+            "growth": 0.6979,
+            "scorerate": 29.958
+          },
+          {
+            "id": 216,
+            "start": 11,
+            "end": 75,
+            "growth": 0.698,
+            "scorerate": 30.022
+          },
+          {
+            "id": 217,
+            "start": 11,
+            "end": 75,
+            "growth": 0.6981,
+            "scorerate": 30.087
+          },
+          {
+            "id": 218,
+            "start": 11,
+            "end": 76,
+            "growth": 0.6982,
+            "scorerate": 30.352
+          },
+          {
+            "id": 219,
+            "start": 11,
+            "end": 76,
+            "growth": 0.6983,
+            "scorerate": 30.417
+          },
+          {
+            "id": 220,
+            "start": 11,
+            "end": 76,
+            "growth": 0.6984,
+            "scorerate": 30.482
+          },
+          {
+            "id": 221,
+            "start": 12,
+            "end": 77,
+            "growth": 0.6985,
+            "scorerate": 32.114
+          },
+          {
+            "id": 222,
+            "start": 12,
+            "end": 77,
+            "growth": 0.6986,
+            "scorerate": 32.182
+          },
+          {
+            "id": 223,
+            "start": 12,
+            "end": 77,
+            "growth": 0.6987,
+            "scorerate": 32.25
+          },
+          {
+            "id": 224,
+            "start": 12,
+            "end": 77,
+            "growth": 0.6988,
+            "scorerate": 32.318
+          },
+          {
+            "id": 225,
+            "start": 12,
+            "end": 78,
+            "growth": 0.6989,
+            "scorerate": 32.596
+          },
+          {
+            "id": 226,
+            "start": 12,
+            "end": 78,
+            "growth": 0.699,
+            "scorerate": 32.664
+          },
+          {
+            "id": 227,
+            "start": 12,
+            "end": 78,
+            "growth": 0.6991,
+            "scorerate": 32.731
+          },
+          {
+            "id": 228,
+            "start": 12,
+            "end": 78,
+            "growth": 0.6992,
+            "scorerate": 32.799
+          },
+          {
+            "id": 229,
+            "start": 12,
+            "end": 78,
+            "growth": 0.6993,
+            "scorerate": 32.867
+          },
+          {
+            "id": 230,
+            "start": 12,
+            "end": 78,
+            "growth": 0.6994,
+            "scorerate": 32.935
+          },
+          {
+            "id": 231,
+            "start": 12,
+            "end": 79,
+            "growth": 0.6995,
+            "scorerate": 33.213
+          },
+          {
+            "id": 232,
+            "start": 12,
+            "end": 79,
+            "growth": 0.6996,
+            "scorerate": 33.281
+          },
+          {
+            "id": 233,
+            "start": 12,
+            "end": 79,
+            "growth": 0.6997,
+            "scorerate": 33.349
+          },
+          {
+            "id": 234,
+            "start": 12,
+            "end": 79,
+            "growth": 0.6998,
+            "scorerate": 33.416
+          },
+          {
+            "id": 235,
+            "start": 12,
+            "end": 79,
+            "growth": 0.6999,
+            "scorerate": 33.484
+          },
+          {
+            "id": 236,
+            "start": 12,
+            "end": 79,
+            "growth": 0.7,
+            "scorerate": 33.551
+          },
+          {
+            "id": 237,
+            "start": 12,
+            "end": 79,
+            "growth": 0.7001,
+            "scorerate": 33.619
+          },
+          {
+            "id": 238,
+            "start": 12,
+            "end": 80,
+            "growth": 0.7002,
+            "scorerate": 33.898
+          },
+          {
+            "id": 239,
+            "start": 12,
+            "end": 80,
+            "growth": 0.7003,
+            "scorerate": 33.966
+          },
+          {
+            "id": 240,
+            "start": 12,
+            "end": 80,
+            "growth": 0.7004,
+            "scorerate": 34.033
+          },
+          {
+            "id": 241,
+            "start": 12,
+            "end": 80,
+            "growth": 0.7005,
+            "scorerate": 34.101
+          },
+          {
+            "id": 242,
+            "start": 12,
+            "end": 80,
+            "growth": 0.7006,
+            "scorerate": 34.168
+          },
+          {
+            "id": 243,
+            "start": 12,
+            "end": 80,
+            "growth": 0.7007,
+            "scorerate": 34.235
+          },
+          {
+            "id": 244,
+            "start": 12,
+            "end": 80,
+            "growth": 0.7008,
+            "scorerate": 34.302
+          },
+          {
+            "id": 245,
+            "start": 12,
+            "end": 81,
+            "growth": 0.7009,
+            "scorerate": 34.583
+          },
+          {
+            "id": 246,
+            "start": 12,
+            "end": 81,
+            "growth": 0.701,
+            "scorerate": 34.651
+          },
+          {
+            "id": 247,
+            "start": 12,
+            "end": 81,
+            "growth": 0.7011,
+            "scorerate": 34.718
+          },
+          {
+            "id": 248,
+            "start": 12,
+            "end": 81,
+            "growth": 0.7012,
+            "scorerate": 34.785
+          },
+          {
+            "id": 249,
+            "start": 12,
+            "end": 81,
+            "growth": 0.7013,
+            "scorerate": 34.852
+          },
+          {
+            "id": 250,
+            "start": 12,
+            "end": 81,
+            "growth": 0.7014,
+            "scorerate": 34.919
+          },
+          {
+            "id": 251,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7015,
+            "scorerate": 35.201
+          },
+          {
+            "id": 252,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7016,
+            "scorerate": 35.268
+          },
+          {
+            "id": 253,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7017,
+            "scorerate": 35.335
+          },
+          {
+            "id": 254,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7018,
+            "scorerate": 35.402
+          },
+          {
+            "id": 255,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7019,
+            "scorerate": 35.469
+          },
+          {
+            "id": 256,
+            "start": 12,
+            "end": 82,
+            "growth": 0.702,
+            "scorerate": 35.536
+          },
+          {
+            "id": 257,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7021,
+            "scorerate": 35.603
+          },
+          {
+            "id": 258,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7022,
+            "scorerate": 35.669
+          },
+          {
+            "id": 259,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7023,
+            "scorerate": 35.736
+          },
+          {
+            "id": 260,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7024,
+            "scorerate": 35.802
+          },
+          {
+            "id": 261,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7025,
+            "scorerate": 35.869
+          },
+          {
+            "id": 262,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7026,
+            "scorerate": 35.935
+          },
+          {
+            "id": 263,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7027,
+            "scorerate": 36.001
+          },
+          {
+            "id": 264,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7028,
+            "scorerate": 36.067
+          },
+          {
+            "id": 265,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7029,
+            "scorerate": 36.133
+          },
+          {
+            "id": 266,
+            "start": 12,
+            "end": 82,
+            "growth": 0.703,
+            "scorerate": 36.199
+          },
+          {
+            "id": 267,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7031,
+            "scorerate": 36.265
+          },
+          {
+            "id": 268,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7032,
+            "scorerate": 36.331
+          },
+          {
+            "id": 269,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7033,
+            "scorerate": 36.396
+          },
+          {
+            "id": 270,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7034,
+            "scorerate": 36.462
+          },
+          {
+            "id": 271,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7035,
+            "scorerate": 36.528
+          },
+          {
+            "id": 272,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7036,
+            "scorerate": 36.593
+          },
+          {
+            "id": 273,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7037,
+            "scorerate": 36.658
+          },
+          {
+            "id": 274,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7038,
+            "scorerate": 36.724
+          },
+          {
+            "id": 275,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7039,
+            "scorerate": 36.789
+          },
+          {
+            "id": 276,
+            "start": 12,
+            "end": 82,
+            "growth": 0.704,
+            "scorerate": 36.854
+          },
+          {
+            "id": 277,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7041,
+            "scorerate": 36.919
+          },
+          {
+            "id": 278,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7042,
+            "scorerate": 36.984
+          },
+          {
+            "id": 279,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7043,
+            "scorerate": 37.049
+          },
+          {
+            "id": 280,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7044,
+            "scorerate": 37.114
+          },
+          {
+            "id": 281,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7045,
+            "scorerate": 37.178
+          },
+          {
+            "id": 282,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7046,
+            "scorerate": 37.243
+          },
+          {
+            "id": 283,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7047,
+            "scorerate": 37.307
+          },
+          {
+            "id": 284,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7048,
+            "scorerate": 37.372
+          },
+          {
+            "id": 285,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7049,
+            "scorerate": 37.436
+          },
+          {
+            "id": 286,
+            "start": 12,
+            "end": 82,
+            "growth": 0.705,
+            "scorerate": 37.501
+          },
+          {
+            "id": 287,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7051,
+            "scorerate": 37.565
+          },
+          {
+            "id": 288,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7052,
+            "scorerate": 37.629
+          },
+          {
+            "id": 289,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7053,
+            "scorerate": 37.693
+          },
+          {
+            "id": 290,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7054,
+            "scorerate": 37.757
+          },
+          {
+            "id": 291,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7055,
+            "scorerate": 37.821
+          },
+          {
+            "id": 292,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7056,
+            "scorerate": 37.885
+          },
+          {
+            "id": 293,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7057,
+            "scorerate": 37.949
+          },
+          {
+            "id": 294,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7058,
+            "scorerate": 38.012
+          },
+          {
+            "id": 295,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7059,
+            "scorerate": 38.076
+          },
+          {
+            "id": 296,
+            "start": 12,
+            "end": 82,
+            "growth": 0.706,
+            "scorerate": 38.14
+          },
+          {
+            "id": 297,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7061,
+            "scorerate": 38.203
+          },
+          {
+            "id": 298,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7062,
+            "scorerate": 38.267
+          },
+          {
+            "id": 299,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7063,
+            "scorerate": 38.33
+          },
+          {
+            "id": 300,
+            "start": 12,
+            "end": 82,
+            "growth": 0.7064,
+            "scorerate": 38.393
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

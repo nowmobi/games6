@@ -1,0 +1,251 @@
+
+knight.png
+size: 418, 78
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Skin1/Body
+  rotate: false
+  xy: 333, 40
+  size: 41, 36
+  orig: 51, 48
+  offset: 5, 5
+  index: -1
+Skin1/Head
+  rotate: true
+  xy: 195, 30
+  size: 46, 44
+  orig: 89, 74
+  offset: 20, 9
+  index: -1
+Skin1/Left Foot
+  rotate: false
+  xy: 40, 4
+  size: 16, 12
+  orig: 31, 26
+  offset: 7, 7
+  index: -1
+Skin2/Left Foot
+  rotate: false
+  xy: 40, 4
+  size: 16, 12
+  orig: 31, 26
+  offset: 7, 7
+  index: -1
+Skin3/Left Foot
+  rotate: false
+  xy: 40, 4
+  size: 16, 12
+  orig: 31, 26
+  offset: 7, 7
+  index: -1
+Skin1/Left Hand
+  rotate: true
+  xy: 102, 2
+  size: 20, 25
+  orig: 36, 34
+  offset: 10, 5
+  index: -1
+Skin1/Right Foot
+  rotate: false
+  xy: 58, 4
+  size: 15, 12
+  orig: 28, 25
+  offset: 7, 7
+  index: -1
+Skin2/Right Foot
+  rotate: false
+  xy: 58, 4
+  size: 15, 12
+  orig: 28, 25
+  offset: 7, 7
+  index: -1
+Skin3/Right Foot
+  rotate: false
+  xy: 58, 4
+  size: 15, 12
+  orig: 28, 25
+  offset: 7, 7
+  index: -1
+Skin1/Right Hand
+  rotate: true
+  xy: 129, 2
+  size: 20, 25
+  orig: 31, 30
+  offset: 4, 2
+  index: -1
+Skin1/Weapon
+  rotate: false
+  xy: 75, 15
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Skin2/Body
+  rotate: false
+  xy: 342, 2
+  size: 40, 36
+  orig: 51, 48
+  offset: 6, 4
+  index: -1
+Skin2/Head
+  rotate: false
+  xy: 148, 30
+  size: 45, 46
+  orig: 89, 74
+  offset: 21, 10
+  index: -1
+Skin2/Left Hand
+  rotate: false
+  xy: 156, 3
+  size: 20, 25
+  orig: 36, 34
+  offset: 10, 5
+  index: -1
+Skin2/Right Hand
+  rotate: false
+  xy: 178, 3
+  size: 20, 25
+  orig: 31, 30
+  offset: 4, 2
+  index: -1
+Skin2/Weapon
+  rotate: true
+  xy: 304, 2
+  size: 35, 36
+  orig: 105, 97
+  offset: 16, 18
+  index: -1
+Skin3/Weapon
+  rotate: true
+  xy: 304, 2
+  size: 35, 36
+  orig: 105, 97
+  offset: 16, 18
+  index: -1
+Skin3/Body
+  rotate: false
+  xy: 376, 40
+  size: 40, 36
+  orig: 51, 48
+  offset: 6, 4
+  index: -1
+Skin3/Head
+  rotate: false
+  xy: 55, 18
+  size: 45, 58
+  orig: 89, 74
+  offset: 21, 10
+  index: -1
+Skin3/Left Hand
+  rotate: false
+  xy: 200, 3
+  size: 20, 25
+  orig: 36, 34
+  offset: 10, 5
+  index: -1
+Skin4/Left Hand
+  rotate: false
+  xy: 200, 3
+  size: 20, 25
+  orig: 36, 34
+  offset: 10, 5
+  index: -1
+Skin5/Left Hand
+  rotate: false
+  xy: 200, 3
+  size: 20, 25
+  orig: 36, 34
+  offset: 10, 5
+  index: -1
+Skin3/Right Hand
+  rotate: false
+  xy: 222, 3
+  size: 20, 25
+  orig: 31, 30
+  offset: 4, 2
+  index: -1
+Skin4/Body
+  rotate: false
+  xy: 290, 39
+  size: 41, 37
+  orig: 51, 48
+  offset: 6, 4
+  index: -1
+Skin5/Body
+  rotate: false
+  xy: 290, 39
+  size: 41, 37
+  orig: 51, 48
+  offset: 6, 4
+  index: -1
+Skin4/Head
+  rotate: true
+  xy: 102, 24
+  size: 52, 44
+  orig: 89, 74
+  offset: 20, 10
+  index: -1
+Skin4/Left Foot
+  rotate: false
+  xy: 2, 3
+  size: 17, 13
+  orig: 31, 26
+  offset: 7, 6
+  index: -1
+Skin5/Left Foot
+  rotate: false
+  xy: 2, 3
+  size: 17, 13
+  orig: 31, 26
+  offset: 7, 6
+  index: -1
+Skin4/Right Foot
+  rotate: false
+  xy: 21, 4
+  size: 17, 12
+  orig: 28, 25
+  offset: 6, 7
+  index: -1
+Skin5/Right Foot
+  rotate: false
+  xy: 21, 4
+  size: 17, 12
+  orig: 28, 25
+  offset: 6, 7
+  index: -1
+Skin4/Right Hand
+  rotate: false
+  xy: 282, 12
+  size: 20, 24
+  orig: 31, 30
+  offset: 4, 3
+  index: -1
+Skin5/Right Hand
+  rotate: false
+  xy: 282, 12
+  size: 20, 24
+  orig: 31, 30
+  offset: 4, 3
+  index: -1
+Skin4/Weapon
+  rotate: true
+  xy: 241, 38
+  size: 38, 47
+  orig: 105, 97
+  offset: 17, 13
+  index: -1
+Skin5/Head
+  rotate: true
+  xy: 2, 18
+  size: 58, 51
+  orig: 89, 74
+  offset: 14, 9
+  index: -1
+Skin5/Weapon
+  rotate: true
+  xy: 244, 3
+  size: 33, 36
+  orig: 105, 97
+  offset: 20, 14
+  index: -1

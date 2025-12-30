@@ -1,0 +1,127 @@
+{
+  "importBase": "import",
+  "nativeBase": "native",
+  "name": "resources",
+  "deps": [],
+  "uuids": [
+    "0cb6522fc",
+    "b1uKaIZexEwZGwLwcQ4fad",
+    "0c6Wb6x/dGcp2sqyGRXG9E",
+    "0dtMsBbH5GQbTRcDRLGWV3",
+    "19OpN+hX5J+7ZRmEePDmcV",
+    "1c2geyJLZDzoWmV6GxgtIf",
+    "2fQZWNLhpJ5KyiGqNVA1Kv",
+    "40Rn1QmxxI9qUXxV8rt42w",
+    "41fd74a2REMJQ6otzBzxpb",
+    "44FB8bGvBNyJl2UDT86g5H",
+    "45612miGNA3YwUXCfIweEr",
+    "47y13tEFBO4JIQcxg1ijNc",
+    "49wFErJE1K8rUSTIpsLKyS",
+    "4fCQf9ONFMpY0Sr7uFNnYP",
+    "53spYAfGFGLIoNvqcMED2i",
+    "57UHIaYuhDS4H0u5+EkpVT",
+    "5cndZ6CydLLp5R7Ryg4BFl",
+    "5c1WgBRsxJvZGqOWm/QLI2",
+    "72IhHlSK5NkIhxr6ClS9qz",
+    "83KKliU2RK9omb7KrI0pel",
+    "89CgkY/RNEtKnryj/PTo96",
+    "8aJ7zUaFpB4ZYwHOM83ShA",
+    "8bPsp6m2pLSZoau1Wk6uKV",
+    "91tDl3OQtJVrRzq+Zx8UhX",
+    "9640ZFZ0BMAonXt3KAaPkY",
+    "b7yDDz7AdP6ImNI1XRVK1y",
+    "c1oL/w4chKaZMCnhPoe5x5",
+    "c5Eh628OVJD55XLqlhfoGg",
+    "caznOv6gxNBKskAKDrfIGr",
+    "cfOkfgFI1Hz4Qwp9Wa015F",
+    "d3N12vBmpKuJxukgv775nm",
+    "d3WuiC9YZOKb/JRuSeRL2V",
+    "d5SXUhxs1ATqQ9H5aq6REa",
+    "d61/TQgUNCC57J+6+d0f+y",
+    "dfu4bCerZDGIwN9419t0t0",
+    "eeJJ8+IuNFtqcbrfV2MDeH",
+    "efaIlIl2JOgqeKcIqRgBTA",
+    "f4UnsxlR5PYb7JMtF36bXV",
+    "f4XnHQUhlE/oqPHSOeTmL8",
+    "ffbxlRNxBOm5BGIGBDaVif"
+  ],
+  "paths": {
+    "1": [
+      "audio/audioData",
+      0
+    ],
+    "5": [
+      "Enemies/spawn-specials",
+      1
+    ],
+    "9": [
+      "Store/store",
+      1
+    ],
+    "18": [
+      "Levels/levels",
+      1
+    ],
+    "23": [
+      "Enemies/enemies",
+      1
+    ],
+    "34": [
+      "Waves/waves",
+      1
+    ],
+    "37": [
+      "Towers/towers-upgrades",
+      1
+    ]
+  },
+  "scenes": {},
+  "packs": {
+    "0cb6522fc": [
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "19",
+      "20",
+      "21",
+      "22",
+      "24",
+      "1",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "35",
+      "36",
+      "38",
+      "39"
+    ]
+  },
+  "versions": {
+    "import": [],
+    "native": []
+  },
+  "redirect": [],
+  "debug": false,
+  "extensionMap": {},
+  "types": [
+    "cc.Prefab",
+    "cc.JsonAsset"
+  ]
+}

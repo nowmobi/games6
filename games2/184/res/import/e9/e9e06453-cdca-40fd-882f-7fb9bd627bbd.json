@@ -1,0 +1,3208 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "wingman_lv",
+  "json": {
+    "1": {
+      "id": 1,
+      "atk_true": 400,
+      "atk_false": 400,
+      "com": 50,
+      "coc": [
+        505,
+        3
+      ],
+      "fskill": 5,
+      "shield": 1000,
+      "heal": 50,
+      "missle": 800,
+      "ballstic": 160
+    },
+    "2": {
+      "id": 2,
+      "atk_true": 415,
+      "atk_false": 415,
+      "com": 100,
+      "coc": [
+        505,
+        3
+      ],
+      "fskill": 10,
+      "shield": 1100,
+      "heal": 55,
+      "missle": 830,
+      "ballstic": 166
+    },
+    "3": {
+      "id": 3,
+      "atk_true": 430,
+      "atk_false": 430,
+      "com": 150,
+      "coc": [
+        505,
+        4
+      ],
+      "fskill": 15,
+      "shield": 1200,
+      "heal": 60,
+      "missle": 860,
+      "ballstic": 172
+    },
+    "4": {
+      "id": 4,
+      "atk_true": 445,
+      "atk_false": 445,
+      "com": 200,
+      "coc": [
+        505,
+        5
+      ],
+      "fskill": 20,
+      "shield": 1300,
+      "heal": 65,
+      "missle": 890,
+      "ballstic": 178
+    },
+    "5": {
+      "id": 5,
+      "atk_true": 460,
+      "atk_false": 460,
+      "com": 300,
+      "coc": [
+        505,
+        8
+      ],
+      "fskill": 25,
+      "shield": 1400,
+      "heal": 70,
+      "missle": 920,
+      "ballstic": 184
+    },
+    "6": {
+      "id": 6,
+      "atk_true": 475,
+      "atk_false": 475,
+      "com": 400,
+      "coc": [
+        505,
+        10
+      ],
+      "fskill": 30,
+      "shield": 1500,
+      "heal": 75,
+      "missle": 950,
+      "ballstic": 190
+    },
+    "7": {
+      "id": 7,
+      "atk_true": 490,
+      "atk_false": 490,
+      "com": 500,
+      "coc": [
+        505,
+        10
+      ],
+      "fskill": 35,
+      "shield": 1600,
+      "heal": 80,
+      "missle": 980,
+      "ballstic": 196
+    },
+    "8": {
+      "id": 8,
+      "atk_true": 505,
+      "atk_false": 505,
+      "com": 600,
+      "coc": [
+        505,
+        10
+      ],
+      "fskill": 40,
+      "shield": 1700,
+      "heal": 85,
+      "missle": 1010,
+      "ballstic": 202
+    },
+    "9": {
+      "id": 9,
+      "atk_true": 520,
+      "atk_false": 520,
+      "com": 700,
+      "coc": [
+        505,
+        12
+      ],
+      "fskill": 45,
+      "shield": 1800,
+      "heal": 90,
+      "missle": 1040,
+      "ballstic": 208
+    },
+    "10": {
+      "id": 10,
+      "atk_true": 535,
+      "atk_false": 535,
+      "com": 800,
+      "coc": [
+        505,
+        12
+      ],
+      "fskill": 50,
+      "shield": 1900,
+      "heal": 95,
+      "missle": 1070,
+      "ballstic": 214
+    },
+    "11": {
+      "id": 11,
+      "atk_true": 553,
+      "atk_false": 553,
+      "com": 1000,
+      "coc": [
+        505,
+        12
+      ],
+      "fskill": 55,
+      "shield": 2000,
+      "heal": 100,
+      "missle": 1100,
+      "ballstic": 221
+    },
+    "12": {
+      "id": 12,
+      "atk_true": 571,
+      "atk_false": 571,
+      "com": 1200,
+      "coc": [
+        505,
+        15
+      ],
+      "fskill": 60,
+      "shield": 2100,
+      "heal": 105,
+      "missle": 1140,
+      "ballstic": 228
+    },
+    "13": {
+      "id": 13,
+      "atk_true": 589,
+      "atk_false": 589,
+      "com": 1400,
+      "coc": [
+        505,
+        15
+      ],
+      "fskill": 65,
+      "shield": 2200,
+      "heal": 110,
+      "missle": 1170,
+      "ballstic": 235
+    },
+    "14": {
+      "id": 14,
+      "atk_true": 607,
+      "atk_false": 607,
+      "com": 1600,
+      "coc": [
+        505,
+        15
+      ],
+      "fskill": 70,
+      "shield": 2300,
+      "heal": 115,
+      "missle": 1210,
+      "ballstic": 242
+    },
+    "15": {
+      "id": 15,
+      "atk_true": 625,
+      "atk_false": 625,
+      "com": 1800,
+      "coc": [
+        505,
+        20
+      ],
+      "fskill": 75,
+      "shield": 2400,
+      "heal": 120,
+      "missle": 1250,
+      "ballstic": 250
+    },
+    "16": {
+      "id": 16,
+      "atk_true": 643,
+      "atk_false": 643,
+      "com": 2200,
+      "coc": [
+        505,
+        20
+      ],
+      "fskill": 80,
+      "shield": 2500,
+      "heal": 125,
+      "missle": 1280,
+      "ballstic": 257
+    },
+    "17": {
+      "id": 17,
+      "atk_true": 661,
+      "atk_false": 661,
+      "com": 2600,
+      "coc": [
+        505,
+        20
+      ],
+      "fskill": 85,
+      "shield": 2600,
+      "heal": 130,
+      "missle": 1320,
+      "ballstic": 264
+    },
+    "18": {
+      "id": 18,
+      "atk_true": 679,
+      "atk_false": 679,
+      "com": 3000,
+      "coc": [
+        505,
+        25
+      ],
+      "fskill": 90,
+      "shield": 2700,
+      "heal": 135,
+      "missle": 1350,
+      "ballstic": 271
+    },
+    "19": {
+      "id": 19,
+      "atk_true": 697,
+      "atk_false": 697,
+      "com": 3400,
+      "coc": [
+        505,
+        25
+      ],
+      "fskill": 95,
+      "shield": 2800,
+      "heal": 140,
+      "missle": 1390,
+      "ballstic": 278
+    },
+    "20": {
+      "id": 20,
+      "atk_true": 715,
+      "atk_false": 715,
+      "com": 4000,
+      "coc": [
+        505,
+        25
+      ],
+      "fskill": 100,
+      "shield": 2900,
+      "heal": 145,
+      "missle": 1430,
+      "ballstic": 286
+    },
+    "21": {
+      "id": 21,
+      "atk_true": 733,
+      "atk_false": 733,
+      "com": 4600,
+      "coc": [
+        505,
+        30
+      ],
+      "fskill": 105,
+      "shield": 3000,
+      "heal": 150,
+      "missle": 1460,
+      "ballstic": 293
+    },
+    "22": {
+      "id": 22,
+      "atk_true": 751,
+      "atk_false": 751,
+      "com": 5200,
+      "coc": [
+        505,
+        30
+      ],
+      "fskill": 110,
+      "shield": 3100,
+      "heal": 155,
+      "missle": 1500,
+      "ballstic": 300
+    },
+    "23": {
+      "id": 23,
+      "atk_true": 769,
+      "atk_false": 769,
+      "com": 5800,
+      "coc": [
+        505,
+        30
+      ],
+      "fskill": 115,
+      "shield": 3200,
+      "heal": 160,
+      "missle": 1530,
+      "ballstic": 307
+    },
+    "24": {
+      "id": 24,
+      "atk_true": 787,
+      "atk_false": 787,
+      "com": 6400,
+      "coc": [
+        505,
+        40
+      ],
+      "fskill": 120,
+      "shield": 3300,
+      "heal": 165,
+      "missle": 1570,
+      "ballstic": 314
+    },
+    "25": {
+      "id": 25,
+      "atk_true": 805,
+      "atk_false": 805,
+      "com": 7000,
+      "coc": [
+        505,
+        40
+      ],
+      "fskill": 125,
+      "shield": 3400,
+      "heal": 170,
+      "missle": 1610,
+      "ballstic": 322
+    },
+    "26": {
+      "id": 26,
+      "atk_true": 826,
+      "atk_false": 826,
+      "com": 7600,
+      "coc": [
+        505,
+        40
+      ],
+      "fskill": 130,
+      "shield": 3500,
+      "heal": 175,
+      "missle": 1650,
+      "ballstic": 330
+    },
+    "27": {
+      "id": 27,
+      "atk_true": 847,
+      "atk_false": 847,
+      "com": 8200,
+      "coc": [
+        505,
+        50
+      ],
+      "fskill": 135,
+      "shield": 3600,
+      "heal": 180,
+      "missle": 1690,
+      "ballstic": 338
+    },
+    "28": {
+      "id": 28,
+      "atk_true": 868,
+      "atk_false": 868,
+      "com": 8800,
+      "coc": [
+        505,
+        50
+      ],
+      "fskill": 140,
+      "shield": 3700,
+      "heal": 185,
+      "missle": 1730,
+      "ballstic": 347
+    },
+    "29": {
+      "id": 29,
+      "atk_true": 889,
+      "atk_false": 889,
+      "com": 9400,
+      "coc": [
+        505,
+        50
+      ],
+      "fskill": 145,
+      "shield": 3800,
+      "heal": 190,
+      "missle": 1770,
+      "ballstic": 355
+    },
+    "30": {
+      "id": 30,
+      "atk_true": 910,
+      "atk_false": 910,
+      "com": 10000,
+      "coc": [
+        505,
+        50
+      ],
+      "fskill": 150,
+      "shield": 3900,
+      "heal": 195,
+      "missle": 1820,
+      "ballstic": 364
+    },
+    "31": {
+      "id": 31,
+      "atk_true": 931,
+      "atk_false": 931,
+      "com": 11000,
+      "coc": [
+        505,
+        60
+      ],
+      "fskill": 155,
+      "shield": 4000,
+      "heal": 200,
+      "missle": 1860,
+      "ballstic": 372
+    },
+    "32": {
+      "id": 32,
+      "atk_true": 952,
+      "atk_false": 952,
+      "com": 12000,
+      "coc": [
+        505,
+        60
+      ],
+      "fskill": 160,
+      "shield": 4100,
+      "heal": 205,
+      "missle": 1900,
+      "ballstic": 380
+    },
+    "33": {
+      "id": 33,
+      "atk_true": 973,
+      "atk_false": 973,
+      "com": 13000,
+      "coc": [
+        505,
+        60
+      ],
+      "fskill": 165,
+      "shield": 4200,
+      "heal": 210,
+      "missle": 1940,
+      "ballstic": 389
+    },
+    "34": {
+      "id": 34,
+      "atk_true": 994,
+      "atk_false": 994,
+      "com": 14000,
+      "coc": [
+        505,
+        60
+      ],
+      "fskill": 170,
+      "shield": 4300,
+      "heal": 215,
+      "missle": 1980,
+      "ballstic": 397
+    },
+    "35": {
+      "id": 35,
+      "atk_true": 1015,
+      "atk_false": 1015,
+      "com": 15000,
+      "coc": [
+        505,
+        60
+      ],
+      "fskill": 175,
+      "shield": 4400,
+      "heal": 220,
+      "missle": 2030,
+      "ballstic": 406
+    },
+    "36": {
+      "id": 36,
+      "atk_true": 1036,
+      "atk_false": 1036,
+      "com": 16000,
+      "coc": [
+        505,
+        60
+      ],
+      "fskill": 180,
+      "shield": 4500,
+      "heal": 225,
+      "missle": 2070,
+      "ballstic": 414
+    },
+    "37": {
+      "id": 37,
+      "atk_true": 1057,
+      "atk_false": 1057,
+      "com": 17000,
+      "coc": [
+        505,
+        60
+      ],
+      "fskill": 185,
+      "shield": 4600,
+      "heal": 230,
+      "missle": 2110,
+      "ballstic": 422
+    },
+    "38": {
+      "id": 38,
+      "atk_true": 1078,
+      "atk_false": 1078,
+      "com": 18000,
+      "coc": [
+        505,
+        60
+      ],
+      "fskill": 190,
+      "shield": 4700,
+      "heal": 235,
+      "missle": 2150,
+      "ballstic": 431
+    },
+    "39": {
+      "id": 39,
+      "atk_true": 1099,
+      "atk_false": 1099,
+      "com": 19000,
+      "coc": [
+        505,
+        60
+      ],
+      "fskill": 195,
+      "shield": 4800,
+      "heal": 240,
+      "missle": 2190,
+      "ballstic": 439
+    },
+    "40": {
+      "id": 40,
+      "atk_true": 1120,
+      "atk_false": 1120,
+      "com": 20000,
+      "coc": [
+        505,
+        60
+      ],
+      "fskill": 200,
+      "shield": 4900,
+      "heal": 245,
+      "missle": 2240,
+      "ballstic": 448
+    },
+    "41": {
+      "id": 41,
+      "atk_true": 1141,
+      "atk_false": 1141,
+      "com": 22000,
+      "coc": [
+        505,
+        80
+      ],
+      "fskill": 205,
+      "shield": 5000,
+      "heal": 250,
+      "missle": 2280,
+      "ballstic": 456
+    },
+    "42": {
+      "id": 42,
+      "atk_true": 1162,
+      "atk_false": 1162,
+      "com": 24000,
+      "coc": [
+        505,
+        80
+      ],
+      "fskill": 210,
+      "shield": 5100,
+      "heal": 255,
+      "missle": 2320,
+      "ballstic": 464
+    },
+    "43": {
+      "id": 43,
+      "atk_true": 1183,
+      "atk_false": 1183,
+      "com": 26000,
+      "coc": [
+        505,
+        80
+      ],
+      "fskill": 215,
+      "shield": 5200,
+      "heal": 260,
+      "missle": 2360,
+      "ballstic": 473
+    },
+    "44": {
+      "id": 44,
+      "atk_true": 1204,
+      "atk_false": 1204,
+      "com": 28000,
+      "coc": [
+        505,
+        80
+      ],
+      "fskill": 220,
+      "shield": 5300,
+      "heal": 265,
+      "missle": 2400,
+      "ballstic": 481
+    },
+    "45": {
+      "id": 45,
+      "atk_true": 1225,
+      "atk_false": 1225,
+      "com": 30000,
+      "coc": [
+        505,
+        80
+      ],
+      "fskill": 225,
+      "shield": 5400,
+      "heal": 270,
+      "missle": 2450,
+      "ballstic": 490
+    },
+    "46": {
+      "id": 46,
+      "atk_true": 1246,
+      "atk_false": 1246,
+      "com": 32000,
+      "coc": [
+        505,
+        80
+      ],
+      "fskill": 230,
+      "shield": 5500,
+      "heal": 275,
+      "missle": 2490,
+      "ballstic": 498
+    },
+    "47": {
+      "id": 47,
+      "atk_true": 1267,
+      "atk_false": 1267,
+      "com": 34000,
+      "coc": [
+        505,
+        80
+      ],
+      "fskill": 235,
+      "shield": 5600,
+      "heal": 280,
+      "missle": 2530,
+      "ballstic": 506
+    },
+    "48": {
+      "id": 48,
+      "atk_true": 1288,
+      "atk_false": 1288,
+      "com": 36000,
+      "coc": [
+        505,
+        80
+      ],
+      "fskill": 240,
+      "shield": 5700,
+      "heal": 285,
+      "missle": 2570,
+      "ballstic": 515
+    },
+    "49": {
+      "id": 49,
+      "atk_true": 1309,
+      "atk_false": 1309,
+      "com": 38000,
+      "coc": [
+        505,
+        80
+      ],
+      "fskill": 245,
+      "shield": 5800,
+      "heal": 290,
+      "missle": 2610,
+      "ballstic": 523
+    },
+    "50": {
+      "id": 50,
+      "atk_true": 1330,
+      "atk_false": 1330,
+      "com": 40000,
+      "coc": [
+        505,
+        80
+      ],
+      "fskill": 250,
+      "shield": 5900,
+      "heal": 295,
+      "missle": 2660,
+      "ballstic": 532
+    },
+    "51": {
+      "id": 51,
+      "atk_true": 1354,
+      "atk_false": 1354,
+      "com": 43000,
+      "coc": [
+        505,
+        100
+      ],
+      "fskill": 255,
+      "shield": 6000,
+      "heal": 300,
+      "missle": 2700,
+      "ballstic": 541
+    },
+    "52": {
+      "id": 52,
+      "atk_true": 1378,
+      "atk_false": 1378,
+      "com": 46000,
+      "coc": [
+        505,
+        100
+      ],
+      "fskill": 260,
+      "shield": 6100,
+      "heal": 305,
+      "missle": 2750,
+      "ballstic": 551
+    },
+    "53": {
+      "id": 53,
+      "atk_true": 1402,
+      "atk_false": 1402,
+      "com": 49000,
+      "coc": [
+        505,
+        100
+      ],
+      "fskill": 265,
+      "shield": 6200,
+      "heal": 310,
+      "missle": 2800,
+      "ballstic": 560
+    },
+    "54": {
+      "id": 54,
+      "atk_true": 1426,
+      "atk_false": 1426,
+      "com": 52000,
+      "coc": [
+        505,
+        100
+      ],
+      "fskill": 270,
+      "shield": 6300,
+      "heal": 315,
+      "missle": 2850,
+      "ballstic": 570
+    },
+    "55": {
+      "id": 55,
+      "atk_true": 1450,
+      "atk_false": 1450,
+      "com": 55000,
+      "coc": [
+        505,
+        100
+      ],
+      "fskill": 275,
+      "shield": 6400,
+      "heal": 320,
+      "missle": 2900,
+      "ballstic": 580
+    },
+    "56": {
+      "id": 56,
+      "atk_true": 1474,
+      "atk_false": 1474,
+      "com": 58000,
+      "coc": [
+        505,
+        100
+      ],
+      "fskill": 280,
+      "shield": 6500,
+      "heal": 325,
+      "missle": 2940,
+      "ballstic": 589
+    },
+    "57": {
+      "id": 57,
+      "atk_true": 1498,
+      "atk_false": 1498,
+      "com": 61000,
+      "coc": [
+        505,
+        100
+      ],
+      "fskill": 285,
+      "shield": 6600,
+      "heal": 330,
+      "missle": 2990,
+      "ballstic": 599
+    },
+    "58": {
+      "id": 58,
+      "atk_true": 1522,
+      "atk_false": 1522,
+      "com": 64000,
+      "coc": [
+        505,
+        100
+      ],
+      "fskill": 290,
+      "shield": 6700,
+      "heal": 335,
+      "missle": 3040,
+      "ballstic": 608
+    },
+    "59": {
+      "id": 59,
+      "atk_true": 1546,
+      "atk_false": 1546,
+      "com": 67000,
+      "coc": [
+        505,
+        100
+      ],
+      "fskill": 295,
+      "shield": 6800,
+      "heal": 340,
+      "missle": 3090,
+      "ballstic": 618
+    },
+    "60": {
+      "id": 60,
+      "atk_true": 1570,
+      "atk_false": 1570,
+      "com": 70000,
+      "coc": [
+        505,
+        100
+      ],
+      "fskill": 300,
+      "shield": 6900,
+      "heal": 345,
+      "missle": 3140,
+      "ballstic": 628
+    },
+    "61": {
+      "id": 61,
+      "atk_true": 1594,
+      "atk_false": 1594,
+      "com": 74000,
+      "coc": [
+        505,
+        120
+      ],
+      "fskill": 305,
+      "shield": 7000,
+      "heal": 350,
+      "missle": 3180,
+      "ballstic": 637
+    },
+    "62": {
+      "id": 62,
+      "atk_true": 1618,
+      "atk_false": 1618,
+      "com": 78000,
+      "coc": [
+        505,
+        120
+      ],
+      "fskill": 310,
+      "shield": 7100,
+      "heal": 355,
+      "missle": 3230,
+      "ballstic": 647
+    },
+    "63": {
+      "id": 63,
+      "atk_true": 1642,
+      "atk_false": 1642,
+      "com": 82000,
+      "coc": [
+        505,
+        120
+      ],
+      "fskill": 315,
+      "shield": 7200,
+      "heal": 360,
+      "missle": 3280,
+      "ballstic": 656
+    },
+    "64": {
+      "id": 64,
+      "atk_true": 1666,
+      "atk_false": 1666,
+      "com": 86000,
+      "coc": [
+        505,
+        120
+      ],
+      "fskill": 320,
+      "shield": 7300,
+      "heal": 365,
+      "missle": 3330,
+      "ballstic": 666
+    },
+    "65": {
+      "id": 65,
+      "atk_true": 1690,
+      "atk_false": 1690,
+      "com": 90000,
+      "coc": [
+        505,
+        120
+      ],
+      "fskill": 325,
+      "shield": 7400,
+      "heal": 370,
+      "missle": 3380,
+      "ballstic": 676
+    },
+    "66": {
+      "id": 66,
+      "atk_true": 1714,
+      "atk_false": 1714,
+      "com": 94000,
+      "coc": [
+        505,
+        120
+      ],
+      "fskill": 330,
+      "shield": 7500,
+      "heal": 375,
+      "missle": 3420,
+      "ballstic": 685
+    },
+    "67": {
+      "id": 67,
+      "atk_true": 1738,
+      "atk_false": 1738,
+      "com": 98000,
+      "coc": [
+        505,
+        120
+      ],
+      "fskill": 335,
+      "shield": 7600,
+      "heal": 380,
+      "missle": 3470,
+      "ballstic": 695
+    },
+    "68": {
+      "id": 68,
+      "atk_true": 1762,
+      "atk_false": 1762,
+      "com": 102000,
+      "coc": [
+        505,
+        120
+      ],
+      "fskill": 340,
+      "shield": 7700,
+      "heal": 385,
+      "missle": 3520,
+      "ballstic": 704
+    },
+    "69": {
+      "id": 69,
+      "atk_true": 1786,
+      "atk_false": 1786,
+      "com": 106000,
+      "coc": [
+        505,
+        120
+      ],
+      "fskill": 345,
+      "shield": 7800,
+      "heal": 390,
+      "missle": 3570,
+      "ballstic": 714
+    },
+    "70": {
+      "id": 70,
+      "atk_true": 1810,
+      "atk_false": 1810,
+      "com": 110000,
+      "coc": [
+        505,
+        120
+      ],
+      "fskill": 350,
+      "shield": 7900,
+      "heal": 395,
+      "missle": 3620,
+      "ballstic": 724
+    },
+    "71": {
+      "id": 71,
+      "atk_true": 1834,
+      "atk_false": 1834,
+      "com": 115000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 355,
+      "shield": 8000,
+      "heal": 400,
+      "missle": 3660,
+      "ballstic": 733
+    },
+    "72": {
+      "id": 72,
+      "atk_true": 1858,
+      "atk_false": 1858,
+      "com": 120000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 360,
+      "shield": 8100,
+      "heal": 405,
+      "missle": 3710,
+      "ballstic": 743
+    },
+    "73": {
+      "id": 73,
+      "atk_true": 1882,
+      "atk_false": 1882,
+      "com": 125000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 365,
+      "shield": 8200,
+      "heal": 410,
+      "missle": 3760,
+      "ballstic": 752
+    },
+    "74": {
+      "id": 74,
+      "atk_true": 1906,
+      "atk_false": 1906,
+      "com": 130000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 370,
+      "shield": 8300,
+      "heal": 415,
+      "missle": 3810,
+      "ballstic": 762
+    },
+    "75": {
+      "id": 75,
+      "atk_true": 1930,
+      "atk_false": 1930,
+      "com": 135000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 375,
+      "shield": 8400,
+      "heal": 420,
+      "missle": 3860,
+      "ballstic": 772
+    },
+    "76": {
+      "id": 76,
+      "atk_true": 1954,
+      "atk_false": 1954,
+      "com": 140000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 380,
+      "shield": 8500,
+      "heal": 425,
+      "missle": 3900,
+      "ballstic": 781
+    },
+    "77": {
+      "id": 77,
+      "atk_true": 1978,
+      "atk_false": 1978,
+      "com": 145000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 385,
+      "shield": 8600,
+      "heal": 430,
+      "missle": 3950,
+      "ballstic": 791
+    },
+    "78": {
+      "id": 78,
+      "atk_true": 2002,
+      "atk_false": 2002,
+      "com": 150000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 390,
+      "shield": 8700,
+      "heal": 435,
+      "missle": 4000,
+      "ballstic": 800
+    },
+    "79": {
+      "id": 79,
+      "atk_true": 2026,
+      "atk_false": 2026,
+      "com": 155000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 395,
+      "shield": 8800,
+      "heal": 440,
+      "missle": 4050,
+      "ballstic": 810
+    },
+    "80": {
+      "id": 80,
+      "atk_true": 2050,
+      "atk_false": 2050,
+      "com": 160000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 400,
+      "shield": 8900,
+      "heal": 445,
+      "missle": 4100,
+      "ballstic": 820
+    },
+    "81": {
+      "id": 81,
+      "atk_true": 2080,
+      "atk_false": 2080,
+      "com": 165000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 405,
+      "shield": 9000,
+      "heal": 450,
+      "missle": 4160,
+      "ballstic": 832
+    },
+    "82": {
+      "id": 82,
+      "atk_true": 2110,
+      "atk_false": 2110,
+      "com": 170000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 410,
+      "shield": 9100,
+      "heal": 455,
+      "missle": 4220,
+      "ballstic": 844
+    },
+    "83": {
+      "id": 83,
+      "atk_true": 2140,
+      "atk_false": 2140,
+      "com": 175000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 415,
+      "shield": 9200,
+      "heal": 460,
+      "missle": 4280,
+      "ballstic": 856
+    },
+    "84": {
+      "id": 84,
+      "atk_true": 2170,
+      "atk_false": 2170,
+      "com": 180000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 420,
+      "shield": 9300,
+      "heal": 465,
+      "missle": 4340,
+      "ballstic": 868
+    },
+    "85": {
+      "id": 85,
+      "atk_true": 2200,
+      "atk_false": 2200,
+      "com": 185000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 425,
+      "shield": 9400,
+      "heal": 470,
+      "missle": 4400,
+      "ballstic": 880
+    },
+    "86": {
+      "id": 86,
+      "atk_true": 2230,
+      "atk_false": 2230,
+      "com": 190000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 430,
+      "shield": 9500,
+      "heal": 475,
+      "missle": 4460,
+      "ballstic": 892
+    },
+    "87": {
+      "id": 87,
+      "atk_true": 2260,
+      "atk_false": 2260,
+      "com": 195000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 435,
+      "shield": 9600,
+      "heal": 480,
+      "missle": 4520,
+      "ballstic": 904
+    },
+    "88": {
+      "id": 88,
+      "atk_true": 2290,
+      "atk_false": 2290,
+      "com": 200000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 440,
+      "shield": 9700,
+      "heal": 485,
+      "missle": 4580,
+      "ballstic": 916
+    },
+    "89": {
+      "id": 89,
+      "atk_true": 2320,
+      "atk_false": 2320,
+      "com": 205000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 445,
+      "shield": 9800,
+      "heal": 490,
+      "missle": 4640,
+      "ballstic": 928
+    },
+    "90": {
+      "id": 90,
+      "atk_true": 2350,
+      "atk_false": 2350,
+      "com": 210000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 450,
+      "shield": 9900,
+      "heal": 495,
+      "missle": 4700,
+      "ballstic": 940
+    },
+    "91": {
+      "id": 91,
+      "atk_true": 2380,
+      "atk_false": 2380,
+      "com": 215000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 455,
+      "shield": 10000,
+      "heal": 500,
+      "missle": 4760,
+      "ballstic": 952
+    },
+    "92": {
+      "id": 92,
+      "atk_true": 2410,
+      "atk_false": 2410,
+      "com": 220000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 460,
+      "shield": 10100,
+      "heal": 505,
+      "missle": 4820,
+      "ballstic": 964
+    },
+    "93": {
+      "id": 93,
+      "atk_true": 2440,
+      "atk_false": 2440,
+      "com": 225000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 465,
+      "shield": 10200,
+      "heal": 510,
+      "missle": 4880,
+      "ballstic": 976
+    },
+    "94": {
+      "id": 94,
+      "atk_true": 2470,
+      "atk_false": 2470,
+      "com": 230000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 470,
+      "shield": 10300,
+      "heal": 515,
+      "missle": 4940,
+      "ballstic": 988
+    },
+    "95": {
+      "id": 95,
+      "atk_true": 2500,
+      "atk_false": 2500,
+      "com": 235000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 475,
+      "shield": 10400,
+      "heal": 520,
+      "missle": 5000,
+      "ballstic": 1000
+    },
+    "96": {
+      "id": 96,
+      "atk_true": 2530,
+      "atk_false": 2530,
+      "com": 240000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 480,
+      "shield": 10500,
+      "heal": 525,
+      "missle": 5060,
+      "ballstic": 1012
+    },
+    "97": {
+      "id": 97,
+      "atk_true": 2560,
+      "atk_false": 2560,
+      "com": 245000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 485,
+      "shield": 10600,
+      "heal": 530,
+      "missle": 5120,
+      "ballstic": 1024
+    },
+    "98": {
+      "id": 98,
+      "atk_true": 2590,
+      "atk_false": 2590,
+      "com": 250000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 490,
+      "shield": 10700,
+      "heal": 535,
+      "missle": 5180,
+      "ballstic": 1036
+    },
+    "99": {
+      "id": 99,
+      "atk_true": 2620,
+      "atk_false": 2620,
+      "com": 255000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 495,
+      "shield": 10800,
+      "heal": 540,
+      "missle": 5240,
+      "ballstic": 1048
+    },
+    "100": {
+      "id": 100,
+      "atk_true": 2650,
+      "atk_false": 2650,
+      "com": 260000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 500,
+      "shield": 10900,
+      "heal": 545,
+      "missle": 5300,
+      "ballstic": 1060
+    },
+    "101": {
+      "id": 101,
+      "atk_true": 2680,
+      "atk_false": 2680,
+      "com": 265000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 505,
+      "shield": 11000,
+      "heal": 550,
+      "missle": 5360,
+      "ballstic": 1072
+    },
+    "102": {
+      "id": 102,
+      "atk_true": 2710,
+      "atk_false": 2710,
+      "com": 270000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 510,
+      "shield": 11100,
+      "heal": 555,
+      "missle": 5420,
+      "ballstic": 1084
+    },
+    "103": {
+      "id": 103,
+      "atk_true": 2740,
+      "atk_false": 2740,
+      "com": 275000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 515,
+      "shield": 11200,
+      "heal": 560,
+      "missle": 5480,
+      "ballstic": 1096
+    },
+    "104": {
+      "id": 104,
+      "atk_true": 2770,
+      "atk_false": 2770,
+      "com": 280000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 520,
+      "shield": 11300,
+      "heal": 565,
+      "missle": 5540,
+      "ballstic": 1108
+    },
+    "105": {
+      "id": 105,
+      "atk_true": 2800,
+      "atk_false": 2800,
+      "com": 285000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 525,
+      "shield": 11400,
+      "heal": 570,
+      "missle": 5600,
+      "ballstic": 1120
+    },
+    "106": {
+      "id": 106,
+      "atk_true": 2830,
+      "atk_false": 2830,
+      "com": 290000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 530,
+      "shield": 11500,
+      "heal": 575,
+      "missle": 5660,
+      "ballstic": 1132
+    },
+    "107": {
+      "id": 107,
+      "atk_true": 2860,
+      "atk_false": 2860,
+      "com": 295000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 535,
+      "shield": 11600,
+      "heal": 580,
+      "missle": 5720,
+      "ballstic": 1144
+    },
+    "108": {
+      "id": 108,
+      "atk_true": 2890,
+      "atk_false": 2890,
+      "com": 300000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 540,
+      "shield": 11700,
+      "heal": 585,
+      "missle": 5780,
+      "ballstic": 1156
+    },
+    "109": {
+      "id": 109,
+      "atk_true": 2920,
+      "atk_false": 2920,
+      "com": 305000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 545,
+      "shield": 11800,
+      "heal": 590,
+      "missle": 5840,
+      "ballstic": 1168
+    },
+    "110": {
+      "id": 110,
+      "atk_true": 2950,
+      "atk_false": 2950,
+      "com": 310000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 550,
+      "shield": 11900,
+      "heal": 595,
+      "missle": 5900,
+      "ballstic": 1180
+    },
+    "111": {
+      "id": 111,
+      "atk_true": 2980,
+      "atk_false": 2980,
+      "com": 315000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 555,
+      "shield": 12000,
+      "heal": 600,
+      "missle": 5960,
+      "ballstic": 1192
+    },
+    "112": {
+      "id": 112,
+      "atk_true": 3010,
+      "atk_false": 3010,
+      "com": 320000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 560,
+      "shield": 12100,
+      "heal": 605,
+      "missle": 6020,
+      "ballstic": 1204
+    },
+    "113": {
+      "id": 113,
+      "atk_true": 3040,
+      "atk_false": 3040,
+      "com": 325000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 565,
+      "shield": 12200,
+      "heal": 610,
+      "missle": 6080,
+      "ballstic": 1216
+    },
+    "114": {
+      "id": 114,
+      "atk_true": 3070,
+      "atk_false": 3070,
+      "com": 330000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 570,
+      "shield": 12300,
+      "heal": 615,
+      "missle": 6140,
+      "ballstic": 1228
+    },
+    "115": {
+      "id": 115,
+      "atk_true": 3100,
+      "atk_false": 3100,
+      "com": 335000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 575,
+      "shield": 12400,
+      "heal": 620,
+      "missle": 6200,
+      "ballstic": 1240
+    },
+    "116": {
+      "id": 116,
+      "atk_true": 3130,
+      "atk_false": 3130,
+      "com": 340000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 580,
+      "shield": 12500,
+      "heal": 625,
+      "missle": 6260,
+      "ballstic": 1252
+    },
+    "117": {
+      "id": 117,
+      "atk_true": 3160,
+      "atk_false": 3160,
+      "com": 345000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 585,
+      "shield": 12600,
+      "heal": 630,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "118": {
+      "id": 118,
+      "atk_true": 3190,
+      "atk_false": 3190,
+      "com": 350000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 590,
+      "shield": 12700,
+      "heal": 635,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "119": {
+      "id": 119,
+      "atk_true": 3220,
+      "atk_false": 3220,
+      "com": 355000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 595,
+      "shield": 12800,
+      "heal": 640,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "120": {
+      "id": 120,
+      "atk_true": 3250,
+      "atk_false": 3250,
+      "com": 360000,
+      "coc": [
+        505,
+        150
+      ],
+      "fskill": 600,
+      "shield": 12900,
+      "heal": 645,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "121": {
+      "id": 121,
+      "atk_true": 3285,
+      "atk_false": 3285,
+      "com": 366000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 605,
+      "shield": 13000,
+      "heal": 650,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "122": {
+      "id": 122,
+      "atk_true": 3320,
+      "atk_false": 3320,
+      "com": 372000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 610,
+      "shield": 13100,
+      "heal": 655,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "123": {
+      "id": 123,
+      "atk_true": 3355,
+      "atk_false": 3355,
+      "com": 378000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 615,
+      "shield": 13200,
+      "heal": 660,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "124": {
+      "id": 124,
+      "atk_true": 3390,
+      "atk_false": 3390,
+      "com": 384000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 620,
+      "shield": 13300,
+      "heal": 665,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "125": {
+      "id": 125,
+      "atk_true": 3425,
+      "atk_false": 3425,
+      "com": 390000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 625,
+      "shield": 13400,
+      "heal": 670,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "126": {
+      "id": 126,
+      "atk_true": 3460,
+      "atk_false": 3460,
+      "com": 396000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 630,
+      "shield": 13500,
+      "heal": 675,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "127": {
+      "id": 127,
+      "atk_true": 3495,
+      "atk_false": 3495,
+      "com": 402000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 635,
+      "shield": 13600,
+      "heal": 680,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "128": {
+      "id": 128,
+      "atk_true": 3530,
+      "atk_false": 3530,
+      "com": 408000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 640,
+      "shield": 13700,
+      "heal": 685,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "129": {
+      "id": 129,
+      "atk_true": 3565,
+      "atk_false": 3565,
+      "com": 414000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 645,
+      "shield": 13800,
+      "heal": 690,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "130": {
+      "id": 130,
+      "atk_true": 3600,
+      "atk_false": 3600,
+      "com": 420000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 650,
+      "shield": 13900,
+      "heal": 695,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "131": {
+      "id": 131,
+      "atk_true": 3635,
+      "atk_false": 3635,
+      "com": 426000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 655,
+      "shield": 14000,
+      "heal": 700,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "132": {
+      "id": 132,
+      "atk_true": 3670,
+      "atk_false": 3670,
+      "com": 432000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 660,
+      "shield": 14100,
+      "heal": 705,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "133": {
+      "id": 133,
+      "atk_true": 3705,
+      "atk_false": 3705,
+      "com": 438000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 665,
+      "shield": 14200,
+      "heal": 710,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "134": {
+      "id": 134,
+      "atk_true": 3740,
+      "atk_false": 3740,
+      "com": 444000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 670,
+      "shield": 14300,
+      "heal": 715,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "135": {
+      "id": 135,
+      "atk_true": 3775,
+      "atk_false": 3775,
+      "com": 450000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 675,
+      "shield": 14400,
+      "heal": 720,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "136": {
+      "id": 136,
+      "atk_true": 3810,
+      "atk_false": 3810,
+      "com": 456000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 680,
+      "shield": 14500,
+      "heal": 725,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "137": {
+      "id": 137,
+      "atk_true": 3845,
+      "atk_false": 3845,
+      "com": 462000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 685,
+      "shield": 14600,
+      "heal": 730,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "138": {
+      "id": 138,
+      "atk_true": 3880,
+      "atk_false": 3880,
+      "com": 468000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 690,
+      "shield": 14700,
+      "heal": 735,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "139": {
+      "id": 139,
+      "atk_true": 3915,
+      "atk_false": 3915,
+      "com": 474000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 695,
+      "shield": 14800,
+      "heal": 740,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "140": {
+      "id": 140,
+      "atk_true": 3950,
+      "atk_false": 3950,
+      "com": 480000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 700,
+      "shield": 14900,
+      "heal": 745,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "141": {
+      "id": 141,
+      "atk_true": 3985,
+      "atk_false": 3985,
+      "com": 486000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 705,
+      "shield": 15000,
+      "heal": 750,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "142": {
+      "id": 142,
+      "atk_true": 4020,
+      "atk_false": 4020,
+      "com": 492000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 710,
+      "shield": 15100,
+      "heal": 755,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "143": {
+      "id": 143,
+      "atk_true": 4055,
+      "atk_false": 4055,
+      "com": 498000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 715,
+      "shield": 15200,
+      "heal": 760,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "144": {
+      "id": 144,
+      "atk_true": 4090,
+      "atk_false": 4090,
+      "com": 504000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 720,
+      "shield": 15300,
+      "heal": 765,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "145": {
+      "id": 145,
+      "atk_true": 4125,
+      "atk_false": 4125,
+      "com": 510000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 725,
+      "shield": 15400,
+      "heal": 770,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "146": {
+      "id": 146,
+      "atk_true": 4160,
+      "atk_false": 4160,
+      "com": 516000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 730,
+      "shield": 15500,
+      "heal": 775,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "147": {
+      "id": 147,
+      "atk_true": 4195,
+      "atk_false": 4195,
+      "com": 522000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 735,
+      "shield": 15600,
+      "heal": 780,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "148": {
+      "id": 148,
+      "atk_true": 4230,
+      "atk_false": 4230,
+      "com": 528000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 740,
+      "shield": 15700,
+      "heal": 785,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "149": {
+      "id": 149,
+      "atk_true": 4265,
+      "atk_false": 4265,
+      "com": 534000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 745,
+      "shield": 15800,
+      "heal": 790,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "150": {
+      "id": 150,
+      "atk_true": 4300,
+      "atk_false": 4300,
+      "com": 540000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 750,
+      "shield": 15900,
+      "heal": 795,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "151": {
+      "id": 151,
+      "atk_true": 4335,
+      "atk_false": 4335,
+      "com": 546000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 755,
+      "shield": 16000,
+      "heal": 800,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "152": {
+      "id": 152,
+      "atk_true": 4370,
+      "atk_false": 4370,
+      "com": 552000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 760,
+      "shield": 16100,
+      "heal": 805,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "153": {
+      "id": 153,
+      "atk_true": 4405,
+      "atk_false": 4405,
+      "com": 558000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 765,
+      "shield": 16200,
+      "heal": 810,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "154": {
+      "id": 154,
+      "atk_true": 4440,
+      "atk_false": 4440,
+      "com": 564000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 770,
+      "shield": 16300,
+      "heal": 815,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "155": {
+      "id": 155,
+      "atk_true": 4475,
+      "atk_false": 4475,
+      "com": 570000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 775,
+      "shield": 16400,
+      "heal": 820,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "156": {
+      "id": 156,
+      "atk_true": 4510,
+      "atk_false": 4510,
+      "com": 576000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 780,
+      "shield": 16500,
+      "heal": 825,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "157": {
+      "id": 157,
+      "atk_true": 4545,
+      "atk_false": 4545,
+      "com": 582000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 785,
+      "shield": 16600,
+      "heal": 830,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "158": {
+      "id": 158,
+      "atk_true": 4580,
+      "atk_false": 4580,
+      "com": 588000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 790,
+      "shield": 16700,
+      "heal": 835,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "159": {
+      "id": 159,
+      "atk_true": 4615,
+      "atk_false": 4615,
+      "com": 594000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 795,
+      "shield": 16800,
+      "heal": 840,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "160": {
+      "id": 160,
+      "atk_true": 4650,
+      "atk_false": 4650,
+      "com": 600000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 800,
+      "shield": 16900,
+      "heal": 845,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "161": {
+      "id": 161,
+      "atk_true": 4685,
+      "atk_false": 4685,
+      "com": 606000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 805,
+      "shield": 17000,
+      "heal": 850,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "162": {
+      "id": 162,
+      "atk_true": 4720,
+      "atk_false": 4720,
+      "com": 612000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 810,
+      "shield": 17100,
+      "heal": 855,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "163": {
+      "id": 163,
+      "atk_true": 4755,
+      "atk_false": 4755,
+      "com": 618000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 815,
+      "shield": 17200,
+      "heal": 860,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "164": {
+      "id": 164,
+      "atk_true": 4790,
+      "atk_false": 4790,
+      "com": 624000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 820,
+      "shield": 17300,
+      "heal": 865,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "165": {
+      "id": 165,
+      "atk_true": 4825,
+      "atk_false": 4825,
+      "com": 630000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 825,
+      "shield": 17400,
+      "heal": 870,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "166": {
+      "id": 166,
+      "atk_true": 4860,
+      "atk_false": 4860,
+      "com": 636000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 830,
+      "shield": 17500,
+      "heal": 875,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "167": {
+      "id": 167,
+      "atk_true": 4895,
+      "atk_false": 4895,
+      "com": 642000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 835,
+      "shield": 17600,
+      "heal": 880,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "168": {
+      "id": 168,
+      "atk_true": 4930,
+      "atk_false": 4930,
+      "com": 648000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 840,
+      "shield": 17700,
+      "heal": 885,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "169": {
+      "id": 169,
+      "atk_true": 4965,
+      "atk_false": 4965,
+      "com": 654000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 845,
+      "shield": 17800,
+      "heal": 890,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "170": {
+      "id": 170,
+      "atk_true": 5000,
+      "atk_false": 5000,
+      "com": 660000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 850,
+      "shield": 17900,
+      "heal": 895,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "171": {
+      "id": 171,
+      "atk_true": 5035,
+      "atk_false": 5035,
+      "com": 666000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 855,
+      "shield": 18000,
+      "heal": 900,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "172": {
+      "id": 172,
+      "atk_true": 5070,
+      "atk_false": 5070,
+      "com": 672000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 860,
+      "shield": 18100,
+      "heal": 905,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "173": {
+      "id": 173,
+      "atk_true": 5105,
+      "atk_false": 5105,
+      "com": 678000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 865,
+      "shield": 18200,
+      "heal": 910,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "174": {
+      "id": 174,
+      "atk_true": 5140,
+      "atk_false": 5140,
+      "com": 684000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 870,
+      "shield": 18300,
+      "heal": 915,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "175": {
+      "id": 175,
+      "atk_true": 5175,
+      "atk_false": 5175,
+      "com": 690000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 875,
+      "shield": 18400,
+      "heal": 920,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "176": {
+      "id": 176,
+      "atk_true": 5210,
+      "atk_false": 5210,
+      "com": 696000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 880,
+      "shield": 18500,
+      "heal": 925,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "177": {
+      "id": 177,
+      "atk_true": 5245,
+      "atk_false": 5245,
+      "com": 702000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 885,
+      "shield": 18600,
+      "heal": 930,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "178": {
+      "id": 178,
+      "atk_true": 5280,
+      "atk_false": 5280,
+      "com": 708000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 890,
+      "shield": 18700,
+      "heal": 935,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "179": {
+      "id": 179,
+      "atk_true": 5315,
+      "atk_false": 5315,
+      "com": 714000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 895,
+      "shield": 18800,
+      "heal": 940,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "180": {
+      "id": 180,
+      "atk_true": 5350,
+      "atk_false": 5350,
+      "com": 720000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 900,
+      "shield": 18900,
+      "heal": 945,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "181": {
+      "id": 181,
+      "atk_true": 5385,
+      "atk_false": 5385,
+      "com": 726000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 905,
+      "shield": 19000,
+      "heal": 950,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "182": {
+      "id": 182,
+      "atk_true": 5420,
+      "atk_false": 5420,
+      "com": 732000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 910,
+      "shield": 19100,
+      "heal": 955,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "183": {
+      "id": 183,
+      "atk_true": 5455,
+      "atk_false": 5455,
+      "com": 738000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 915,
+      "shield": 19200,
+      "heal": 960,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "184": {
+      "id": 184,
+      "atk_true": 5490,
+      "atk_false": 5490,
+      "com": 744000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 920,
+      "shield": 19300,
+      "heal": 965,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "185": {
+      "id": 185,
+      "atk_true": 5525,
+      "atk_false": 5525,
+      "com": 750000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 925,
+      "shield": 19400,
+      "heal": 970,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "186": {
+      "id": 186,
+      "atk_true": 5560,
+      "atk_false": 5560,
+      "com": 756000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 930,
+      "shield": 19500,
+      "heal": 975,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "187": {
+      "id": 187,
+      "atk_true": 5595,
+      "atk_false": 5595,
+      "com": 762000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 935,
+      "shield": 19600,
+      "heal": 980,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "188": {
+      "id": 188,
+      "atk_true": 5630,
+      "atk_false": 5630,
+      "com": 768000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 940,
+      "shield": 19700,
+      "heal": 985,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "189": {
+      "id": 189,
+      "atk_true": 5665,
+      "atk_false": 5665,
+      "com": 774000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 945,
+      "shield": 19800,
+      "heal": 990,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "190": {
+      "id": 190,
+      "atk_true": 5700,
+      "atk_false": 5700,
+      "com": 780000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 950,
+      "shield": 19900,
+      "heal": 995,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "191": {
+      "id": 191,
+      "atk_true": 5735,
+      "atk_false": 5735,
+      "com": 786000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 955,
+      "shield": 20000,
+      "heal": 1000,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "192": {
+      "id": 192,
+      "atk_true": 5770,
+      "atk_false": 5770,
+      "com": 792000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 960,
+      "shield": 20100,
+      "heal": 1005,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "193": {
+      "id": 193,
+      "atk_true": 5805,
+      "atk_false": 5805,
+      "com": 798000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 965,
+      "shield": 20200,
+      "heal": 1010,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "194": {
+      "id": 194,
+      "atk_true": 5840,
+      "atk_false": 5840,
+      "com": 804000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 970,
+      "shield": 20300,
+      "heal": 1015,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "195": {
+      "id": 195,
+      "atk_true": 5875,
+      "atk_false": 5875,
+      "com": 810000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 975,
+      "shield": 20400,
+      "heal": 1020,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "196": {
+      "id": 196,
+      "atk_true": 5910,
+      "atk_false": 5910,
+      "com": 816000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 980,
+      "shield": 20500,
+      "heal": 1025,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "197": {
+      "id": 197,
+      "atk_true": 5945,
+      "atk_false": 5945,
+      "com": 822000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 985,
+      "shield": 20600,
+      "heal": 1030,
+      "missle": 6320,
+      "ballstic": 1264
+    },
+    "198": {
+      "id": 198,
+      "atk_true": 5980,
+      "atk_false": 5980,
+      "com": 828000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 990,
+      "shield": 20700,
+      "heal": 1035,
+      "missle": 6380,
+      "ballstic": 1276
+    },
+    "199": {
+      "id": 199,
+      "atk_true": 6015,
+      "atk_false": 6015,
+      "com": 834000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 995,
+      "shield": 20800,
+      "heal": 1040,
+      "missle": 6440,
+      "ballstic": 1288
+    },
+    "200": {
+      "id": 200,
+      "atk_true": 6050,
+      "atk_false": 6050,
+      "com": 840000,
+      "coc": [
+        505,
+        180
+      ],
+      "fskill": 1000,
+      "shield": 20900,
+      "heal": 1045,
+      "missle": 6500,
+      "ballstic": 1300
+    },
+    "allID": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200
+    ]
+  }
+}

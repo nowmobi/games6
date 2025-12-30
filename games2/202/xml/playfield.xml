@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<libraries>
+	<library file="xml/library.xml" />
+</libraries>
+
+<templates>	
+	<image id="tFace" >
+		<image name="uiImgEyes" image="gems/eyes.png" y="-5" width="48" height="22" halign="center" valign="center" />			
+	</image>
+	
+	<image id="tStunnStar" width="1" height="1" halign="center" valign="top">		
+		<image width="30" height="30" image="gems/star.png" halign="center" valign="center" />
+	</image>
+	
+	<image id="tFaceEyesClosed" template="tFace" >
+		<image name="uiImgEyes" image="gems/eyes_closed.png" />
+	</image>
+	<image id="tFaceBlink" template="tFace" >
+		<image name="uiImgEyes" image="gems/eyes_blink.png" />
+	</image>
+	
+	<element id="tBeehiveBee" halign="center" valign="center" width="100" height="100" >
+		<image name="uiImgBee" image="gems/row.png" rotation="45" halign="center" valign="center" width="30" height="30" x="30" />
+	</element>
+	
+	<image id="tEgg" image="gems/egg.png" width="70" ratio="1.0" halign="center" valign="center" />	
+	<image id="tEggWhite" image="gems/egg_white.png" template="tEgg" />	
+	<image id="tJenny" name="uiImgJenny" image="dynamic/JennyJungle.png" width="421" height="1020" halign="right" x="200" y="100" >
+		<state state="right" halign="right" x="100" scaleX="1" />
+		<state state="left" halign="left" x="-100" scaleX="-1" />
+		<image name="uiImgJennyBubble" image="dynamic/bubble.png" width="400" ratio="1.36" y="-150" x="-150">
+			<text template="tElement,tFontMedium" halignText="center" valignText="center" text="SID_HELP_FIRST_ACTION" color="0x707070" margin="30" marginBottom="60" marginRight="30">
+				<state state="right" scaleX="1" />
+				<state state="left" scaleX="-1" />				
+			</text>
+		</image>
+	</image>
+		
+	<image id="tTutorialHelp" template="tTutorialHelp" >
+		<image name="uiHelpBox" >
+			<image name="uiImgHand" image="ui/TipHand_1.png" width="170" x="40" ratio="1.0" halign="center" valign="topOf" visible="false" />
+		</image>
+	</image>	
+	<element id="tSettings" template="tBaseSettings">
+		<button name="uiBtQuitLevel"  image="dynamic/quit.png" y="-440" width="100" height="100" halign="right" valign="bottom" />		
+	</element>
+	<image id="tTask" width="120" height="120" clickable="true" clickableChildren="false" />
+	<image id="tTaskBomb" image="gems/bomb.png" template="tTask" >
+		<text text="X" template="tFontWhite,tElement,tFontLarge" halignText="center" valignText="center" />
+	</image>
+	<image id="tTaskBallon" image="gems/ballon.png" template="tTask" />
+	<image id="tTaskApple" image="gems/apple_stone_01.png" template="tTask" />
+	<image id="tTaskFoodBowl" image="gems/bowl_01.png" template="tTask" />
+	<image id="tTaskSkunk" image="gems/skunk.png" template="tTask" scale="0.8" />
+	<image id="tTaskBreaker" image="gems/row.png" template="tTask" />
+	<image id="tTaskOrb" image="gems/orb.png" template="tTask" />
+	<image id="tTaskCoin" image="gems/coin.png" template="tTask" scale="0.8" />
+	<image id="tTaskGift" image="gems/gift.png" template="tTask" />
+	<image id="tTaskXHit" image="gems/branch.png" template="tTask" />
+	<image id="tTaskBox" image="gems/box.png" template="tTask" />
+	<image id="tTaskColorBox" image="gems/color_box.png" template="tTask" />
+	<image id="tTaskColorEgg" image="gems/egg.png" template="tTask" />
+	<image id="tTaskAnvil" image="gems/anvil.png" template="tTask" />
+	<image id="tTaskBlob" image="gems/blob.png" template="tTask" />
+	<image id="tTaskFatAnvil" template="tTask">
+		<image image="gems/anvil.png" width="140" height="140" halign="center" valign="center" />
+	</image>
+	<image id="tTaskFatMulti" template="tTask">
+		<image image="gems/banana_02.png" relativeWidth="0.5" ratio="0.5" halign="center" valign="center" rotation="-25" color="0xD0D0D0" />
+		<image image="gems/banana_02.png" relativeWidth="0.5" ratio="0.5" halign="center" valign="center" color="0xF0F0F0" />
+		<image image="gems/banana_02.png" relativeWidth="0.5" ratio="0.5" halign="center" valign="center" rotation="25" />
+	</image>
+	<image id="tTaskDungPile" image="gems/dung_pile.png" template="tTask" />
+	<image id="tTaskSnowman" image="gems/snowman.png" template="tTask" />
+	<image id="tTaskFertilizer" image="gems/fertilizer.png" template="tTask" />
+	<image id="tTaskFatMulti2" template="tTask">
+		<image template="tEgg" />			
+		<image image="gems/basket.png" width="80%" ratio="2" halign="center" valign="bottom" />
+	</image>
+	<image id="tTaskFatMultiColor" template="tTask">
+		<image template="tEgg" image="gems/egg_rainbow.png" />			
+		<image image="gems/basket.png" width="80%" ratio="2" halign="center" valign="bottom" />
+	</image>
+	<image id="tTaskFatMultiColorTwister" template="tTask">
+		<image template="tEgg" image="gems/egg_rainbow.png" />			
+		<image image="gems/basket_twister.png" width="80%" ratio="2" halign="center" valign="bottom" />
+	</image>
+	<image id="tTaskChest" image="gems/chest.png" template="tTask" />
+	<image id="tTaskTicker" image="gems/oyster_01.png" template="tTask" />
+	<image id="tTaskCoconut" image="gems/coconut_01.png" template="tTask" />
+	<image id="tTaskChameleon" image="gems/chameleon.png" template="tTask" />
+	<image id="tTaskTimebomb" image="gems/bomb.png" template="tTask" />
+	<image id="tTaskHoneypot" image="gems/honey.png" template="tTask" />
+	<image id="tTaskCrackling" image="gems/crackling1.png" template="tTask" />
+	<image id="tTaskOre" image="gems/ore.png" template="tTask" />
+	<image id="tTaskWater" image="gems/bucket.png" template="tTask" />
+	<image id="tTaskBeehive" image="gems/beehive.png" template="tTask" />
+	<image id="tTaskGem" template="tTask" >
+		<image name="uiImgIcon" width="100" height="100" halign="center" valign="center" template="tFace" />
+	</image>
+	<image id="tTaskGemYellow" template="tTaskGem">
+		<image name="uiImgIcon" image="gems/gem_yellow.png" />
+	</image>
+	<image id="tTaskGemBlue" template="tTaskGem">
+		<image name="uiImgIcon" image="gems/gem_blue.png" />
+	</image>
+	<image id="tTaskGemRed" template="tTaskGem">
+		<image name="uiImgIcon" image="gems/gem_red.png" />
+	</image>
+	<!--image id="tTaskGemBlue_ice" template="tTaskGem">
+		<image name="uiImgIcon" image="gems/gem_blue_ice.png" />
+	</image-->
+	<image id="tTaskGemPurple" template="tTaskGem">
+		<image name="uiImgIcon" image="gems/gem_purple.png" />
+	</image>
+	<image id="tTaskGemGreen" template="tTaskGem">
+		<image name="uiImgIcon" image="gems/gem_green.png" />
+	</image>
+	<image id="tTaskGemWhite" template="tTaskGem">
+		<image name="uiImgIcon" image="gems/gem_white.png" />
+	</image>
+	<image id="tTaskStunned" template="tTask">
+		<image image="gems/star.png" width="30" ratio="1" y="10" color="0xE0E0E0" >
+			<animation animation="rotation" speed="80" />
+		</image>
+		<image image="gems/star.png" width="20" ratio="1" halign="center" color="0xC0C0C0" >
+			<animation animation="rotation" speed="-72" />
+		</image>
+		<image image="gems/star.png" width="25" ratio="1" halign="center" color="0xC7C7C7" y="3" x="-22" >
+			<animation animation="rotation" speed="-72" />
+		</image>
+		<image image="gems/star.png" width="30" ratio="1" halign="right" y="10" color="0xD0D0D0" >
+			<animation animation="rotation" speed="72" />
+		</image>
+		<image image="gems/star.png" width="25" ratio="1" halign="center" color="0xC7C7C7" y="3" x="22" >
+			<animation animation="rotation" speed="82" />
+		</image>
+		<image image="gems/star.png" width="40" ratio="1" halign="center" x="-20" y="15">
+			<animation animation="rotation" speed="-92" />
+		</image>
+		<image image="gems/star.png" width="40" ratio="1" halign="center" x="20" y="15">
+			<animation animation="rotation" speed="82" />
+		</image>
+		
+	</image>
+	
+	<image id="tTaskMultiCage" image="gems/Tierkorb_Back.png" template="tTask" >
+		<image image="gems/Tierkorb_Front.png" template="tElement" />
+	</image>
+	<image id="tTaskSoftCage" image="gems/softCage.png" template="tTask" />	
+	<image id="tTaskGroupSingleHitEach" template="tTask" >
+		<image name="uiImgBg" image="gems/pumpkinplant_test.png" template="tElement"  halign="center" valign="center" />
+		<image name="uiImgPumpkin" image="gems/pumpkin.png" template="tElement"  halign="center" valign="center" scale="0.7" />
+	</image>
+	<image id="tTaskGroup5HitsOnePlace" image="gems/fish_icon.png" template="tTask" />
+	<image id="tTaskFlies" image="gems/fly_icon.png" template="tTask" />
+	<image id="tTaskSnowflake" image="gems/snowflake.png" template="tTask" />
+	<image id="tTaskLeaf" image="gems/leaf.png" template="tTask" />
+	<image id="tTaskHardCage" image="gems/hardCage.png" template="tTask" >
+		<image name="uiImgLock0" image="gems/lock_top.png" width="40" height="40" valign="top" halign="left" />
+   </image>
+	<image id="tTaskOrePile" template="tTask">
+		<image image="gems/ore.png" x="-20" y="-16"  width="70" ratio="1" halign="center" valign="center" />
+		<image image="gems/ore.png" x="20" y="-16" width="70" ratio="1" halign="center" valign="center" />
+		<image image="gems/ore.png" x="0" y="21" width="70"  ratio="1" halign="center" valign="center" />		
+	</image>
+		
+	<image id="tTaskInfoLandscape" name="uiTaskConti" width="120" height="120" padding="10" halign="center" template="tBox">		
+		<button name="uiBtTask" relativeWidth="1.0" ratio="1.0" halign="center" valign="center" scale="0.8" />
+		<image name="uiImgTaskDoneOk" image="ui/ok.png" x="10" y="20" width="60" height="60" halign="right" valign="bottom" />
+		<image name="uiImgTaskAmount" image="ui/gradient.png" relativeWidth="1.0" height="45" valign="bottom" >
+			<text name="uiTaskAmount" halignText="center" valignText="center" template="tElement,tFontWhite,tFontSmall" />
+		</image>
+	</image>
+	<image id="tTasksLandscape" name="uiImgTasks" x="-50" width="170" height="720" halign="leftOf" valign="center" template="tBoard" marginTop="110">
+		<image image="ui/ZooBoomLogoHigh.png" y="20" width="150" height="110" scale="1.0" halign="center" valign="topOf" animation="slowWobble" />
+		
+		<element name="uiTaskContainer" y="-25" relativeWidth="1.0" height="100" halign="center" valign="bottom" />		
+		
+		<image image="ui/moremoves.png" y="26" width="80" ratio="1.71" halign="center" valign="top" />			
+		<text name="uiTxtMoves" y="55" width="170" height="100" template="tFontLarge" halign="center" valign="top" halignText="center" />
+		
+		<element name="uiScoreBlock" y="130" width="150" height="80" halign="center" valign="top" >
+			<image name="uiImgProgressBg" width="130" height="40" halign="center" valign="bottom" template="tProgressBox" padding="5" paddingBottom="2">		
+				<image name="uiImgProgress" template="tBlock" width="0%" height="100%" valign="center" alpha="0.5" color="0xFFFF00" />
+				<text name="uiTxtScoreText" width="100%" height="30" template="tFontSmall" halign="center" valign="center" halignText="center" valignText="center" text="0" />		
+				<image image="ui/marker.png" width="15" height="9" valign="bottomOf" y="-2" x="20.2" />
+				<image image="ui/marker.png" width="15" height="9" valign="bottomOf" y="-2" x="66.3" />
+			</image>
+			<image name="uiImgStar1" x="10" y="10" image="ui/star_off.png" width="40" height="40" halign="left" valign="top" />
+			<image name="uiImgStar2" y="-5" image="ui/star_off.png" width="50" height="50" halign="center" valign="top" />
+			<image name="uiImgStar3" x="-10" y="10" image="ui/star_off.png" width="40" height="40" halign="right" valign="top" />
+		</element>
+	</image>	
+	
+	<image id="tTaskInfoPortrait" template="tTaskInfoLandscape" halign="left" valign="center" height="125">		
+	</image>
+	<image id="tTasksPortrait" name="uiImgTasks" y="-30" width="950" height="170" halign="center" valign="topOf" template="tBoard" padding="20" margin="-10" paddingBottom="5" >
+		<image image="ui/ZooBoom_Logo.png" width="480" height="200" scale="0.75" halign="center" valign="topOf" animation="slowWobble" />
+		<element name="uiTaskContainer" width="100" relativeHeight="1.0" halign="center" valign="center" />
+		<element name="uiScoreBlock" width="155" height="100" halign="right" valign="center"  >
+			<image name="uiImgStar1" x="20" y="10" image="ui/star_off.png" width="40" height="40" halign="left" valign="top" />
+			<image name="uiImgStar2" image="ui/star_off.png" width="50" height="50" halign="center" valign="top" />
+			<image name="uiImgStar3" x="-20" y="10" image="ui/star_off.png" width="40" height="40" halign="right" valign="top" />
+			<image name="uiImgProgressBg" width="130" height="40" halign="center" valign="bottom" template="tProgressBox" nssScale="0.1" padding="5" paddingBottom="2">		
+				<image name="uiImgProgress" template="tBlock" width="0%" height="100%" valign="center" alpha="0.5" color="0xFFFF00" />
+				<text name="uiTxtScoreText" width="100%" height="30" template="tFontSmall" halign="center" valign="center" halignText="center" valignText="center" text="0" />			
+				<image image="ui/marker.png" width="15" height="9" valign="bottomOf" y="-2" x="20.2" />
+				<image image="ui/marker.png" width="15" height="9" valign="bottomOf" y="-2" x="66.3" />
+			</image>
+		</element>		
+
+		<element name="uiMoveDisplay" width="150" height="100%" paddingTop="15" paddingBottom="20" >
+			<image image="ui/moremoves.png" width="100" ratio="1.71" halign="center" valign="top" />			
+			<text name="uiTxtMoves" template="tElement,tFontLarge" halignText="center" valignText="bottom" />
+		</element>					
+	</image>	
+	
+	<image id="tStone" width="100" height="100" clickable="true" clickableChildren="false" valign="bottom" />
+	<image id="tOverlay" width="100" height="100" valign="bottom" />
+	
+	<image id="tGemGlow" name="uiImgGlow" image="gems/bg_glow.png" relativeWidth="1.5" ratio="1.0" clickable="true" halign="center" valign="center" color="0xFFFF7F" animation="wobble" />
+	<image id="tGem" template="tStone">		
+		<image name="uiImgBg" image="gems/square.png" relativeWidth="1.0" ratio="1.0" halign="center" valign="center" />
+		<!--image name="uiImgGlow" image="gems/bg_glow.png" relativeWidth="1.5" ratio="1.0" clickable="true" halign="center" valign="center"visible="false" color="0xFFFF7F" animation="wobble" /-->
+		<image name="uiImgGem" relativeWidth="1.0" ratio="1.0" halign="center" valign="center" template="tFace" />
+		<image name="uiImgIcon" relativeWidth="0.4" ratio="1.0" halign="right" valign="bottom" visible="false" />
+	</image>	
+	<!-- Bird -->
+	<image id="tGemRed" template="tGem">		
+		<image name="uiImgBg" color="0xf27777" />
+		<image name="uiImgGem" image="gems/gem_red.png" />
+	</image>
+	<image id="tGemRed_ice" template="tGemRed">		
+		<image name="uiImgGem" >			
+			<image name="uiImgDeko" y="-30" width="60" height="36" halign="center" valign="center" image="gems/redcap.png" />
+		</image>
+	</image>
+	<image id="tGemRed_desert" template="tGemRed">		
+		<image name="uiImgGem" >			
+			<image name="uiImgDeko" y="-2" width="90" height="26" halign="center" valign="center" image="gems/sunglases_01.png" />
+		</image>
+	</image>	
+	<!-- Elephant -->
+	<image id="tGemBlue" template="tGem">		
+		<image name="uiImgBg" color="0x4BB2CD" />
+		<image name="uiImgGem" image="gems/gem_blue.png" />
+	</image>	
+	<image id="tGemBlue_ice" template="tGemBlue">		
+		<image name="uiImgGem">
+			<image name="uiImgDeko" y="-16" width="90" height="65" halign="center" valign="center" image="gems/earwarmer_red.png" />
+		</image>
+	</image>	
+	<image id="tGemBlue_desert" template="tGemBlue">		
+		<image name="uiImgGem">
+			<image name="uiImgDeko" y="-2" width="90" height="26" halign="center" valign="center" image="gems/sunglases_02.png" />
+		</image>
+	</image>
+	<!-- Snake -->
+	<image id="tGemGreen" template="tGem">		
+		<image name="uiImgBg" color="0x006F00" />
+		<image name="uiImgGem" image="gems/gem_green.png" scale="0.95" />
+	</image>	
+	<image id="tGemGreen_ice" template="tGemGreen">	
+		<image name="uiImgGem" >
+			<image name="uiImgDeko" y="-30" width="60" height="36" halign="center" valign="center" image="gems/bluecap.png" />
+		</image>
+	</image>	
+	<image id="tGemGreen_desert" template="tGemGreen">	
+		<image name="uiImgGem" >
+			<image name="uiImgDeko" y="-30" width="60" height="42" halign="center" valign="center" image="gems/Cappie_Yellow.png" />
+		</image>
+	</image>	
+	<!-- Duck -->
+	<image id="tGemYellow" template="tGem">		
+		<image name="uiImgBg" color="0xFFFF4C" />
+		<image name="uiImgGem" image="gems/gem_yellow.png" />
+	</image>
+	<image id="tGemYellow_ice" template="tGemYellow">	
+		<image name="uiImgGem" >
+			<image name="uiImgDeko" y="30" width="98" height="48" halign="center" valign="center" image="gems/redscarf.png" />
+		</image>
+	</image>
+	<image id="tGemYellow_desert" template="tGemYellow">	
+		<image name="uiImgGem" >
+			<image name="uiImgDeko" y="30" width="100" height="44" halign="center" valign="center" image="gems/bathsuit_duck.png" />
+		</image>
+	</image>
+	<!-- Cat -->
+	<image id="tGemPurple" template="tGem">		
+		<image name="uiImgBg" color="0xfba250" />
+		<image name="uiImgGem" image="gems/gem_purple.png" />
+	</image>
+	<image id="tGemPurple_ice" template="tGemPurple">
+		<image name="uiImgGem" >
+			<image name="uiImgDeko" y="38" width="94" height="26" halign="center" valign="center" image="gems/bluegloves.png" />			
+		</image>
+	</image>	
+	<image id="tGemPurple_desert" template="tGemPurple">
+		<image name="uiImgGem" >
+			<image name="uiImgDeko" y="-30" width="60" height="33" halign="center" valign="center" image="gems/deserthat.png" />			
+		</image>
+	</image>	
+	<!-- Whatever -->
+	<image id="tGemWhite" template="tGem">		
+		<image name="uiImgBg" color="0xd0d0ff" />
+		<image name="uiImgGem" image="gems/gem_white.png" />
+	</image>		
+	
+	<image id="tBomb" template="tStone">		
+		<image name="uiImgBomb" relativeWidth="1.0" ratio="1.0" halign="left" valign="bottom" image="gems/bomb.png">
+			<image name="uiImgIcon" relativeWidth="1.0" ratio="1.0" halign="center" valign="center" image="gems/gem_blue.png" template="tFace" scale="0.6" />
+			
+			<image x="10" y="-10" image="gems/spark.png" width="20%" ratio="1.0" halign="right" />
+			<image x="10" y="-10" image="gems/spark.png" width="20%" ratio="1.0" halign="right" animation="rotation"/>
+		</image>
+		<text name="uiTxtCountDown" template="tFontWhite,tElement,tFontMedium" halignText="center" valignText="bottom" />
+	</image>	
+	<image id="tBallon" template="tStone" >		
+		<animation animation="hover" size="2" speed="0.5" angle="5" />
+		<image name="uiImgBallon" relativeWidth="1.0" ratio="1.0" halign="center" valign="center" image="gems/ballon.png" />
+		<image name="uiImgCircle" relativeWidth="0.65" ratio="1.0" y="-5" halign="center" valign="center" image="gems/circle.png" />
+		<image name="uiImgIcon" y="-5" relativeWidth="1.0" ratio="1.0" halign="center" valign="center" image="gems/gem_blue.png" template="tFace" scale="0.5" />			
+		<text name="uiTxtCountDown" template="tFontWhite,tElement,tFontMedium" halignText="center" valignText="bottom" y="-10" />
+	</image>	
+	<image id="tCoin" template="tStone">
+		<image name="uiImg" image="gems/coin.png" relativeWidth="1.0" ratio="1.0" halign="center" valign="center" />
+	</image>
+	<image id="tCoins" template="tStone">
+		<image name="uiImg" image="gems/coins.png" relativeWidth="1.0" ratio="1.0" halign="center" valign="center" />
+	</image>
+	<image id="tGift" template="tStone">
+		<animation animation="wobble" speed="1.0" size="0.5" angle="5.0" />
+		<image name="uiImg" image="gems/gift.png" relativeWidth="1.0" ratio="1.0" halign="center" valign="center" />
+		<image name="uiImg02" y="13" image="gems/gift02.png" relativeWidth="1.0" ratio="2.7" halign="center" valign="top" />
+		<image name="uiImg03" y="-6" image="gems/gift03.png" relativeWidth="1.0" ratio="2.6" halign="center" valign="bottom" />
+	</image>
+	
+	<image id="tBerry" image="gems/berry.png" width="40" height="40" halign="center" valign="center" />
+	<image id="tXHit" template="tStone">
+		<image name="uiImgIcon" image="gems/branch.png" template="tElement" />
+		<element name="uiBerries" template="tElement">
+			<image name="uiImgBerry1" x="-15" y="22" template="tBerry" />
+			<image name="uiImgBerry2" x="8"  y="25" template="tBerry" />
+			<image name="uiImgBerry3" x="-20" y="-10" template="tBerry" />
+			<image name="uiImgBerry4" x="20"  y="-5" template="tBerry" />
+			<image name="uiImgBerry5" x="-5"   y="0" template="tBerry" scale="1.2" />
+		</element>	
+	</image>
+	<image id="tBox"  template="tStone">
+		<image name="uiImgGem" image="gems/box.png" relativeWidth="1.0" ratio="1.0" halign="center" valign="center" />
+		<image name="uiImgBox2" halign="center" y="15" image="gems/box2.png" relativeWidth="0.85" ratio="2.6" />		
+		<image name="uiImgBox3" halign="center" valign="bottom" y="-15" scaleX="-1" image="gems/box2.png" relativeWidth="0.85" ratio="2.6" />		
+	</image>
+	<image id="tColorBox" template="tStone">
+		<animation animation="wobble" speed="1.0" size="0.5" angle="5.0" />
+		<image name="uiImgBg" image="gems/box_white.png" relativeWidth="1.0" relativeHeight="1.0" alpha="0.9" />
+		<image name="uiImgGem" image="gems/gem_purple.png" relativeWidth="1.0" ratio="1.0" scale="0.6" animation="wobble" halign="center" valign="center" template="tFace" />		
+	</image>	
+	<image id="tColorEgg" template="tStone">
+		<image name="uiImgBg" image="gems/egg.png" relativeWidth="1.0" relativeHeight="1.0" alpha="0.9" />
+		<image name="uiImgGem" relativeWidth="1.0" ratio="1.0" scale="0.6" animation="wobble" halign="center" valign="center" template="tFace" visible="false" />		
+	</image>	
+	<image id="tSpecial" template="tStone">
+		<!--image name="uiImgBg" image="gems/square.png" relativeWidth="1.0" relativeHeight="1.0" alpha="0.9" /-->
+		<image name="uiImgGlow" image="gems/bg_glow.png" relativeWidth="1.8" ratio="1.0" clickable="true" halign="center" valign="center"visible="false" >
+			<animation animation="rotation" random="360" />
+		</image>
+		<image name="uiImgIcon" image="gems/row.png" width="100" height="100" valign="center" animation="wobble" />
+	</image>
+	<image id="tRowBreaker" template="tSpecial">
+		<image name="uiImgIcon" image="gems/row.png" rotation="-45"/>
+	</image>
+	<image id="tColumnBreaker" template="tSpecial">
+		<image name="uiImgIcon" image="gems/row.png" rotation="45"/>
+	</image>	
+	<image id="tSkunk" template="tSpecial">
+		<image name="uiImgIcon" image="gems/skunk.png" />
+	</image>	
+	<image id="tOrb" template="tSpecial">
+		<image name="uiImgIcon" image="gems/orb.png" >
+			<image name="uiImgTypeIcon" relativeWidth="1.0" ratio="1.0" halign="center" valign="center" template="tFace" scale="0.5" />
+		</image>
+	</image>	
+	<image id="tBlob" template="tStone" >
+		<image name="uiImgIcon" image="gems/blob.png" relativeWidth="1.0" ratio="1" halign="center" valign="center" />
+	</image>
+	<image id="tChest" template="tStone">
+		<image name="uiImgIcon" image="gems/chest.png" relativeWidth="1.1" ratio="1" halign="center"valign="center" />
+	</image>
+	<image id="tTicker" template="tStone">		
+		<animation animation="wobble" speed="0.5" size="0.5" angle="5.0" />
+		<image name="uiImgIcon" image="gems/oyster_01.png" relativeWidth="1.0" ratio="1" halign="center"valign="center" />
+	</image>
+	<image id="tCoconut" template="tStone">
+		<animation animation="wobble" speed="0.5" size="1.0" angle="4.0" />
+		<image name="uiImgIcon" image="gems/coconut_01.png" relativeWidth="0.9" ratio="1" halign="center"valign="center" />
+	</image>
+	<image id="tChameleon" template="tStone">
+		<animation animation="wobble" speed="1.0" size="0.5" angle="5.0" />
+		<image name="uiImgIcon" image="gems/chameleon.png" relativeWidth="1.0" ratio="1" halign="center"valign="center" >
+			<image name="uiImgMask" image="gems/chameleon_mask.png" relativeWidth="1.0" ratio="1" halign="center"valign="center" />
+			<image name="uiImgTypeIcon" x="10" y="15" relativeWidth="1.0" ratio="1.0" halign="center" valign="center" template="tFace" scale="0.4" />
+		</image>
+	</image>
+	<image id="tTimebomb" template="tStone">
+		<image name="uiImgIcon" image="gems/bomb.png" relativeWidth="1.0" ratio="1" halign="center"valign="center" >
+			<image name="uiImgMask" image="gems/bomb_mask.png" relativeWidth="1.0" ratio="1" halign="center"valign="center" />
+			<image name="uiImgTypeIcon" x="25" y="20" relativeWidth="1.0" ratio="1.0" halign="center" valign="center" template="tFace" scale="0.35" />
+		</image>
+	</image>	
+	<image id="tOre" template="tStone">
+		<image name="uiImgIcon" image="gems/ore.png" relativeWidth="1.1" ratio="1" halign="center"valign="center" />
+	</image>
+	
+	<image id="tCrackling" template="tStone">
+		<animation animation="wobble" speed="0.5" size="1.0" angle="4.0" />
+		<image name="uiImgIcon" image="gems/crackling1.png" relativeWidth="0.9" ratio="1" halign="center" valign="center" />
+	</image>
+	
+	<image id="tAnvil" template="tStone">
+		<image name="uiImgIcon" image="gems/anvil.png" relativeWidth="1.0" ratio="1" halign="center"valign="center" />
+	</image>
+	
+	<image id="tFatAnvil" template="tStone" width="200" height="200">
+		<image name="uiImgIcon" image="gems/anvil.png" relativeWidth="1.0" ratio="1" halign="center"valign="center" />
+	</image>
+	<image id="tBanana" image="gems/banana_01.png" width="77" height="150" halign="center" valign="center" scale="0.6" />	
+	<image id="tBanana2" image="gems/banana_02.png" width="70" height="150" template="tBanana" />	
+	<image id="tBanana3" image="gems/banana_03.png" width="51" height="150" template="tBanana" />	
+	<image id="tFatMulti" template="tStone" width="200" height="200" pivotY="0.95">
+		<animation animation="wobble" speed="0.7" size="0.0" angle="8.0" />
+		<image name="uiImgIcon" relativeWidth="1.0" ratio="1.0" halign="center" valign="center">
+			<image image="gems/banana_base.png" x="-20" width="88" height="200" halign="center" valign="center" />
+			<image name="uiImgItem7" x="-30" y="-30" template="tBanana2" />
+			<image name="uiImgItem6" x=" 30" y="-30" template="tBanana2" scaleX="-1" />
+			<image name="uiImgItem5" x="-13" y="-30" template="tBanana3" />			                  
+			<image name="uiImgItem4" x=" 13" y="-30" template="tBanana3" scaleX="-1" />
+			
+			<image name="uiImgItem3" x="-35" y="50" template="tBanana2" />	
+			<image name="uiImgItem2" x="35" y="50" template="tBanana2" scaleX="-1" />			
+			<image name="uiImgItem1" x="-15" y="50" template="tBanana3" />
+			<image name="uiImgItem0" x="15" y="50" template="tBanana3" scaleX="-1" />
+			
+			<image image="gems/banana_overlay.png" width="58" height="31" halign="center" valign="bottom" scale="1.0" />
+		</image>
+	</image>
+	
+	<image id="tDungPile" template="tStone" width="200" height="200" >
+		<image name="uiImgIcon" image="gems/dung_pile.png" relativeWidth="1.0" ratio="1.0" halign="center" valign="center" />			
+	</image>	
+	<image id="tSnowmanFlake" image="gems/snowflake.png" width="30" height="30" halign="center" valign="center" >		
+	</image>
+	<image id="tSnowman" template="tStone" width="200" height="200" >
+		<element name="uiSnowContainer"  width="100" height="100" halign="center" valign="center">
+			<emitter duration="1.2" gravity="0.1" startSize="20" endColor="0x70FFFFFF" range="110" numParticlesPerSecond="0" image="gems/snowflake.png" />
+		</element>
+		<image name="uiImgIcon" image="gems/snowman.png" relativeWidth="1.0" ratio="1.0" halign="center" valign="center" />			
+	</image>	
+	<image id="tFertilizer" template="tStone" >
+		<image name="uiImgIcon" image="gems/fertilizer.png" relativeWidth="1.0" ratio="1.0" halign="center" valign="center" />			
+	</image>
+	
+	<image id="tBeehive" template="tStone">
+		<image name="uiImgIcon" image="gems/beehive.png" relativeWidth="1.1" ratio="1" halign="center"valign="center" />
+	</image>
+	<image id="tWater" template="tStone">
+		<image name="uiImgIcon" image="gems/bucket.png" relativeWidth="1.0" ratio="1" halign="center"valign="center" />
+	</image>
+	<image id="tFatMulti2" template="tStone" width="200" height="200">
+		<image name="uiImgIcon" relativeWidth="1.0" ratio="1.0" halign="center" valign="center">
+			<image image="gems/basket_back.png" width="200" height="114" y="0" valign="top" />
+			<image name="uiImgEgg8" x="-15" y="-50" template="tEgg" />
+			<image name="uiImgEgg7" x="15" y="-50" template="tEgg" />
+			
+			<image name="uiImgEgg6" x="-35" y="-30" template="tEgg" />
+			<image name="uiImgEgg5" x="35" y="-30" template="tEgg" />
+			<image name="uiImgEgg4" x="0" y="-20" template="tEgg" />
+			
+			<image name="uiImgEgg3" x="-55" template="tEgg" />
+			<image name="uiImgEgg2" x="55" template="tEgg" />
+			<image name="uiImgEgg1" x="-20" y="10" template="tEgg" />
+			<image name="uiImgEgg0" x="20" y="10" template="tEgg" />			
+			<image image="gems/basket.png" width="200" height="100" valign="bottom" />
+		</image>
+	</image>
+	<image id="tFatMultiColor" template="tStone" width="200" height="200">
+		<image name="uiImgIcon" relativeWidth="1.0" ratio="1.0" halign="center" valign="center">
+			<image image="gems/basket_back.png" width="200" height="114" y="0" valign="top" />
+			<element name="uiEggs" template="tElement">
+				<image name="uiImgEgg8" x="-15" y="-50" template="tEggWhite" />
+				<image name="uiImgEgg7" x="15" y="-50" template="tEggWhite" />
+				
+				<image name="uiImgEgg6" x="-35" y="-30" template="tEggWhite" />
+				<image name="uiImgEgg5" x="35" y="-30" template="tEggWhite" />
+				<image name="uiImgEgg4" x="0" y="-20" template="tEggWhite" />
+				
+				<image name="uiImgEgg3" x="-55" template="tEggWhite" />
+				<image name="uiImgEgg2" x="55" template="tEggWhite" />
+				<image name="uiImgEgg1" x="-20" y="10" template="tEggWhite" />
+				<image name="uiImgEgg0" x="20" y="10" template="tEggWhite" />			
+			</element>
+			<image image="gems/basket.png" width="200" height="100" valign="bottom"  >
+				<image name="uiImgTypeIcon" width="100" height="100" halign="center" valign="center" template="tFace" scale="0.7" />						
+			</image>
+		</image>
+	</image>
+	<image id="tFatMultiColorTwister" template="tStone" width="200" height="200">
+		<image name="uiImgIcon" relativeWidth="1.0" ratio="1.0" halign="center" valign="center">
+			<image image="gems/basket_back.png" width="200" height="114" y="0" valign="top" />
+			<element name="uiEggs" template="tElement">
+				<image name="uiImgEgg8" x="-15" y="-50" template="tEggWhite" />
+				<image name="uiImgEgg7" x="15" y="-50" template="tEggWhite" />
+				
+				<image name="uiImgEgg6" x="-35" y="-30" template="tEggWhite" />
+				<image name="uiImgEgg5" x="35" y="-30" template="tEggWhite" />
+				<image name="uiImgEgg4" x="0" y="-20" template="tEggWhite" />
+				
+				<image name="uiImgEgg3" x="-55" template="tEggWhite" />
+				<image name="uiImgEgg2" x="55" template="tEggWhite" />
+				<image name="uiImgEgg1" x="-20" y="10" template="tEggWhite" />
+				<image name="uiImgEgg0" x="20" y="10" template="tEggWhite" />	
+			</element>
+			<image image="gems/basket_twister.png" width="200" height="100" valign="bottom" >
+				<image name="uiImgTypeIcon2" x="50" width="100" height="100" halign="center" valign="center" template="tFace" scale="0.5" />				
+				<image name="uiImgTypeIcon" width="100" height="100" halign="center" valign="center" template="tFace" scale="0.7" />				
+			</image>
+		</image>
+	</image>
+	<image id="tMultiCageItem" template="tFace" width="100" height="100" visible="false" halign="center" scale="0.75" />
+	<image id="tMultiCage" template="tStone" width="200" height="200" scale="1.02">
+		<animation animation="wobble" speed="0.3" size="0.5" angle="4.0" />
+		<image name="uiImgIcon" image="gems/Tierkorb_Back.png" relativeWidth="1.0" ratio="1" halign="center" valign="center">
+			<image name="uiImgIconGem5" x="0" 	y="0"  template="tMultiCageItem" />
+			<image name="uiImgIconGem3" x="-40" y="38" template="tMultiCageItem" />		
+			<image name="uiImgIconGem1" x=" 40"	y="38" template="tMultiCageItem" />
+			<image name="uiImgIconGem2" x="-25" y="92" template="tMultiCageItem" />
+			<image name="uiImgIconGem4" x="25" 	y="92" template="tMultiCageItem" />
+			<image name="uiImgMask" image="gems/Tierkorb_Front.png" template="tElement" />
+		</image>		
+	</image>
+	<image id="tApple" template="tStone">
+		<animation animation="wobble" speed="1.0" size="0.0" angle="5.0" />
+		<image name="uiImgIcon" image="gems/apple_stone_01.png" width="100" ratio="1" halign="center" valign="center" />
+	</image>
+	<image id="tChicken" template="tStone">
+		<image name="uiImgIcon" image="gems/chicken.png" width="100" ratio="1" halign="center" valign="center" >
+			<image name="uiImgChickenHead" image="gems/chicken_head.png" width="50%" ratio="1" halign="left" valign="top" visible="false" />
+			<image name="uiImgChickenEye" image="gems/chicken_eye.png" width="15" height="16" x="19.0" y="18.0" visible="false" />
+		</image>
+	</image>
+	<image id="tDung" template="tStone">
+		<image name="uiImgIcon" image="gems/dung.png" width="100" ratio="1" halign="center" valign="center" />
+	</image>	
+	<image id="tFoodBowl" template="tStone">
+		<animation animation="wobble" speed="1.0" size="0.5" angle="5.0" />
+		<image name="uiImgIcon" image="gems/bowl_01.png" width="100" ratio="1" halign="center" valign="center" />
+	</image>	
+	<image id="tOrePile" template="tStone" width="200" height="200">		
+		<animation animation="wobble" speed="0.4" size="0.1" angle="0.3" />
+		<image name="uiImgIconGem1" image="gems/ore.png" x="-36" y="-30"  width="130" ratio="1" halign="center" valign="center" />
+		<image name="uiImgIconGem2" image="gems/ore.png" x="36" y="-30" width="130" ratio="1" halign="center" valign="center" />
+		<image name="uiImgIconGem3" image="gems/ore.png" x="0" y="35" width="130"  ratio="1" halign="center" valign="center" />		
+	</image>
+	<element id="tSoftCage" template="tOverlay" >
+		<image image="gems/softCage.png" width="100" height="100" halign="center" valign="bottom" />
+	</element>
+	<image id="tGroupSingleHitEach" template="tStone" >	
+		<image name="uiImgBg" image="gems/pumpkinplant_test.png" template="tElement"  halign="center" valign="center" />
+		<element name="uiLeft" template="tElement" x="-50" halign="center" valign="center" >
+			<image name="uiImgLeft" image="gems/pumpkinplant_test_02.png" template="tElement" />
+			<image name="uiImgPumpkinLeft" image="gems/pumpkin.png" template="tElement" halign="left" x="-50" valign="center" scale="0.7" />
+		</element>
+		<element name="uiBottom" template="tElement" y="50" halign="center" valign="center" >
+			<image name="uiImgBottom" image="gems/pumpkinplant_test_02.png" template="tElement" halign="center" valign="center" rotation="90" />
+			<image name="uiImgPumpkinBottom" image="gems/pumpkin.png" template="tElement" halign="left" y="50" valign="center" scale="0.7" />
+		</element>
+		<image name="uiImgPumpkin" image="gems/pumpkin.png" template="tElement"  halign="center" valign="center" scale="0.7" />
+	</image>
+	<image id="tFishScale" image="gems/fish_scale_01.png" width="25" height="25" color="0x707070" />
+	<image id="tFish" template="tStone" >
+		<animation animation="hover" size="8" speed="0.5" />
+		<emitter duration="1.2" gravity="-0.9" startSize="16" endColor="0x70FFFFFF" range="30" numParticlesPerSecond="0" image="particles/bubbles.png" />
+		<image name="uiImg" relativeWidth="1.0" ratio="1.0" halign="center" valign="center" >
+			<image name="uiImgFinRear" image="gems/fish_fin_rear_01.png" x="73.5" y="9.5" width="26" height="77.5"/>
+			<image name="uiImgFinTop" image="gems/fish_fin_top_01.png" x="25.5" y="0" width="48.5" height="41" />
+			
+			<image name="uiImgScale1" x="56" y="34" template="tFishScale" />			
+			<image name="uiImgScale2" x="43.5" y="38" width="29.5" height="30.5" rotation="-21.54" template="tFishScale"/>			
+			<image name="uiImgScale3" x="43" y="24" template="tFishScale" />
+			<image name="uiImgScale4" x="37" y="36" width="26.5" height="36.5" rotation="-3.97" template="tFishScale"/>
+			<image name="uiImgScale5" x="29" y="18.5" width="27.5" height="28" template="tFishScale"/>
+			
+			<image name="uiImgFinBottom" image="gems/fish_fin_bottom_01.png" x="38" y="68.5" width="22.5" height="29" pivotX="0.0" pivotY="1.0" >
+				<animation animation="wobble" size="0.0" speed="2" angle="7" />
+			</image>
+			<image name="uiImgHead" image="gems/fish_head_01.png" y="20.5" width="54" height="59"/>			
+			<image name="uiImgHead2" image="gems/fish_head2_01.png" y="20.5" width="54" height="59" visible="false" />			
+		</image>
+	</image>	
+	<image id="tFish2" template="tFish" >
+		<image name="uiImg" scaleX="-1" >
+			<image name="uiImgFinRear" image="gems/fish_fin_rear_02.png"/>
+			<image name="uiImgFinTop" image="gems/fish_fin_top_02.png" />
+			
+			<image name="uiImgScale1" image="gems/fish_scale_02.png" />
+			<image name="uiImgScale2" image="gems/fish_scale_02.png" />
+			<image name="uiImgScale3" image="gems/fish_scale_02.png" />
+			<image name="uiImgScale4" image="gems/fish_scale_02.png" />
+			<image name="uiImgScale5" image="gems/fish_scale_02.png" />
+			
+			<image name="uiImgFinBottom" image="gems/fish_fin_bottom_02.png" />
+			<image name="uiImgHead" image="gems/fish_head_02.png" />			
+			<image name="uiImgHead2" image="gems/fish_head2_02.png" />
+		</image>
+	</image>
+	<image id="tFly" image="gems/fly.png" width="50" height="50" halign="center" valign="center" >
+		<image name="uiImgWing" x="15" y="-19" image="gems/fly_wing.png" width="25" height="25" halign="center" valign="center" pivotX="0.0" pivotY="0.0" >
+			<animation animation="wobble" size="0.0" speed="30" angle="30" />
+		</image>			
+	</image>
+	<element id="tFlies" template="tOverlay" >
+		<image name="uiImgSwarm" image="gems/swarm.png" width="100" height="100" halign="center" valign="center" />
+		<image name="uiImgFly01" x="-30" y="-13" scaleX="-1" template="tFly" />
+		<image name="uiImgFly02" x= "30" y="-30" template="tFly" />
+		<image name="uiImgFly03" x= "20" y="30" template="tFly" />
+	</element>	
+	<element id="tFlake" image="gems/snowflake.png" width="30" height="30" halign="center" valign="center" >
+		<animation animation="hover" speed="1" size="5.0" rotation="5.0" />
+	</element>
+	<element id="tSnowflake" template="tOverlay" >
+		<image name="uiImgSwarm" image="gems/storm.png" width="100" height="100" halign="center" valign="center" />
+		<image name="uiImgFlake01" x="-30" y="-13" scale="1.3" template="tFlake" />
+		<image name="uiImgFlake02" x= "30" y="-30" template="tFlake" />
+		<image name="uiImgFlake03" x= "20" y="30" scale="0.8" template="tFlake" />
+	</element>
+	<element id="tLeaf" template="tOverlay" >		
+		<!--image image="gems/leaf.png" x="-5" y="-5" width="40" height="40" halign="left" valign="top" rotation="30" >
+			<animation animation="wobble" />
+		</image>
+		<image image="gems/leaf.png" width="50" height="50" x="30" y="30" halign="center" valign="center" scaleX="-1" >
+			<animation animation="wobble" />
+		</image-->
+		<image name="uiImgLeaf" image="gems/leaf.png" width="102" height="102" halign="center" valign="center" >			
+			
+		</image>
+	</element>
+	<element id="tHardCage" template="tStone">
+		<element name="uiContent" width="100" height="100" halign="center" valign="center" clickable="false" />
+		<image name="uiImgIcon" image="gems/hardCage.png" width="100" height="100" halign="center" valign="center" clickableChildren="false">
+			<image name="uiImgLock0" image="gems/lock_top.png" width="40" height="40" valign="top" halign="left" />
+			<image name="uiImgLock1" image="gems/lock_top.png" width="40" height="40" valign="top" halign="right" scaleX="-1" />
+			<image name="uiImgLock2" image="gems/lock_bottom.png" width="40" height="40" valign="bottom" halign="left" />
+			<image name="uiImgLock3" image="gems/lock_bottom.png" width="40" height="40" valign="bottom" halign="right" scaleX="-1"/>
+		</image>
+	</element>
+	
+	<button id="tPowerUp" width="120" ratio="1.0" halign="center" valign="center" clickableChildren="false">
+		<image name="uiImgBg" relativeHeight="1.0" relativeWidth="1.0" halign="center" valign="center" template="tButtonImage" marginBottom="-5" />
+		<image name="uiImgIcon" width="80" ratio="1.0" halign="center" valign="center" animation="wobble" />
+		
+		<image image="ui/gradient.png" width="50" height="60" halign="right" valign="bottom" y="10" >
+			<text name="uiTxtAmount" halign="center" halignText="center" valignText="center" template="tFontWhite,tFontSmall" width="200%" height="100%" margin="5" y="-5" />	
+		</image>
+		
+		<emitter duration="1.2" gravity="0.1" startSize="20" endColor="0x70FFFFFF" range="110" numParticlesPerSecond="0" />
+	</button>
+	
+	<element id="tTools" x="50" y="0" width="170" height="620" halign="rightOf" valign="center" >
+		<state state="landscape" x="50" y="0" width="170" height="620" halign="rightOf" valign="center" />
+		<state state="portrait" x="0" y="30" width="600" height="170" halign="center" valign="bottomOf" />
+		<image name="uiImgContent" template="tBoard,tElement" paddingBottom="15" >
+			<button name="uiBtHammerPowerUp" data='{"id":"HAMMER"}' y="-210" template="tPowerUp">				
+				<state state="landscape" x="0" y="-210" />
+				<state state="portrait" x="-210" y="0" />
+				<image name="uiImgIcon" image="dynamic/hammer.png" ratio="0.8474576" />
+			</button>
+			<button name="uiBtColumnPowerUp" data='{"id":"COLUMN"}' y="-70" template="tPowerUp" >
+				<state state="landscape" x="0" y="-70" />
+				<state state="portrait" x="-70" y="0" />
+				<image name="uiImgIcon" image="dynamic/column.png" />
+			</button>
+			<button name="uiBtRowPowerUp" data='{"id":"ROW"}' y="70" template="tPowerUp">
+				<state state="landscape" x="0" y="70" />
+				<state state="portrait" x="70" y="0" />
+				<image name="uiImgIcon" image="dynamic/row.png" />
+			</button>	
+			<button name="uiBtSwizzlePowerUp" data='{"id":"SWIZZLE"}' template="tPowerUp">
+				<state state="landscape" x="0" y="210" />
+				<state state="portrait" x="210" y="0" />
+				<image name="uiImgIcon" image="dynamic/swizzle.png" />
+			</button>
+		</image>
+		<button name="uiBtSettings" width="160" ratio="1.0" padding="30" >
+			<image image="ui/gradient.png" width="160" ratio="1.0" halign="center" valign="center" />
+			<state state="landscape" x="0" y="-25" halign="center" valign="bottomOf" />
+			<state state="portrait" x="10" y="0" halign="rightOf" valign="center" />
+			<image image="ui/settings.png" width="90" ratio="1.0" halign="center" valign="center" />
+		</button>
+	</element>
+</templates>
+
+<screen name="uiScreenTest" relativeWidth="1.0" relativeHeight="1.0" halign="center" valign="center">	
+	<element name="uiPlayField" width="800" height="800" valign="center" halign="center" >
+		<element name="uiContainer" relativeHeight="1.0" relativeWidth="1.0"/>		
+
+		<element name="uiCages" relativeHeight="1.0" relativeWidth="1.0"/>
+		<element name="uiOverlay" relativeHeight="1.0" relativeWidth="1.0"/>
+		<element name="uiMenu" relativeHeight="1.0" relativeWidth="1.0"/>
+		<element name="uiAnimation" absolute="true" relativeHeight="1.0" relativeWidth="1.0"/>
+		<button name="uiBtClickBG" absolute="true" relativeHeight="1.0" relativeWidth="1.0" clickable="true" visible="false" />
+					
+		<element name="uiPowerUpOverlay" absolute="true" relativeHeight="1.0" relativeWidth="1.0" />			
+	</element>	
+</screen>

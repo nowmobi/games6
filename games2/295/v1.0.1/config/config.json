@@ -1,0 +1,49 @@
+{
+  "GenerateStaticLevels": true,
+  "InitCoins": 0,
+  "ChangeBgEveryXLevels": 5,
+  "NumberOfBgs": 10,
+  "BonusWords": {
+    "Target": 20,
+    "Reward": 20
+  },
+  "Boosters": {
+    "Magnifier": {
+      "UnlockLevel": 5,
+      "Count": 3,
+      "Price": 80
+    },
+    "LightBulb": {
+      "UnlockLevel": 10,
+      "Count": 3,
+      "Price": 200
+    }
+  },
+  "LevelProgressTarget": 10,
+  "GiftsChance": {
+    "Coin": {
+      "Name": "Coin",
+      "Chance": 3,
+      "Range": [
+        80,
+        150
+      ]
+    },
+    "Magnifier": {
+      "Name": "Magnifier",
+      "Chance": 2,
+      "Range": [
+        1,
+        2
+      ]
+    },
+    "LightBulb": {
+      "Name": "LightBulb",
+      "Chance": 1,
+      "Range": [
+        1,
+        1
+      ]
+    }
+  }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Find A Difference</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="delay_start/game.css" rel="stylesheet"/>
+    <script src="delay_start/jquery.js"></script>
+
+    <script>
+        var gameTitle = "Find A Difference";
+        var GadAFC = "ca-pub-2270136017335510";
+        var GadSlot = "5640249428";
+        var _bannerHeight = 50;
+        var _interstitial_intervel = 45;
+        var _is_show_banner = true;
+        var _force_horizontal = false;
+        var _need_reward = true;
+    </script>
+</head>
+<body>
+<div id="rotate" class="rotate">
+    <div class="icon"></div>
+</div>
+<div id="gameframediv">
+    <iframe id='game_frame' webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen='true'
+            webkit-playsinline='true' scrolling='no' seamless frameborder='0'
+            style='display:block;overflow:hidden;'></iframe>
+</div>
+
+<script type="text/javascript" src="delay_start/adsdk.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"5c8adb3476774536859fc56135d4501a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+<script>
+    // var _messageOrgin = window.location.origin||"bjchenchuanggame.com";
+    // let appKey = 4056356;
+    // let options = {
+    //     ga: {
+    //         "id": "UA-120043346-67" //谷歌埋点ID，有了改参数，athena埋点会同步上报到⾕歌
+    //     },
+    //     adsence: {
+    //         "client": "ca-pub-2270136017335510", //adsenseclientid
+    //         "data-ad-frequency-hint": "45s", //广告频次限制，最小值45s
+    //         "data-ad-channel": "8509939439", // 游戏广告自定义渠道ID
+    //         // 热启动广告，既手机锁屏/恢复，浏览器切换时展示的广告
+    //         // pauseCallback 和 resumeCallback 必须两个同时存在，才会展示热启动广告
+    //         // "pauseCallback":()=>{
+    //         //     console.log("my game paused");
+    //         //     document.getElementById("game_frame").contentWindow.postMessage("beforeShowAd", "*");
+    //         //     // 请在这里加入游戏暂停代码
+    //         // },
+    //         // "resumeCallback":()=>{
+    //         //     console.log("my game restart");
+    //         //     document.getElementById("game_frame").contentWindow.postMessage("afterShowAd", "*");
+    //         //     // 请在这里加入游戏重新开始代码
+    //         // },
+    //         "callback": () => { //初始化成功后回调
+    //             window.h5sdk.athenaSend("game_start", document.title); //开始游戏自定义埋点
+    //             window.h5sdk.adConfig({
+    //                 preloadAdBreaks: 'on',
+    //                 onReady: () => {
+    //                     console.log(66666,'onReady');
+    //                     window.postMessage("onReady", _messageOrgin);
+    //                     window.h5sdk.adBreak({
+    //                         type: "preroll",
+    //                         name: "my_preroll",
+    //                         adBreakDone: () => {},// 也不要在这里初始化游戏，因为用户不关闭广告，则游戏无法初始化！！！
+    //                     });
+    //                 },
+    //             });
+    //             window.postMessage("showPreroll", _messageOrgin);
+    //         },
+    //     }
+    // }
+    // try {
+    //     const tHostname = location.hostname;
+    //     const tChannelName = "bjchenchuanggame.com";
+    //     if (tHostname.indexOf(tChannelName.toLowerCase()) < 0) {
+    //         //"data-adbreak-test": "on", //启⽤测试模式，若想启动正式模式请删掉该字段
+    //         options["adsence"]["data-adbreak-test"] = "on"
+    //     }
+    //     else
+    //     {
+    //         console.log = console.info = console.error =  console.warn = function () { };
+    //     }
+    // } catch (error) {
+    //     console.log("tHostname " + error)
+    // }
+    // window.h5sdk && window.h5sdk.init(appKey, "", "", "", "", options);
+
+</script>
+</html>

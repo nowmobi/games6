@@ -1,0 +1,232 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Sign_2",
+      "texture": "03iUP2TNdBdZlF43Ms5lAA",
+      "rect": [
+        0,
+        0,
+        88,
+        88
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        88,
+        88
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "singleColor",
+      "texture": "46Hp/32/ROHqmR4Ul+sGAA",
+      "rect": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        2,
+        2
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "touchItem",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "touchItem",
+      "_children": [
+        {
+          "__id__": 2
+        },
+        {
+          "__id__": 4
+        },
+        {
+          "__id__": 5
+        }
+      ],
+      "_level": 1,
+      "_components": [
+        {
+          "__type__": "b9e240+yr9GHLc2QWm8Vu1U",
+          "node": {
+            "__id__": 1
+          },
+          "tag": {
+            "__id__": 2
+          },
+          "touchTag": {
+            "__id__": 4
+          },
+          "touchNode": {
+            "__id__": 5
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "79i6GOw3hPH7jShGMeRlSX"
+        },
+        "fileId": "bccQ5zRQ1FrYtkYaHx9TRC"
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "tag",
+      "_parent": {
+        "__id__": 1
+      },
+      "_children": [
+        {
+          "__id__": 3
+        }
+      ],
+      "_active": false,
+      "_level": 2,
+      "_components": [
+        {
+          "__type__": "cc.Mask",
+          "node": {
+            "__id__": 2
+          },
+          "_N$inverted": true
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "79i6GOw3hPH7jShGMeRlSX"
+        },
+        "fileId": "61oNMIU4JB4JrGHqvvOeQC"
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "kuang",
+      "_parent": {
+        "__id__": 2
+      },
+      "_level": 3,
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 3
+          },
+          "_spriteFrame": {
+            "__uuid__": "46Hp/32/ROHqmR4Ul+sGhJ"
+          },
+          "_sizeMode": 0
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "79i6GOw3hPH7jShGMeRlSX"
+        },
+        "fileId": "b0O5+29ZdCYaiOXZS2p5/8"
+      },
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 255
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 50,
+        "height": 50
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "touchTag",
+      "_parent": {
+        "__id__": 1
+      },
+      "_level": 2,
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 4
+          },
+          "_spriteFrame": {
+            "__uuid__": "03iUP2TNdBdZlF43Ms5lyH"
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "79i6GOw3hPH7jShGMeRlSX"
+        },
+        "fileId": "ca2YhWdZtL/5LU6vEewbNN"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 88,
+        "height": 88
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "touchNode",
+      "_parent": {
+        "__id__": 1
+      },
+      "_level": 6,
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "79i6GOw3hPH7jShGMeRlSX"
+        },
+        "fileId": "d0YMNB4ghKTr9Or5DK/VpD"
+      }
+    }
+  ]
+]

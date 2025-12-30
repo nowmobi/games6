@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "slowline",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "slowline",
+      "_level": 1,
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 1
+          },
+          "_spriteFrame": {
+            "__uuid__": "b1Z1Viz6pDB4mSoxCwsBWr"
+          },
+          "_sizeMode": 0
+        },
+        {
+          "__type__": "c01636gjcxPk4+rx4L9UdLW",
+          "node": {
+            "__id__": 1
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "27sfzZNjVFHaczpZNjbjTi"
+        },
+        "fileId": "aciirDvJdD3JAO1Ub1yeAC"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 120,
+        "height": 64
+      },
+      "_anchorPoint": {
+        "__type__": "cc.Vec2",
+        "x": 0.5
+      },
+      "_scale": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "line2",
+      "texture": "136027491",
+      "rect": [
+        3,
+        725,
+        51,
+        259
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        52,
+        259
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

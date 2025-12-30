@@ -1,0 +1,493 @@
+{
+  "frames": {
+    "shop-tabulka-chest": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 693,
+        "h": 760
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 693,
+        "h": 760
+      },
+      "sourceSize": {
+        "w": 693,
+        "h": 760
+      }
+    },
+    "shop-tabulka": {
+      "frame": {
+        "x": 2,
+        "y": 764,
+        "w": 693,
+        "h": 760
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 693,
+        "h": 760
+      },
+      "sourceSize": {
+        "w": 693,
+        "h": 760
+      }
+    },
+    "time": {
+      "frame": {
+        "x": 2,
+        "y": 1526,
+        "w": 493,
+        "h": 114
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 493,
+        "h": 114
+      },
+      "sourceSize": {
+        "w": 493,
+        "h": 114
+      }
+    },
+    "balon1": {
+      "frame": {
+        "x": 497,
+        "y": 1526,
+        "w": 133,
+        "h": 464
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 133,
+        "h": 464
+      },
+      "sourceSize": {
+        "w": 133,
+        "h": 464
+      }
+    },
+    "balon2": {
+      "frame": {
+        "x": 697,
+        "y": 764,
+        "w": 133,
+        "h": 464
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 133,
+        "h": 464
+      },
+      "sourceSize": {
+        "w": 133,
+        "h": 464
+      }
+    },
+    "balon3": {
+      "frame": {
+        "x": 832,
+        "y": 2,
+        "w": 133,
+        "h": 464
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 133,
+        "h": 464
+      },
+      "sourceSize": {
+        "w": 133,
+        "h": 464
+      }
+    },
+    "balon4": {
+      "frame": {
+        "x": 697,
+        "y": 2,
+        "w": 133,
+        "h": 464
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 133,
+        "h": 464
+      },
+      "sourceSize": {
+        "w": 133,
+        "h": 464
+      }
+    },
+    "balon5": {
+      "frame": {
+        "x": 832,
+        "y": 468,
+        "w": 133,
+        "h": 464
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 133,
+        "h": 464
+      },
+      "sourceSize": {
+        "w": 133,
+        "h": 464
+      }
+    },
+    "coin_bar": {
+      "frame": {
+        "x": 697,
+        "y": 1230,
+        "w": 210,
+        "h": 74
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 210,
+        "h": 74
+      },
+      "sourceSize": {
+        "w": 210,
+        "h": 74
+      }
+    },
+    "shop-active-butt": {
+      "frame": {
+        "x": 697,
+        "y": 468,
+        "w": 120,
+        "h": 73
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 120,
+        "h": 73
+      },
+      "sourceSize": {
+        "w": 120,
+        "h": 73
+      }
+    },
+    "shop-ad-butt": {
+      "frame": {
+        "x": 697,
+        "y": 543,
+        "w": 120,
+        "h": 73
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 120,
+        "h": 73
+      },
+      "sourceSize": {
+        "w": 120,
+        "h": 73
+      }
+    },
+    "shop-inactive-butt": {
+      "frame": {
+        "x": 697,
+        "y": 618,
+        "w": 120,
+        "h": 73
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 120,
+        "h": 73
+      },
+      "sourceSize": {
+        "w": 120,
+        "h": 73
+      }
+    },
+    "tresure": {
+      "frame": {
+        "x": 909,
+        "y": 934,
+        "w": 100,
+        "h": 71
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 71
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 71
+      }
+    },
+    "tresure1": {
+      "frame": {
+        "x": 909,
+        "y": 1007,
+        "w": 100,
+        "h": 71
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 71
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 71
+      }
+    },
+    "back_button": {
+      "frame": {
+        "x": 909,
+        "y": 1080,
+        "w": 90,
+        "h": 98
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 90,
+        "h": 98
+      },
+      "sourceSize": {
+        "w": 90,
+        "h": 98
+      }
+    },
+    "exit_button": {
+      "frame": {
+        "x": 909,
+        "y": 1180,
+        "w": 90,
+        "h": 98
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 90,
+        "h": 98
+      },
+      "sourceSize": {
+        "w": 90,
+        "h": 98
+      }
+    },
+    "bs_tnt": {
+      "frame": {
+        "x": 832,
+        "y": 1080,
+        "w": 70,
+        "h": 89
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 70,
+        "h": 89
+      },
+      "sourceSize": {
+        "w": 70,
+        "h": 89
+      }
+    },
+    "bs_spectrum": {
+      "frame": {
+        "x": 832,
+        "y": 934,
+        "w": 70,
+        "h": 85
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 70,
+        "h": 85
+      },
+      "sourceSize": {
+        "w": 70,
+        "h": 85
+      }
+    },
+    "bs_hammer": {
+      "frame": {
+        "x": 909,
+        "y": 1280,
+        "w": 70,
+        "h": 84
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 70,
+        "h": 84
+      },
+      "sourceSize": {
+        "w": 70,
+        "h": 84
+      }
+    },
+    "bs_spray": {
+      "frame": {
+        "x": 967,
+        "y": 2,
+        "w": 47,
+        "h": 80
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 80
+      },
+      "sourceSize": {
+        "w": 47,
+        "h": 80
+      }
+    },
+    "bs_wand": {
+      "frame": {
+        "x": 967,
+        "y": 84,
+        "w": 53,
+        "h": 80
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 53,
+        "h": 80
+      },
+      "sourceSize": {
+        "w": 53,
+        "h": 80
+      }
+    },
+    "bs_saw": {
+      "frame": {
+        "x": 697,
+        "y": 1306,
+        "w": 70,
+        "h": 76
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 70,
+        "h": 76
+      },
+      "sourceSize": {
+        "w": 70,
+        "h": 76
+      }
+    },
+    "coin": {
+      "frame": {
+        "x": 697,
+        "y": 693,
+        "w": 58,
+        "h": 59
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 58,
+        "h": 59
+      },
+      "sourceSize": {
+        "w": 58,
+        "h": 59
+      }
+    },
+    "time-palicka": {
+      "frame": {
+        "x": 904,
+        "y": 934,
+        "w": 3,
+        "h": 20
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 20
+      }
+    }
+  },
+  "meta": {
+    "image": "../../assets/img/pak/menu6.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1024,
+      "h": 2048
+    },
+    "scale": 1
+  }
+}

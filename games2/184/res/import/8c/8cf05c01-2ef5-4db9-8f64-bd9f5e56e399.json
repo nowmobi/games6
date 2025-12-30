@@ -1,0 +1,60 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "PfNum",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "PfNum",
+    "_components": [
+      {
+        "__type__": "19cb1MHPElNpZmYUfEsHBmR",
+        "node": {
+          "__id__": 1
+        }
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "8c8FwBLvVNuY9kvZ9eVuOZ"
+      },
+      "fileId": "f3RCnPDdtICZDQNnUcrkfk"
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "height": 40
+    },
+    "_position": {
+      "__type__": "cc.Vec3"
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  }
+]

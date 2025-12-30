@@ -1,0 +1,473 @@
+{
+  "ID": "76019654-c159-4b93-9803-fc29bcafde21",
+  "Version": "3.10.0.0",
+  "Name": "game_target_layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 593,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/scalesprite2.png",
+              "Plist": "csi/scaleplist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 47,
+            "Scale9OriginY": 54,
+            "Scale9Width": 50,
+            "Scale9Height": 57,
+            "AnchorPoint": {
+              "ScaleX": 1,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -0.9982,
+              "Y": 660.9288
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0014,
+              "Y": 0.5164
+            },
+            "PreSize": {
+              "X": 1.0139,
+              "Y": 0.1428
+            },
+            "LeftMargin": -730.9982,
+            "RightMargin": 720.9982,
+            "TopMargin": 527.6771,
+            "BottomMargin": 569.5347,
+            "Tag": 602,
+            "ActionTag": 1789224282,
+            "Size": {
+              "X": 730,
+              "Y": 182.7882
+            },
+            "Name": "bgimg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "element/green_shadow.png",
+              "Plist": "csi/csi_3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -576.0428,
+              "Y": 687.5248
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.8001,
+              "Y": 0.5371
+            },
+            "PreSize": {
+              "X": 0.1222,
+              "Y": 0.0688
+            },
+            "LeftMargin": -620.0428,
+            "RightMargin": 1252.0427,
+            "TopMargin": 548.4752,
+            "BottomMargin": 643.5248,
+            "Tag": 594,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "Text Label",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2,
+                "ShadowOffsetY": -2,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 44,
+                  "Y": -39
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": -0.4432
+                },
+                "PreSize": {
+                  "X": 1.1364,
+                  "Y": 0.2273
+                },
+                "LeftMargin": -6,
+                "RightMargin": -6,
+                "TopMargin": 117,
+                "BottomMargin": -49,
+                "Tag": 595,
+                "ActionTag": -1540157974,
+                "Size": {
+                  "X": 100,
+                  "Y": 20
+                },
+                "Name": "aw_fnttype1_price",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 84220677,
+            "Size": {
+              "X": 88,
+              "Y": 88
+            },
+            "Name": "paper_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "element/green_shadow.png",
+              "Plist": "csi/csi_3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -434.631,
+              "Y": 687.5248
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.6037,
+              "Y": 0.5371
+            },
+            "PreSize": {
+              "X": 0.1222,
+              "Y": 0.0688
+            },
+            "LeftMargin": -478.631,
+            "RightMargin": 1110.631,
+            "TopMargin": 548.4752,
+            "BottomMargin": 643.5248,
+            "Tag": 596,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "Text Label",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2,
+                "ShadowOffsetY": -2,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 44,
+                  "Y": -39
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": -0.4432
+                },
+                "PreSize": {
+                  "X": 1.1364,
+                  "Y": 0.2273
+                },
+                "LeftMargin": -6,
+                "RightMargin": -6,
+                "TopMargin": 117,
+                "BottomMargin": -49,
+                "Tag": 597,
+                "ActionTag": 98803848,
+                "Size": {
+                  "X": 100,
+                  "Y": 20
+                },
+                "Name": "aw_fnttype1_price",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1823088453,
+            "Size": {
+              "X": 88,
+              "Y": 88
+            },
+            "Name": "paper_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "element/green_shadow.png",
+              "Plist": "csi/csi_3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -291.0388,
+              "Y": 687.5248
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.4042,
+              "Y": 0.5371
+            },
+            "PreSize": {
+              "X": 0.1222,
+              "Y": 0.0688
+            },
+            "LeftMargin": -335.0388,
+            "RightMargin": 967.0388,
+            "TopMargin": 548.4752,
+            "BottomMargin": 643.5248,
+            "Tag": 598,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "Text Label",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2,
+                "ShadowOffsetY": -2,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 44,
+                  "Y": -39
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": -0.4432
+                },
+                "PreSize": {
+                  "X": 1.1364,
+                  "Y": 0.2273
+                },
+                "LeftMargin": -6,
+                "RightMargin": -6,
+                "TopMargin": 117,
+                "BottomMargin": -49,
+                "Tag": 599,
+                "ActionTag": -1173895350,
+                "Size": {
+                  "X": 100,
+                  "Y": 20
+                },
+                "Name": "aw_fnttype1_price",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1063464591,
+            "Size": {
+              "X": 88,
+              "Y": 88
+            },
+            "Name": "paper_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "element/green_shadow.png",
+              "Plist": "csi/csi_3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -151.0327,
+              "Y": 687.5248
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.2098,
+              "Y": 0.5371
+            },
+            "PreSize": {
+              "X": 0.1222,
+              "Y": 0.0688
+            },
+            "LeftMargin": -195.0327,
+            "RightMargin": 827.0327,
+            "TopMargin": 548.4752,
+            "BottomMargin": 643.5248,
+            "Tag": 600,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "Text Label",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2,
+                "ShadowOffsetY": -2,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 44,
+                  "Y": -39
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": -0.4432
+                },
+                "PreSize": {
+                  "X": 1.1364,
+                  "Y": 0.2273
+                },
+                "LeftMargin": -6,
+                "RightMargin": -6,
+                "TopMargin": 117,
+                "BottomMargin": -49,
+                "Tag": 601,
+                "ActionTag": -327300406,
+                "Size": {
+                  "X": 100,
+                  "Y": 20
+                },
+                "Name": "aw_fnttype1_price",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1577863910,
+            "Size": {
+              "X": 88,
+              "Y": 88
+            },
+            "Name": "paper_4",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720,
+          "Y": 1280
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../csi/csi_3.plist",
+        "../csi/csi_3.png",
+        "../csi/scaleplist.plist",
+        "../csi/scaleplist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,557 @@
+{
+	"type": "View",
+	"props": {
+		"width": 750,
+		"height": 1334
+	},
+	"compId": 2,
+	"child": [
+		{
+			"type": "Image",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "pngBg",
+				"top": 0,
+				"skin": "images/grid/maskLight.png",
+				"sizeGrid": "2,2,2,2",
+				"right": 0,
+				"left": 0,
+				"bottom": 0
+			},
+			"compId": 15
+		},
+		{
+			"type": "Box",
+			"props": {
+				"y": 360,
+				"x": -218,
+				"width": 320,
+				"var": "heroBox",
+				"rotation": 0,
+				"pivotY": 140,
+				"pivotX": 160,
+				"height": 140
+			},
+			"compId": 21
+		},
+		{
+			"type": "Box",
+			"props": {
+				"y": 400,
+				"x": 299,
+				"width": 100,
+				"var": "buildBox",
+				"mouseThrough": true,
+				"height": 100,
+				"anchorY": 0.5,
+				"anchorX": 0.5
+			},
+			"compId": 35,
+			"child": [
+				{
+					"type": "Image",
+					"props": {
+						"y": 50,
+						"x": 50,
+						"var": "buildAim",
+						"skin": "images/main/icon_sb_jz_db.png",
+						"mouseThrough": true,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 34
+				},
+				{
+					"type": "Box",
+					"props": {
+						"y": -21,
+						"x": 50,
+						"width": 0,
+						"var": "soliderBox",
+						"rotation": 0,
+						"height": 90,
+						"anchorY": 1
+					},
+					"compId": 22
+				}
+			]
+		},
+		{
+			"type": "Box",
+			"props": {
+				"y": 425,
+				"x": 595,
+				"width": 1,
+				"var": "starBox",
+				"rotation": 0,
+				"height": 1
+			},
+			"compId": 29,
+			"child": [
+				{
+					"type": "Image",
+					"props": {
+						"var": "soliderAim",
+						"skin": "images/main/icon_sb_xz.png",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 33
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 0,
+						"x": 0,
+						"var": "imgRange",
+						"skin": "images/main/icon_sb_gj.png",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 32
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -139,
+						"x": 0,
+						"width": 84,
+						"var": "btnUp",
+						"skin": "images/main/icon_sb_sj1.png",
+						"rotation": 0,
+						"label": "label",
+						"height": 86,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 23,
+					"child": [
+						{
+							"type": "Image",
+							"props": {
+								"y": 64,
+								"x": -2,
+								"width": 88,
+								"var": "bgCost",
+								"skin": "images/main/icon_sb_zjjgbg.png",
+								"sizeGrid": "0,18,0,33",
+								"height": 35
+							},
+							"compId": 30,
+							"child": [
+								{
+									"type": "Label",
+									"props": {
+										"y": 6,
+										"x": 25,
+										"width": 54,
+										"var": "labCost",
+										"text": "消耗",
+										"fontSize": 18,
+										"color": "#ad5510",
+										"bold": true,
+										"align": "center"
+									},
+									"compId": 27
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 131,
+						"x": 0,
+						"var": "btnSale",
+						"skin": "images/main/icon_sb_cc.png",
+						"label": "label",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 24,
+					"child": [
+						{
+							"type": "Image",
+							"props": {
+								"y": 64,
+								"x": -2,
+								"width": 88,
+								"skin": "images/main/icon_sb_zjjgbg.png",
+								"sizeGrid": "0,18,0,33",
+								"height": 35
+							},
+							"compId": 31,
+							"child": [
+								{
+									"type": "Label",
+									"props": {
+										"y": 6,
+										"x": 26,
+										"width": 54,
+										"var": "labSale",
+										"text": "回收",
+										"fontSize": 18,
+										"color": "#ad5510",
+										"bold": true,
+										"align": "center"
+									},
+									"compId": 28
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -86,
+						"x": 30,
+						"var": "bgGain",
+						"skin": "images/main/icon_ljlj_bg.png"
+					},
+					"compId": 62,
+					"child": [
+						{
+							"type": "Label",
+							"props": {
+								"y": 26,
+								"x": 28,
+								"width": 46,
+								"var": "labGain",
+								"text": "6666",
+								"rotation": 0,
+								"fontSize": 18,
+								"color": "#16508e",
+								"bold": true,
+								"align": "center"
+							},
+							"compId": 63
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Box",
+			"props": {
+				"x": 0,
+				"width": 750,
+				"visible": false,
+				"var": "devBox",
+				"mouseThrough": true,
+				"height": 322,
+				"bottom": 40
+			},
+			"compId": 42,
+			"child": [
+				{
+					"type": "Image",
+					"props": {
+						"y": 276,
+						"x": 77,
+						"width": 94,
+						"var": "btnBuildOpen1",
+						"skin": "images/main/button_blue.png",
+						"sizeGrid": "26,25,38,28",
+						"rotation": 0,
+						"label": "label",
+						"height": 59,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 48,
+					"child": [
+						{
+							"type": "Label",
+							"props": {
+								"y": 11,
+								"x": 13,
+								"text": "建造1",
+								"fontSize": 26,
+								"color": "#ffffff",
+								"bold": true
+							},
+							"compId": 49
+						}
+					]
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 276,
+						"x": 185,
+						"width": 94,
+						"var": "btnBuildOpen2",
+						"skin": "images/main/button_blue.png",
+						"sizeGrid": "26,25,38,28",
+						"rotation": 0,
+						"label": "label",
+						"height": 59,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 54,
+					"child": [
+						{
+							"type": "Label",
+							"props": {
+								"y": 11,
+								"x": 13,
+								"text": "建造2",
+								"fontSize": 26,
+								"color": "#ffffff",
+								"bold": true
+							},
+							"compId": 55
+						}
+					]
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 276,
+						"x": 292,
+						"width": 94,
+						"var": "btnBuildOpen3",
+						"skin": "images/main/button_blue.png",
+						"sizeGrid": "26,25,38,28",
+						"rotation": 0,
+						"label": "label",
+						"height": 59,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 56,
+					"child": [
+						{
+							"type": "Label",
+							"props": {
+								"y": 11,
+								"x": 13,
+								"text": "建造3",
+								"fontSize": 26,
+								"color": "#ffffff",
+								"bold": true
+							},
+							"compId": 57
+						}
+					]
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 276,
+						"x": 400,
+						"width": 94,
+						"var": "btnBuildOpen4",
+						"skin": "images/main/button_blue.png",
+						"sizeGrid": "26,25,38,28",
+						"rotation": 0,
+						"label": "label",
+						"height": 59,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 58,
+					"child": [
+						{
+							"type": "Label",
+							"props": {
+								"y": 11,
+								"x": 13,
+								"text": "建造4",
+								"fontSize": 26,
+								"color": "#ffffff",
+								"bold": true
+							},
+							"compId": 59
+						}
+					]
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 276,
+						"x": 507,
+						"width": 94,
+						"var": "btnBuildOpen5",
+						"skin": "images/main/button_blue.png",
+						"sizeGrid": "26,25,38,28",
+						"rotation": 0,
+						"label": "label",
+						"height": 59,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 60,
+					"child": [
+						{
+							"type": "Label",
+							"props": {
+								"y": 11,
+								"x": 13,
+								"text": "建造5",
+								"fontSize": 26,
+								"color": "#ffffff",
+								"bold": true
+							},
+							"compId": 61
+						}
+					]
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 276,
+						"x": 663,
+						"width": 94,
+						"var": "btnRangeOpen",
+						"skin": "images/main/button_blue.png",
+						"sizeGrid": "26,25,38,28",
+						"rotation": 0,
+						"label": "label",
+						"height": 59,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 52,
+					"child": [
+						{
+							"type": "Label",
+							"props": {
+								"y": 11,
+								"x": 20,
+								"text": "射程",
+								"fontSize": 26,
+								"color": "#ffffff",
+								"bold": true
+							},
+							"compId": 53
+						}
+					]
+				},
+				{
+					"type": "Box",
+					"props": {
+						"visible": false,
+						"var": "devBoxShow",
+						"top": -70,
+						"right": 0,
+						"left": 0,
+						"bottom": 0
+					},
+					"compId": 47,
+					"child": [
+						{
+							"type": "Image",
+							"props": {
+								"y": 60,
+								"x": 73,
+								"var": "btnSolider1",
+								"skin": "images/main/icon_sb_sj1.png",
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 38
+						},
+						{
+							"type": "Image",
+							"props": {
+								"y": 60,
+								"x": 203,
+								"var": "btnSolider2",
+								"skin": "images/main/icon_sb_sj2.png",
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 39
+						},
+						{
+							"type": "Image",
+							"props": {
+								"y": 60,
+								"x": 333,
+								"var": "btnSolider3",
+								"skin": "images/main/icon_sb_sj3.png",
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 40
+						},
+						{
+							"type": "Image",
+							"props": {
+								"y": 60,
+								"x": 463,
+								"var": "btnSolider0",
+								"skin": "images/main/icon_sb_cc.png",
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 41
+						},
+						{
+							"type": "Image",
+							"props": {
+								"y": 70,
+								"x": 891,
+								"width": 170,
+								"var": "btnWin",
+								"skin": "images/main/button_yellow.png",
+								"sizeGrid": "35,49,50,48",
+								"label": "label",
+								"height": 86,
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 43,
+							"child": [
+								{
+									"type": "Label",
+									"props": {
+										"y": 21,
+										"x": 31,
+										"text": "3 Star",
+										"fontSize": 26,
+										"color": "#ffffff",
+										"bold": true
+									},
+									"compId": 44
+								}
+							]
+						},
+						{
+							"type": "List",
+							"props": {
+								"y": 120,
+								"x": 45,
+								"width": 660,
+								"var": "devList",
+								"mouseThrough": true,
+								"height": 186
+							},
+							"compId": 36
+						}
+					]
+				}
+			]
+		}
+	],
+	"loadList": [
+		"images/grid/maskLight.png",
+		"images/main/icon_sb_jz_db.png",
+		"images/main/icon_sb_xz.png",
+		"images/main/icon_sb_gj.png",
+		"images/main/icon_sb_sj1.png",
+		"images/main/icon_sb_zjjgbg.png",
+		"images/main/icon_sb_cc.png",
+		"images/main/icon_ljlj_bg.png",
+		"images/main/button_blue.png",
+		"images/main/icon_sb_sj2.png",
+		"images/main/icon_sb_sj3.png",
+		"images/main/button_yellow.png"
+	],
+	"loadList3D": []
+}

@@ -1,0 +1,195 @@
+{
+    "frames": {
+        "loading_Progress1.png": {
+            "frame": {
+                "h": 37,
+                "idx": 0,
+                "w": 458,
+                "x": 0,
+                "y": 286
+            },
+            "sourceSize": {
+                "h": 37,
+                "w": 458
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "loading_Progress2.png": {
+            "frame": {
+                "h": 30,
+                "idx": 0,
+                "w": 452,
+                "x": 142,
+                "y": 324
+            },
+            "sourceSize": {
+                "h": 30,
+                "w": 452
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "loading_img_cloud.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 89,
+                "x": 180,
+                "y": 453
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 89
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "loading_img_god1.png": {
+            "frame": {
+                "h": 97,
+                "idx": 0,
+                "w": 118,
+                "x": 423,
+                "y": 355
+            },
+            "sourceSize": {
+                "h": 97,
+                "w": 118
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "loading_img_god2.png": {
+            "frame": {
+                "h": 97,
+                "idx": 0,
+                "w": 127,
+                "x": 142,
+                "y": 355
+            },
+            "sourceSize": {
+                "h": 97,
+                "w": 127
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "loading_img_god3.png": {
+            "frame": {
+                "h": 101,
+                "idx": 0,
+                "w": 141,
+                "x": 0,
+                "y": 324
+            },
+            "sourceSize": {
+                "h": 101,
+                "w": 141
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "loading_img_title.png": {
+            "frame": {
+                "h": 285,
+                "idx": 0,
+                "w": 586,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 311,
+                "w": 586
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 15
+            }
+        },
+        "loading_img_yun0.png": {
+            "frame": {
+                "h": 77,
+                "idx": 0,
+                "w": 152,
+                "x": 270,
+                "y": 355
+            },
+            "sourceSize": {
+                "h": 77,
+                "w": 152
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "loading_img_yun1.png": {
+            "frame": {
+                "h": 73,
+                "idx": 0,
+                "w": 60,
+                "x": 270,
+                "y": 433
+            },
+            "sourceSize": {
+                "h": 73,
+                "w": 60
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "loading_img_yun2.png": {
+            "frame": {
+                "h": 56,
+                "idx": 0,
+                "w": 179,
+                "x": 0,
+                "y": 453
+            },
+            "sourceSize": {
+                "h": 56,
+                "w": 179
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "loading_text0.png": {
+            "frame": {
+                "h": 30,
+                "idx": 0,
+                "w": 137,
+                "x": 459,
+                "y": 286
+            },
+            "sourceSize": {
+                "h": 32,
+                "w": 146
+            },
+            "spriteSourceSize": {
+                "x": 5,
+                "y": 1
+            }
+        }
+    },
+    "meta": {
+        "image": "ui_loading.png",
+        "prefix": "ui_loading/"
+    }
+}

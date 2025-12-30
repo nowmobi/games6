@@ -1,0 +1,1 @@
+No Content: https://g2.igroutka.ru/games/164/6kPVdShWMmBwv13z/1/stick_defenders/prebid4.12.0.js

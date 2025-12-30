@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+
+<html>
+<head><meta http-equiv="Content-Security-Policy" content="child-src 'self' *.allwebgames.com *.anima-games.com *.playhop.com *.yandex.az *.yandex.by *.yandex.co.il *.yandex.com *.yandex.com.am *.yandex.com.ge *.yandex.com.tr *.yandex.ee *.yandex.fr *.yandex.kg *.yandex.kz *.yandex.lt *.yandex.lv *.yandex.md *.yandex.ru *.yandex.tj *.yandex.tm *.yandex.ua *.yandex.uz allwebgames.com blob: playhop.com yandex.az yandex.by yandex.co.il yandex.com yandex.com.am yandex.com.ge yandex.com.tr yandex.ee yandex.fr yandex.kg yandex.kz yandex.lt yandex.lv yandex.md yandex.ru yandex.tj yandex.tm yandex.ua yandex.uz; connect-src 'self' *.allwebgames.com *.anima-games.com *.eponesh.com *.gameanalytics.com *.playhop.com *.unity3d.com *.website.yandexcloud.net *.yandex.az *.yandex.by *.yandex.co.il *.yandex.com *.yandex.com.am *.yandex.com.ge *.yandex.com.tr *.yandex.ee *.yandex.fr *.yandex.kg *.yandex.kz *.yandex.lt *.yandex.lv *.yandex.md *.yandex.net *.yandex.ru *.yandex.tj *.yandex.tm *.yandex.ua *.yandex.uz allwebgames.com blob: data: playhop.com storage.yandexcloud.net wss://*.anima-games.com:* wss://*.eponesh.com:* www.google-analytics.com www.googletagmanager.com yandex.az yandex.by yandex.co.il yandex.com yandex.com.am yandex.com.ge yandex.com.tr yandex.ee yandex.fr yandex.kg yandex.kz yandex.lt yandex.lv yandex.md yandex.ru yandex.tj yandex.tm yandex.ua yandex.uz yandexmetrica.com yastatic.net; default-src 'self' *.anima-games.com; font-src 'self' *.allwebgames.com *.anima-games.com *.playhop.com *.website.yandexcloud.net *.yandex.az *.yandex.by *.yandex.co.il *.yandex.com *.yandex.com.am *.yandex.com.ge *.yandex.com.tr *.yandex.ee *.yandex.fr *.yandex.kg *.yandex.kz *.yandex.lt *.yandex.lv *.yandex.md *.yandex.ru *.yandex.tj *.yandex.tm *.yandex.ua *.yandex.uz allwebgames.com data: fonts.gstatic.com playhop.com storage.yandexcloud.net yandex.az yandex.by yandex.co.il yandex.com yandex.com.am yandex.com.ge yandex.com.tr yandex.ee yandex.fr yandex.kg yandex.kz yandex.lt yandex.lv yandex.md yandex.ru yandex.tj yandex.tm yandex.ua yandex.uz yastat.net yastatic.net; frame-src 'self' *.allwebgames.com *.anima-games.com *.playhop.com *.website.yandexcloud.net *.yandex.az *.yandex.by *.yandex.co.il *.yandex.com *.yandex.com.am *.yandex.com.ge *.yandex.com.tr *.yandex.ee *.yandex.fr *.yandex.kg *.yandex.kz *.yandex.lt *.yandex.lv *.yandex.md *.yandex.ru *.yandex.tj *.yandex.tm *.yandex.ua *.yandex.uz allwebgames.com localhost playhop.com yandex.az yandex.by yandex.co.il yandex.com yandex.com.am yandex.com.ge yandex.com.tr yandex.ee yandex.fr yandex.kg yandex.kz yandex.lt yandex.lv yandex.md yandex.ru yandex.tj yandex.tm yandex.ua yandex.uz yastatic.net; img-src 'self' *.allwebgames.com *.anima-games.com *.eponesh.com *.playhop.com *.website.yandexcloud.net *.yandex.az *.yandex.by *.yandex.co.il *.yandex.com *.yandex.com.am *.yandex.com.ge *.yandex.com.tr *.yandex.ee *.yandex.fr *.yandex.kg *.yandex.kz *.yandex.lt *.yandex.lv *.yandex.md *.yandex.net *.yandex.ru *.yandex.tj *.yandex.tm *.yandex.ua *.yandex.uz allwebgames.com blob: data: playhop.com storage.yandexcloud.net yandex.az yandex.by yandex.co.il yandex.com yandex.com.am yandex.com.ge yandex.com.tr yandex.ee yandex.fr yandex.kg yandex.kz yandex.lt yandex.lv yandex.md yandex.ru yandex.tj yandex.tm yandex.ua yandex.uz yastatic.net; media-src 'self' *.allwebgames.com *.anima-games.com *.playhop.com *.website.yandexcloud.net *.yandex.az *.yandex.by *.yandex.co.il *.yandex.com *.yandex.com.am *.yandex.com.ge *.yandex.com.tr *.yandex.ee *.yandex.fr *.yandex.kg *.yandex.kz *.yandex.lt *.yandex.lv *.yandex.md *.yandex.net *.yandex.ru *.yandex.tj *.yandex.tm *.yandex.ua *.yandex.uz allwebgames.com blob: data: playhop.com storage.yandexcloud.net yandex.az yandex.by yandex.co.il yandex.com yandex.com.am yandex.com.ge yandex.com.tr yandex.ee yandex.fr yandex.kg yandex.kz yandex.lt yandex.lv yandex.md yandex.ru yandex.tj yandex.tm yandex.ua yandex.uz; object-src 'self' *.allwebgames.com *.anima-games.com *.playhop.com *.yandex.az *.yandex.by *.yandex.co.il *.yandex.com *.yandex.com.am *.yandex.com.ge *.yandex.com.tr *.yandex.ee *.yandex.fr *.yandex.kg *.yandex.kz *.yandex.lt *.yandex.lv *.yandex.md *.yandex.ru *.yandex.tj *.yandex.tm *.yandex.ua *.yandex.uz allwebgames.com blob: playhop.com yandex.az yandex.by yandex.co.il yandex.com yandex.com.am yandex.com.ge yandex.com.tr yandex.ee yandex.fr yandex.kg yandex.kz yandex.lt yandex.lv yandex.md yandex.ru yandex.tj yandex.tm yandex.ua yandex.uz; script-src 'self' 'unsafe-eval' 'unsafe-inline' *.allwebgames.com *.anima-games.com *.eponesh.com *.gameanalytics.com *.playhop.com *.website.yandexcloud.net *.ya.ru *.yandex.az *.yandex.by *.yandex.co.il *.yandex.com *.yandex.com.am *.yandex.com.ge *.yandex.com.tr *.yandex.ee *.yandex.fr *.yandex.kg *.yandex.kz *.yandex.lt *.yandex.lv *.yandex.md *.yandex.ru *.yandex.tj *.yandex.tm *.yandex.ua *.yandex.uz abt.s3.yandex.net allwebgames.com blob: data: playhop.com storage.yandexcloud.net www.google-analytics.com www.googletagmanager.com ya.ru yandex.az yandex.by yandex.co.il yandex.com yandex.com.am yandex.com.ge yandex.com.tr yandex.ee yandex.fr yandex.kg yandex.kz yandex.lt yandex.lv yandex.md yandex.ru yandex.tj yandex.tm yandex.ua yandex.uz yastatic.net; style-src 'self' 'unsafe-eval' 'unsafe-inline' *.allwebgames.com *.anima-games.com *.playhop.com *.website.yandexcloud.net *.yandex.az *.yandex.by *.yandex.co.il *.yandex.com *.yandex.com.am *.yandex.com.ge *.yandex.com.tr *.yandex.ee *.yandex.fr *.yandex.kg *.yandex.kz *.yandex.lt *.yandex.lv *.yandex.md *.yandex.ru *.yandex.tj *.yandex.tm *.yandex.ua *.yandex.uz allwebgames.com blob: data: fonts.googleapis.com playhop.com storage.yandexcloud.net yandex.az yandex.by yandex.co.il yandex.com yandex.com.am yandex.com.ge yandex.com.tr yandex.ee yandex.fr yandex.kg yandex.kz yandex.lt yandex.lv yandex.md yandex.ru yandex.tj yandex.tm yandex.ua yandex.uz; worker-src 'self' *.allwebgames.com *.playhop.com *.website.yandexcloud.net *.yandex.az *.yandex.by *.yandex.co.il *.yandex.com *.yandex.com.am *.yandex.com.ge *.yandex.com.tr *.yandex.ee *.yandex.fr *.yandex.kg *.yandex.kz *.yandex.lt *.yandex.lv *.yandex.md *.yandex.ru *.yandex.tj *.yandex.tm *.yandex.ua *.yandex.uz allwebgames.com blob: playhop.com storage.yandexcloud.net yandex.az yandex.by yandex.co.il yandex.com yandex.com.am yandex.com.ge yandex.com.tr yandex.ee yandex.fr yandex.kg yandex.kz yandex.lt yandex.lv yandex.md yandex.ru yandex.tj yandex.tm yandex.ua yandex.uz"/>
+<title>Forgotten Treasure 2</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta id="gameViewport" name="viewport" content="width=device-width initial-scale=1 shrink-to-fit=no user-scalable=no viewport-fit=cover"/>
+<link href="styles.css" rel="stylesheet" type="text/css"/>
+<script src="./games/sdk/v2"></script>
+</head>
+<body>
+<!--
+<a class="superdev" href="javascript:%7B%20window.__gwt_bookmarklet_params%20%3D%20%7B'server_url'%3A'http%3A%2F%2Flocalhost%3A9876%2F'%7D%3B%20var%20s%20%3D%20document.createElement('script')%3B%20s.src%20%3D%20'http%3A%2F%2Flocalhost%3A9876%2Fdev_mode_on.js'%3B%20void(document.getElementsByTagName('head')%5B0%5D.appendChild(s))%3B%7D">&#8635;</a>
+-->
+<div align="center" id="embed-html"></div>
+<script type="text/javascript" src="html/html.nocache.js"></script>
+<script type="module">
+
+              const urlParams = new URLSearchParams(window.location.search);
+              const player_id = urlParams.get('viewer_id');
+              const userLang = urlParams.get('lang');
+
+              window.playerAuthorized = false;
+              var player;
+              var player_unique_id;
+
+              window.InitVkWebApp = function initVkWebApp() {
+                     window.addEventListener('touchend', function() {
+                            window.initializedTouchEventForMusic = true;
+                            window.PlayBackgroundMusic();});
+                     window.addEventListener('mousedown', function() {
+                            window.initializedTouchEventForMusic = true;
+                            window.PlayBackgroundMusic();});
+
+                            // это для локального теста
+                            //window.LanguageCheck("rur");
+                            //window.InitializeAfterYandexInit();
+
+                     YaGames.init().then(ysdk => {
+                            window.LanguageCheck(ysdk.environment.i18n.lang);
+                            window.InitializeAfterYandexInit();
+                            ysdk.adv.showFullscreenAdv();
+                            console.log('Yandex SDK initialized');
+
+                            window.InitPlayer = function initPlayer() {
+                                return ysdk.getPlayer({ scopes: false }).then(_player => {
+                                        player = _player;
+                                        window.player = player;
+                                        console.log(player.getUniqueID());
+                                        window.OnGetPlayerUniqueId(player.getUniqueID());
+                                        return player;
+                                    });
+                            }
+
+                            window.GetPlayerUniqueId = function getPlayerUniqueId() {
+                                   if(window.player != null) {
+                                        window.OnGetPlayerUniqueId(window.player.getUniqueID());
+                                        console.log(window.player.getUniqueID());
+                                   }
+                            }
+
+                            window.CheckAuthorized = function checkAuthorized() {
+                                   console.log("check authorized");
+                                   window.InitPlayer().then(_player => {
+                                           if (_player.getMode() === 'lite') {
+                                               // Игрок не авторизован.
+                                               window.playerAuthorized = false;
+                                               console.log("not authorized");
+                                           } else {
+                                               // Игрок авторизован
+                                               window.playerAuthorized = true;
+                                               console.log("authorized");
+                                           }
+                                       }).catch(err => {
+                                           // Ошибка при инициализации объекта Player.
+                                           window.playerAuthorized = false;
+                                               console.log("authorize error");
+                                       });
+                                }
+
+                            window.CheckAuthorized();
+
+                            window.Authorize = function authorize() {
+                                   ysdk.auth.openAuthDialog().then(() => {
+                                         // Игрок успешно авторизован
+                                         window.CheckAuthorized();
+                                     }).catch(() => {
+                                         // Игрок не авторизован.
+                                         window.playerAuthorized = false;
+                                     });
+                            }
+
+                            window.OnReady = function onReady() {
+                                ysdk.features.LoadingAPI?.ready();
+                            }
+
+                            window.CheckPlayerDataOnSite = function checkPlayerDataOnSite() {
+                                   if(!window.playerAuthorized)
+                                       window.Authorize();
+
+                                   const xhr = new XMLHttpRequest();
+                                   xhr.open('GET', 'https://www.anima-games.com/ft2_yandex/player_data_recovery.txt', true);
+                                   //xhr.open('GET', 'player_data_recovery.txt', true);
+
+                                   xhr.onload = function () {
+                                       if (xhr.status === 200) {
+                                           // get the text from response.
+                                           const textContent = xhr.responseText;
+                                           console.log(textContent);
+                                           window.OnPlayerDataRecoveryChecked(textContent);
+                                       }
+                                   };
+
+                                   xhr.send();
+                            }
+
+                            window.FetchPlayerData = function fetchPlayerData() {
+                                   if(window.player != null) {
+                                          window.player.getStats().
+                                                 then(_result => {
+                                                        console.log(_result);
+                                                        console.log(JSON.stringify(_result));
+                                                        window.OnPlayerDataLoaded(JSON.stringify(_result));
+                                                 });
+                                   }
+                            }
+
+                            window.SetPlayerData = function setPlayerData(
+                                   p_total_levels, p_level_pack_0, p_level_pack_1,
+                                   p_level_pack_2, p_level_pack_3, p_level_pack_4,
+                                   p_level_pack_5, p_level_pack_6, p_level_pack_7,
+                                   p_item_0, p_item_1, p_item_2, p_item_3, p_item_4) {
+                                   if(window.player != null) {
+                                          window.player.getStats(["total_levels"]).
+                                                 then(_result => {
+                                                        if(_result.total_levels == null || _result.total_levels <= p_total_levels) {
+                                                               var stats = {
+                                                                      "total_levels" : p_total_levels,
+                                                                      "level_pack_0" : p_level_pack_0,
+                                                                      "level_pack_1" : p_level_pack_1,
+                                                                      "level_pack_2" : p_level_pack_2,
+                                                                      "level_pack_3" : p_level_pack_3,
+                                                                      "level_pack_4" : p_level_pack_4,
+                                                                      "level_pack_5" : p_level_pack_5,
+                                                                      "level_pack_6" : p_level_pack_6,
+                                                                      "level_pack_7" : p_level_pack_7,
+                                                                      "item_0" : p_item_0,
+                                                                      "item_1" : p_item_1,
+                                                                      "item_2" : p_item_2,
+                                                                      "item_3" : p_item_3,
+                                                                      "item_4" : p_item_4};
+
+                                                               window.player.setStats(stats).then(_result => {
+                                                                       console.log(_result + ' set data ' + '(' + p_total_levels + ')');
+                                                                   });
+                                                        }
+                                                 });
+                                   }
+                            }
+
+                            window.RateGame = function rateGame() {
+                                   ysdk.feedback.canReview()
+                                           .then(({ value, reason }) => {
+                                               if (value) {
+                                                   ysdk.feedback.requestReview()
+                                                       .then(({ feedbackSent }) => {
+                                                           console.log(feedbackSent);
+                                                       })
+                                               } else {
+                                                   console.log(reason)
+                                               }
+                                           })
+                            }
+                            window.ShowInterstitial = function showInterstitial() {
+                                   ysdk.adv.showFullscreenAdv({
+                                             callbacks: {
+                                             onOpen: () => {
+                                                 window.StopBackgroundMusic();
+                                           },
+                                             onClose: (wasShown) => {
+                                                 window.PlayBackgroundMusic();
+                                           },
+                                             onError: (error) => {
+
+                                             },
+                                             onOffline: () => {
+
+                                             }
+                                       }
+                                   });
+                            }
+                            window.ShowRewarded = function showRewarded() {
+                                   ysdk.adv.showRewardedVideo({
+                                             callbacks: {
+                                             onOpen: () => {
+                                                 window.needReward = false;
+                                                 window.StopBackgroundMusic();
+                                               console.log('Video ad open.');
+                                           },
+                                             onRewarded: () => {
+                                                 window.needReward = true;
+                                           },
+                                             onClose: () => {
+                                                 if(window.needReward) {
+                                                        window.OnRewardedVideoShown(true);
+                                                 }
+                                                 window.PlayBackgroundMusic();
+                                               console.log('Video ad closed.');
+                                           },
+                                             onError: (e) => {
+                                               console.log('Error while open video ad:', e);
+                                           }
+                                       }
+                                   });
+                            }
+                            });
+              }
+
+              window.BuyInApp = function buyInApp(inapp_id) {
+
+              }
+
+              window.GetKey = function getKey(key) {
+
+              }
+
+              window.SetKey = function setKey(k, v) {
+
+              }
+
+              window.CheckRewarded = function checkRewarded() {
+
+              }
+
+              window.CheckInterstitial = function checkInterstitial() {
+
+              }
+
+              window.ShareLevel = function shareLevel(lvl) {
+              }
+
+              window.SetRecord = function setRecord(lvl) {
+
+              }
+
+              window.InviteFriends = function inviteFriends() {
+
+              }
+
+              window.ShowRecords = function showRecords(lvl) {
+
+              }
+
+              window.musicSource = null;
+              window.playingMusic = false;
+              window.needResume = false;
+              window.musicState = false;
+              window.gainNode = null;
+              window.musicVolume = 0.7;
+              window.initializedTouchEventForMusic = false;
+              window.musicGame = "assets/music/GameTheme.mp3";
+              window.musicMenu = "assets/music/MenuTheme.mp3";
+              window.currentMusic = window.musicGame;
+
+              document.addEventListener("visibilitychange", function() {
+                if (document.visibilityState === 'visible') {
+                     if(window.needResume) {
+                            window.needResume = false;
+                            window.PlayBackgroundMusic();
+                     }
+                } else {
+                     if(window.playingMusic) {
+                            window.needResume = true;
+                            window.StopBackgroundMusic();
+                     }
+                }
+              });
+
+              window.StopBackgroundMusic = function() {
+                     try {
+                            if(window.playingMusic) {
+                                   window.playingMusic = false;
+                                   window.musicSource.stop(0);
+                            }
+                     } catch (e) {
+
+                     }
+              }
+
+              window.SetMusicState = function setMusicState(v, vol) {
+                     window.musicState = v;
+                     window.musicVolume = vol;
+                     if(v)
+                            window.PlayBackgroundMusic();
+                     else
+                            window.StopBackgroundMusic();
+              }
+
+              window.PlayBackgroundMusic = function() {
+                       if(!window.initializedTouchEventForMusic)
+                            return;
+
+                       if(!window.musicState)
+                            return;
+
+                       if(window.playingMusic) {
+                            if(window.gainNode != null)
+                                   window.gainNode.gain.value = window.musicVolume;
+                            return;
+                       }
+                       window.playingMusic = true;
+
+                       try {
+                              if(window.musicSource != null) {
+                                   window.musicSource.stop(0);
+                                   window.musicSource.start(0);
+                                   alert('resume music');
+                                   return;
+                              }
+                       } catch(e) {}
+
+
+                       var context;
+                       var request;
+                       var source;
+
+                       try {
+                         var AudioContext = window.AudioContext || window.webkitAudioContext;
+                         context = new AudioContext();
+                         var gainNode = context.createGain();
+                         gainNode.connect(context.destination);
+                         context.resume();
+                         request = new XMLHttpRequest();
+                         request.open("GET","assets/music/GameTheme.mp3",true);
+                         request.responseType = "arraybuffer";
+
+                         request.onload = function() {
+                           context.decodeAudioData(request.response, function(buffer) {
+                             if(!window.musicState) {
+                                   window.playingMusic = false;
+                                   return;
+                             }
+                             source = context.createBufferSource();
+                             source.buffer = buffer;
+                             source.looping = true;
+                             source.loop = true;
+                             source.connect(gainNode);
+                             gainNode.gain.value = window.musicVolume;
+                             window.gainNode = gainNode;
+                             source.start(0);
+                             window.musicSource = source;
+                           });
+                         };
+
+                         request.send();
+
+                       } catch(e) {
+                         alert('web audio api not supported');
+                       }
+              }
+
+              function handleMouseDown(evt) {
+                evt.preventDefault();
+                evt.stopPropagation();
+                window.focus();
+                if(!window.initializedTouchEventForMusic) {
+                     window.initializedTouchEventForMusic = true;
+                     window.PlayBackgroundMusic();
+                }
+              }
+
+              function handleMouseUp(evt) {
+                evt.preventDefault();
+                evt.stopPropagation();
+                if(!window.initializedTouchEventForMusic) {
+                     window.initializedTouchEventForMusic = true;
+                     window.PlayBackgroundMusic();
+                }
+              }
+              document.addEventListener('contextmenu', event => event.preventDefault());
+              document.getElementById('embed-html').addEventListener('mousedown', handleMouseDown, false);
+              document.getElementById('embed-html').addEventListener('mouseup', handleMouseUp, false);
+
+</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"5c8adb3476774536859fc56135d4501a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

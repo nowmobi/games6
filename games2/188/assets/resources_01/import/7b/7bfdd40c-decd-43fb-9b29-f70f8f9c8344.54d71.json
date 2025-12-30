@@ -1,0 +1,53 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_guide_config",
+      [
+        {
+          "id": "GameGuideID.start_game",
+          "displayMode": "DisplayMode.guide",
+          "content": [
+            {
+              "switchMode": "SwitchMode.clickNode",
+              "switchEvent": "GAMEEVENT.chapter_start",
+              "clickNode": [
+                "Canvas",
+                "content",
+                "nodeHallUI",
+                "nodeChapter",
+                "btnStartChapter"
+              ]
+            }
+          ]
+        }
+      ]
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

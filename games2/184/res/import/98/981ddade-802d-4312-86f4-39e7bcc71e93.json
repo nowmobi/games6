@@ -1,0 +1,65 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "streak",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "streak",
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__type__": "baaf4xZ56RMHJ0Nlapw/8tD",
+        "node": {
+          "__id__": 1
+        },
+        "m_streak": {
+          "__id__": 2
+        }
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "fileId": "354FcAAM1B+7eUK1SUSCos"
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "__type__": "cc.MotionStreak",
+    "node": {
+      "__id__": 1
+    },
+    "_materials": [
+      {
+        "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+      }
+    ],
+    "_dstBlendFactor": 1,
+    "_fadeTime": 0.5,
+    "_stroke": 60,
+    "_fastMode": true
+  }
+]

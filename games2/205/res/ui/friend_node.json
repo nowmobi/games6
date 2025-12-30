@@ -1,0 +1,363 @@
+{
+  "ID": "37fec5ff-bb26-45a8-b46c-9f31f343abde",
+  "Version": "3.10.0.0",
+  "Name": "friend_node",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 92,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "rank/bg_frame.png",
+              "Plist": "csi/csi_4.plist"
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 1,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0,
+              "Y": 0
+            },
+            "Scale": {
+              "ScaleX": 0.95,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0,
+              "Y": 0
+            },
+            "PreSize": {
+              "X": 0,
+              "Y": 0
+            },
+            "LeftMargin": -293,
+            "TopMargin": -63.5,
+            "BottomMargin": -63.5,
+            "Tag": 93,
+            "ActionTag": -1992992615,
+            "Size": {
+              "X": 293,
+              "Y": 127
+            },
+            "Name": "bg_frame",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FlipX": true,
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "rank/bg_frame.png",
+              "Plist": "csi/csi_4.plist"
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0,
+              "Y": 0
+            },
+            "Scale": {
+              "ScaleX": 0.95,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0,
+              "Y": 0
+            },
+            "PreSize": {
+              "X": 0,
+              "Y": 0
+            },
+            "RightMargin": -293,
+            "TopMargin": -63.5,
+            "BottomMargin": -63.5,
+            "Tag": 173,
+            "ActionTag": -211596712,
+            "Size": {
+              "X": 293,
+              "Y": 127
+            },
+            "Name": "bg_frame_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/n_headbg2.png",
+              "Plist": "csi/fntplist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -108,
+              "Y": 6
+            },
+            "Scale": {
+              "ScaleX": 0.7,
+              "ScaleY": 0.7
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0,
+              "Y": 0
+            },
+            "PreSize": {
+              "X": 0,
+              "Y": 0
+            },
+            "LeftMargin": -149,
+            "RightMargin": 67,
+            "TopMargin": -47,
+            "BottomMargin": -35,
+            "Tag": 96,
+            "ActionTag": 750358638,
+            "Size": {
+              "X": 82,
+              "Y": 82
+            },
+            "Name": "icon_frame",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "rank/starbg.png",
+              "Plist": "csi/csi_4.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 16,
+              "Y": -9
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0,
+              "Y": 0
+            },
+            "PreSize": {
+              "X": 0,
+              "Y": 0
+            },
+            "LeftMargin": -51,
+            "RightMargin": -83,
+            "TopMargin": -18,
+            "BottomMargin": -36,
+            "Tag": 7,
+            "ActionTag": 1652498530,
+            "Size": {
+              "X": 134,
+              "Y": 54
+            },
+            "Name": "starbg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/n_star_s.png",
+              "Plist": "csi/fntplist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -27.6402,
+              "Y": -11.7491
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0,
+              "Y": 0
+            },
+            "PreSize": {
+              "X": 0,
+              "Y": 0
+            },
+            "LeftMargin": -50.1402,
+            "RightMargin": 5.1402,
+            "TopMargin": -10.2509,
+            "BottomMargin": -33.7491,
+            "Tag": 100,
+            "ActionTag": -492503792,
+            "Size": {
+              "X": 45,
+              "Y": 44
+            },
+            "Name": "star_5",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 26,
+            "LabelText": "Text Label",
+            "FontResource": {
+              "Type": "Default",
+              "Path": "",
+              "Plist": ""
+            },
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {},
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2,
+            "ShadowOffsetY": -2,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -1.6679,
+              "Y": -9.6873
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {
+              "R": 49,
+              "G": 81,
+              "B": 180
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0,
+              "Y": 0
+            },
+            "PreSize": {
+              "X": 0,
+              "Y": 0
+            },
+            "LeftMargin": -1.6679,
+            "RightMargin": -98.3321,
+            "TopMargin": -7.8127,
+            "BottomMargin": -27.1873,
+            "Tag": 206,
+            "ActionTag": -971090777,
+            "Size": {
+              "X": 100,
+              "Y": 35
+            },
+            "Name": "aw_fnttype2_startxt",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "Text Label",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2,
+            "ShadowOffsetY": -2,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -239.63,
+              "Y": 6
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0,
+              "Y": 0
+            },
+            "PreSize": {
+              "X": 0,
+              "Y": 0
+            },
+            "LeftMargin": -239.63,
+            "RightMargin": 139.63,
+            "TopMargin": -16,
+            "BottomMargin": -4,
+            "Tag": 207,
+            "ActionTag": 1862486709,
+            "Size": {
+              "X": 100,
+              "Y": 20
+            },
+            "Name": "aw_fnttype30_rank",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0,
+          "Y": 0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../csi/csi_4.plist",
+        "../csi/csi_4.png",
+        "../csi/fntplist.plist",
+        "../csi/fntplist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

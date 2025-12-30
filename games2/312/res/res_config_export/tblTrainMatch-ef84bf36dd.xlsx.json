@@ -1,0 +1,122 @@
+[
+  {
+    "id": 0,
+    "key": "bufferTeammates",
+    "value": "null",
+    "notes": "队友buffer，传球时间间隔降到最低，永远不扣篮，上篮命中率为0"
+  },
+  {
+    "id": 1,
+    "key": "bufferSelf",
+    "value": "265|266|267|269|155|270|271",
+    "notes": "自己的buffer，需要配置不能投篮（此buffer生命周期为进一球后消失）"
+  },
+  {
+    "id": 2,
+    "key": "bufferTeamOtherOnScoreDiff7",
+    "value": "62|63|58|52",
+    "notes": "领先7分时候，对方的buffer"
+  },
+  {
+    "id": 3,
+    "key": "bufferTeamOtherOnScoreDiff6",
+    "value": "62|63|58|52",
+    "notes": "领先6分时候，对方的buffer"
+  },
+  {
+    "id": 4,
+    "key": "bufferTeamOtherOnScoreDiff5",
+    "value": "62|63|58|52",
+    "notes": "领先5分时候，对方的buffer"
+  },
+  {
+    "id": 5,
+    "key": "bufferTeamOtherOnScoreDiff4",
+    "value": "62|63|58|52",
+    "notes": "领先4分时候，对方的buffer"
+  },
+  {
+    "id": 6,
+    "key": "bufferTeamOtherOnScoreDiff3",
+    "value": "62|63|58|52",
+    "notes": "领先3分时候，对方的buffer"
+  },
+  {
+    "id": 7,
+    "key": "bufferTeamOtherOnScoreDiff2",
+    "value": "62|63|58|52",
+    "notes": "领先2分时候，对方的buffer"
+  },
+  {
+    "id": 8,
+    "key": "bufferTeamOtherOnScoreDiff1",
+    "value": "62|63|58|52",
+    "notes": "领先1分时候，对方的buffer"
+  },
+  {
+    "id": 9,
+    "key": "bufferTeamOtherOnScoreDiff0",
+    "value": "62|63|58|52",
+    "notes": "领先0分时候，对方的buffer"
+  },
+  {
+    "id": 10,
+    "key": "bufferTeamOtherOnScoreDiffN1",
+    "value": "62|63|58|52",
+    "notes": "领先-1分时候，对方的buffer"
+  },
+  {
+    "id": 11,
+    "key": "bufferTeamOtherOnScoreDiffN2",
+    "value": "62|63|58|52",
+    "notes": "领先-2分时候，对方的buffer"
+  },
+  {
+    "id": 12,
+    "key": "bufferTeamOtherOnScoreDiffN3",
+    "value": "62|63|58|52",
+    "notes": "领先-3分时候，对方的buffer"
+  },
+  {
+    "id": 13,
+    "key": "bufferTeamOtherOnScoreDiffN4",
+    "value": "62|63|58|52",
+    "notes": "领先-4分时候，对方的buffer"
+  },
+  {
+    "id": 14,
+    "key": "bufferTeamOtherOnScoreDiffN5",
+    "value": "62|63|58|52",
+    "notes": "领先-5分时候，对方的buffer"
+  },
+  {
+    "id": 15,
+    "key": "bufferTeamOtherOnScoreDiffN6",
+    "value": "62|63|58|52",
+    "notes": "领先-6分时候，对方的buffer"
+  },
+  {
+    "id": 16,
+    "key": "bufferTeamOtherOnScoreDiffN7",
+    "value": "62|63|58|52",
+    "notes": "领先-7分时候，对方的buffer"
+  },
+  {
+    "id": 17,
+    "key": "matchSeconds",
+    "value": 90,
+    "notes": "比赛时间"
+  },
+  {
+    "id": 18,
+    "key": "slamDunkMethod",
+    "value": "6|4|5",
+    "notes": "扣（上）篮动作顺序，具体数值见注释"
+  },
+  {
+    "id": 19,
+    "key": "targetScore",
+    "value": 8,
+    "notes": "比赛8分直接获胜"
+  }
+]

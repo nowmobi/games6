@@ -1,0 +1,586 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "bingdu_zhuizong",
+  "_native": "raw-skeleton.json",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "FJziIfJ7J+NxYK14wHUqHvUHqSo",
+      "spine": "3.6.53",
+      "width": 269,
+      "height": 273
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone2",
+        "parent": "root",
+        "x": -18.73,
+        "y": 9.26
+      },
+      {
+        "name": "7_Z_light",
+        "parent": "bone2",
+        "length": 17.56,
+        "rotation": -137.02,
+        "x": -28.03,
+        "y": 45.26
+      },
+      {
+        "name": "bone",
+        "parent": "root"
+      },
+      {
+        "name": "bone3",
+        "parent": "root",
+        "x": 0.5,
+        "y": 0.48
+      }
+    ],
+    "slots": [
+      {
+        "name": "7_Z_hand2",
+        "bone": "bone",
+        "attachment": "7_Z_hand"
+      },
+      {
+        "name": "7_Z_body",
+        "bone": "bone3",
+        "attachment": "7_Z_body"
+      },
+      {
+        "name": "7_Z_light",
+        "bone": "7_Z_light",
+        "attachment": "7_Z_light"
+      }
+    ],
+    "skins": {
+      "default": {},
+      "a": {
+        "7_Z_body": {
+          "7_Z_body": {
+            "x": -1.12,
+            "y": 0.07,
+            "width": 220,
+            "height": 219
+          }
+        },
+        "7_Z_hand2": {
+          "7_Z_hand": {
+            "width": 269,
+            "height": 273
+          }
+        },
+        "7_Z_light": {
+          "7_Z_light": {
+            "x": 1.24,
+            "y": 1.54,
+            "rotation": 137.02,
+            "width": 36,
+            "height": 39
+          }
+        }
+      },
+      "b": {
+        "7_Z_body": {
+          "7_Z_body": {
+            "name": "7_G_body",
+            "x": -1.12,
+            "y": 0.07,
+            "width": 224,
+            "height": 223
+          }
+        },
+        "7_Z_hand2": {
+          "7_Z_hand": {
+            "name": "7_G_hand",
+            "width": 271,
+            "height": 275
+          }
+        },
+        "7_Z_light": {
+          "7_Z_light": {
+            "name": "7_G_light",
+            "x": 1.24,
+            "y": 1.54,
+            "rotation": 137.02,
+            "width": 36,
+            "height": 39
+          }
+        }
+      },
+      "c": {
+        "7_Z_body": {
+          "7_Z_body": {
+            "name": "7_B_body",
+            "x": -1.12,
+            "y": 0.07,
+            "width": 223,
+            "height": 223
+          }
+        },
+        "7_Z_hand2": {
+          "7_Z_hand": {
+            "name": "7_B_hand",
+            "width": 271,
+            "height": 275
+          }
+        },
+        "7_Z_light": {
+          "7_Z_light": {
+            "name": "7_B_light",
+            "x": 1.24,
+            "y": 1.54,
+            "rotation": 137.02,
+            "width": 36,
+            "height": 39
+          }
+        }
+      },
+      "d": {
+        "7_Z_body": {
+          "7_Z_body": {
+            "name": "7_P_body",
+            "x": -1.12,
+            "y": 0.07,
+            "width": 223,
+            "height": 223
+          }
+        },
+        "7_Z_hand2": {
+          "7_Z_hand": {
+            "name": "7_P_hand",
+            "width": 271,
+            "height": 275
+          }
+        },
+        "7_Z_light": {
+          "7_Z_light": {
+            "name": "7_P_light",
+            "x": 1.24,
+            "y": 1.54,
+            "rotation": 137.02,
+            "width": 36,
+            "height": 39
+          }
+        }
+      },
+      "f": {
+        "7_Z_body": {
+          "7_Z_body": {
+            "name": "7_R_body",
+            "x": -1.12,
+            "y": 0.07,
+            "width": 224,
+            "height": 223
+          }
+        },
+        "7_Z_hand2": {
+          "7_Z_hand": {
+            "name": "7_R_hand",
+            "width": 271,
+            "height": 275
+          }
+        },
+        "7_Z_light": {
+          "7_Z_light": {
+            "name": "7_R_light",
+            "x": 1.24,
+            "y": 1.54,
+            "rotation": 137.02,
+            "width": 36,
+            "height": 39
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle1": {
+        "slots": {
+          "7_Z_hand2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bone3": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.982,
+                "y": 1.036,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1.095,
+                "y": 0.91,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "x": 0.982,
+                "y": 1.036
+              }
+            ]
+          },
+          "bone2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 1,
+                "curve": [
+                  0.369,
+                  0.63,
+                  0.706,
+                  1
+                ]
+              },
+              {
+                "time": 0.1,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7667,
+                "angle": 12.06,
+                "curve": [
+                  0.244,
+                  0,
+                  0.694,
+                  0.77
+                ]
+              },
+              {
+                "time": 1.3333,
+                "angle": 1
+              }
+            ]
+          },
+          "7_Z_light": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -1.34,
+                "curve": [
+                  0.369,
+                  0.63,
+                  0.706,
+                  1
+                ]
+              },
+              {
+                "time": 0.1,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7667,
+                "angle": -16.14,
+                "curve": [
+                  0.244,
+                  0,
+                  0.694,
+                  0.77
+                ]
+              },
+              {
+                "time": 1.3333,
+                "angle": -1.34
+              }
+            ]
+          }
+        }
+      },
+      "idle2": {
+        "slots": {
+          "7_Z_hand2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.6667,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bone3": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.97,
+                "y": 1.048,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 1.106,
+                "y": 0.91,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 0.97,
+                "y": 1.048
+              }
+            ]
+          },
+          "bone2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "angle": 14.55,
+                "curve": [
+                  0.242,
+                  0,
+                  0.667,
+                  0.67
+                ]
+              },
+              {
+                "time": 0.6667,
+                "angle": 0
+              }
+            ]
+          },
+          "7_Z_light": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.3333,
+                "angle": -19.26
+              },
+              {
+                "time": 0.6667,
+                "angle": 0
+              }
+            ]
+          }
+        }
+      },
+      "idle1_1": {
+        "slots": {
+          "7_Z_body": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "7_Z_light": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bone": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.022,
+                "y": 1.022,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 0.906,
+                "y": 0.906,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "x": 1.022,
+                "y": 1.022
+              }
+            ]
+          }
+        }
+      },
+      "idle2_1": {
+        "slots": {
+          "7_Z_body": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "7_Z_hand2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "7_Z_hand"
+              }
+            ]
+          },
+          "7_Z_light": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bone": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.071,
+                "y": 1.071,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 0.873,
+                "y": 0.873,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1.071,
+                "y": 1.071
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nbingdu_zhuizong.png\nsize: 1024,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n7_B_body\n  rotate: false\n  xy: 248, 291\n  size: 201, 201\n  orig: 201, 201\n  offset: 0, 0\n  index: -1\n7_B_hand\n  rotate: false\n  xy: 2, 492\n  size: 244, 248\n  orig: 244, 248\n  offset: 0, 0\n  index: -1\n7_B_light\n  rotate: false\n  xy: 451, 457\n  size: 32, 35\n  orig: 32, 35\n  offset: 0, 0\n  index: -1\n7_G_body\n  rotate: false\n  xy: 494, 789\n  size: 202, 201\n  orig: 202, 201\n  offset: 0, 0\n  index: -1\n7_G_hand\n  rotate: false\n  xy: 2, 742\n  size: 244, 248\n  orig: 244, 248\n  offset: 0, 0\n  index: -1\n7_G_light\n  rotate: false\n  xy: 2, 2\n  size: 32, 35\n  orig: 32, 35\n  offset: 0, 0\n  index: -1\n7_P_body\n  rotate: false\n  xy: 698, 789\n  size: 201, 201\n  orig: 201, 201\n  offset: 0, 0\n  index: -1\n7_P_hand\n  rotate: false\n  xy: 2, 242\n  size: 244, 248\n  orig: 244, 248\n  offset: 0, 0\n  index: -1\n7_P_light\n  rotate: false\n  xy: 206, 205\n  size: 32, 35\n  orig: 32, 35\n  offset: 0, 0\n  index: -1\n7_R_body\n  rotate: false\n  xy: 2, 39\n  size: 202, 201\n  orig: 202, 201\n  offset: 0, 0\n  index: -1\n7_R_hand\n  rotate: false\n  xy: 248, 742\n  size: 244, 248\n  orig: 244, 248\n  offset: 0, 0\n  index: -1\n7_R_light\n  rotate: false\n  xy: 901, 955\n  size: 32, 35\n  orig: 32, 35\n  offset: 0, 0\n  index: -1\n7_Z_body\n  rotate: false\n  xy: 248, 92\n  size: 198, 197\n  orig: 198, 197\n  offset: 0, 0\n  index: -1\n7_Z_hand\n  rotate: false\n  xy: 248, 494\n  size: 242, 246\n  orig: 242, 246\n  offset: 0, 0\n  index: -1\n7_Z_light\n  rotate: false\n  xy: 494, 752\n  size: 32, 35\n  orig: 32, 35\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "fc4WEb0r1C3p0me/R1m1oI"
+    }
+  ],
+  "textureNames": [
+    "bingdu_zhuizong.png"
+  ]
+}

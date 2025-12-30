@@ -1,0 +1,494 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "copy",
+  "json": {
+    "901": {
+      "id": 901,
+      "quality": 1,
+      "compose": "902",
+      "skillinfo": "Fires assault bullets over time",
+      "name": "lj1",
+      "suit": 0,
+      "describe": "Raider (Common)",
+      "synopsis": "New Generation Prototype Follower with Heavy Firepower",
+      "material": 503,
+      "loction": [
+        -70,
+        -50
+      ],
+      "fwqmage": "fwq_1_1",
+      "shiftingatk": [
+        0,
+        0,
+        0.2,
+        199,
+        1,
+        0,
+        100,
+        0
+      ]
+    },
+    "902": {
+      "id": 902,
+      "quality": 2,
+      "compose": "903",
+      "skillinfo": "Fires assault bullets over time",
+      "name": "lj1",
+      "suit": 0,
+      "describe": "Raider (Fine)",
+      "synopsis": "New Generation Prototype Follower with Heavy Firepower",
+      "material": 503,
+      "loction": [
+        -70,
+        -50
+      ],
+      "fwqmage": "fwq_1_2",
+      "shiftingatk": [
+        0,
+        0,
+        0.16,
+        199,
+        1,
+        0,
+        100,
+        0
+      ]
+    },
+    "903": {
+      "id": 903,
+      "quality": 3,
+      "compose": "904",
+      "skillinfo": "Fires assault bullets over time",
+      "name": "lj1",
+      "suit": 0,
+      "describe": "Raider (Rare)",
+      "synopsis": "New Generation Prototype Follower with Heavy Firepower",
+      "material": 503,
+      "loction": [
+        -70,
+        -50
+      ],
+      "fwqmage": "fwq_1_3",
+      "shiftingatk": [
+        0,
+        0,
+        0.12,
+        199,
+        1,
+        0,
+        100,
+        0
+      ]
+    },
+    "904": {
+      "id": 904,
+      "quality": 4,
+      "compose": "905",
+      "skillinfo": "Fires assault bullets over time",
+      "name": "lj3",
+      "suit": 1,
+      "describe": "Stellar Raider (Epic)",
+      "synopsis": "New Generation Prototype Follower with Heavy Firepower",
+      "material": 503,
+      "loction": [
+        -70,
+        -50
+      ],
+      "fwqmage": "fwq_1_4",
+      "shiftingatk": [
+        0,
+        0,
+        0.1,
+        199,
+        1,
+        0,
+        100,
+        0
+      ]
+    },
+    "905": {
+      "id": 905,
+      "quality": 5,
+      "compose": "906",
+      "skillinfo": "Fires assault bullets over time",
+      "name": "lj4",
+      "suit": 2,
+      "describe": "Nebula Raider (Legendary)",
+      "synopsis": "New Generation Prototype Follower with Heavy Firepower",
+      "material": 503,
+      "loction": [
+        -70,
+        -50
+      ],
+      "fwqmage": "fwq_1_5",
+      "shiftingatk": [
+        0,
+        0,
+        0.08,
+        199,
+        1,
+        0,
+        100,
+        0
+      ]
+    },
+    "906": {
+      "id": 906,
+      "quality": 6,
+      "compose": "907",
+      "skillinfo": "Fires assault bullets over time",
+      "name": "lj7",
+      "suit": 3,
+      "describe": "Galaxy Raider (Myth)",
+      "synopsis": "New Generation Prototype Follower with Heavy Firepower",
+      "material": 503,
+      "loction": [
+        -70,
+        -50
+      ],
+      "fwqmage": "fwq_1_5",
+      "shiftingatk": [
+        0,
+        0,
+        0.06,
+        199,
+        1,
+        0,
+        100,
+        0
+      ]
+    },
+    "907": {
+      "id": 907,
+      "quality": 7,
+      "compose": "908",
+      "skillinfo": "Fires assault bullets over time",
+      "name": "lj7",
+      "suit": 3,
+      "describe": "Galaxy Raider (Myth) 1 Star",
+      "synopsis": "New Generation Prototype Follower with Heavy Firepower",
+      "material": 503,
+      "loction": [
+        -70,
+        -50
+      ],
+      "fwqmage": "fwq_1_5",
+      "shiftingatk": [
+        0,
+        0,
+        0.06,
+        199,
+        1,
+        0,
+        120,
+        0
+      ]
+    },
+    "908": {
+      "id": 908,
+      "quality": 8,
+      "compose": "909",
+      "skillinfo": "Fires assault bullets over time",
+      "name": "lj7",
+      "suit": 3,
+      "describe": "Galaxy Raider (Myth) 2 Star",
+      "synopsis": "New Generation Prototype Follower with Heavy Firepower",
+      "material": 503,
+      "loction": [
+        -70,
+        -50
+      ],
+      "fwqmage": "fwq_1_5",
+      "shiftingatk": [
+        0,
+        0,
+        0.06,
+        199,
+        1,
+        0,
+        140,
+        0
+      ]
+    },
+    "909": {
+      "id": 909,
+      "quality": 9,
+      "compose": "",
+      "skillinfo": "Fires assault bullets over time",
+      "name": "lj7",
+      "suit": 3,
+      "describe": "Galaxy Raider (Myth) 3 Star",
+      "synopsis": "New Generation Prototype Follower with Heavy Firepower",
+      "material": 503,
+      "loction": [
+        -70,
+        -50
+      ],
+      "fwqmage": "fwq_1_5",
+      "shiftingatk": [
+        0,
+        0,
+        0.06,
+        199,
+        1,
+        0,
+        160,
+        0
+      ]
+    },
+    "911": {
+      "id": 911,
+      "quality": 1,
+      "compose": "912",
+      "skillinfo": "Fire Small Laser at intervals",
+      "name": "lj2",
+      "suit": 0,
+      "describe": "Destroyer (Common)",
+      "synopsis": "New alloy product and Follower with super high rate of fire",
+      "material": 503,
+      "loction": [
+        -70,
+        -50
+      ],
+      "fwqmage": "fwq_3_1",
+      "shiftingatk": [
+        0,
+        0,
+        0.2,
+        208,
+        1,
+        0,
+        100,
+        0
+      ]
+    },
+    "912": {
+      "id": 912,
+      "quality": 2,
+      "compose": "913",
+      "skillinfo": "Fire Small Laser at intervals",
+      "name": "lj2",
+      "suit": 0,
+      "describe": "Destroyer (Fine)",
+      "synopsis": "New alloy product and Follower with super high rate of fire",
+      "material": 503,
+      "loction": [
+        -70,
+        -50
+      ],
+      "fwqmage": "fwq_3_2",
+      "shiftingatk": [
+        0,
+        0,
+        0.16,
+        209,
+        1,
+        0,
+        100,
+        0
+      ]
+    },
+    "913": {
+      "id": 913,
+      "quality": 3,
+      "compose": "914",
+      "skillinfo": "Fire Small Laser at intervals",
+      "name": "lj2",
+      "suit": 0,
+      "describe": "Destroyer (Rare)",
+      "synopsis": "New alloy product and Follower with super high rate of fire",
+      "material": 503,
+      "loction": [
+        -70,
+        -50
+      ],
+      "fwqmage": "fwq_3_3",
+      "shiftingatk": [
+        0,
+        0,
+        0.12,
+        210,
+        1,
+        0,
+        100,
+        0
+      ]
+    },
+    "914": {
+      "id": 914,
+      "quality": 4,
+      "compose": "915",
+      "skillinfo": "Fire Small Laser at intervals",
+      "name": "lj5",
+      "suit": 101,
+      "describe": "Luna Destroyer (Epic)",
+      "synopsis": "New alloy product and Follower with super high rate of fire",
+      "material": 503,
+      "loction": [
+        -70,
+        -50
+      ],
+      "fwqmage": "fwq_3_4",
+      "shiftingatk": [
+        0,
+        0,
+        0.1,
+        211,
+        1,
+        0,
+        100,
+        0
+      ]
+    },
+    "915": {
+      "id": 915,
+      "quality": 5,
+      "compose": "916",
+      "skillinfo": "Fire Small Laser at intervals",
+      "name": "lj6",
+      "suit": 102,
+      "describe": "Starshard Destroyer (Legendary)",
+      "synopsis": "New alloy product and Follower with super high rate of fire",
+      "material": 503,
+      "loction": [
+        -70,
+        -50
+      ],
+      "fwqmage": "fwq_3_5",
+      "shiftingatk": [
+        0,
+        0,
+        0.08,
+        212,
+        1,
+        0,
+        100,
+        0
+      ]
+    },
+    "916": {
+      "id": 916,
+      "quality": 6,
+      "compose": "917",
+      "skillinfo": "Fire Small Laser at intervals",
+      "name": "lj8",
+      "suit": 103,
+      "describe": "Suncrash Destroyer (Myth)",
+      "synopsis": "New alloy product and Follower with super high rate of fire",
+      "material": 503,
+      "loction": [
+        -70,
+        -50
+      ],
+      "fwqmage": "fwq_3_5",
+      "shiftingatk": [
+        0,
+        0,
+        0.06,
+        212,
+        1,
+        0,
+        100,
+        0
+      ]
+    },
+    "917": {
+      "id": 917,
+      "quality": 7,
+      "compose": "918",
+      "skillinfo": "Fire Small Laser at intervals",
+      "name": "lj8",
+      "suit": 103,
+      "describe": "Suncrash Destroyer (Myth) 1-Star",
+      "synopsis": "New alloy product and Follower with super high rate of fire",
+      "material": 503,
+      "loction": [
+        -70,
+        -50
+      ],
+      "fwqmage": "fwq_3_5",
+      "shiftingatk": [
+        0,
+        0,
+        0.06,
+        212,
+        1,
+        0,
+        120,
+        0
+      ]
+    },
+    "918": {
+      "id": 918,
+      "quality": 8,
+      "compose": "919",
+      "skillinfo": "Fire Small Laser at intervals",
+      "name": "lj8",
+      "suit": 103,
+      "describe": "Suncrash Destroyer (Myth) 2-Star",
+      "synopsis": "New alloy product and Follower with super high rate of fire",
+      "material": 503,
+      "loction": [
+        -70,
+        -50
+      ],
+      "fwqmage": "fwq_3_5",
+      "shiftingatk": [
+        0,
+        0,
+        0.06,
+        212,
+        1,
+        0,
+        140,
+        0
+      ]
+    },
+    "919": {
+      "id": 919,
+      "quality": 9,
+      "compose": "",
+      "skillinfo": "Fire Small Laser at intervals",
+      "name": "lj8",
+      "suit": 103,
+      "describe": "Suncrash Destroyer (Myth) 3-Star",
+      "synopsis": "New alloy product and Follower with super high rate of fire",
+      "material": 503,
+      "loction": [
+        -70,
+        -50
+      ],
+      "fwqmage": "fwq_3_5",
+      "shiftingatk": [
+        0,
+        0,
+        0.06,
+        212,
+        1,
+        0,
+        160,
+        0
+      ]
+    },
+    "allID": [
+      901,
+      902,
+      903,
+      904,
+      905,
+      906,
+      907,
+      908,
+      909,
+      911,
+      912,
+      913,
+      914,
+      915,
+      916,
+      917,
+      918,
+      919
+    ]
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "sign_def",
+  "json": {
+    "s1": {
+      "1": {
+        "id": 1,
+        "dayList": {
+          "1": {
+            "id": 1,
+            "icon": "3000",
+            "gift": "7:1",
+            "payName": ""
+          },
+          "2": {
+            "id": 2,
+            "icon": "3001",
+            "gift": "12:450",
+            "payName": ""
+          },
+          "3": {
+            "id": 3,
+            "icon": "3002",
+            "gift": "2:1",
+            "payName": ""
+          },
+          "4": {
+            "id": 4,
+            "icon": "3003",
+            "gift": "53:2000",
+            "payName": ""
+          },
+          "5": {
+            "id": 5,
+            "icon": "3004",
+            "gift": "8:1",
+            "payName": ""
+          },
+          "6": {
+            "id": 6,
+            "icon": "3005",
+            "gift": "53:3000",
+            "payName": ""
+          },
+          "7": {
+            "id": 7,
+            "icon": "3006",
+            "gift": "12:1000|1:1",
+            "payName": ""
+          },
+          "8": {
+            "id": 8,
+            "icon": "3000",
+            "gift": "",
+            "payName": "shop_cp_sign_1"
+          }
+        },
+        "showCount": 8,
+        "next": 2,
+        "openLv": 0,
+        "logic": "SignByTimes",
+        "replenish": ""
+      },
+      "2": {
+        "id": 2,
+        "dayList": {
+          "1": {
+            "id": 1,
+            "icon": "3000",
+            "gift": "7:1",
+            "payName": ""
+          },
+          "2": {
+            "id": 2,
+            "icon": "3001",
+            "gift": "12:450",
+            "payName": ""
+          },
+          "3": {
+            "id": 3,
+            "icon": "3002",
+            "gift": "3:1",
+            "payName": ""
+          },
+          "4": {
+            "id": 4,
+            "icon": "3003",
+            "gift": "53:2000",
+            "payName": ""
+          },
+          "5": {
+            "id": 5,
+            "icon": "3004",
+            "gift": "8:1",
+            "payName": ""
+          },
+          "6": {
+            "id": 6,
+            "icon": "3005",
+            "gift": "53:3000",
+            "payName": ""
+          },
+          "7": {
+            "id": 7,
+            "icon": "3006",
+            "gift": "12:1000|4:1",
+            "payName": ""
+          },
+          "8": {
+            "id": 8,
+            "icon": "3000",
+            "gift": "",
+            "payName": "shop_cp_sign_2"
+          }
+        },
+        "showCount": 8,
+        "next": 3,
+        "openLv": 0,
+        "logic": "SignByTimes",
+        "replenish": ""
+      },
+      "3": {
+        "id": 3,
+        "dayList": {
+          "1": {
+            "id": 1,
+            "icon": "3000",
+            "gift": "7:1",
+            "payName": ""
+          },
+          "2": {
+            "id": 2,
+            "icon": "3001",
+            "gift": "12:450",
+            "payName": ""
+          },
+          "3": {
+            "id": 3,
+            "icon": "3002",
+            "gift": "1:1",
+            "payName": ""
+          },
+          "4": {
+            "id": 4,
+            "icon": "3003",
+            "gift": "53:2000",
+            "payName": ""
+          },
+          "5": {
+            "id": 5,
+            "icon": "3004",
+            "gift": "8:1",
+            "payName": ""
+          },
+          "6": {
+            "id": 6,
+            "icon": "3005",
+            "gift": "53:3000",
+            "payName": ""
+          },
+          "7": {
+            "id": 7,
+            "icon": "3006",
+            "gift": "12:1000|3:1",
+            "payName": ""
+          },
+          "8": {
+            "id": 8,
+            "icon": "3000",
+            "gift": "",
+            "payName": "shop_cp_sign_3"
+          }
+        },
+        "showCount": 8,
+        "next": 1,
+        "openLv": 0,
+        "logic": "SignByTimes",
+        "replenish": ""
+      }
+    },
+    "s2": {},
+    "s3": {
+      "1": {
+        "id": 1,
+        "dayList": {
+          "1": {
+            "id": 1,
+            "icon": "",
+            "gift": "12:200",
+            "payName": ""
+          },
+          "2": {
+            "id": 2,
+            "icon": "",
+            "gift": "2:1",
+            "payName": ""
+          },
+          "3": {
+            "id": 3,
+            "icon": "",
+            "gift": "12:400",
+            "payName": ""
+          },
+          "4": {
+            "id": 4,
+            "icon": "",
+            "gift": "7:2",
+            "payName": ""
+          },
+          "5": {
+            "id": 5,
+            "icon": "",
+            "gift": "53:2000",
+            "payName": ""
+          },
+          "6": {
+            "id": 6,
+            "icon": "",
+            "gift": "12:500",
+            "payName": ""
+          },
+          "7": {
+            "id": 7,
+            "icon": "",
+            "gift": "4:1",
+            "payName": ""
+          },
+          "8": {
+            "id": 8,
+            "icon": "",
+            "gift": "30:1",
+            "payName": ""
+          },
+          "9": {
+            "id": 9,
+            "icon": "",
+            "gift": "12:600",
+            "payName": ""
+          },
+          "10": {
+            "id": 10,
+            "icon": "",
+            "gift": "1:1",
+            "payName": ""
+          },
+          "11": {
+            "id": 11,
+            "icon": "",
+            "gift": "53:3000",
+            "payName": ""
+          },
+          "12": {
+            "id": 12,
+            "icon": "",
+            "gift": "12:1000",
+            "payName": ""
+          },
+          "13": {
+            "id": 13,
+            "icon": "",
+            "gift": "30:2",
+            "payName": ""
+          },
+          "14": {
+            "id": 14,
+            "icon": "",
+            "gift": "12:2000",
+            "payName": ""
+          }
+        },
+        "showCount": 14,
+        "next": -1,
+        "openLv": 0,
+        "logic": "SignByTimes",
+        "replenish": ""
+      }
+    }
+  }
+}

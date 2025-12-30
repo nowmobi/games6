@@ -1,0 +1,299 @@
+[
+  1,
+  [
+    "83yxQQOBNEt5HVx2LNcypm"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "luodiyanwu",
+      "\nluodiyanwu.png\nsize: 157,236\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n1\n  rotate: false\n  xy: 2, 227\n  size: 40, 7\n  orig: 40, 8\n  offset: 0, 0\n  index: -1\n2\n  rotate: false\n  xy: 44, 208\n  size: 108, 26\n  orig: 108, 26\n  offset: 0, 0\n  index: -1\n3\n  rotate: false\n  xy: 2, 117\n  size: 132, 30\n  orig: 132, 30\n  offset: 0, 0\n  index: -1\n4\n  rotate: false\n  xy: 2, 80\n  size: 145, 35\n  orig: 145, 35\n  offset: 0, 0\n  index: -1\n5\n  rotate: false\n  xy: 2, 41\n  size: 148, 37\n  orig: 148, 37\n  offset: 0, 0\n  index: -1\n6\n  rotate: false\n  xy: 2, 2\n  size: 148, 37\n  orig: 148, 37\n  offset: 0, 0\n  index: -1\n7\n  rotate: false\n  xy: 2, 149\n  size: 151, 28\n  orig: 151, 28\n  offset: 0, 0\n  index: -1\n8\n  rotate: false\n  xy: 2, 179\n  size: 153, 27\n  orig: 153, 27\n  offset: 0, 0\n  index: -1\n",
+      [
+        "luodiyanwu.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "LC/1NpRuYh2lVtoeycYuu1gm83g",
+          "spine": "3.8.99",
+          "images": "./images/",
+          "audio": "D:/桌面/落地烟雾/images"
+        },
+        "bones": [
+          {
+            "name": "root"
+          }
+        ],
+        "slots": [
+          {
+            "name": "1",
+            "bone": "root"
+          },
+          {
+            "name": "2",
+            "bone": "root"
+          },
+          {
+            "name": "3",
+            "bone": "root"
+          },
+          {
+            "name": "4",
+            "bone": "root"
+          },
+          {
+            "name": "5",
+            "bone": "root"
+          },
+          {
+            "name": "6",
+            "bone": "root"
+          },
+          {
+            "name": "7",
+            "bone": "root"
+          },
+          {
+            "name": "8",
+            "bone": "root"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "1": {
+                "1": {
+                  "x": 1.78,
+                  "y": 3.9,
+                  "width": 40,
+                  "height": 8
+                }
+              },
+              "2": {
+                "2": {
+                  "x": 6.78,
+                  "y": 10.9,
+                  "width": 108,
+                  "height": 26
+                }
+              },
+              "3": {
+                "3": {
+                  "x": 4.78,
+                  "y": 13.9,
+                  "width": 132,
+                  "height": 30
+                }
+              },
+              "4": {
+                "4": {
+                  "x": 1.28,
+                  "y": 16.4,
+                  "width": 145,
+                  "height": 35
+                }
+              },
+              "5": {
+                "5": {
+                  "x": 0.78,
+                  "y": 16.4,
+                  "width": 148,
+                  "height": 37
+                }
+              },
+              "6": {
+                "6": {
+                  "x": 1.78,
+                  "y": 17.4,
+                  "width": 148,
+                  "height": 37
+                }
+              },
+              "7": {
+                "7": {
+                  "x": 1.28,
+                  "y": 11.9,
+                  "width": 151,
+                  "height": 28
+                }
+              },
+              "8": {
+                "8": {
+                  "x": 1.28,
+                  "y": 12.4,
+                  "width": 153,
+                  "height": 27
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "luodiyanwu": {
+            "slots": {
+              "1": {
+                "attachment": [
+                  {
+                    "name": "1"
+                  },
+                  {
+                    "time": 0.0333,
+                    "name": null
+                  }
+                ]
+              },
+              "2": {
+                "attachment": [
+                  {
+                    "time": 0.0333,
+                    "name": "2"
+                  },
+                  {
+                    "time": 0.0667,
+                    "name": null
+                  }
+                ]
+              },
+              "3": {
+                "attachment": [
+                  {
+                    "time": 0.0667,
+                    "name": "3"
+                  },
+                  {
+                    "time": 0.1,
+                    "name": null
+                  }
+                ]
+              },
+              "4": {
+                "attachment": [
+                  {
+                    "time": 0.1,
+                    "name": "4"
+                  },
+                  {
+                    "time": 0.1333,
+                    "name": null
+                  }
+                ]
+              },
+              "5": {
+                "color": [
+                  {
+                    "time": 0.1333,
+                    "color": "ffffffb4"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 0.1333,
+                    "name": "5"
+                  },
+                  {
+                    "time": 0.1667,
+                    "name": null
+                  }
+                ]
+              },
+              "6": {
+                "color": [
+                  {
+                    "time": 0.1667,
+                    "color": "ffffff95"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 0.1667,
+                    "name": "6"
+                  },
+                  {
+                    "time": 0.2,
+                    "name": null
+                  }
+                ]
+              },
+              "7": {
+                "color": [
+                  {
+                    "time": 0.2,
+                    "color": "ffffff81"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 0.2,
+                    "name": "7"
+                  },
+                  {
+                    "time": 0.2333,
+                    "name": null
+                  }
+                ]
+              },
+              "8": {
+                "color": [
+                  {
+                    "time": 0.2333,
+                    "color": "ffffff64"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 0.2333,
+                    "name": "8"
+                  },
+                  {
+                    "time": 0.2667,
+                    "name": null
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,260 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "bingdu_pengzhuang",
+  "_native": "raw-skeleton.json",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "8SNcdHeFfMu9gOhNuuyA2AfNOBA",
+      "spine": "3.6.53",
+      "width": 237,
+      "height": 217
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone",
+        "parent": "root",
+        "x": 3.53,
+        "y": -0.03
+      },
+      {
+        "name": "4_Z_light",
+        "parent": "bone",
+        "x": -5.55,
+        "y": 1.61
+      },
+      {
+        "name": "4_Z_light3",
+        "parent": "4_Z_light",
+        "x": -56.56,
+        "y": 40.99
+      }
+    ],
+    "slots": [
+      {
+        "name": "4_Z_hand_4",
+        "bone": "bone",
+        "attachment": "4_Z_hand_4"
+      },
+      {
+        "name": "4_Z_light",
+        "bone": "4_Z_light3",
+        "attachment": "4_Z_light"
+      }
+    ],
+    "skins": {
+      "default": {},
+      "a": {
+        "4_Z_hand_4": {
+          "4_Z_hand_4": {
+            "x": -1.32,
+            "y": 5.68,
+            "width": 237,
+            "height": 217
+          }
+        },
+        "4_Z_light": {
+          "4_Z_light": {
+            "x": 1.3,
+            "y": 0.08,
+            "width": 30,
+            "height": 37
+          }
+        }
+      },
+      "b": {
+        "4_Z_hand_4": {
+          "4_Z_hand_4": {
+            "name": "4_G_hand_4",
+            "x": -1.32,
+            "y": 5.68,
+            "width": 237,
+            "height": 217
+          }
+        },
+        "4_Z_light": {
+          "4_Z_light": {
+            "name": "4_G_light",
+            "x": 1.3,
+            "y": 0.08,
+            "width": 30,
+            "height": 37
+          }
+        }
+      },
+      "c": {
+        "4_Z_hand_4": {
+          "4_Z_hand_4": {
+            "name": "4_B_hand_4",
+            "x": -1.32,
+            "y": 5.68,
+            "width": 237,
+            "height": 217
+          }
+        },
+        "4_Z_light": {
+          "4_Z_light": {
+            "name": "4_B_light",
+            "x": 1.3,
+            "y": 0.08,
+            "width": 30,
+            "height": 37
+          }
+        }
+      },
+      "d": {
+        "4_Z_hand_4": {
+          "4_Z_hand_4": {
+            "name": "4_P_hand_4",
+            "x": -1.32,
+            "y": 5.68,
+            "width": 241,
+            "height": 221
+          }
+        },
+        "4_Z_light": {
+          "4_Z_light": {
+            "name": "4_P_light",
+            "x": 1.3,
+            "y": 0.08,
+            "width": 30,
+            "height": 37
+          }
+        }
+      },
+      "f": {
+        "4_Z_hand_4": {
+          "4_Z_hand_4": {
+            "name": "4_R_hand_4",
+            "x": -1.32,
+            "y": 5.68,
+            "width": 237,
+            "height": 217
+          }
+        },
+        "4_Z_light": {
+          "4_Z_light": {
+            "name": "4_R_light",
+            "x": 1.3,
+            "y": 0.08,
+            "width": 30,
+            "height": 37
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle1": {
+        "bones": {
+          "bone": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.987,
+                "y": 1.026,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1.067,
+                "y": 0.912,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "x": 0.987,
+                "y": 1.026
+              }
+            ]
+          },
+          "4_Z_light": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "angle": -4.23,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nbingdu_pengzhuang.png\nsize: 1024,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n4_B_hand_4\n  rotate: true\n  xy: 400, 41\n  size: 213, 195\n  orig: 213, 195\n  offset: 0, 0\n  index: -1\n4_B_light\n  rotate: false\n  xy: 31, 2\n  size: 27, 33\n  orig: 27, 33\n  offset: 0, 0\n  index: -1\n4_G_hand_4\n  rotate: true\n  xy: 203, 41\n  size: 213, 195\n  orig: 213, 195\n  offset: 0, 0\n  index: -1\n4_G_light\n  rotate: false\n  xy: 2, 2\n  size: 27, 33\n  orig: 27, 33\n  offset: 0, 0\n  index: -1\n4_P_light\n  rotate: false\n  xy: 2, 2\n  size: 27, 33\n  orig: 27, 33\n  offset: 0, 0\n  index: -1\n4_P_hand_4\n  rotate: true\n  xy: 2, 37\n  size: 217, 199\n  orig: 217, 199\n  offset: 0, 0\n  index: -1\n4_R_hand_4\n  rotate: true\n  xy: 597, 41\n  size: 213, 195\n  orig: 213, 195\n  offset: 0, 0\n  index: -1\n4_R_light\n  rotate: false\n  xy: 60, 2\n  size: 27, 33\n  orig: 27, 33\n  offset: 0, 0\n  index: -1\n4_Z_hand_4\n  rotate: false\n  xy: 794, 59\n  size: 213, 195\n  orig: 213, 195\n  offset: 0, 0\n  index: -1\n4_Z_light\n  rotate: false\n  xy: 89, 2\n  size: 27, 33\n  orig: 27, 33\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "b2Pi8a3rtLr5oh08xbzFiv"
+    }
+  ],
+  "textureNames": [
+    "bingdu_pengzhuang.png"
+  ]
+}

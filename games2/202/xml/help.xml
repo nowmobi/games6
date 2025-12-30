@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<libraries>
+	<library file="xml/library.xml" />
+</libraries>
+
+<templates>
+	<image id="tJennyHelp" name="uiJenny" height="70%" ratio="0.416" halign="left" valign="center" y="300" scale="1.5" >
+		<image image="dynamic/JennyJungle.png" template="tElement" scaleX="-1">
+			<state state="normalRight" halign="right" x="500" scaleX="-1" />
+			<state state="normalLeft" halign="left" x="-500" scaleX="1" />
+			<image name="uiImgJennyBubble" image="dynamic/bubble.png" height="270" ratio="1.6" y="-165" x="-200" halign="rightOf" nss="35,28,13,35" nssScale="0.5" scaleX="-1" >						
+				<element template="tElement" margin="20" marginBottom="50" >
+					<element name="uiTutorialContent" template="tElement" />
+					<text name="uiTxtTutorialText" template="tElement,tFontSmall,tFontWhite" halignText="center" valignText="center"  >
+						<state state="normalRight" scaleX="1" />
+						<state state="normalLeft" scaleX="-1" />				
+					</text>
+				</element>
+			</image>
+		</image>
+	</image>	
+	<image id="tJennyPlayfield" name="uiJenny" height="1020" halign="right" valign="top" y="140" scaleX="-1" clickable="false" clickableChildren="false">
+		<state state="normalRight" template="tJenny" halign="right" x="100"  scaleX="-1" />
+		<state state="normalLeft" template="tJenny" halign="left"  x="-100" scaleX="1" />
+				
+		<state state="curiousRight" template="tJennyCurious" halign="right" scaleX="-1" x="200"  />
+		<state state="curiousLeft"  template="tJennyCurious" halign="left" scaleX="1" x="-200"  />
+		
+		<state state="happyRight" template="tJennyHappy" halign="right" scaleX="-1" x="200" />
+		<state state="happyLeft"  template="tJennyHappy" halign="left" scaleX="1" x="-200"/>
+		
+		<image name="uiImgJennyBubble" image="dynamic/bubble.png" height="270" ratio="1.6" y="-165" x="220" halign="rightOf" nss="35,28,13,35" nssScale="0.5" scaleX="-1">			
+			<state state="normalRight" x="-170"  />
+			<state state="normalLeft"  x="-170"  />
+			
+			<state state="curiousRight" x="-30"  />
+			<state state="curiousLeft"  x="-30"  />
+			
+			<state state="happyRight" x="-30"  />
+			<state state="happyLeft"  x="-30"  />
+		<!--image name="uiImgJennyBubble" width="400" ratio="1.36" y="-145" x="-150" template="tBox"-->
+			<element template="tElement" margin="20" marginBottom="50" >
+				<state state="normalRight" scaleX="1"  />
+				<state state="normalLeft"  scaleX="-1" />
+						
+				<state state="curiousRight" scaleX="1"  />
+				<state state="curiousLeft"  scaleX="-1" />
+				
+				<state state="happyRight" scaleX="1"/>
+				<state state="happyLeft"  scaleX="-1" />
+				<element name="uiTutorialContent" template="tElement" />
+				<text name="uiTxtTutorialText" template="tElement,tFontSmall,tFontWhite" halignText="center" valignText="center" textsize="25" />
+			</element>
+		</image>
+	</image>		
+	<image id="tTutorialMarker" width="1" height="1">
+		<image name="uiImgHand" image="dynamic/TipHand_1.png" width="170" x="-40" y="-40" ratio="1.0" />
+	</image>
+	<element id="tTutorial2" template="tElement" marginRight="20" marginLeft="20">
+		<text name="uiTxtHelpText" template="tElement,tFontLarge,tFontWhite" text="5 x      =" halignText="left" valignText="center" />
+		<image name="uiImgGemIcon" image="gems/gem_blue.png" width="100" x="92" y="4" ratio="1.0" valign="center" scale="0.7" >
+			<image image="gems/eyes.png" y="-5" width="48" height="22" halign="center" valign="center" />			
+		</image>
+		<image name="uiImgResultIcon" image="gems/row.png" width="70" x="0" y="0" ratio="1.0" halign="right" valign="center" />		
+	</element>	
+	<element id="tTutorial3" template="tTutorial2" >
+		<text name="uiTxtHelpText" text="7 x      =" />
+		<image name="uiImgGemIcon" image="gems/gem_yellow.png"/>
+		<image name="uiImgResultIcon" image="gems/skunk.png" />		
+	</element>
+	<element id="tTutorial4" template="tTutorial2" >
+		<text name="uiTxtHelpText" text="9 x      =" />
+		<image name="uiImgGemIcon" image="gems/gem_purple.png" />
+		<image name="uiImgResultIcon" image="gems/orb.png"  />		
+	</element>
+	<element id="tTutorial5" template="tElement" >		/>
+		<text name="uiTxtHelpText" template="tElement,tFontLarge,tFontWhite" text="+" halignText="center" valignText="center" />
+		<image name="uiImgIcon1" image="gems/row.png" width="100" ratio="1.0" valign="center" />
+		<image name="uiImgIcon2" image="gems/skunk.png" width="100" ratio="1.0" halign="right" valign="center" />
+	</element>
+</templates>
+
+<screen name="uiPlayfieldHelp" template="tElement" >
+	<element name="uiPlayfieldContent" width="800" height="800" halign="center" valign="center" template="tElement" />
+</screen>

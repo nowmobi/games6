@@ -1,0 +1,2607 @@
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <script src="sdk.js"></script>
+    <!-- <script type="text/javascript">console.log = console.info = console.warn = console.error = function () { };</script> -->
+    <!-- <script>
+      uptap.ShowScreenVideo = (n, o) => {
+        console.log("uptapad:插屏⼴告完成");
+        o();
+      };
+      uptap.ShowExcitationVideoAdv = (n) => {
+        console.log("uptapad:激励视频⼴告");
+        // 修改type的值，模拟不同的激励视频播放状态
+        // 1:暂时没有⼴告 2：⼴告提前关闭 3：⼴告播放完成
+        n({ type: "3" });
+      };
+    </script> -->
+    <title>Draw The Defense</title>
+    <style>
+      * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        font-weight: 400;
+        outline: none;
+        user-select: none;
+      }
+
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+
+      #loading {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 100;
+        background-color: #4153a5;
+        text-shadow: /* create a black outline */ -1px -1px 0 #000,
+          0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000,
+          0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+      }
+
+      #loading > div {
+        margin-top: 30vh;
+      }
+
+      .progress {
+        margin-top: 1vh;
+        display: inline-block;
+        border-radius: 10vw;
+        width: 50vw;
+        height: 1.5vw;
+        background-color: #2b292a;
+      }
+
+      #progressbar {
+        width: 0;
+        border-radius: 10vw;
+        height: 1.5vw;
+        background: rgb(253, 105, 41);
+        background: -moz-linear-gradient(
+          90deg,
+          rgba(253, 105, 41, 1) 19%,
+          rgba(244, 192, 41, 1) 100%
+        );
+        background: -webkit-linear-gradient(
+          90deg,
+          rgba(253, 105, 41, 1) 19%,
+          rgba(244, 192, 41, 1) 100%
+        );
+        background: linear-gradient(
+          90deg,
+          rgba(253, 105, 41, 1) 19%,
+          rgba(244, 192, 41, 1) 100%
+        );
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fd6929", endColorstr="#f4c029", GradientType=1);
+      }
+
+      #lagged {
+        margin-bottom: 10vh;
+        display: inline-block;
+        width: 30vh;
+        height: 30vh;
+        background-image: url(Images/lagged.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+
+      #c {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+
+      #gameUI {
+        position: fixed;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        visibility: hidden;
+      }
+
+      #ingameLagged {
+        display: inline-block;
+        width: 16vh;
+        height: 8vh;
+        background-image: url(Images/lagged2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: -14px;
+      }
+
+      #lvlNo {
+        display: inline-block;
+        margin-top: -1.5vh;
+        text-align: center;
+        color: white;
+        font-size: 150%;
+        font-weight: 800;
+        text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000,
+          1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000,
+          -1px 0 0 #000;
+      }
+
+      #wave {
+        display: inline-block;
+        background-image: url(Images/i3.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 5px;
+        color: yellow;
+        font-size: 120%;
+        font-weight: 800;
+        text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000,
+          1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000,
+          -1px 0 0 #000;
+      }
+
+      #waveCounter {
+        position: fixed;
+        top: 13vh;
+        left: 50%;
+        /* width: 100px; */
+        transform: translateX(-50%);
+        color: #ffbc00;
+        font-size: 80%;
+        font-weight: 800;
+        text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000,
+          1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000,
+          -1px 0 0 #000;
+      }
+
+      #coin {
+        position: fixed;
+        top: 10px;
+        left: 50%;
+        width: 100px;
+        transform: translateX(170%);
+        background-image: url(Images/coin.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        color: yellow;
+        font-size: 140%;
+        font-weight: 800;
+        text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000,
+          1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000,
+          -1px 0 0 #000;
+      }
+
+      #soldierMeterContainer {
+        display: inline-block;
+        width: 400px;
+        height: 18px;
+        border: 2px solid black;
+        border-block: 2px solid black;
+        border-radius: 10px;
+        background: white;
+      }
+
+      #soldierMeter {
+        height: 100%;
+        width: 100%;
+        border-radius: inherit;
+        background: rgb(19, 115, 177);
+        background: linear-gradient(
+          90deg,
+          rgba(19, 115, 177, 1) 0%,
+          rgba(19, 178, 255, 1) 100%
+        );
+        transition: all 0.2s;
+      }
+
+      #soldierMeterText {
+        display: inline-block;
+        color: white;
+        font-weight: 800;
+        font-size: 100%;
+        text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000,
+          1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000,
+          -1px 0 0 #000;
+        transform: translateY(-3px);
+      }
+
+      #baseHealthContainer {
+        position: fixed;
+        left: 50%;
+        bottom: 57%;
+        transform: translate(-50%, -50%);
+        width: 100px;
+        height: 13px;
+        border: 2px solid black;
+        border-block: 2px solid black;
+        border-radius: 50px;
+        color: white;
+        font-weight: 800;
+        font-size: 90%;
+        text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000,
+          1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000,
+          -1px 0 0 #000;
+        line-height: 20px;
+        background: white;
+      }
+
+      #baseHealth {
+        height: 100%;
+        width: 100%;
+        border-radius: inherit;
+        background: rgb(12, 176, 0);
+        background: linear-gradient(
+          90deg,
+          rgba(12, 176, 0, 1) 0%,
+          rgba(126, 234, 0, 1) 100%
+        );
+        transition: all 0.2s;
+      }
+
+      #soldirMeterIcon {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background-image: url(Images/i2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        line-height: 40px;
+        margin-top: 85vh;
+      }
+
+      /* UPGRADES UI */
+
+      #upgradesContainer {
+        position: fixed;
+        width: 100%;
+        /* background-color: rgba(0,0,0,0.5); 40vw;*/
+        bottom: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        visibility: hidden;
+      }
+
+      #coinUpgrade {
+        display: inline-block;
+        width: 77px;
+        text-align: end;
+        background-image: url(Images/coin.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 30px;
+        color: yellow;
+        font-size: 140%;
+        font-weight: 800;
+        text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000,
+          1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000,
+          -1px 0 0 #000;
+      }
+
+      /* #btnStart {
+        display: inline-block;
+        width: 142px;
+        height: 56px;
+        text-align: center;
+        background-image: url(Images/btnStart.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 30px;
+    } */
+
+      .upgrade {
+        display: inline-block;
+        width: 98px;
+        height: 87px;
+        margin: 0px 10px;
+        background-image: url(Images/btnDefense.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+
+      .upgrade span {
+        position: relative;
+        top: 25px;
+        left: 10px;
+        color: white;
+        font-weight: 800;
+        font-size: 110%;
+        /* text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000; */
+      }
+
+      .upgrade p {
+        position: relative;
+        top: 17px;
+        left: 10px;
+        color: white;
+        font-weight: 800;
+        font-size: 110%;
+        /* text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000; */
+      }
+
+      #rewardedAdBtn {
+        display: inline-block;
+        width: 350px;
+        height: 61px;
+        text-align: center;
+        background-image: url(Images/btnRewardCoin.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 20px;
+        visibility: hidden;
+      }
+
+      #rewardedAdBtn span {
+        position: relative;
+        top: 11px;
+        left: 80px;
+        color: yellow;
+        font-weight: 800;
+        font-size: 150%;
+        text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000,
+          1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000,
+          -1px 0 0 #000;
+      }
+
+      #upgrade1 {
+        background-image: url(Images/btnDefense.png);
+      }
+
+      #upgrade2 {
+        background-image: url(Images/btnAttack.png);
+      }
+
+      #upgrade3 {
+        background-image: url(Images/btnInk.png);
+      }
+
+      /*GAMEOVER*/
+
+      #gameOverUI {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        visibility: hidden;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+
+      #moreGames {
+        display: inline-block;
+        width: 200px;
+        height: 220px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        margin-top: -5px;
+        text-align: center;
+        padding: 10px;
+      }
+
+      #moreGames h3 {
+        float: left;
+        clear: both;
+        width: 100%;
+        line-height: 19px;
+        height: 19px;
+        font-size: 17px;
+        font-weight: 600;
+        margin: 0 0 5px 0;
+      }
+
+      .thumbWrapper {
+        overflow: hidden;
+        position: relative;
+        background-color: #a5a5a5;
+        box-shadow: 0 0 4px 0 rgb(0 0 0 / 50%);
+        margin: 1% 2% 1% 2.6%;
+        width: 45%;
+        border-radius: 5px;
+        float: left;
+        display: block;
+      }
+
+      .thumbWrapper a {
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 200;
+        display: block;
+        float: left;
+        width: 100%;
+      }
+
+      .thumbWrapper img {
+        width: 100%;
+        height: auto;
+        border-radius: 2px;
+      }
+
+      .thumbWrapper span.thumbname {
+        position: absolute;
+        transition: bottom 0.25s ease;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        width: 100%;
+        bottom: -125%;
+        left: 0;
+        height: auto;
+        min-height: 18px;
+        line-height: 20px;
+        padding: 7px 0 4px;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: rgba(42, 100, 144, 0.8);
+        color: #fff;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+      }
+
+      .thumbWrapper:hover span.thumbname {
+        bottom: -1%;
+      }
+
+      #btnNext {
+        display: inline-block;
+        margin-top: 15vh;
+        background-image: url(Images/btnNextLevel.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 300px;
+        height: 140px;
+      }
+
+      #btnRestart {
+        display: inline-block;
+        margin-top: 15vh;
+        background-image: url(Images/btnRestart.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 300px;
+        height: 140px;
+      }
+
+      /* #goMessage {
+        color: white;
+        font-size: 300%;
+        font-weight: 800;
+
+        display: inline-block;
+        margin-top: 1%;
+        text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.6),2px 2px 4px #000000,
+        -1px -1px 0 #000,
+         0   -1px 0 #000,
+         1px -1px 0 #000,
+         1px  0   0 #000,
+         1px  1px 0 #000,
+         0    1px 0 #000,
+        -1px  1px 0 #000,
+        -1px  0   0 #000;
+    } */
+
+      /*GAMEOVER END*/
+
+      /*SEPERATE THEN GAME AND GAMEOVER UI BUTTONS*/
+
+      #btnSound {
+        position: fixed;
+        left: 0.5%;
+        top: 1%;
+        width: 6%;
+        height: 6%;
+        visibility: hidden;
+        background-image: url(Images/btnSound.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+
+      .button {
+        transition: all 0.1s;
+        cursor: pointer;
+        user-select: none;
+      }
+
+      .button:hover {
+        transform: scale(1.1);
+      }
+
+      /*for deksotp screens*/
+
+      #coverLeft {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 35%;
+        height: 100%;
+        background: black;
+      }
+
+      #coverRight {
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 35%;
+        height: 100%;
+        background: black;
+      }
+
+      /* TUTORIAL */
+
+      #tutorial {
+        position: fixed;
+        width: 512px;
+        height: 512px;
+        bottom: -49px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        pointer-events: none;
+        visibility: hidden;
+      }
+
+      #tutorial svg {
+        width: 512px;
+        height: 512px;
+        position: absolute;
+        opacity: 0.8;
+        /* background-color: rgba(255,255,255,0.5); */
+      }
+
+      #tutorial svg path {
+        fill: none;
+        stroke-width: 10px;
+        stroke: rgba(0, 0, 0, 0.4);
+        stroke-dasharray: 15;
+        /* stroke: white; for all other games */
+      }
+
+      #hand {
+        margin-top: 24px;
+        margin-left: 20px;
+        position: absolute;
+        height: 77px;
+        width: 76px;
+        /* background: hsla(183, 90%, 54%, .3);
+        border: 2px solid hsl(183, 100%, 54%);
+        border-right-color: hsl(43, 100%, 50%);
+        border-left-color: hsl(343, 100%, 50%); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(Images/arrow.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        --path: "M 70 -25 A 45 45 90 0 0 430 -25";
+        offset-path: path(var(--path));
+        animation: move 2600ms infinite alternate linear;
+        offset-rotate: 0deg;
+        /* animation: rotate 1.5s ease-in-out infinite alternate; */
+      }
+
+      @keyframes move {
+        0% {
+          offset-distance: 0%;
+        }
+        100% {
+          offset-distance: 100%;
+        }
+      }
+
+      /*RESPONSIVE*/
+
+      #rotateDeviceBG {
+        background-color: rgba(0, 0, 0, 1);
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        text-align: center;
+        visibility: hidden;
+      }
+
+      .phone {
+        margin-top: 12%;
+        display: inline-block;
+        height: 100px;
+        width: 200px;
+        border: 4px solid white;
+        border-radius: 10px;
+        animation: rotate 1.5s ease-in-out infinite alternate;
+      }
+
+      .message {
+        position: fixed;
+        width: 100%;
+        height: 10%;
+        left: 0;
+        text-align: center;
+        color: white;
+        font-size: 200%;
+        font-weight: 800;
+        bottom: 10%;
+        /* display: none; */
+      }
+
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        90% {
+          transform: rotate(-90deg);
+        }
+        100% {
+          transform: rotate(-90deg);
+        }
+      }
+
+      @media only screen and (max-width: 900px) {
+        #loading {
+          font-size: 20px;
+        }
+        .progress {
+          width: 70vw;
+        }
+        #coverLeft {
+          display: none;
+        }
+        #coverRight {
+          display: none;
+        }
+        #btnSound {
+          width: 11%;
+          height: 11%;
+        }
+        #lvlNo {
+          font-size: 120%;
+          font-weight: 800;
+        }
+        #ingameLagged {
+          width: 17vh;
+          height: 9vh;
+          margin-top: -10px;
+        }
+        #moreGames {
+          /* width: 200px;
+            height: 350px; */
+          margin-top: 5%;
+        }
+        /* #goMessage {
+            font-size: 250%;
+            font-weight: 700;
+            margin-top: 10%;
+        } */
+        #btnNext {
+          width: 200px;
+          height: 90px;
+          margin-top: 12vh;
+        }
+        #btnRestart {
+          width: 200px;
+          height: 90px;
+          margin-top: 12vh;
+        }
+        #coin {
+          top: 10px;
+          left: 50%;
+          transform: translateX(30vw);
+          font-size: 100%;
+        }
+        /* #upgradesContainer {
+            width: 100%;
+        } */
+        .upgrade {
+          width: 98px;
+          height: 87px;
+          margin: 0px 10px;
+        }
+        #soldirMeterIcon {
+          margin-top: 75vh;
+        }
+        #soldierMeterContainer {
+          width: 260px;
+        }
+        #hand {
+          margin-left: -20px;
+          width: 46px;
+        }
+        #tutorial svg {
+          height: 456px;
+          width: 456px;
+        }
+        #tutorial {
+          height: 256px;
+          width: 456px;
+          bottom: 25vh;
+        }
+      }
+
+      @media only screen and (max-width: 1600px) {
+        #coverLeft {
+          width: 30%;
+        }
+        #coverRight {
+          width: 30%;
+        }
+      }
+
+      @media only screen and (max-width: 1200px) {
+        #coverLeft {
+          width: 25%;
+        }
+        #coverRight {
+          width: 25%;
+        }
+        .upgrade {
+          width: 98px;
+          height: 87px;
+          margin: 0px 10px;
+        }
+      }
+
+      /* For very small iphone 5 and SE vertical display with tabs bar, since I have one */
+
+      @media only screen and (max-height: 670px) {
+        #moreGames {
+          margin-top: -5%;
+        }
+        /* #goMessage {
+            margin-top: 15px;
+        } */
+        #btnNext {
+          margin-top: 10vh;
+        }
+        #btnRestart {
+          margin-top: 10vh;
+        }
+        #waveCounter {
+          top: 15vh;
+        }
+        #soldirMeterIcon {
+          margin-top: 70vh;
+        }
+        #tutorial {
+          bottom: 12vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <script src="./Libs/three.min.js"></script>
+    <script src="./Libs/FBXLoader.js"></script>
+    <script src="./Libs/inflate.min.js"></script>
+    <script src="./Libs/SkeletonUtils.js"></script>
+    <script src="./Libs/confetti.browser.js"></script>
+    <div id="loading">
+      <div>
+        <div id="lagged"></div>
+        <div id="progressText">0%</div>
+        <div class="progress">
+          <div id="progressbar"></div>
+        </div>
+        <div>Loading...</div>
+      </div>
+    </div>
+    <canvas id="c"></canvas>
+    <div id="gameUI">
+      <div id="ingameLagged"></div>
+      <br />
+      <div id="lvlNo">Level 1</div>
+      <br />
+      <div id="wave">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1/3</div>
+      <br />
+      <div id="soldirMeterIcon">&nbsp;</div>
+      <div id="soldierMeterContainer">
+        <div id="soldierMeter"></div>
+      </div>
+      <div id="soldierMeterText">30</div>
+      <div id="baseHealthContainer">
+        <div id="baseHealth"></div>
+        2500
+      </div>
+      <div id="coin">0</div>
+      <br />
+      <div id="waveCounter">Next wave in : 0s</div>
+    </div>
+    <div id="tutorial">
+      <svg viewBox="0 0 512 512">
+        <path d="M 70 -25 A 45 45 90 0 0 430 -25" fill="none" />
+      </svg>
+      <div id="hand"></div>
+    </div>
+    <div id="gameOverUI">
+      <div
+        id="btnRestart"
+        onclick="btnGO()"
+        class="animate__animated animate__rubberBand animate__infinite animate__slow button"
+      ></div>
+      <br />
+      <div
+        id="btnNext"
+        onclick="btnGO()"
+        class="animate__animated animate__rubberBand animate__infinite animate__slow button"
+      ></div>
+      <br />
+    </div>
+    <div id="upgradesContainer">
+      <div id="coinUpgrade">0</div>
+      <br />
+      <div class="upgrade button" id="upgrade1" onclick="btnUpgrade(1)">
+        <span id="u1">10+5</span>
+        <p id="c1">10</p>
+      </div>
+      <div class="upgrade button" id="upgrade2" onclick="btnUpgrade(2)">
+        <span id="u2">10+5</span>
+        <p id="c2">10</p>
+      </div>
+      <div class="upgrade button" id="upgrade3" onclick="btnUpgrade(3)">
+        <span id="u3">10+5</span>
+        <p id="c3">10</p>
+      </div>
+      <br />
+      <div id="rewardedAdBtn" class="button"><span id="rc">+100</span></div>
+    </div>
+    <div id="coverLeft"></div>
+    <div id="coverRight"></div>
+    <div id="btnSound" class="button" onclick="btnSound()"></div>
+    <div id="rotateDeviceBG">
+      <div class="phone"></div>
+      <div class="message">Please rotate your device!</div>
+    </div>
+    <script>
+      // GLOBAL VAR
+      //console.warn = function(){};
+      var scene = null;
+      var camera = null;
+      var renderer = null;
+      var clock = new THREE.Clock();
+      var onMobile = false;
+
+      // RESETABLE VARS
+      var plane = null;
+      var player = null;
+      var gameManager = null;
+      var gameOver = false;
+      var drawInterval = null;
+      var energyToSpawnSoldier = 30;
+      var maxEnergy = 30;
+      var baseHealth = 400;
+      var maxHealth = 400;
+      var totalWaves = 3;
+      var currentWave = 1;
+      var totalCoins = 0;
+      var level = 1;
+      var savedObject = {
+        upgrade1: 1,
+        upgrade2: 1,
+        upgrade3: 1,
+        coins: 0,
+        level: 0,
+      };
+
+      // loading save
+      var loadSave = null;
+      try {
+        loadSave = JSON.parse(localStorage.getItem("DRAWARMYSAVE"));
+      } catch (e) {
+        console.log(e);
+      }
+      if (loadSave) {
+        savedObject = loadSave;
+        level = savedObject.level;
+        totalCoins = savedObject.coins;
+      }
+
+      // RESETABLE ARRAYS
+      var updateArray = [];
+      var enemyBoundingBoxArray = [];
+      var soldierBoundingBoxArray = [];
+      var soldierBoundingBoxArray2 = [];
+      var particleArray = [];
+
+      const BaseModel = {
+        mountains: {
+          url: "Models/mountains.fbx",
+        },
+        base: {
+          url: "Models/base.fbx",
+        },
+        soldier: {
+          url: "Models/soldier.fbx",
+        },
+        enemy1: {
+          url: "Models/enemy1.fbx",
+        },
+        enemy2: {
+          url: "Models/enemy2.fbx",
+        },
+        enemy3: {
+          url: "Models/enemy3.fbx",
+        },
+      };
+      const Anims = {
+        /*run: {url: 'Models/Anim_Running.fbx'},*/
+      };
+      const Textures = {
+        shadow: {
+          url: "Models/shadow.png",
+        },
+        particle: {
+          url: "Images/particle.png",
+        },
+        splatter: {
+          url: "Images/splash.png",
+        },
+        splatterGreen: {
+          url: "Images/splashGreen.png",
+        },
+        coin: {
+          url: "Images/coin.png",
+        },
+      };
+      const Sound = {
+        button: {
+          url: "Sound/button.mp3",
+        },
+        win: {
+          url: "Sound/win.mp3",
+        },
+        fail: {
+          url: "Sound/fail.mp3",
+        },
+        shoot: {
+          url: "Sound/shoot.mp3",
+        },
+        hit: {
+          url: "Sound/hit.mp3",
+        },
+        upgrade: {
+          url: "Sound/upgrade.mp3",
+        },
+        music: {
+          url: "Sound/music.mp3",
+        },
+      };
+
+      // DOM elements
+      const CANVAS = document.querySelector("#c");
+      const PROGRESS_TEXT = document.querySelector("#progressText");
+      const GAME_UI = document.querySelector("#gameUI");
+
+      const LEVEL_TEXT = document.querySelector("#lvlNo");
+      const WAVE = document.querySelector("#wave");
+      const SOLDIER_DRAW_METER = document.querySelector("#soldierMeter");
+      const SOLDIER_DRAW_TEXT = document.querySelector("#soldierMeterText");
+      const BASE_HEALTH_TEXT = document.querySelector("#baseHealthContainer");
+      const COIN = document.querySelector("#coin");
+      const WAVE_COUNTER = document.querySelector("#waveCounter");
+
+      const GAMEOVER_UI = document.querySelector("#gameOverUI");
+      //const GO_MESSAGE = document.querySelector('#goMessage');
+      const BTN_RESTART = document.querySelector("#btnRestart");
+      const BTN_NEXT = document.querySelector("#btnNext");
+
+      // UPGRADES
+      const UPGRADE_CONTAINER = document.querySelector("#upgradesContainer");
+      const UPGRADE_COINS = document.querySelector("#coinUpgrade");
+
+      const UPGRADE1 = document.querySelector("#u1");
+      const UPGRADE2 = document.querySelector("#u2");
+      const UPGRADE3 = document.querySelector("#u3");
+      const COST1 = document.querySelector("#c1");
+      const COST2 = document.querySelector("#c2");
+      const COST3 = document.querySelector("#c3");
+
+      const UPGRADE1_GRAPHIC = document.querySelector("#upgrade1");
+      const UPGRADE2_GRAPHIC = document.querySelector("#upgrade2");
+      const UPGRADE3_GRAPHIC = document.querySelector("#upgrade3");
+
+      const REWARD_VALUE = document.querySelector("#rc");
+      const REWARDED_BTN = document.querySelector("#rewardedAdBtn");
+
+      // REST OF THE STUFF
+      const BTN_SOUND = document.querySelector("#btnSound");
+      const ROTATE_MSG = document.querySelector("#rotateDeviceBG");
+      const COVER_LEFT = document.querySelector("#coverLeft");
+      const COVER_RIGHT = document.querySelector("#coverRight");
+      const TUTORIAL_UI = document.querySelector("#tutorial");
+      const HAND = document.querySelector("#hand");
+
+      function preload() {
+        const progressbarElem = document.querySelector("#progressbar");
+        let manager = new THREE.LoadingManager();
+        manager.onStart = function (url, itemsLoaded, itemsTotal) {
+          //console.log( 'Started loading file: ' + url + '.\nLoaded ' + itemsLoaded + ' of ' + itemsTotal + ' files.' );
+        };
+        manager.onLoad = function () {
+          //console.log( 'Loading complete!');
+          init();
+          // hide the loading bar
+          const loadingElem = document.querySelector("#loading");
+          loadingElem.style.display = "none";
+        };
+        manager.onProgress = function (url, itemsLoaded, itemsTotal) {
+          //console.log( 'Loading file: ' + url + '.\nLoaded ' + itemsLoaded + ' of ' + itemsTotal + ' files.' );
+          progressbarElem.style.width = `${
+            ((itemsLoaded / itemsTotal) * 100) | 0
+          }%`;
+          PROGRESS_TEXT.innerHTML = `${
+            ((itemsLoaded / itemsTotal) * 100) | 0
+          }%`;
+          if(parseInt(PROGRESS_TEXT.innerHTML) == 100){
+            console.log('Loading加载完成',);
+            window.parent.postMessage(
+                    { func: "loadingCompleted" }
+                );
+          }
+         
+        };
+        manager.onError = function (url) {
+          //console.log( 'There was an error loading ' + url );
+        };
+
+        var loader = new THREE.FBXLoader(manager);
+        // load base character model
+        for (const model of Object.values(BaseModel)) {
+          loader.load(model.url, function (fbx) {
+            model.fbx = fbx;
+            model.animationsArray = fbx.animations;
+          });
+        }
+        // load anims
+        for (const model of Object.values(Anims)) {
+          loader.load(model.url, function (fbx) {
+            //model.fbx = fbx;
+            model.animation = fbx.animations[0];
+          });
+        }
+        // load textures
+        var loaderTex = new THREE.TextureLoader(manager);
+        for (const img of Object.values(Textures)) {
+          loaderTex.load(img.url, function (texture) {
+            texture.encoding = THREE.sRGBEncoding;
+            img.texture = texture;
+          });
+        }
+        // load audio
+        Sound.listener = new THREE.AudioListener();
+        const audioLoader = new THREE.AudioLoader(manager);
+        for (const key of Object.values(Sound)) {
+          audioLoader.load(key.url, function (buffer) {
+            key.sound = new THREE.Audio(Sound.listener);
+            key.sound.setBuffer(buffer);
+            key.sound.setVolume(1);
+            if (key.url == "Sound/music.mp3") {
+              key.sound.setLoop(true);
+              key.sound.setVolume(0.5);
+            }
+          });
+        }
+      }
+
+      function init() {
+        if (is_touch_device()) {
+          onMobile = true;
+          COVER_LEFT.style.display = "none";
+          COVER_RIGHT.style.display = "none";
+          HAND.style.backgroundImage = "url(Images/hand.png)";
+        }
+
+        BTN_SOUND.style.visibility = "visible";
+        GAME_UI.style.visibility = "visible";
+
+        renderer = new THREE.WebGLRenderer({
+          canvas: CANVAS,
+          antialias: true,
+        });
+        renderer.setPixelRatio(1);
+
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.outputEncoding = THREE.sRGBEncoding;
+        //renderer.shadowMapEnabled = true;
+
+        camera = new THREE.PerspectiveCamera(
+          45,
+          window.innerWidth / window.innerHeight,
+          1,
+          14000
+        );
+        camera.position.set(0, 1700, 1700);
+        camera.lookAt(0, 0, 0);
+        camera.add(Sound.listener);
+
+        scene = new THREE.Scene();
+        scene.background = new THREE.Color(0x00b9fe).convertSRGBToLinear();
+
+        window.addEventListener("resize", onWindowResize, false);
+        document.addEventListener("touchstart", touchStart, false);
+        document.addEventListener("touchend", touchEnd, false);
+        document.addEventListener("touchmove", touchMoved, false);
+
+        document.addEventListener("mousemove", mouseMoved, false);
+        document.addEventListener("mousedown", mouseDown, false);
+        document.addEventListener("mouseup", mouseUp, false);
+
+        setUpGame();
+        animate();
+      }
+
+      function setUpGame() {
+        // total waves based on level
+        if (level <= 2) {
+          totalWaves = 3;
+        } else if (level <= 5) {
+          totalWaves = 4;
+        } else if (level <= 8) {
+          totalWaves = 5;
+        } else {
+          totalWaves = level - 3;
+        }
+        if (totalWaves > 10) totalWaves = 10;
+
+        // update UI
+        if (level == 1) {
+          TUTORIAL_UI.style.visibility = "visible";
+          setTimeout(function () {
+            TUTORIAL_UI.style.visibility = "hidden";
+          }, 3500);
+        }
+        COIN.innerHTML = totalCoins;
+        LEVEL_TEXT.innerHTML = "Level " + level;
+        WAVE.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + "1/" + totalWaves;
+        maxEnergy = 17 + 3 * savedObject.upgrade3;
+        energyToSpawnSoldier = maxEnergy;
+        baseHealth = maxHealth;
+        SOLDIER_DRAW_METER.style.width = "100%";
+        SOLDIER_DRAW_TEXT.innerHTML = "100";
+        BASE_HEALTH_TEXT.innerHTML =
+          '<div id="baseHealth" style="width:100%;"></div>' + baseHealth;
+        // Lights
+        var ambientLight = new THREE.AmbientLight(0xffffff, 0.75);
+        scene.add(ambientLight);
+        var dLight = new THREE.DirectionalLight(0xffffff, 0.5);
+        dLight.position.set(0, 10000, -5000);
+        scene.add(dLight);
+
+        // Level environment
+        let mountains = BaseModel.mountains.fbx.clone();
+        mountains.traverse(function (child) {
+          if (child instanceof THREE.Mesh) {
+            const oldMat = child.material;
+            if (oldMat.name == "trans") {
+              child.material = new THREE.MeshLambertMaterial({
+                map: oldMat.map,
+                transparent: true,
+                opacity: 0.5,
+                depthWrite: false,
+              });
+              child.position.y = 10;
+            } else {
+              child.material = new THREE.MeshLambertMaterial({
+                map: oldMat.map,
+              });
+              child.position.y -= 30;
+              //child.scale.set(0.5,0.5,0.5);
+            }
+          }
+        });
+        scene.add(mountains);
+
+        // Game Base plane, also used for Mouse Co-ordinates
+        plane = new THREE.Mesh(
+          new THREE.PlaneGeometry(5000, 5000),
+          new THREE.MeshLambertMaterial({
+            color: 0x999999,
+            side: THREE.DoubleSide,
+          })
+        );
+        plane.rotation.x = THREE.Math.degToRad(90);
+        //plane.position.y = 20; -- change how down mountains and shodow
+        scene.add(plane);
+
+        // Spawning Game elements
+        player = new Player();
+        gameManager = new GameManager();
+      }
+
+      function Player() {
+        var self = {
+          group: null,
+          model: null,
+          mixer: null,
+          raycaster: new THREE.Raycaster(),
+        };
+        self.init = function () {
+          // model
+          self.group = new THREE.Object3D();
+          scene.add(self.group);
+
+          self.model = THREE.SkeletonUtils.clone(BaseModel.base.fbx);
+          self.model.traverse(function (child) {
+            if (child instanceof THREE.Mesh) {
+              const oldMat = child.material;
+              child.material = new THREE.MeshLambertMaterial({
+                color: 0x009900,
+                skinning: true,
+              });
+            }
+          });
+          self.model.rotation.y = THREE.Math.degToRad(-40);
+          self.group.add(self.model);
+          self.mixer = new THREE.AnimationMixer(self.model);
+          self.idle = self.mixer.clipAction(
+            THREE.AnimationUtils.subclip(
+              BaseModel.base.animationsArray[0],
+              "idle",
+              1,
+              90,
+              30
+            )
+          );
+          self.idle.play();
+
+          //Bounding box
+          const geometry = new THREE.BoxGeometry(400, 300, 400);
+          const material = new THREE.MeshBasicMaterial({
+            visible: false,
+          });
+          self.box = new THREE.Mesh(geometry, material);
+          self.box.position.y = 50;
+          self.group.add(self.box);
+          self.boundingBox = new THREE.BoxHelper(self.box, 0x00ff00);
+          self.box3 = new THREE.Box3().setFromObject(self.box);
+
+          // Draw Interval
+          drawInterval = setInterval(function () {
+            drawCooldown = false;
+          }, 50);
+        };
+        self.update = function (delta) {
+          self.mixer.update(delta);
+        };
+
+        self.init();
+        updateArray.push(self);
+        soldierBoundingBoxArray2.push(self);
+        return self;
+      }
+
+      // Spawn enemy waves etc
+      function GameManager() {
+        var self = {
+          waveTimer: 20,
+          tempVec: new THREE.Vector3(0, 0, 0),
+          intervalBaby: null,
+        };
+        self.init = function () {
+          self.spawnWave();
+          WAVE_COUNTER.innerHTML = "Next wave in : " + self.waveTimer + "s";
+          self.intervalBaby = setInterval(function () {
+            // reduce wave timer
+            self.waveTimer--;
+
+            if (self.waveTimer <= 0 && currentWave < totalWaves) {
+              self.waveTimer = 20;
+              currentWave++;
+              self.spawnWave();
+              WAVE.innerHTML =
+                "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" +
+                currentWave +
+                "/" +
+                totalWaves;
+            }
+            WAVE_COUNTER.innerHTML = "Next wave in : " + self.waveTimer + "s";
+          }, 1000);
+        };
+        self.spawnWave = function () {
+          // find a random spawnPos
+          let rX = rand(-1000, 1000);
+          let rZ = rand(-3000, 2000);
+          let r = rand(1, 2);
+          if (r == 1) {
+            if (rX < 1000 && rX > -1000) {
+              let rr = rand(1, 2);
+              if (rr == 1) rX = -1000;
+              else rX = 1000;
+            }
+          } else {
+            if (rZ < 2000 && rZ > -3000) {
+              let rr = rand(1, 2);
+              if (rr == 1) rZ = 2000;
+              else rZ = -3000;
+            }
+          }
+          self.tempVec.set(rX, 0, rZ);
+
+          // wave enemy count based on level and wave number
+          let waveCount = 0;
+          if (level == 1) {
+            waveCount = 3;
+          } else if (level == 2) {
+            waveCount = 4;
+          } else if (level <= 5) {
+            waveCount = rand(5, 8);
+          } else {
+            waveCount = rand(8, 16);
+          }
+
+          // spawn enemies based on wave
+          for (let i = 0; i < waveCount; i++) {
+            let e = new Enemy(self.tempVec);
+          }
+        };
+        self.update = function (delta) {};
+
+        self.init();
+        updateArray.push(self);
+        return self;
+      }
+
+      function Soldier(spawnPos) {
+        var self = {
+          group: null,
+          model: null,
+          mixer: null,
+          speed: 100,
+          health: 50,
+          damage: 10,
+          shootCooldown: 0,
+          shootCooldownMax: 10,
+          baseVec: new THREE.Vector3(),
+          tmpVec: new THREE.Vector3(),
+          tmpVec2: new THREE.Vector3(),
+          muzzleArray: [],
+          muzzleScale: 0.1,
+        };
+        self.init = function () {
+          self.health = 45 + savedObject.upgrade1 * 5;
+          self.damage = 8 + savedObject.upgrade2 * 2;
+
+          SOLDIER_DRAW_METER.style.width = `${
+            ((energyToSpawnSoldier / maxEnergy) * 100) | 0
+          }%`;
+          SOLDIER_DRAW_TEXT.innerHTML = `${
+            ((energyToSpawnSoldier / maxEnergy) * 100) | 0
+          }`;
+          // model
+          self.group = new THREE.Object3D();
+          scene.add(self.group);
+          self.group.position.copy(spawnPos);
+          self.model = THREE.SkeletonUtils.clone(BaseModel.soldier.fbx);
+          self.model.traverse(function (child) {
+            if (child instanceof THREE.Mesh) {
+              const oldMat = child.material;
+              if (
+                oldMat.name == "front" ||
+                oldMat.name == "vertical" ||
+                oldMat.name == "vertical.001"
+              ) {
+                child.material = new THREE.MeshBasicMaterial({
+                  map: oldMat.map,
+                  transparent: true,
+                  side: THREE.DoubleSide,
+                });
+                self.muzzleArray.push(child);
+              } else {
+                child.material = new THREE.MeshLambertMaterial({
+                  map: oldMat.map,
+                  skinning: true,
+                });
+              }
+            }
+          });
+          self.model.traverse(function (object) {
+            object.frustumCulled = false;
+          });
+          self.group.add(self.model);
+          self.mixer = new THREE.AnimationMixer(self.model);
+          self.idle = self.mixer.clipAction(
+            THREE.AnimationUtils.subclip(
+              BaseModel.soldier.animationsArray[0],
+              "idle",
+              1,
+              90,
+              30
+            )
+          );
+          self.idle.play();
+
+          //Shadow
+          var circleGeometry = new THREE.CircleGeometry(50, 6, 15);
+          var shadowMaterial = new THREE.MeshBasicMaterial({
+            map: Textures.shadow.texture,
+            transparent: true,
+            opacity: 0.25,
+            side: THREE.DoubleSide,
+            depthWrite: false,
+          });
+          self.shadow = new THREE.Mesh(circleGeometry, shadowMaterial);
+          self.shadow.rotation.x = -1.57;
+          self.group.add(self.shadow);
+          self.shadow.position.y = 15;
+          self.shadow.position.x = 0;
+          self.shadow.position.z = 10;
+
+          //Muzzle
+          for (let i in self.muzzleArray) {
+            self.muzzleArray[i].scale.set(0.1, 0.1, 0.1);
+          }
+
+          //Bounding box
+          const geometry = new THREE.BoxGeometry(50, 50, 50);
+          const material = new THREE.MeshBasicMaterial({
+            visible: false,
+          });
+          self.box = new THREE.Mesh(geometry, material);
+          self.box.position.y = 50;
+          self.group.add(self.box);
+          self.boundingBox = new THREE.BoxHelper(self.box, 0x00ff00);
+          self.box3 = new THREE.Box3().setFromObject(self.box);
+          //scene.add(self.boundingBox);
+        };
+        self.moveAndAimAndShoot = function (delta) {
+          // Aim towards enemies and move
+          let closestDistance = 10000;
+          let targetEnemyId = null;
+          let distanceToBase = self.group.position.distanceTo(self.baseVec);
+          for (let i in enemyBoundingBoxArray) {
+            // Find the closest enemy
+            let d = self.group.position.distanceTo(
+              enemyBoundingBoxArray[i].group.position
+            );
+            if (d < closestDistance) {
+              closestDistance = d;
+              targetEnemyId = i;
+            }
+          }
+          //self.tempVec.set()
+          if (enemyBoundingBoxArray[targetEnemyId]) {
+            self.group.lookAt(
+              enemyBoundingBoxArray[targetEnemyId].group.position
+            );
+            if (closestDistance > 450) {
+              self.group.translateZ(self.speed * delta);
+            }
+            // else {
+            //     self.group.lookAt(self.baseVec);
+            //     if (distanceToBase>120){
+            //         self.group.translateZ(tmpSpeed*delta);
+            //
+            //     }
+            // }
+          }
+
+          // Shoot
+          self.shootCooldown -= rand(6, 12) * delta;
+          if (
+            closestDistance <= 600 &&
+            self.shootCooldown < 0 &&
+            targetEnemyId &&
+            enemyBoundingBoxArray[targetEnemyId]
+          ) {
+            // there is an enemy to shoot
+            self.shootCooldown = rand(10, 15);
+            enemyBoundingBoxArray[targetEnemyId].health -= self.damage;
+            enemyBoundingBoxArray[targetEnemyId].hit();
+            if (enemyBoundingBoxArray[targetEnemyId].health <= 0) {
+              enemyBoundingBoxArray[targetEnemyId].kill();
+            }
+            if (
+              enemyBoundingBoxArray[targetEnemyId] &&
+              enemyBoundingBoxArray[targetEnemyId].group
+            ) {
+              self.tmpVec.copy(self.group.position);
+              self.tmpVec.y += 70;
+              self.tmpVec2.copy(
+                enemyBoundingBoxArray[targetEnemyId].group.position
+              );
+              self.tmpVec2.y += 60;
+              let trail = new BulletTrail(self.tmpVec, self.tmpVec2);
+            }
+            self.muzzleScale = 10;
+
+            if (Sound.shoot.sound.isPlaying) Sound.shoot.sound.stop();
+            Sound.shoot.sound.play();
+
+            setTimeout(function () {
+              self.muzzleScale = 0.1;
+            }, 100);
+          }
+        };
+        self.collisionCheck = function (delta) {
+          for (let i in soldierBoundingBoxArray2) {
+            let child = soldierBoundingBoxArray2[i];
+            collision = self.box3.intersectsBox(child.box3);
+            if (collision) {
+              var overlapX =
+                Math.min(self.box3.max.x, child.box3.max.x) -
+                Math.max(self.box3.min.x, child.box3.min.x);
+
+              if (overlapX < 0) return false;
+
+              var overlapY =
+                Math.min(self.box3.max.y, child.box3.max.y) -
+                Math.max(self.box3.min.y, child.box3.min.y);
+
+              if (overlapY < 0) return false;
+
+              var overlapZ =
+                Math.min(self.box3.max.z, child.box3.max.z) -
+                Math.max(self.box3.min.z, child.box3.min.z);
+
+              if (overlapZ < 0) return false;
+
+              var minOverlap = Math.min(overlapX, overlapZ);
+              var x = (y = z = 0);
+
+              switch (minOverlap) {
+                case overlapX:
+                  x = Math.sign(
+                    self.box3.min.x +
+                      self.box3.max.x -
+                      child.box3.min.x -
+                      child.box3.max.x
+                  );
+                  self.group.position.x += x * minOverlap * delta;
+                  break;
+
+                case overlapY:
+                  y = Math.sign(
+                    self.box3.min.y +
+                      self.box3.max.y -
+                      child.box3.min.y -
+                      child.box3.max.y
+                  );
+                  break;
+
+                case overlapZ:
+                  z = Math.sign(
+                    self.box3.min.z +
+                      self.box3.max.z -
+                      child.box3.min.z -
+                      child.box3.max.z
+                  );
+                  self.group.position.z += z * minOverlap * delta;
+                  break;
+              }
+            }
+          }
+        };
+        self.kill = function () {
+          // explode(self.group.position);
+          scene.remove(self.group);
+          for (let i in soldierBoundingBoxArray) {
+            if (soldierBoundingBoxArray[i].group.uuid == self.group.uuid) {
+              soldierBoundingBoxArray.splice(i, 1);
+            }
+          }
+          for (let i in updateArray) {
+            if (
+              updateArray[i].group &&
+              updateArray[i].group.uuid == self.group.uuid
+            ) {
+              updateArray.splice(i, 1);
+            }
+          }
+          for (let i in soldierBoundingBoxArray2) {
+            if (soldierBoundingBoxArray2[i].group.uuid == self.group.uuid) {
+              soldierBoundingBoxArray2.splice(i, 1);
+            }
+          }
+
+          // kill splatter
+          let circleGeometry = new THREE.CircleGeometry(70, 6, 15);
+          var shadowMaterial = new THREE.MeshBasicMaterial({
+            map: Textures.splatterGreen.texture,
+            transparent: true,
+            opacity: 0.5,
+            side: THREE.DoubleSide,
+            depthWrite: false,
+          });
+          let splatter = new THREE.Mesh(circleGeometry, shadowMaterial);
+          splatter.rotation.x = -1.57;
+          splatter.position.copy(self.group.position);
+          scene.add(splatter);
+        };
+        self.update = function (delta) {
+          self.mixer.update(delta);
+          self.boundingBox.setFromObject(self.box);
+          self.box3.setFromObject(self.box);
+          if (gameOver) return;
+          self.collisionCheck(delta);
+          self.moveAndAimAndShoot(delta);
+          //self.group.position.y = -6;
+
+          // Muzzle fx tween
+          let t = 10;
+          for (let i in self.muzzleArray) {
+            self.muzzleArray[i].scale.x = THREE.Math.lerp(
+              self.muzzleArray[i].scale.x,
+              self.muzzleScale,
+              t * delta
+            );
+            self.muzzleArray[i].scale.y = THREE.Math.lerp(
+              self.muzzleArray[i].scale.y,
+              self.muzzleScale,
+              t * delta
+            );
+            self.muzzleArray[i].scale.z = THREE.Math.lerp(
+              self.muzzleArray[i].scale.z,
+              self.muzzleScale,
+              t * delta
+            );
+          }
+        };
+
+        self.init();
+        soldierBoundingBoxArray.push(self);
+        soldierBoundingBoxArray2.push(self);
+        updateArray.push(self);
+        return self;
+      }
+
+      function Enemy(spawnPos) {
+        var self = {
+          group: null,
+          model: null,
+          mixer: null,
+          speed: 150,
+          health: 100,
+          damage: 10,
+          baseVec: new THREE.Vector3(0, 0, 0),
+          attackCooldown: 0,
+          attackCooldownMax: 10,
+        };
+        self.init = function () {
+          if (level >= 30) {
+            self.health = 300;
+            self.damage = 30;
+          } else if (level >= 20) {
+            self.health = 200;
+            self.damage = 20;
+          }
+          if (level > 13) {
+            self.health = 150;
+            self.damage = 15;
+          }
+          self.type = rand(1, 3);
+          // model
+          self.group = new THREE.Object3D();
+          scene.add(self.group);
+          self.group.position.copy(spawnPos);
+          self.group.position.x += 30 * rand(-2, 2);
+          self.group.position.z += 30 * rand(-2, 2);
+          self.model = THREE.SkeletonUtils.clone(
+            eval("BaseModel.enemy" + self.type + ".fbx")
+          );
+          self.model.traverse(function (child) {
+            if (child instanceof THREE.Mesh) {
+              const oldMat = child.material;
+              child.material = new THREE.MeshLambertMaterial({
+                map: oldMat.map,
+                skinning: true,
+              });
+              self.mat = child.material;
+              self.matMap = oldMat.map;
+            }
+          });
+
+          self.model.traverse(function (object) {
+            object.frustumCulled = false;
+          });
+          self.group.add(self.model);
+          self.mixer = new THREE.AnimationMixer(self.model);
+          self.idle = self.mixer.clipAction(
+            THREE.AnimationUtils.subclip(
+              eval("BaseModel.enemy" + self.type + ".animationsArray[0]"),
+              "idle",
+              1,
+              90,
+              30
+            )
+          );
+          self.idle.play();
+
+          //Shadow
+          var circleGeometry = null;
+          if (self.type == 1 || self.type == 3) {
+            circleGeometry = new THREE.CircleGeometry(40, 6, 15);
+          } else if (self.type == 2) {
+            circleGeometry = new THREE.CircleGeometry(30, 6, 15);
+          }
+          var shadowMaterial = new THREE.MeshBasicMaterial({
+            map: Textures.shadow.texture,
+            transparent: true,
+            opacity: 0.25,
+            side: THREE.DoubleSide,
+            depthWrite: false,
+          });
+          self.shadow = new THREE.Mesh(circleGeometry, shadowMaterial);
+          self.shadow.rotation.x = -1.57;
+          self.group.add(self.shadow);
+          self.shadow.position.y = 5;
+          self.shadow.position.x = -10;
+          self.shadow.position.z = -5;
+
+          // Boundingbox
+          const geometry = new THREE.BoxGeometry(50, 50, 50);
+          const material = new THREE.MeshBasicMaterial({
+            visible: false,
+          });
+          self.box = new THREE.Mesh(geometry, material);
+          self.box.position.y = 50;
+          self.group.add(self.box);
+          self.boundingBox = new THREE.BoxHelper(self.box, 0x00ff00);
+          self.box3 = new THREE.Box3().setFromObject(self.box);
+          //scene.add(self.boundingBox);
+          enemyBoundingBoxArray.push(self);
+        };
+        self.collisionCheck = function (delta) {
+          for (let i in enemyBoundingBoxArray) {
+            let child = enemyBoundingBoxArray[i];
+            collision = self.box3.intersectsBox(child.box3);
+            if (collision) {
+              var overlapX =
+                Math.min(self.box3.max.x, child.box3.max.x) -
+                Math.max(self.box3.min.x, child.box3.min.x);
+
+              if (overlapX < 0) return false;
+
+              var overlapY =
+                Math.min(self.box3.max.y, child.box3.max.y) -
+                Math.max(self.box3.min.y, child.box3.min.y);
+
+              if (overlapY < 0) return false;
+
+              var overlapZ =
+                Math.min(self.box3.max.z, child.box3.max.z) -
+                Math.max(self.box3.min.z, child.box3.min.z);
+
+              if (overlapZ < 0) return false;
+
+              var minOverlap = Math.min(overlapX, overlapZ);
+              var x = (y = z = 0);
+
+              switch (minOverlap) {
+                case overlapX:
+                  x = Math.sign(
+                    self.box3.min.x +
+                      self.box3.max.x -
+                      child.box3.min.x -
+                      child.box3.max.x
+                  );
+                  self.group.position.x += x * minOverlap * delta;
+                  break;
+
+                case overlapY:
+                  y = Math.sign(
+                    self.box3.min.y +
+                      self.box3.max.y -
+                      child.box3.min.y -
+                      child.box3.max.y
+                  );
+                  break;
+
+                case overlapZ:
+                  z = Math.sign(
+                    self.box3.min.z +
+                      self.box3.max.z -
+                      child.box3.min.z -
+                      child.box3.max.z
+                  );
+                  self.group.position.z += z * minOverlap * delta;
+                  break;
+              }
+            }
+          }
+        };
+        self.hit = function () {
+          self.mat.map = null;
+          self.mat.needsUpdate = true;
+          setTimeout(function () {
+            self.mat.map = self.matMap;
+            self.mat.needsUpdate = true;
+          }, 50);
+        };
+        self.kill = function () {
+          // explode(self.group.position);
+          scene.remove(self.group);
+          for (let i in enemyBoundingBoxArray) {
+            if (enemyBoundingBoxArray[i].group.uuid == self.group.uuid) {
+              enemyBoundingBoxArray.splice(i, 1);
+            }
+          }
+          for (let i in updateArray) {
+            if (
+              updateArray[i].group &&
+              updateArray[i].group.uuid == self.group.uuid
+            ) {
+              updateArray.splice(i, 1);
+            }
+          }
+          // check if it was last enemy of last wave
+          if (enemyBoundingBoxArray.length == 0 && currentWave >= totalWaves) {
+            gameOverFunction("win");
+          }
+
+          // spawn coin and splatter
+          let circleGeometry = new THREE.CircleGeometry(70, 6, 15);
+          var shadowMaterial = new THREE.MeshBasicMaterial({
+            map: Textures.splatter.texture,
+            transparent: true,
+            opacity: 0.5,
+            side: THREE.DoubleSide,
+            depthWrite: false,
+          });
+          let splatter = new THREE.Mesh(circleGeometry, shadowMaterial);
+          splatter.rotation.x = -1.57;
+          splatter.position.copy(self.group.position);
+          scene.add(splatter);
+
+          new Coin(self.group.position);
+        };
+        self.update = function (delta) {
+          self.mixer.update(delta);
+          if (gameOver) return;
+          self.boundingBox.setFromObject(self.box);
+          self.box3.setFromObject(self.box);
+          self.collisionCheck(delta);
+          // look towards player's soldier/base and move
+          let closestDistance = 10000;
+          let targetSoldierId = null;
+          let distanceToBase = self.group.position.distanceTo(self.baseVec);
+          let tmpSpeed = self.speed;
+          if (distanceToBase > 1500) {
+            tmpSpeed *= 15; //10
+          }
+          for (let i in soldierBoundingBoxArray) {
+            let d = self.group.position.distanceTo(
+              soldierBoundingBoxArray[i].group.position
+            );
+            if (d < closestDistance) {
+              closestDistance = d;
+              targetSoldierId = i;
+            }
+          }
+          if (
+            closestDistance <= distanceToBase &&
+            soldierBoundingBoxArray[targetSoldierId]
+          ) {
+            self.group.lookAt(
+              soldierBoundingBoxArray[targetSoldierId].group.position
+            );
+            if (closestDistance > 50) {
+              self.group.translateZ(tmpSpeed * delta);
+            }
+          } else {
+            self.group.lookAt(self.baseVec);
+            targetSoldierId = null;
+            if (distanceToBase > 120) {
+              self.group.translateZ(tmpSpeed * delta);
+            }
+          }
+          // Attack
+          self.attackCooldown -= 10 * delta;
+          if (
+            self.attackCooldown < 0 &&
+            targetSoldierId &&
+            soldierBoundingBoxArray[targetSoldierId] &&
+            closestDistance < 60
+          ) {
+            // there is an enemy to shoot
+            self.attackCooldown = self.attackCooldownMax;
+            //self.muzzle.visible = true;
+            soldierBoundingBoxArray[targetSoldierId].health -= self.damage;
+            new particleFX(
+              soldierBoundingBoxArray[targetSoldierId].group.position
+            );
+            if (soldierBoundingBoxArray[targetSoldierId].health <= 0) {
+              soldierBoundingBoxArray[targetSoldierId].kill();
+            }
+          } else if (
+            self.attackCooldown < 0 &&
+            !targetSoldierId &&
+            distanceToBase <= 130
+          ) {
+            new particleFX(self.baseVec);
+            self.attackCooldown = self.attackCooldownMax;
+            baseHealth -= self.damage;
+            if (baseHealth <= 0) {
+              gameOverFunction("loose");
+            }
+            BASE_HEALTH_TEXT.innerHTML =
+              '<div id="baseHealth" style="width:' +
+              `${((baseHealth / maxHealth) * 100) | 0}%` +
+              ';"></div>' +
+              baseHealth;
+          }
+        };
+
+        self.init();
+        updateArray.push(self);
+        return self;
+      }
+
+      function gameOverFunction(type) {
+        gameOver = true;
+        GAME_UI.style.visibility = "hidden";
+        GAMEOVER_UI.style.visibility = "visible";
+        UPGRADE_CONTAINER.style.visibility = "visible";
+        updateUpgradeText();
+        if (type == "loose") {
+          Sound.fail.sound.play();
+          //GO_MESSAGE.innerHTML = "Try Again..!";
+          BTN_RESTART.style.display = "inline-block";
+          BTN_NEXT.style.display = "none";
+        } else {
+          Sound.win.sound.play();
+          callConfetti();
+          level++;
+          //GO_MESSAGE.innerHTML = "Level Complete!";
+          BTN_RESTART.style.display = "none";
+          BTN_NEXT.style.display = "inline-block";
+          // Lagged API achievements
+          var ach = false;
+          var ach_numb = [];
+          if (level > 2) {
+            ach = true;
+            ach_numb.push("draw_defense_tkmgs001");
+          }
+          if (level > 5) {
+            ach = true;
+            ach_numb.push("draw_defense_tkmgs002");
+          }
+          if (level > 10) {
+            ach = true;
+            ach_numb.push("draw_defense_tkmgs003");
+          }
+          if (level > 15) {
+            ach = true;
+            ach_numb.push("draw_defense_tkmgs004");
+          }
+          if (level > 20) {
+            ach = true;
+            ach_numb.push("draw_defense_tkmgs005");
+          }
+          if (ach) {
+          }
+        }
+        // Save
+        savedObject.level = level;
+        savedObject.coins = totalCoins;
+        try {
+          localStorage.setItem("DRAWARMYSAVE", JSON.stringify(savedObject));
+        } catch (e) {
+          console.log(e);
+        }
+        // rewarded ad to get extra coins
+        canShowReward();
+        // showTT();
+      }
+
+      function reset() {
+        for (var i = scene.children.length - 1; i >= 0; i--)
+          scene.remove(scene.children[i]);
+
+        mouse = new THREE.Vector2();
+        mouseVec3 = new THREE.Vector3();
+        mouseIsDown = false;
+        drawCooldown = false;
+        drawArray = [];
+        drawCurve = null;
+        drawLimit = 0;
+        limitInterval = null;
+        lineGeometry = null;
+        spawnSoldierNow = false;
+
+        plane = null;
+        player = null;
+
+        updateArray = [];
+        enemyBoundingBoxArray = [];
+        soldierBoundingBoxArray = [];
+        soldierBoundingBoxArray2 = [];
+        particleArray = [];
+
+        clearInterval(gameManager.intervalBaby);
+        gameManager = null;
+        clearInterval(drawInterval);
+        drawInterval = null;
+
+        currentWave = 1;
+        gameOver = false;
+        GAMEOVER_UI.style.visibility = "hidden";
+        UPGRADE_CONTAINER.style.visibility = "hidden";
+        REWARDED_BTN.style.visibility = "hidden";
+        GAME_UI.style.visibility = "visible";
+      }
+
+      // BUTTONS
+      function btnGO() {
+        showTT(console.log('next level + restart按钮'));
+        Sound.button.sound.play();
+        // Lagged API show ad on after game over screen interaction
+        if (Sound.music.sound.isPlaying) Sound.music.sound.pause();
+
+        // ad is finished, unpause game/music
+        console.log("ad completed");
+        // start new level below
+        if (!Sound.music.sound.isPlaying) Sound.music.sound.play();
+        reset();
+        setUpGame();
+      }
+
+      function btnSound() {
+        Sound.button.sound.play();
+        if (BTN_SOUND.style.opacity == 1) {
+          BTN_SOUND.style.opacity = 0.5;
+          Sound.listener.setMasterVolume(0);
+        } else {
+          BTN_SOUND.style.opacity = 1;
+          Sound.listener.setMasterVolume(1);
+        }
+      }
+
+      // CONTROLS
+      var mouse = new THREE.Vector2();
+      var mouseVec3 = new THREE.Vector3();
+      var mouseIsDown = false;
+
+      function touchStart(event) {
+        mouseIsDown = true;
+        limitInterval = setInterval(function () {
+          drawLimit++;
+          spawnSoldierNow = true;
+        }, 160);
+
+        if (!Sound.music.sound.isPlaying) Sound.music.sound.play();
+      }
+
+      function touchEnd(event) {
+        mouseIsDown = false;
+        drawCooldown = false;
+        drawArray = [];
+        drawCurve = null;
+        if (lineGeometry) {
+          scene.remove(lineGeometry);
+        }
+        lineGeometry = null;
+        clearInterval(limitInterval);
+        drawLimit = 0;
+        spawnSoldierNow = false;
+      }
+
+      function touchMoved(event) {
+        let touch = event.changedTouches[0];
+
+        if (mouseIsDown && energyToSpawnSoldier > 0) {
+          if (!drawCooldown && drawLimit < 10) {
+            drawCooldown = true;
+            mouse.x = (touch.pageX / window.innerWidth) * 2 - 1;
+            mouse.y = -(touch.pageY / window.innerHeight) * 2 + 1;
+            player.raycaster.setFromCamera(mouse, camera);
+            let intersect = player.raycaster.intersectObject(plane);
+            if (intersect.length > 0) {
+              if (spawnSoldierNow) {
+                spawnSoldierNow = false;
+                let soldier = new Soldier(intersect[0].point);
+                energyToSpawnSoldier--;
+              }
+
+              drawArray.push(intersect[0].point);
+              if (drawArray.length > 1) {
+                drawCurve = new THREE.CatmullRomCurve3(drawArray);
+                var geometry = new THREE.TubeGeometry(
+                  drawCurve,
+                  40,
+                  9,
+                  5,
+                  false
+                );
+
+                if (lineGeometry) {
+                  scene.remove(lineGeometry);
+                }
+                lineGeometry = null;
+
+                lineGeometry = new THREE.Mesh(geometry, drawMaterial);
+                scene.add(lineGeometry);
+              }
+            }
+          }
+        }
+      }
+
+      function mouseDown(event) {
+        mouseIsDown = true;
+        limitInterval = setInterval(function () {
+          drawLimit++;
+          spawnSoldierNow = true;
+        }, 160);
+
+        if (!Sound.music.sound.isPlaying) Sound.music.sound.play();
+      }
+
+      function mouseUp(event) {
+        mouseIsDown = false;
+        drawCooldown = false;
+        drawArray = [];
+        drawCurve = null;
+        if (lineGeometry) {
+          scene.remove(lineGeometry);
+        }
+        lineGeometry = null;
+        clearInterval(limitInterval);
+        drawLimit = 0;
+        spawnSoldierNow = false;
+      }
+
+      let drawCooldown = false;
+      let drawArray = [];
+      let drawCurve = null;
+      let drawLimit = 0;
+      let limitInterval = null;
+      let lineGeometry = null;
+      let spawnSoldierNow = false;
+      const drawMaterial = new THREE.MeshBasicMaterial({
+        color: 0x0086ea,
+      });
+
+      function mouseMoved(event) {
+        if (mouseIsDown && energyToSpawnSoldier > 0) {
+          if (!drawCooldown && drawLimit < 10) {
+            drawCooldown = true;
+            mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+            mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+            player.raycaster.setFromCamera(mouse, camera);
+            let intersect = player.raycaster.intersectObject(plane);
+            if (intersect.length > 0) {
+              if (spawnSoldierNow) {
+                spawnSoldierNow = false;
+                let soldier = new Soldier(intersect[0].point);
+                energyToSpawnSoldier--;
+              }
+
+              drawArray.push(intersect[0].point);
+              if (drawArray.length > 1) {
+                drawCurve = new THREE.CatmullRomCurve3(drawArray);
+                var geometry = new THREE.TubeGeometry(
+                  drawCurve,
+                  40,
+                  9,
+                  5,
+                  false
+                );
+
+                if (lineGeometry) {
+                  scene.remove(lineGeometry);
+                }
+                lineGeometry = null;
+
+                lineGeometry = new THREE.Mesh(geometry, drawMaterial);
+                scene.add(lineGeometry);
+              }
+            }
+          }
+        }
+      }
+
+      // ACTUAL GAME
+      function animate() {
+        requestAnimationFrame(animate);
+        var delta = clock.getDelta();
+        if (delta > 0.2) delta = 0;
+
+        for (let i in updateArray) {
+          updateArray[i].update(delta);
+        }
+        for (let i in particleArray) {
+          particleArray[i].update(delta);
+        }
+
+        showLandscapeMessage();
+        renderer.render(scene, camera);
+      }
+      preload();
+
+      // HELPER AND EXTRA STUFF
+      function onWindowResize() {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+
+        renderer.setSize(window.innerWidth, window.innerHeight);
+      }
+
+      function rand(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive
+      }
+
+      function showLandscapeMessage() {
+        // portrait on mobile
+        if (onMobile) {
+          if (window.innerWidth > window.innerHeight) {
+            ROTATE_MSG.style.visibility = "visible";
+          } else if (ROTATE_MSG.style.visibility == "visible") {
+            ROTATE_MSG.style.visibility = "hidden";
+          }
+        }
+      }
+
+      function is_touch_device() {
+        try {
+          document.createEvent("TouchEvent");
+          return true;
+        } catch (e) {
+          return false;
+        }
+      }
+
+      function BulletTrail(startVec, endVec) {
+        var self = {
+          mesh: null,
+          nEnd: 0,
+          nMax: 0,
+          nStep: 90, // 30 faces * 3 vertices/face
+          mat: null,
+          id: Math.random() * 100,
+        };
+        self.init = function () {
+          let curve = new THREE.LineCurve3(startVec, endVec);
+          let bGeometry = new THREE.TubeBufferGeometry(curve, 3, 8, 3, false);
+          //let bGeometry = new THREE.BufferGeometry().fromGeometry( baseGeometry );
+          self.mat = new THREE.MeshBasicMaterial({
+            color: 0xfa7d09,
+            transparent: true,
+            opacity: 0.1,
+            side: THREE.DoubleSide,
+          });
+          self.mesh = new THREE.Mesh(bGeometry, self.mat);
+
+          self.nMax = self.mesh.geometry.drawRange.count;
+
+          scene.add(self.mesh);
+          setTimeout(function () {
+            scene.remove(self.mesh);
+          }, 50);
+        };
+
+        self.init();
+        return self;
+      }
+
+      function particleFX(spawnPos) {
+        var self = {
+          particles: [],
+          max: 3,
+          mesh: null,
+          index: null,
+          scaleExplosion: 1,
+        };
+        self.init = function () {
+          if (Sound.hit.sound.isPlaying) Sound.hit.sound.stop();
+          Sound.hit.sound.play();
+          let geo = new THREE.Geometry();
+          for (let i = 0; i < self.max; i++) {
+            let particle = {
+              position: new THREE.Vector3(
+                rand(-1, 1) * self.scaleExplosion,
+                rand(-1, 1) * self.scaleExplosion,
+                rand(-1, 1) * self.scaleExplosion
+              ),
+              velocity: new THREE.Vector3(
+                rand(-1, 1) * self.scaleExplosion,
+                rand(3, 8) * self.scaleExplosion,
+                rand(-1, 1) * self.scaleExplosion
+              ),
+              acceleration: new THREE.Vector3(
+                0,
+                -0.15 * self.scaleExplosion,
+                0
+              ),
+            };
+            self.particles.push(particle);
+            geo.vertices.push(particle.position);
+          }
+          var mat = new THREE.PointsMaterial({
+            color: 0x009900,
+            size: 65 * self.scaleExplosion,
+            map: Textures.particle.texture,
+            opacity: 0.8,
+            transparent: true,
+            depthTest: false,
+            depthWrite: false,
+          });
+          self.mesh = new THREE.Points(geo, mat);
+          self.mesh.position.copy(spawnPos);
+          scene.add(self.mesh);
+        };
+        self.update = function () {
+          self.particles.forEach((p) => {
+            p.velocity.add(p.acceleration);
+            p.position.add(p.velocity);
+            self.mesh.material.size -= 0.24 * self.scaleExplosion;
+          });
+          self.mesh.geometry.verticesNeedUpdate = true;
+          if (self.mesh.material.size < 0) {
+            scene.remove(self.mesh);
+            for (let i in particleArray) {
+              if (particleArray[i].mesh.uuid == self.mesh.uuid)
+                particleArray.splice(i, 1);
+            }
+          }
+        };
+
+        self.init();
+        particleArray.push(self);
+        return self;
+      }
+
+      function Coin(spawnPos) {
+        var self = {
+          sprite: null,
+          vec3: new THREE.Vector3().copy(spawnPos),
+          lerpSpeed: 10,
+        };
+        self.init = function () {
+          self.sprite = new THREE.Sprite(
+            new THREE.SpriteMaterial({
+              map: Textures.coin.texture,
+            })
+          );
+          self.sprite.scale.set(40, 41);
+          self.vec3.y = 40;
+          self.sprite.position.copy(self.vec3);
+          scene.add(self.sprite);
+          setTimeout(function () {
+            self.vec3.set(300, 950, 0);
+            setTimeout(function () {
+              scene.remove(self.sprite);
+              for (let i in updateArray) {
+                if (
+                  updateArray[i].sprite &&
+                  updateArray[i].sprite.uuid == self.sprite.uuid
+                ) {
+                  updateArray.splice(i, 1);
+                }
+              }
+              totalCoins++;
+              COIN.innerHTML = totalCoins;
+            }, 600);
+          }, 1000);
+        };
+        self.update = function (delta) {
+          self.sprite.position.x = THREE.Math.lerp(
+            self.sprite.position.x,
+            self.vec3.x,
+            self.lerpSpeed * delta
+          );
+          self.sprite.position.y = THREE.Math.lerp(
+            self.sprite.position.y,
+            self.vec3.y,
+            self.lerpSpeed * delta
+          );
+          self.sprite.position.z = THREE.Math.lerp(
+            self.sprite.position.z,
+            self.vec3.z,
+            self.lerpSpeed * delta
+          );
+        };
+
+        self.init();
+        updateArray.push(self);
+        return self;
+      }
+
+      // LAGGED API REWARDED ADS
+      //this will be called if a reward ad can be shown or not
+      function canShowReward() {
+        //you can show user a button for a reward, must call showAdFn() on click
+        //ex: rewardButton.onclick=function(){showAdFn();}
+        REWARDED_BTN.style.visibility = "visible";
+        REWARDED_BTN.onclick = function () {
+          if (Sound.music.sound.isPlaying) Sound.music.sound.pause();
+          showTTReward()
+            .then(function () {
+              rewardSuccess(true);
+            })
+            .catch(function () {
+              rewardSuccess(false);
+            });
+        };
+      }
+      //after ad is played (after showAdFn() is called)
+      function rewardSuccess(success) {
+        if (success) {
+          //give user the reward
+          console.log("Reward granted successfully");
+          REWARDED_BTN.style.visibility = "hidden";
+          // reward coins
+          let tempV =
+            Math.min(
+              savedObject.upgrade1,
+              savedObject.upgrade2,
+              savedObject.upgrade3
+            ) * 20;
+          if (tempV < 60) tempV = 60;
+          totalCoins += tempV;
+          updateUpgradeText();
+        } else {
+          //no reward
+          console.log("No reward granted");
+        }
+        if (!Sound.music.sound.isPlaying) Sound.music.sound.play();
+        //remove reward button
+        //REWARDED_BTN.style.visibility = "hidden";
+      }
+
+      function updateUpgradeText() {
+        // upgrade text in upgrade ui blocks
+        UPGRADE_COINS.innerHTML = totalCoins;
+
+        UPGRADE1.innerHTML = savedObject.upgrade1 + " +5";
+        UPGRADE2.innerHTML = savedObject.upgrade2 + " +2";
+        UPGRADE3.innerHTML = savedObject.upgrade3 + " +3";
+
+        COST1.innerHTML = savedObject.upgrade1 * 20;
+        COST2.innerHTML = savedObject.upgrade2 * 20;
+        COST3.innerHTML = savedObject.upgrade3 * 20;
+
+        let tempV =
+          Math.min(
+            savedObject.upgrade1,
+            savedObject.upgrade2,
+            savedObject.upgrade3
+          ) * 20;
+        if (tempV < 60) tempV = 60;
+        REWARD_VALUE.innerHTML = "+" + tempV;
+
+        // grey out un affordable upgrades
+        if (savedObject.upgrade1 * 20 > totalCoins) {
+          UPGRADE1_GRAPHIC.style.filter = "grayscale(100%)";
+        } else {
+          UPGRADE1_GRAPHIC.style.filter = "none";
+        }
+
+        if (savedObject.upgrade2 * 20 > totalCoins) {
+          UPGRADE2_GRAPHIC.style.filter = "grayscale(100%)";
+        } else {
+          UPGRADE2_GRAPHIC.style.filter = "none";
+        }
+
+        if (savedObject.upgrade3 * 20 > totalCoins) {
+          UPGRADE3_GRAPHIC.style.filter = "grayscale(100%)";
+        } else {
+          UPGRADE3_GRAPHIC.style.filter = "none";
+        }
+      }
+
+      function btnUpgrade(num) {
+        let cost = eval("savedObject.upgrade" + num + "*20");
+        if (totalCoins >= cost) {
+          totalCoins -= cost;
+          eval("savedObject.upgrade" + num + "++");
+          if (Sound.upgrade.sound.isPlaying) Sound.upgrade.sound.stop();
+          Sound.upgrade.sound.play();
+          updateUpgradeText();
+        }
+      }
+
+      function callConfetti() {
+        var duration = 2 * 40;
+        var end = Date.now() + duration;
+
+        (function frame() {
+          // launch a few confetti from the left edge
+          confetti({
+            particleCount: 7,
+            angle: 60,
+            spread: 55,
+            origin: {
+              x: 0,
+            },
+          });
+          // and launch a few from the right edge
+          confetti({
+            particleCount: 7,
+            angle: 120,
+            spread: 55,
+            origin: {
+              x: 1,
+            },
+          });
+
+          // keep going until we are out of time
+          if (Date.now() < end) {
+            requestAnimationFrame(frame);
+          }
+        })();
+
+        confetti({
+          particleCount: 150,
+          spread: 180,
+        });
+      }
+    //   var hutafg = window.HUTAFG != null ? window.HUTAFG : null;
+    //   var showCount = 0;
+    //   function showTT() {
+    //     showCount++;
+    //     if (showCount == 1) {
+    //       showCount = 0;
+    //       if (hutafg) {
+    //         hutafg.playAfg();
+    //       } else {
+    //         window.parent.postMessage("show_afg|", "*");
+    //       }
+    //     }
+    //   }
+    //   function showTTReward() {
+    //     if (hutafg) {
+    //       return hutafg && hutafg.playRewardedAfg();
+    //     } else {
+    //       return new Promise(function (resolve, reject) {
+    //         try {
+    //           window.parent.postMessage("show_afg|", "*");
+    //         } catch (error) {
+    //           console.error("show_afg", error);
+    //         }
+    //         resolve && resolve();
+    //       });
+    //     }
+    //   }
+
+    function showTT() {  //调用插屏广告位置
+		window['uptap'].ShowScreenVideo("下⼀关", function () {
+			// 回调函数，插屏⼴告关闭后需要继续执⾏的代码
+			console.log('插屏广告加载成功');
+		});
+	}
+	function showTTReward() {
+		//游戏本身SDK没有异步时替换也不能有异步
+		return new Promise(function (resolve, reject) {
+			window.uptap.ShowExcitationVideoAdv((n1) => {
+				switch (n1.type) {
+					case "1":
+						// 暂时没有⼴告
+						// 这⾥执⾏激励播放失败的代码，不发放奖励
+						console.log('激励失败');
+						reject && reject();
+						break;
+					case "2":
+						// 想要奖励，必须看完⼴告（⽤户点击跳过按钮）
+						// 这⾥执⾏激励播放失败的代码，不发放奖励
+						console.log('激励失败');
+						reject && reject();
+						break;
+					case "3":
+						// ⼴告正常播放完毕
+						// 这⾥执⾏激励播放成功的代码，发放奖励
+						console.log('激励成功');
+						resolve && resolve()
+					break;
+				}	
+			})
+		})
+	};
+    </script>
+  </body>
+</html>

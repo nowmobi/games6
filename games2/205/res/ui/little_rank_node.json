@@ -1,0 +1,404 @@
+{
+  "ID": "3c2f33f6-3cb8-450f-8ea5-21951332c3e3",
+  "Version": "3.10.0.0",
+  "Name": "little_rank_node",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1865,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sign/rank_bg.png",
+              "Plist": "csi/fntplist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 45.9992,
+              "Y": 0
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0,
+              "Y": 0
+            },
+            "PreSize": {
+              "X": 0,
+              "Y": 0
+            },
+            "LeftMargin": -56.0008,
+            "RightMargin": -147.9992,
+            "TopMargin": -46.5,
+            "BottomMargin": -46.5,
+            "Tag": 1866,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "Lv.888",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/jellyboom_font.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2,
+                "ShadowOffsetY": -2,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 57,
+                  "Y": 68
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {
+                  "R": 55,
+                  "G": 129,
+                  "B": 176
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2794,
+                  "Y": 0.7312
+                },
+                "PreSize": {
+                  "X": 0.2843,
+                  "Y": 0.2581
+                },
+                "LeftMargin": 57,
+                "RightMargin": 89,
+                "TopMargin": 13,
+                "BottomMargin": 56,
+                "Tag": 116,
+                "ActionTag": -193745959,
+                "Size": {
+                  "X": 58,
+                  "Y": 24
+                },
+                "Name": "ranknum1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "honor/honoricon_s.png",
+                  "Plist": "csi/csi_4.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 137,
+                  "Y": 68
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6716,
+                  "Y": 0.7312
+                },
+                "PreSize": {
+                  "X": 0.1373,
+                  "Y": 0.2473
+                },
+                "LeftMargin": 123,
+                "RightMargin": 53,
+                "TopMargin": 13.5,
+                "BottomMargin": 56.5,
+                "Tag": 170,
+                "ActionTag": -493773155,
+                "Size": {
+                  "X": 28,
+                  "Y": 23
+                },
+                "Name": "honor1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "888",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/jellyboom_font.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2,
+                "ShadowOffsetY": -2,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 158.1,
+                  "Y": 68
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {
+                  "R": 55,
+                  "G": 129,
+                  "B": 176
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.775,
+                  "Y": 0.7312
+                },
+                "PreSize": {
+                  "X": 0.1569,
+                  "Y": 0.2581
+                },
+                "LeftMargin": 158.1,
+                "RightMargin": 13.9,
+                "TopMargin": 13,
+                "BottomMargin": 56,
+                "Tag": 173,
+                "ActionTag": 1783891163,
+                "Size": {
+                  "X": 32,
+                  "Y": 24
+                },
+                "Name": "honornum1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Lv.888",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/jellyboom_font.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2,
+                "ShadowOffsetY": -2,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 57,
+                  "Y": 31
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {
+                  "B": 246
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2794,
+                  "Y": 0.3333
+                },
+                "PreSize": {
+                  "X": 0.2843,
+                  "Y": 0.2581
+                },
+                "LeftMargin": 57,
+                "RightMargin": 89,
+                "TopMargin": 50,
+                "BottomMargin": 19,
+                "Tag": 117,
+                "ActionTag": 1279217459,
+                "Size": {
+                  "X": 58,
+                  "Y": 24
+                },
+                "Name": "ranknum2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "honor/honoricon_s.png",
+                  "Plist": "csi/csi_4.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 137,
+                  "Y": 31
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6716,
+                  "Y": 0.3333
+                },
+                "PreSize": {
+                  "X": 0.1373,
+                  "Y": 0.2473
+                },
+                "LeftMargin": 123,
+                "RightMargin": 53,
+                "TopMargin": 50.5,
+                "BottomMargin": 19.5,
+                "Tag": 172,
+                "ActionTag": 1543111066,
+                "Size": {
+                  "X": 28,
+                  "Y": 23
+                },
+                "Name": "honor2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "888",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/jellyboom_font.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2,
+                "ShadowOffsetY": -2,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 158.1,
+                  "Y": 31
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {
+                  "B": 246
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.775,
+                  "Y": 0.3333
+                },
+                "PreSize": {
+                  "X": 0.1569,
+                  "Y": 0.2581
+                },
+                "LeftMargin": 158.1,
+                "RightMargin": 13.9,
+                "TopMargin": 50,
+                "BottomMargin": 19,
+                "Tag": 174,
+                "ActionTag": 89076928,
+                "Size": {
+                  "X": 32,
+                  "Y": 24
+                },
+                "Name": "honornum2",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -378021098,
+            "Size": {
+              "X": 204,
+              "Y": 93
+            },
+            "Name": "rank_bg",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0,
+          "Y": 0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../csi/csi_4.plist",
+        "../csi/csi_4.png",
+        "../csi/fntplist.plist",
+        "../csi/fntplist.png",
+        "../font/jellyboom_font.ttf"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

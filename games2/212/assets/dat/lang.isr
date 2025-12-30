@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<stringresources>
+    <strings>
+        <string id="SETTINGS">
+            <en>Settings</en>
+            <es>Ajustes</es>
+            <de>Einstellungen</de>
+            <it>Impostazioni</it>
+            <fr>Paramètres</fr>
+            <pt>Definições</pt>
+            <ru>Настройки</ru>
+        </string>
+
+        <string id="LANGUAGE">
+            <en>Language</en>
+            <es>Idioma</es>
+            <de>Sprache</de>
+            <it>Lingua</it>
+            <fr>Langue</fr>
+            <pt>Língua</pt>
+            <ru>Язык</ru>
+        </string>
+
+         <string id="LANGUAGE_CN">
+            <en>English</en>
+            <es>Español</es>
+            <de>Deutsch</de>
+            <it>Italiano</it>
+            <fr>Français</fr>
+            <pt>Português</pt>
+            <ru>Русский</ru>
+        </string>
+
+       <string id="TUTORIAL_STEP_0">
+             <en>Welcome to Merge kingdoms! Our kingdom needs new buildings!</en>
+             <de>Willkommen bei Merge kingdoms! Unser Königreich braucht neue Gebäude!</de>
+             <es>¡Bienvenido a Merge Kingdoms! ¡Nuestro reino necesita nuevos edificios!</es>
+             <fr>Bienvenue à Merge kingdoms ! Notre royaume a besoin de nouveaux bâtiments !</fr>
+             <it>Benvenuti a Merge Kingdoms! Il nostro regno ha bisogno di nuovi edifici!</it>
+             <pt>Bem-vindo ao Merge Kingdoms! Nosso reino precisa de novos edifícios!</pt>
+             <ru>Добро пожаловать в Слияние королевств! Нашему королевству нужны новые здания!</ru>
+       </string>
+
+       <string id="TUTORIAL_STEP_1">
+             <en>Help me to gather this tree!</en>
+             <de>Hilf mir, diesen Baum zu sammeln!</de>
+             <es>¡Ayúdame a recoger este árbol!</es>
+             <fr>Aidez-moi à cueillir cet arbre !</fr>
+             <it>Aiutami a raccogliere questo albero!</it>
+             <pt>Ajude-me a coletar esta árvore!</pt>
+             <ru>Помогите мне собрать это дерево!</ru>
+       </string>
+
+       <string id="TUTORIAL_STEP_2">
+             <en>Press the gather button to get your timber!</en>
+             <de>Drücke den Sammeln-Knopf, um dein Holz zu bekommen!</de>
+             <es>Pulsa el botón de recolección para conseguir la madera.</es>
+             <fr>Appuyez sur le bouton de collecte pour obtenir votre bois !</fr>
+             <it>Premi il pulsante di raccolta per ottenere il legname!</it>
+             <pt>Pressione o botão de coleta para obter sua madeira!</pt>
+             <ru>Нажмите на кнопку сбора, чтобы получить древесину!</ru>
+       </string>
+
+       <string id="TUTORIAL_STEP_3">
+             <en></en>
+             <de></de>
+             <es></es>
+             <fr></fr>
+             <it></it>
+             <pt></pt>
+             <ru></ru>
+       </string>
+
+       <string id="TUTORIAL_STEP_4">
+             <en>Collect the timber by pressing on tree!</en>
+             <de>Sammle das Holz ein, indem du auf den Baum drückst!</de>
+             <es>Recoge la madera pulsando sobre el árbol.</es>
+             <fr>Collectez le bois en appuyant sur l'arbre !</fr>
+             <it>Raccogli il legname premendo sull'albero!</it>
+             <pt>Colete a madeira pressionando a árvore!</pt>
+             <ru>Соберите древесину, нажав на дерево!</ru>
+       </string>
+
+       <string id="TUTORIAL_STEP_6">
+             <en>By merging same resources we create a higher merge!</en>
+             <de>Indem wir dieselben Ressourcen zusammenführen, schaffen wir eine höhere Zusammenführung!</de>
+             <es>Combinando los mismos recursos creamos una combinación superior.</es>
+             <fr>En fusionnant les mêmes ressources, nous créons une fusion plus importante !</fr>
+             <it>Unendo le stesse risorse creiamo una fusione più alta!</it>
+             <pt>Ao mesclar os mesmos recursos, criamos uma mescla maior!</pt>
+             <ru>Объединяя одинаковые ресурсы, мы создаем более высокий уровень ресурса!</ru>
+       </string>
+
+       <string id="TUTORIAL_STEP_7">
+             <en>Use your mouse to move or zoom the screen!</en>
+             <de>Benutze deine Maus, um den Bildschirm zu bewegen oder zu zoomen!</de>
+             <es>Usa el ratón para mover o ampliar la pantalla.</es>
+             <fr>Utilisez votre souris pour déplacer ou agrandir l'écran !</fr>
+             <it>Usa il mouse per spostare o ingrandire lo schermo!</it>
+             <pt>Use o mouse para mover ou dar zoom na tela!</pt>
+             <ru>Используйте мышь для перемещения или увеличения экрана!</ru>
+       </string>
+
+       <string id="TUTORIAL_STEP_7_mobile">
+             <en>Use your fingers to move or zoom the screen!</en>
+             <de>Benutze deine Finger, um den Bildschirm zu bewegen oder zu zoomen!</de>
+             <es>¡Usa tus dedos para mover o ampliar la pantalla!</es>
+             <fr>Utilisez vos doigts pour déplacer ou zoomer l'écran !</fr>
+             <it>Usa le dita per spostare o zoomare lo schermo!</it>
+             <pt>Use os dedos para mover ou dar zoom na tela!</pt>
+             <ru>Используйте пальцы для перемещения или масштабирования экрана!</ru>
+       </string>
+
+       <string id="gath_tree_1">
+             <en>Small Tree</en>
+             <de>Kleiner Baum</de>
+             <es>Árbol pequeño</es>
+             <fr>Petit arbre</fr>
+             <it>Albero piccolo</it>
+             <pt>Árvore pequena</pt>
+             <ru>Маленькое дерево</ru>
+       </string>
+       <string id="gath_tree_2">
+             <en>Medium Tree</en>
+             <de>Mittlerer Baum</de>
+             <es>Árbol mediano</es>
+             <fr>Arbre moyen</fr>
+             <it>Albero medio</it>
+             <pt>Árvore média</pt>
+             <ru>Среднее дерево</ru>
+       </string>
+       <string id="gath_tree_3">
+             <en>Large Tree</en>
+             <de>Großer Baum</de>
+             <es>Árbol grande</es>
+             <fr>Grand arbre</fr>
+             <it>Albero grande</it>
+             <pt>Árvore de grande porte</pt>
+             <ru>Крупное дерево</ru>
+       </string>
+
+       <string id="wood_1">
+             <en>Timber</en>
+             <de>Holz</de>
+             <es>Madera</es>
+             <fr>Bois de construction</fr>
+             <it>Legname</it>
+             <pt>Madeira</pt>
+             <ru>Лесоматериалы</ru>
+       </string>
+       <string id="wood_2">
+             <en>Wooden Planks</en>
+             <de>Hölzerne Bretter</de>
+             <es>Tablones de madera</es>
+             <fr>Planches de bois</fr>
+             <it>Tavole di legno</it>
+             <pt>Tábuas de madeira</pt>
+             <ru>Деревянные доски</ru>
+       </string>
+       <string id="wood_3">
+             <en>Wooden Foundation</en>
+             <de>Hölzernes Fundament</de>
+             <es>Cimientos de madera</es>
+             <fr>Fondation en bois</fr>
+             <it>Fondazione in legno</it>
+             <pt>Fundação de madeira</pt>
+             <ru>Деревянный фундамент</ru>
+       </string>
+       <string id="wood_4">
+             <en>Wooden Cottage</en>
+             <de>Hölzerne Hütte</de>
+             <es>Cabaña de madera</es>
+             <fr>Chalet en bois</fr>
+             <it>Casetta di legno</it>
+             <pt>Casa de campo de madeira</pt>
+             <ru>Деревянный коттедж</ru>
+       </string>
+       <string id="wood_5">
+             <en>Wooden Manor</en>
+             <de>Hölzernes Herrenhaus</de>
+             <es>Mansión de madera</es>
+             <fr>Manoir en bois</fr>
+             <it>Villa di legno</it>
+             <pt>Mansão de madeira</pt>
+             <ru>Деревянная усадьба</ru>
+       </string>
+       <string id="wood_6">
+             <en>Wooden Mansion</en>
+             <de>Hölzernes Herrenhaus</de>
+             <es>Mansión De Madera</es>
+             <fr>Manoir en bois</fr>
+             <it>Villa di legno</it>
+             <pt>Mansão de madeira</pt>
+             <ru>Деревянный особняк</ru>
+       </string>
+       <string id="wood_7">
+             <en>Wooden Palace</en>
+             <de>Hölzerner Palast</de>
+             <es>Palacio de madera</es>
+             <fr>Palais en bois</fr>
+             <it>Palazzo di legno</it>
+             <pt>Palácio de madeira</pt>
+             <ru>Деревянный дворец</ru>
+       </string>
+       <string id="wood_8">
+             <en>Wooden Citadel</en>
+             <de>Hölzerne Zitadelle</de>
+             <es>Ciudadela de madera</es>
+             <fr>Citadelle en bois</fr>
+             <it>Cittadella di legno</it>
+             <pt>Cidadela de madeira</pt>
+             <ru>Деревянная цитадель</ru>
+       </string>
+
+       <string id="stone_1">
+             <en>Rocks</en>
+             <de>Felsen</de>
+             <es>Rocas</es>
+             <fr>Roches</fr>
+             <it>Rocce</it>
+             <pt>Pedras</pt>
+             <ru>Камни</ru>
+       </string>
+       <string id="stone_2">
+             <en>Stone Bricks</en>
+             <de>Stein Ziegel</de>
+             <es>Ladrillos de piedra</es>
+             <fr>Briques de pierre</fr>
+             <it>Mattoni di pietra</it>
+             <pt>Tijolos de pedra</pt>
+             <ru>Каменные кирпичи</ru>
+       </string>
+       <string id="stone_3">
+             <en>Stone Foundation</en>
+             <de>Stein-Fundament</de>
+             <es>Cimientos de piedra</es>
+             <fr>Fondation en pierre</fr>
+             <it>Fondazione in pietra</it>
+             <pt>Fundação de pedra</pt>
+             <ru>Каменный фундамент</ru>
+       </string>
+       <string id="stone_4">
+             <en>Stone Cottage</en>
+             <de>Stein-Häuschen</de>
+             <es>Cabaña de piedra</es>
+             <fr>Chalet en pierre</fr>
+             <it>Cottage di pietra</it>
+             <pt>Casa de campo de pedra</pt>
+             <ru>Каменный коттедж</ru>
+       </string>
+       <string id="stone_5">
+             <en>Stone Manor</en>
+             <de>Herrenhaus aus Stein</de>
+             <es>Mansión de piedra</es>
+             <fr>Manoir en pierre</fr>
+             <it>Palazzo di pietra</it>
+             <pt>Mansão de pedra</pt>
+             <ru>Каменная усадьба</ru>
+       </string>
+       <string id="stone_6">
+             <en>Stone Mansion</en>
+             <de>Herrenhaus aus Stein</de>
+             <es>Mansión de piedra</es>
+             <fr>Manoir en pierre</fr>
+             <it>Villa di pietra</it>
+             <pt>Mansão de pedra</pt>
+             <ru>Каменный особняк</ru>
+       </string>
+       <string id="stone_7">
+             <en>Stone Palace</en>
+             <de>Stein-Palast</de>
+             <es>Palacio de piedra</es>
+             <fr>Palais en pierre</fr>
+             <it>Palazzo di pietra</it>
+             <pt>Palácio de Pedra</pt>
+             <ru>Каменный дворец</ru>
+       </string>
+       <string id="stone_8">
+             <en>Stone Citadel</en>
+             <de>Zitadelle aus Stein</de>
+             <es>Ciudadela de piedra</es>
+             <fr>Citadelle en pierre</fr>
+             <it>Cittadella di pietra</it>
+             <pt>Cidadela de Pedra</pt>
+             <ru>Каменная цитадель</ru>
+       </string>
+
+       <string id="bamboo_1">
+             <en>Bamboo</en>
+             <de>Bambus</de>
+             <es>Bambú</es>
+             <fr>Bambou</fr>
+             <it>Bambù</it>
+             <pt>Bambu</pt>
+             <ru>Бамбук</ru>
+       </string>
+       <string id="bamboo_2">
+             <en>Bamboo Boards</en>
+             <de>Bambus-Bretter</de>
+             <es>Tablas de bambú</es>
+             <fr>Planches en bambou</fr>
+             <it>Tavole di bambù</it>
+             <pt>Tábuas de bambu</pt>
+             <ru>Бамбуковые доски</ru>
+       </string>
+       <string id="bamboo_3">
+             <en>Bamboo Foundation</en>
+             <de>Bambus Fundament</de>
+             <es>Cimientos de bambú</es>
+             <fr>Fondation en bambou</fr>
+             <it>Fondazione in bambù</it>
+             <pt>Fundação de bambu</pt>
+             <ru>Бамбуковый фундамент</ru>
+       </string>
+       <string id="bamboo_4">
+             <en>Bamboo Cottage</en>
+             <de>Bambus-Häuschen</de>
+             <es>Cabaña de bambú</es>
+             <fr>Chalet en bambou</fr>
+             <it>Cottage di bambù</it>
+             <pt>Casa de campo de bambu</pt>
+             <ru>Бамбуковый коттедж</ru>
+       </string>
+       <string id="bamboo_5">
+             <en>Bamboo Villa</en>
+             <de>Bambus-Villa</de>
+             <es>Villa de bambú</es>
+             <fr>Villa en bambou</fr>
+             <it>Villa di bambù</it>
+             <pt>Vila de Bambu</pt>
+             <ru>Бамбуковая вилла</ru>
+       </string>
+       <string id="bamboo_6">
+             <en>Bamboo Mansion</en>
+             <de>Bambus-Villa</de>
+             <es>Mansión de bambú</es>
+             <fr>Maison de maître en bambou</fr>
+             <it>Villa di bambù</it>
+             <pt>Mansão de Bambu</pt>
+             <ru>Бамбуковый особняк</ru>
+       </string>
+       <string id="bamboo_7">
+             <en>Bamboo Palace</en>
+             <de>Bambus-Palast</de>
+             <es>Palacio de Bambú</es>
+             <fr>Palais en bambou</fr>
+             <it>Palazzo di bambù</it>
+             <pt>Bamboo Palácio</pt>
+             <ru>Бамбуковый дворец</ru>
+       </string>
+       <string id="bamboo_8">
+             <en>Bamboo Citadel</en>
+             <de>Bambus-Zitadelle</de>
+             <es>Ciudadela de bambú</es>
+             <fr>Citadelle en bambou</fr>
+             <it>Cittadella di bambù</it>
+             <pt>Cidadela de Bambu</pt>
+             <ru>Бамбуковая цитадель</ru>
+       </string>
+
+       <string id="bricks_1">
+             <en>Clay</en>
+             <de>Lehm</de>
+             <es>Arcilla</es>
+             <fr>Argile</fr>
+             <it>In argilla</it>
+             <pt>Barro</pt>
+             <ru>Глина</ru>
+       </string>
+       <string id="bricks_2">
+             <en>Brick</en>
+             <de>Backstein</de>
+             <es>Ladrillo</es>
+             <fr>Brique</fr>
+             <it>Mattone</it>
+             <pt>Tijolo</pt>
+             <ru>Кирпич</ru>
+       </string>
+       <string id="bricks_3">
+             <en>Brick Foundation</en>
+             <de>Backstein-Fundament</de>
+             <es>Cimientos de ladrillo</es>
+             <fr>Fondation en brique</fr>
+             <it>Fondazione in mattoni</it>
+             <pt>Fundação de tijolos</pt>
+             <ru>Кирпичный фундамент</ru>
+       </string>
+       <string id="bricks_4">
+             <en>Brick Cottage</en>
+             <de>Backstein Cottage</de>
+             <es>Cabaña de ladrillo</es>
+             <fr>Cottage en briques</fr>
+             <it>Cottage in mattoni</it>
+             <pt>Casa de campo de tijolos</pt>
+             <ru>Кирпичный коттедж</ru>
+       </string>
+       <string id="bricks_5">
+             <en>Brick Manor</en>
+             <de>Backstein Herrenhaus</de>
+             <es>Mansión de ladrillo</es>
+             <fr>Manoir en briques</fr>
+             <it>Villa in mattoni</it>
+             <pt>Brick Manor</pt>
+             <ru>Кирпичная усадьба</ru>
+       </string>
+       <string id="bricks_6">
+             <en>Brick Mansion</en>
+             <de>Backstein-Villa</de>
+             <es>Mansión de ladrillo</es>
+             <fr>Manoir en briques</fr>
+             <it>Villa in mattoni</it>
+             <pt>Mansão de Tijolos</pt>
+             <ru>Кирпичный особняк</ru>
+       </string>
+       <string id="bricks_7">
+             <en>Brick Palace</en>
+             <de>Ziegelstein-Palast</de>
+             <es>Palacio de ladrillo</es>
+             <fr>Palais en briques</fr>
+             <it>Palazzo in mattoni</it>
+             <pt>Palácio de tijolos</pt>
+             <ru>Кирпичный дворец</ru>
+       </string>
+       <string id="bricks_8">
+             <en>Brick Citadel</en>
+             <de>Zitadelle aus Backstein</de>
+             <es>Ciudadela de ladrillo</es>
+             <fr>Citadelle en briques</fr>
+             <it>Cittadella di mattoni</it>
+             <pt>Cidadela de tijolos</pt>
+             <ru>Кирпичная цитадель</ru>
+       </string>
+
+       <string id="iron_1">
+             <en>Ore</en>
+             <de>Erz</de>
+             <es>Mineral</es>
+             <fr>Minerai</fr>
+             <it>Minerale</it>
+             <pt>Minério</pt>
+             <ru>Руда</ru>
+       </string>
+       <string id="iron_2">
+             <en>Iron</en>
+             <de>Eisen</de>
+             <es>Hierro</es>
+             <fr>Fer</fr>
+             <it>Ferro</it>
+             <pt>Ferro</pt>
+             <ru>Железо</ru>
+       </string>
+       <string id="iron_3">
+             <en>Iron Foundation</en>
+             <de>Fundament aus Eisen</de>
+             <es>Cimientos de hierro</es>
+             <fr>Fondation en fer</fr>
+             <it>Fondazione di ferro</it>
+             <pt>Fundação de ferro</pt>
+             <ru>Железный фундамент</ru>
+       </string>
+       <string id="iron_4">
+             <en>Iron Cottage</en>
+             <de>Cottage aus Eisen</de>
+             <es>Cabaña de hierro</es>
+             <fr>Cottage en fer</fr>
+             <it>Cottage di ferro</it>
+             <pt>Casa de campo de ferro</pt>
+             <ru>Железный коттедж</ru>
+       </string>
+       <string id="iron_5">
+             <en>Iron Manor</en>
+             <de>Eisernes Herrenhaus</de>
+             <es>Mansión de hierro</es>
+             <fr>Manoir en fer</fr>
+             <it>Villa di ferro</it>
+             <pt>Mansão de Ferro</pt>
+             <ru>Железная усадьба</ru>
+       </string>
+       <string id="iron_6">
+             <en>Iron Mansion</en>
+             <de>Eisernes Herrenhaus</de>
+             <es>Mansión de hierro</es>
+             <fr>Manoir en fer</fr>
+             <it>Villa di ferro</it>
+             <pt>Mansão de Ferro</pt>
+             <ru>Железный особняк</ru>
+       </string>
+       <string id="iron_7">
+             <en>Iron Palace</en>
+             <de>Eiserner Palast</de>
+             <es>Palacio de Hierro</es>
+             <fr>Palais de fer</fr>
+             <it>Palazzo di ferro</it>
+             <pt>Palácio de Ferro</pt>
+             <ru>Железный дворец</ru>
+       </string>
+       <string id="iron_8">
+             <en>Iron Citadel</en>
+             <de>Eiserne Zitadelle</de>
+             <es>Ciudadela de hierro</es>
+             <fr>Citadelle en fer</fr>
+             <it>Cittadella di ferro</it>
+             <pt>Cidadela de Ferro</pt>
+             <ru>Железная цитадель</ru>
+       </string>
+
+       <string id="chest_common_1">
+             <en>Small Chest</en>
+             <de>Kleine Truhe</de>
+             <es>Cofre pequeño</es>
+             <fr>Petit coffre</fr>
+             <it>Forziere piccolo</it>
+             <pt>Baú pequeno</pt>
+             <ru>Маленький сундук</ru>
+       </string>
+       <string id="chest_common_2">
+             <en>Medium Chest</en>
+             <de>Mittlere Truhe</de>
+             <es>Baúl mediano</es>
+             <fr>Coffre moyen</fr>
+             <it>Forziere medio</it>
+             <pt>Baú médio</pt>
+             <ru>Средний сундук</ru>
+       </string>
+       <string id="chest_common_3">
+             <en>Large Chest</en>
+             <de>Große Truhe</de>
+             <es>Cofre grande</es>
+             <fr>Grand coffre</fr>
+             <it>Forziere grande</it>
+             <pt>Baú grande</pt>
+             <ru>Большой сундук</ru>
+       </string>
+
+       <string id="chest_uncommon_1">
+             <en>Bronze Chest</en>
+             <de>Bronze-Truhe</de>
+             <es>Cofre de Bronce</es>
+             <fr>Coffre de bronze</fr>
+             <it>Forziere di bronzo</it>
+             <pt>Baú de Bronze</pt>
+             <ru>Бронзовый сундук</ru>
+       </string>
+       <string id="chest_uncommon_2">
+             <en>Silver Chest</en>
+             <de>Silberne Truhe</de>
+             <es>Cofre de plata</es>
+             <fr>Coffre d'argent</fr>
+             <it>Forziere d'argento</it>
+             <pt>Baú de prata</pt>
+             <ru>Серебряный сундук</ru>
+       </string>
+       <string id="chest_uncommon_3">
+             <en>Golden Chest</en>
+             <de>Goldene Truhe</de>
+             <es>Cofre de Oro</es>
+             <fr>Coffre d'or</fr>
+             <it>Forziere d'oro</it>
+             <pt>Baú de Ouro</pt>
+             <ru>Золотой сундук</ru>
+       </string>
+
+       <string id="coin_1">
+             <en>Dust Coin</en>
+             <de>Staub Münze</de>
+             <es>Moneda de polvo</es>
+             <fr>Pièce de poussière</fr>
+             <it>Moneta di polvere</it>
+             <pt>Moeda de pó</pt>
+             <ru>Пыльная монета</ru>
+       </string>
+       <string id="coin_2">
+             <en>Bronze Coin</en>
+             <de>Bronze Münze</de>
+             <es>Moneda de Bronce</es>
+             <fr>Pièce de bronze</fr>
+             <it>Moneta di bronzo</it>
+             <pt>Moeda de bronze</pt>
+             <ru>Бронзовая монета</ru>
+       </string>
+       <string id="coin_3">
+             <en>Silver Coin</en>
+             <de>Silber Münze</de>
+             <es>Moneda de plata</es>
+             <fr>Pièce d'argent</fr>
+             <it>Moneta d'argento</it>
+             <pt>Moeda de prata</pt>
+             <ru>Серебряная монета</ru>
+       </string>
+       <string id="coin_4">
+             <en>Golden Coin</en>
+             <de>Gold Münze</de>
+             <es>Moneda de Oro</es>
+             <fr>Pièce d'or</fr>
+             <it>Moneta d'oro</it>
+             <pt>Moeda de Ouro</pt>
+             <ru>Золотая монета</ru>
+       </string>
+       <string id="coin_5">
+             <en>Azure Coin</en>
+             <de>Azurblaue Münze</de>
+             <es>Moneda de azur</es>
+             <fr>Pièce d'azur</fr>
+             <it>Moneta Azzurra</it>
+             <pt>Moeda Azure</pt>
+             <ru>Лазурная монета</ru>
+       </string>
+       <string id="coin_6">
+             <en>Indigo Coin</en>
+             <de>Indigo Münze</de>
+             <es>Moneda índigo</es>
+             <fr>Pièce Indigo</fr>
+             <it>Moneta Indaco</it>
+             <pt>Moeda Índigo</pt>
+             <ru>Монета индиго</ru>
+       </string>
+       <string id="coin_7">
+             <en>Pink Coin</en>
+             <de>Rosa Münze</de>
+             <es>Monedas rosa</es>
+             <fr>Pièce rose</fr>
+             <it>Moneta Rosa</it>
+             <pt>Moeda Rosa</pt>
+             <ru>Розовая монета</ru>
+       </string>
+       <string id="coin_8">
+             <en>Purple Coin</en>
+             <de>Violette Münze</de>
+             <es>Moneda púrpura</es>
+             <fr>Pièce violette</fr>
+             <it>Moneta viola</it>
+             <pt>Moeda Púrpura</pt>
+             <ru>Фиолетовая монета</ru>
+       </string>
+
+       <string id="key_1">
+             <en>Bronze Key</en>
+             <de>Bronze-Schlüssel</de>
+             <es>Llave de bronce</es>
+             <fr>Clé de bronze</fr>
+             <it>Chiave di bronzo</it>
+             <pt>Chave de Bronze</pt>
+             <ru>Бронзовый ключ</ru>
+       </string>
+       <string id="key_2">
+             <en>Silver Key</en>
+             <de>Silberner Schlüssel</de>
+             <es>Llave de plata</es>
+             <fr>Clé d'argent</fr>
+             <it>Chiave d'argento</it>
+             <pt>Chave de Prata</pt>
+             <ru>Серебряный ключ</ru>
+       </string>
+       <string id="key_3">
+             <en>Golden Key</en>
+             <de>Goldener Schlüssel</de>
+             <es>Llave de oro</es>
+             <fr>Clé d'or</fr>
+             <it>Chiave d'oro</it>
+             <pt>Chave de Ouro</pt>
+             <ru>Золотой ключик</ru>
+       </string>
+
+       <string id="flask_4">
+             <en>Rainbow Vial</en>
+             <de>Regenbogen-Fläschchen</de>
+             <es>Ampolla Arco Iris</es>
+             <fr>Fiole arc-en-ciel</fr>
+             <it>Fiala Arcobaleno</it>
+             <pt>Ampola Arco-Íris</pt>
+             <ru>Радужный флакон</ru>
+       </string>
+       <string id="flask_5">
+             <en>Rainbow Flask</en>
+             <de>Regenbogen-Kolben</de>
+             <es>Frasco Arco Iris</es>
+             <fr>Flacon arc-en-ciel</fr>
+             <it>Fiaschetta Arcobaleno</it>
+             <pt>Frasco Arco-Íris</pt>
+             <ru>Радужная колба</ru>
+       </string>
+       <string id="flask_6">
+             <en>Rainbow Bottle</en>
+             <de>Regenbogen-Flasche</de>
+             <es>Botella Arco Iris</es>
+             <fr>Bouteille arc-en-ciel</fr>
+             <it>Bottiglia arcobaleno</it>
+             <pt>Garrafa Arco-Íris</pt>
+             <ru>Радужная бутылка</ru>
+       </string>
+       <string id="flask_7">
+             <en>Rainbow Jug</en>
+             <de>Regenbogen Krug</de>
+             <es>Jarra Arco Iris</es>
+             <fr>Cruche arc-en-ciel</fr>
+             <it>Brocca arcobaleno</it>
+             <pt>Jarra Arco-Íris</pt>
+             <ru>Радужный кувшин</ru>
+       </string>
+
+       <string id="avocado_1">
+             <en>Avocado Seeds</en>
+             <de>Avocado-Samen</de>
+             <es>Semillas de aguacate</es>
+             <fr>Graines d'avocat</fr>
+             <it>Semi di avocado</it>
+             <pt>Sementes de abacate</pt>
+             <ru>Семена авокадо</ru>
+       </string>
+       <string id="avocado_2">
+             <en>Avocado Sapling</en>
+             <de>Avocado-Setzling</de>
+             <es>Plantones de aguacate</es>
+             <fr>L'aubier d'avocat</fr>
+             <it>Alberello di avocado</it>
+             <pt>Mudas de abacate</pt>
+             <ru>Саженцы авокадо</ru>
+       </string>
+       <string id="avocado_3">
+             <en>Growing Avocado</en>
+             <de>Wachsende Avocado</de>
+             <es>Cultivo de aguacate</es>
+             <fr>Culture de l'avocat</fr>
+             <it>Coltivare l'avocado</it>
+             <pt>Cultivo de abacate</pt>
+             <ru>Выращивание авокадо</ru>
+       </string>
+       <string id="avocado_4">
+             <en>Avocado Tree</en>
+             <de>Avocadobaum</de>
+             <es>Aguacate</es>
+             <fr>L'avocatier</fr>
+             <it>Albero di Avocado</it>
+             <pt>Abacateiro</pt>
+             <ru>Дерево авокадо</ru>
+       </string>
+       <string id="avocado_5">
+             <en>Spent Avocado</en>
+             <de>Verbrauchte Avocado</de>
+             <es>Aguacate gastado</es>
+             <fr>Avocat dépensé</fr>
+             <it>Avocado esausto</it>
+             <pt>Abacate gasto</pt>
+             <ru>Отходы авокадо</ru>
+       </string>
+
+       <string id="carrot_1">
+             <en>Carrot Seeds</en>
+             <de>Karottensamen</de>
+             <es>Semillas de zanahoria</es>
+             <fr>Graines de carotte</fr>
+             <it>Semi di carota</it>
+             <pt>Sementes de cenoura</pt>
+             <ru>Семена моркови</ru>
+       </string>
+       <string id="carrot_2">
+             <en>Carrot Sprout</en>
+             <de>Karotte keimen</de>
+             <es>Zanahoria germinada</es>
+             <fr>Germe de carotte</fr>
+             <it>Germoglio di carota</it>
+             <pt>Broto de Cenoura</pt>
+             <ru>Морковные ростки</ru>
+       </string>
+       <string id="carrot_3">
+             <en>Carrot Growing</en>
+             <de>Karotte Wachsen</de>
+             <es>Zanahoria en crecimiento</es>
+             <fr>Carotte en croissance</fr>
+             <it>Carota in crescita</it>
+             <pt>Cenoura em crescimento</pt>
+             <ru>Выращивание моркови</ru>
+       </string>
+       <string id="carrot_4">
+             <en>Mature Carrot</en>
+             <de>Reife Karotte</de>
+             <es>Zanahoria madura</es>
+             <fr>Carotte mature</fr>
+             <it>Carota matura</it>
+             <pt>Cenoura madura</pt>
+             <ru>Зрелая морковь</ru>
+       </string>
+       <string id="carrot_5">
+             <en>Spent Carrot</en>
+             <de>Verbrauchte Karotte</de>
+             <es>Zanahoria gastada</es>
+             <fr>Carotte épuisée</fr>
+             <it>Carota esausta</it>
+             <pt>Cenoura gasta</pt>
+             <ru>Отходы моркови</ru>
+       </string>
+
+       <string id="pumpkin_1">
+             <en>Pumpkin Seeds</en>
+             <de>Kürbis-Samen</de>
+             <es>Semillas de calabaza</es>
+             <fr>Graines de citrouille</fr>
+             <it>Semi di zucca</it>
+             <pt>Sementes de abóbora</pt>
+             <ru>Семена тыквы</ru>
+       </string>
+       <string id="pumpkin_2">
+             <en>Pumpkin Sprout</en>
+             <de>Kürbis Sprossen</de>
+             <es>Calabaza germinada</es>
+             <fr>Pousse de citrouille</fr>
+             <it>Germoglio di zucca</it>
+             <pt>Broto de abóbora</pt>
+             <ru>Рассада тыквы</ru>
+       </string>
+       <string id="pumpkin_3">
+             <en>Pumpkin Growing</en>
+             <de>Wachsender Kürbis</de>
+             <es>Calabaza en crecimiento</es>
+             <fr>Potiron en croissance</fr>
+             <it>Zucca in crescita</it>
+             <pt>Cultivo de abóbora</pt>
+             <ru>Выращивание тыквы</ru>
+       </string>
+       <string id="pumpkin_4">
+             <en>Mature Pumpkin</en>
+             <de>Reifer Kürbis</de>
+             <es>Calabaza madura</es>
+             <fr>Citrouille mature</fr>
+             <it>Zucca matura</it>
+             <pt>Abóbora madura</pt>
+             <ru>Зрелая тыква</ru>
+       </string>
+       <string id="pumpkin_5">
+             <en>Spent Pumpkin</en>
+             <de>Verbrauchter Kürbis</de>
+             <es>Calabaza gastada</es>
+             <fr>Citrouille épuisée</fr>
+             <it>Zucca esausta</it>
+             <pt>Abóbora gasta</pt>
+             <ru>Отходы тыквы</ru>
+       </string>
+
+       <string id="banana_1">
+             <en>Banana Seeds</en>
+             <de>Bananen-Samen</de>
+             <es>Semillas de plátano</es>
+             <fr>Graines de banane</fr>
+             <it>Semi di banana</it>
+             <pt>Sementes de banana</pt>
+             <ru>Семена банана</ru>
+       </string>
+       <string id="banana_2">
+             <en>Banana Sapling</en>
+             <de>Bananensprössling</de>
+             <es>Plátanos jóvenes</es>
+             <fr>Aubaine de banane</fr>
+             <it>Alberello di banana</it>
+             <pt>Mudas de Banana</pt>
+             <ru>Саженец банана</ru>
+       </string>
+       <string id="banana_3">
+             <en>Banana Growing</en>
+             <de>Banane wachsend</de>
+             <es>Plátano en crecimiento</es>
+             <fr>Bananier en croissance</fr>
+             <it>Banana in crescita</it>
+             <pt>Banana em crescimento</pt>
+             <ru>Выращивание бананов</ru>
+       </string>
+       <string id="banana_4">
+             <en>Banana Tree</en>
+             <de>Bananenbaum</de>
+             <es>Árbol del plátano</es>
+             <fr>Bananier</fr>
+             <it>Albero di banana</it>
+             <pt>Bananeira</pt>
+             <ru>Банановое дерево</ru>
+       </string>
+       <string id="banana_5">
+             <en>Spent Banana</en>
+             <de>Verbrauchte Banane</de>
+             <es>Plátano gastado</es>
+             <fr>Banane épuisée</fr>
+             <it>Banana esausta</it>
+             <pt>Banana Gasta</pt>
+             <ru>Отходы банана</ru>
+       </string>
+
+       <string id="blueberries_1">
+             <en>Blueberry Seeds</en>
+             <de>Blaubeer-Samen</de>
+             <es>Semillas de arándano</es>
+             <fr>Graines de myrtille</fr>
+             <it>Semi di mirtillo</it>
+             <pt>Sementes de mirtilo</pt>
+             <ru>Семена черники</ru>
+       </string>
+       <string id="blueberries_2">
+             <en>Blueberry Sapling</en>
+             <de>Blaubeere Setzling</de>
+             <es>Plantones de arándano</es>
+             <fr>Arbre à myrtilles</fr>
+             <it>Alberello di mirtillo</it>
+             <pt>Mudas de mirtilo</pt>
+             <ru>Саженец черники</ru>
+       </string>
+       <string id="blueberries_3">
+             <en>Blueberry Growing</en>
+             <de>Blaubeere Wachsen</de>
+             <es>Cultivo de arándanos</es>
+             <fr>Myrtille en croissance</fr>
+             <it>Mirtillo in crescita</it>
+             <pt>Cultivo de mirtilo</pt>
+             <ru>Выращивание черники</ru>
+       </string>
+       <string id="blueberries_4">
+             <en>Blueberry Bush</en>
+             <de>Blaubeerstrauch</de>
+             <es>Arbusto de arándano</es>
+             <fr>Myrtillier</fr>
+             <it>Cespuglio di mirtilli</it>
+             <pt>Arbusto de mirtilo</pt>
+             <ru>Черничный куст</ru>
+       </string>
+       <string id="blueberries_5">
+             <en>Spent Blueberry</en>
+             <de>Verbrauchte Heidelbeere</de>
+             <es>Arándano gastado</es>
+             <fr>Myrtille épuisée</fr>
+             <it>Mirtillo spento</it>
+             <pt>Blueberry gasto</pt>
+             <ru>Отходы черники</ru>
+       </string>
+
+       <string id="melon_1">
+             <en>Melon Seeds</en>
+             <de>Melonen-Samen</de>
+             <es>Semillas de melón</es>
+             <fr>Graines de melon</fr>
+             <it>Semi di melone</it>
+             <pt>Sementes de melão</pt>
+             <ru>Семена дыни</ru>
+       </string>
+       <string id="melon_2">
+             <en>Melon Sprout</en>
+             <de>Melone keimen</de>
+             <es>Melón germinado</es>
+             <fr>Melon en germe</fr>
+             <it>Melone germogliato</it>
+             <pt>Broto de Melão</pt>
+             <ru>Рассада дыни</ru>
+       </string>
+       <string id="melon_3">
+             <en>Melon Growing</en>
+             <de>Melone Wachsen</de>
+             <es>Melón en crecimiento</es>
+             <fr>Melon en croissance</fr>
+             <it>Melone in crescita</it>
+             <pt>Cultivo de melão</pt>
+             <ru>Выращивание дыни</ru>
+       </string>
+       <string id="melon_4">
+             <en>Melon Vine</en>
+             <de>Melone Rebe</de>
+             <es>Melón Enredadera</es>
+             <fr>Melon Vigne</fr>
+             <it>Vite di melone</it>
+             <pt>Videira de Melão</pt>
+             <ru>Лоза дыни</ru>
+       </string>
+       <string id="melon_5">
+             <en>Spent Melon</en>
+             <de>Verbrauchte Melone</de>
+             <es>Melón gastado</es>
+             <fr>Melon dépensé</fr>
+             <it>Melone esausto</it>
+             <pt>Melão gasto</pt>
+             <ru>Отходы дыни</ru>
+       </string>
+
+       <string id="txt_level_up">
+             <en>Level Up!</en>
+             <de>Level Up!</de>
+             <es>¡Sube de nivel!</es>
+             <fr>Montez en niveau !</fr>
+             <it>Salire di livello!</it>
+             <pt>Suba de nível!</pt>
+             <ru>Уровень повышен!</ru>
+       </string>
+
+       <string id="txt_prize">
+             <en>Prize:</en>
+             <de>Preis:</de>
+             <es>Premio:</es>
+             <fr>Prix :</fr>
+             <it>Premio:</it>
+             <pt>Prêmio:</pt>
+             <ru>Приз:</ru>
+       </string>
+
+       <string id="txt_tap_continue">
+             <en>Tap to continue!</en>
+             <de>Tippe, um fortzufahren!</de>
+             <es>¡Toca para continuar!</es>
+             <fr>Tapez pour continuer !</fr>
+             <it>Tocca per continuare!</it>
+             <pt>Toque para continuar!</pt>
+             <ru>Нажмите, чтобы продолжить!</ru>
+       </string>
+
+       <string id="txt_shop">
+             <en>Shop</en>
+             <de>Laden</de>
+             <es>Tienda</es>
+             <fr>Boutique</fr>
+             <it>Negozio</it>
+             <pt>Loja</pt>
+             <ru>Магазин</ru>
+       </string>
+
+       <string id="txt_left">
+             <en>Left: </en>
+             <de>Links: </de>
+             <es>Izquierda </es>
+             <fr>A gauche : </fr>
+             <it>A sinistra: </it>
+             <pt>Esquerda: </pt>
+             <ru>Уровень: </ru>
+       </string>
+
+       <string id="txt_new_offer">
+             <en>New offer appears in : </en>
+             <de>Neues Angebot erscheint in: </de>
+             <es>Nueva oferta aparece en : </es>
+             <fr>Une nouvelle offre apparaît dans : </fr>
+             <it>Appare una nuova offerta in : </it>
+             <pt>Uma nova oferta aparece no : </pt>
+             <ru>Новое предложение появится за: </ru>
+       </string>
+
+       <string id="txt_new_quest">
+             <en>New Quest!</en>
+             <de>Neue Aufgabe!</de>
+             <es>¡Nueva misión!</es>
+             <fr>Nouvelle quête !</fr>
+             <it>Nuova missione!</it>
+             <pt>Nova missão!</pt>
+             <ru>Новый квест!</ru>
+       </string>
+
+       <string id="txt_erect_building">
+             <en>Erect Building</en>
+             <de>Gebäude errichten</de>
+             <es>Erigir edificio</es>
+             <fr>Ériger un bâtiment</fr>
+             <it>Erigere l'edificio</it>
+             <pt>Construa um prédio</pt>
+             <ru>Возведите здание</ru>
+       </string>
+
+       <string id="txt_well_done">
+             <en>Well done!</en>
+             <de>Gut gemacht!</de>
+             <es>¡Bien hecho!</es>
+             <fr>Bien joué !</fr>
+             <it>Ben fatto!</it>
+             <pt>Muito bem!</pt>
+             <ru>Молодец!</ru>
+       </string>
+
+       <string id="txt_gather">
+             <en>Gather</en>
+             <de>Sammeln</de>
+             <es>Reúne</es>
+             <fr>Rassembler</fr>
+             <it>Raccogliere</it>
+             <pt>Reunir</pt>
+             <ru>Собрать</ru>
+       </string>
+
+       <string id="txt_sell">
+             <en>Sell</en>
+             <de>Verkaufen</de>
+             <es>Vender</es>
+             <fr>Vendre</fr>
+             <it>Vendere</it>
+             <pt>Vender</pt>
+             <ru>Продать</ru>
+       </string>
+
+       <string id="txt_claim">
+             <en>Claim</en>
+             <de>Beanspruchen</de>
+             <es>Reclamar</es>
+             <fr>Réclamer</fr>
+             <it>Rivendicazione</it>
+             <pt>Reivindicar</pt>
+             <ru>Получить</ru>
+       </string>
+
+       <string id="txt_watch_ad">
+             <en>Watch AD</en>
+             <de>Anzeige ansehen</de>
+             <es>Ver anuncio</es>
+             <fr>Regarder pub</fr>
+             <it>Guarda l'annuncio</it>
+             <pt>Ver anúncio</pt>
+             <ru>Смотреть рекламу</ru>
+       </string>
+
+       <string id="txt_build">
+             <en>Build</en>
+             <de>Bauen</de>
+             <es>Construir</es>
+             <fr>Construire</fr>
+             <it>Costruire</it>
+             <pt>Construir</pt>
+             <ru>Построить</ru>
+       </string>
+
+       <string id="txt_castle_reward_1">
+             <en>Insert </en>
+             <de>einfügen </de>
+             <es>¡Inserta </es>
+             <fr>Insérez </fr>
+             <it>Inserisci </it>
+             <pt>Insira </pt>
+             <ru>Вставляйте </ru>
+       </string>
+
+       <string id="txt_castle_reward_2">
+             <en> and get rewards!</en>
+             <de> und Belohnungen erhalten!</de>
+             <es> y obtén recompensas!</es>
+             <fr> et obtenez des récompenses !</fr>
+             <it> e ottieni ricompense!</it>
+             <pt> e receba recompensas!</pt>
+             <ru> и получайте награды!</ru>
+       </string>
+
+       <string id="txt_use_key_1">
+             <en>Use bronze key to claim</en>
+             <de>Benutze den bronzenen Schlüssel, um Anspruch zu erheben</de>
+             <es>Usa la llave de bronce para reclamar</es>
+             <fr>Utiliser la clé de bronze pour réclamer</fr>
+             <it>Usa la chiave di bronzo per rivendicare</it>
+             <pt>Use a chave de bronze para reivindicar</pt>
+             <ru>используйте бронзовый ключ для получения награды</ru>
+       </string>
+
+       <string id="txt_use_key_2">
+             <en>Use silver key to claim</en>
+             <de>Benutze den silbernen Schlüssel, um Anspruch zu erheben</de>
+             <es>Usa la llave de plata para reclamar</es>
+             <fr>Utiliser la clé d'argent pour réclamer</fr>
+             <it>Usa la chiave d'argento per reclamare</it>
+             <pt>Chave de prata para reivindicar</pt>
+             <ru>используйте серебряный ключ для получения награды</ru>
+       </string>
+
+       <string id="txt_use_key_3">
+             <en>Use gold key to claim</en>
+             <de>Benutzen den goldenen Schlüssel, um Anspruch zu erheben</de>
+             <es>Usa la llave de oro para reclamar</es>
+             <fr>Utiliser la clé d'or pour réclamer</fr>
+             <it>Usa la chiave d'oro per reclamare</it>
+             <pt>Use a chave de ouro para reivindicar</pt>
+             <ru>используйте золотой ключ для получения награды</ru>
+       </string>
+
+       <string id="txt_progression">
+             <en>progression</en>
+             <de>Fortschreiten</de>
+             <es>progresión</es>
+             <fr>progression</fr>
+             <it>progressione</it>
+             <pt>progressão</pt>
+             <ru>продвижение</ru>
+       </string>
+
+       <string id="txt_reward">
+             <en>reward</en>
+             <de>Belohnung</de>
+             <es>recompensa</es>
+             <fr>récompense</fr>
+             <it>ricompensa</it>
+             <pt>recompensa</pt>
+             <ru>награда</ru>
+       </string>
+
+       <string id="txt_no_free_position">
+             <en>NO FREE POSITION!</en>
+             <de>KEINE FREIE POSITION!</de>
+             <es>¡NO HAY POSICIÓN DISPONIBLE!</es>
+             <fr>AUCUNE POSITION LIBRE!</fr>
+             <it>NESSUNA POSIZIONE LIBERA!</it>
+             <pt>NENHUMA POSIÇÃO LIVRE!</pt>
+             <ru>НЕТ СВОБОДНОЙ ПОЗИЦИИ!</ru>
+       </string>
+
+       <string id="txt_no_available_workers">
+             <en>NO AVAILABLE WORKERS!</en>
+             <de>KEINE VERFÜGBAREN ARBEITER!</de>
+             <es>¡NO HAY TRABAJADORES DISPONIBLES!</es>
+             <fr>AUCUN TRAVAILLEUR DISPONIBLE!</fr>
+             <it>NON CI SONO LAVORATORI DISPONIBILI!</it>
+             <pt>NENHUM TRABALHADOR DISPONÍVEL!</pt>
+             <ru>НЕТ ДОСТУПНЫХ РАБОТНИКОВ!</ru>
+       </string>
+
+       <string id="txt_skip">
+             <en>Skip!</en>
+             <de>Überspringen!</de>
+             <es>¡Salta!</es>
+             <fr>Sautez !</fr>
+             <it>Salta!</it>
+             <pt>Pule!</pt>
+             <ru>Пропустить!</ru>
+       </string>
+
+       <string id="txt_free">
+             <en>Free!</en>
+             <de>Frei!</de>
+             <es>¡Gratis!</es>
+             <fr>Gratuit !</fr>
+             <it>Gratis!</it>
+             <pt>Grátis!</pt>
+             <ru>Бесплатно!</ru>
+       </string>
+
+       <string id="x">
+             <en></en>
+             <de></de>
+             <es></es>
+             <fr></fr>
+             <it></it>
+             <pt></pt>
+             <ru></ru>
+       </string>
+
+    </strings>
+</stringresources>

@@ -1,0 +1,29 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "anim_rotate",
+    "_duration": 1.3333333333333333,
+    "sample": 30,
+    "speed": 0.1,
+    "wrapMode": "2",
+    "curveData": {
+      "props": {
+        "rotation": [
+          {
+            "frame": 0,
+            "value": 0
+          },
+          {
+            "frame": 1.3333333333333333,
+            "value": 360
+          }
+        ]
+      }
+    }
+  },
+  {
+    "__type__": "cc.AudioClip",
+    "_name": "bgm_allin",
+    "_native": ".mp3"
+  }
+]

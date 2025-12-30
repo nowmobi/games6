@@ -1,0 +1,1696 @@
+{
+  "isAuditVersion": false,
+  "isNoVideoAuditVersion": false,
+  "isOpenVideoToShare": true,
+  "showJcdl": true,
+  "isOpenNewBieGuide": true,
+  "showSupply": false,
+  "showFreeBox": false,
+  "SafeMode": false,
+  "isOpenHintAward": false,
+  "isOpenSupply": true,
+  "isOpenSupplyDialog": true,
+  "isOpenTestFun": false,
+  "maxLevelNum": 2510,
+  "defaultCoin": 2000,
+  "defaultDiamond": 0,
+  "defaultStamina": 10,
+  "MaxRegainStamina": 5,
+  "reviveAddTime": 60,
+  "upLevelAwardHintNum": 2,
+  "defaultBaseShareCoin": 1000,
+  "getCoinTime": 0,
+  "beOfflineMaxTime": 7200000,
+  "beOfflineCount": 300,
+  "beOfflineShow": 600000,
+  "levelUpInterval": 180000,
+  "fullCarTipsDes": "位置已满,请合成或拖动流放人物",
+  "shareAssignTimesFailureHint": "只有不同群的好友才能帮助你哦!",
+  "costType": [
+    {
+      "type": 1,
+      "icon": "common_icon_coin"
+    },
+    {
+      "type": 2,
+      "icon": "common_icon_diamond2"
+    }
+  ],
+  "speedUpCost": [
+    2,
+    20
+  ],
+  "ADUnitID_Banner": "adunit-36d72e26e1cf0728",
+  "ADUnitID_Video": "adunit-401bbfa10909d7ea",
+  "ADUnitID_Banner_Test": "",
+  "ADUnitID_Video_Test": "",
+  "FakeShareWaitTime": 5,
+  "conShareFailTimes": 2,
+  "BsgConShareFailTimes": 2,
+  "StaminaRegainTime": 600,
+  "StaminaRegainCount": 1,
+  "VideoStaminaRegainCount": 2,
+  "everyTimesUseStaminaNum": 1,
+  "garageInitCar": [
+    1
+  ],
+  "secondRecomCarTimesCfg": 11,
+  "AwardDiamonNum": 200,
+  "shopIntervalShare": 180000,
+  "shareType": 2,
+  "showModalTitle": "系统提示",
+  "showModalContent": "不要频繁分享到同一个群，换个群试试",
+  "showModalconfirmText": "去分享",
+  "shopPropCfg": [
+    {
+      "propType": 0,
+      "name": "金币",
+      "iconName": "common_jinbi_glow",
+      "count": 1000,
+      "gainType": [
+        16
+      ]
+    },
+    {
+      "propType": 0,
+      "name": "金币",
+      "iconName": "common_jinbi_glow",
+      "count": 3000,
+      "gainType": [
+        16,
+        16,
+        16
+      ]
+    }
+  ],
+  "addShopType": [
+    [
+      1,
+      10,
+      16
+    ]
+  ],
+  "dailyCheck": [
+    {
+      "day": 1,
+      "name": "1",
+      "moneyType": 2,
+      "iconName": "dia_img_bigdia",
+      "count": 100
+    },
+    {
+      "day": 2,
+      "name": "2",
+      "moneyType": 2,
+      "iconName": "dia_img_bigdia",
+      "count": 200
+    },
+    {
+      "day": 3,
+      "name": "3",
+      "moneyType": 2,
+      "iconName": "dia_img_bigdia",
+      "count": 300
+    },
+    {
+      "day": 4,
+      "name": "4",
+      "moneyType": 2,
+      "iconName": "dia_img_bigdia",
+      "count": 400
+    },
+    {
+      "day": 5,
+      "name": "5",
+      "moneyType": 2,
+      "iconName": "dia_img_bigdia",
+      "count": 500
+    },
+    {
+      "day": 6,
+      "name": "6",
+      "moneyType": 2,
+      "iconName": "dia_img_bigdia",
+      "count": 700
+    },
+    {
+      "day": 7,
+      "name": "7",
+      "moneyType": 2,
+      "iconName": "dia_img_bigdia",
+      "count": 1000
+    }
+  ],
+  "lotteryCfg": [
+    {
+      "lottery": 0,
+      "name": "小堆金币",
+      "namepath": "lotteryName0",
+      "moneyType": 1,
+      "iconName": "dia_img_coin",
+      "icon": "com_getCoin",
+      "count": 480,
+      "weight": 10
+    },
+    {
+      "lottery": 1,
+      "name": "下次2倍",
+      "namepath": "lotteryName5",
+      "moneyType": 0,
+      "iconName": "dia_icon_multiple",
+      "icon": "dia_img_six",
+      "count": 2,
+      "weight": 20
+    },
+    {
+      "lottery": 2,
+      "name": "体力",
+      "namepath": "lotteryName2",
+      "moneyType": 3,
+      "iconName": "dia_img_energy2",
+      "icon": "dia_img_staminas",
+      "count": 4,
+      "weight": 3
+    },
+    {
+      "lottery": 3,
+      "name": "中量金币",
+      "namepath": "lotteryName3",
+      "moneyType": 1,
+      "iconName": "dia_img_coin",
+      "icon": "com_getCoin",
+      "count": 950,
+      "weight": 10
+    },
+    {
+      "lottery": 4,
+      "name": "体力",
+      "namepath": "lotteryName4",
+      "moneyType": 3,
+      "iconName": "dia_img_energy2",
+      "icon": "dia_img_staminas",
+      "count": 1,
+      "weight": 11
+    },
+    {
+      "lottery": 5,
+      "name": "下次3倍",
+      "namepath": "lotteryName1",
+      "moneyType": 0,
+      "iconName": "dia_icon_multiple",
+      "icon": "dia_img_three",
+      "count": 3,
+      "weight": 25
+    },
+    {
+      "lottery": 6,
+      "name": "大量金币",
+      "namepath": "lotteryName6",
+      "moneyType": 1,
+      "iconName": "dia_img_coin",
+      "icon": "com_getCoin",
+      "count": 1480,
+      "weight": 2
+    },
+    {
+      "lottery": 7,
+      "name": "体力",
+      "namepath": "lotteryName7",
+      "moneyType": 3,
+      "iconName": "dia_img_energy2",
+      "icon": "dia_img_staminas",
+      "count": 2,
+      "weight": 19
+    }
+  ],
+  "newLotteryCfg": [
+    {
+      "lottery": 0,
+      "name": "小堆金币",
+      "namepath": "小堆金币",
+      "moneyType": 1,
+      "iconName": "lotty_img_coin0",
+      "icon": "com_getCoin",
+      "count": 480,
+      "weight": 14
+    },
+    {
+      "lottery": 1,
+      "name": "中量金币",
+      "namepath": "中量金币",
+      "moneyType": 1,
+      "iconName": "lotty_img_coin1",
+      "icon": "com_getCoin",
+      "count": 950,
+      "weight": 13
+    },
+    {
+      "lottery": 2,
+      "name": "大量金币",
+      "namepath": "大量金币",
+      "moneyType": 1,
+      "iconName": "lotty_img_coin2",
+      "icon": "com_getCoin",
+      "count": 1480,
+      "weight": 8
+    },
+    {
+      "lottery": 3,
+      "name": "体力",
+      "namepath": "体力 X1",
+      "moneyType": 3,
+      "iconName": "lotty_img_stamina",
+      "icon": "dia_img_staminas",
+      "count": 1,
+      "weight": 10
+    },
+    {
+      "lottery": 4,
+      "name": "体力",
+      "namepath": "体力 X2",
+      "moneyType": 3,
+      "iconName": "lotty_img_stamina",
+      "icon": "dia_img_staminas",
+      "count": 2,
+      "weight": 8
+    },
+    {
+      "lottery": 5,
+      "name": "体力",
+      "namepath": "体力 X4",
+      "moneyType": 3,
+      "iconName": "lotty_img_stamina",
+      "icon": "dia_img_staminas",
+      "count": 4,
+      "weight": 2
+    },
+    {
+      "lottery": 6,
+      "name": "下次2倍",
+      "namepath": "下次2倍奖励",
+      "moneyType": 0,
+      "iconName": "dia_img_six",
+      "icon": "dia_img_six",
+      "count": 2,
+      "weight": 20
+    },
+    {
+      "lottery": 7,
+      "name": "下次3倍",
+      "namepath": "下次3倍奖励",
+      "moneyType": 0,
+      "iconName": "dia_img_three",
+      "icon": "dia_img_three",
+      "count": 3,
+      "weight": 25
+    }
+  ],
+  "reflushSupplyTime": 60,
+  "showSupplyTime": 30,
+  "supply": [
+    {
+      "ID": 0,
+      "type": 1,
+      "rate": 5,
+      "time": 60,
+      "weight": 10,
+      "desc": "5倍收益加速60秒",
+      "price": 300,
+      "descImg": "supply_desc0"
+    },
+    {
+      "ID": 1,
+      "type": 2,
+      "rate": 1,
+      "time": 60,
+      "weight": 10,
+      "desc": "四名人物",
+      "price": 300,
+      "descImg": "supply_desc1"
+    }
+  ],
+  "freeBoxFlushTime": 20,
+  "sameVideoSharePoint": [
+    [],
+    [
+      [
+        24,
+        11,
+        26
+      ]
+    ],
+    []
+  ],
+  "everyDayCommonVideoShareType": [
+    [
+      [
+        1,
+        999,
+        0,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        999,
+        0,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        999,
+        0,
+        1,
+        1
+      ]
+    ]
+  ],
+  "addRevenueShareOrVideoCfg": [
+    [
+      [
+        1,
+        999,
+        8
+      ]
+    ],
+    [
+      [
+        1,
+        999,
+        8
+      ]
+    ],
+    [
+      [
+        1,
+        999,
+        8
+      ]
+    ]
+  ],
+  "BeOfflineShareOrVideoCfg": [
+    [
+      [
+        1,
+        999,
+        8
+      ]
+    ],
+    [
+      [
+        1,
+        999,
+        8
+      ]
+    ],
+    [
+      [
+        1,
+        999,
+        8
+      ]
+    ]
+  ],
+  "freeCoinShareOrVideoCfg": [
+    [
+      [
+        1,
+        999,
+        8
+      ]
+    ],
+    [
+      [
+        1,
+        999,
+        8
+      ]
+    ],
+    [
+      [
+        1,
+        999,
+        8
+      ]
+    ]
+  ],
+  "dailyCheckShareOrVideoCfg": [
+    [
+      [
+        1,
+        999,
+        8
+      ]
+    ],
+    [
+      [
+        1,
+        999,
+        8
+      ]
+    ],
+    [
+      [
+        1,
+        999,
+        8
+      ]
+    ]
+  ],
+  "lotteryAddTimesShareOrVideoCfg": [
+    [
+      [
+        1,
+        4,
+        0,
+        3,
+        1
+      ],
+      [
+        5,
+        999,
+        0,
+        2,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        4,
+        0,
+        3,
+        1
+      ],
+      [
+        5,
+        999,
+        0,
+        2,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        8
+      ],
+      [
+        2,
+        7,
+        0,
+        2,
+        2
+      ],
+      [
+        8,
+        9,
+        1,
+        1,
+        1
+      ],
+      [
+        10,
+        999,
+        1,
+        2,
+        1
+      ]
+    ]
+  ],
+  "resultShareOrVideoCfg": [
+    [
+      [
+        1,
+        999,
+        0,
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        999,
+        0,
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        999,
+        0,
+        1,
+        0
+      ]
+    ]
+  ],
+  "reviveShareOrVideoCfg": [
+    [
+      [
+        1,
+        999,
+        0,
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        999,
+        0,
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        999,
+        0,
+        1,
+        0
+      ]
+    ]
+  ],
+  "staminaShareOrVideoCfg": [
+    [
+      [
+        1,
+        5,
+        0,
+        4,
+        1
+      ],
+      [
+        6,
+        999,
+        0,
+        3,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        5,
+        0,
+        4,
+        1
+      ],
+      [
+        6,
+        999,
+        0,
+        3,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        6,
+        0,
+        2,
+        2
+      ],
+      [
+        7,
+        8,
+        1,
+        1,
+        1
+      ],
+      [
+        9,
+        999,
+        1,
+        2,
+        1
+      ]
+    ]
+  ],
+  "gameHintShareOrVideoCfg": [
+    [
+      [
+        1,
+        4,
+        0,
+        3,
+        1
+      ],
+      [
+        5,
+        999,
+        0,
+        2,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        4,
+        0,
+        3,
+        1
+      ],
+      [
+        5,
+        999,
+        0,
+        2,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        8
+      ],
+      [
+        2,
+        7,
+        0,
+        2,
+        2
+      ],
+      [
+        8,
+        9,
+        1,
+        1,
+        1
+      ],
+      [
+        10,
+        999,
+        1,
+        2,
+        1
+      ]
+    ]
+  ],
+  "lotteryMoreAwardShareOrVideoCfg": [
+    [
+      [
+        1,
+        4,
+        0,
+        3,
+        1
+      ],
+      [
+        5,
+        999,
+        0,
+        2,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        4,
+        0,
+        3,
+        1
+      ],
+      [
+        5,
+        999,
+        0,
+        2,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        6,
+        0,
+        2,
+        2
+      ],
+      [
+        7,
+        8,
+        1,
+        1,
+        1
+      ],
+      [
+        9,
+        999,
+        1,
+        2,
+        1
+      ]
+    ]
+  ],
+  "openBoxShareOrVideoCfg": [
+    [
+      [
+        1,
+        4,
+        0,
+        3,
+        1
+      ],
+      [
+        5,
+        999,
+        0,
+        2,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        4,
+        0,
+        3,
+        1
+      ],
+      [
+        5,
+        999,
+        0,
+        2,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        6,
+        0,
+        2,
+        2
+      ],
+      [
+        7,
+        8,
+        1,
+        1,
+        1
+      ],
+      [
+        9,
+        999,
+        1,
+        2,
+        1
+      ]
+    ]
+  ],
+  "boxMoreAwardShareOrVideoCfg": [
+    [
+      [
+        1,
+        999,
+        0,
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        999,
+        0,
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        999,
+        0,
+        1,
+        0
+      ]
+    ]
+  ],
+  "playerScoreCfg": [
+    [
+      0,
+      99
+    ],
+    [
+      100,
+      199
+    ],
+    [
+      200,
+      301
+    ]
+  ],
+  "playerScoreShareOrVideoCfg": [
+    [
+      [
+        1,
+        3,
+        16
+      ],
+      [
+        4,
+        8,
+        8
+      ],
+      [
+        9,
+        999,
+        16
+      ]
+    ],
+    [
+      [
+        1,
+        3,
+        16
+      ],
+      [
+        4,
+        8,
+        8
+      ],
+      [
+        9,
+        999,
+        16
+      ]
+    ],
+    [
+      [
+        1,
+        3,
+        16
+      ],
+      [
+        4,
+        8,
+        8
+      ],
+      [
+        9,
+        999,
+        16
+      ]
+    ]
+  ],
+  "shareId": {
+    "AddRevenue": 2,
+    "GainCoin": 3,
+    "doubleDailyCheck": 4,
+    "resultDoubleAward": 5,
+    "moreMultipleAward": 6,
+    "offLineEarnings": 7,
+    "freeCoin": 8,
+    "ShopPropShare": 9,
+    "DoubleCoinOrFreeTicket": 10,
+    "AddLotteryCount": 11,
+    "Revive": 13,
+    "FreeLevelUp": 14,
+    "Kongtou": 15,
+    "Ticket": 19,
+    "StartAcc": 20,
+    "BelleModel": 21,
+    "gainStamina": 22,
+    "revive": 23
+  },
+  "activeShareOrVideoCfg": [],
+  "addFreeType": [
+    [
+      [
+        1,
+        999,
+        8
+      ]
+    ],
+    [
+      [
+        1,
+        999,
+        8
+      ]
+    ],
+    [
+      [
+        1,
+        999,
+        8
+      ]
+    ]
+  ],
+  "beOfflineCfg": [
+    {
+      "min_time": 0,
+      "max_time": 2,
+      "revenue_multiple": 1
+    }
+  ],
+  "initLotteryCount": 1,
+  "addLotteryCount": 1,
+  "gatherLotteryProFinishAddTimes": 1,
+  "KongtouScoreShareOrVideoCfg": [
+    [
+      [
+        1,
+        999,
+        8
+      ]
+    ],
+    [
+      [
+        1,
+        999,
+        8
+      ]
+    ],
+    [
+      [
+        1,
+        999,
+        8
+      ]
+    ]
+  ],
+  "defaultShare": {
+    "url": "https://szh5.nalrer.cn/szmahjong/WXGames/Shangc/share/mv15.jpg",
+    "title": "你能找出二张图片的不同么？",
+    "pointId": "2758",
+    "schemeId": "56106233"
+  },
+  "listActiveShare": [],
+  "extraAwardDiamondCfg": [
+    [
+      1,
+      999,
+      8
+    ]
+  ],
+  "unlockDiamondLevel": 4,
+  "resultWinAwardBase": 0.2,
+  "doubleAwardReducePro": 0.25,
+  "resultMoreAwardCfg": [
+    {
+      "awardType": 2,
+      "probability": 0.5
+    },
+    {
+      "awardType": 3,
+      "probability": 0.3
+    },
+    {
+      "awardType": 5,
+      "probability": 0.2
+    }
+  ],
+  "resuleThreeAwardShowTimes": 3,
+  "listFakeShareWaitTime": {},
+  "uiName": {
+    "UI_Result": 0,
+    "UI_Game": 1,
+    "UI_Loading": 2,
+    "UI_Tip": 3,
+    "UI_Stamina": 4,
+    "UI_MainPage": 6,
+    "UI_AddRevenueDialog": 7,
+    "UI_RankDialog": 8,
+    "UI_ShopDialog": 9,
+    "UI_DailyCheck": 10,
+    "UI_CommonPage": 11,
+    "UI_ShowSelect": 12,
+    "UI_BeOffline": 13,
+    "UI_GainDiamond": 14,
+    "UI_GainCar": 15,
+    "UI_Lottery": 16,
+    "UI_CollectDialog": 17,
+    "UI_GZHAward": 19,
+    "UI_FreeLevelUp": 22,
+    "UI_SupplyDialog": 25,
+    "UI_EveryGift": 26,
+    "UI_BoxDialog": 31,
+    "UI_BoxReward": 32,
+    "UI_AchievementDialog": 34,
+    "UI_WelfareDialog": 35,
+    "UI_KeFuDialog": 36,
+    "UI_XiaoChengXuDialog": 37,
+    "UI_FloatWindow": 39
+  },
+  "listShowBannerUI": [
+    0,
+    4,
+    7,
+    8,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17,
+    19,
+    25,
+    26,
+    31,
+    32,
+    34,
+    35,
+    36,
+    37,
+    39
+  ],
+  "resultBtnVideoPos": 0,
+  "BSGFakeShareWaitTime": 4,
+  "shieldCity": [
+    "北京",
+    "上海",
+    "广州",
+    "深圳"
+  ],
+  "shareDelayTime": 0.1,
+  "comDialogShieldCity": [
+    "北京",
+    "上海",
+    "广州",
+    "深圳"
+  ],
+  "comDialogBannerShowTimes": 0,
+  "noBSGComDialogBannerShowTimes": 0,
+  "failGoldRate": 0.5,
+  "freeLevelUp": [
+    {
+      "minus_level": 0,
+      "freelevelup_chance": 1500,
+      "plus_level": 1,
+      "diamond": 50
+    },
+    {
+      "minus_level": 1,
+      "freelevelup_chance": 1500,
+      "plus_level": 2,
+      "diamond": 50
+    },
+    {
+      "minus_level": 2,
+      "freelevelup_chance": 3500,
+      "plus_level": 2,
+      "diamond": 50
+    },
+    {
+      "minus_level": 3,
+      "freelevelup_chance": 3500,
+      "plus_level": 2,
+      "diamond": 50
+    },
+    {
+      "minus_level": 4,
+      "freelevelup_chance": 7000,
+      "plus_level": 3,
+      "diamond": 50
+    },
+    {
+      "minus_level": 5,
+      "freelevelup_chance": 7000,
+      "plus_level": 4,
+      "diamond": 50
+    }
+  ],
+  "shareSuccessRate": 0.5,
+  "listForbidShareSuccessDelay": [
+    "revive",
+    "once_show",
+    "Box_single",
+    "kongtou"
+  ],
+  "resultAwardReduceLevel": 30,
+  "resultAwardReduceCoe": 0.01,
+  "resultAwardMinCoe": 0.02,
+  "minAwardCoinNum": 2000,
+  "SineleJcdlShowArray": [
+    [
+      8
+    ],
+    [
+      9
+    ],
+    [
+      7,
+      0,
+      1,
+      3,
+      2,
+      4,
+      5,
+      6
+    ]
+  ],
+  "RightJcdlShow": [
+    [
+      4,
+      8,
+      1,
+      2
+    ],
+    [
+      3,
+      5
+    ]
+  ],
+  "SineleJcdlShowTime": 3,
+  "jcdlAniDelayTime": 5,
+  "jcdlUiViewName": {
+    "UI_Result": 0,
+    "UI_AddRevenueDialog": 7,
+    "UI_RankDialog": 8,
+    "UI_ShopDialog": 9,
+    "UI_DailyCheck": 10,
+    "UI_CommonPage": 11,
+    "UI_ShowSelect": 12,
+    "UI_BeOffline": 13,
+    "UI_GainDiamond": 14,
+    "UI_GainCar": 15,
+    "UI_Lottery": 16,
+    "UI_CollectDialog": 17,
+    "UI_GongZhongHao": 18,
+    "UI_Revive": 19,
+    "UI_Supply": 20,
+    "UI_FreeLevelUp": 22,
+    "UI_BelleModel": 24
+  },
+  "noBannerShowJcdlCfg": [
+    0
+  ],
+  "getSupplyPlayGameTimes": 3,
+  "getSupplyOnlineTime": 60,
+  "supplyGunLv": [
+    7,
+    7
+  ],
+  "supplyCarNumRange": [
+    8,
+    10
+  ],
+  "everyGiftShareOrVideoCfg": [
+    [
+      0,
+      100,
+      16
+    ],
+    [
+      0,
+      150,
+      16
+    ],
+    [
+      0,
+      200,
+      16
+    ],
+    [
+      0,
+      250,
+      16
+    ],
+    [
+      0,
+      300,
+      16
+    ]
+  ],
+  "recommendDiamondBase": 0.2,
+  "diamondAddNum": 5,
+  "bannerChangeCount": 12,
+  "supplyCarBoxOutsideGarageUnlockCarLevel": 51,
+  "CoinAwardMultiple": 5,
+  "boxRewardInfo": {
+    "step": 4,
+    "rewardShowType": [
+      0,
+      2,
+      0,
+      1
+    ],
+    "coinMultiple": 60,
+    "energyCount": 3
+  },
+  "isOpenFirstWinBox": true,
+  "levelTestSwitch": 0,
+  "topFiveLevelResCfg": [
+    2506,
+    2507,
+    2508,
+    2509,
+    2510
+  ],
+  "collecTimeSwitch": 0,
+  "dropBoxLevel": [
+    2
+  ],
+  "collectTimeLimit": 40,
+  "collectTimeMultipe": 0.015,
+  "autoGuideInterval": 5,
+  "gzhStaminaNum": 8,
+  "gzhDiamondNum": 2000,
+  "needLevelGameTime": 45,
+  "attentionGZHFailTimes": 2,
+  "gzhSchemeType": 2,
+  "guideEnterGameTime": 5,
+  "bannerRefreshTime": 300,
+  "LevelFreshJcdlNum": 1,
+  "LevelFreshJcdlList": [
+    3,
+    6,
+    7,
+    8,
+    9,
+    0,
+    1,
+    2,
+    4,
+    5
+  ],
+  "shareFailMessages": [
+    "不要频繁分享到同一个群，换个群试试",
+    "分享失败，请分享到不同的群"
+  ],
+  "shareFailTimesList": [
+    5,
+    4
+  ],
+  "shareFailStrategy": 2,
+  "shareFailTimeConstant": 3.8,
+  "resultAutoJcdlList": [
+    1,
+    2,
+    4,
+    5
+  ],
+  "resultOriginJcdlList": [
+    3,
+    8,
+    7,
+    9,
+    6,
+    0
+  ],
+  "resultJcdlNextTime": 4000,
+  "LuckyAutoJcdlList": [
+    6,
+    0,
+    1,
+    2,
+    4,
+    5
+  ],
+  "LuckyOriginJcdlList": [
+    3,
+    8,
+    7,
+    9
+  ],
+  "LuckyJcdlNextTime": 4000,
+  "achievementLevelPassCfg": [
+    {
+      "level": 3,
+      "image": "achieve_1.png",
+      "label": "找茬萌新",
+      "reward": 1,
+      "count": 2
+    },
+    {
+      "level": 10,
+      "image": "achieve_2.png",
+      "label": "找茬菜鸟",
+      "reward": 1,
+      "count": 2
+    },
+    {
+      "level": 20,
+      "image": "achieve_3.png",
+      "label": "找茬入门",
+      "reward": 1,
+      "count": 2
+    },
+    {
+      "level": 50,
+      "image": "achieve_4.png",
+      "label": "找茬咸鱼",
+      "reward": 1,
+      "count": 2
+    },
+    {
+      "level": 100,
+      "image": "achieve_5.png",
+      "label": "找茬新手",
+      "reward": 1,
+      "count": 2
+    },
+    {
+      "level": 200,
+      "image": "achieve_6.png",
+      "label": "找茬老将",
+      "reward": 1,
+      "count": 2
+    },
+    {
+      "level": 500,
+      "image": "achieve_7.png",
+      "label": "找茬高手",
+      "reward": 1,
+      "count": 2
+    },
+    {
+      "level": 1000,
+      "image": "achieve_8.png",
+      "label": "找茬宗师",
+      "reward": 1,
+      "count": 2
+    }
+  ],
+  "achievementWinningStreakCfg": [
+    {
+      "streak": 6,
+      "image": "achieve_2.png",
+      "label": "连胜6场",
+      "reward": 1,
+      "count": 3
+    },
+    {
+      "streak": 15,
+      "image": "achieve_4.png",
+      "label": "连胜15场",
+      "reward": 1,
+      "count": 3
+    },
+    {
+      "streak": 25,
+      "image": "achieve_5.png",
+      "label": "连胜25场",
+      "reward": 1,
+      "count": 3
+    },
+    {
+      "streak": 35,
+      "image": "achieve_8.png",
+      "label": "连胜35场",
+      "reward": 1,
+      "count": 3
+    },
+    {
+      "streak": 45,
+      "image": "achieve_8.png",
+      "label": "连胜45场",
+      "reward": 1,
+      "count": 3
+    },
+    {
+      "streak": 55,
+      "image": "achieve_8.png",
+      "label": "连胜55场",
+      "reward": 1,
+      "count": 3
+    },
+    {
+      "streak": 65,
+      "image": "achieve_8.png",
+      "label": "连胜65场",
+      "reward": 1,
+      "count": 3
+    },
+    {
+      "streak": 75,
+      "image": "achieve_8.png",
+      "label": "连胜75场",
+      "reward": 1,
+      "count": 3
+    },
+    {
+      "streak": 85,
+      "image": "achieve_8.png",
+      "label": "连胜85场",
+      "reward": 1,
+      "count": 3
+    },
+    {
+      "streak": 95,
+      "image": "achieve_8.png",
+      "label": "连胜95场",
+      "reward": 1,
+      "count": 3
+    },
+    {
+      "streak": 105,
+      "image": "achieve_8.png",
+      "label": "连胜105场",
+      "reward": 1,
+      "count": 3
+    },
+    {
+      "streak": 155,
+      "image": "achieve_8.png",
+      "label": "连胜155场",
+      "reward": 1,
+      "count": 3
+    },
+    {
+      "streak": 205,
+      "image": "achieve_8.png",
+      "label": "连胜205场",
+      "reward": 1,
+      "count": 3
+    },
+    {
+      "streak": 255,
+      "image": "achieve_8.png",
+      "label": "连胜255场",
+      "reward": 1,
+      "count": 3
+    },
+    {
+      "streak": 305,
+      "image": "achieve_8.png",
+      "label": "连胜305场",
+      "reward": 1,
+      "count": 3
+    },
+    {
+      "streak": 355,
+      "image": "achieve_8.png",
+      "label": "连胜355场",
+      "reward": 1,
+      "count": 3
+    },
+    {
+      "streak": 405,
+      "image": "achieve_8.png",
+      "label": "连胜405场",
+      "reward": 1,
+      "count": 3
+    },
+    {
+      "streak": 505,
+      "image": "achieve_8.png",
+      "label": "连胜505场",
+      "reward": 1,
+      "count": 3
+    },
+    {
+      "streak": 1000,
+      "image": "achieve_8.png",
+      "label": "连胜1000场",
+      "reward": 1,
+      "count": 3
+    },
+    {
+      "streak": 1500,
+      "image": "achieve_8.png",
+      "label": "连胜1500场",
+      "reward": 1,
+      "count": 3
+    },
+    {
+      "streak": 2000,
+      "image": "achieve_8.png",
+      "label": "连胜2000场",
+      "reward": 1,
+      "count": 3
+    }
+  ],
+  "AchievementAwardShareOrVideoCfg": [
+    [
+      [
+        1,
+        3,
+        16
+      ],
+      [
+        4,
+        8,
+        8
+      ],
+      [
+        9,
+        999,
+        16
+      ]
+    ],
+    [
+      [
+        1,
+        3,
+        16
+      ],
+      [
+        4,
+        8,
+        8
+      ],
+      [
+        9,
+        999,
+        16
+      ]
+    ],
+    [
+      [
+        1,
+        3,
+        16
+      ],
+      [
+        4,
+        8,
+        8
+      ],
+      [
+        9,
+        999,
+        16
+      ]
+    ]
+  ],
+  "levelResultDialogStrategy": 1,
+  "levelResultDialogsList": [
+    [],
+    [
+      2,
+      {
+        "level": 2,
+        "image": "achieve_1.png",
+        "label": "找茬萌新",
+        "reward": 1,
+        "count": 2
+      }
+    ],
+    [
+      4
+    ],
+    [
+      3
+    ],
+    [
+      5
+    ],
+    [
+      1,
+      {
+        "streak": 6,
+        "image": "achieve_2.png",
+        "label": "连胜6场",
+        "reward": 1,
+        "count": 3
+      }
+    ],
+    [],
+    [
+      4
+    ],
+    [
+      3
+    ],
+    [
+      2,
+      {
+        "level": 10,
+        "image": "achieve_2.png",
+        "label": "找茬菜鸟",
+        "reward": 1,
+        "count": 2
+      }
+    ],
+    [],
+    [
+      6
+    ],
+    [
+      4
+    ],
+    [],
+    [
+      3
+    ],
+    [
+      1,
+      {
+        "streak": 6,
+        "image": "achieve_4.png",
+        "label": "连胜6场",
+        "reward": 1,
+        "count": 3
+      }
+    ],
+    [
+      4
+    ],
+    [
+      7
+    ],
+    [
+      3
+    ],
+    [
+      2,
+      {
+        "level": 20,
+        "image": "achieve_3.png",
+        "label": "找茬入门",
+        "reward": 1,
+        "count": 2
+      }
+    ]
+  ],
+  "resultManBtnSwitch": 1,
+  "gameResultMultiple": 18,
+  "NoneTimeCurTrackId": 1,
+  "InviteBoxCycleNum": 3,
+  "InviteByBoxAward": [
+    {
+      "Type": "Diamond",
+      "Count": 300
+    },
+    {
+      "Type": "Stamina",
+      "Count": 5
+    }
+  ],
+  "GiftRankDiamondAward": 100,
+  "GiftRankStaminaAward": 1,
+  "RankGiftAwardLimit": {
+    "2": 5,
+    "3": 5
+  }
+}

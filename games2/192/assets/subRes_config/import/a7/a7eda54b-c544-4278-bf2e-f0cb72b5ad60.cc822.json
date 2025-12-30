@@ -1,0 +1,76 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "HouseConfig",
+      [
+        {
+          "id": 1,
+          "name": "咖啡屋",
+          "icon": "bxwl_tgw27",
+          "wzicon": "bxwl_tgw27_1",
+          "gold": "100|300|400",
+          "tag": "coffe_house"
+        },
+        {
+          "id": 2,
+          "name": "奶茶屋",
+          "icon": "bxwl_tgw15",
+          "wzicon": "bxwl_tgw15_1",
+          "gold": "400|600|800",
+          "tag": "milk_house"
+        },
+        {
+          "id": 3,
+          "name": "甜筒屋",
+          "icon": "bxwl_tgw10",
+          "wzicon": "bxwl_tgw10_1",
+          "gold": "600|1000|1400",
+          "tag": "candy_house"
+        },
+        {
+          "id": 4,
+          "name": "菜菜超市",
+          "icon": "bxwl_tgw32",
+          "wzicon": "bxwl_tgw32_1",
+          "gold": "1000|1400|1800",
+          "tag": "market"
+        },
+        {
+          "id": 5,
+          "name": "咕呱别墅",
+          "icon": "bxwl_tgw20",
+          "wzicon": "bxwl_tgw20_1",
+          "gold": "1400|1800|2600",
+          "tag": "gugua_house"
+        }
+      ]
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

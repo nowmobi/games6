@@ -1,0 +1,89 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "gold_1",
+      "texture": "1d2c511a4",
+      "rect": [
+        3,
+        153,
+        63,
+        69
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        63,
+        69
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "flycoin",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "flycoin",
+      "_level": 1,
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 1
+          },
+          "_spriteFrame": {
+            "__uuid__": "2129b36WFBBYklrpneCufM"
+          }
+        },
+        {
+          "__type__": "cc.Animation",
+          "node": {
+            "__id__": 1
+          },
+          "_defaultClip": {
+            "__uuid__": "2ehHBKeEhMy4T7C5S2iXfZ"
+          },
+          "_clips": [
+            {
+              "__uuid__": "2ehHBKeEhMy4T7C5S2iXfZ"
+            }
+          ]
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "8aMSJR7zdJoJtenWrVrPm+"
+        },
+        "fileId": "4639UL3VxG7aWYNQ4qX81F"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 55,
+        "height": 55
+      },
+      "_scale": {
+        "__type__": "cc.Vec3",
+        "x": 0.6,
+        "y": 0.6,
+        "z": 1
+      }
+    }
+  ]
+]

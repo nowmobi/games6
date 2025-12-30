@@ -1,0 +1,611 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "towers-upgrades",
+      [
+        {
+          "type": "guntower",
+          "progression": [
+            {
+              "id": "guntower",
+              "energyCost": 2,
+              "energyValue": 1,
+              "damage": 1,
+              "range": 1.7,
+              "frequency": 2,
+              "ccTargets": 1,
+              "special1": false
+            },
+            {
+              "id": "guntower-plus",
+              "energyCost": 4,
+              "energyValue": 2,
+              "damage": 2,
+              "range": 1.9,
+              "frequency": 3,
+              "ccTargets": 1,
+              "special1": false
+            },
+            {
+              "id": "0.mg-2",
+              "energyCost": 5,
+              "energyValue": 4,
+              "damage": 2.2,
+              "range": 2.2,
+              "frequency": 6,
+              "ccTargets": 1,
+              "special1": false
+            },
+            {
+              "id": "0.mg-2-plus",
+              "energyCost": 6,
+              "energyValue": 5,
+              "damage": 2.5,
+              "range": 2.4,
+              "frequency": 8,
+              "ccTargets": 1,
+              "special1": false
+            },
+            {
+              "id": "0.mg-4",
+              "energyCost": 8,
+              "energyValue": 7,
+              "damage": 2.5,
+              "range": 2.7,
+              "frequency": 12,
+              "ccTargets": 1,
+              "special1": false
+            },
+            {
+              "id": "0.mg-4-plus",
+              "energyCost": 9,
+              "energyValue": 8,
+              "damage": 2.5,
+              "range": 3,
+              "frequency": 16,
+              "ccTargets": 1,
+              "special1": false
+            },
+            {
+              "id": "3.mg-v",
+              "energyCost": 8,
+              "energyValue": 7,
+              "damage": 2.2,
+              "range": 2.5,
+              "frequency": 5,
+              "ccTargets": 3,
+              "special1": false
+            },
+            {
+              "id": "3.mg-v-plus",
+              "energyCost": 9,
+              "energyValue": 8,
+              "damage": 2,
+              "range": 2.7,
+              "frequency": 7,
+              "ccTargets": 3,
+              "special1": false
+            },
+            {
+              "id": "bullz-i",
+              "energyCost": 5,
+              "energyValue": 4,
+              "damage": 26,
+              "range": 4,
+              "frequency": 0.5,
+              "ccTargets": 1,
+              "special1": false
+            },
+            {
+              "id": "bullz-i-plus",
+              "energyCost": 6,
+              "energyValue": 5,
+              "damage": 40,
+              "range": 5,
+              "frequency": 0.5,
+              "ccTargets": 1,
+              "special1": false
+            },
+            {
+              "id": "01.hko",
+              "energyCost": 8,
+              "energyValue": 7,
+              "damage": 100,
+              "range": 7,
+              "frequency": 0.3,
+              "ccTargets": 1,
+              "special1": false
+            },
+            {
+              "id": "01.hko-plus",
+              "energyCost": 9,
+              "energyValue": 8,
+              "damage": 150,
+              "range": 8,
+              "frequency": 0.3,
+              "ccTargets": 1,
+              "special1": false
+            },
+            {
+              "id": "tunneller",
+              "energyCost": 8,
+              "energyValue": 7,
+              "damage": 50,
+              "range": 6,
+              "frequency": 0.3,
+              "ccTargets": 1,
+              "special1": true
+            },
+            {
+              "id": "tunneller-plus",
+              "energyCost": 9,
+              "energyValue": 8,
+              "damage": 70,
+              "range": 7,
+              "frequency": 0.4,
+              "ccTargets": 1,
+              "special1": true
+            }
+          ]
+        },
+        {
+          "type": "cannontower",
+          "progression": [
+            {
+              "id": "cannontower",
+              "energyCost": 3,
+              "energyValue": 1,
+              "damage": 1.5,
+              "frequency": 0.7,
+              "ccTargets": 1,
+              "explosionRange": 0.4,
+              "burn": false,
+              "range": {
+                "min": 0,
+                "max": 1.4
+              }
+            },
+            {
+              "id": "cannontower-plus",
+              "energyCost": 4,
+              "energyValue": 2,
+              "damage": 3.5,
+              "frequency": 0.8,
+              "ccTargets": 1,
+              "explosionRange": 0.5,
+              "burn": false,
+              "range": {
+                "min": 0,
+                "max": 1.5
+              }
+            },
+            {
+              "id": "smash.3r",
+              "energyCost": 5,
+              "energyValue": 4,
+              "damage": 6,
+              "frequency": 1,
+              "ccTargets": 1,
+              "explosionRange": 0.7,
+              "burn": false,
+              "range": {
+                "min": 0,
+                "max": 1.6
+              }
+            },
+            {
+              "id": "smash.3r-plus",
+              "energyCost": 6,
+              "energyValue": 5,
+              "damage": 10,
+              "frequency": 1,
+              "ccTargets": 1,
+              "explosionRange": 0.9,
+              "burn": false,
+              "range": {
+                "min": 0,
+                "max": 1.7
+              }
+            },
+            {
+              "id": "s.4r",
+              "energyCost": 8,
+              "energyValue": 7,
+              "damage": 20,
+              "frequency": 1,
+              "ccTargets": 1,
+              "explosionRange": 1,
+              "burn": false,
+              "range": {
+                "min": 0,
+                "max": 1.8
+              }
+            },
+            {
+              "id": "s.4r-plus",
+              "energyCost": 9,
+              "energyValue": 8,
+              "damage": 40,
+              "frequency": 1,
+              "ccTargets": 1,
+              "explosionRange": 1,
+              "burn": false,
+              "range": {
+                "min": 0,
+                "max": 1.9
+              }
+            },
+            {
+              "id": "h3ll",
+              "energyCost": 8,
+              "energyValue": 7,
+              "damage": 50,
+              "frequency": 0.4,
+              "ccTargets": 1,
+              "explosionRange": 1,
+              "burn": true,
+              "range": {
+                "min": 0,
+                "max": 1.7
+              }
+            },
+            {
+              "id": "h3ll-plus",
+              "energyCost": 9,
+              "energyValue": 8,
+              "damage": 80,
+              "frequency": 0.4,
+              "ccTargets": 1,
+              "explosionRange": 1,
+              "burn": true,
+              "range": {
+                "min": 0,
+                "max": 1.7
+              }
+            },
+            {
+              "id": "comet-t",
+              "energyCost": 5,
+              "energyValue": 4,
+              "damage": 12,
+              "frequency": 0.5,
+              "ccTargets": 1,
+              "explosionRange": 0.7,
+              "burn": false,
+              "range": {
+                "min": 1.5,
+                "max": 4
+              }
+            },
+            {
+              "id": "comet-t-plus",
+              "energyCost": 6,
+              "energyValue": 5,
+              "damage": 18,
+              "frequency": 0.5,
+              "ccTargets": 1,
+              "explosionRange": 0.9,
+              "burn": false,
+              "range": {
+                "min": 1.5,
+                "max": 5
+              }
+            },
+            {
+              "id": "meteor-u",
+              "energyCost": 8,
+              "energyValue": 7,
+              "damage": 30,
+              "frequency": 0.6,
+              "ccTargets": 1,
+              "explosionRange": 1.2,
+              "burn": false,
+              "range": {
+                "min": 2,
+                "max": 7
+              }
+            },
+            {
+              "id": "meteor-u-plus",
+              "energyCost": 9,
+              "energyValue": 8,
+              "damage": 60,
+              "frequency": 0.7,
+              "ccTargets": 1,
+              "explosionRange": 1.5,
+              "burn": false,
+              "range": {
+                "min": 2,
+                "max": 8
+              }
+            },
+            {
+              "id": "starfall",
+              "energyCost": 8,
+              "energyValue": 7,
+              "damage": 25,
+              "frequency": 0.6,
+              "ccTargets": 1,
+              "explosionRange": 3,
+              "burn": false,
+              "range": {
+                "min": 2,
+                "max": 7
+              }
+            },
+            {
+              "id": "starfall-plus",
+              "energyCost": 9,
+              "energyValue": 8,
+              "damage": 50,
+              "frequency": 0.7,
+              "ccTargets": 1,
+              "explosionRange": 4,
+              "burn": false,
+              "range": {
+                "min": 2,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "lasertower",
+          "progression": [
+            {
+              "id": "lasertower",
+              "energyCost": 4,
+              "energyValue": 2,
+              "damage": 2,
+              "range": 2,
+              "frequency": 1,
+              "damageModifier": 0.7,
+              "slow": 0,
+              "singleTarget": true,
+              "stun": false,
+              "chain": {
+                "targets": 0,
+                "distance": 0
+              }
+            },
+            {
+              "id": "lasertower-plus",
+              "energyCost": 5,
+              "energyValue": 3,
+              "damage": 4.5,
+              "range": 2.2,
+              "frequency": 1,
+              "damageModifier": 1.2,
+              "slow": 0,
+              "singleTarget": true,
+              "stun": false,
+              "chain": {
+                "targets": 0,
+                "distance": 0
+              }
+            },
+            {
+              "id": "pulsar",
+              "energyCost": 6,
+              "energyValue": 4,
+              "damage": 0.5,
+              "range": 1.4,
+              "frequency": 1,
+              "damageModifier": 0,
+              "slow": 0.4,
+              "singleTarget": false,
+              "stun": false,
+              "chain": {
+                "targets": 0,
+                "distance": 0
+              }
+            },
+            {
+              "id": "pulsar-plus",
+              "energyCost": 7,
+              "energyValue": 5,
+              "damage": 1,
+              "range": 1.6,
+              "frequency": 1,
+              "damageModifier": 0,
+              "slow": 0.45,
+              "singleTarget": false,
+              "stun": false,
+              "chain": {
+                "targets": 0,
+                "distance": 0
+              }
+            },
+            {
+              "id": "puls.3r",
+              "energyCost": 8,
+              "energyValue": 7,
+              "damage": 2,
+              "range": 2,
+              "frequency": 1,
+              "damageModifier": 0,
+              "slow": 0.55,
+              "singleTarget": false,
+              "stun": false,
+              "chain": {
+                "targets": 0,
+                "distance": 0
+              }
+            },
+            {
+              "id": "puls.3r-plus",
+              "energyCost": 9,
+              "energyValue": 8,
+              "damage": 4,
+              "range": 2.5,
+              "frequency": 1,
+              "damageModifier": 0,
+              "slow": 0.6,
+              "singleTarget": false,
+              "stun": false,
+              "chain": {
+                "targets": 0,
+                "distance": 0
+              }
+            },
+            {
+              "id": "thunder-b",
+              "energyCost": 8,
+              "energyValue": 7,
+              "damage": 2,
+              "range": 1.6,
+              "frequency": 1,
+              "damageModifier": 0,
+              "slow": 0.45,
+              "singleTarget": false,
+              "stun": true,
+              "chain": {
+                "targets": 0,
+                "distance": 0
+              }
+            },
+            {
+              "id": "thunder-b-plus",
+              "energyCost": 9,
+              "energyValue": 8,
+              "damage": 4,
+              "range": 2,
+              "frequency": 1,
+              "damageModifier": 0,
+              "slow": 0.5,
+              "singleTarget": false,
+              "stun": true,
+              "chain": {
+                "targets": 0,
+                "distance": 0
+              }
+            },
+            {
+              "id": "plasma-q",
+              "energyCost": 6,
+              "energyValue": 4,
+              "damage": 8,
+              "range": 2.4,
+              "frequency": 1,
+              "damageModifier": 2.7,
+              "slow": 0,
+              "singleTarget": true,
+              "stun": false,
+              "chain": {
+                "targets": 0,
+                "distance": 0
+              }
+            },
+            {
+              "id": "plasma-q-plus",
+              "energyCost": 7,
+              "energyValue": 5,
+              "damage": 11.5,
+              "range": 2.6,
+              "frequency": 1,
+              "damageModifier": 3.8,
+              "slow": 0,
+              "singleTarget": true,
+              "stun": false,
+              "chain": {
+                "targets": 0,
+                "distance": 0
+              }
+            },
+            {
+              "id": "omega bean",
+              "energyCost": 8,
+              "energyValue": 7,
+              "damage": 16.5,
+              "range": 2.8,
+              "frequency": 1,
+              "damageModifier": 5.5,
+              "slow": 0.2,
+              "singleTarget": true,
+              "stun": false,
+              "chain": {
+                "targets": 0,
+                "distance": 0
+              }
+            },
+            {
+              "id": "omega bean-plus",
+              "energyCost": 9,
+              "energyValue": 8,
+              "damage": 21,
+              "range": 3,
+              "frequency": 1,
+              "damageModifier": 7,
+              "slow": 0.2,
+              "singleTarget": true,
+              "stun": false,
+              "chain": {
+                "targets": 0,
+                "distance": 0
+              }
+            },
+            {
+              "id": "electron discharger",
+              "energyCost": 8,
+              "energyValue": 7,
+              "damage": 35,
+              "range": 4,
+              "frequency": 1,
+              "damageModifier": 0,
+              "slow": 0,
+              "singleTarget": true,
+              "stun": true,
+              "chain": {
+                "targets": 0,
+                "distance": 0
+              }
+            },
+            {
+              "id": "electron discharger-plus",
+              "energyCost": 9,
+              "energyValue": 8,
+              "damage": 45,
+              "range": 4,
+              "frequency": 1,
+              "damageModifier": 0,
+              "slow": 0,
+              "singleTarget": true,
+              "stun": true,
+              "chain": {
+                "targets": 0,
+                "distance": 0
+              }
+            }
+          ]
+        }
+      ]
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

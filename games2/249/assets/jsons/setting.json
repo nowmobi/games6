@@ -1,0 +1,58 @@
+{
+  "shop": {
+    "price": {
+      "first": 2000,
+      "normal": 6000
+    }
+  },
+  "stages": [
+    {
+      "carCount": [
+        4,
+        8
+      ],
+      "time": 20,
+      "score": {
+        "carsMultiply": 100,
+        "timeMultiply": 100
+      },
+      "earnCoinMultiply": 0.1
+    },
+    {
+      "carCount": [
+        6,
+        12
+      ],
+      "time": 25,
+      "score": {
+        "carsMultiply": 100,
+        "timeMultiply": 100
+      },
+      "earnCoinMultiply": 0.1
+    },
+    {
+      "carCount": [
+        10,
+        16
+      ],
+      "time": 30,
+      "score": {
+        "carsMultiply": 100,
+        "timeMultiply": 100
+      },
+      "earnCoinMultiply": 0.1
+    },
+    {
+      "carCount": [
+        6,
+        12
+      ],
+      "time": 40,
+      "score": {
+        "carsMultiply": 100,
+        "timeMultiply": 100
+      },
+      "earnCoinMultiply": 0.1
+    }
+  ]
+}

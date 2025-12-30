@@ -1,0 +1,64 @@
+[
+  {
+    "__type__": "cc.AudioClip",
+    "_name": "tap",
+    "_native": ".wav"
+  },
+  {
+    "__type__": "cc.AudioClip",
+    "_name": "bjyy",
+    "_native": ".mp3"
+  },
+  {
+    "__type__": "cc.AudioClip",
+    "_name": "cannon1",
+    "_native": ".wav"
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "ditu",
+      "texture": "b4FGhd5lFMFpjZT/RZkTy/",
+      "rect": [
+        0,
+        0,
+        750,
+        1334
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        750,
+        1334
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AudioClip",
+    "_name": "button",
+    "_native": ".wav"
+  },
+  {
+    "__type__": "cc.AudioClip",
+    "_name": "box_closed",
+    "_native": ".wav"
+  },
+  {
+    "__type__": "cc.AudioClip",
+    "_name": "jbdl",
+    "_native": ".wav"
+  },
+  {
+    "__type__": "cc.AudioClip",
+    "_name": "jbhs",
+    "_native": ".wav"
+  }
+]

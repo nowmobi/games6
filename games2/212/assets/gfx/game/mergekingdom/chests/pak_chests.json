@@ -1,0 +1,194 @@
+{
+  "frames": {
+    "chest_common_1": {
+      "frame": {
+        "x": 607,
+        "y": 297,
+        "w": 270,
+        "h": 231
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 270,
+        "h": 231
+      },
+      "sourceSize": {
+        "w": 270,
+        "h": 231
+      }
+    },
+    "chest_common_2": {
+      "frame": {
+        "x": 607,
+        "y": 0,
+        "w": 271,
+        "h": 296
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 296
+      },
+      "sourceSize": {
+        "w": 271,
+        "h": 296
+      }
+    },
+    "chest_common_3": {
+      "frame": {
+        "x": 0,
+        "y": 436,
+        "w": 351,
+        "h": 353
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 351,
+        "h": 353
+      },
+      "sourceSize": {
+        "w": 351,
+        "h": 353
+      }
+    },
+    "chest_uncommon_1": {
+      "frame": {
+        "x": 607,
+        "y": 529,
+        "w": 238,
+        "h": 224
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 238,
+        "h": 224
+      },
+      "sourceSize": {
+        "w": 238,
+        "h": 224
+      }
+    },
+    "chest_uncommon_2": {
+      "frame": {
+        "x": 879,
+        "y": 426,
+        "w": 278,
+        "h": 328
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 278,
+        "h": 328
+      },
+      "sourceSize": {
+        "w": 278,
+        "h": 328
+      }
+    },
+    "chest_uncommon_3": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 404,
+        "h": 435
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 404,
+        "h": 435
+      },
+      "sourceSize": {
+        "w": 404,
+        "h": 435
+      }
+    },
+    "seed_sack_2": {
+      "frame": {
+        "x": 352,
+        "y": 436,
+        "w": 227,
+        "h": 323
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 227,
+        "h": 323
+      },
+      "sourceSize": {
+        "w": 227,
+        "h": 323
+      }
+    },
+    "seed_sack_1": {
+      "frame": {
+        "x": 405,
+        "y": 0,
+        "w": 201,
+        "h": 246
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 201,
+        "h": 246
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 246
+      }
+    },
+    "seed_sack_3": {
+      "frame": {
+        "x": 879,
+        "y": 0,
+        "w": 327,
+        "h": 425
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 327,
+        "h": 425
+      },
+      "sourceSize": {
+        "w": 327,
+        "h": 425
+      }
+    }
+  },
+  "meta": {
+    "app": "https://www.leshylabs.com/apps/sstool/",
+    "version": "Leshy SpriteSheet Tool v0.8.4",
+    "image": "pak_chests.png",
+    "size": {
+      "w": 1206,
+      "h": 789
+    },
+    "scale": 1
+  }
+}

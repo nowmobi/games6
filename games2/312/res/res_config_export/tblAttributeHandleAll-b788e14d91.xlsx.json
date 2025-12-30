@@ -1,0 +1,345 @@
+[
+  {
+    "id": 0,
+    "key": "speedSprint",
+    "value": 6.2,
+    "notes": "冲刺速度"
+  },
+  {
+    "id": 1,
+    "key": "speedDribble",
+    "value": 5.7,
+    "notes": "带球速度"
+  },
+  {
+    "id": 2,
+    "key": "speedCrazy",
+    "value": 6.5,
+    "notes": "狂暴速度"
+  },
+  {
+    "id": 3,
+    "key": "accelerationSpeedUp",
+    "value": 3,
+    "notes": "加速度"
+  },
+  {
+    "id": 4,
+    "key": "accelerationSpeedDown",
+    "value": -3,
+    "notes": "减速度"
+  },
+  {
+    "id": 5,
+    "key": "sensitivityChangeDirection",
+    "value": 2,
+    "notes": "转向灵敏度"
+  },
+  {
+    "id": 6,
+    "key": "attackDeltaMin",
+    "value": 0.3,
+    "notes": "攻击计算间隔"
+  },
+  {
+    "id": 7,
+    "key": "attackDeltaMax",
+    "value": 0.7
+  },
+  {
+    "id": 8,
+    "key": "defenceDeltaMin",
+    "value": 0.3,
+    "notes": "防守计算间隔"
+  },
+  {
+    "id": 9,
+    "key": "defenceDeltaMax",
+    "value": 0.7
+  },
+  {
+    "id": 10,
+    "key": "dribbleDeltaMin",
+    "value": 0.3,
+    "notes": "带球计算间隔"
+  },
+  {
+    "id": 11,
+    "key": "dribbleDeltaMax",
+    "value": 0.7
+  },
+  {
+    "id": 12,
+    "key": "grabDeltaMin",
+    "value": 0.3,
+    "notes": "抢球计算间隔"
+  },
+  {
+    "id": 13,
+    "key": "grabDeltaMax",
+    "value": 0.7
+  },
+  {
+    "id": 14,
+    "key": "durationCrazy",
+    "value": 3.5,
+    "notes": "玩家获得狂暴状态后，持续的时间。(s)"
+  },
+  {
+    "id": 15,
+    "key": "shootZ",
+    "value": 13,
+    "notes": "最远射篮位置"
+  },
+  {
+    "id": 16,
+    "key": "hitRateMin",
+    "value": 0.35,
+    "notes": "最低命中率"
+  },
+  {
+    "id": 17,
+    "key": "hitRateMax",
+    "value": 0.5,
+    "notes": "最高命中率"
+  },
+  {
+    "id": 18,
+    "key": "slamDunkZ",
+    "value": 24,
+    "notes": "最远扣篮位置（这个值必须大于17.5， 不然就超出三分线了 ）"
+  },
+  {
+    "id": 19,
+    "key": "passDistanceMin",
+    "value": 10,
+    "notes": "传球最近距离"
+  },
+  {
+    "id": 20,
+    "key": "passDistanceMax",
+    "value": 35,
+    "notes": "传球最近距离"
+  },
+  {
+    "id": 21,
+    "key": "passCDMin",
+    "value": 0.5,
+    "notes": "得到球之后，过N秒开始考虑传球"
+  },
+  {
+    "id": 22,
+    "key": "passCDMax",
+    "value": 1
+  },
+  {
+    "id": 23,
+    "key": "passSuccessRateMax",
+    "value": 0.7,
+    "notes": "传球成功率，最大距离时"
+  },
+  {
+    "id": 24,
+    "key": "passSuccessRateMin",
+    "value": 0.9,
+    "notes": "传球成功率，最小距离时"
+  },
+  {
+    "id": 25,
+    "key": "mass",
+    "value": 1,
+    "notes": "体重，用于计算碰撞的权重"
+  },
+  {
+    "id": 26,
+    "key": "speedChangeDirectionImmediately",
+    "value": 3,
+    "notes": "小于此速度可以直接变向"
+  },
+  {
+    "id": 27,
+    "key": "dribbleAnimationSpeed",
+    "value": 1,
+    "notes": "运球动画速度"
+  },
+  {
+    "id": 28,
+    "key": "dribbleDodgeRate",
+    "value": 0.3,
+    "notes": "带球闪避概率"
+  },
+  {
+    "id": 29,
+    "key": "slamDunkLayupRate",
+    "value": 0.65,
+    "notes": "进入扣篮区域后，选择上篮的概率"
+  },
+  {
+    "id": 30,
+    "key": "slamDunkLayupHitRateDisturb",
+    "value": 0.55,
+    "notes": "上篮命中率"
+  },
+  {
+    "id": 31,
+    "key": "slamDunkLayupHitRate",
+    "value": 0.75,
+    "notes": "上空篮命中率"
+  },
+  {
+    "id": 32,
+    "key": "slamDunkHitRate",
+    "value": 0.65,
+    "notes": "扣篮命中率（有人封盖的话，就参考这个命中率。没有封盖的话，那就百分百命中）"
+  },
+  {
+    "id": 33,
+    "key": "crashDistance",
+    "value": 7,
+    "notes": "冲撞距离"
+  },
+  {
+    "id": 34,
+    "key": "crashDuration",
+    "value": 0.9,
+    "notes": "冲撞时间"
+  },
+  {
+    "id": 35,
+    "key": "elbowWeightExt",
+    "value": 0,
+    "notes": "肘击的额外增加权重。在触发闪避的前提下，根据模型的dodgeRate计算出肘击和背运的权重，这个值会额外增加或减少肘击的权重。"
+  },
+  {
+    "id": 36,
+    "key": "alleyoopPasserMinZ",
+    "value": 0,
+    "notes": "之前是-10。玩家超过中线多少米，可以传出空接球。（如果为负数，就代表不到中线N米，就可以传出空接球）"
+  },
+  {
+    "id": 37,
+    "key": "alleyoopPasserMaxZ",
+    "value": 0,
+    "notes": "之前是10。玩家超过中线多少米，就不能传出空接球。"
+  },
+  {
+    "id": 38,
+    "key": "angerAddMulti",
+    "value": 1,
+    "notes": "game表中，所有angerAddXXX的数值 * angerAddMulti 即为最终的怒气增加值"
+  },
+  {
+    "id": 39,
+    "key": "shootArrowMoveSpeed",
+    "value": 32,
+    "notes": "箭头移动速度（正常情况下）"
+  },
+  {
+    "id": 40,
+    "key": "distanceEffectShootPlayer1",
+    "value": 2,
+    "notes": "在玩家身边N米范围内的对手，会影响玩家投篮（干扰1，比较近的距离）"
+  },
+  {
+    "id": 41,
+    "key": "shootArrowMoveSpeedDistrub1",
+    "value": 48,
+    "notes": "受干扰箭头移动速度（干扰1，比较近的距离）"
+  },
+  {
+    "id": 42,
+    "key": "rotateDurationDistrub1",
+    "value": 300,
+    "notes": "受干扰晃动一次的时间（干扰1，比较近的距离）"
+  },
+  {
+    "id": 43,
+    "key": "distanceEffectShootPlayer2",
+    "value": 4,
+    "notes": "在玩家身边N米范围内的对手，会影响玩家投篮（干扰2，比较远的距离）"
+  },
+  {
+    "id": 44,
+    "key": "shootArrowMoveSpeedDistrub2",
+    "value": 40,
+    "notes": "受干扰箭头移动速度（干扰2，比较远的距离）"
+  },
+  {
+    "id": 45,
+    "key": "rotateDurationDistrub2",
+    "value": 500,
+    "notes": "受干扰晃动一次的时间（干扰2，比较远的距离）"
+  },
+  {
+    "id": 46,
+    "key": "flyStandRate",
+    "value": 0.3,
+    "notes": "撞飞后保持站立的概率"
+  },
+  {
+    "id": 47,
+    "key": "crashDodgeRate",
+    "value": 0,
+    "notes": "当有玩家向我发动冲撞的时候，发起闪避的概率"
+  },
+  {
+    "id": 48,
+    "key": "playerDistanceEnablePass",
+    "value": 1,
+    "notes": "敌人与我的距离为X米的时候，发起技巧性传球"
+  },
+  {
+    "id": 49,
+    "key": "zDistanceEnableRandomPass",
+    "value": 5,
+    "notes": "距离中线正负X米，有几率触发随机性传球"
+  },
+  {
+    "id": 50,
+    "key": "passCDSkillPass",
+    "value": 6,
+    "notes": "技巧性传球间隔时间CD"
+  },
+  {
+    "id": 51,
+    "key": "passCDRandomPass",
+    "value": 2,
+    "notes": "随机性传球间隔时间CD"
+  },
+  {
+    "id": 52,
+    "key": "passRateRandomPass",
+    "value": 0.75,
+    "notes": "每次CD时间到了随机性传球触发的概率"
+  },
+  {
+    "id": 53,
+    "key": "dodgeDistanceFront",
+    "value": 7,
+    "notes": "正面X米有人的时候，闪避"
+  },
+  {
+    "id": 54,
+    "key": "dodgeDistanceBack",
+    "value": 4,
+    "notes": "背面X米有人的时候，闪避"
+  },
+  {
+    "id": 55,
+    "key": "crashDelta",
+    "value": 0,
+    "notes": "发动冲撞的间隔（单位秒）"
+  },
+  {
+    "id": 56,
+    "key": "blockSuccessRate",
+    "value": 0,
+    "notes": "盖帽成功率（扣篮成功几率 = slamdunkHitRate * (1 - blockSuccessRate)）"
+  },
+  {
+    "id": 57,
+    "key": "flyReliveSecond",
+    "value": 0.3,
+    "notes": "撞飞复活时间"
+  }
+]

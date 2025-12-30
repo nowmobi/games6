@@ -1,0 +1,114 @@
+{
+  "frames": {
+    "castle_bamboo": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 236,
+        "h": 296
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 236,
+        "h": 296
+      },
+      "sourceSize": {
+        "w": 236,
+        "h": 296
+      }
+    },
+    "castle_bricks": {
+      "frame": {
+        "x": 421,
+        "y": 0,
+        "w": 219,
+        "h": 265
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 219,
+        "h": 265
+      },
+      "sourceSize": {
+        "w": 219,
+        "h": 265
+      }
+    },
+    "castle_iron": {
+      "frame": {
+        "x": 237,
+        "y": 0,
+        "w": 183,
+        "h": 288
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 183,
+        "h": 288
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 288
+      }
+    },
+    "castle_stone": {
+      "frame": {
+        "x": 421,
+        "y": 266,
+        "w": 219,
+        "h": 381
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 219,
+        "h": 381
+      },
+      "sourceSize": {
+        "w": 219,
+        "h": 381
+      }
+    },
+    "castle_wood": {
+      "frame": {
+        "x": 0,
+        "y": 297,
+        "w": 264,
+        "h": 375
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 264,
+        "h": 375
+      },
+      "sourceSize": {
+        "w": 264,
+        "h": 375
+      }
+    }
+  },
+  "meta": {
+    "app": "https://www.leshylabs.com/apps/sstool/",
+    "version": "Leshy SpriteSheet Tool v0.8.4",
+    "image": "pak_castles.png",
+    "size": {
+      "w": 640,
+      "h": 672
+    },
+    "scale": 1
+  }
+}

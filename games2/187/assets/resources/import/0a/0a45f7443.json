@@ -1,0 +1,437 @@
+[
+  1,
+  [
+    "f3Hcln5W1EGKUXVNzpByXJ",
+    "73e1mDe6JOMb+YYuTWBSgh",
+    "beh49vvf1LM54PV3wlgvzW",
+    "e924jj+JxBvaNnzCMa0Cvm",
+    "e8CyFROJBM2r6N4ZUSSSvr",
+    "f3k4GKE1lE4bq9ZFOYhXCU",
+    "c9bAxDqCtKvYaKXTVbab45",
+    "36YphOWrVN5pshmyUy3NTW",
+    "e1jsNLKHFJ+47pck+uSrTN"
+  ],
+  [
+    "_textureSetter",
+    "countdown_callsupport",
+    "countdown_coinbonus",
+    "countdown_firepower",
+    "countdown_firespeed",
+    "item_callsupport",
+    "item_coinbonus",
+    "item_firepower",
+    "item_firespeed"
+  ],
+  [
+    "cc.SpriteFrame",
+    [
+      "cc.SpriteAtlas",
+      [
+        "_name",
+        "_spriteFrames"
+      ],
+      2,
+      11
+    ]
+  ],
+  [
+    [
+      1,
+      0,
+      1,
+      2
+    ]
+  ],
+  [
+    [
+      [
+        {
+          "name": "item_firepower",
+          "rect": [
+            265,
+            363,
+            130,
+            128
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            130,
+            128
+          ],
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        {
+          "name": "countdown_callsupport",
+          "rect": [
+            1,
+            1,
+            180,
+            178
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            180,
+            178
+          ],
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        [
+          0,
+          "item_support.plist",
+          [
+            {},
+            "countdown_callsupport",
+            6,
+            0,
+            "countdown_coinbonus",
+            6,
+            1,
+            "countdown_firepower",
+            6,
+            2,
+            "countdown_firespeed",
+            6,
+            3,
+            "item_callsupport",
+            6,
+            4,
+            "item_coinbonus",
+            6,
+            5,
+            "item_firepower",
+            6,
+            6,
+            "item_firespeed",
+            6,
+            7
+          ]
+        ]
+      ],
+      0,
+      0,
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    [
+      [
+        {
+          "name": "countdown_coinbonus",
+          "rect": [
+            183,
+            1,
+            180,
+            178
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            180,
+            178
+          ],
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        {
+          "name": "item_coinbonus",
+          "rect": [
+            133,
+            363,
+            130,
+            128
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            130,
+            128
+          ],
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        {
+          "name": "item_firespeed",
+          "rect": [
+            361,
+            181,
+            130,
+            128
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            130,
+            128
+          ],
+          "rotated": 1,
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        {
+          "name": "countdown_firespeed",
+          "rect": [
+            181,
+            181,
+            180,
+            178
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            180,
+            178
+          ],
+          "rotated": 1,
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        {
+          "name": "countdown_firepower",
+          "rect": [
+            1,
+            181,
+            180,
+            178
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            180,
+            178
+          ],
+          "rotated": 1,
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        {
+          "name": "item_callsupport",
+          "rect": [
+            1,
+            363,
+            130,
+            128
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            130,
+            128
+          ],
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ]
+  ]
+]

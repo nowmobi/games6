@@ -1,0 +1,804 @@
+{
+  "frameRate": 24,
+  "name": "smoke",
+  "version": "5.5",
+  "compatibleVersion": "5.5",
+  "armature": [
+    {
+      "type": "Armature",
+      "frameRate": 24,
+      "name": "smoke",
+      "aabb": {
+        "x": -129,
+        "y": -81.5,
+        "width": 239.5,
+        "height": 166.85
+      },
+      "bone": [
+        {
+          "name": "root"
+        },
+        {
+          "length": 16,
+          "name": "bone",
+          "parent": "root",
+          "transform": {
+            "x": 15,
+            "y": -3,
+            "skX": -52.4314,
+            "skY": -52.4314
+          }
+        },
+        {
+          "length": 18,
+          "name": "bone1",
+          "parent": "root",
+          "transform": {
+            "x": -19,
+            "y": -8,
+            "skX": -90,
+            "skY": -90
+          }
+        },
+        {
+          "length": 17,
+          "name": "bone2",
+          "parent": "root",
+          "transform": {
+            "x": -13,
+            "y": 26,
+            "skX": -116.5651,
+            "skY": -116.5651
+          }
+        },
+        {
+          "length": 10,
+          "name": "bone3",
+          "parent": "root",
+          "transform": {
+            "x": -33,
+            "y": 1,
+            "skX": -146.3099,
+            "skY": -146.3099
+          }
+        },
+        {
+          "length": 25,
+          "name": "bone4",
+          "parent": "root",
+          "transform": {
+            "x": 7,
+            "y": 16,
+            "skX": -23.4986,
+            "skY": -23.4986
+          }
+        },
+        {
+          "length": 19,
+          "name": "bone5",
+          "parent": "root",
+          "transform": {
+            "x": -12,
+            "y": 4,
+            "skX": -66.0375,
+            "skY": -66.0375
+          }
+        },
+        {
+          "length": 15,
+          "name": "bone6",
+          "parent": "root",
+          "transform": {
+            "x": 4,
+            "y": -15,
+            "skX": -66.8014,
+            "skY": -66.8014
+          }
+        }
+      ],
+      "slot": [
+        {
+          "name": "组 1",
+          "parent": "bone6"
+        },
+        {
+          "name": "组 11",
+          "parent": "bone5"
+        },
+        {
+          "name": "组 12",
+          "parent": "bone4"
+        },
+        {
+          "name": "组 13",
+          "parent": "bone3"
+        },
+        {
+          "name": "组 14",
+          "parent": "bone2"
+        },
+        {
+          "name": "组 15",
+          "parent": "bone1"
+        },
+        {
+          "name": "组 16",
+          "parent": "bone"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "组 14",
+              "display": [
+                {
+                  "name": "组 1",
+                  "transform": {
+                    "x": 11.76,
+                    "y": -7.54,
+                    "skX": 116.57,
+                    "skY": 116.57,
+                    "scX": 0.2,
+                    "scY": 0.2
+                  }
+                }
+              ]
+            },
+            {
+              "name": "组 15",
+              "display": [
+                {
+                  "name": "组 1",
+                  "transform": {
+                    "x": 2.85,
+                    "y": -24,
+                    "skX": 90,
+                    "skY": 90,
+                    "scX": 0.22,
+                    "scY": 0.22
+                  }
+                }
+              ]
+            },
+            {
+              "name": "组 11",
+              "display": [
+                {
+                  "name": "组 1",
+                  "transform": {
+                    "skX": 66.04,
+                    "skY": 66.04,
+                    "scX": 0.2,
+                    "scY": 0.2
+                  }
+                }
+              ]
+            },
+            {
+              "name": "组 13",
+              "display": [
+                {
+                  "name": "组 1",
+                  "transform": {
+                    "x": 17.39,
+                    "y": -14.48,
+                    "skX": 146.31,
+                    "skY": 146.31,
+                    "scX": 0.18,
+                    "scY": 0.18
+                  }
+                }
+              ]
+            },
+            {
+              "name": "组 12",
+              "display": [
+                {
+                  "name": "组 1",
+                  "transform": {
+                    "x": 15.17,
+                    "y": -2.29,
+                    "skX": 23.5,
+                    "skY": 23.5,
+                    "scX": 0.2,
+                    "scY": 0.2
+                  }
+                }
+              ]
+            },
+            {
+              "name": "组 16",
+              "display": [
+                {
+                  "name": "组 1",
+                  "transform": {
+                    "x": 22.81,
+                    "y": 10.21,
+                    "skX": 52.43,
+                    "skY": 52.43,
+                    "scX": 0.2,
+                    "scY": 0.2
+                  }
+                }
+              ]
+            },
+            {
+              "name": "组 1",
+              "display": [
+                {
+                  "name": "组 1",
+                  "transform": {
+                    "skX": 66.8,
+                    "skY": 66.8,
+                    "scX": 0.2,
+                    "scY": 0.2
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "animation": [
+        {
+          "duration": 20,
+          "playTimes": 0,
+          "name": "smoke",
+          "bone": [
+            {
+              "name": "bone",
+              "translateFrame": [
+                {
+                  "duration": 2,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 5,
+                  "tweenEasing": 0,
+                  "x": -8.09,
+                  "y": -20.39
+                },
+                {
+                  "duration": 13,
+                  "tweenEasing": 0,
+                  "x": 11.68,
+                  "y": -17.26
+                },
+                {
+                  "duration": 0,
+                  "x": 37.63,
+                  "y": 156.03
+                }
+              ],
+              "rotateFrame": [
+                {
+                  "duration": 20,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 0,
+                  "rotate": 9.93
+                }
+              ],
+              "scaleFrame": [
+                {
+                  "duration": 2,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 10,
+                  "tweenEasing": 0,
+                  "x": 4.85,
+                  "y": 4.85
+                },
+                {
+                  "duration": 8,
+                  "tweenEasing": 0,
+                  "x": 4.55,
+                  "y": 4.55
+                },
+                {
+                  "duration": 0,
+                  "x": 3.65,
+                  "y": 3.65
+                }
+              ]
+            },
+            {
+              "name": "bone1",
+              "translateFrame": [
+                {
+                  "duration": 2,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 5,
+                  "tweenEasing": 0,
+                  "x": 61.02,
+                  "y": -80.93
+                },
+                {
+                  "duration": 13,
+                  "tweenEasing": 0,
+                  "x": 30.27,
+                  "y": -76.07
+                },
+                {
+                  "duration": 0,
+                  "x": 4.69,
+                  "y": 135.24
+                }
+              ],
+              "rotateFrame": [
+                {
+                  "duration": 20,
+                  "tweenEasing": 0,
+                  "rotate": -16.18
+                },
+                {
+                  "duration": 0
+                }
+              ],
+              "scaleFrame": [
+                {
+                  "duration": 2,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 5,
+                  "tweenEasing": 0,
+                  "x": 4.52,
+                  "y": 4.52
+                },
+                {
+                  "duration": 13,
+                  "tweenEasing": 0,
+                  "x": 4.52,
+                  "y": 4.52
+                },
+                {
+                  "duration": 0,
+                  "x": 3.27,
+                  "y": 3.27
+                }
+              ]
+            },
+            {
+              "name": "bone2",
+              "translateFrame": [
+                {
+                  "duration": 2,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 5,
+                  "tweenEasing": 0,
+                  "x": -8.09,
+                  "y": -53.01
+                },
+                {
+                  "duration": 13,
+                  "tweenEasing": 0,
+                  "x": -48.56,
+                  "y": -9.31
+                },
+                {
+                  "duration": 0,
+                  "x": -101.97,
+                  "y": 86.19
+                }
+              ],
+              "scaleFrame": [
+                {
+                  "duration": 2,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 5,
+                  "tweenEasing": 0,
+                  "x": 4.95,
+                  "y": 4.95
+                },
+                {
+                  "duration": 13,
+                  "tweenEasing": 0,
+                  "x": 4.95,
+                  "y": 4.95
+                },
+                {
+                  "duration": 0,
+                  "x": 1.85,
+                  "y": 1.85
+                }
+              ]
+            },
+            {
+              "name": "bone3",
+              "translateFrame": [
+                {
+                  "duration": 2,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 2,
+                  "tweenEasing": 0,
+                  "x": 37.07,
+                  "y": -39.01
+                },
+                {
+                  "duration": 16,
+                  "tweenEasing": 0,
+                  "x": 2.67,
+                  "y": -19.67
+                },
+                {
+                  "duration": 0,
+                  "x": -16.91,
+                  "y": 175.38
+                }
+              ],
+              "scaleFrame": [
+                {
+                  "duration": 2,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 2,
+                  "tweenEasing": 0,
+                  "x": 4.2,
+                  "y": 4.2
+                },
+                {
+                  "duration": 16,
+                  "tweenEasing": 0,
+                  "x": 4.2,
+                  "y": 4.2
+                },
+                {
+                  "duration": 0,
+                  "x": 0.95,
+                  "y": 0.95
+                }
+              ]
+            },
+            {
+              "name": "bone4",
+              "translateFrame": [
+                {
+                  "duration": 2,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 2,
+                  "tweenEasing": 0,
+                  "x": -25.98,
+                  "y": -21.77
+                },
+                {
+                  "duration": 16,
+                  "tweenEasing": 0,
+                  "x": -0.49,
+                  "y": 10.6
+                },
+                {
+                  "duration": 0,
+                  "x": 31.48,
+                  "y": 192.45
+                }
+              ],
+              "scaleFrame": [
+                {
+                  "duration": 2,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 2,
+                  "tweenEasing": 0,
+                  "x": 4.4,
+                  "y": 4.4
+                },
+                {
+                  "duration": 16,
+                  "tweenEasing": 0,
+                  "x": 4.4,
+                  "y": 4.4
+                },
+                {
+                  "duration": 0,
+                  "x": 2.15,
+                  "y": 2.15
+                }
+              ]
+            },
+            {
+              "name": "bone5",
+              "translateFrame": [
+                {
+                  "duration": 2,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 2,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 16,
+                  "tweenEasing": 0,
+                  "x": 17.24,
+                  "y": 17.8
+                },
+                {
+                  "duration": 0,
+                  "x": 39.41,
+                  "y": 161.54
+                }
+              ],
+              "scaleFrame": [
+                {
+                  "duration": 2,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 2,
+                  "tweenEasing": 0,
+                  "x": 3.15,
+                  "y": 3.15
+                },
+                {
+                  "duration": 16,
+                  "tweenEasing": 0,
+                  "x": 3.35,
+                  "y": 3.35
+                },
+                {
+                  "duration": 0,
+                  "x": 1.65,
+                  "y": 1.65
+                }
+              ]
+            },
+            {
+              "name": "bone6",
+              "translateFrame": [
+                {
+                  "duration": 2,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 2,
+                  "tweenEasing": 0,
+                  "x": 9.79,
+                  "y": -61.91
+                },
+                {
+                  "duration": 16,
+                  "tweenEasing": 0,
+                  "x": 12.95,
+                  "y": -38.28
+                },
+                {
+                  "duration": 0,
+                  "x": 79.31,
+                  "y": 156.76
+                }
+              ],
+              "scaleFrame": [
+                {
+                  "duration": 2,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 2,
+                  "tweenEasing": 0,
+                  "x": 3.3,
+                  "y": 3.3
+                },
+                {
+                  "duration": 16,
+                  "tweenEasing": 0,
+                  "x": 3.7,
+                  "y": 3.7
+                },
+                {
+                  "duration": 0,
+                  "x": 1.3,
+                  "y": 1.3
+                }
+              ]
+            }
+          ],
+          "slot": [
+            {
+              "name": "组 1",
+              "colorFrame": [
+                {
+                  "duration": 4,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 8,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 8,
+                  "tweenEasing": 0,
+                  "value": {
+                    "aM": 63
+                  }
+                },
+                {
+                  "duration": 0,
+                  "value": {
+                    "aM": 13
+                  }
+                }
+              ]
+            },
+            {
+              "name": "组 11",
+              "colorFrame": [
+                {
+                  "duration": 4,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 8,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 8,
+                  "tweenEasing": 0,
+                  "value": {
+                    "aM": 63
+                  }
+                },
+                {
+                  "duration": 0,
+                  "value": {
+                    "aM": 13
+                  }
+                }
+              ]
+            },
+            {
+              "name": "组 12",
+              "colorFrame": [
+                {
+                  "duration": 4,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 8,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 8,
+                  "tweenEasing": 0,
+                  "value": {
+                    "aM": 63
+                  }
+                },
+                {
+                  "duration": 0,
+                  "value": {
+                    "aM": 13
+                  }
+                }
+              ]
+            },
+            {
+              "name": "组 13",
+              "colorFrame": [
+                {
+                  "duration": 4,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 8,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 8,
+                  "tweenEasing": 0,
+                  "value": {
+                    "aM": 63
+                  }
+                },
+                {
+                  "duration": 0,
+                  "value": {
+                    "aM": 13
+                  }
+                }
+              ]
+            },
+            {
+              "name": "组 14",
+              "colorFrame": [
+                {
+                  "duration": 4,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 8,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 8,
+                  "tweenEasing": 0,
+                  "value": {
+                    "aM": 63
+                  }
+                },
+                {
+                  "duration": 0,
+                  "value": {
+                    "aM": 13
+                  }
+                }
+              ]
+            },
+            {
+              "name": "组 15",
+              "colorFrame": [
+                {
+                  "duration": 7,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 5,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 8,
+                  "tweenEasing": 0,
+                  "value": {
+                    "aM": 63
+                  }
+                },
+                {
+                  "duration": 0,
+                  "value": {
+                    "aM": 13
+                  }
+                }
+              ]
+            },
+            {
+              "name": "组 16",
+              "colorFrame": [
+                {
+                  "duration": 7,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 5,
+                  "tweenEasing": 0
+                },
+                {
+                  "duration": 8,
+                  "tweenEasing": 0,
+                  "value": {
+                    "aM": 63
+                  }
+                },
+                {
+                  "duration": 0,
+                  "value": {
+                    "aM": 13
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "defaultActions": [
+        {
+          "gotoAndPlay": "smoke"
+        }
+      ]
+    }
+  ]
+}

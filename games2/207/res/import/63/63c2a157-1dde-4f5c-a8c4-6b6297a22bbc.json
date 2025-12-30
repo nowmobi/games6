@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "anim_guide_arrow",
+  "_duration": 0.6666666666666666,
+  "speed": 0.5,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {},
+    "paths": {
+      "img": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -64
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": -30
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": -71
+            }
+          ]
+        }
+      }
+    }
+  }
+}

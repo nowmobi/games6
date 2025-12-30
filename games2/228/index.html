@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+     
+       <title>ILoveFTDGwt</title>
+       <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+       <meta id="gameViewport" name="viewport" content="width=device-width initial-scale=1" />
+       <link href="styles.css" rel="stylesheet" type="text/css" />
+       <!-- Yandex.Metrika counter -->
+       <script type="text/javascript">
+              (function (m, e, t, r, i, k, a) {
+                     m[i] = m[i] || function () {
+                            (m[i].a = m[i].a || []).push(arguments)
+                     };
+                     m[i].l = 1 * new Date();
+                     for (var j = 0; j < document.scripts.length; j++) {
+                            if (document.scripts[j].src === r) {
+                                   return;
+                            }
+                     }
+                     k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a
+                            .parentNode.insertBefore(k, a)
+              })
+              (window, document, "script", "", "ym");
+
+              ym(96518295, "init", {
+                     clickmap: true,
+                     trackLinks: true,
+                     accurateTrackBounce: true
+              });
+       </script>
+       <noscript>
+              <div><img src="" style="position:absolute; left:-9999px;" alt="" />
+              </div>
+       </noscript>
+       <!-- /Yandex.Metrika counter -->
+       <!-- Yandex Games SDK -->
+       <script src="./sdk.js"></script>
+       <script src="./games/sdk/v2"></script>
+       <script>
+              YaGames.init(
+                            /*{
+                                                        adv: {
+                                                               onAdvClose: wasShown => {
+                                                                      interstitialClosed();
+                                                                      console.info('adv closed!');
+                                                               }
+                                                        }
+                                                 }*/
+                     )
+                     .then(ysdk => {
+                            // Do call interstitial on game start?
+                            //ysdk.adv.showFullscreenAdv();
+
+                            window.ysdk = ysdk;
+
+                            if (!window.ysdk) {
+                                   console.info('!window.ysdk is:' + window.ysdk);
+                            } else {
+                                   console.info('window.ysdk is inited:' + window.ysdk);
+                            }
+
+                            // This may be called before even java::onModuleLoad() and jsCallback_onYsdkInited() will
+                            // no be inited yet!
+                            //document.jsCallback_onYsdkInited();
+
+                            //document.jsCallback_onRewarded();
+                            //document.jsCallback_onLang("RUS");
+                     });
+
+              //YaGames.init().then(ysdk => {
+              //       ysdk.adv.showFullscreenAdv();
+              //});
+
+              function jsMethod_mktGoalPassNLevelsReached() {
+                     console.info('call of jsMethod_mktGoalPassNLevelsReached()');
+                     ym(96518295, 'reachGoal', 'goal_pass_n_levels_reached');
+              }
+
+              function jsMethod_mktGoalWatchNAdsReached() {
+                     console.info('call of jsMethod_mktGoalWatchNAdsReached()');
+                     ym(96518295, 'reachGoal', 'goal_watch_n_ads_reached');
+              }
+
+              function jsMethod_reloadPage() {
+                     console.info('call of jsMethod_reloadPage()');
+                     window.location.reload();
+              }
+
+              function jsMethod_showInterstitial() {
+                     console.info('call of jsMethod_showInterstitial()');
+                     //window.ysdk.adv.showFullscreenAdv();
+
+                     // See https://yandex.ru/dev/games/doc/ru/sdk/sdk-adv
+                     window.ysdk.adv.showFullscreenAdv({
+                            callbacks: {
+                                   // вызывается при успешном открытии рекламы.
+                                   onOpen: function () {
+                                          console.info('interstitial onOpen!');
+
+                                          document.jsCallback_onInterstitialOpen();
+                                   },
+                                   // вызывается при закрытии рекламы, после ошибки, а также, если реклама не открылась по
+                                   // причине слишком частого вызова. Используется с аргументом wasShown (тип boolean),
+                                   // по значению которого можно узнать была ли показана реклама.
+                                   onClose: function (wasShown) {
+                                          console.info('interstitial onClose! wasShown:',
+                                          wasShown);
+
+                                          document.jsCallback_onInterstitialClose(wasShown);
+                                   },
+                                   // вызывается при возникновении ошибки. Объект ошибки передается в callback-функцию.
+                                   onError: function (error) {
+                                          console.info('interstitial onError! error:', error);
+
+                                          document.jsCallback_onInterstitialError(error);
+                                   },
+                                   // вызывается при потере сетевого соединения (переходе в офлайн-режим).
+                                   onOffline: function () {
+                                          console.info('interstitial onOffline!');
+
+                                          document.jsCallback_onInterstitialOffline();
+                                   }
+                            }
+                     });
+              }
+
+              function jsMethod_showRewarded() {
+                     console.info('call of jsMethod_showRewarded()');
+
+                     window.ysdk.adv.showRewardedVideo({
+                            callbacks: {
+                                   // вызывается при отображении видеорекламы на экране.
+                                   onOpen: () => {
+                                          console.log('Video ad open.');
+
+                                          document.jsCallback_onRewardedOpen();
+                                   },
+                                   // вызывается при закрытии видеорекламы.
+                                   onClose: () => {
+                                          console.log('Video ad closed.');
+
+                                          document.jsCallback_onRewardedClose();
+                                   },
+                                   // вызывается при возникновении ошибки. Объект ошибки передается в callback-функцию.
+                                   onError: (e) => {
+                                          console.log('Error while open video ad:', e);
+
+                                          document.jsCallback_onRewardedError(e);
+                                   },
+                                   // вызывается, когда засчитывается просмотр видеорекламы. Укажите в данной функции,
+                                   // какую награду пользователь получит после просмотра.
+                                   onRewarded: () => {
+                                          console.log('Rewarded!');
+
+                                          // Do callback to java code.
+                                          document.jsCallback_onRewarded();
+                                   }
+                            }
+                     });
+              }
+       </script>
+</head>
+
+<body>
+       <!--              <a class="superdev" href="javascript:%7B%20window.__gwt_bookmarklet_params%20%3D%20%7B'server_url'%3A'http%3A%2F%2Flocalhost%3A9876%2F'%7D%3B%20var%20s%20%3D%20document.createElement('script')%3B%20s.src%20%3D%20'http%3A%2F%2Flocalhost%3A9876%2Fdev_mode_on.js'%3B%20void(document.getElementsByTagName('head')%5B0%5D.appendChild(s))%3B%7D">&#8635;</a>-->
+       <div align="center" id="embed-html"></div>
+       <script type="text/javascript" src="html/html.nocache.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"5c8adb3476774536859fc56135d4501a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+<script>
+       function handleMouseDown(evt) {
+              evt.preventDefault();
+              evt.stopPropagation();
+              window.focus();
+       }
+
+       function handleMouseUp(evt) {
+              evt.preventDefault();
+              evt.stopPropagation();
+       }
+       document.addEventListener('contextmenu', event => event.preventDefault());
+       document.getElementById('embed-html').addEventListener('mousedown', handleMouseDown, false);
+       document.getElementById('embed-html').addEventListener('mouseup', handleMouseUp, false);
+
+
+       document.getLang = function getLang() {
+              if (!window.ysdk || !window.ysdk.environment || !window.ysdk.environment.i18n) {
+                     console.info('getLang(): !window.ysdk is:' + window.ysdk + ' -> return null');
+                     return null;
+              } else {
+                     console.info('getLang():' + window.ysdk.environment.i18n.lang);
+                     return window.ysdk.environment.i18n.lang;
+                     //return "fr";
+              }
+       }
+
+       document.getTLD = function getTLD() {
+              if (!window.ysdk || !window.ysdk.environment || !window.ysdk.environment.i18n) {
+                     console.info('getTLD(): !window.ysdk is:' + window.ysdk + ' -> return null');
+                     return null;
+              } else {
+                     console.info('getTLD():' + window.ysdk.environment.i18n.tld);
+                     return window.ysdk.environment.i18n.tld;
+                     //return "fr";
+              }
+       }
+
+       document.openLinkInNewTab = function openNewTab(link) {
+              console.info("openNewTab link:" + link);
+
+              if (link != null) {
+                     window.open(link, "_blank");
+              } else {
+                     console.info("!openNewTab because link is null!!!");
+              }
+       }
+</script>
+
+</html>

@@ -1,0 +1,1985 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "bingdu_zaisheng",
+  "_native": "raw-skeleton.json",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "LMtC36UMASUq0V8dv4FaLFjFqKY",
+      "spine": "3.6.53",
+      "width": 311.17,
+      "height": 313.88
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "jiao",
+        "parent": "root",
+        "rotation": -3.64,
+        "x": 0.24,
+        "y": 0.2
+      },
+      {
+        "name": "3_Z_hand",
+        "parent": "jiao",
+        "length": 55.58,
+        "rotation": 89.61,
+        "x": 0.09,
+        "y": 86.43
+      },
+      {
+        "name": "jiao2",
+        "parent": "root",
+        "rotation": -57.99,
+        "x": 0.24,
+        "y": 0.2
+      },
+      {
+        "name": "3_Z_hand2",
+        "parent": "jiao2",
+        "length": 55.58,
+        "rotation": 89.61,
+        "x": 0.09,
+        "y": 86.43,
+        "scaleX": 0.878,
+        "scaleY": 0.878
+      },
+      {
+        "name": "jiao3",
+        "parent": "root",
+        "rotation": -79.79,
+        "x": 0.24,
+        "y": 0.2
+      },
+      {
+        "name": "3_Z_hand3",
+        "parent": "jiao3",
+        "length": 55.58,
+        "rotation": 89.61,
+        "x": -1.3,
+        "y": 78.7,
+        "scaleX": 0.879,
+        "scaleY": 0.879
+      },
+      {
+        "name": "jiao4",
+        "parent": "root",
+        "rotation": -127.22,
+        "x": 0.24,
+        "y": 0.2
+      },
+      {
+        "name": "3_Z_hand4",
+        "parent": "jiao4",
+        "length": 55.58,
+        "rotation": 89.61,
+        "x": -1.3,
+        "y": 78.7,
+        "scaleX": 1.048,
+        "scaleY": 1.048
+      },
+      {
+        "name": "jiao5",
+        "parent": "root",
+        "rotation": -174.03,
+        "x": 0.24,
+        "y": 0.2
+      },
+      {
+        "name": "3_Z_hand5",
+        "parent": "jiao5",
+        "length": 55.58,
+        "rotation": 89.61,
+        "x": -1.3,
+        "y": 78.7,
+        "scaleX": 1.064,
+        "scaleY": 1.064
+      },
+      {
+        "name": "jiao6",
+        "parent": "root",
+        "rotation": 157.73,
+        "x": 0.24,
+        "y": 0.2
+      },
+      {
+        "name": "3_Z_hand6",
+        "parent": "jiao6",
+        "length": 55.58,
+        "rotation": 89.61,
+        "x": -2.06,
+        "y": 82.63,
+        "scaleX": 0.994,
+        "scaleY": 0.994
+      },
+      {
+        "name": "jiao7",
+        "parent": "root",
+        "rotation": 108.82,
+        "x": 0.24,
+        "y": 0.2
+      },
+      {
+        "name": "3_Z_hand7",
+        "parent": "jiao7",
+        "length": 55.58,
+        "rotation": 89.61,
+        "x": -3.01,
+        "y": 88.56,
+        "scaleX": 0.994,
+        "scaleY": 0.994
+      },
+      {
+        "name": "jiao8",
+        "parent": "root",
+        "rotation": 66.72,
+        "x": 0.24,
+        "y": 0.2
+      },
+      {
+        "name": "3_Z_hand8",
+        "parent": "jiao8",
+        "length": 55.58,
+        "rotation": 89.38,
+        "x": -3.01,
+        "y": 88.56,
+        "scaleX": 1.185,
+        "scaleY": 1.185
+      },
+      {
+        "name": "jiao9",
+        "parent": "root",
+        "rotation": 43.76,
+        "x": 0.24,
+        "y": 0.2
+      },
+      {
+        "name": "3_Z_hand9",
+        "parent": "jiao9",
+        "length": 55.58,
+        "rotation": 89.38,
+        "x": -3.26,
+        "y": 82.28,
+        "scaleX": 0.838,
+        "scaleY": 0.838
+      },
+      {
+        "name": "bone2",
+        "parent": "root",
+        "x": -5.87,
+        "y": 3.78
+      },
+      {
+        "name": "3_Z_light",
+        "parent": "bone2",
+        "x": -36.98,
+        "y": 58.02
+      },
+      {
+        "name": "bone",
+        "parent": "root",
+        "x": -0.74,
+        "y": -0.31
+      }
+    ],
+    "slots": [
+      {
+        "name": "3_Z_hand",
+        "bone": "3_Z_hand",
+        "attachment": "3_Z_hand"
+      },
+      {
+        "name": "3_Z_hand2",
+        "bone": "3_Z_hand2",
+        "attachment": "3_Z_hand"
+      },
+      {
+        "name": "3_Z_hand3",
+        "bone": "3_Z_hand3",
+        "attachment": "3_Z_hand"
+      },
+      {
+        "name": "3_Z_hand4",
+        "bone": "3_Z_hand4",
+        "attachment": "3_Z_hand"
+      },
+      {
+        "name": "3_Z_hand5",
+        "bone": "3_Z_hand5",
+        "attachment": "3_Z_hand"
+      },
+      {
+        "name": "3_Z_hand6",
+        "bone": "3_Z_hand6",
+        "attachment": "3_Z_hand"
+      },
+      {
+        "name": "3_Z_hand7",
+        "bone": "3_Z_hand7",
+        "attachment": "3_Z_hand"
+      },
+      {
+        "name": "3_Z_hand8",
+        "bone": "3_Z_hand8",
+        "attachment": "3_Z_hand"
+      },
+      {
+        "name": "3_Z_hand9",
+        "bone": "3_Z_hand9",
+        "attachment": "3_Z_hand"
+      },
+      {
+        "name": "3_Z_body",
+        "bone": "bone",
+        "attachment": "3_Z_body"
+      },
+      {
+        "name": "3_Z_light",
+        "bone": "3_Z_light",
+        "attachment": "3_Z_light"
+      }
+    ],
+    "skins": {
+      "default": {},
+      "a": {
+        "3_Z_body": {
+          "3_Z_body": {
+            "x": -2.03,
+            "y": 0.29,
+            "width": 221,
+            "height": 221
+          }
+        },
+        "3_Z_hand": {
+          "3_Z_hand": {
+            "x": 27.86,
+            "y": -0.71,
+            "rotation": -89.61,
+            "width": 64,
+            "height": 92
+          }
+        },
+        "3_Z_hand2": {
+          "3_Z_hand": {
+            "x": 27.86,
+            "y": -0.71,
+            "rotation": -89.61,
+            "width": 64,
+            "height": 92
+          }
+        },
+        "3_Z_hand3": {
+          "3_Z_hand": {
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 64,
+            "height": 92
+          }
+        },
+        "3_Z_hand4": {
+          "3_Z_hand": {
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 64,
+            "height": 92
+          }
+        },
+        "3_Z_hand5": {
+          "3_Z_hand": {
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 64,
+            "height": 92
+          }
+        },
+        "3_Z_hand6": {
+          "3_Z_hand": {
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 64,
+            "height": 92
+          }
+        },
+        "3_Z_hand7": {
+          "3_Z_hand": {
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 64,
+            "height": 92
+          }
+        },
+        "3_Z_hand8": {
+          "3_Z_hand": {
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 64,
+            "height": 92
+          }
+        },
+        "3_Z_hand9": {
+          "3_Z_hand": {
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 64,
+            "height": 92
+          }
+        },
+        "3_Z_light": {
+          "3_Z_light": {
+            "x": 1.08,
+            "y": 0.68,
+            "width": 37,
+            "height": 38
+          }
+        }
+      },
+      "b": {
+        "3_Z_body": {
+          "3_Z_body": {
+            "name": "3_G_body",
+            "x": -2.03,
+            "y": 0.29,
+            "width": 221,
+            "height": 221
+          }
+        },
+        "3_Z_hand": {
+          "3_Z_hand": {
+            "name": "3_G_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "rotation": -89.61,
+            "width": 68,
+            "height": 93
+          }
+        },
+        "3_Z_hand2": {
+          "3_Z_hand": {
+            "name": "3_G_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "rotation": -89.61,
+            "width": 68,
+            "height": 93
+          }
+        },
+        "3_Z_hand3": {
+          "3_Z_hand": {
+            "name": "3_G_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 68,
+            "height": 93
+          }
+        },
+        "3_Z_hand4": {
+          "3_Z_hand": {
+            "name": "3_G_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 68,
+            "height": 93
+          }
+        },
+        "3_Z_hand5": {
+          "3_Z_hand": {
+            "name": "3_G_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 68,
+            "height": 93
+          }
+        },
+        "3_Z_hand6": {
+          "3_Z_hand": {
+            "name": "3_G_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 68,
+            "height": 93
+          }
+        },
+        "3_Z_hand7": {
+          "3_Z_hand": {
+            "name": "3_G_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 68,
+            "height": 93
+          }
+        },
+        "3_Z_hand8": {
+          "3_Z_hand": {
+            "name": "3_G_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 68,
+            "height": 93
+          }
+        },
+        "3_Z_hand9": {
+          "3_Z_hand": {
+            "name": "3_G_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 68,
+            "height": 93
+          }
+        },
+        "3_Z_light": {
+          "3_Z_light": {
+            "name": "3_G_light",
+            "x": 1.08,
+            "y": 0.68,
+            "width": 37,
+            "height": 38
+          }
+        }
+      },
+      "c": {
+        "3_Z_body": {
+          "3_Z_body": {
+            "name": "3_B_body",
+            "x": -2.03,
+            "y": 0.29,
+            "width": 221,
+            "height": 221
+          }
+        },
+        "3_Z_hand": {
+          "3_Z_hand": {
+            "name": "3_B_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "rotation": -89.61,
+            "width": 60,
+            "height": 85
+          }
+        },
+        "3_Z_hand2": {
+          "3_Z_hand": {
+            "name": "3_B_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "rotation": -89.61,
+            "width": 60,
+            "height": 85
+          }
+        },
+        "3_Z_hand3": {
+          "3_Z_hand": {
+            "name": "3_B_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 60,
+            "height": 85
+          }
+        },
+        "3_Z_hand4": {
+          "3_Z_hand": {
+            "name": "3_B_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 60,
+            "height": 85
+          }
+        },
+        "3_Z_hand5": {
+          "3_Z_hand": {
+            "name": "3_B_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 60,
+            "height": 85
+          }
+        },
+        "3_Z_hand6": {
+          "3_Z_hand": {
+            "name": "3_B_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 60,
+            "height": 85
+          }
+        },
+        "3_Z_hand7": {
+          "3_Z_hand": {
+            "name": "3_B_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 60,
+            "height": 85
+          }
+        },
+        "3_Z_hand8": {
+          "3_Z_hand": {
+            "name": "3_B_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 60,
+            "height": 85
+          }
+        },
+        "3_Z_hand9": {
+          "3_Z_hand": {
+            "name": "3_B_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 60,
+            "height": 85
+          }
+        },
+        "3_Z_light": {
+          "3_Z_light": {
+            "name": "3_B_light",
+            "x": 1.08,
+            "y": 0.68,
+            "width": 37,
+            "height": 38
+          }
+        }
+      },
+      "d": {
+        "3_Z_body": {
+          "3_Z_body": {
+            "name": "3_P_body",
+            "x": -2.03,
+            "y": 0.29,
+            "width": 223,
+            "height": 223
+          }
+        },
+        "3_Z_hand": {
+          "3_Z_hand": {
+            "name": "3_P_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "rotation": -89.61,
+            "width": 72,
+            "height": 97
+          }
+        },
+        "3_Z_hand2": {
+          "3_Z_hand": {
+            "name": "3_P_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "rotation": -89.61,
+            "width": 72,
+            "height": 97
+          }
+        },
+        "3_Z_hand3": {
+          "3_Z_hand": {
+            "name": "3_P_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 72,
+            "height": 97
+          }
+        },
+        "3_Z_hand4": {
+          "3_Z_hand": {
+            "name": "3_P_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 72,
+            "height": 97
+          }
+        },
+        "3_Z_hand5": {
+          "3_Z_hand": {
+            "name": "3_P_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 72,
+            "height": 97
+          }
+        },
+        "3_Z_hand6": {
+          "3_Z_hand": {
+            "name": "3_P_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 72,
+            "height": 97
+          }
+        },
+        "3_Z_hand7": {
+          "3_Z_hand": {
+            "name": "3_P_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 72,
+            "height": 97
+          }
+        },
+        "3_Z_hand8": {
+          "3_Z_hand": {
+            "name": "3_P_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 72,
+            "height": 97
+          }
+        },
+        "3_Z_hand9": {
+          "3_Z_hand": {
+            "name": "3_P_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 72,
+            "height": 97
+          }
+        },
+        "3_Z_light": {
+          "3_Z_light": {
+            "name": "3_P_light",
+            "x": 1.08,
+            "y": 0.68,
+            "width": 37,
+            "height": 38
+          }
+        }
+      },
+      "f": {
+        "3_Z_body": {
+          "3_Z_body": {
+            "name": "3_R_body",
+            "x": -2.03,
+            "y": 0.29,
+            "width": 221,
+            "height": 221
+          }
+        },
+        "3_Z_hand": {
+          "3_Z_hand": {
+            "name": "3_R_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "rotation": -89.61,
+            "width": 68,
+            "height": 93
+          }
+        },
+        "3_Z_hand2": {
+          "3_Z_hand": {
+            "name": "3_R_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "rotation": -89.61,
+            "width": 68,
+            "height": 93
+          }
+        },
+        "3_Z_hand3": {
+          "3_Z_hand": {
+            "name": "3_R_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 68,
+            "height": 93
+          }
+        },
+        "3_Z_hand4": {
+          "3_Z_hand": {
+            "name": "3_R_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 68,
+            "height": 93
+          }
+        },
+        "3_Z_hand5": {
+          "3_Z_hand": {
+            "name": "3_R_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 68,
+            "height": 93
+          }
+        },
+        "3_Z_hand6": {
+          "3_Z_hand": {
+            "name": "3_R_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 68,
+            "height": 93
+          }
+        },
+        "3_Z_hand7": {
+          "3_Z_hand": {
+            "name": "3_R_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 68,
+            "height": 93
+          }
+        },
+        "3_Z_hand8": {
+          "3_Z_hand": {
+            "name": "3_R_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 68,
+            "height": 93
+          }
+        },
+        "3_Z_hand9": {
+          "3_Z_hand": {
+            "name": "3_R_hand",
+            "x": 27.86,
+            "y": -0.71,
+            "scaleX": 0.847,
+            "scaleY": 0.847,
+            "rotation": -89.61,
+            "width": 68,
+            "height": 93
+          }
+        },
+        "3_Z_light": {
+          "3_Z_light": {
+            "name": "3_R_light",
+            "x": 1.08,
+            "y": 0.68,
+            "width": 37,
+            "height": 38
+          }
+        }
+      }
+    },
+    "animations": {
+      "idel1": {
+        "slots": {
+          "3_Z_hand": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "3_Z_hand2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "3_Z_hand3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "3_Z_hand4": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "3_Z_hand5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "3_Z_hand6": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "3_Z_hand7": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "3_Z_hand8": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "3_Z_hand9": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "3_Z_hand": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "3_Z_hand2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -1.59
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.905,
+                "y": 0.95
+              }
+            ]
+          },
+          "3_Z_hand3": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "3_Z_hand4": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -0.63
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.962,
+                "y": 0.98
+              }
+            ]
+          },
+          "3_Z_hand5": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -1.59
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.905,
+                "y": 0.95
+              }
+            ]
+          },
+          "3_Z_hand6": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "3_Z_hand7": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0.39,
+                "y": -7.24
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.867,
+                "y": 0.93
+              }
+            ]
+          },
+          "3_Z_hand8": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -1.86,
+                "y": -2.4
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.962,
+                "y": 0.98
+              }
+            ]
+          },
+          "3_Z_hand9": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -0.25,
+                "y": -3.64
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.905,
+                "y": 0.95
+              }
+            ]
+          },
+          "bone": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.975,
+                "y": 1.056,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 1.076,
+                "y": 0.929,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0.975,
+                "y": 1.056
+              }
+            ]
+          },
+          "bone2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 1.62,
+                "curve": [
+                  0.375,
+                  0.62,
+                  0.716,
+                  1
+                ]
+              },
+              {
+                "time": 0.1,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6,
+                "angle": 12.47,
+                "curve": [
+                  0.243,
+                  0,
+                  0.68,
+                  0.71
+                ]
+              },
+              {
+                "time": 1,
+                "angle": 1.62
+              }
+            ]
+          },
+          "3_Z_light": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -2.21,
+                "curve": [
+                  0.375,
+                  0.62,
+                  0.716,
+                  1
+                ]
+              },
+              {
+                "time": 0.1,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6,
+                "angle": -16.98,
+                "curve": [
+                  0.243,
+                  0,
+                  0.68,
+                  0.71
+                ]
+              },
+              {
+                "time": 1,
+                "angle": -2.21
+              }
+            ]
+          }
+        }
+      },
+      "idel1_1": {
+        "slots": {
+          "3_Z_body": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "3_Z_light": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "3_Z_hand": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0.27,
+                "y": -13.78,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0.867,
+                "y": 0.93,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "3_Z_hand2": {
+            "rotate": [
+              {
+                "time": 0.2667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -3.93,
+                "curve": [
+                  0.372,
+                  0.48,
+                  0.752,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7667,
+                "x": 0,
+                "y": -7.22,
+                "curve": [
+                  0.252,
+                  0,
+                  0.622,
+                  0.48
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0,
+                "y": -3.93
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.927,
+                "y": 0.962,
+                "curve": [
+                  0.372,
+                  0.48,
+                  0.752,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7667,
+                "x": 0.867,
+                "y": 0.93,
+                "curve": [
+                  0.252,
+                  0,
+                  0.622,
+                  0.48
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0.927,
+                "y": 0.962
+              }
+            ]
+          },
+          "3_Z_hand3": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0.54,
+                "y": -5.18,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0.867,
+                "y": 0.93,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "3_Z_hand4": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 6.35
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -0.63,
+                "curve": [
+                  0.382,
+                  0.57,
+                  0.735,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": -2.21,
+                "curve": [
+                  0.243,
+                  0,
+                  0.649,
+                  0.6
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0,
+                "y": -0.63
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.962,
+                "y": 0.98,
+                "curve": [
+                  0.382,
+                  0.57,
+                  0.735,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 0.867,
+                "y": 0.93,
+                "curve": [
+                  0.243,
+                  0,
+                  0.649,
+                  0.6
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0.962,
+                "y": 0.98
+              }
+            ]
+          },
+          "3_Z_hand5": {
+            "rotate": [
+              {
+                "time": 0.3333,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -3.61,
+                "curve": [
+                  0.351,
+                  0.4,
+                  0.757,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 2.08,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": -5.86,
+                "curve": [
+                  0.265,
+                  0,
+                  0.618,
+                  0.43
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0,
+                "y": -3.61
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.905,
+                "y": 0.95,
+                "curve": [
+                  0.351,
+                  0.4,
+                  0.757,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 0.867,
+                "y": 0.93,
+                "curve": [
+                  0.265,
+                  0,
+                  0.618,
+                  0.43
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0.905,
+                "y": 0.95
+              }
+            ]
+          },
+          "3_Z_hand6": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": -0.79,
+                "y": -8.73,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0.867,
+                "y": 0.93,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "3_Z_hand7": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 4.16
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0.39,
+                "y": -7.24,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0.39,
+                "y": -7.24
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.867,
+                "y": 0.93,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0.867,
+                "y": 0.93
+              }
+            ]
+          },
+          "3_Z_hand8": {
+            "rotate": [
+              {
+                "time": 0.2333,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -2.06,
+                "y": -6.51,
+                "curve": [
+                  0.378,
+                  0.52,
+                  0.748,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "x": -1.52,
+                "y": -0.93,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "x": -2.71,
+                "y": -13.18,
+                "curve": [
+                  0.248,
+                  0,
+                  0.628,
+                  0.52
+                ]
+              },
+              {
+                "time": 1,
+                "x": -2.06,
+                "y": -6.51
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.939,
+                "y": 0.968,
+                "curve": [
+                  0.378,
+                  0.52,
+                  0.748,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "x": 0.867,
+                "y": 0.93,
+                "curve": [
+                  0.248,
+                  0,
+                  0.628,
+                  0.52
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0.939,
+                "y": 0.968
+              }
+            ]
+          },
+          "3_Z_hand9": {
+            "rotate": [
+              {
+                "time": 0.6667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -0.25,
+                "y": -3.64,
+                "curve": [
+                  0.382,
+                  0.57,
+                  0.735,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "x": -0.35,
+                "y": -5.08,
+                "curve": [
+                  0.265,
+                  0,
+                  0.618,
+                  0.43
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.243,
+                  0,
+                  0.649,
+                  0.6
+                ]
+              },
+              {
+                "time": 1,
+                "x": -0.25,
+                "y": -3.64
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.905,
+                "y": 0.95,
+                "curve": [
+                  0.382,
+                  0.57,
+                  0.735,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "x": 0.867,
+                "y": 0.93,
+                "curve": [
+                  0.265,
+                  0,
+                  0.618,
+                  0.43
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.243,
+                  0,
+                  0.649,
+                  0.6
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0.905,
+                "y": 0.95
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nbingdu_zaisheng.png\nsize: 1024,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n3_B_body\n  rotate: false\n  xy: 205, 294\n  size: 199, 199\n  orig: 199, 199\n  offset: 0, 0\n  index: -1\n3_B_hand\n  rotate: false\n  xy: 808, 330\n  size: 54, 77\n  orig: 54, 77\n  offset: 0, 0\n  index: -1\n3_B_light\n  rotate: false\n  xy: 808, 294\n  size: 33, 34\n  orig: 33, 34\n  offset: 0, 0\n  index: -1\n3_G_body\n  rotate: false\n  xy: 2, 91\n  size: 199, 199\n  orig: 199, 199\n  offset: 0, 0\n  index: -1\n3_G_hand\n  rotate: false\n  xy: 808, 409\n  size: 61, 84\n  orig: 61, 84\n  offset: 0, 0\n  index: -1\n3_G_light\n  rotate: false\n  xy: 132, 55\n  size: 33, 34\n  orig: 33, 34\n  offset: 0, 0\n  index: -1\n3_P_body\n  rotate: false\n  xy: 2, 292\n  size: 201, 201\n  orig: 201, 201\n  offset: 0, 0\n  index: -1\n3_P_hand\n  rotate: false\n  xy: 2, 2\n  size: 65, 87\n  orig: 65, 87\n  offset: 0, 0\n  index: -1\n3_P_light\n  rotate: false\n  xy: 927, 459\n  size: 33, 34\n  orig: 33, 34\n  offset: 0, 0\n  index: -1\n3_R_body\n  rotate: false\n  xy: 406, 294\n  size: 199, 199\n  orig: 199, 199\n  offset: 0, 0\n  index: -1\n3_R_hand\n  rotate: false\n  xy: 69, 5\n  size: 61, 84\n  orig: 61, 84\n  offset: 0, 0\n  index: -1\n3_R_light\n  rotate: false\n  xy: 132, 19\n  size: 33, 34\n  orig: 33, 34\n  offset: 0, 0\n  index: -1\n3_Z_body\n  rotate: false\n  xy: 607, 294\n  size: 199, 199\n  orig: 199, 199\n  offset: 0, 0\n  index: -1\n3_Z_hand\n  rotate: false\n  xy: 871, 417\n  size: 54, 76\n  orig: 58, 83\n  offset: 3, 4\n  index: -1\n3_Z_light\n  rotate: false\n  xy: 167, 55\n  size: 33, 34\n  orig: 33, 34\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "98PrCgED1LUbOXm7SLED3A"
+    }
+  ],
+  "textureNames": [
+    "bingdu_zaisheng.png"
+  ]
+}

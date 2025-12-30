@@ -1,0 +1,93 @@
+{
+    "frames": {
+        "img_btn_close.png": {
+            "frame": {
+                "h": 65,
+                "idx": 0,
+                "w": 60,
+                "x": 0,
+                "y": 189
+            },
+            "sourceSize": {
+                "h": 66,
+                "w": 62
+            },
+            "spriteSourceSize": {
+                "x": 1,
+                "y": 0
+            }
+        },
+        "shop_img_bg.png": {
+            "frame": {
+                "h": 60,
+                "idx": 0,
+                "w": 60,
+                "x": 0,
+                "y": 255
+            },
+            "sourceSize": {
+                "h": 60,
+                "w": 60
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "shop_img_head.png": {
+            "frame": {
+                "h": 70,
+                "idx": 0,
+                "w": 543,
+                "x": 0,
+                "y": 118
+            },
+            "sourceSize": {
+                "h": 70,
+                "w": 543
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "shop_img_listbg.png": {
+            "frame": {
+                "h": 117,
+                "idx": 0,
+                "w": 508,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 117,
+                "w": 508
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "shop_text_shop.png": {
+            "frame": {
+                "h": 29,
+                "idx": 0,
+                "w": 70,
+                "x": 0,
+                "y": 316
+            },
+            "sourceSize": {
+                "h": 32,
+                "w": 71
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 2
+            }
+        }
+    },
+    "meta": {
+        "image": "ui_shop.png",
+        "prefix": "ui_shop/"
+    }
+}

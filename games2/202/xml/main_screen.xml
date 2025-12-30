@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<libraries>
+	<library file="xml/library.xml" />
+	<library file="xml/library_news.xml" />
+</libraries>
+
+<templates>	
+	<button id="tChestBox" width="350" ratio="1.235" pivotX="0">
+		<state state="landscape" scale="1.0" />
+		<state state="portrait" scale="1.6" />
+		<image name="uiImgBlock" width="100%" height="70%" halign="center" valign="bottom" padding="10" image="ui/box_green.png" nss="32,35,13,83" paddingBottom="10">
+			<emitter template="tEmitter" active="false" range="70"/>		
+			<text name="uiTxtTitle" y="-15" template="tFontWhite,tElement,tFontSmall" halignText="center" valignText="center" relativeWidth="1.0" height="90" halign="center" valign="center" />	
+			<element name="uiProgress" width="90%" height="80" halign="center" valign="bottom" margin="10" marginTop="5" marginBottom="5">
+				<image image="ui/button5.png" template="tElement" color="0x00" alpha="0.5" nss="10,7,4,25" />
+				<image name="uiImgProgress" image="ui/button5.png" template="tElement" width="0%" nss="10,7,4,25" />
+			</element>
+			<text name="uiTxtAmount" template="tFontWhite,tElement,tFontMedium" halignText="center" valignText="center" relativeWidth="1.0" height="80" halign="center" valign="bottom" />		
+			<image name="uiImgRays" scale="2" template="tRays" halign="center" valign="topOf" y="-50" visible="false" />
+			<image name="uiImgIcon" image="ui/chest.png" width="75%" ratio="1.45985" halign="center" valign="topOf" y="50">
+				<animation animation="wobble" name="chestWobble" speed="0.5" angle="10.0" />				
+			</image>			
+		</image>
+		
+	</button>
+	<element id="tAnimation" width="1" height="1">
+		<image name="uiImgIcon" width="100" ratio="1" halign="center" valign="center" />
+		<text name="uiTxt" width="100" ratio="1" halign="center" valign="center" template="tFontWhite,tFontMedium" halignText="center" valignText="center" />
+	</element>
+	<element id="tSettings" template="tBaseSettings">
+		<button name="uiBtScreenList" image="dynamic/list.png" x="-330" width="100" height="100" halign="right" valign="bottom" unless="final"/>				
+	</element>	
+	
+	<image id="tNewsFeedConti"  template="tNewsFeedConti" data='{"height":140}' paddingRight="5">
+		<element name="uiContent">
+			<text name="uiTxtNews">
+				<state state="landscape" template="tFontSmall" />
+				<state state="portrait" template="tFontMedium" />
+			</text> 
+		</element>
+	</image>
+</templates>
+
+<screen label="SID_TITLE" name="uiMain" width="100%" height="100%" halign="center" valign="center">	
+	<element name="uiFrame" template="tElement" halign="center" valign="center">
+		<element name="uiImgMainBar" width="100%" height="300" halign="center" >
+			<image width="1000%" height="100%" image="ui/top_border.png" nss="4,1,4,7" alpha="0.6" halign="center"/>
+			<state state="landscape" visible="true" height="180" paddingLeft="80" paddingRight="80" />
+			<state state="portrait" visible="true" height="300" paddingLeft="120" paddingRight="120" /> 
+			
+			<button name="uiBtLifes" template="tResourceStatBox" pivotX="0.0" clickable="true" valign="center" y="0" halign="left">
+				<state state="landscape" scale="1.0" />
+				<state state="portrait" scale="1.8" />
+				
+				<image name="uiImgIcon" image="ui/life.png" y="10">				
+					<image name="uiImgInfinity" image="ui/infinity.png" width="50" ratio="1" halign="center" valign="center" visible="false" rotation="0" y="-7">
+						<state state="unlimited" visible="true"/>
+						<state state="limited" visible="false"/>
+						<animation animation="wobble" />
+					</image>				
+					<text name="uiTxtLifeAmount" y="-10" template="tElement,tFontWhite,tFontLarge" halignText="center" valignText="center" >
+						<state state="unlimited" visible="false"/>
+						<state state="limited" visible="true"/>
+					</text>
+				</image>
+				<text name="uiTxtLifeCountdown" template="tElement,tFontWhite,tFontMedium" halignText="right" valignText="center" marginRight="90">
+					<state state="unlimited" template="tFontSpecial" />
+					<state state="limited" template="tFontWhite"/>
+				</text>
+			</button>	
+			<button name="uiBtGold" template="tResourceStatBox" pivotX="0.0" valign="center" halign="right">
+				<state state="landscape" scale="1.0" />
+				<state state="portrait" scale="1.8" />
+				
+				<image name="uiBG" >
+					<image name="uiImgPlus" >
+						<state state="earnGoldAvailable" visible="true" />
+						<state state="earnGoldUnavailable" visible="false" />
+					</image>
+				</image>
+				<image name="uiImgIcon" image="ui/gold.png" >
+					<image image="particles/flare.png" width="70" height="70" halign="right" valign="top" x="3" y="-18" animation="pling" />
+				</image>
+				<text name="uiTxtAmount" template="tElement,tFontWhite,tFontMedium" halignText="right" valignText="center" >
+					<state state="earnGoldAvailable" marginRight="90" />
+					<state state="earnGoldUnavailable" marginRight="30" />
+				</text>					
+			</button>
+		</element>
+		<imageSpecial name="uiSocial" width="100%" height="300" valign="bottom" visible="true"  padding="25" if="firebase">
+			<image x="25" template="tBlock" height="15000" width="1" halign="rightOf" valign="center"  if="debug" />
+			<state state="landscape" x="-50" width="600" height="1120" halign="right" valign="center" marginLeft="0" marginBottom="30" marginRight="0" template="tBG" paddingLeft="30" paddingRight="30" paddingBottom="20" />					
+			<state state="portrait" x="0" width="100%" height="500" halign="center" valign="bottom" marginLeft="50" marginBottom="50" marginRight="50" template="tBGSmall" />
+							
+			<text text="SID_NEWS" template="tFontWhite,tFontMedium" width="100%" height="110" halign="center" halignText="center" valignText="center" >
+				<state state="portrait" visible="false" marginRight="0"/>
+				<state state="landscape" visible="true" marginRight="100" />						
+			</text>			
+			<element height="180">
+				<state state="landscape" width="450" halign="center" x="0" y="-15" valign="bottom" />
+				<state state="portrait" width="350" halign="left" x="50" y="10" valign="center" />
+								
+				<button name="uiBtLogin" template="tButton" halign="left" valign="center" label="SID_LOGIN" width="90%" >
+					<state state="landscape" valign="bottom" height="130" />
+					<state state="portrait" valign="center" height="150" />
+					<text text="SID_HELLO_GUEST" template="tFontWhite,tFontMedium" width="300"  height="60" halign="center" valign="topOf" halignText="center" valignText="center" />
+				</button>
+				<button name="uiBtOwnDetails" width="100%" height="100%" visible="false" >					
+					<!--text template="tFontWhite,tElement,tFontSmall" text="SID_SIGNED_IN_AS" halign="center" valign="center" halignText="center" valignText="top" /-->	
+					<player name="uiPlayer" width="130" ratio="1" halign="center" valign="top" >
+						<state state="landscape" width="130" valign="top" y="0" />
+						<state state="portrait" width="240" valign="center" y="-30" />
+						<text name="uiTxtPlayerName" template="tFontWhite,tFontMedium" width="300"  height="60" halign="center" valign="bottomOf" halignText="center" valignText="center" />
+						<element name="uiUnread" width="50" ratio="1" halign="right" valign="bottom" x="10" y="10" >
+							<state state="landscape" scale="1.0" x="10" />
+							<state state="portrait" scale="1.5" x="20" />	
+							<animation name="mailWobble" animation="wobble" speed="0" angle="2.0" size="1.0" />
+							<image name="uiImgNumUnread" image="ui/barbutton_01.png" width="50" height="100%" halign="center" nss="45,35,11,3" nssScale="0.6" />
+							<text name="uiTxtGlobalNumUnread" template="tFontMedium,tElement" valignText="center" halignText="center" />
+						</element>
+						<team name="uiAvatarTeam" width="80%" ratio="1.0" x="0" y="0" halign="rightOf" valign="center" clickable="true" >
+							<state state="landscape" width="90%" x="0" />
+							<state state="portrait" width="60%" x="-50" />								
+							<element name="uiTeamUnread" width="50" ratio="1" halign="right" valign="bottom" x="10" y="10" visible="false" >
+								<state state="landscape" scale="1.0" x="10" />
+								<state state="portrait" scale="1.5" x="20" />	
+								<animation name="mailWobble" animation="wobble" speed="0" angle="2.0" size="1.0" />
+								<image name="uiImgTeamNumUnread" image="ui/barbutton_01.png" width="50" height="100%" halign="center" nss="45,35,11,3" nssScale="0.6" />
+								<text name="uiTxtTeamNumUnread" template="tFontMedium,tElement" valignText="center" halignText="center" />
+							</element>
+						</team>
+					</player>
+				</button>
+			</element>			
+			<element name="uiNewsFeed" template="tElement" >
+				<state state="landscape" marginLeft="0" marginRight="0" marginTop="110" marginBottom="220" />
+				<state state="portrait" marginLeft="450" marginRight="220" marginTop="0" marginBottom="30" />
+				<newsList name="uiNewsList" template="tList" count="10">
+					<state state="landscape" allowScrollbar="true" gap="5"/>
+					<state state="portrait" allowScrollbar="false" gap="10"/>
+				</newsList>
+			</element>
+			<button name="uiBtMoreSocial" image="ui/more.png" width="100" ratio="1" halign="right"  >
+				<state state="landscape" valign="top" x="40" y="-4" width="90" />
+				<state state="portrait" valign="center" x="0" y="0" width="220" />
+			</button>
+		</imageSpecial>
+		<element template="tElement" >
+			<state state="landscape" padding="80" paddingBottom="0" />
+			<state state="portrait" padding="120" paddingBottom="0" />		
+			<state state="portrait" paddingBottom="420" if="firebase" />
+			
+			<image image="ui/ZooBoom_Logo.png" width="580" ratio="2.4" y="-60" halign="center" >
+				<state state="landscape" visible="true" />
+				<state state="portrait" visible="false" />
+			</image>			
+			<element name="uiStats" template="tElement">
+				<image template="tBlock" height="15000" width="1" halign="left" valign="center"  if="debug" />
+				<image template="tBlock" height="1" width="15000" halign="center" if="debug" />
+				<image template="tBlock" height="1" width="15000" halign="center" valign="bottom" if="debug"/>
+				<state state="landscape" halign="left" valign="center" width="350" height="1250" y="0" />
+				<state state="portrait" halign="left" valign="top" width="100%" height="100%" y="0" />		
+				
+				<button name="uiBtLevelChest" template="tChestBox" >							
+					<state state="landscape" y="-880" valign="bottom"/>
+					<state state="portrait" y="330" valign="top"/>
+					<image name="uiImgBlock" >
+						<text name="uiTxtTitle" text="SID_LEVEL_CHEST" />
+					</image>
+				</button>
+				<button name="uiBtTournament" template="tChestBox"  visible="false">		
+					<state state="landscape" y="0" halign="center" valign="bottom"/>
+					<state state="portrait" y="330" halign="right" valign="top" />
+					<image name="uiImgBlock" image="ui/box_red.png" >
+						<text name="uiTxtTitle" text="SID_TOURNAMENT" />
+						<image name="uiImgIcon" image="ui/trophy.png" ratio="1.22" width="65%" >
+							<text name="uiTxtRanking" template="tFontWhite,tFontLarge" width="100%" ratio="3" halign="center" valign="center" halignText="center" valignText="center" y="-40" />
+						</image>
+						<element name="uiProgress" >
+							<image image="ui/star_on.png" height="60" ratio="1.0" valign="center" halign="right" />
+						</element>
+						<text name="uiTxtAmount" marginRight="30" />
+						<image name="uiImgRays" visible="true" />
+					</image>
+				</button>	
+				
+				<button name="uiBtStarChest" template="tChestBox" halign="center">	
+					<state state="landscape" y="-440" pivotX="0.0" valign="bottom"/>
+					<state state="portrait" y="330" pivotX="0.5" valign="top"/>
+					<image name="uiImgBlock" image="ui/box_blue.png" >
+						<text name="uiTxtTitle" text="SID_STAR_CHEST" />			
+						<text name="uiTxtAmount" relativeWidth="1.0" halignText="center" x="0" halign="center"/>
+						<element name="uiProgress" >
+							<image image="ui/star_on.png" height="60" ratio="1.0" valign="center" halign="right" />
+						</element>
+					</image>	
+				</button>
+				
+				
+			</element>
+			
+			<!--iframe width="1000" ratio="0.95" halign="center" valign="center" url="https://sandbox-secure.xsolla.com/paystation3/desktop/payment/?access_token=f4puQPnUhI1JhUHwPPlBvMbABhwMXXj1" /-->
+		
+			<button name="uiBtPlay" label="SID_PLAY" icon="ui/play.png" template="tBigButton" pivotY="1.0">
+				<emitter duration="0.9" gravity="0.0" startSize="35" endSize="5" endColor="0x00FFFFFF" range="220" numParticlesPerSecond="0"/>
+				<state state="landscape" scale="1.0" />
+				<state state="portrait" scale="1.9" />
+				
+				<button name="uiBtStreak" width="150" ratio="1" halign="leftOf" valign="center" visible="false" x="-40">
+					<state state="streak" visible="true"/>
+					<state state="noStreak" visible="false"/>
+					<image template="tRays" scale="1.5" halign="center" valign="center" />
+					<image name="uiImgStreak" image="dynamic/streak.png" template="tElement" />
+					<text name="uiTxtStreak" halignText="center" valignText="bottom" halign="center" valign="center" template="tFontSpecial,tFontMedium,tElement" marginBottom="43" />
+				</button>
+				
+				<element name="uiRewardEmitter" y="-50" width="1" height="1" halign="center" valign="topOf" />
+				<image name="uiImgDifficulty" x="-55" y="-45" width="150" ratio="1.0" halign="left" valign="top" rotation="-10" >
+					<animation animation="wobble" speed="1.5" size="0.1" angle="2.0" />
+				</image>
+				<image name="uiImgRandomMode" x="31" y="-97" width="132" ratio="1.0" halign="right" valign="top" image="dynamic/crown.png" rotation="20" >
+					<image image="particles/flare.png" width="70" height="70" halign="center" valign="top" x="5" y="-28" animation="pling"/>
+				</image>
+			</button>
+			
+			<button name="uiBtSettings" image="ui/settings.png" pivotX="0.0" halign="right" valign="bottom" width="120" height="120" >
+				<state state="landscape" scale="1.0" pivotY="1.0" y="0" x="-175" />
+				<state state="portrait" scale="2.0" pivotY="1.0" y="0" x="0" />
+			</button>				
+		</element>		
+	</element>	
+</screen>

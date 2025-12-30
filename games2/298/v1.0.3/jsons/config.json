@@ -1,0 +1,57 @@
+{
+  "InitCoins": 1000,
+  "MinutesToRechargeWatchAd": 0.3,
+  "FreeCoinsFromWatchAd": 120,
+  "LevelProgressTarget": 15,
+  "Boosters": {
+    "Eye": {
+      "UnlockLevel": 2,
+      "Count": 3,
+      "Price": 100
+    },
+    "Magnifier": {
+      "UnlockLevel": 3,
+      "Count": 3,
+      "Price": 80
+    },
+    "LightBulb": {
+      "UnlockLevel": 4,
+      "Count": 3,
+      "Price": 220
+    }
+  },
+  "GiftsChance": {
+    "Coin": {
+      "Name": "Coin",
+      "Chance": 20,
+      "Range": [
+        100,
+        300
+      ]
+    },
+    "Magnifier": {
+      "Name": "Magnifier",
+      "Chance": 1,
+      "Range": [
+        1,
+        3
+      ]
+    },
+    "LightBulb": {
+      "Name": "LightBulb",
+      "Chance": 0.3,
+      "Range": [
+        1,
+        2
+      ]
+    },
+    "Eye": {
+      "Name": "Eye",
+      "Chance": 2,
+      "Range": [
+        1,
+        1
+      ]
+    }
+  }
+}

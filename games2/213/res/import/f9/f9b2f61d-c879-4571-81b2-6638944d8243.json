@@ -1,0 +1,100 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "bghcpt",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "bg_hcpt",
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_level": 1,
+    "_components": [
+      {
+        "__type__": "cc.Sprite",
+        "node": {
+          "__id__": 1
+        },
+        "_materials": [
+          {
+            "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+          }
+        ],
+        "_spriteFrame": {
+          "__uuid__": "a2MjXRFdtLlYQ5ouAFv/+R"
+        },
+        "_sizeMode": 0
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "f9svYdyHlFcYGyZjiUTYJD"
+      },
+      "fileId": "a0k+BjnodE866oYmAQCsnH"
+    },
+    "_opacity": 170,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 20,
+      "g": 10,
+      "b": 10
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 250,
+      "height": 60
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "New Label",
+    "_parent": {
+      "__id__": 1
+    },
+    "_components": [
+      {
+        "__type__": "cc.Label",
+        "node": {
+          "__id__": 2
+        },
+        "_materials": [
+          {
+            "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+          }
+        ],
+        "_useOriginalSize": false,
+        "_string": "Please craft turrets",
+        "_N$string": "Please craft turrets",
+        "_fontSize": 25,
+        "_lineHeight": 30,
+        "_N$horizontalAlign": 1,
+        "_N$verticalAlign": 1
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "f9svYdyHlFcYGyZjiUTYJD"
+      },
+      "fileId": "dark8IuCtL15IwCt2dAJ/Z"
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 209.8,
+      "height": 37.8
+    }
+  }
+]

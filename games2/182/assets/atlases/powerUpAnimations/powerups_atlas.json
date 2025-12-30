@@ -1,0 +1,86 @@
+{
+  "frames": [
+    {
+      "filename": "powerupglow",
+      "frame": {
+        "w": 232,
+        "h": 231,
+        "x": 3,
+        "y": 3
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "wingglow",
+      "frame": {
+        "w": 164,
+        "h": 178,
+        "x": 3,
+        "y": 237
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "wing",
+      "frame": {
+        "w": 90,
+        "h": 73,
+        "x": 238,
+        "y": 3
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "wingframe",
+      "frame": {
+        "w": 74,
+        "h": 85,
+        "x": 238,
+        "y": 79
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "powerupbg",
+      "frame": {
+        "w": 74,
+        "h": 74,
+        "x": 238,
+        "y": 167
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "gunlevelup",
+      "frame": {
+        "w": 56,
+        "h": 50,
+        "x": 170,
+        "y": 237
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  ],
+  "meta": {
+    "description": "Atlas generado con Atlas Packer Gamma V2",
+    "web": "https://gammafp.github.io/atlas-packer-phaser/"
+  }
+}

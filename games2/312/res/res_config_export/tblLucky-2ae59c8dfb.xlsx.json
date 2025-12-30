@@ -1,0 +1,86 @@
+[
+  {
+    "id": 0,
+    "key": "initEggs",
+    "value": "1|0|0|0|2",
+    "notes": "初始状态下的鸡蛋，0铜，1银，2金"
+  },
+  {
+    "id": 1,
+    "key": "freeRefreshMinutes",
+    "value": "10|10|30|60",
+    "notes": "免费抽刷新时间，分钟"
+  },
+  {
+    "id": 2,
+    "key": "rewardEgg2",
+    "value": "20|20|5|45|10|0|0|0",
+    "notes": "球员碎片，球鞋碎片，钱1， 钱2， 钱3"
+  },
+  {
+    "id": 3,
+    "key": "rewardEgg1",
+    "value": "5|10|0|5|65|15|0|0"
+  },
+  {
+    "id": 4,
+    "key": "rewardEgg0",
+    "value": "0|5|0|0|0|20|60|15"
+  },
+  {
+    "id": 5,
+    "key": "coin1",
+    "value": 888
+  },
+  {
+    "id": 6,
+    "key": "coin2",
+    "value": 666
+  },
+  {
+    "id": 7,
+    "key": "coin3",
+    "value": 388
+  },
+  {
+    "id": 8,
+    "key": "coin4",
+    "value": 188
+  },
+  {
+    "id": 9,
+    "key": "coin5",
+    "value": 100
+  },
+  {
+    "id": 10,
+    "key": "coin6",
+    "value": 88
+  },
+  {
+    "id": 11,
+    "key": "refreshAll",
+    "value": "10|25|20|10|15|20",
+    "notes": "刷新按钮刷新蛋的概率，铜，银，金，球员，球鞋，球衣"
+  },
+  {
+    "id": 12,
+    "key": "refreshEggsOnly",
+    "value": "60|30|10"
+  },
+  {
+    "id": 13,
+    "key": "rewardModel",
+    "value": "2|0|0|0|0|4|1|2|0|8|8|8|0|2|2"
+  },
+  {
+    "id": 14,
+    "key": "rewardAvatar",
+    "value": "0|0|0|0|5|0|3|3|1|0|0|0"
+  },
+  {
+    "id": 15,
+    "key": "rewardShoe",
+    "value": "1|0|0|3|3|0|0|6|0|6|0|0|0"
+  }
+]

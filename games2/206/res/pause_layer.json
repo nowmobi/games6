@@ -1,0 +1,740 @@
+{
+  "ID": "0bc912a6-eb77-4628-af1f-d06d64538103",
+  "Version": "3.10.0.0",
+  "Name": "pause_layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 15,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/scalesprite3.png",
+              "Plist": "csi/scaleplist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 99,
+            "Scale9OriginY": 99,
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0005,
+              "Y": 667.12
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5212
+            },
+            "PreSize": {
+              "X": 0.8891,
+              "Y": 0.3558
+            },
+            "LeftMargin": 39.9405,
+            "RightMargin": 39.9395,
+            "TopMargin": 385.1873,
+            "BottomMargin": 439.4273,
+            "Tag": 319,
+            "ActionTag": 783823165,
+            "Size": {
+              "X": 640.12,
+              "Y": 455.3854
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/scalesprite4.png",
+              "Plist": "csi/scaleplist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 49,
+            "Scale9OriginY": 49,
+            "Scale9Width": 36,
+            "Scale9Height": 36,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360,
+              "Y": 718.4351
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5613
+            },
+            "PreSize": {
+              "X": 0.7475,
+              "Y": 0.1978
+            },
+            "LeftMargin": 90.9062,
+            "RightMargin": 90.9061,
+            "TopMargin": 435.0022,
+            "BottomMargin": 591.8724,
+            "Tag": 318,
+            "ActionTag": -1957835635,
+            "Size": {
+              "X": 538.1877,
+              "Y": 253.1254
+            },
+            "Name": "Image_2",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/n_titlebg1.png",
+              "Plist": "csi/csi_2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360,
+              "Y": 896.4181
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.7003
+            },
+            "PreSize": {
+              "X": 0.9361,
+              "Y": 0.1289
+            },
+            "LeftMargin": 23,
+            "RightMargin": 23,
+            "TopMargin": 301.0819,
+            "BottomMargin": 813.9181,
+            "Tag": 317,
+            "ActionTag": 1582910621,
+            "Size": {
+              "X": 674,
+              "Y": 165
+            },
+            "Name": "titlebg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "game/pause_text.png",
+              "Plist": "csi/fightanimatelist2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360,
+              "Y": 922.5142
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.7207
+            },
+            "PreSize": {
+              "X": 0.2833,
+              "Y": 0.0453
+            },
+            "LeftMargin": 258,
+            "RightMargin": 258,
+            "TopMargin": 328.4858,
+            "BottomMargin": 893.5142,
+            "Tag": 18,
+            "ActionTag": 2010309952,
+            "Size": {
+              "X": 204,
+              "Y": 58
+            },
+            "Name": "pause_text_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "game/music_text.png",
+              "Plist": "csi/fightanimatelist2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 269.7787,
+              "Y": 757.4326
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3747,
+              "Y": 0.5917
+            },
+            "PreSize": {
+              "X": 0.1764,
+              "Y": 0.0305
+            },
+            "LeftMargin": 206.2787,
+            "RightMargin": 386.7213,
+            "TopMargin": 503.0674,
+            "BottomMargin": 737.9326,
+            "Tag": 17,
+            "ActionTag": -1447197009,
+            "Size": {
+              "X": 127,
+              "Y": 39
+            },
+            "Name": "music_text_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "game/sound_text.png",
+              "Plist": "csi/fightanimatelist2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 269.6934,
+              "Y": 676.4843
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3746,
+              "Y": 0.5285
+            },
+            "PreSize": {
+              "X": 0.1819,
+              "Y": 0.0305
+            },
+            "LeftMargin": 204.1934,
+            "RightMargin": 384.8066,
+            "TopMargin": 584.0157,
+            "BottomMargin": 656.9843,
+            "Tag": 19,
+            "ActionTag": -183497310,
+            "Size": {
+              "X": 131,
+              "Y": 39
+            },
+            "Name": "sound_text_4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "result/off.png",
+              "Plist": "csi/fightanimatelist1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 459.7444,
+              "Y": 754.9327
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6385,
+              "Y": 0.5898
+            },
+            "PreSize": {
+              "X": 0.2083,
+              "Y": 0.0391
+            },
+            "LeftMargin": 384.7444,
+            "RightMargin": 185.2556,
+            "TopMargin": 500.0673,
+            "BottomMargin": 729.9327,
+            "Tag": 1,
+            "ActionTag": 1846855493,
+            "Size": {
+              "X": 150,
+              "Y": 50
+            },
+            "Name": "bg1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "result/off.png",
+              "Plist": "csi/fightanimatelist1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 459.7444,
+              "Y": 674.4028
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6385,
+              "Y": 0.5269
+            },
+            "PreSize": {
+              "X": 0.2083,
+              "Y": 0.0391
+            },
+            "LeftMargin": 384.7444,
+            "RightMargin": 185.2556,
+            "TopMargin": 580.5972,
+            "BottomMargin": 649.4028,
+            "Tag": 2,
+            "ActionTag": 17860625,
+            "Size": {
+              "X": 150,
+              "Y": 50
+            },
+            "Name": "bg2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "BackGroundData": {
+              "Type": "MarkedSubImage",
+              "Path": "result/off.png",
+              "Plist": "csi/fightanimatelist1.plist"
+            },
+            "ProgressBarData": {
+              "Type": "MarkedSubImage",
+              "Path": "result/on.png",
+              "Plist": "csi/fightanimatelist1.plist"
+            },
+            "BallNormalData": {
+              "Type": "MarkedSubImage",
+              "Path": "game/music_btn.png",
+              "Plist": "csi/fightanimatelist2.plist"
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 459.75,
+              "Y": 754.93
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6385,
+              "Y": 0.5898
+            },
+            "PreSize": {
+              "X": 0.2083,
+              "Y": 0.0391
+            },
+            "LeftMargin": 384.75,
+            "RightMargin": 185.25,
+            "TopMargin": 500.07,
+            "BottomMargin": 729.93,
+            "Tag": 1,
+            "ActionTag": 1197072979,
+            "Size": {
+              "X": 150,
+              "Y": 50
+            },
+            "Name": "slider_music",
+            "ctype": "SliderObjectData"
+          },
+          {
+            "BackGroundData": {
+              "Type": "MarkedSubImage",
+              "Path": "result/off.png",
+              "Plist": "csi/fightanimatelist1.plist"
+            },
+            "ProgressBarData": {
+              "Type": "MarkedSubImage",
+              "Path": "result/on.png",
+              "Plist": "csi/fightanimatelist1.plist"
+            },
+            "BallNormalData": {
+              "Type": "MarkedSubImage",
+              "Path": "game/sound_btn.png",
+              "Plist": "csi/fightanimatelist2.plist"
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 459.74,
+              "Y": 674.4
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6385,
+              "Y": 0.5269
+            },
+            "PreSize": {
+              "X": 0.2083,
+              "Y": 0.0391
+            },
+            "LeftMargin": 384.74,
+            "RightMargin": 185.26,
+            "TopMargin": 580.6,
+            "BottomMargin": 649.4,
+            "Tag": 2,
+            "ActionTag": -898300579,
+            "Size": {
+              "X": 150,
+              "Y": 50
+            },
+            "Name": "slider_audic",
+            "ctype": "SliderObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/n_close.png",
+              "Plist": "csi/csi_2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 650.81,
+              "Y": 936.63
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9039,
+              "Y": 0.7317
+            },
+            "PreSize": {
+              "X": 0.0986,
+              "Y": 0.0578
+            },
+            "LeftMargin": 615.31,
+            "RightMargin": 33.69,
+            "TopMargin": 306.37,
+            "BottomMargin": 899.63,
+            "Tag": 26,
+            "ActionTag": -1111568568,
+            "Size": {
+              "X": 71,
+              "Y": 74
+            },
+            "Name": "btnClose",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/publicbtn9.png",
+              "Plist": "csi/csi_5.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 464.9568,
+              "Y": 527.88
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6458,
+              "Y": 0.4124
+            },
+            "PreSize": {
+              "X": 0.2083,
+              "Y": 0.0688
+            },
+            "LeftMargin": 389.9568,
+            "RightMargin": 180.0432,
+            "TopMargin": 708.12,
+            "BottomMargin": 483.88,
+            "Tag": 133,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "public/y_again.png",
+                  "Plist": "csi/csi_1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 74,
+                  "Y": 49.2498
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4933,
+                  "Y": 0.5597
+                },
+                "PreSize": {
+                  "X": 0.4067,
+                  "Y": 0.6591
+                },
+                "LeftMargin": 43.5,
+                "RightMargin": 45.5,
+                "TopMargin": 9.7502,
+                "BottomMargin": 20.2498,
+                "Tag": 134,
+                "ActionTag": -527942930,
+                "Size": {
+                  "X": 61,
+                  "Y": 58
+                },
+                "Name": "replay",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1939518979,
+            "Size": {
+              "X": 150,
+              "Y": 88
+            },
+            "Name": "btnReplay",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/publicbtn4.png",
+              "Plist": "csi/csi_2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 266.7983,
+              "Y": 527.88
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3706,
+              "Y": 0.4124
+            },
+            "PreSize": {
+              "X": 0.2083,
+              "Y": 0.0688
+            },
+            "LeftMargin": 191.7983,
+            "RightMargin": 378.2017,
+            "TopMargin": 708.12,
+            "BottomMargin": 483.88,
+            "Tag": 135,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "public/n_homeicon.png",
+                  "Plist": "csi/fntplist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 74,
+                  "Y": 51.0795
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4933,
+                  "Y": 0.5804
+                },
+                "PreSize": {
+                  "X": 0.3933,
+                  "Y": 0.6477
+                },
+                "LeftMargin": 44.5,
+                "RightMargin": 46.5,
+                "TopMargin": 8.4205,
+                "BottomMargin": 22.5795,
+                "Tag": 136,
+                "ActionTag": -865061531,
+                "Size": {
+                  "X": 59,
+                  "Y": 57
+                },
+                "Name": "homeicon",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1251236082,
+            "Size": {
+              "X": 150,
+              "Y": 88
+            },
+            "Name": "btnHome",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720,
+          "Y": 1280
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "csi/csi_1.plist",
+        "csi/csi_1.png",
+        "csi/csi_2.plist",
+        "csi/csi_2.png",
+        "csi/csi_5.plist",
+        "csi/csi_5.png",
+        "csi/fightanimatelist1.plist",
+        "csi/fightanimatelist1.png",
+        "csi/fightanimatelist2.plist",
+        "csi/fightanimatelist2.png",
+        "csi/fntplist.plist",
+        "csi/fntplist.png",
+        "csi/scaleplist.plist",
+        "csi/scaleplist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

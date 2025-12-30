@@ -1,0 +1,1271 @@
+{
+  "skeleton": {
+    "hash": "QdEA/EqyqnM",
+    "spine": "3.8-from-4.0.62",
+    "x": -46.34,
+    "y": 1.29,
+    "width": 122.78,
+    "height": 118.17,
+    "images": "",
+    "audio": ""
+  },
+  "bones": [
+    {
+      "name": "root",
+      "rotation": -0.54,
+      "x": 0.21
+    },
+    {
+      "name": "bone8",
+      "parent": "root",
+      "length": 13.23,
+      "rotation": -270.7,
+      "x": 0.02,
+      "y": 2.09
+    },
+    {
+      "name": "bone",
+      "parent": "bone8",
+      "length": 15.57,
+      "rotation": 1.21,
+      "x": 14.21,
+      "y": -0.31,
+      "scaleX": 0.9747,
+      "scaleY": 0.9747
+    },
+    {
+      "name": "bone2",
+      "parent": "bone",
+      "length": 78.78,
+      "rotation": -0.07,
+      "x": 15.07,
+      "y": -0.07
+    },
+    {
+      "name": "bone3",
+      "parent": "bone",
+      "length": 19.41,
+      "rotation": -132.52,
+      "x": 10.11,
+      "y": -6.27
+    },
+    {
+      "name": "bone4",
+      "parent": "bone3",
+      "length": 45.62,
+      "rotation": 87.49,
+      "x": 9.48,
+      "y": 6.41,
+      "shearX": -0.6
+    },
+    {
+      "name": "bone5",
+      "parent": "bone",
+      "length": 23.08,
+      "rotation": 127.32,
+      "x": 9.21,
+      "y": 7.47
+    },
+    {
+      "name": "bone6",
+      "parent": "bone",
+      "length": 16.62,
+      "rotation": -135.6,
+      "x": 1.31,
+      "y": -3.55
+    },
+    {
+      "name": "bone7",
+      "parent": "bone",
+      "length": 21.02,
+      "rotation": 139.9,
+      "x": 0.82,
+      "y": 4.34
+    },
+    {
+      "name": "bone9",
+      "parent": "bone4",
+      "length": 40.56,
+      "rotation": 2.05,
+      "x": 41.07,
+      "y": 0.54
+    }
+  ],
+  "slots": [
+    {
+      "name": "Weapon",
+      "bone": "bone4",
+      "attachment": "Skin1/Weapon"
+    },
+    {
+      "name": "Right Arm",
+      "bone": "bone3",
+      "attachment": "Skin1/Right Arm"
+    },
+    {
+      "name": "Right Leg",
+      "bone": "bone6",
+      "attachment": "Skin1/Right Leg"
+    },
+    {
+      "name": "Left Leg",
+      "bone": "bone7",
+      "attachment": "Skin1/Left Leg"
+    },
+    {
+      "name": "Body",
+      "bone": "bone",
+      "attachment": "Skin1/Body"
+    },
+    {
+      "name": "Left Arm",
+      "bone": "bone5",
+      "attachment": "Skin1/Left Arm"
+    },
+    {
+      "name": "Head",
+      "bone": "bone2",
+      "attachment": "Skin1/Head"
+    },
+    {
+      "name": "Splash",
+      "bone": "bone9",
+      "attachment": "Skin1/Splash"
+    }
+  ],
+  "skins": [
+    {
+      "name": "Skin1",
+      "attachments": {
+        "Body": {
+          "Skin1/Body": {
+            "x": 6.49,
+            "y": 0.81,
+            "rotation": -88.87,
+            "width": 28,
+            "height": 28
+          }
+        },
+        "Head": {
+          "Skin1/Head": {
+            "x": 30.5,
+            "y": 2.45,
+            "rotation": -90.04,
+            "width": 92,
+            "height": 89
+          }
+        },
+        "Left Arm": {
+          "Skin1/Left Arm": {
+            "x": 5.72,
+            "y": -1.78,
+            "rotation": 141.17,
+            "width": 22,
+            "height": 22
+          }
+        },
+        "Left Leg": {
+          "Skin1/Left Leg": {
+            "x": 7.37,
+            "y": 1.35,
+            "rotation": 131.14,
+            "width": 24,
+            "height": 19
+          }
+        },
+        "Right Arm": {
+          "Skin1/Right Arm": {
+            "x": 5.19,
+            "y": 1.56,
+            "rotation": 41.49,
+            "width": 22,
+            "height": 23
+          }
+        },
+        "Right Leg": {
+          "Skin1/Right Leg": {
+            "x": 5,
+            "y": -2.27,
+            "rotation": 45.7,
+            "width": 20,
+            "height": 20
+          }
+        },
+        "Splash": {
+          "Skin1/Splash": {
+            "x": -15.2,
+            "y": 28.38,
+            "scaleX": 0.7319,
+            "scaleY": 1.0716,
+            "rotation": 2.18,
+            "width": 96,
+            "height": 96
+          }
+        },
+        "Weapon": {
+          "Skin1/Weapon": {
+            "x": 20.44,
+            "y": -0.17,
+            "rotation": -48.11,
+            "width": 58,
+            "height": 67
+          }
+        }
+      }
+    },
+    {
+      "name": "Skin2",
+      "attachments": {
+        "Body": {
+          "Skin1/Body": {
+            "path": "Skin2/Body",
+            "x": 6.49,
+            "y": 0.81,
+            "rotation": -88.87,
+            "width": 28,
+            "height": 28
+          }
+        },
+        "Head": {
+          "Skin1/Head": {
+            "path": "Skin2/Head",
+            "x": 30.5,
+            "y": 2.45,
+            "rotation": -90.04,
+            "width": 92,
+            "height": 89
+          }
+        },
+        "Left Arm": {
+          "Skin1/Left Arm": {
+            "path": "Skin2/Left Arm",
+            "x": 5.72,
+            "y": -1.78,
+            "rotation": 141.17,
+            "width": 22,
+            "height": 22
+          }
+        },
+        "Left Leg": {
+          "Skin1/Left Leg": {
+            "path": "Skin2/Left Leg",
+            "x": 7.37,
+            "y": 1.35,
+            "rotation": 131.14,
+            "width": 24,
+            "height": 19
+          }
+        },
+        "Right Arm": {
+          "Skin1/Right Arm": {
+            "path": "Skin2/Right Arm",
+            "x": 5.19,
+            "y": 1.56,
+            "rotation": 41.49,
+            "width": 22,
+            "height": 23
+          }
+        },
+        "Right Leg": {
+          "Skin1/Right Leg": {
+            "path": "Skin2/Right Leg",
+            "x": 5,
+            "y": -2.27,
+            "rotation": 45.7,
+            "width": 20,
+            "height": 20
+          }
+        },
+        "Splash": {
+          "Skin1/Splash": {
+            "path": "Skin2/Splash",
+            "x": -15.2,
+            "y": 28.38,
+            "scaleX": 0.7319,
+            "scaleY": 1.0716,
+            "rotation": 2.18,
+            "width": 96,
+            "height": 96
+          }
+        },
+        "Weapon": {
+          "Skin1/Weapon": {
+            "path": "Skin2/Weapon",
+            "x": 20.44,
+            "y": -0.17,
+            "rotation": -48.11,
+            "width": 58,
+            "height": 67
+          }
+        }
+      }
+    },
+    {
+      "name": "Skin3",
+      "attachments": {
+        "Body": {
+          "Skin1/Body": {
+            "path": "Skin3/Body",
+            "x": 6.49,
+            "y": 0.81,
+            "rotation": -88.87,
+            "width": 28,
+            "height": 28
+          }
+        },
+        "Head": {
+          "Skin1/Head": {
+            "path": "Skin3/Head",
+            "x": 30.5,
+            "y": 2.45,
+            "rotation": -90.04,
+            "width": 92,
+            "height": 89
+          }
+        },
+        "Left Arm": {
+          "Skin1/Left Arm": {
+            "path": "Skin3/Left Arm",
+            "x": 5.72,
+            "y": -1.78,
+            "rotation": 141.17,
+            "width": 22,
+            "height": 22
+          }
+        },
+        "Left Leg": {
+          "Skin1/Left Leg": {
+            "path": "Skin3/Left Leg",
+            "x": 7.37,
+            "y": 1.35,
+            "rotation": 131.14,
+            "width": 24,
+            "height": 19
+          }
+        },
+        "Right Arm": {
+          "Skin1/Right Arm": {
+            "path": "Skin3/Right Arm",
+            "x": 5.19,
+            "y": 1.56,
+            "rotation": 41.49,
+            "width": 22,
+            "height": 23
+          }
+        },
+        "Right Leg": {
+          "Skin1/Right Leg": {
+            "path": "Skin3/Right Leg",
+            "x": 5,
+            "y": -2.27,
+            "rotation": 45.7,
+            "width": 20,
+            "height": 20
+          }
+        },
+        "Splash": {
+          "Skin1/Splash": {
+            "path": "Skin3/Splash",
+            "x": -15.2,
+            "y": 28.38,
+            "scaleX": 0.7319,
+            "scaleY": 1.0716,
+            "rotation": 2.18,
+            "width": 96,
+            "height": 96
+          }
+        },
+        "Weapon": {
+          "Skin1/Weapon": {
+            "path": "Skin3/Weapon",
+            "x": 20.44,
+            "y": -0.17,
+            "rotation": -48.11,
+            "width": 58,
+            "height": 67
+          }
+        }
+      }
+    },
+    {
+      "name": "Skin4",
+      "attachments": {
+        "Body": {
+          "Skin1/Body": {
+            "path": "Skin4/Body",
+            "x": 6.49,
+            "y": 0.81,
+            "rotation": -88.87,
+            "width": 28,
+            "height": 28
+          }
+        },
+        "Head": {
+          "Skin1/Head": {
+            "path": "Skin4/Head",
+            "x": 30.5,
+            "y": 2.45,
+            "rotation": -90.04,
+            "width": 92,
+            "height": 89
+          }
+        },
+        "Left Arm": {
+          "Skin1/Left Arm": {
+            "path": "Skin4/Left Arm",
+            "x": 5.72,
+            "y": -1.78,
+            "rotation": 141.17,
+            "width": 22,
+            "height": 22
+          }
+        },
+        "Left Leg": {
+          "Skin1/Left Leg": {
+            "path": "Skin4/Left Leg",
+            "x": 7.37,
+            "y": 1.35,
+            "rotation": 131.14,
+            "width": 24,
+            "height": 19
+          }
+        },
+        "Right Arm": {
+          "Skin1/Right Arm": {
+            "path": "Skin4/Right Arm",
+            "x": 5.19,
+            "y": 1.56,
+            "rotation": 41.49,
+            "width": 22,
+            "height": 23
+          }
+        },
+        "Right Leg": {
+          "Skin1/Right Leg": {
+            "path": "Skin4/Right Leg",
+            "x": 5,
+            "y": -2.27,
+            "rotation": 45.7,
+            "width": 20,
+            "height": 20
+          }
+        },
+        "Splash": {
+          "Skin1/Splash": {
+            "path": "Skin4/Splash",
+            "x": -15.2,
+            "y": 28.38,
+            "scaleX": 0.7319,
+            "scaleY": 1.0716,
+            "rotation": 2.18,
+            "width": 96,
+            "height": 96
+          }
+        },
+        "Weapon": {
+          "Skin1/Weapon": {
+            "path": "Skin4/Weapon",
+            "x": 20.44,
+            "y": -0.17,
+            "rotation": -48.11,
+            "width": 58,
+            "height": 67
+          }
+        }
+      }
+    },
+    {
+      "name": "Skin5",
+      "attachments": {
+        "Body": {
+          "Skin1/Body": {
+            "path": "Skin5/Body",
+            "x": 6.49,
+            "y": 0.81,
+            "rotation": -88.87,
+            "width": 28,
+            "height": 28
+          }
+        },
+        "Head": {
+          "Skin1/Head": {
+            "path": "Skin5/Head",
+            "x": 30.5,
+            "y": 2.45,
+            "rotation": -90.04,
+            "width": 92,
+            "height": 89
+          }
+        },
+        "Left Arm": {
+          "Skin1/Left Arm": {
+            "path": "Skin5/Left Arm",
+            "x": 5.72,
+            "y": -1.78,
+            "rotation": 141.17,
+            "width": 22,
+            "height": 22
+          }
+        },
+        "Left Leg": {
+          "Skin1/Left Leg": {
+            "path": "Skin5/Left Leg",
+            "x": 7.37,
+            "y": 1.35,
+            "rotation": 131.14,
+            "width": 24,
+            "height": 19
+          }
+        },
+        "Right Arm": {
+          "Skin1/Right Arm": {
+            "path": "Skin5/Right Arm",
+            "x": 5.19,
+            "y": 1.56,
+            "rotation": 41.49,
+            "width": 22,
+            "height": 23
+          }
+        },
+        "Right Leg": {
+          "Skin1/Right Leg": {
+            "path": "Skin5/Right Leg",
+            "x": 5,
+            "y": -2.27,
+            "rotation": 45.7,
+            "width": 20,
+            "height": 20
+          }
+        },
+        "Splash": {
+          "Skin1/Splash": {
+            "path": "Skin5/Splash",
+            "x": -15.2,
+            "y": 28.38,
+            "scaleX": 0.7319,
+            "scaleY": 1.0716,
+            "rotation": 2.18,
+            "width": 96,
+            "height": 96
+          }
+        },
+        "Weapon": {
+          "Skin1/Weapon": {
+            "path": "Skin5/Weapon",
+            "x": 20.44,
+            "y": -0.17,
+            "rotation": -48.11,
+            "width": 58,
+            "height": 67
+          }
+        }
+      }
+    },
+    {
+      "name": "Skin6",
+      "attachments": {
+        "Body": {
+          "Skin1/Body": {
+            "path": "Skin6/Body",
+            "x": 6.49,
+            "y": 0.81,
+            "rotation": -88.87,
+            "width": 28,
+            "height": 28
+          }
+        },
+        "Head": {
+          "Skin1/Head": {
+            "path": "Skin6/Head",
+            "x": 30.5,
+            "y": 2.45,
+            "rotation": -90.04,
+            "width": 92,
+            "height": 89
+          }
+        },
+        "Left Arm": {
+          "Skin1/Left Arm": {
+            "path": "Skin6/Left Arm",
+            "x": 5.72,
+            "y": -1.78,
+            "rotation": 141.17,
+            "width": 22,
+            "height": 22
+          }
+        },
+        "Left Leg": {
+          "Skin1/Left Leg": {
+            "path": "Skin6/Left Leg",
+            "x": 7.37,
+            "y": 1.35,
+            "rotation": 131.14,
+            "width": 24,
+            "height": 19
+          }
+        },
+        "Right Arm": {
+          "Skin1/Right Arm": {
+            "path": "Skin6/Right Arm",
+            "x": 5.19,
+            "y": 1.56,
+            "rotation": 41.49,
+            "width": 22,
+            "height": 23
+          }
+        },
+        "Right Leg": {
+          "Skin1/Right Leg": {
+            "path": "Skin6/Right Leg",
+            "x": 5,
+            "y": -2.27,
+            "rotation": 45.7,
+            "width": 20,
+            "height": 20
+          }
+        },
+        "Splash": {
+          "Skin1/Splash": {
+            "path": "Skin6/Splash",
+            "x": -15.2,
+            "y": 28.38,
+            "scaleX": 0.7319,
+            "scaleY": 1.0716,
+            "rotation": 2.18,
+            "width": 96,
+            "height": 96
+          }
+        },
+        "Weapon": {
+          "Skin1/Weapon": {
+            "path": "Skin6/Weapon",
+            "x": 20.44,
+            "y": -0.17,
+            "rotation": -48.11,
+            "width": 58,
+            "height": 67
+          }
+        }
+      }
+    },
+    {
+      "name": "Skin7",
+      "attachments": {
+        "Body": {
+          "Skin1/Body": {
+            "path": "Skin7/Body",
+            "x": 6.49,
+            "y": 0.81,
+            "rotation": -88.69,
+            "width": 28,
+            "height": 28
+          }
+        },
+        "Head": {
+          "Skin1/Head": {
+            "path": "Skin7/Head",
+            "x": 30.5,
+            "y": 2.45,
+            "rotation": -89.86,
+            "width": 92,
+            "height": 89
+          }
+        },
+        "Left Arm": {
+          "Skin1/Left Arm": {
+            "path": "Skin7/Left Arm",
+            "x": 5.72,
+            "y": -1.78,
+            "rotation": 141.35,
+            "width": 22,
+            "height": 22
+          }
+        },
+        "Left Leg": {
+          "Skin1/Left Leg": {
+            "path": "Skin7/Left Leg",
+            "x": 7.37,
+            "y": 1.35,
+            "rotation": 131.32,
+            "width": 24,
+            "height": 19
+          }
+        },
+        "Right Arm": {
+          "Skin1/Right Arm": {
+            "path": "Skin7/Right Arm",
+            "x": 5.19,
+            "y": 1.56,
+            "rotation": 41.67,
+            "width": 22,
+            "height": 23
+          }
+        },
+        "Right Leg": {
+          "Skin1/Right Leg": {
+            "path": "Skin7/Right Leg",
+            "x": 5,
+            "y": -2.27,
+            "rotation": 45.88,
+            "width": 20,
+            "height": 20
+          }
+        },
+        "Splash": {
+          "Skin1/Splash": {
+            "path": "Skin7/Splash",
+            "x": -15.2,
+            "y": 28.38,
+            "scaleX": 0.7319,
+            "scaleY": 1.0716,
+            "rotation": 2.36,
+            "width": 96,
+            "height": 96
+          }
+        },
+        "Weapon": {
+          "Skin1/Weapon": {
+            "path": "Skin7/Weapon",
+            "x": 20.44,
+            "y": -0.17,
+            "rotation": -47.93,
+            "width": 58,
+            "height": 67
+          }
+        }
+      }
+    },
+    {
+      "name": "Skin8",
+      "attachments": {
+        "Body": {
+          "Skin1/Body": {
+            "path": "Skin8/Body",
+            "x": 6.49,
+            "y": 0.81,
+            "rotation": -88.69,
+            "width": 28,
+            "height": 28
+          }
+        },
+        "Head": {
+          "Skin1/Head": {
+            "path": "Skin8/Head",
+            "x": 30.5,
+            "y": 2.45,
+            "rotation": -89.86,
+            "width": 92,
+            "height": 89
+          }
+        },
+        "Left Arm": {
+          "Skin1/Left Arm": {
+            "path": "Skin8/Left Arm",
+            "x": 5.72,
+            "y": -1.78,
+            "rotation": 141.35,
+            "width": 22,
+            "height": 22
+          }
+        },
+        "Left Leg": {
+          "Skin1/Left Leg": {
+            "path": "Skin8/Left Leg",
+            "x": 7.37,
+            "y": 1.35,
+            "rotation": 131.32,
+            "width": 24,
+            "height": 19
+          }
+        },
+        "Right Arm": {
+          "Skin1/Right Arm": {
+            "path": "Skin8/Right Arm",
+            "x": 5.19,
+            "y": 1.56,
+            "rotation": 41.67,
+            "width": 22,
+            "height": 23
+          }
+        },
+        "Right Leg": {
+          "Skin1/Right Leg": {
+            "path": "Skin8/Right Leg",
+            "x": 5,
+            "y": -2.27,
+            "rotation": 45.88,
+            "width": 20,
+            "height": 20
+          }
+        },
+        "Splash": {
+          "Skin1/Splash": {
+            "path": "Skin8/Splash",
+            "x": -15.2,
+            "y": 28.38,
+            "scaleX": 0.7319,
+            "scaleY": 1.0716,
+            "rotation": 2.36,
+            "width": 96,
+            "height": 96
+          }
+        },
+        "Weapon": {
+          "Skin1/Weapon": {
+            "path": "Skin8/Weapon",
+            "x": 20.44,
+            "y": -0.17,
+            "rotation": -47.93,
+            "width": 58,
+            "height": 67
+          }
+        }
+      }
+    },
+    {
+      "name": "Skin9",
+      "attachments": {
+        "Body": {
+          "Skin1/Body": {
+            "path": "Skin9/Body",
+            "x": 6.49,
+            "y": 0.81,
+            "rotation": -88.69,
+            "width": 28,
+            "height": 28
+          }
+        },
+        "Head": {
+          "Skin1/Head": {
+            "path": "Skin9/Head",
+            "x": 30.5,
+            "y": 2.45,
+            "rotation": -89.86,
+            "width": 92,
+            "height": 89
+          }
+        },
+        "Left Arm": {
+          "Skin1/Left Arm": {
+            "path": "Skin9/Left Arm",
+            "x": 5.72,
+            "y": -1.78,
+            "rotation": 141.35,
+            "width": 22,
+            "height": 22
+          }
+        },
+        "Left Leg": {
+          "Skin1/Left Leg": {
+            "path": "Skin9/Left Leg",
+            "x": 7.37,
+            "y": 1.35,
+            "rotation": 131.32,
+            "width": 24,
+            "height": 19
+          }
+        },
+        "Right Arm": {
+          "Skin1/Right Arm": {
+            "path": "Skin9/Right Arm",
+            "x": 5.19,
+            "y": 1.56,
+            "rotation": 41.67,
+            "width": 22,
+            "height": 23
+          }
+        },
+        "Right Leg": {
+          "Skin1/Right Leg": {
+            "path": "Skin9/Right Leg",
+            "x": 5,
+            "y": -2.27,
+            "rotation": 45.88,
+            "width": 20,
+            "height": 20
+          }
+        },
+        "Splash": {
+          "Skin1/Splash": {
+            "path": "Skin9/Splash",
+            "x": -15.2,
+            "y": 28.38,
+            "scaleX": 0.7319,
+            "scaleY": 1.0716,
+            "rotation": 2.36,
+            "width": 96,
+            "height": 96
+          }
+        },
+        "Weapon": {
+          "Skin1/Weapon": {
+            "path": "Skin9/Weapon",
+            "x": 20.44,
+            "y": -0.17,
+            "rotation": -47.93,
+            "width": 58,
+            "height": 67
+          }
+        }
+      }
+    },
+    {
+      "name": "Skin10",
+      "attachments": {
+        "Body": {
+          "Skin1/Body": {
+            "path": "Skin10/Body",
+            "x": 6.49,
+            "y": 0.81,
+            "rotation": -88.69,
+            "width": 28,
+            "height": 28
+          }
+        },
+        "Head": {
+          "Skin1/Head": {
+            "path": "Skin10/Head",
+            "x": 30.5,
+            "y": 2.45,
+            "rotation": -89.86,
+            "width": 92,
+            "height": 89
+          }
+        },
+        "Left Arm": {
+          "Skin1/Left Arm": {
+            "path": "Skin10/Left Arm",
+            "x": 5.72,
+            "y": -1.78,
+            "rotation": 141.35,
+            "width": 22,
+            "height": 22
+          }
+        },
+        "Left Leg": {
+          "Skin1/Left Leg": {
+            "path": "Skin10/Left Leg",
+            "x": 7.37,
+            "y": 1.35,
+            "rotation": 131.32,
+            "width": 24,
+            "height": 19
+          }
+        },
+        "Right Arm": {
+          "Skin1/Right Arm": {
+            "path": "Skin10/Right Arm",
+            "x": 5.19,
+            "y": 1.56,
+            "rotation": 41.67,
+            "width": 22,
+            "height": 23
+          }
+        },
+        "Right Leg": {
+          "Skin1/Right Leg": {
+            "path": "Skin10/Right Leg",
+            "x": 5,
+            "y": -2.27,
+            "rotation": 45.88,
+            "width": 20,
+            "height": 20
+          }
+        },
+        "Splash": {
+          "Skin1/Splash": {
+            "path": "Skin10/Splash",
+            "x": -15.2,
+            "y": 28.38,
+            "scaleX": 0.7319,
+            "scaleY": 1.0716,
+            "rotation": 2.36,
+            "width": 96,
+            "height": 96
+          }
+        },
+        "Weapon": {
+          "Skin1/Weapon": {
+            "path": "Skin10/Weapon",
+            "x": 20.44,
+            "y": -0.17,
+            "rotation": -47.93,
+            "width": 58,
+            "height": 67
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "Attack/Attack": {
+      "slots": {
+        "Splash": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3667,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "bone7": {
+          "rotate": [
+            {
+              "time": 0.1667
+            },
+            {
+              "time": 0.3333,
+              "angle": 22.62
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "bone5": {
+          "rotate": [
+            {},
+            {
+              "time": 0.1667,
+              "angle": -8.9
+            },
+            {
+              "time": 0.3333,
+              "angle": -42.27
+            },
+            {
+              "time": 0.6667
+            }
+          ],
+          "translate": [
+            {},
+            {
+              "time": 0.1667,
+              "x": -1.2,
+              "y": 3.45
+            },
+            {
+              "time": 0.3333,
+              "x": -0.83,
+              "y": 4.94
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "bone4": {
+          "rotate": [
+            {},
+            {
+              "time": 0.1667,
+              "angle": 39.84
+            },
+            {
+              "time": 0.3333,
+              "angle": -16.46
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "bone3": {
+          "rotate": [
+            {},
+            {
+              "time": 0.1667,
+              "angle": 87.85
+            },
+            {
+              "time": 0.3333,
+              "angle": -33.09
+            },
+            {
+              "time": 0.6667
+            }
+          ],
+          "translate": [
+            {},
+            {
+              "time": 0.1667,
+              "x": 10.87,
+              "y": 29.19
+            },
+            {
+              "time": 0.3333,
+              "x": -2.51,
+              "y": -7.75
+            },
+            {
+              "time": 0.6667
+            }
+          ],
+          "scale": [
+            {},
+            {
+              "time": 0.1667,
+              "x": 0.994,
+              "y": 0.994
+            },
+            {
+              "time": 0.3333
+            }
+          ]
+        },
+        "bone2": {
+          "rotate": [
+            {},
+            {
+              "time": 0.1667,
+              "angle": 14.43
+            },
+            {
+              "time": 0.3333,
+              "angle": 0.16
+            },
+            {
+              "time": 0.6667
+            }
+          ],
+          "translate": [
+            {},
+            {
+              "time": 0.1667,
+              "x": 1.6,
+              "y": 3.71
+            },
+            {
+              "time": 0.3333,
+              "x": -1.98,
+              "y": -8.78
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "bone": {
+          "rotate": [
+            {},
+            {
+              "time": 0.1667,
+              "angle": 7.57
+            },
+            {
+              "time": 0.3333,
+              "angle": -2.79
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        },
+        "bone8": {
+          "rotate": [
+            {
+              "time": 0.1667
+            },
+            {
+              "time": 0.3333,
+              "angle": -13.08
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        }
+      }
+    },
+    "Attack/Idle": {
+      "slots": {
+        "Splash": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "bone": {
+          "scale": [
+            {},
+            {
+              "time": 0.5,
+              "x": 1.034
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "bone2": {
+          "rotate": [
+            {},
+            {
+              "time": 0.5,
+              "angle": 2.7
+            },
+            {
+              "time": 1
+            }
+          ],
+          "translate": [
+            {},
+            {
+              "time": 0.5,
+              "x": 0.92
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "bone3": {
+          "rotate": [
+            {},
+            {
+              "time": 0.5,
+              "angle": 10.05
+            },
+            {
+              "time": 1
+            }
+          ]
+        },
+        "bone5": {
+          "rotate": [
+            {},
+            {
+              "time": 0.5,
+              "angle": -16.75
+            },
+            {
+              "time": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

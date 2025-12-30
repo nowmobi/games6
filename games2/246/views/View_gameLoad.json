@@ -1,0 +1,100 @@
+{
+  "type": "View",
+  "props": {
+    "zOrder": 1,
+    "width": 1334,
+    "top": 0,
+    "right": 0,
+    "left": 0,
+    "height": 750,
+    "bottom": 0
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "visible": true,
+        "top": 0,
+        "skin": "images/loading_bg.jpg",
+        "right": 0,
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 18
+    },
+    {
+      "type": "Image",
+      "props": {
+        "visible": true,
+        "var": "logo",
+        "top": 30,
+        "skin": "images/logo.png",
+        "rotation": 0,
+        "right": 50
+      },
+      "compId": 24
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 375,
+        "x": 667,
+        "var": "quan",
+        "skin": "main/T_UIHD-LoadingIcon.png",
+        "centerY": 0,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 43
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 439,
+        "x": 617,
+        "skin": "main/T_UIHD-LoadingIcon1.png",
+        "centerY": 78,
+        "centerX": 0
+      },
+      "compId": 44
+    },
+    {
+      "type": "Image",
+      "props": {
+        "visible": false,
+        "skin": "main/T_UIHD-LoadingIcon2.png",
+        "centerY": 77,
+        "centerX": 85
+      },
+      "compId": 45,
+      "child": [
+        {
+          "type": "FontClip",
+          "props": {
+            "y": 1,
+            "x": 8.5,
+            "width": 40,
+            "visible": false,
+            "var": "loading_line",
+            "value": "1",
+            "skin": "main/game-ziti4.png",
+            "sheet": "0123456789",
+            "align": "right"
+          },
+          "compId": 47
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "images/loading_bg.jpg",
+    "images/logo.png",
+    "main/T_UIHD-LoadingIcon.png",
+    "main/T_UIHD-LoadingIcon1.png",
+    "main/T_UIHD-LoadingIcon2.png",
+    "main/game-ziti4.png"
+  ],
+  "loadList3D": []
+}

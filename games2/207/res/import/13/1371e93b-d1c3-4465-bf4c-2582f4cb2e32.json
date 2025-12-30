@@ -1,0 +1,244 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "New_levels_effect",
+  "_duration": 0.6166666666666667,
+  "curveData": {
+    "paths": {
+      "effect/Normal_ring": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.11666666666666667,
+              "value": 2.53,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.43333333333333335,
+              "value": 4.3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.11666666666666667,
+              "value": 2.53,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.43333333333333335,
+              "value": 4.3
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.1,
+              "value": 0
+            },
+            {
+              "frame": 0.11666666666666667,
+              "value": 255
+            },
+            {
+              "frame": 0.2,
+              "value": 255
+            },
+            {
+              "frame": 0.45,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "effect/blow": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.89,
+              "curve": [
+                0.06,
+                0.12,
+                0.71,
+                1.01
+              ]
+            },
+            {
+              "frame": 0.25,
+              "value": 5.68
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.89,
+              "curve": [
+                0.06,
+                0.12,
+                0.72,
+                0.98
+              ]
+            },
+            {
+              "frame": 0.25,
+              "value": 5.68
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 80
+            },
+            {
+              "frame": 0.03333333333333333,
+              "value": 80
+            },
+            {
+              "frame": 0.21666666666666667,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "effect/light": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.016666666666666666,
+              "value": 6.68
+            },
+            {
+              "frame": 0.15,
+              "value": 11.5
+            },
+            {
+              "frame": 0.2,
+              "value": 11.1
+            },
+            {
+              "frame": 0.25,
+              "value": 13.93
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.016666666666666666,
+              "value": 6.68
+            },
+            {
+              "frame": 0.15,
+              "value": 11.5
+            },
+            {
+              "frame": 0.2,
+              "value": 11.1
+            },
+            {
+              "frame": 0.25,
+              "value": 13.93
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.016666666666666666,
+              "value": 80
+            },
+            {
+              "frame": 0.11666666666666667,
+              "value": 120
+            },
+            {
+              "frame": 0.21666666666666667,
+              "value": 180
+            },
+            {
+              "frame": 0.6166666666666667,
+              "value": 0
+            }
+          ],
+          "color": [
+            {
+              "frame": 0.11666666666666667,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 134,
+                "b": 3
+              }
+            },
+            {
+              "frame": 0.21666666666666667,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 180,
+                "b": 99
+              }
+            },
+            {
+              "frame": 0.6166666666666667,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 133,
+                "b": 2
+              }
+            }
+          ]
+        }
+      },
+      "effect/BlickCamera_2": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.016666666666666666,
+              "value": 3.27
+            },
+            {
+              "frame": 0.05,
+              "value": 10.87
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 4.69
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.016666666666666666,
+              "value": 0.9
+            },
+            {
+              "frame": 0.05,
+              "value": 4.43
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 0.72
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.016666666666666666,
+              "value": 200
+            },
+            {
+              "frame": 0.06666666666666667,
+              "value": 255
+            },
+            {
+              "frame": 0.38333333333333336,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

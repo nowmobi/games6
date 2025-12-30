@@ -1,0 +1,87 @@
+{
+  "debug": false,
+  "CocosEngine": "3.5.2",
+  "designResolution": {
+    "width": 720,
+    "height": 1560,
+    "policy": 3
+  },
+  "platform": "web-mobile",
+  "exactFitScreen": true,
+  "bundleVers": {
+    "main": "852d7",
+    "resources": "995ba"
+  },
+  "subpackages": [],
+  "remoteBundles": [],
+  "hasResourcesBundle": true,
+  "hasStartSceneBundle": false,
+  "launchScene": "db://assets/LLK/LoadScene/scene/llk_loadScene.scene",
+  "jsList": [],
+  "moduleIds": [],
+  "renderPipeline": "",
+  "engineModules": [],
+  "server": "",
+  "customLayers": [
+    {
+      "name": "default",
+      "bit": 0
+    },
+    {
+      "name": "over",
+      "bit": 1
+    },
+    {
+      "name": "block",
+      "bit": 2
+    }
+  ],
+  "preloadAssets": [],
+  "splashScreen": {
+    "displayRatio": 0.4,
+    "totalTime": 0,
+    "effect": "",
+    "clearColor": {
+      "x": 0.88,
+      "y": 0.88,
+      "z": 0.88,
+      "w": 1
+    },
+    "displayWatermark": true,
+    "base64src": ""
+  },
+  "customJointTextureLayouts": [],
+  "physics": {
+    "physicsEngine": "",
+    "gravity": {
+      "x": 0,
+      "y": -10,
+      "z": 0
+    },
+    "allowSleep": true,
+    "sleepThreshold": 0.1,
+    "autoSimulation": true,
+    "fixedTimeStep": 0.0166667,
+    "maxSubSteps": 1,
+    "defaultMaterial": {
+      "friction": 0.5,
+      "rollingFriction": 0.1,
+      "spinningFriction": 0.1,
+      "restitution": 0.1
+    },
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "back"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 2,
+      "1": 1
+    }
+  },
+  "scriptPackages": [
+    "./src/chunks/bundle.4e2d5.js"
+  ],
+  "orientation": "portrait"
+}

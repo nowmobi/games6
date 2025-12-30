@@ -1,0 +1,43 @@
+local resmgr = require("core.resmgr")
+local bundle = require("core.bundle")
+local utils = require("core.utils")
+local log = require("core.log")
+dev = require("core.dev")
+
+local pending = 0
+
+local event
+
+local function done()
+	pending = pending - 1
+	if pending == 0 then
+		log.trace("startup", "Preloading done!")
+		event:signal()
+	end
+end
+
+local function load_async(fn, ...)
+	local args = {...}
+	pending = pending + 1
+	async(function() fn(table.unpack(args)) done() end)
+end
+
+log.trace("startup", "Running startup...")
+
+load_async(bundle.LoadSync, "/bundle/resources.bundle")
+
+load_async(resmgr.LoadScripts, "scripts")
+
+load_async(resmgr.LoadFont, "Riffic SemiBold", "/fonts/base.ttf")
+
+if dev.get("live-texts") then
+	local gameutils = require("core.game.utils")
+	load_async(gameutils.LoadLiveTextsSync)
+end
+
+event = utils.CreateCondVar()
+event:wait()
+
+log.trace("startup", "Running main...")
+require("main")
+

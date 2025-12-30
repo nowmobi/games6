@@ -1,0 +1,214 @@
+{
+  "frames": {
+    "cube_grass_1": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 190
+      }
+    },
+    "cube_grass_2": {
+      "frame": {
+        "x": 0,
+        "y": 191,
+        "w": 190,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 190
+      }
+    },
+    "cube_grass_3": {
+      "frame": {
+        "x": 191,
+        "y": 0,
+        "w": 190,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 190
+      }
+    },
+    "cube_grass_4": {
+      "frame": {
+        "x": 191,
+        "y": 191,
+        "w": 190,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 190
+      }
+    },
+    "cube_exhausted": {
+      "frame": {
+        "x": 0,
+        "y": 382,
+        "w": 190,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 190
+      }
+    },
+    "cube_decoration_1": {
+      "frame": {
+        "x": 191,
+        "y": 382,
+        "w": 190,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 190
+      }
+    },
+    "cube_decoration_2": {
+      "frame": {
+        "x": 382,
+        "y": 0,
+        "w": 190,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 190
+      }
+    },
+    "cube_decoration_3": {
+      "frame": {
+        "x": 382,
+        "y": 191,
+        "w": 190,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 190
+      }
+    },
+    "cube_decoration_4": {
+      "frame": {
+        "x": 382,
+        "y": 382,
+        "w": 190,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 190
+      }
+    },
+    "cloud": {
+      "frame": {
+        "x": 0,
+        "y": 573,
+        "w": 189,
+        "h": 109
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 189,
+        "h": 109
+      },
+      "sourceSize": {
+        "w": 189,
+        "h": 109
+      }
+    }
+  },
+  "meta": {
+    "app": "https://www.leshylabs.com/apps/sstool/",
+    "version": "Leshy SpriteSheet Tool v0.8.4",
+    "image": "pak_cubes.png",
+    "size": {
+      "w": 572,
+      "h": 682
+    },
+    "scale": 1
+  }
+}

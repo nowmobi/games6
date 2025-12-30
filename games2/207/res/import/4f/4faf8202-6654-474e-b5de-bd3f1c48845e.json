@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "db_cache",
+  "json": [
+    {
+      "id": 0,
+      "url": "data/config",
+      "type": 1,
+      "async": "FALSE",
+      "name": "游戏配置"
+    },
+    {
+      "id": 1,
+      "url": "data/res_def",
+      "type": 1,
+      "async": "FALSE",
+      "name": "资源列表"
+    },
+    {
+      "id": 2,
+      "url": "data/tile_def",
+      "type": 1,
+      "async": "FALSE",
+      "name": "tile定义"
+    },
+    {
+      "id": 3,
+      "url": "data/sign_def",
+      "type": 1,
+      "async": "FALSE",
+      "name": "签到定义"
+    },
+    {
+      "id": 4,
+      "url": "data/map_def",
+      "type": 1,
+      "async": "FALSE",
+      "name": "地图定义"
+    },
+    {
+      "id": 5,
+      "url": "data/item_def",
+      "type": 1,
+      "async": "FALSE",
+      "name": "物品定义"
+    },
+    {
+      "id": 6,
+      "url": "data/task_def",
+      "type": 1,
+      "async": "FALSE",
+      "name": "任务定义"
+    },
+    {
+      "id": 7,
+      "url": "data/achieve_def",
+      "type": 1,
+      "async": "FALSE",
+      "name": "成就定义"
+    },
+    {
+      "id": 8,
+      "url": "data/chest_def",
+      "type": 1,
+      "async": "FALSE",
+      "name": "随机宝箱定义"
+    },
+    {
+      "id": 9,
+      "url": "data/share_def",
+      "type": 1,
+      "async": "FALSE",
+      "name": "分享定义"
+    },
+    {
+      "id": 10,
+      "url": "data/dynamic_def",
+      "type": 1,
+      "async": "FALSE",
+      "name": "动态难度定义"
+    },
+    {
+      "id": 11,
+      "url": "data/money_def",
+      "type": 1,
+      "async": "FALSE",
+      "name": "充值定义"
+    }
+  ]
+}

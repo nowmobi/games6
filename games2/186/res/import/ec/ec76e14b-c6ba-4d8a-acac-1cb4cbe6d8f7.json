@@ -1,0 +1,75 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "yuanqidan",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "yuanqidan",
+    "_children": [
+      {
+        "__type__": "cc.Node",
+        "_name": "New Node",
+        "_parent": {
+          "__id__": 1
+        },
+        "_level": 4,
+        "_prefab": {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": {
+            "__uuid__": "ecduFLxrpNiqysHLTL5tj3"
+          },
+          "fileId": "6aCcOgnpREU5NgnCgh1O2K"
+        },
+        "_contentSize": {
+          "__type__": "cc.Size",
+          "width": 61,
+          "height": 65
+        },
+        "_scale": {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    ],
+    "_level": 1,
+    "_components": [
+      {
+        "__type__": "e4bcbkfMNtEloNEyF8spjd8",
+        "node": {
+          "__id__": 1
+        }
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "ecduFLxrpNiqysHLTL5tj3"
+      },
+      "fileId": "8bG2X8HIRFv4tUc3zT7PQm"
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 80,
+      "height": 80
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "groupIndex": 1
+  }
+]

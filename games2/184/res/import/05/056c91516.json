@@ -1,0 +1,68 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "hei",
+      "texture": "8f6W36JXC2qVTcfW4PtPMy",
+      "rect": [
+        4,
+        4,
+        720,
+        619
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        720,
+        619
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteAtlas",
+    "_name": "package_galaxy.plist",
+    "_spriteFrames": {
+      "hei": {
+        "__uuid__": "25uOTwDThLDrCdiFqPaCtG"
+      },
+      "circle": {
+        "__uuid__": "9btvGqnIdFbL24l/S6MKx+"
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "circle",
+      "texture": "8f6W36JXC2qVTcfW4PtPMy",
+      "rect": [
+        4,
+        629,
+        372,
+        198
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        372,
+        198
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

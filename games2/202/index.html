@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Zoo Boom</title>
+
+	<meta id="viewport" name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="Zoo Boom">
+
+
+	<link rel="shortcut icon" type="image/png" href="./favicon.png">
+	<link rel="apple-touch-icon" type="image/png" href="./favicon.png">
+
+	<script>
+		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
+
+	</script>
+	<style>
+		html,body { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+		#content { background: #000000; width: 100%; height: 100%; }
+
+		#noWebGL {  width: 100%;  height: 100%; padding: 50px 0;  text-align: left;  background-color: white;  margin-top: 20px; margin: auto;  position: absolute;  top: 0; display:none }
+        #noWebGLContent {  width: 500px;  height: auto; padding: 50px 0;  text-align: left;  background-color: white;  margin-top: 20px; margin: auto; }
+		@font-face {
+		  font-family: "myFont";
+		  src: url("Acme-Regular.ttf");
+		}
+		input,input:focus,textArea,textArea:focus
+		{
+			background:rgb(0, 0, 0, 0) !important;
+			color: white !important;
+			text-shadow: 2px 2px 4px #000000;
+			font-family: 'myFont', cursive;
+		}
+	</style>
+
+	<script>
+	    // Package-ID
+	    window.famobi_gameID = "zoo-boom";
+	    window.famobi_gameJS = [
+	        "zoo-offline.js",
+	        function(){
+        		// ------------ Gamesnack Audio Listener ------------
+        		if(typeof GAMESNACKS !== "undefined") {
+        			GAMESNACKS.subscribeToAudioUpdates((isAudioEnabled) => {
+        				try{
+        					window.famobi.setVolume(isAudioEnabled ? 1.0 : 0.0);
+        				} catch(e) {
+        					console.log(e);
+        				}
+        			});
+        		}
+        	    lime.embed ("zoo-offline", "content", 0, 0);
+	        }
+	    ];
+
+	    (function (document, url, fgJS, firstJS) {
+	            fgJS = document.createElement('script');
+	            firstJS = document.getElementsByTagName('script')[0];
+	            fgJS.src = url + encodeURIComponent(document.location.href);
+	            firstJS.parentNode.insertBefore(fgJS, firstJS);
+	    })(document, 'html5games/gameapi/v1.js?e=');
+	</script>
+
+</head>
+<body>
+
+
+	<div id="noWebGL">
+	<div id="noWebGLContent">
+		<img src="./ui/ZooBoom_LogoHD.png" alt="Logo" width="480" height="200" style="text-align: center"><br>
+		<h1 style="text-align: center">Please enable hardware accelerated WebGL graphics in your browser!</h1>
+		<div id="browserChrome" style="display:none">
+		<h2>Chrome</h2>
+		<p>Enable hardware acceleration:</p>
+		<ul>
+		<li>Go to <code>chrome://settings</code></li>
+		<li>Click the <strong>Advanced ▼</strong> button at the bottom of the page</li>
+		<li>In the <strong>System</strong> section, ensure the <strong>Use hardware acceleration when available</strong>
+		checkbox is checked (you'll need to relaunch Chrome for any changes to take effect)</li>
+		</ul>
+		<p>Then enable WebGL:</p>
+		<ul>
+		<li>Go to <code>chrome://flags</code></li>
+		<li>Ensure that <strong>Disable WebGL</strong> is not activated (you'll need to relaunch Chrome for any changes to take effect)</li>
+		<li>In newer versions, this option of <strong>Disable WebGL</strong> will not be available, you will instead have to search for WebGL 2.0 </li>
+		<p>For more information, see:
+		<a href="https://support.google.com/chrome/answer/1220892" rel="noreferrer">Chrome Help: WebGL and 3D graphics</a>.</p>
+		</ul>
+		</div>
+		<div id="browserFirefox" style="display:none">
+		<h2>Firefox</h2>
+		<ul>
+		<li>Go to <code>about:config</code></li>
+		<li>Search for <code>webgl.disabled</code></li>
+		<li>Ensure that its value is <code>false</code> (any changes take effect immediately without relaunching Firefox)</li>
+		</ul>
+		</div>
+
+		<div id="browserSafari" style="display:none">
+		<h2>Safari</h2>
+		<ul>
+		<li>Go to Safari's <strong>Preferences</strong></li>
+		<li>Select the <strong>Advanced</strong> tab</li>
+		<li>Ensure that the <strong>Show Develop menu in menu bar</strong> checkbox is checked</li>
+		<li>In Safari's <strong>Develop</strong> menu, select <strong>Experimental Features</strong> sub-menu and ensure that <strong>WebGL 2.0</strong> is checked</li>
+		</ul>
+		</div>
+
+	</div>
+	</div>
+	<div id="content"></div>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"5c8adb3476774536859fc56135d4501a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

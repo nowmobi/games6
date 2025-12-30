@@ -1,0 +1,195 @@
+#tlf_suspension {
+    background-color: transparent;
+    z-index: 999995;
+    position: fixed;
+    background: url("assets/suspension.png") no-repeat center;
+    background-size: 100%;
+    display: none
+}
+
+#tlf_suspension.dot {
+    background-image: url("assets/suspension_dot.png")
+}
+
+.tlf_btn_small {
+    width: 50px;
+    height: 50px
+}
+
+.tlf_btn_middle {
+    width: 80px;
+    height: 80px
+}
+
+.tlf_btn_large {
+    width: 128px;
+    height: 128px
+}
+
+#tlf-mask {
+    position: fixed;
+    left: -100vw;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .9);
+    z-index: 999996;
+    overflow-y: auto;
+    transition: left .4s;
+    -moz-transition: left .4s;
+    -webkit-transition: left .4s;
+    -o-transition: left .4s
+}
+
+#tlf_game_center {
+    position: fixed;
+    left: -100vw;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    z-index: 999997;
+    overflow-y: auto;
+    transition: left .4s;
+    -moz-transition: left .4s;
+    -webkit-transition: left .4s;
+    -o-transition: left .4s
+}
+
+#tlf_game_center>h3 {
+    margin: 50px 0;
+    height: 1.4em;
+    background: url("assets/game_center.png") no-repeat center;
+    background-size: auto 100%
+}
+
+#tlf_game_center>.tlf_box {
+    padding: 10px 20px
+}
+
+#tlf_game_center>.tlf_box>h3 {
+    height: 1.2em;
+    margin: 0
+}
+
+#tlf_game_center>.tlf_box:nth-child(2)>h3 {
+    background: url("assets/friends_playing.png") no-repeat 10px center;
+    background-size: auto 100%
+}
+
+#tlf_game_center>.tlf_box:nth-child(3)>h3 {
+    background: url("assets/top_games.png") no-repeat 10px center;
+    background-size: auto 100%
+}
+
+#tlf_game_center>.tlf_box>div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap
+}
+
+#tlf_game_center>.tlf_box>div>p {
+    width: calc(25vw - 30px);
+    height: calc(25vw - 30px);
+    background: url("assets/no_upload.png") no-repeat center;
+    background-size: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden
+}
+
+#tlf_game_center>.tlf_box>div>p>img {
+    width: 100%;
+    height: 100%
+}
+
+#tlf_return_btn {
+    margin: 70px 0 50px;
+    display: none;
+    justify-content: center;
+    align-items: center
+}
+
+#tlf_return_btn>span {
+    height: 1.4em;
+    width: 6em;
+    background: url("assets/return.png") no-repeat center;
+    background-size: auto 100%
+}
+
+#tlf_icon_btn {
+    border-radius: 10px;
+    background-color: transparent;
+    z-index: 999994;
+    position: fixed;
+    display: none;
+    overflow: hidden
+}
+
+#tlf_icon_btn img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    -o-transition: opacity .5s
+}
+
+#tlf_recommend_popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    z-index: 999998;
+    justify-content: center;
+    align-items: center;
+    display: none
+}
+
+#tlf_recommend_popup>.tlf_popup_main {
+    position: relative;
+    padding: 20px 30px;
+    margin: 30px;
+    width: calc(100% - 100px);
+    background-color: rgba(0, 0, 0, .9);
+    border-radius: 10px
+}
+
+#tlf_recommend_popup>.tlf_popup_main>#tlf_close {
+    position: absolute;
+    right: 0;
+    top: calc(-5px - 2.2em);
+    width: 2.2em;
+    height: 2.2em;
+    background: url("assets/close.png") no-repeat center;
+    background-size: 100%
+}
+
+#tlf_recommend_popup>.tlf_popup_main>h3 {
+    height: 1.1em;
+    background: url("assets/featured_game_today.png") no-repeat center;
+    background-size: auto 100%;
+    margin: 10px 0 20px
+}
+
+#tlf_recommend_popup>.tlf_popup_main>img {
+    width: 100%;
+    height: auto
+}
+
+#tlf_recommend_popup>.tlf_popup_main>p {
+    color: #fff;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 550;
+    margin: 15px 0 5px
+}

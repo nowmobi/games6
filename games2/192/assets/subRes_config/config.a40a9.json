@@ -1,0 +1,59 @@
+{
+  "paths": {
+    "0": [
+      "MapConfig",
+      0
+    ],
+    "1": [
+      "GameConfig",
+      0
+    ],
+    "2": [
+      "FruitConfig",
+      0
+    ],
+    "3": [
+      "HouseConfig",
+      0
+    ],
+    "4": [
+      "LevelConfig",
+      0
+    ]
+  },
+  "types": [
+    "cc.JsonAsset"
+  ],
+  "uuids": [
+    "04bgqPLVNE9rjgZYP17+JU",
+    "19mcbh9+NB5KxOh2fkmQqR",
+    "3el5isga1DjpXRaRMsqxJm",
+    "a77aVLxURCeL8u8Mtyta1g",
+    "e5YcYkY6NKYqpobUjtH6dz"
+  ],
+  "scenes": {},
+  "redirect": [],
+  "deps": [],
+  "packs": {},
+  "name": "subRes_config",
+  "importBase": "import",
+  "nativeBase": "native",
+  "debug": false,
+  "isZip": false,
+  "encrypted": false,
+  "versions": {
+    "import": [
+      0,
+      "77437",
+      1,
+      "6a679",
+      2,
+      "e39d4",
+      3,
+      "cc822",
+      4,
+      "b819f"
+    ],
+    "native": []
+  }
+}

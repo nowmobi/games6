@@ -1,0 +1,560 @@
+{
+  "type": "View",
+  "props": {
+    "width": 1334,
+    "height": 750
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "top": 0,
+        "skin": "main/bg_tujian.png",
+        "right": 0,
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 3
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "var": "topBg",
+        "skin": "main/top_di.png",
+        "right": 0,
+        "left": 0
+      },
+      "compId": 5,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "width": 213,
+            "visible": true,
+            "var": "backBtn",
+            "top": 0,
+            "skin": "main/common_btn_back.png",
+            "left": 0,
+            "height": 70
+          },
+          "compId": 6,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 19,
+                "x": 62,
+                "text": "Handbook",
+                "strokeColor": "#000000",
+                "stroke": 2,
+                "fontSize": 25,
+                "color": "#ffffff",
+                "bold": true
+              },
+              "compId": 62
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "visible": true,
+            "var": "goldBtn",
+            "top": 8,
+            "skin": "main/icon_gold_di.png",
+            "left": 255
+          },
+          "compId": 60,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "var": "goldNum",
+                "text": "5688",
+                "fontSize": 30,
+                "color": "#ffffff",
+                "centerY": 0,
+                "centerX": 10
+              },
+              "compId": 61
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "width": 928,
+        "top": 92,
+        "skin": "main/tujian_di_00.png",
+        "height": 623,
+        "centerX": 0
+      },
+      "compId": 13,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "top": 21,
+            "skin": "main/img_tujian_top.png",
+            "left": 40
+          },
+          "compId": 14,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "var": "carNum",
+                "text": "2/44",
+                "left": 283,
+                "fontSize": 30,
+                "color": "#7B0009",
+                "centerY": 0,
+                "bold": true
+              },
+              "compId": 17
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 79,
+            "var": "shopBtn",
+            "top": 21,
+            "skin": "main/btn_shop.png",
+            "right": 38,
+            "height": 79
+          },
+          "compId": 18
+        },
+        {
+          "type": "List",
+          "props": {
+            "width": 854,
+            "var": "skinList",
+            "vScrollBarSkin": "main/vscroll.png",
+            "top": 110,
+            "spaceY": 5,
+            "spaceX": 1,
+            "selectEnable": true,
+            "repeatX": 3,
+            "height": 489,
+            "elasticEnabled": true,
+            "centerX": 0
+          },
+          "compId": 21,
+          "child": [
+            {
+              "type": "Box",
+              "props": {
+                "renderType": "render"
+              },
+              "compId": 22,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "main/tujian_di_002.png"
+                  },
+                  "compId": 23
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 266,
+                    "skin": "main/icon_car1.png",
+                    "name": "carSkin",
+                    "height": 141,
+                    "centerY": 0,
+                    "centerX": 0
+                  },
+                  "compId": 24
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": -8,
+                    "x": 178,
+                    "top": -8,
+                    "skin": "main/icon_xuanze.png",
+                    "right": 0,
+                    "name": "select"
+                  },
+                  "compId": 29
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "width": 65,
+                    "text": "名字",
+                    "name": "name",
+                    "left": 10,
+                    "height": 22,
+                    "fontSize": 22,
+                    "color": "#FFFFFF",
+                    "bottom": 9,
+                    "align": "right"
+                  },
+                  "compId": 25
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "main/common_icon_star_02.png",
+                    "name": "start1",
+                    "left": 84,
+                    "bottom": 9
+                  },
+                  "compId": 26
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "main/common_icon_star_02.png",
+                    "name": "start2",
+                    "left": 115,
+                    "bottom": 9
+                  },
+                  "compId": 27
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "main/common_icon_star_02.png",
+                    "name": "start3",
+                    "left": 146,
+                    "bottom": 9
+                  },
+                  "compId": 28
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "main/common_icon_star_02.png",
+                    "name": "start4",
+                    "left": 177,
+                    "bottom": 9
+                  },
+                  "compId": 30
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "main/common_icon_star_02.png",
+                    "name": "start5",
+                    "left": 208,
+                    "bottom": 9
+                  },
+                  "compId": 31
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "main/tujian_mask.png",
+                    "name": "unlockImg",
+                    "centerY": 0,
+                    "centerX": 0
+                  },
+                  "compId": 58
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "visible": false,
+        "var": "detailsBox",
+        "top": 0,
+        "right": 0,
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 32,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "top": 0,
+            "right": 0,
+            "left": 0,
+            "bottom": 0,
+            "bgColor": "#000000",
+            "alpha": 0.7
+          },
+          "compId": 33
+        },
+        {
+          "type": "Image",
+          "props": {
+            "skin": "main/set_bg.png",
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 34,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 23,
+                "text": "Vehicle Detail",
+                "strokeColor": "#000539",
+                "stroke": 3,
+                "fontSize": 42,
+                "color": "#ffffff",
+                "centerX": 0
+              },
+              "compId": 51
+            },
+            {
+              "type": "Image",
+              "props": {
+                "var": "closeDetails",
+                "top": 11,
+                "skin": "main/common_btn_close.png",
+                "right": 22
+              },
+              "compId": 36
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 25,
+                "x": 135,
+                "top": 107,
+                "skin": "main/xiangqing_di_00.png",
+                "centerX": 0
+              },
+              "compId": 35,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 417,
+                    "var": "carMain",
+                    "skin": "main/icon_car1.png",
+                    "height": 209,
+                    "centerY": 0,
+                    "centerX": 0
+                  },
+                  "compId": 37
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "main/xiangqing_mask.png",
+                    "centerX": 0,
+                    "bottom": 9
+                  },
+                  "compId": 40,
+                  "child": [
+                    {
+                      "type": "Label",
+                      "props": {
+                        "width": 85,
+                        "var": "detailsName",
+                        "text": "名字啊",
+                        "left": 12,
+                        "height": 28,
+                        "fontSize": 28,
+                        "color": "#FFFFFF",
+                        "centerY": 2,
+                        "align": "right"
+                      },
+                      "compId": 39
+                    },
+                    {
+                      "type": "Box",
+                      "props": {
+                        "y": 10,
+                        "x": 112,
+                        "var": "startBox"
+                      },
+                      "compId": 41,
+                      "child": [
+                        {
+                          "type": "Image",
+                          "props": {
+                            "x": 0,
+                            "skin": "main/common_icon_star_02.png"
+                          },
+                          "compId": 42
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 32,
+                            "skin": "main/common_icon_star_02.png"
+                          },
+                          "compId": 43
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 64,
+                            "skin": "main/common_icon_star_02.png"
+                          },
+                          "compId": 44
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 0,
+                            "x": 96,
+                            "skin": "main/common_icon_star_off.png"
+                          },
+                          "compId": 47
+                        },
+                        {
+                          "type": "Image",
+                          "props": {
+                            "y": 1,
+                            "x": 128,
+                            "skin": "main/common_icon_star_off.png"
+                          },
+                          "compId": 48
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Image",
+                      "props": {
+                        "skin": "main/se_point.png",
+                        "right": 20,
+                        "bottom": 7
+                      },
+                      "compId": 49,
+                      "child": [
+                        {
+                          "type": "Label",
+                          "props": {
+                            "var": "durabilityNum",
+                            "text": "4",
+                            "left": 57,
+                            "fontSize": 24,
+                            "color": "#FFA854",
+                            "centerY": 0
+                          },
+                          "compId": 50
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 235,
+                "width": 299,
+                "var": "selectBtn",
+                "skin": "main/btn_blue.png",
+                "height": 110,
+                "centerX": -150,
+                "bottom": 47
+              },
+              "compId": 52,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "text": "Choose",
+                    "strokeColor": "#903B06",
+                    "stroke": 3,
+                    "fontSize": 48,
+                    "color": "#ffffff",
+                    "centerY": 0,
+                    "centerX": 0
+                  },
+                  "compId": 53
+                }
+              ]
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 507,
+                "width": 299,
+                "var": "videoBtn",
+                "skin": "main/btn_yellow.png",
+                "height": 110,
+                "centerX": 150,
+                "bottom": 47
+              },
+              "compId": 54,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "skin": "main/icon_shipin.png",
+                    "left": 32,
+                    "centerY": 0
+                  },
+                  "compId": 56
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "text": "Repair",
+                    "right": 59,
+                    "fontSize": 36,
+                    "color": "#903B06",
+                    "centerY": 0,
+                    "bold": true
+                  },
+                  "compId": 55
+                },
+                {
+                  "type": "Label",
+                  "props": {
+                    "fontSize": 24,
+                    "color": "#CB4C2F",
+                    "centerX": 13,
+                    "bottom": 19
+                  },
+                  "compId": 57
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "main/bg_tujian.png",
+    "main/top_di.png",
+    "main/common_btn_back.png",
+    "main/icon_gold_di.png",
+    "main/tujian_di_00.png",
+    "main/img_tujian_top.png",
+    "main/btn_shop.png",
+    "main/vscroll.png",
+    "main/tujian_di_002.png",
+    "main/icon_car1.png",
+    "main/icon_xuanze.png",
+    "main/common_icon_star_02.png",
+    "main/tujian_mask.png",
+    "main/set_bg.png",
+    "main/common_btn_close.png",
+    "main/xiangqing_di_00.png",
+    "main/xiangqing_mask.png",
+    "main/common_icon_star_off.png",
+    "main/se_point.png",
+    "main/btn_blue.png",
+    "main/btn_yellow.png",
+    "main/icon_shipin.png"
+  ],
+  "loadList3D": []
+}

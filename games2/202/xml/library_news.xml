@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<libraries>
+	<library file="xml/library.xml" />
+</libraries>
+
+<templates>
+	<image id="tNewsFeedConti" width="100%" data='{"height":100}'>
+		<image template="tElement,tBox" />
+		<element name="uiContent" template="tElement" margin="20">
+			<player name="uiPlayer" height="100" >
+				<state state="portrait" valign="center" />
+				<state state="landscape" valign="top" />
+			</player>
+			<text name="uiTxtNews" template="tFontWhite,tElement,tFontSmall" marginLeft="120" marginTop="2" >
+				<state state="landscape" valignText="top"/>
+				<state state="portrait" valignText="center"/>
+			</text>
+		</element>
+	</image>
+</templates>
+	

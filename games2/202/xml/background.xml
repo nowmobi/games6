@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<libraries>
+	<library file="xml/library.xml" />
+</libraries>
+
+<screen halign="center" valign="center" name="uiScreenTest" relativeWidth="1.0" relativeHeight="1.0" >	
+	<image name="uiImgDefaultBG" absolute="true" width="1000" ratio="2.4" halign="center" valign="center" image="splash/logo.jpg" />
+	<image name="uiImgBG" absolute="true" height="1000" ratio="1.0" halign="center" valign="center" nss="1,1,1022,1022" />	
+</screen>

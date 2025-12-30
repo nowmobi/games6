@@ -1,0 +1,68 @@
+[
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "cd",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "cd",
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 1
+          },
+          "_spriteFrame": {
+            "__uuid__": "deYRmEQzJBibqaL2VZ8M/4"
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__id__": 0
+        },
+        "fileId": "fe2qeyd+tHp4MzJBR31DPu"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 203,
+        "height": 204
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "dange",
+      "texture": "1fqvRfundElKCeT/PJY8qr",
+      "rect": [
+        0,
+        0,
+        203,
+        204
+      ],
+      "offset": [
+        -0.5,
+        0.5
+      ],
+      "originalSize": [
+        204,
+        205
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

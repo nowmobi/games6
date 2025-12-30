@@ -1,0 +1,533 @@
+{
+  "type": "View",
+  "props": {
+    "width": 1334,
+    "visible": true,
+    "top": 0,
+    "right": 0,
+    "left": 0,
+    "height": 750,
+    "bottom": 0
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "var": "bg",
+        "top": 0,
+        "skin": "main/bg_tujian.png",
+        "right": 0,
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 436
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "var": "Box",
+        "right": 0,
+        "name": "Box",
+        "left": 0
+      },
+      "compId": 443,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "skin": "main/top_di.png",
+            "right": 0,
+            "left": 0
+          },
+          "compId": 448
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 35,
+            "x": 45,
+            "width": 63,
+            "var": "SOUND",
+            "skin": "main/icon_sound.png",
+            "pivotY": 31,
+            "pivotX": 32,
+            "name": "SOUND",
+            "height": 62
+          },
+          "compId": 469
+        },
+        {
+          "type": "Image",
+          "props": {
+            "var": "setParent",
+            "top": -208,
+            "skin": "main/btn_set.png",
+            "left": 381
+          },
+          "compId": 433
+        },
+        {
+          "type": "Image",
+          "props": {
+            "visible": true,
+            "var": "goldBtn",
+            "top": 8,
+            "skin": "main/icon_gold_di.png",
+            "name": "goldBtn",
+            "left": 255
+          },
+          "compId": 23,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "var": "goldNum",
+                "text": "5688",
+                "fontSize": 30,
+                "color": "#ffffff",
+                "centerY": 0,
+                "centerX": 20
+              },
+              "compId": 431
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "var": "moreGameBtn",
+            "top": -208,
+            "stateNum": 1,
+            "skin": "sdkRes/btn_icon_moregame.png",
+            "centerX": -115
+          },
+          "compId": 465
+        },
+        {
+          "type": "Button",
+          "props": {
+            "width": 82,
+            "var": "onlineGoldBtn",
+            "top": -208,
+            "stateNum": 1,
+            "skin": "sdkRes/btn_icon_zaixian.png",
+            "pivotY": 45,
+            "pivotX": 41,
+            "height": 90,
+            "centerX": 10
+          },
+          "compId": 464,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 90,
+                "var": "onlineTimeLab",
+                "text": "5:00",
+                "fontSize": 25,
+                "font": "Microsoft YaHei",
+                "color": "#fbfbfb",
+                "centerX": 0,
+                "bold": true
+              },
+              "compId": 466
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 873,
+        "var": "XUAN",
+        "top": 193,
+        "name": "XUAN",
+        "height": 430,
+        "centerX": 0
+      },
+      "compId": 437,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "var": "garageBtn",
+            "top": 0,
+            "skin": "main/btn_che.png",
+            "left": 0
+          },
+          "compId": 449,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "width": 262,
+                "var": "skinMain",
+                "top": 36,
+                "skin": "main/icon_car1.png",
+                "height": 132,
+                "centerX": 0
+              },
+              "compId": 451
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 121,
+                "skin": "main/se_point_di.png",
+                "right": 6,
+                "height": 46,
+                "bottom": 172
+              },
+              "compId": 460,
+              "child": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "var": "durabilityNum",
+                    "text": "4",
+                    "fontSize": 36,
+                    "color": "#FF8E05",
+                    "centerY": 0,
+                    "centerX": 0
+                  },
+                  "compId": 461
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 31,
+                    "top": 5,
+                    "skin": "main/se_point_+.png",
+                    "right": 5,
+                    "height": 31
+                  },
+                  "compId": 462
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "width": 33,
+                    "top": 5,
+                    "skin": "main/se_point_ding.png",
+                    "left": 3,
+                    "height": 34
+                  },
+                  "compId": 463
+                }
+              ]
+            },
+            {
+              "type": "Box",
+              "props": {
+                "width": 191,
+                "var": "startBox",
+                "left": 7,
+                "height": 34,
+                "bottom": 13
+              },
+              "compId": 454,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": 0,
+                    "skin": "main/common_icon_star_02.png"
+                  },
+                  "compId": 455
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 39,
+                    "skin": "main/common_icon_star_02.png"
+                  },
+                  "compId": 456
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 77,
+                    "skin": "main/common_icon_star_02.png"
+                  },
+                  "compId": 457
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 116,
+                    "skin": "main/common_icon_star_off.png"
+                  },
+                  "compId": 458
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "y": 1,
+                    "x": 154,
+                    "skin": "main/common_icon_star_off.png"
+                  },
+                  "compId": 459
+                }
+              ]
+            },
+            {
+              "type": "Label",
+              "props": {
+                "var": "detailsName",
+                "text": "名字",
+                "left": 7,
+                "fontSize": 22,
+                "color": "#FFFFFF",
+                "centerY": 56
+              },
+              "compId": 453
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 275,
+            "var": "shopBtn",
+            "skin": "main/btn_shangdian2.png",
+            "left": 0,
+            "height": 190,
+            "bottom": 0
+          },
+          "compId": 450
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 249,
+            "var": "LicenseBtn",
+            "top": 0,
+            "skin": "main/btn_kemuer.png",
+            "right": 0,
+            "height": 210,
+            "anchorY": 1,
+            "anchorX": 1
+          },
+          "compId": 438
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 646,
+            "x": 616,
+            "width": 328,
+            "var": "NormalBtn",
+            "skin": "main/btn_lianxi.png",
+            "height": 431,
+            "centerY": 0,
+            "centerX": 15,
+            "anchorY": 1,
+            "anchorX": 1
+          },
+          "compId": 440
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 430,
+            "x": 873,
+            "width": 249,
+            "var": "CicyBtn",
+            "skin": "main/btn_zizhi.png",
+            "right": 0,
+            "height": 210,
+            "bottom": 0,
+            "anchorY": 1,
+            "anchorX": 1
+          },
+          "compId": 441
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -192,
+            "visible": false,
+            "var": "backBtn",
+            "skin": "main/common_btn_back.png",
+            "name": "backBtn",
+            "left": -230
+          },
+          "compId": 472,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "strokeColor": "#000000",
+                "stroke": 2,
+                "right": 49,
+                "fontSize": 36,
+                "color": "#ffffff",
+                "centerY": 0,
+                "bold": true
+              },
+              "compId": 473
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 69,
+        "x": 0,
+        "width": 1336,
+        "var": "ZHU",
+        "name": "ZHU",
+        "height": 682
+      },
+      "compId": 467,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 17,
+            "x": 423,
+            "var": "gamename",
+            "skin": "main/logo(47).png"
+          },
+          "compId": 468
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 356,
+            "x": 566,
+            "var": "PLAY",
+            "skin": "main/start(3).png",
+            "scaleY": 0.6,
+            "scaleX": 0.6,
+            "name": "PLAY",
+            "anchorX": 0
+          },
+          "compId": 470
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 464,
+          "keyframes": {
+            "rotation": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 464,
+                "key": "rotation",
+                "index": 0
+              },
+              {
+                "value": 5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 464,
+                "key": "rotation",
+                "index": 2
+              },
+              {
+                "value": 10,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 464,
+                "key": "rotation",
+                "index": 4
+              },
+              {
+                "value": 5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 464,
+                "key": "rotation",
+                "index": 6
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 464,
+                "key": "rotation",
+                "index": 8
+              },
+              {
+                "value": -5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 464,
+                "key": "rotation",
+                "index": 10
+              },
+              {
+                "value": -10,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 464,
+                "key": "rotation",
+                "index": 12
+              },
+              {
+                "value": -5,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 464,
+                "key": "rotation",
+                "index": 14
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 464,
+                "key": "rotation",
+                "index": 16
+              }
+            ]
+          }
+        }
+      ],
+      "name": "onlineTween",
+      "id": 1,
+      "frameRate": 24,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "main/bg_tujian.png",
+    "main/top_di.png",
+    "main/btn_set.png",
+    "main/icon_gold_di.png",
+    "sdkRes/btn_icon_moregame.png",
+    "sdkRes/btn_icon_zaixian.png",
+    "main/btn_che.png",
+    "main/icon_car1.png",
+    "main/se_point_di.png",
+    "main/se_point_+.png",
+    "main/se_point_ding.png",
+    "main/common_icon_star_02.png",
+    "main/common_icon_star_off.png",
+    "main/btn_shangdian2.png",
+    "main/btn_kemuer.png",
+    "main/btn_lianxi.png",
+    "main/btn_zizhi.png",
+    "main/icon_sound.png",
+    "main/common_btn_back.png",
+    "main/logo(47).png",
+    "main/start(3).png"
+  ],
+  "loadList3D": []
+}

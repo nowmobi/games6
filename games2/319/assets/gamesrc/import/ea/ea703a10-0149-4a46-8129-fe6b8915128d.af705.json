@@ -1,0 +1,432 @@
+[
+  1,
+  [
+    "51YqQ37bhCZosekXQJbRLU"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "xiaoshiyanwu",
+      "\nxiaoshiyanwu.png\nsize: 797,231\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n1\n  rotate: false\n  xy: 101, 44\n  size: 36, 60\n  orig: 36, 60\n  offset: 0, 0\n  index: -1\n10\n  rotate: true\n  xy: 2, 106\n  size: 123, 147\n  orig: 123, 147\n  offset: 0, 0\n  index: -1\n11\n  rotate: true\n  xy: 300, 109\n  size: 120, 144\n  orig: 120, 144\n  offset: 0, 0\n  index: -1\n12\n  rotate: false\n  xy: 593, 89\n  size: 105, 140\n  orig: 105, 140\n  offset: 0, 0\n  index: -1\n13\n  rotate: true\n  xy: 2, 10\n  size: 94, 97\n  orig: 94, 97\n  offset: 0, 0\n  index: -1\n2\n  rotate: false\n  xy: 711, 7\n  size: 84, 108\n  orig: 84, 108\n  offset: 0, 0\n  index: -1\n3\n  rotate: false\n  xy: 700, 117\n  size: 85, 112\n  orig: 85, 112\n  offset: 0, 0\n  index: -1\n4\n  rotate: true\n  xy: 587, 2\n  size: 85, 122\n  orig: 85, 122\n  offset: 0, 0\n  index: -1\n5\n  rotate: true\n  xy: 151, 11\n  size: 95, 131\n  orig: 95, 131\n  offset: 0, 0\n  index: -1\n6\n  rotate: true\n  xy: 300, 2\n  size: 105, 138\n  orig: 105, 138\n  offset: 0, 0\n  index: -1\n7\n  rotate: true\n  xy: 446, 10\n  size: 103, 139\n  orig: 103, 139\n  offset: 0, 0\n  index: -1\n8\n  rotate: true\n  xy: 446, 115\n  size: 114, 145\n  orig: 114, 145\n  offset: 0, 0\n  index: -1\n9\n  rotate: true\n  xy: 151, 108\n  size: 121, 147\n  orig: 121, 147\n  offset: 0, 0\n  index: -1\n",
+      [
+        "xiaoshiyanwu.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "zAr5s7JCoQwn8PEogSvJWTO7DGY",
+          "spine": "3.8.99",
+          "images": "./images/",
+          "audio": "D:/桌面/隐身/images"
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "bone",
+            "parent": "root",
+            "length": 116.6,
+            "x": -57.08,
+            "y": -45.31
+          }
+        ],
+        "slots": [
+          {
+            "name": "1",
+            "bone": "root"
+          },
+          {
+            "name": "2",
+            "bone": "root"
+          },
+          {
+            "name": "3",
+            "bone": "root"
+          },
+          {
+            "name": "4",
+            "bone": "root"
+          },
+          {
+            "name": "5",
+            "bone": "root"
+          },
+          {
+            "name": "6",
+            "bone": "root"
+          },
+          {
+            "name": "7",
+            "bone": "root"
+          },
+          {
+            "name": "8",
+            "bone": "root"
+          },
+          {
+            "name": "9",
+            "bone": "root"
+          },
+          {
+            "name": "10",
+            "bone": "root"
+          },
+          {
+            "name": "11",
+            "bone": "root"
+          },
+          {
+            "name": "12",
+            "bone": "root"
+          },
+          {
+            "name": "13",
+            "bone": "root"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "1": {
+                "1": {
+                  "x": 3.69,
+                  "y": 32.43,
+                  "width": 36,
+                  "height": 60
+                }
+              },
+              "2": {
+                "2": {
+                  "x": 1.69,
+                  "y": 54.43,
+                  "width": 84,
+                  "height": 108
+                }
+              },
+              "3": {
+                "3": {
+                  "x": 2.19,
+                  "y": 56.43,
+                  "width": 85,
+                  "height": 112
+                }
+              },
+              "4": {
+                "4": {
+                  "x": 2.19,
+                  "y": 60.43,
+                  "width": 85,
+                  "height": 122
+                }
+              },
+              "5": {
+                "5": {
+                  "x": 5.19,
+                  "y": 64.93,
+                  "width": 95,
+                  "height": 131
+                }
+              },
+              "6": {
+                "6": {
+                  "x": 5.19,
+                  "y": 68.43,
+                  "width": 105,
+                  "height": 138
+                }
+              },
+              "7": {
+                "7": {
+                  "x": 6.19,
+                  "y": 68.93,
+                  "width": 103,
+                  "height": 139
+                }
+              },
+              "8": {
+                "8": {
+                  "x": 7.69,
+                  "y": 71.93,
+                  "width": 114,
+                  "height": 145
+                }
+              },
+              "9": {
+                "9": {
+                  "x": 8.19,
+                  "y": 74.93,
+                  "width": 121,
+                  "height": 147
+                }
+              },
+              "10": {
+                "10": {
+                  "x": 8.19,
+                  "y": 74.93,
+                  "width": 123,
+                  "height": 147
+                }
+              },
+              "11": {
+                "11": {
+                  "x": 9.69,
+                  "y": 77.43,
+                  "width": 120,
+                  "height": 144
+                }
+              },
+              "12": {
+                "12": {
+                  "x": 1.19,
+                  "y": 79.43,
+                  "width": 105,
+                  "height": 140
+                }
+              },
+              "13": {
+                "13": {
+                  "x": -3.31,
+                  "y": 91.93,
+                  "width": 94,
+                  "height": 97
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "xiaoshiyanwu": {
+            "slots": {
+              "1": {
+                "attachment": [
+                  {
+                    "name": "1"
+                  },
+                  {
+                    "time": 0.0333,
+                    "name": null
+                  }
+                ]
+              },
+              "2": {
+                "attachment": [
+                  {
+                    "time": 0.0333,
+                    "name": "2"
+                  },
+                  {
+                    "time": 0.0667,
+                    "name": null
+                  }
+                ]
+              },
+              "3": {
+                "attachment": [
+                  {
+                    "time": 0.0667,
+                    "name": "3"
+                  },
+                  {
+                    "time": 0.1,
+                    "name": null
+                  }
+                ]
+              },
+              "4": {
+                "attachment": [
+                  {
+                    "time": 0.1,
+                    "name": "4"
+                  },
+                  {
+                    "time": 0.1333,
+                    "name": null
+                  }
+                ]
+              },
+              "5": {
+                "attachment": [
+                  {
+                    "time": 0.1333,
+                    "name": "5"
+                  },
+                  {
+                    "time": 0.1667,
+                    "name": null
+                  }
+                ]
+              },
+              "6": {
+                "attachment": [
+                  {
+                    "time": 0.1667,
+                    "name": "6"
+                  },
+                  {
+                    "time": 0.2,
+                    "name": null
+                  }
+                ]
+              },
+              "7": {
+                "attachment": [
+                  {
+                    "time": 0.2,
+                    "name": "7"
+                  },
+                  {
+                    "time": 0.2333,
+                    "name": null
+                  }
+                ]
+              },
+              "8": {
+                "attachment": [
+                  {
+                    "time": 0.2333,
+                    "name": "8"
+                  },
+                  {
+                    "time": 0.2667,
+                    "name": null
+                  }
+                ]
+              },
+              "9": {
+                "color": [
+                  {
+                    "time": 0.2667,
+                    "color": "ffffffbe"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 0.2667,
+                    "name": "9"
+                  },
+                  {
+                    "time": 0.3,
+                    "name": null
+                  }
+                ]
+              },
+              "10": {
+                "color": [
+                  {
+                    "time": 0.2667,
+                    "color": "ffffff95"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 0.3,
+                    "name": "10"
+                  },
+                  {
+                    "time": 0.3333,
+                    "name": null
+                  }
+                ]
+              },
+              "11": {
+                "color": [
+                  {
+                    "time": 0.2667,
+                    "color": "ffffff6e"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 0.3333,
+                    "name": "11"
+                  },
+                  {
+                    "time": 0.3667,
+                    "name": null
+                  }
+                ]
+              },
+              "12": {
+                "color": [
+                  {
+                    "time": 0.2667,
+                    "color": "ffffff4f"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 0.3667,
+                    "name": "12"
+                  },
+                  {
+                    "time": 0.4,
+                    "name": null
+                  }
+                ]
+              },
+              "13": {
+                "color": [
+                  {
+                    "time": 0.2667,
+                    "color": "ffffff32"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 0.4,
+                    "name": "13"
+                  },
+                  {
+                    "time": 0.4333,
+                    "name": null
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,180 @@
+[
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "effect_gold_fly",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "effect_gold_fly",
+      "_children": [
+        {
+          "__id__": 2
+        },
+        {
+          "__id__": 3
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.MotionStreak",
+          "node": {
+            "__id__": 1
+          },
+          "_fadeTime": 0.2,
+          "_stroke": 80,
+          "_texture": {
+            "__uuid__": "74uTS0JQJDR7xB8jqq+KRI"
+          }
+        },
+        {
+          "__type__": "84fc69G1SFL76fTtIpbqeg9",
+          "node": {
+            "__id__": 1
+          },
+          "atlasAnim": null,
+          "lizi": {
+            "__id__": 2
+          },
+          "gold": {
+            "__id__": 3
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "6aqRvXIYxJfZcJyxHDdSWT"
+        },
+        "fileId": "85vvYBdhtChp7nw2cwiHoz"
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "lizi",
+      "_parent": {
+        "__id__": 1
+      },
+      "_components": [
+        {
+          "__type__": "cc.ParticleSystem",
+          "node": {
+            "__id__": 2
+          },
+          "_custom": true,
+          "_file": {
+            "__uuid__": "b2aHrECZ5APKGS/0d2hvT1"
+          },
+          "_texture": {
+            "__uuid__": "c7rDHVhFpJmJ2qm40wrpMH"
+          },
+          "_totalParticles": 10,
+          "_duration": 1,
+          "_startColor": {
+            "__type__": "cc.Color",
+            "r": 253,
+            "g": 231,
+            "b": 117
+          },
+          "_startColorVar": {
+            "__type__": "cc.Color",
+            "a": 0
+          },
+          "_endColor": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 195,
+            "b": 68
+          },
+          "_speed": 0,
+          "_speedVar": 0
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "6aqRvXIYxJfZcJyxHDdSWT"
+        },
+        "fileId": "33uygev3JIpIGozAsOP+28"
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "gold",
+      "_parent": {
+        "__id__": 1
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 3
+          },
+          "_spriteFrame": {
+            "__uuid__": "92WA1D605CRZhBlzy9VRGI"
+          }
+        },
+        {
+          "__type__": "6875eBfxElKkZReAc6EiFzE",
+          "node": {
+            "__id__": 3
+          },
+          "frameCount": 7,
+          "_N$atlas": {
+            "__uuid__": "balwXbicJPRJ3/angZSy4d"
+          },
+          "_N$animationName": "gold_{0}",
+          "_N$startIndex": 0,
+          "_N$fill": "00"
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "6aqRvXIYxJfZcJyxHDdSWT"
+        },
+        "fileId": "bcBarDsCxDRJm7adO9Y8lt"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 48,
+        "height": 48
+      },
+      "_scaleX": 2,
+      "_scaleY": 2
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "gold_00",
+      "texture": "deHgg/ybtDwrWLDfGbmktS",
+      "rect": [
+        430,
+        1111,
+        48,
+        48
+      ],
+      "offset": [
+        1,
+        -1
+      ],
+      "originalSize": [
+        48,
+        48
+      ]
+    }
+  }
+]

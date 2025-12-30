@@ -1,0 +1,253 @@
+{
+  "groups": [
+    {
+      "keys": "ui_game_json,star_json,star_png,ui_finish_json,bg_jpg,Layer_0_jpg,start_mp3,step1_mp3,step2_mp3,step3_mp3,step4_mp3,step5_mp3,time_mp3,win_mp3,wrong_mp3",
+      "name": "preload"
+    },
+    {
+      "keys": "num_fnt,ui_main_json,ui_panel_json,icon_game1_png,icon_game2_png,smoke_ske_json,smoke_tex_json,smoke_tex_png,pot_tex_png,pot_tex_json,pot_ske_json,ui_chip_json,ui_common_json,plant1_tex_png,plant1_tex_json,plant1_ske_json,pot1_b_png,pot1_a_png,ui_update_json,btn_slot_tex_png,btn_slot_ske_json,btn_slot_tex_json,ui_slots_json,bg_bg_jpg,big_chips_json,chips_json,ui_tuan_json",
+      "name": "postload"
+    },
+    {
+      "keys": "ui_loading_json",
+      "name": "loading"
+    },
+    {
+      "keys": "bg_jpg,star_json,star_png,ui_game_json,ui_main_json,ui_common_json,plant1_tex_png,plant1_tex_json,plant1_ske_json,ui_update_json,btn_slot_tex_png,btn_slot_ske_json,btn_slot_tex_json,ui_tuan_json",
+      "name": "total"
+    },
+    {
+      "keys": "pot_ske_json,pot_tex_json,pot_tex_png,smoke_ske_json,smoke_tex_json,smoke_tex_png,ui_finish_json,ui_chip_json,ui_panel_json,num_fnt,pot1_b_png,pot1_a_png,ui_slots_json,bg_bg_jpg,big_chips_json,chips_json",
+      "name": "totalpost"
+    }
+  ],
+  "resources": [
+    {
+      "name": "ui_game_json",
+      "subkeys": "arrow,bg_chao,bg_time1,bg_time2,bg_zaiwan,books,box,btn_home,btn_point,chip,circle,clock,flower,icon_corret,icon_finish,icon_p1,icon_p2,icon_wrong,picture,pillow",
+      "type": "sheet",
+      "url": "sprite/ui_game.json"
+    },
+    {
+      "name": "star_json",
+      "type": "json",
+      "url": "particle/star.json"
+    },
+    {
+      "name": "star_png",
+      "type": "image",
+      "url": "particle/star.png"
+    },
+    {
+      "name": "ui_finish_json",
+      "subkeys": "bg_3r,btn_backhome,btn_moretime,btn_next,btn_retry,cuo,finger,timeup,victory,warn1,warn2",
+      "type": "sheet",
+      "url": "sprite/ui_finish.json"
+    },
+    {
+      "name": "num_fnt",
+      "type": "font",
+      "url": "font/num.fnt"
+    },
+    {
+      "name": "ui_main_json",
+      "subkeys": "bg_red,bg_word,btn_add,btn_energy,btn_inv,btn_invite,btn_kefu,btn_puzzle,btn_rank,btn_red,btn_share,btn_sound1,btn_sound2,btn_start,btn_tujian,btn_upgrade,cloud1,cloud2,cloud3,cloud4,di,flash,getpack,image,light_red,num_coin,num_energy,red,warn",
+      "type": "sheet",
+      "url": "sprite/ui_main.json"
+    },
+    {
+      "name": "ui_panel_json",
+      "subkeys": "add2,add5,bg_item,bg_much,bg_p,bg_rankbot,bg_shuoming,btn_back2,btn_frd1,btn_frd2,btn_get,btn_get1,btn_get3,btn_get_rank,btn_getgzhh,btn_getred,btn_goget,btn_goon,btn_invitehim,btn_no_rank,btn_root,btn_sign,btn_vedioget,btn_videoget,btn_wrd1,btn_wrd2,btn_x,gx,icon1,icon2,icon3,icon4,icon5,icon_energyb,image1,image2,image4,image5,in1,in2,in3,invite_pack,item_bg,light,rank1,rank2,rank3,signed,title_full,title_mp,tittle_cang,tittle_free,tittle_fubiao,tittle_rank,tittle_sign,toast,tt_noenergy",
+      "type": "sheet",
+      "url": "sprite/ui_panel.json"
+    },
+    {
+      "name": "icon_game1_png",
+      "type": "image",
+      "url": "image/icon_game1.png"
+    },
+    {
+      "name": "icon_game2_png",
+      "type": "image",
+      "url": "image/icon_game2.png"
+    },
+    {
+      "name": "bg_jpg",
+      "type": "image",
+      "url": "image/bg.jpg"
+    },
+    {
+      "name": "smoke_ske_json",
+      "type": "json",
+      "url": "armature/smoke_ske.json"
+    },
+    {
+      "name": "smoke_tex_json",
+      "type": "json",
+      "url": "armature/smoke_tex.json"
+    },
+    {
+      "name": "smoke_tex_png",
+      "type": "image",
+      "url": "armature/smoke_tex.png"
+    },
+    {
+      "name": "pot_ske_json",
+      "type": "json",
+      "url": "armature/pot_ske.json"
+    },
+    {
+      "name": "pot_tex_json",
+      "type": "json",
+      "url": "armature/pot_tex.json"
+    },
+    {
+      "name": "pot_tex_png",
+      "type": "image",
+      "url": "armature/pot_tex.png"
+    },
+    {
+      "name": "Layer_0_jpg",
+      "type": "image",
+      "url": "image/Layer_0.jpg"
+    },
+    {
+      "name": "ui_chip_json",
+      "subkeys": "bg_b,bg_goods,bg_store,btn_duihuan,btn_ins,next,tittle_hongb",
+      "type": "sheet",
+      "url": "sprite/ui_chip.json"
+    },
+    {
+      "name": "ui_loading_json",
+      "subkeys": "image_fdj,loading,process,process_bg",
+      "type": "sheet",
+      "url": "local/ui_loading.json"
+    },
+    {
+      "name": "ui_common_json",
+      "subkeys": "bg_item,bg_p,btn_invitehim,btn_x,image1,image2",
+      "type": "sheet",
+      "url": "sprite/ui_common.json"
+    },
+    {
+      "name": "plant1_ske_json",
+      "type": "json",
+      "url": "armature/plant1_ske.json"
+    },
+    {
+      "name": "plant1_tex_json",
+      "type": "json",
+      "url": "armature/plant1_tex.json"
+    },
+    {
+      "name": "plant1_tex_png",
+      "type": "image",
+      "url": "armature/plant1_tex.png"
+    },
+    {
+      "name": "pot1_a_png",
+      "type": "image",
+      "url": "image/pot1_a.png"
+    },
+    {
+      "name": "pot1_b_png",
+      "type": "image",
+      "url": "image/pot1_b.png"
+    },
+    {
+      "name": "ui_update_json",
+      "subkeys": "bg_b2,btn_chip,btn_get2e,btn_gotosee,btn_puzzle,btn_sayno,btn_saywant,btn_sayyes,btn_sy,btn_yqtl,btn_zs",
+      "type": "sheet",
+      "url": "sprite/ui_update.json"
+    },
+    {
+      "name": "btn_slot_tex_png",
+      "type": "image",
+      "url": "armature/btn_slot_tex.png"
+    },
+    {
+      "name": "btn_slot_ske_json",
+      "type": "json",
+      "url": "armature/btn_slot_ske.json"
+    },
+    {
+      "name": "btn_slot_tex_json",
+      "type": "json",
+      "url": "armature/btn_slot_tex.json"
+    },
+    {
+      "name": "ui_slots_json",
+      "subkeys": "1a,1b,2a,2b,3a,3b,4a,4b,5a,5b,6a,6b,7a,7b,8a,8b,9a,9b,arrow1,arrow2,arrow3,ball,bg,bg_window,board,box1,box2,btn_back,btn_duihuan1,btn_duihuan2,btn_free1,btn_free2,btn_getnow,btn_rule1,btn_rule2,btn_shoot1,btn_shoot2,btn_start1,btn_start2,coin,cur_coin,cut2,direction,end,ex_coin,freenow,hinder,icon1a,icon1b,icon2a,icon2b,icon3a,icon3b,icon4a,icon4b,icon5a,icon5b,icon6a,icon6b,icon7a,icon7b,icon8a,icon8b,icon9a,icon9b,icon_coin,list0,list1,list2,list3,list4,list5,list6,list7,out1,out2,partition,spend,super,tittle,tittle_duihuan,total,total_coin",
+      "type": "sheet",
+      "url": "sprite/ui_slots.json"
+    },
+    {
+      "name": "bg_bg_jpg",
+      "type": "image",
+      "url": "image/bg_bg.jpg"
+    },
+    {
+      "name": "big_chips_json",
+      "subkeys": "icon1_1,icon1_2,icon1_3,icon1_4,icon1_5,icon1_6,icon1_7,icon1_8,icon1_9,icon2_1,icon2_2,icon2_3,icon2_4,icon2_5,icon2_6,icon2_7,icon2_8,icon2_9,icon3_1,icon3_2,icon3_3,icon3_4,icon3_5,icon3_6,icon3_7,icon3_8,icon3_9,icon4_1,icon4_2,icon4_3,icon4_4,icon4_5,icon4_6,icon4_7,icon4_8,icon4_9,icon5_1,icon5_2,icon5_3,icon5_4,icon5_5,icon5_6,icon5_7,icon5_8,icon5_9,icon6_1,icon6_2,icon6_3,icon6_4,icon6_5,icon6_6,icon6_7,icon6_8,icon6_9,icon7_1,icon7_2,icon7_3,icon7_4,icon7_5,icon7_6,icon7_7,icon7_8,icon7_9",
+      "type": "sheet",
+      "url": "sprite/big_chips.json"
+    },
+    {
+      "name": "chips_json",
+      "subkeys": "chip1_1,chip1_2,chip1_3,chip1_4,chip1_5,chip1_6,chip1_7,chip1_8,chip1_9,chip2_1,chip2_2,chip2_3,chip2_4,chip2_5,chip2_6,chip2_7,chip2_8,chip2_9,chip3_1,chip3_2,chip3_3,chip3_4,chip3_5,chip3_6,chip3_7,chip3_8,chip3_9,chip4_1,chip4_2,chip4_3,chip4_4,chip4_5,chip4_6,chip4_7,chip4_8,chip4_9,chip5_1,chip5_2,chip5_3,chip5_4,chip5_5,chip5_6,chip5_7,chip5_8,chip5_9,chip6_1,chip6_2,chip6_3,chip6_4,chip6_5,chip6_6,chip6_7,chip6_8,chip6_9,chip7_1,chip7_2,chip7_3,chip7_4,chip7_5,chip7_6,chip7_7,chip7_8,chip7_9",
+      "type": "sheet",
+      "url": "sprite/chips.json"
+    },
+    {
+      "name": "ui_tuan_json",
+      "subkeys": "bg_11,bg_rules,btn_invite,btn_tixian,btn_tuan,cutline,image1,image2,tittle_tuan,tx",
+      "type": "sheet",
+      "url": "sprite/ui_tuan.json"
+    },
+    {
+      "name": "start_mp3",
+      "type": "sound",
+      "url": "sound/effect/start.mp3"
+    },
+    {
+      "name": "step1_mp3",
+      "type": "sound",
+      "url": "sound/effect/step1.mp3"
+    },
+    {
+      "name": "step2_mp3",
+      "type": "sound",
+      "url": "sound/effect/step2.mp3"
+    },
+    {
+      "name": "step3_mp3",
+      "type": "sound",
+      "url": "sound/effect/step3.mp3"
+    },
+    {
+      "name": "step4_mp3",
+      "type": "sound",
+      "url": "sound/effect/step4.mp3"
+    },
+    {
+      "name": "step5_mp3",
+      "type": "sound",
+      "url": "sound/effect/step5.mp3"
+    },
+    {
+      "name": "time_mp3",
+      "type": "sound",
+      "url": "sound/effect/time.mp3"
+    },
+    {
+      "name": "win_mp3",
+      "type": "sound",
+      "url": "sound/effect/win.mp3"
+    },
+    {
+      "name": "wrong_mp3",
+      "type": "sound",
+      "url": "sound/effect/wrong.mp3"
+    }
+  ]
+}

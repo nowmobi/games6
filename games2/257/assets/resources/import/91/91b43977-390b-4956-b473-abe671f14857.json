@@ -1,0 +1,300 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "enemies",
+      [
+        {
+          "name": "Charger-0",
+          "hp": 16,
+          "moveSpeed": 0.4,
+          "damage": 1,
+          "special": "",
+          "energyDrop": 0.3
+        },
+        {
+          "name": "Charger-1",
+          "hp": 80,
+          "moveSpeed": 0.6,
+          "damage": 1,
+          "special": "",
+          "energyDrop": 0.4
+        },
+        {
+          "name": "Charger-2",
+          "hp": 240,
+          "moveSpeed": 0.8,
+          "damage": 2,
+          "special": "",
+          "energyDrop": 0.5
+        },
+        {
+          "name": "Tank-0",
+          "hp": 150,
+          "moveSpeed": 0.2,
+          "damage": 2,
+          "special": "",
+          "energyDrop": 0.5
+        },
+        {
+          "name": "Tank-1",
+          "hp": 500,
+          "moveSpeed": 0.25,
+          "damage": 2,
+          "special": "",
+          "energyDrop": 0.7
+        },
+        {
+          "name": "Tank-2",
+          "hp": 1200,
+          "moveSpeed": 0.3,
+          "damage": 3,
+          "special": "",
+          "energyDrop": 0.9
+        },
+        {
+          "name": "Crowder-0",
+          "hp": 8,
+          "moveSpeed": 0.6,
+          "damage": 1,
+          "special": "",
+          "energyDrop": 0.04
+        },
+        {
+          "name": "Crowder-1",
+          "hp": 21,
+          "moveSpeed": 0.7,
+          "damage": 1,
+          "special": "",
+          "energyDrop": 0.08
+        },
+        {
+          "name": "Crowder-2",
+          "hp": 50,
+          "moveSpeed": 1,
+          "damage": 1,
+          "special": "",
+          "energyDrop": 0.2
+        },
+        {
+          "name": "Runner-0",
+          "hp": 16,
+          "moveSpeed": 1,
+          "damage": 1,
+          "special": "",
+          "energyDrop": 0.2
+        },
+        {
+          "name": "Runner-1",
+          "hp": 50,
+          "moveSpeed": 1.5,
+          "damage": 1,
+          "special": "",
+          "energyDrop": 0.3
+        },
+        {
+          "name": "Runner-2",
+          "hp": 120,
+          "moveSpeed": 2,
+          "damage": 1,
+          "special": "",
+          "energyDrop": 2
+        },
+        {
+          "name": "OverCharger-0",
+          "hp": 8,
+          "moveSpeed": 1.5,
+          "damage": 0,
+          "special": "Lose 2E",
+          "energyDrop": 0.7
+        },
+        {
+          "name": "OverCharger-1",
+          "hp": 42,
+          "moveSpeed": 2,
+          "damage": 0,
+          "special": "Lose 3E",
+          "energyDrop": 2
+        },
+        {
+          "name": "OverCharger-2",
+          "hp": 120,
+          "moveSpeed": 2.5,
+          "damage": 0,
+          "special": "Lose 4E",
+          "energyDrop": 3
+        },
+        {
+          "name": "Cargo-0",
+          "hp": 300,
+          "moveSpeed": 0.3,
+          "damage": 2,
+          "special": "Spawn Crowders on Death",
+          "energyDrop": 0.5
+        },
+        {
+          "name": "Cargo-1",
+          "hp": 800,
+          "moveSpeed": 0.4,
+          "damage": 3,
+          "special": "Spawn Crowders on Death",
+          "energyDrop": 1
+        },
+        {
+          "name": "Biker-0",
+          "hp": 60,
+          "moveSpeed": 1.3,
+          "damage": 2,
+          "special": "Spawn Charger on Death",
+          "energyDrop": 0.5
+        },
+        {
+          "name": "Biker-1",
+          "hp": 120,
+          "moveSpeed": 1.8,
+          "damage": 2,
+          "special": "Spawn Charger on Death",
+          "energyDrop": 1
+        },
+        {
+          "name": "Shielder-0",
+          "hp": 200,
+          "moveSpeed": 0.5,
+          "damage": 3,
+          "special": "Shield",
+          "energyDrop": 0.5
+        },
+        {
+          "name": "Shielder-1",
+          "hp": 400,
+          "moveSpeed": 0.7,
+          "damage": 3,
+          "special": "Shield",
+          "energyDrop": 1
+        },
+        {
+          "name": "Stunner-0",
+          "hp": 200,
+          "moveSpeed": 0.6,
+          "damage": 3,
+          "special": "Stun Towers",
+          "energyDrop": 0.5
+        },
+        {
+          "name": "Stunner-1",
+          "hp": 400,
+          "moveSpeed": 0.8,
+          "damage": 3,
+          "special": "Stun Towers",
+          "energyDrop": 1
+        },
+        {
+          "name": "BossTank",
+          "hp": 650,
+          "moveSpeed": 0.3,
+          "damage": 6,
+          "special": "",
+          "energyDrop": 3
+        },
+        {
+          "name": "BossTank2",
+          "hp": 3400,
+          "moveSpeed": 0.4,
+          "damage": 10,
+          "special": "",
+          "energyDrop": 5
+        },
+        {
+          "name": "Breeder",
+          "hp": 3500,
+          "moveSpeed": 0.2,
+          "damage": 8,
+          "special": "Spawn Chargers over time",
+          "energyDrop": 6
+        },
+        {
+          "name": "MotherShip",
+          "hp": 6666,
+          "moveSpeed": 0.3,
+          "damage": 18,
+          "special": "",
+          "energyDrop": 10
+        },
+        {
+          "name": "TheGang",
+          "hp": 700,
+          "moveSpeed": 0.2,
+          "damage": 12,
+          "special": "",
+          "energyDrop": 4
+        },
+        {
+          "name": "TheGang2",
+          "hp": 180,
+          "moveSpeed": 0.4,
+          "damage": 5,
+          "special": "",
+          "energyDrop": 2
+        },
+        {
+          "name": "TheGang4",
+          "hp": 70,
+          "moveSpeed": 0.6,
+          "damage": 1,
+          "special": "",
+          "energyDrop": 1
+        },
+        {
+          "name": "Syndicate",
+          "hp": 2000,
+          "moveSpeed": 0.4,
+          "damage": 15,
+          "special": "",
+          "energyDrop": 7
+        },
+        {
+          "name": "Syndicate2",
+          "hp": 400,
+          "moveSpeed": 0.6,
+          "damage": 3,
+          "special": "",
+          "energyDrop": 3
+        },
+        {
+          "name": "Syndicate4",
+          "hp": 150,
+          "moveSpeed": 0.8,
+          "damage": 1,
+          "special": "",
+          "energyDrop": 2
+        }
+      ]
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

@@ -1,0 +1,173 @@
+{
+  "frames": {
+    "logo-quest": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 1025,
+        "h": 547
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1025,
+        "h": 547
+      },
+      "sourceSize": {
+        "w": 1025,
+        "h": 547
+      }
+    },
+    "macka": {
+      "frame": {
+        "x": 1029,
+        "y": 2,
+        "w": 537,
+        "h": 630
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 537,
+        "h": 630
+      },
+      "sourceSize": {
+        "w": 537,
+        "h": 630
+      }
+    },
+    "loading-bar1": {
+      "frame": {
+        "x": 2,
+        "y": 634,
+        "w": 500,
+        "h": 70
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 70
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 70
+      }
+    },
+    "loading-bar2": {
+      "frame": {
+        "x": 2,
+        "y": 551,
+        "w": 500,
+        "h": 70
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 70
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 70
+      }
+    },
+    "tutorial-tabulka": {
+      "frame": {
+        "x": 504,
+        "y": 551,
+        "w": 500,
+        "h": 447
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 447
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 447
+      }
+    },
+    "inlogic-logo": {
+      "frame": {
+        "x": 2,
+        "y": 706,
+        "w": 410,
+        "h": 314
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 410,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 410,
+        "h": 314
+      }
+    },
+    "tutorial-button-f1": {
+      "frame": {
+        "x": 1568,
+        "y": 2,
+        "w": 222,
+        "h": 109
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 222,
+        "h": 109
+      },
+      "sourceSize": {
+        "w": 222,
+        "h": 109
+      }
+    },
+    "tutorial-button": {
+      "frame": {
+        "x": 1792,
+        "y": 2,
+        "w": 222,
+        "h": 109
+      },
+      "rotated": false,
+      "trimed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 222,
+        "h": 109
+      },
+      "sourceSize": {
+        "w": 222,
+        "h": 109
+      }
+    }
+  },
+  "meta": {
+    "image": "../../assets/img/pak/loading.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 1024
+    },
+    "scale": 1
+  }
+}

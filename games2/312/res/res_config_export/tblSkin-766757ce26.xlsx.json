@@ -1,0 +1,1386 @@
+[
+  {
+    "id": 0,
+    "name": "流川枫_红白",
+    "modelId": 0,
+    "avatarId": 0,
+    "skin_body": "res/res_3d/textures/body/normal/b_red.png",
+    "skin_head": "res/res_3d/textures/head/lcf.png"
+  },
+  {
+    "id": 1,
+    "name": "流川枫_深蓝",
+    "modelId": 0,
+    "avatarId": 1,
+    "skin_body": "res/res_3d/textures/body/normal/b_blue.png",
+    "skin_head": "res/res_3d/textures/head/lcf.png"
+  },
+  {
+    "id": 2,
+    "name": "流川枫_浅蓝",
+    "modelId": 0,
+    "avatarId": 2,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_blueLight.png",
+    "skin_head": "res/res_3d/textures/head/lcf.png"
+  },
+  {
+    "id": 3,
+    "name": "流川枫_绿",
+    "modelId": 0,
+    "avatarId": 3,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_green.png",
+    "skin_head": "res/res_3d/textures/head/lcf.png"
+  },
+  {
+    "id": 4,
+    "name": "流川枫_紫",
+    "modelId": 0,
+    "avatarId": 4,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_violet.png",
+    "skin_head": "res/res_3d/textures/head/lcf.png"
+  },
+  {
+    "id": 5,
+    "name": "流川枫_大红",
+    "modelId": 0,
+    "avatarId": 6,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_china.png",
+    "skin_head": "res/res_3d/textures/head/lcf.png"
+  },
+  {
+    "id": 6,
+    "name": "流川枫_黄",
+    "modelId": 0,
+    "avatarId": 7,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_yellow.png",
+    "skin_head": "res/res_3d/textures/head/lcf.png"
+  },
+  {
+    "id": 7,
+    "name": "流川枫_黑白",
+    "modelId": 0,
+    "avatarId": 8,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_black.png",
+    "skin_head": "res/res_3d/textures/head/lcf.png"
+  },
+  {
+    "id": 8,
+    "name": "流川枫_迷彩",
+    "modelId": 0,
+    "avatarId": 9,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_micai.png",
+    "skin_head": "res/res_3d/textures/head/lcf.png"
+  },
+  {
+    "id": 9,
+    "name": "流川枫_橙色",
+    "modelId": 0,
+    "avatarId": 10,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_orange.png",
+    "skin_head": "res/res_3d/textures/head/lcf.png"
+  },
+  {
+    "id": 10,
+    "name": "樱木_红白",
+    "modelId": 1,
+    "avatarId": 0,
+    "skin_body": "res/res_3d/textures/body/normal/a_red.png",
+    "skin_head": "res/res_3d/textures/head/ym.png"
+  },
+  {
+    "id": 11,
+    "name": "樱木_深蓝",
+    "modelId": 1,
+    "avatarId": 1,
+    "skin_body": "res/res_3d/textures/body/normal/a_blue.png",
+    "skin_head": "res/res_3d/textures/head/ym.png"
+  },
+  {
+    "id": 12,
+    "name": "樱木_浅蓝",
+    "modelId": 1,
+    "avatarId": 2,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_blueLight.png",
+    "skin_head": "res/res_3d/textures/head/ym.png"
+  },
+  {
+    "id": 13,
+    "name": "樱木_绿",
+    "modelId": 1,
+    "avatarId": 3,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_green.png",
+    "skin_head": "res/res_3d/textures/head/ym.png"
+  },
+  {
+    "id": 14,
+    "name": "樱木_紫",
+    "modelId": 1,
+    "avatarId": 4,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_violet.png",
+    "skin_head": "res/res_3d/textures/head/ym.png"
+  },
+  {
+    "id": 15,
+    "name": "樱木_大红",
+    "modelId": 1,
+    "avatarId": 6,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_china.png",
+    "skin_head": "res/res_3d/textures/head/ym.png"
+  },
+  {
+    "id": 16,
+    "name": "樱木_黄",
+    "modelId": 1,
+    "avatarId": 7,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_yellow.png",
+    "skin_head": "res/res_3d/textures/head/ym.png"
+  },
+  {
+    "id": 17,
+    "name": "樱木_黑白",
+    "modelId": 1,
+    "avatarId": 8,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_black.png",
+    "skin_head": "res/res_3d/textures/head/ym.png"
+  },
+  {
+    "id": 18,
+    "name": "樱木_迷彩",
+    "modelId": 1,
+    "avatarId": 9,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_micai.png",
+    "skin_head": "res/res_3d/textures/head/ym.png"
+  },
+  {
+    "id": 19,
+    "name": "樱木_橙色",
+    "modelId": 1,
+    "avatarId": 10,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_orange.png",
+    "skin_head": "res/res_3d/textures/head/ym.png"
+  },
+  {
+    "id": 20,
+    "name": "赤木_红白",
+    "modelId": 2,
+    "avatarId": 0,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_red.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cm.png"
+  },
+  {
+    "id": 21,
+    "name": "赤木_深蓝",
+    "modelId": 2,
+    "avatarId": 1,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_blue.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cm.png"
+  },
+  {
+    "id": 22,
+    "name": "赤木_浅蓝",
+    "modelId": 2,
+    "avatarId": 2,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_blueLight.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cm.png"
+  },
+  {
+    "id": 23,
+    "name": "赤木_绿",
+    "modelId": 2,
+    "avatarId": 3,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_green.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cm.png"
+  },
+  {
+    "id": 24,
+    "name": "赤木_紫",
+    "modelId": 2,
+    "avatarId": 4,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_violet.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cm.png"
+  },
+  {
+    "id": 25,
+    "name": "赤木_大红",
+    "modelId": 2,
+    "avatarId": 6,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_china.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cm.png"
+  },
+  {
+    "id": 26,
+    "name": "赤木_黄",
+    "modelId": 2,
+    "avatarId": 7,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_yellow.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cm.png"
+  },
+  {
+    "id": 27,
+    "name": "赤木_黑白",
+    "modelId": 2,
+    "avatarId": 8,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_black.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cm.png"
+  },
+  {
+    "id": 28,
+    "name": "赤木_迷彩",
+    "modelId": 2,
+    "avatarId": 9,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_micai.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cm.png"
+  },
+  {
+    "id": 29,
+    "name": "赤木_橙色",
+    "modelId": 2,
+    "avatarId": 10,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_orange.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cm.png"
+  },
+  {
+    "id": 30,
+    "name": "三井_红白",
+    "modelId": 3,
+    "avatarId": 0,
+    "skin_body": "res/res_3d/textures/body/normal/a_red.png",
+    "skin_head": "res/res_3d/textures/head/sjs.png"
+  },
+  {
+    "id": 31,
+    "name": "三井_深蓝",
+    "modelId": 3,
+    "avatarId": 1,
+    "skin_body": "res/res_3d/textures/body/normal/a_blue.png",
+    "skin_head": "res/res_3d/textures/head/sjs.png"
+  },
+  {
+    "id": 32,
+    "name": "三井_浅蓝",
+    "modelId": 3,
+    "avatarId": 2,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_blueLight.png",
+    "skin_head": "res/res_3d/textures/head/sjs.png"
+  },
+  {
+    "id": 33,
+    "name": "三井_绿",
+    "modelId": 3,
+    "avatarId": 3,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_green.png",
+    "skin_head": "res/res_3d/textures/head/sjs.png"
+  },
+  {
+    "id": 34,
+    "name": "三井_紫",
+    "modelId": 3,
+    "avatarId": 4,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_violet.png",
+    "skin_head": "res/res_3d/textures/head/sjs.png"
+  },
+  {
+    "id": 35,
+    "name": "三井_大红",
+    "modelId": 3,
+    "avatarId": 6,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_china.png",
+    "skin_head": "res/res_3d/textures/head/sjs.png"
+  },
+  {
+    "id": 36,
+    "name": "三井_黄",
+    "modelId": 3,
+    "avatarId": 7,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_yellow.png",
+    "skin_head": "res/res_3d/textures/head/sjs.png"
+  },
+  {
+    "id": 37,
+    "name": "三井_黑白",
+    "modelId": 3,
+    "avatarId": 8,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_black.png",
+    "skin_head": "res/res_3d/textures/head/sjs.png"
+  },
+  {
+    "id": 38,
+    "name": "三井_迷彩",
+    "modelId": 3,
+    "avatarId": 9,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_micai.png",
+    "skin_head": "res/res_3d/textures/head/sjs.png"
+  },
+  {
+    "id": 39,
+    "name": "三井_橙色",
+    "modelId": 3,
+    "avatarId": 10,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_orange.png",
+    "skin_head": "res/res_3d/textures/head/sjs.png"
+  },
+  {
+    "id": 40,
+    "name": "宫城_红白",
+    "modelId": 4,
+    "avatarId": 0,
+    "skin_body": "res/res_3d/textures/body/normal/a_red.png",
+    "skin_head": "res/res_3d/textures/head/gc.png"
+  },
+  {
+    "id": 41,
+    "name": "宫城_深蓝",
+    "modelId": 4,
+    "avatarId": 1,
+    "skin_body": "res/res_3d/textures/body/normal/a_blue.png",
+    "skin_head": "res/res_3d/textures/head/gc.png"
+  },
+  {
+    "id": 42,
+    "name": "宫城_浅蓝",
+    "modelId": 4,
+    "avatarId": 2,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_blueLight.png",
+    "skin_head": "res/res_3d/textures/head/gc.png"
+  },
+  {
+    "id": 43,
+    "name": "宫城_绿",
+    "modelId": 4,
+    "avatarId": 3,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_green.png",
+    "skin_head": "res/res_3d/textures/head/gc.png"
+  },
+  {
+    "id": 44,
+    "name": "宫城_紫",
+    "modelId": 4,
+    "avatarId": 4,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_violet.png",
+    "skin_head": "res/res_3d/textures/head/gc.png"
+  },
+  {
+    "id": 45,
+    "name": "宫城_大红",
+    "modelId": 4,
+    "avatarId": 6,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_china.png",
+    "skin_head": "res/res_3d/textures/head/gc.png"
+  },
+  {
+    "id": 46,
+    "name": "宫城_黄",
+    "modelId": 4,
+    "avatarId": 7,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_yellow.png",
+    "skin_head": "res/res_3d/textures/head/gc.png"
+  },
+  {
+    "id": 47,
+    "name": "宫城_黑白",
+    "modelId": 4,
+    "avatarId": 8,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_black.png",
+    "skin_head": "res/res_3d/textures/head/gc.png"
+  },
+  {
+    "id": 48,
+    "name": "宫城_迷彩",
+    "modelId": 4,
+    "avatarId": 9,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_micai.png",
+    "skin_head": "res/res_3d/textures/head/gc.png"
+  },
+  {
+    "id": 49,
+    "name": "宫城_橙色",
+    "modelId": 4,
+    "avatarId": 10,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_orange.png",
+    "skin_head": "res/res_3d/textures/head/gc.png"
+  },
+  {
+    "id": 50,
+    "name": "花形_红白",
+    "modelId": 5,
+    "avatarId": 0,
+    "skin_body": "res/res_3d/textures/body/normal/b_red.png",
+    "skin_head": "res/res_3d/unzipTextures/head/hx.png"
+  },
+  {
+    "id": 51,
+    "name": "花形_深蓝",
+    "modelId": 5,
+    "avatarId": 1,
+    "skin_body": "res/res_3d/textures/body/normal/b_blue.png",
+    "skin_head": "res/res_3d/unzipTextures/head/hx.png"
+  },
+  {
+    "id": 52,
+    "name": "花形_浅蓝",
+    "modelId": 5,
+    "avatarId": 2,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_blueLight.png",
+    "skin_head": "res/res_3d/unzipTextures/head/hx.png"
+  },
+  {
+    "id": 53,
+    "name": "花形_绿",
+    "modelId": 5,
+    "avatarId": 3,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_green.png",
+    "skin_head": "res/res_3d/unzipTextures/head/hx.png"
+  },
+  {
+    "id": 54,
+    "name": "花形_紫",
+    "modelId": 5,
+    "avatarId": 4,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_violet.png",
+    "skin_head": "res/res_3d/unzipTextures/head/hx.png"
+  },
+  {
+    "id": 55,
+    "name": "花形_大红",
+    "modelId": 5,
+    "avatarId": 6,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_china.png",
+    "skin_head": "res/res_3d/unzipTextures/head/hx.png"
+  },
+  {
+    "id": 56,
+    "name": "花形_黄",
+    "modelId": 5,
+    "avatarId": 7,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_yellow.png",
+    "skin_head": "res/res_3d/unzipTextures/head/hx.png"
+  },
+  {
+    "id": 57,
+    "name": "花形_黑白",
+    "modelId": 5,
+    "avatarId": 8,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_black.png",
+    "skin_head": "res/res_3d/unzipTextures/head/hx.png"
+  },
+  {
+    "id": 58,
+    "name": "花形_迷彩",
+    "modelId": 5,
+    "avatarId": 9,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_micai.png",
+    "skin_head": "res/res_3d/unzipTextures/head/hx.png"
+  },
+  {
+    "id": 59,
+    "name": "花形_橙色",
+    "modelId": 5,
+    "avatarId": 10,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_orange.png",
+    "skin_head": "res/res_3d/unzipTextures/head/hx.png"
+  },
+  {
+    "id": 60,
+    "name": "仙道_红白",
+    "modelId": 6,
+    "avatarId": 0,
+    "skin_body": "res/res_3d/textures/body/normal/b_red.png",
+    "skin_head": "res/res_3d/textures/head/xd.png"
+  },
+  {
+    "id": 61,
+    "name": "仙道_深蓝",
+    "modelId": 6,
+    "avatarId": 1,
+    "skin_body": "res/res_3d/textures/body/normal/b_blue.png",
+    "skin_head": "res/res_3d/textures/head/xd.png"
+  },
+  {
+    "id": 62,
+    "name": "仙道_浅蓝",
+    "modelId": 6,
+    "avatarId": 2,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_blueLight.png",
+    "skin_head": "res/res_3d/textures/head/xd.png"
+  },
+  {
+    "id": 63,
+    "name": "仙道_绿",
+    "modelId": 6,
+    "avatarId": 3,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_green.png",
+    "skin_head": "res/res_3d/textures/head/xd.png"
+  },
+  {
+    "id": 64,
+    "name": "仙道_紫",
+    "modelId": 6,
+    "avatarId": 4,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_violet.png",
+    "skin_head": "res/res_3d/textures/head/xd.png"
+  },
+  {
+    "id": 65,
+    "name": "仙道_大红",
+    "modelId": 6,
+    "avatarId": 6,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_china.png",
+    "skin_head": "res/res_3d/textures/head/xd.png"
+  },
+  {
+    "id": 66,
+    "name": "仙道_黄",
+    "modelId": 6,
+    "avatarId": 7,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_yellow.png",
+    "skin_head": "res/res_3d/textures/head/xd.png"
+  },
+  {
+    "id": 67,
+    "name": "仙道_黑白",
+    "modelId": 6,
+    "avatarId": 8,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_black.png",
+    "skin_head": "res/res_3d/textures/head/xd.png"
+  },
+  {
+    "id": 68,
+    "name": "仙道_迷彩",
+    "modelId": 6,
+    "avatarId": 9,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_micai.png",
+    "skin_head": "res/res_3d/textures/head/xd.png"
+  },
+  {
+    "id": 69,
+    "name": "仙道_橙色",
+    "modelId": 6,
+    "avatarId": 10,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_orange.png",
+    "skin_head": "res/res_3d/textures/head/xd.png"
+  },
+  {
+    "id": 70,
+    "name": "藤真_红白",
+    "modelId": 7,
+    "avatarId": 0,
+    "skin_body": "res/res_3d/textures/body/normal/b_red.png",
+    "skin_head": "res/res_3d/textures/head/tz.png"
+  },
+  {
+    "id": 71,
+    "name": "藤真_深蓝",
+    "modelId": 7,
+    "avatarId": 1,
+    "skin_body": "res/res_3d/textures/body/normal/b_blue.png",
+    "skin_head": "res/res_3d/textures/head/tz.png"
+  },
+  {
+    "id": 72,
+    "name": "藤真_浅蓝",
+    "modelId": 7,
+    "avatarId": 2,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_blueLight.png",
+    "skin_head": "res/res_3d/textures/head/tz.png"
+  },
+  {
+    "id": 73,
+    "name": "藤真_绿",
+    "modelId": 7,
+    "avatarId": 3,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_green.png",
+    "skin_head": "res/res_3d/textures/head/tz.png"
+  },
+  {
+    "id": 74,
+    "name": "藤真_紫",
+    "modelId": 7,
+    "avatarId": 4,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_violet.png",
+    "skin_head": "res/res_3d/textures/head/tz.png"
+  },
+  {
+    "id": 75,
+    "name": "藤真_大红",
+    "modelId": 7,
+    "avatarId": 6,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_china.png",
+    "skin_head": "res/res_3d/textures/head/tz.png"
+  },
+  {
+    "id": 76,
+    "name": "藤真_黄",
+    "modelId": 7,
+    "avatarId": 7,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_yellow.png",
+    "skin_head": "res/res_3d/textures/head/tz.png"
+  },
+  {
+    "id": 77,
+    "name": "藤真_黑白",
+    "modelId": 7,
+    "avatarId": 8,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_black.png",
+    "skin_head": "res/res_3d/textures/head/tz.png"
+  },
+  {
+    "id": 78,
+    "name": "藤真_迷彩",
+    "modelId": 7,
+    "avatarId": 9,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_micai.png",
+    "skin_head": "res/res_3d/textures/head/tz.png"
+  },
+  {
+    "id": 79,
+    "name": "藤真_橙色",
+    "modelId": 7,
+    "avatarId": 10,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_orange.png",
+    "skin_head": "res/res_3d/textures/head/tz.png"
+  },
+  {
+    "id": 80,
+    "name": "光头_红白",
+    "modelId": 9,
+    "avatarId": 0,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_red.png",
+    "skin_head": "res/res_3d/unzipTextures/head/gt.png"
+  },
+  {
+    "id": 81,
+    "name": "光头_深蓝",
+    "modelId": 9,
+    "avatarId": 1,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_blue.png",
+    "skin_head": "res/res_3d/unzipTextures/head/gt.png"
+  },
+  {
+    "id": 82,
+    "name": "光头_浅蓝",
+    "modelId": 9,
+    "avatarId": 2,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_blueLight.png",
+    "skin_head": "res/res_3d/unzipTextures/head/gt.png"
+  },
+  {
+    "id": 83,
+    "name": "光头_绿",
+    "modelId": 9,
+    "avatarId": 3,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_green.png",
+    "skin_head": "res/res_3d/unzipTextures/head/gt.png"
+  },
+  {
+    "id": 84,
+    "name": "光头_紫",
+    "modelId": 9,
+    "avatarId": 4,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_violet.png",
+    "skin_head": "res/res_3d/unzipTextures/head/gt.png"
+  },
+  {
+    "id": 85,
+    "name": "光头_大红",
+    "modelId": 9,
+    "avatarId": 6,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_china.png",
+    "skin_head": "res/res_3d/unzipTextures/head/gt.png"
+  },
+  {
+    "id": 86,
+    "name": "光头_黄",
+    "modelId": 9,
+    "avatarId": 7,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_yellow.png",
+    "skin_head": "res/res_3d/unzipTextures/head/gt.png"
+  },
+  {
+    "id": 87,
+    "name": "光头_黑白",
+    "modelId": 9,
+    "avatarId": 8,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_black.png",
+    "skin_head": "res/res_3d/unzipTextures/head/gt.png"
+  },
+  {
+    "id": 88,
+    "name": "光头_迷彩",
+    "modelId": 9,
+    "avatarId": 9,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_micai.png",
+    "skin_head": "res/res_3d/unzipTextures/head/gt.png"
+  },
+  {
+    "id": 89,
+    "name": "光头_橙色",
+    "modelId": 9,
+    "avatarId": 10,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_orange.png",
+    "skin_head": "res/res_3d/unzipTextures/head/gt.png"
+  },
+  {
+    "id": 90,
+    "name": "长发_红白",
+    "modelId": 10,
+    "avatarId": 0,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/a_red.png",
+    "skin_head": "res/res_3d/unzipTextures/head/changfa.png"
+  },
+  {
+    "id": 91,
+    "name": "长发_深蓝",
+    "modelId": 10,
+    "avatarId": 1,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/a_blue.png",
+    "skin_head": "res/res_3d/unzipTextures/head/changfa.png"
+  },
+  {
+    "id": 92,
+    "name": "长发_浅蓝",
+    "modelId": 10,
+    "avatarId": 2,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/a_blueLight.png",
+    "skin_head": "res/res_3d/unzipTextures/head/changfa.png"
+  },
+  {
+    "id": 93,
+    "name": "长发_绿",
+    "modelId": 10,
+    "avatarId": 3,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/a_green.png",
+    "skin_head": "res/res_3d/unzipTextures/head/changfa.png"
+  },
+  {
+    "id": 94,
+    "name": "长发_紫",
+    "modelId": 10,
+    "avatarId": 4,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/a_violet.png",
+    "skin_head": "res/res_3d/unzipTextures/head/changfa.png"
+  },
+  {
+    "id": 95,
+    "name": "长发_大红",
+    "modelId": 10,
+    "avatarId": 6,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/ab_china.png",
+    "skin_head": "res/res_3d/unzipTextures/head/changfa.png"
+  },
+  {
+    "id": 96,
+    "name": "长发_黄",
+    "modelId": 10,
+    "avatarId": 7,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/ab_yellow.png",
+    "skin_head": "res/res_3d/unzipTextures/head/changfa.png"
+  },
+  {
+    "id": 97,
+    "name": "长发_黑白",
+    "modelId": 10,
+    "avatarId": 8,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/ab_black.png",
+    "skin_head": "res/res_3d/unzipTextures/head/changfa.png"
+  },
+  {
+    "id": 98,
+    "name": "长发_迷彩",
+    "modelId": 10,
+    "avatarId": 9,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/ab_micai.png",
+    "skin_head": "res/res_3d/unzipTextures/head/changfa.png"
+  },
+  {
+    "id": 99,
+    "name": "长发_橙色",
+    "modelId": 10,
+    "avatarId": 10,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/ab_orange.png",
+    "skin_head": "res/res_3d/unzipTextures/head/changfa.png"
+  },
+  {
+    "id": 100,
+    "name": "短发_红白",
+    "modelId": 11,
+    "avatarId": 0,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/b_red.png",
+    "skin_head": "res/res_3d/unzipTextures/head/duanfa.png"
+  },
+  {
+    "id": 101,
+    "name": "短发_深蓝",
+    "modelId": 11,
+    "avatarId": 1,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/b_blue.png",
+    "skin_head": "res/res_3d/unzipTextures/head/duanfa.png"
+  },
+  {
+    "id": 102,
+    "name": "短发_浅蓝",
+    "modelId": 11,
+    "avatarId": 2,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/b_blueLight.png",
+    "skin_head": "res/res_3d/unzipTextures/head/duanfa.png"
+  },
+  {
+    "id": 103,
+    "name": "短发_绿",
+    "modelId": 11,
+    "avatarId": 3,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/b_green.png",
+    "skin_head": "res/res_3d/unzipTextures/head/duanfa.png"
+  },
+  {
+    "id": 104,
+    "name": "短发_紫",
+    "modelId": 11,
+    "avatarId": 4,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/b_violet.png",
+    "skin_head": "res/res_3d/unzipTextures/head/duanfa.png"
+  },
+  {
+    "id": 105,
+    "name": "短发_大红",
+    "modelId": 11,
+    "avatarId": 6,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/ab_china.png",
+    "skin_head": "res/res_3d/unzipTextures/head/duanfa.png"
+  },
+  {
+    "id": 106,
+    "name": "短发_黄",
+    "modelId": 11,
+    "avatarId": 7,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/ab_yellow.png",
+    "skin_head": "res/res_3d/unzipTextures/head/duanfa.png"
+  },
+  {
+    "id": 107,
+    "name": "短发_黑白",
+    "modelId": 11,
+    "avatarId": 8,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/ab_black.png",
+    "skin_head": "res/res_3d/unzipTextures/head/duanfa.png"
+  },
+  {
+    "id": 108,
+    "name": "短发_迷彩",
+    "modelId": 11,
+    "avatarId": 9,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/ab_micai.png",
+    "skin_head": "res/res_3d/unzipTextures/head/duanfa.png"
+  },
+  {
+    "id": 109,
+    "name": "短发_橙色",
+    "modelId": 11,
+    "avatarId": 10,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/ab_orange.png",
+    "skin_head": "res/res_3d/unzipTextures/head/duanfa.png"
+  },
+  {
+    "id": 110,
+    "name": "蔡徐坤_红白",
+    "modelId": 8,
+    "avatarId": 0,
+    "skin_body": "res/res_3d/textures/body/normal/a_red.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cxk.png"
+  },
+  {
+    "id": 111,
+    "name": "蔡徐坤_深蓝",
+    "modelId": 8,
+    "avatarId": 1,
+    "skin_body": "res/res_3d/textures/body/normal/a_blue.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cxk.png"
+  },
+  {
+    "id": 112,
+    "name": "蔡徐坤_浅蓝",
+    "modelId": 8,
+    "avatarId": 2,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_blueLight.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cxk.png"
+  },
+  {
+    "id": 113,
+    "name": "蔡徐坤_绿",
+    "modelId": 8,
+    "avatarId": 3,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_green.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cxk.png"
+  },
+  {
+    "id": 114,
+    "name": "蔡徐坤_紫",
+    "modelId": 8,
+    "avatarId": 4,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_violet.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cxk.png"
+  },
+  {
+    "id": 115,
+    "name": "蔡徐坤_大红",
+    "modelId": 8,
+    "avatarId": 6,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_china.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cxk.png"
+  },
+  {
+    "id": 116,
+    "name": "蔡徐坤_黄",
+    "modelId": 8,
+    "avatarId": 7,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_yellow.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cxk.png"
+  },
+  {
+    "id": 117,
+    "name": "蔡徐坤_黑白",
+    "modelId": 8,
+    "avatarId": 8,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_black.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cxk.png"
+  },
+  {
+    "id": 118,
+    "name": "蔡徐坤_迷彩",
+    "modelId": 8,
+    "avatarId": 9,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_micai.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cxk.png"
+  },
+  {
+    "id": 119,
+    "name": "蔡徐坤_橙色",
+    "modelId": 8,
+    "avatarId": 10,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_orange.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cxk.png"
+  },
+  {
+    "id": 120,
+    "name": "猫",
+    "modelId": 12,
+    "avatarId": 11,
+    "skin_body": "res/res_3d/unzipTextures/body/cat.png",
+    "skin_head": "res/res_3d/unzipTextures/head/cat.png"
+  },
+  {
+    "id": 121,
+    "name": "林书豪_红白",
+    "modelId": 13,
+    "avatarId": 0,
+    "skin_body": "res/res_3d/textures/body/normal/a_red.png",
+    "skin_head": "res/res_3d/unzipTextures/head/lsh.png"
+  },
+  {
+    "id": 122,
+    "name": "林书豪_深蓝",
+    "modelId": 13,
+    "avatarId": 1,
+    "skin_body": "res/res_3d/textures/body/normal/a_blue.png",
+    "skin_head": "res/res_3d/unzipTextures/head/lsh.png"
+  },
+  {
+    "id": 123,
+    "name": "林书豪_浅蓝",
+    "modelId": 13,
+    "avatarId": 2,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_blueLight.png",
+    "skin_head": "res/res_3d/unzipTextures/head/lsh.png"
+  },
+  {
+    "id": 124,
+    "name": "林书豪_绿",
+    "modelId": 13,
+    "avatarId": 3,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_green.png",
+    "skin_head": "res/res_3d/unzipTextures/head/lsh.png"
+  },
+  {
+    "id": 125,
+    "name": "林书豪_紫",
+    "modelId": 13,
+    "avatarId": 4,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_violet.png",
+    "skin_head": "res/res_3d/unzipTextures/head/lsh.png"
+  },
+  {
+    "id": 126,
+    "name": "林书豪_大红",
+    "modelId": 13,
+    "avatarId": 6,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_china.png",
+    "skin_head": "res/res_3d/unzipTextures/head/lsh.png"
+  },
+  {
+    "id": 127,
+    "name": "林书豪_黄",
+    "modelId": 13,
+    "avatarId": 7,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_yellow.png",
+    "skin_head": "res/res_3d/unzipTextures/head/lsh.png"
+  },
+  {
+    "id": 128,
+    "name": "林书豪_黑白",
+    "modelId": 13,
+    "avatarId": 8,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_black.png",
+    "skin_head": "res/res_3d/unzipTextures/head/lsh.png"
+  },
+  {
+    "id": 129,
+    "name": "林书豪_迷彩",
+    "modelId": 13,
+    "avatarId": 9,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_micai.png",
+    "skin_head": "res/res_3d/unzipTextures/head/lsh.png"
+  },
+  {
+    "id": 130,
+    "name": "林书豪_橙色",
+    "modelId": 13,
+    "avatarId": 10,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/a_orange.png",
+    "skin_head": "res/res_3d/unzipTextures/head/lsh.png"
+  },
+  {
+    "id": 131,
+    "name": "短发_红白",
+    "modelId": 14,
+    "avatarId": 0,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/b_red.png",
+    "skin_head": "res/res_3d/unzipTextures/head/huangfa.png"
+  },
+  {
+    "id": 132,
+    "name": "短发_深蓝",
+    "modelId": 14,
+    "avatarId": 1,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/b_blue.png",
+    "skin_head": "res/res_3d/unzipTextures/head/huangfa.png"
+  },
+  {
+    "id": 133,
+    "name": "短发_浅蓝",
+    "modelId": 14,
+    "avatarId": 2,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/b_blueLight.png",
+    "skin_head": "res/res_3d/unzipTextures/head/huangfa.png"
+  },
+  {
+    "id": 134,
+    "name": "短发_绿",
+    "modelId": 14,
+    "avatarId": 3,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/b_green.png",
+    "skin_head": "res/res_3d/unzipTextures/head/huangfa.png"
+  },
+  {
+    "id": 135,
+    "name": "短发_紫",
+    "modelId": 14,
+    "avatarId": 4,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/b_violet.png",
+    "skin_head": "res/res_3d/unzipTextures/head/huangfa.png"
+  },
+  {
+    "id": 136,
+    "name": "短发_大红",
+    "modelId": 14,
+    "avatarId": 6,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/ab_china.png",
+    "skin_head": "res/res_3d/unzipTextures/head/huangfa.png"
+  },
+  {
+    "id": 137,
+    "name": "短发_黄",
+    "modelId": 14,
+    "avatarId": 7,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/ab_yellow.png",
+    "skin_head": "res/res_3d/unzipTextures/head/huangfa.png"
+  },
+  {
+    "id": 138,
+    "name": "短发_黑白",
+    "modelId": 14,
+    "avatarId": 8,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/ab_black.png",
+    "skin_head": "res/res_3d/unzipTextures/head/huangfa.png"
+  },
+  {
+    "id": 139,
+    "name": "短发_迷彩",
+    "modelId": 14,
+    "avatarId": 9,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/ab_micai.png",
+    "skin_head": "res/res_3d/unzipTextures/head/huangfa.png"
+  },
+  {
+    "id": 140,
+    "name": "短发_橙色",
+    "modelId": 14,
+    "avatarId": 10,
+    "skin_body": "res/res_3d/unzipTextures/body/girl/ab_orange.png",
+    "skin_head": "res/res_3d/unzipTextures/head/huangfa.png"
+  },
+  {
+    "id": 141,
+    "name": "库里_红白",
+    "modelId": 15,
+    "avatarId": 0,
+    "skin_body": "res/res_3d/textures/body/normal/b_red.png",
+    "skin_head": "res/res_3d/unzipTextures/head/kuli.png"
+  },
+  {
+    "id": 142,
+    "name": "库里_深蓝",
+    "modelId": 15,
+    "avatarId": 1,
+    "skin_body": "res/res_3d/textures/body/normal/b_blue.png",
+    "skin_head": "res/res_3d/unzipTextures/head/kuli.png"
+  },
+  {
+    "id": 143,
+    "name": "库里_浅蓝",
+    "modelId": 15,
+    "avatarId": 2,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_blueLight.png",
+    "skin_head": "res/res_3d/unzipTextures/head/kuli.png"
+  },
+  {
+    "id": 144,
+    "name": "库里_绿",
+    "modelId": 15,
+    "avatarId": 3,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_green.png",
+    "skin_head": "res/res_3d/unzipTextures/head/kuli.png"
+  },
+  {
+    "id": 145,
+    "name": "库里_紫",
+    "modelId": 15,
+    "avatarId": 4,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_violet.png",
+    "skin_head": "res/res_3d/unzipTextures/head/kuli.png"
+  },
+  {
+    "id": 146,
+    "name": "库里_大红",
+    "modelId": 15,
+    "avatarId": 6,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_china.png",
+    "skin_head": "res/res_3d/unzipTextures/head/kuli.png"
+  },
+  {
+    "id": 147,
+    "name": "库里_黄",
+    "modelId": 15,
+    "avatarId": 7,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_yellow.png",
+    "skin_head": "res/res_3d/unzipTextures/head/kuli.png"
+  },
+  {
+    "id": 148,
+    "name": "库里_黑白",
+    "modelId": 15,
+    "avatarId": 8,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_black.png",
+    "skin_head": "res/res_3d/unzipTextures/head/kuli.png"
+  },
+  {
+    "id": 149,
+    "name": "库里_迷彩",
+    "modelId": 15,
+    "avatarId": 9,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_micai.png",
+    "skin_head": "res/res_3d/unzipTextures/head/kuli.png"
+  },
+  {
+    "id": 150,
+    "name": "库里_橙色",
+    "modelId": 15,
+    "avatarId": 10,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_orange.png",
+    "skin_head": "res/res_3d/unzipTextures/head/kuli.png"
+  },
+  {
+    "id": 151,
+    "name": "周杰伦_红白",
+    "modelId": 16,
+    "avatarId": 0,
+    "skin_body": "res/res_3d/textures/body/normal/b_red.png",
+    "skin_head": "res/res_3d/unzipTextures/head/jay.png"
+  },
+  {
+    "id": 152,
+    "name": "周杰伦_深蓝",
+    "modelId": 16,
+    "avatarId": 1,
+    "skin_body": "res/res_3d/textures/body/normal/b_blue.png",
+    "skin_head": "res/res_3d/unzipTextures/head/jay.png"
+  },
+  {
+    "id": 153,
+    "name": "周杰伦_浅蓝",
+    "modelId": 16,
+    "avatarId": 2,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_blueLight.png",
+    "skin_head": "res/res_3d/unzipTextures/head/jay.png"
+  },
+  {
+    "id": 154,
+    "name": "周杰伦_绿",
+    "modelId": 16,
+    "avatarId": 3,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_green.png",
+    "skin_head": "res/res_3d/unzipTextures/head/jay.png"
+  },
+  {
+    "id": 155,
+    "name": "周杰伦_紫",
+    "modelId": 16,
+    "avatarId": 4,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_violet.png",
+    "skin_head": "res/res_3d/unzipTextures/head/jay.png"
+  },
+  {
+    "id": 156,
+    "name": "周杰伦_大红",
+    "modelId": 16,
+    "avatarId": 6,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_china.png",
+    "skin_head": "res/res_3d/unzipTextures/head/jay.png"
+  },
+  {
+    "id": 157,
+    "name": "周杰伦_黄",
+    "modelId": 16,
+    "avatarId": 7,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_yellow.png",
+    "skin_head": "res/res_3d/unzipTextures/head/jay.png"
+  },
+  {
+    "id": 158,
+    "name": "周杰伦_黑白",
+    "modelId": 16,
+    "avatarId": 8,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_black.png",
+    "skin_head": "res/res_3d/unzipTextures/head/jay.png"
+  },
+  {
+    "id": 159,
+    "name": "周杰伦_迷彩",
+    "modelId": 16,
+    "avatarId": 9,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_micai.png",
+    "skin_head": "res/res_3d/unzipTextures/head/jay.png"
+  },
+  {
+    "id": 160,
+    "name": "周杰伦_橙色",
+    "modelId": 16,
+    "avatarId": 10,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/b_orange.png",
+    "skin_head": "res/res_3d/unzipTextures/head/jay.png"
+  },
+  {
+    "id": 161,
+    "name": "科比",
+    "modelId": 17,
+    "avatarId": 12,
+    "skin_body": "res/res_3d/unzipTextures/body/normal/kobe.png",
+    "skin_head": "res/res_3d/unzipTextures/head/kobe.png"
+  },
+  {
+    "id": 162,
+    "name": "熊猫人",
+    "modelId": 18,
+    "avatarId": 13,
+    "skin_body": "res/res_3d/unzipTextures/body/panda.png",
+    "skin_head": "res/res_3d/unzipTextures/head/panda.png"
+  },
+  {
+    "id": 163,
+    "name": "姚明_红白",
+    "modelId": 19,
+    "avatarId": 0,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_red.png",
+    "skin_head": "res/res_3d/unzipTextures/head/yaoming.jpg"
+  },
+  {
+    "id": 164,
+    "name": "姚明_深蓝",
+    "modelId": 19,
+    "avatarId": 1,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_blue.png",
+    "skin_head": "res/res_3d/unzipTextures/head/yaoming.jpg"
+  },
+  {
+    "id": 165,
+    "name": "姚明_浅蓝",
+    "modelId": 19,
+    "avatarId": 2,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_blueLight.png",
+    "skin_head": "res/res_3d/unzipTextures/head/yaoming.jpg"
+  },
+  {
+    "id": 166,
+    "name": "姚明_绿",
+    "modelId": 19,
+    "avatarId": 3,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_green.png",
+    "skin_head": "res/res_3d/unzipTextures/head/yaoming.jpg"
+  },
+  {
+    "id": 167,
+    "name": "姚明_紫",
+    "modelId": 19,
+    "avatarId": 4,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_violet.png",
+    "skin_head": "res/res_3d/unzipTextures/head/yaoming.jpg"
+  },
+  {
+    "id": 168,
+    "name": "姚明_大红",
+    "modelId": 19,
+    "avatarId": 6,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_china.png",
+    "skin_head": "res/res_3d/unzipTextures/head/yaoming.jpg"
+  },
+  {
+    "id": 169,
+    "name": "姚明_黄",
+    "modelId": 19,
+    "avatarId": 7,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_yellow.png",
+    "skin_head": "res/res_3d/unzipTextures/head/yaoming.jpg"
+  },
+  {
+    "id": 170,
+    "name": "姚明_黑白",
+    "modelId": 19,
+    "avatarId": 8,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_black.png",
+    "skin_head": "res/res_3d/unzipTextures/head/yaoming.jpg"
+  },
+  {
+    "id": 171,
+    "name": "姚明_迷彩",
+    "modelId": 19,
+    "avatarId": 9,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_micai.png",
+    "skin_head": "res/res_3d/unzipTextures/head/yaoming.jpg"
+  },
+  {
+    "id": 172,
+    "name": "姚明_橙色",
+    "modelId": 19,
+    "avatarId": 10,
+    "skin_body": "res/res_3d/unzipTextures/body/large/a_orange.png",
+    "skin_head": "res/res_3d/unzipTextures/head/yaoming.jpg"
+  }
+]

@@ -1,0 +1,278 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "stage",
+  "json": {
+    "1": {
+      "id": 1,
+      "num": 8,
+      "len": 100,
+      "power": 200,
+      "powerconfig": [
+        0.5,
+        0.5
+      ],
+      "death": 4,
+      "shadowAble": 1,
+      "changeMask": "mask1",
+      "defeatpercent": [
+        0,
+        10
+      ]
+    },
+    "2": {
+      "id": 2,
+      "num": 10,
+      "len": 136,
+      "power": 200,
+      "powerconfig": [
+        0.5,
+        0.5
+      ],
+      "death": 4,
+      "shadowAble": 1,
+      "changeMask": "mask2",
+      "defeatpercent": [
+        10,
+        20
+      ]
+    },
+    "3": {
+      "id": 3,
+      "num": 15,
+      "len": 136,
+      "power": 200,
+      "powerconfig": [
+        0.5,
+        0.5
+      ],
+      "death": 4,
+      "shadowAble": 0,
+      "changeMask": "mask3",
+      "defeatpercent": [
+        20,
+        28
+      ]
+    },
+    "4": {
+      "id": 4,
+      "num": 15,
+      "len": 150,
+      "power": 200,
+      "powerconfig": [
+        0.5,
+        0.5
+      ],
+      "death": 4,
+      "shadowAble": 1,
+      "changeMask": "mask4",
+      "defeatpercent": [
+        28,
+        36
+      ]
+    },
+    "5": {
+      "id": 5,
+      "num": 10,
+      "len": 150,
+      "power": 500,
+      "powerconfig": [
+        0.5,
+        0.5
+      ],
+      "death": 4,
+      "shadowAble": 0,
+      "changeMask": "mask3",
+      "defeatpercent": [
+        36,
+        44
+      ]
+    },
+    "6": {
+      "id": 6,
+      "num": 10,
+      "len": 150,
+      "power": 800,
+      "powerconfig": [
+        0.75,
+        0.25
+      ],
+      "death": 2,
+      "shadowAble": 1,
+      "changeMask": "mask6",
+      "defeatpercent": [
+        44,
+        52
+      ]
+    },
+    "7": {
+      "id": 7,
+      "num": 15,
+      "len": 90,
+      "power": 1000,
+      "powerconfig": [
+        0.75,
+        0.25
+      ],
+      "death": 2,
+      "shadowAble": 1,
+      "changeMask": "mask7",
+      "defeatpercent": [
+        52,
+        60
+      ]
+    },
+    "8": {
+      "id": 8,
+      "num": 15,
+      "len": 150,
+      "power": 1200,
+      "powerconfig": [
+        0.75,
+        0.25
+      ],
+      "death": 2,
+      "shadowAble": 0,
+      "changeMask": "mask8",
+      "defeatpercent": [
+        60,
+        67
+      ]
+    },
+    "9": {
+      "id": 9,
+      "num": 15,
+      "len": 150,
+      "power": 1500,
+      "powerconfig": [
+        0.75,
+        0.25
+      ],
+      "death": 1,
+      "shadowAble": 1,
+      "changeMask": "mask9",
+      "defeatpercent": [
+        67,
+        74
+      ]
+    },
+    "10": {
+      "id": 10,
+      "num": 10,
+      "len": 150,
+      "power": 1800,
+      "powerconfig": [
+        0.75,
+        0.25
+      ],
+      "death": 1,
+      "shadowAble": 0,
+      "changeMask": "mask3",
+      "defeatpercent": [
+        74,
+        81
+      ]
+    },
+    "11": {
+      "id": 11,
+      "num": 15,
+      "len": 150,
+      "power": 2100,
+      "powerconfig": [
+        0.75,
+        0.25
+      ],
+      "death": 1,
+      "shadowAble": 0,
+      "changeMask": "mask8",
+      "defeatpercent": [
+        81,
+        85
+      ]
+    },
+    "12": {
+      "id": 12,
+      "num": 15,
+      "len": 150,
+      "power": 2100,
+      "powerconfig": [
+        0.75,
+        0.25
+      ],
+      "death": 1,
+      "shadowAble": 1,
+      "changeMask": "mask12",
+      "defeatpercent": [
+        85,
+        90
+      ]
+    },
+    "13": {
+      "id": 13,
+      "num": 15,
+      "len": 150,
+      "power": 2100,
+      "powerconfig": [
+        0.75,
+        0.25
+      ],
+      "death": 1,
+      "shadowAble": 0,
+      "changeMask": "mask3",
+      "defeatpercent": [
+        90,
+        94
+      ]
+    },
+    "14": {
+      "id": 14,
+      "num": 15,
+      "len": 150,
+      "power": 2100,
+      "powerconfig": [
+        0.75,
+        0.25
+      ],
+      "death": 1,
+      "shadowAble": 0,
+      "changeMask": "mask3",
+      "defeatpercent": [
+        94,
+        97
+      ]
+    },
+    "15": {
+      "id": 15,
+      "num": 10,
+      "len": 150,
+      "power": 2100,
+      "powerconfig": [
+        0.75,
+        0.25
+      ],
+      "death": 1,
+      "shadowAble": 0,
+      "changeMask": "mask3",
+      "defeatpercent": [
+        97,
+        99
+      ]
+    },
+    "allID": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+}

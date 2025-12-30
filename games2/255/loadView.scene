@@ -1,0 +1,345 @@
+{
+	"type": "View",
+	"props": {
+		"width": 750,
+		"height": 1334
+	},
+	"compId": 2,
+	"child": [
+		{
+			"type": "Image",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"width": 375,
+				"var": "pngBg",
+				"skin": "images/load/loadYs.png",
+				"rotation": 0,
+				"height": 667
+			},
+			"compId": 12
+		},
+		{
+			"type": "Image",
+			"props": {
+				"y": 229,
+				"x": 375,
+				"var": "imgIcon",
+				"skin": "images/load/logo.png",
+				"anchorY": 0.5,
+				"anchorX": 0.5
+			},
+			"compId": 29
+		},
+		{
+			"type": "Image",
+			"props": {
+				"y": 750,
+				"x": 65,
+				"width": 620,
+				"visible": false,
+				"var": "processBg",
+				"skin": "images/load/icon_bg.png",
+				"sizeGrid": "7,7,7,7",
+				"height": 32
+			},
+			"compId": 25,
+			"child": [
+				{
+					"type": "Image",
+					"props": {
+						"y": 4,
+						"x": 4,
+						"width": 180,
+						"var": "process",
+						"skin": "images/load/icon_in.png",
+						"sizeGrid": "4,4,4,4",
+						"height": 24
+					},
+					"compId": 26
+				},
+				{
+					"type": "Text",
+					"props": {
+						"y": 35,
+						"x": 160,
+						"width": 300,
+						"var": "loading",
+						"valign": "middle",
+						"text": "资源加载中",
+						"strokeColor": "#000000",
+						"stroke": 4,
+						"height": 35,
+						"fontSize": 28,
+						"color": "#ffffff",
+						"bold": true,
+						"align": "center",
+						"runtime": "laya.display.Text"
+					},
+					"compId": 13,
+					"child": [
+						{
+							"type": "Text",
+							"props": {
+								"y": 41,
+								"x": 50,
+								"width": 200,
+								"visible": false,
+								"var": "loadTxt",
+								"valign": "middle",
+								"text": "加载不耗流量",
+								"strokeColor": "#000000",
+								"stroke": 2,
+								"height": 40,
+								"fontSize": 20,
+								"color": "#ffffff",
+								"bold": true,
+								"align": "center",
+								"runtime": "laya.display.Text"
+							},
+							"compId": 28
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Box",
+			"props": {
+				"y": 890,
+				"x": 175,
+				"width": 400,
+				"var": "boxEnter",
+				"height": 240
+			},
+			"compId": 64,
+			"child": [
+				{
+					"type": "Label",
+					"props": {
+						"y": 185,
+						"x": 9,
+						"text": "同意",
+						"fontSize": 34,
+						"color": "#5f94f3",
+						"bold": true
+					},
+					"compId": 61,
+					"child": [
+						{
+							"type": "Label",
+							"props": {
+								"y": 17,
+								"x": 143,
+								"var": "labAgree",
+								"underlineColor": "#5f94f3",
+								"underline": true,
+								"text": "用户协议",
+								"fontSize": 34,
+								"color": "#5f94f3",
+								"bold": true,
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 65
+						},
+						{
+							"type": "Label",
+							"props": {
+								"y": 0,
+								"x": 216,
+								"text": "和",
+								"fontSize": 34,
+								"color": "#5f94f3",
+								"bold": true
+							},
+							"compId": 66
+						},
+						{
+							"type": "Label",
+							"props": {
+								"y": 17,
+								"x": 357,
+								"var": "labPrivacy",
+								"underlineColor": "#5f94f3",
+								"underline": true,
+								"text": "隐私保护政策",
+								"fontSize": 34,
+								"color": "#5f94f3",
+								"bold": true,
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 62
+						}
+					]
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 202,
+						"x": -24,
+						"skin": "images/load/icon_xzk_bg.png",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 59,
+					"child": [
+						{
+							"type": "Image",
+							"props": {
+								"visible": false,
+								"var": "iconAgree",
+								"skin": "images/load/icon_xzk_gx.png"
+							},
+							"compId": 60
+						}
+					]
+				},
+				{
+					"type": "Box",
+					"props": {
+						"y": 203,
+						"x": 6,
+						"width": 117,
+						"var": "boxAgree",
+						"height": 54,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 67
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 86,
+						"x": 200,
+						"width": 370,
+						"var": "btnEnter",
+						"skin": "images/load/button_yellow.png",
+						"sizeGrid": "29,50,50,45",
+						"label": "label",
+						"height": 130,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 57,
+					"child": [
+						{
+							"type": "Image",
+							"props": {
+								"y": 31,
+								"x": 82,
+								"skin": "images/load/button_word_jryx.png",
+								"label": "label"
+							},
+							"compId": 58
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Box",
+			"props": {
+				"x": 75,
+				"width": 600,
+				"var": "warning",
+				"height": 147,
+				"bottom": 6
+			},
+			"compId": 18,
+			"child": [
+				{
+					"type": "Text",
+					"props": {
+						"y": 8,
+						"x": 100,
+						"width": 400,
+						"text": "",
+						"strokeColor": "#333333",
+						"stroke": 1,
+						"fontSize": 24,
+						"color": "#fdffdb",
+						"align": "center",
+						"runtime": "laya.display.Text"
+					},
+					"compId": 15
+				},
+				{
+					"type": "Text",
+					"props": {
+						"y": 50,
+						"x": -50,
+						"width": 700,
+						"text": "",
+						"strokeColor": "#333333",
+						"stroke": 1,
+						"height": 20,
+						"fontSize": 20,
+						"color": "#fdffdb",
+						"align": "center",
+						"runtime": "laya.display.Text"
+					},
+					"compId": 16
+				},
+				{
+					"type": "Text",
+					"props": {
+						"y": 81,
+						"x": -50,
+						"width": 700,
+						"text": "",
+						"strokeColor": "#333333",
+						"stroke": 1,
+						"fontSize": 20,
+						"color": "#fdffdb",
+						"align": "center",
+						"runtime": "laya.display.Text"
+					},
+					"compId": 17
+				},
+				{
+					"type": "Text",
+					"props": {
+						"y": 119,
+						"x": 100,
+						"width": 400,
+						"var": "labRz",
+						"text": "",
+						"fontSize": 20,
+						"color": "#fdffdb",
+						"align": "center",
+						"runtime": "laya.display.Text"
+					},
+					"compId": 21
+				},
+				{
+					"type": "Text",
+					"props": {
+						"y": 165,
+						"x": 100,
+						"width": 400,
+						"text": "",
+						"fontSize": 20,
+						"color": "#000000",
+						"align": "center",
+						"runtime": "laya.display.Text"
+					},
+					"compId": 31
+				}
+			]
+		}
+	],
+	"loadList": [
+		"images/load/loadYs.png",
+		"images/load/logo.png",
+		"images/load/icon_bg.png",
+		"images/load/icon_in.png",
+		"images/load/icon_xzk_bg.png",
+		"images/load/icon_xzk_gx.png",
+		"images/load/button_yellow.png",
+		"images/load/button_word_jryx.png"
+	],
+	"loadList3D": []
+}

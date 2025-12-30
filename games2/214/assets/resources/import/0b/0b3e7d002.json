@@ -1,0 +1,275 @@
+[
+  1,
+  [
+    "d3q1nmHBFJ1qzd1uNya1u9",
+    "a6c8gloj9MYZ1F92nXvkaW"
+  ],
+  [
+    "u_fluxayTexture",
+    "_effectAsset"
+  ],
+  [
+    [
+      "cc.EffectAsset",
+      [
+        "_name",
+        "shaders",
+        "techniques"
+      ],
+      0
+    ],
+    [
+      "cc.Material",
+      [
+        "_name",
+        "_techniqueData"
+      ],
+      2,
+      11
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      4
+    ],
+    [
+      1,
+      0,
+      1,
+      2
+    ]
+  ],
+  [
+    [
+      [
+        [
+          0,
+          "fluxay-texture-4",
+          [
+            {
+              "hash": 2078504236,
+              "record": null,
+              "name": "fluxay-texture-4|vs|fs",
+              "glsl3": {
+                "vert": "\nprecision highp float;\nuniform CCGlobal {\n  mat4 cc_matView;\n  mat4 cc_matViewInv;\n  mat4 cc_matProj;\n  mat4 cc_matProjInv;\n  mat4 cc_matViewProj;\n  mat4 cc_matViewProjInv;\n  vec4 cc_cameraPos;\n  vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_screenScale;\n};\nuniform CCLocal {\n  mat4 cc_matWorld;\n  mat4 cc_matWorldIT;\n};\nin vec3 a_position;\nin mediump vec2 a_uv0;\nout mediump vec2 v_uv0;\nin vec4 a_color;\nout vec4 v_color;\nvoid main () {\n  gl_Position = cc_matViewProj * vec4(a_position, 1);\n  v_uv0 = a_uv0;\n  v_color = a_color;\n}",
+                "frag": "\nprecision highp float;\nuniform CCGlobal {\n  mat4 cc_matView;\n  mat4 cc_matViewInv;\n  mat4 cc_matProj;\n  mat4 cc_matProjInv;\n  mat4 cc_matViewProj;\n  mat4 cc_matViewProjInv;\n  vec4 cc_cameraPos;\n  vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_screenScale;\n};\n#if USE_ALPHA_TEST\n  uniform ALPHA_TEST {\n    float alphaThreshold;\n  };\n#endif\nvoid ALPHA_TEST (in vec4 color) {\n  #if USE_ALPHA_TEST\n      if (color.a < alphaThreshold) discard;\n  #endif\n}\nvoid ALPHA_TEST (in float alpha) {\n  #if USE_ALPHA_TEST\n      if (alpha < alphaThreshold) discard;\n  #endif\n}\nin vec4 v_color;\nin mediump vec2 v_uv0;\nuniform sampler2D texture;\nuniform sampler2D u_fluxayTexture;\nuniform ARGS {\n  float u_time;\n};\nuniform User {\n  vec4 u_lrbt;\n  float rotated;\n};\nfloat linear(float x0, float x1, float y0, float y1, float inputX) {\n    return (y1 - y0) * (inputX - x0) / (x1 - x0) + y0;\n}\nvoid main () {\n  vec4 o = vec4(1, 1, 1, 1);\n  vec2 uv = vec2(\n    linear(u_lrbt[0], u_lrbt[1], 0.0, 1.0, v_uv0.x),\n    linear(u_lrbt[2], u_lrbt[3], 0.0, 1.0, v_uv0.y)\n  );\n  if(rotated > 0.5)\n  {\n    float temp = uv.x;\n    uv.x = uv.y;\n    uv.y = 1.0 - temp;\n  }\n  #if USE_TEXTURE\n  vec4 texture_tmp = texture(texture, v_uv0);\n  #if CC_USE_ALPHA_ATLAS_texture\n      texture_tmp.a *= texture(texture, v_uv0 + vec2(0, 0.5)).r;\n  #endif\n  #if INPUT_IS_GAMMA\n    o.rgb *= (texture_tmp.rgb * texture_tmp.rgb);\n    o.a *= texture_tmp.a;\n  #else\n    o *= texture_tmp;\n  #endif\n  #endif\n  o *= v_color;\n  ALPHA_TEST(o);\n  if(o.a >= 1.0 && o.r>0.8 && u_time <= 2.0) {\n    vec2 fluxayUV = vec2(uv.x, uv.y);\n    fluxayUV.x -= u_time - 1.0;\n    vec4 fluxay = texture2D(u_fluxayTexture, fluxayUV);\n    gl_FragColor = o + fluxay;\n  } else {\n    gl_FragColor = o;\n  }\n}"
+              },
+              "glsl1": {
+                "vert": "\nprecision highp float;\nuniform mat4 cc_matViewProj;\nattribute vec3 a_position;\nattribute mediump vec2 a_uv0;\nvarying mediump vec2 v_uv0;\nattribute vec4 a_color;\nvarying vec4 v_color;\nvoid main () {\n  gl_Position = cc_matViewProj * vec4(a_position, 1);\n  v_uv0 = a_uv0;\n  v_color = a_color;\n}",
+                "frag": "\nprecision highp float;\n#if USE_ALPHA_TEST\n  uniform float alphaThreshold;\n#endif\nvoid ALPHA_TEST (in vec4 color) {\n  #if USE_ALPHA_TEST\n      if (color.a < alphaThreshold) discard;\n  #endif\n}\nvoid ALPHA_TEST (in float alpha) {\n  #if USE_ALPHA_TEST\n      if (alpha < alphaThreshold) discard;\n  #endif\n}\nvarying vec4 v_color;\nvarying mediump vec2 v_uv0;\nuniform sampler2D texture;\nuniform sampler2D u_fluxayTexture;\nuniform float u_time;\nuniform vec4 u_lrbt;\nuniform float rotated;\nfloat linear(float x0, float x1, float y0, float y1, float inputX) {\n    return (y1 - y0) * (inputX - x0) / (x1 - x0) + y0;\n}\nvoid main () {\n  vec4 o = vec4(1, 1, 1, 1);\n  vec2 uv = vec2(\n    linear(u_lrbt[0], u_lrbt[1], 0.0, 1.0, v_uv0.x),\n    linear(u_lrbt[2], u_lrbt[3], 0.0, 1.0, v_uv0.y)\n  );\n  if(rotated > 0.5)\n  {\n    float temp = uv.x;\n    uv.x = uv.y;\n    uv.y = 1.0 - temp;\n  }\n  #if USE_TEXTURE\n  vec4 texture_tmp = texture2D(texture, v_uv0);\n  #if CC_USE_ALPHA_ATLAS_texture\n      texture_tmp.a *= texture2D(texture, v_uv0 + vec2(0, 0.5)).r;\n  #endif\n  #if INPUT_IS_GAMMA\n    o.rgb *= (texture_tmp.rgb * texture_tmp.rgb);\n    o.a *= texture_tmp.a;\n  #else\n    o *= texture_tmp;\n  #endif\n  #endif\n  o *= v_color;\n  ALPHA_TEST(o);\n  if(o.a >= 1.0 && o.r>0.8 && u_time <= 2.0) {\n    vec2 fluxayUV = vec2(uv.x, uv.y);\n    fluxayUV.x -= u_time - 1.0;\n    vec4 fluxay = texture2D(u_fluxayTexture, fluxayUV);\n    gl_FragColor = o + fluxay;\n  } else {\n    gl_FragColor = o;\n  }\n}"
+              },
+              "builtins": {
+                "globals": {
+                  "blocks": [
+                    {
+                      "name": "CCGlobal",
+                      "defines": []
+                    }
+                  ],
+                  "samplers": []
+                },
+                "locals": {
+                  "blocks": [
+                    {
+                      "name": "CCLocal",
+                      "defines": []
+                    }
+                  ],
+                  "samplers": []
+                }
+              },
+              "defines": [
+                {
+                  "name": "USE_ALPHA_TEST",
+                  "type": "boolean",
+                  "defines": []
+                },
+                {
+                  "name": "USE_TEXTURE",
+                  "type": "boolean",
+                  "defines": []
+                },
+                {
+                  "name": "CC_USE_ALPHA_ATLAS_texture",
+                  "type": "boolean",
+                  "defines": [
+                    "USE_TEXTURE"
+                  ]
+                },
+                {
+                  "name": "INPUT_IS_GAMMA",
+                  "type": "boolean",
+                  "defines": [
+                    "USE_TEXTURE"
+                  ]
+                }
+              ],
+              "blocks": [
+                {
+                  "name": "ALPHA_TEST",
+                  "binding": 0,
+                  "members": [
+                    {
+                      "name": "alphaThreshold",
+                      "type": 13,
+                      "count": 1
+                    }
+                  ],
+                  "defines": [
+                    "USE_ALPHA_TEST"
+                  ]
+                },
+                {
+                  "name": "ARGS",
+                  "binding": 1,
+                  "members": [
+                    {
+                      "name": "u_time",
+                      "type": 13,
+                      "count": 1
+                    }
+                  ],
+                  "defines": []
+                },
+                {
+                  "name": "User",
+                  "binding": 2,
+                  "members": [
+                    {
+                      "name": "u_lrbt",
+                      "type": 16,
+                      "count": 1
+                    },
+                    {
+                      "name": "rotated",
+                      "type": 13,
+                      "count": 1
+                    }
+                  ],
+                  "defines": []
+                }
+              ],
+              "samplers": [
+                {
+                  "name": "texture",
+                  "type": 29,
+                  "count": 1,
+                  "binding": 30,
+                  "defines": []
+                },
+                {
+                  "name": "u_fluxayTexture",
+                  "type": 29,
+                  "count": 1,
+                  "binding": 31,
+                  "defines": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "passes": [
+                {
+                  "program": "fluxay-texture-4|vs|fs",
+                  "blendState": {
+                    "targets": [
+                      {
+                        "blend": true
+                      }
+                    ]
+                  },
+                  "rasterizerState": {
+                    "cullMode": 0
+                  },
+                  "properties": {
+                    "u_fluxayTexture": {
+                      "value": "white",
+                      "type": 29
+                    },
+                    "u_time": {
+                      "type": 13,
+                      "value": [
+                        0
+                      ]
+                    },
+                    "rotated": {
+                      "type": 13,
+                      "value": [
+                        0
+                      ]
+                    },
+                    "u_lrbt": {
+                      "type": 16,
+                      "value": [
+                        0,
+                        1,
+                        0,
+                        1
+                      ],
+                      "editor": {
+                        "tooltip": "UV位置"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        ]
+      ],
+      0,
+      0,
+      [],
+      [],
+      []
+    ],
+    [
+      [
+        [
+          1,
+          "gold_light_start",
+          [
+            {},
+            "0",
+            11,
+            [
+              {
+                "defines": {
+                  "USE_TEXTURE": false,
+                  "USE_ALPHA_TEST": true
+                }
+              },
+              "props",
+              11,
+              [
+                {},
+                "u_fluxayTexture",
+                6,
+                0
+              ]
+            ]
+          ]
+        ]
+      ],
+      0,
+      0,
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  ]
+]

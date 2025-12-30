@@ -1,0 +1,2783 @@
+{
+  "ID": "9ab17444-5f30-42ee-8cac-c2d4fd30e857",
+  "Version": "3.10.0.0",
+  "Name": "shop_layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 52,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/scalesprite3.png",
+              "Plist": "csi/scaleplist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 61,
+            "Scale9OriginY": 61,
+            "Scale9Width": 38,
+            "Scale9Height": 38,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 1
+            },
+            "Position": {
+              "X": 360,
+              "Y": 1020.3718
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.7972
+            },
+            "PreSize": {
+              "X": 0.8639,
+              "Y": 0.5875
+            },
+            "LeftMargin": 49,
+            "RightMargin": 49,
+            "TopMargin": 259.6282,
+            "BottomMargin": 268.3718,
+            "Tag": 302,
+            "ActionTag": -2044140211,
+            "Size": {
+              "X": 622,
+              "Y": 752
+            },
+            "Name": "bg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shop/n_titlebg.png",
+              "Plist": "csi/csi_6.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 196.998,
+              "Y": 1038.3015
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2736,
+              "Y": 0.8112
+            },
+            "PreSize": {
+              "X": 0.4597,
+              "Y": 0.1477
+            },
+            "LeftMargin": 31.498,
+            "RightMargin": 357.502,
+            "TopMargin": 147.1985,
+            "BottomMargin": 943.8015,
+            "Tag": 300,
+            "ActionTag": 1296583650,
+            "Size": {
+              "X": 331,
+              "Y": 189
+            },
+            "Name": "titlebg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FlipX": true,
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shop/n_titlebg.png",
+              "Plist": "csi/csi_6.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 521,
+              "Y": 1038
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7236,
+              "Y": 0.8109
+            },
+            "PreSize": {
+              "X": 0.4597,
+              "Y": 0.1477
+            },
+            "LeftMargin": 355.5,
+            "RightMargin": 33.5,
+            "TopMargin": 147.5,
+            "BottomMargin": 943.5,
+            "Tag": 154,
+            "ActionTag": 834729852,
+            "Size": {
+              "X": 331,
+              "Y": 189
+            },
+            "Name": "titlebg_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shop/shop2.png",
+              "Plist": "csi/csi_6.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 363.0103,
+              "Y": 1109.9132
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5042,
+              "Y": 0.8671
+            },
+            "PreSize": {
+              "X": 0.0639,
+              "Y": 0.0359
+            },
+            "LeftMargin": 340.0103,
+            "RightMargin": 333.9897,
+            "TopMargin": 147.0868,
+            "BottomMargin": 1086.9132,
+            "Tag": 129,
+            "ActionTag": 477179663,
+            "Size": {
+              "X": 311,
+              "Y": 89
+            },
+            "Name": "shop_47",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/n_close.png",
+              "Plist": "csi/csi_2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 623.546,
+              "Y": 1112.1913
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.866,
+              "Y": 0.8689
+            },
+            "PreSize": {
+              "X": 0.1056,
+              "Y": 0.0594
+            },
+            "LeftMargin": 585.546,
+            "RightMargin": 58.454,
+            "TopMargin": 129.8087,
+            "BottomMargin": 1074.1913,
+            "Tag": 73,
+            "ActionTag": -250459749,
+            "Size": {
+              "X": 76,
+              "Y": 76
+            },
+            "Name": "btnClose",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shop/n_paopao.png",
+              "Plist": "csi/csi_1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 193.53,
+              "Y": 852.21
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2688,
+              "Y": 0.6658
+            },
+            "PreSize": {
+              "X": 0.1694,
+              "Y": 0.0969
+            },
+            "LeftMargin": 132.53,
+            "RightMargin": 465.47,
+            "TopMargin": 365.79,
+            "BottomMargin": 790.21,
+            "Tag": 1,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "element/star_stone.png",
+                  "Plist": "csi/csi_3.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 60,
+                  "Y": 65
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4918,
+                  "Y": 0.5242
+                },
+                "PreSize": {
+                  "X": 0.6885,
+                  "Y": 0.6774
+                },
+                "LeftMargin": 18,
+                "RightMargin": 20,
+                "TopMargin": 17,
+                "BottomMargin": 23,
+                "Tag": 82,
+                "ActionTag": -1235288244,
+                "Size": {
+                  "X": 84,
+                  "Y": 84
+                },
+                "Name": "icon",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "x20",
+                "FontResource": {
+                  "Type": "Default",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2,
+                "ShadowOffsetY": -2,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61,
+                  "Y": 15.86
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1279
+                },
+                "PreSize": {
+                  "X": 0.3689,
+                  "Y": 0.2419
+                },
+                "LeftMargin": 38.5,
+                "RightMargin": 38.5,
+                "TopMargin": 93.14,
+                "BottomMargin": 0.86,
+                "Tag": 67,
+                "ActionTag": 1302623783,
+                "Size": {
+                  "X": 45,
+                  "Y": 30
+                },
+                "Name": "aw_fnttype1_haveNum",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "public/publicbtn8.png",
+                  "Plist": "csi/csi_2.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61,
+                  "Y": -30.9813
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": -0.2498
+                },
+                "PreSize": {
+                  "X": 1.1148,
+                  "Y": 0.4758
+                },
+                "LeftMargin": -7,
+                "RightMargin": -7,
+                "TopMargin": 125.4813,
+                "BottomMargin": -60.4813,
+                "Tag": 1,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "1500",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2,
+                    "ShadowOffsetY": -2,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 60,
+                      "Y": 35
+                    },
+                    "Scale": {
+                      "ScaleX": 1,
+                      "ScaleY": 1
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4412,
+                      "Y": 0.5932
+                    },
+                    "PreSize": {
+                      "X": 0.2941,
+                      "Y": 0.339
+                    },
+                    "LeftMargin": 60,
+                    "RightMargin": 36,
+                    "TopMargin": 14,
+                    "BottomMargin": 25,
+                    "Tag": 506,
+                    "ActionTag": -2108161011,
+                    "Size": {
+                      "X": 40,
+                      "Y": 20
+                    },
+                    "Name": "aw_fnttype4_price",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "target/diamond.png",
+                      "Plist": "csi/fntplist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 38,
+                      "Y": 34
+                    },
+                    "Scale": {
+                      "ScaleX": 1,
+                      "ScaleY": 1
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2794,
+                      "Y": 0.5763
+                    },
+                    "PreSize": {
+                      "X": 0.3015,
+                      "Y": 0.5932
+                    },
+                    "LeftMargin": 17.5,
+                    "RightMargin": 77.5,
+                    "TopMargin": 7.5,
+                    "BottomMargin": 16.5,
+                    "Tag": 256,
+                    "ActionTag": -1412067845,
+                    "Size": {
+                      "X": 41,
+                      "Y": 35
+                    },
+                    "Name": "diamond",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -170147151,
+                "Size": {
+                  "X": 136,
+                  "Y": 59
+                },
+                "Name": "btnbuy",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 387783308,
+            "Size": {
+              "X": 122,
+              "Y": 124
+            },
+            "Name": "item_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shop/n_paopao.png",
+              "Plist": "csi/csi_1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.11,
+              "Y": 852.21
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5002,
+              "Y": 0.6658
+            },
+            "PreSize": {
+              "X": 0.1694,
+              "Y": 0.0969
+            },
+            "LeftMargin": 299.11,
+            "RightMargin": 298.89,
+            "TopMargin": 365.79,
+            "BottomMargin": 790.21,
+            "Tag": 2,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "element/star_stone.png",
+                  "Plist": "csi/csi_3.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 60,
+                  "Y": 65
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4918,
+                  "Y": 0.5242
+                },
+                "PreSize": {
+                  "X": 0.6885,
+                  "Y": 0.6774
+                },
+                "LeftMargin": 18,
+                "RightMargin": 20,
+                "TopMargin": 17,
+                "BottomMargin": 23,
+                "Tag": 54,
+                "ActionTag": -1662275564,
+                "Size": {
+                  "X": 84,
+                  "Y": 84
+                },
+                "Name": "icon",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "x20",
+                "FontResource": {
+                  "Type": "Default",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2,
+                "ShadowOffsetY": -2,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61,
+                  "Y": 15.86
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1279
+                },
+                "PreSize": {
+                  "X": 0.3689,
+                  "Y": 0.2419
+                },
+                "LeftMargin": 38.5,
+                "RightMargin": 38.5,
+                "TopMargin": 93.14,
+                "BottomMargin": 0.86,
+                "Tag": 55,
+                "ActionTag": -2137274864,
+                "Size": {
+                  "X": 45,
+                  "Y": 30
+                },
+                "Name": "aw_fnttype1_haveNum",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "public/publicbtn8.png",
+                  "Plist": "csi/csi_2.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61,
+                  "Y": -30.9813
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": -0.2498
+                },
+                "PreSize": {
+                  "X": 1.1148,
+                  "Y": 0.4758
+                },
+                "LeftMargin": -7,
+                "RightMargin": -7,
+                "TopMargin": 125.4813,
+                "BottomMargin": -60.4813,
+                "Tag": 2,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "1500",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2,
+                    "ShadowOffsetY": -2,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 60,
+                      "Y": 35
+                    },
+                    "Scale": {
+                      "ScaleX": 1,
+                      "ScaleY": 1
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4412,
+                      "Y": 0.5932
+                    },
+                    "PreSize": {
+                      "X": 0.2941,
+                      "Y": 0.339
+                    },
+                    "LeftMargin": 60,
+                    "RightMargin": 36,
+                    "TopMargin": 14,
+                    "BottomMargin": 25,
+                    "Tag": 57,
+                    "ActionTag": 1996991104,
+                    "Size": {
+                      "X": 40,
+                      "Y": 20
+                    },
+                    "Name": "aw_fnttype4_price",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "target/diamond.png",
+                      "Plist": "csi/fntplist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 38,
+                      "Y": 34
+                    },
+                    "Scale": {
+                      "ScaleX": 1,
+                      "ScaleY": 1
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2794,
+                      "Y": 0.5763
+                    },
+                    "PreSize": {
+                      "X": 0.3015,
+                      "Y": 0.5932
+                    },
+                    "LeftMargin": 17.5,
+                    "RightMargin": 77.5,
+                    "TopMargin": 7.5,
+                    "BottomMargin": 16.5,
+                    "Tag": 58,
+                    "ActionTag": 1921883181,
+                    "Size": {
+                      "X": 41,
+                      "Y": 35
+                    },
+                    "Name": "diamond",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1625366490,
+                "Size": {
+                  "X": 136,
+                  "Y": 59
+                },
+                "Name": "btnbuy",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 883410080,
+            "Size": {
+              "X": 122,
+              "Y": 124
+            },
+            "Name": "item_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shop/n_paopao.png",
+              "Plist": "csi/csi_1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 526.37,
+              "Y": 852.21
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7311,
+              "Y": 0.6658
+            },
+            "PreSize": {
+              "X": 0.1694,
+              "Y": 0.0969
+            },
+            "LeftMargin": 465.37,
+            "RightMargin": 132.63,
+            "TopMargin": 365.79,
+            "BottomMargin": 790.21,
+            "Tag": 3,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "element/star_stone.png",
+                  "Plist": "csi/csi_3.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 60,
+                  "Y": 65
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4918,
+                  "Y": 0.5242
+                },
+                "PreSize": {
+                  "X": 0.6885,
+                  "Y": 0.6774
+                },
+                "LeftMargin": 18,
+                "RightMargin": 20,
+                "TopMargin": 17,
+                "BottomMargin": 23,
+                "Tag": 60,
+                "ActionTag": 1537169086,
+                "Size": {
+                  "X": 84,
+                  "Y": 84
+                },
+                "Name": "icon",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "x20",
+                "FontResource": {
+                  "Type": "Default",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2,
+                "ShadowOffsetY": -2,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61,
+                  "Y": 15.86
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1279
+                },
+                "PreSize": {
+                  "X": 0.3689,
+                  "Y": 0.2419
+                },
+                "LeftMargin": 38.5,
+                "RightMargin": 38.5,
+                "TopMargin": 93.14,
+                "BottomMargin": 0.86,
+                "Tag": 61,
+                "ActionTag": 1901859942,
+                "Size": {
+                  "X": 45,
+                  "Y": 30
+                },
+                "Name": "aw_fnttype1_haveNum",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "public/publicbtn8.png",
+                  "Plist": "csi/csi_2.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61,
+                  "Y": -30.9813
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": -0.2498
+                },
+                "PreSize": {
+                  "X": 1.1148,
+                  "Y": 0.4758
+                },
+                "LeftMargin": -7,
+                "RightMargin": -7,
+                "TopMargin": 125.4813,
+                "BottomMargin": -60.4813,
+                "Tag": 3,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "1500",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2,
+                    "ShadowOffsetY": -2,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 60,
+                      "Y": 35
+                    },
+                    "Scale": {
+                      "ScaleX": 1,
+                      "ScaleY": 1
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4412,
+                      "Y": 0.5932
+                    },
+                    "PreSize": {
+                      "X": 0.2941,
+                      "Y": 0.339
+                    },
+                    "LeftMargin": 60,
+                    "RightMargin": 36,
+                    "TopMargin": 14,
+                    "BottomMargin": 25,
+                    "Tag": 63,
+                    "ActionTag": -1860322848,
+                    "Size": {
+                      "X": 40,
+                      "Y": 20
+                    },
+                    "Name": "aw_fnttype4_price",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "target/diamond.png",
+                      "Plist": "csi/fntplist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 38,
+                      "Y": 34
+                    },
+                    "Scale": {
+                      "ScaleX": 1,
+                      "ScaleY": 1
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2794,
+                      "Y": 0.5763
+                    },
+                    "PreSize": {
+                      "X": 0.3015,
+                      "Y": 0.5932
+                    },
+                    "LeftMargin": 17.5,
+                    "RightMargin": 77.5,
+                    "TopMargin": 7.5,
+                    "BottomMargin": 16.5,
+                    "Tag": 64,
+                    "ActionTag": 1723539600,
+                    "Size": {
+                      "X": 41,
+                      "Y": 35
+                    },
+                    "Name": "diamond",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1518480580,
+                "Size": {
+                  "X": 136,
+                  "Y": 59
+                },
+                "Name": "btnbuy",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1601945989,
+            "Size": {
+              "X": 122,
+              "Y": 124
+            },
+            "Name": "item_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shop/n_paopao.png",
+              "Plist": "csi/csi_1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 193.53,
+              "Y": 642
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2688,
+              "Y": 0.5016
+            },
+            "PreSize": {
+              "X": 0.1694,
+              "Y": 0.0969
+            },
+            "LeftMargin": 132.53,
+            "RightMargin": 465.47,
+            "TopMargin": 576,
+            "BottomMargin": 580,
+            "Tag": 4,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "element/star_stone.png",
+                  "Plist": "csi/csi_3.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 60,
+                  "Y": 65
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4918,
+                  "Y": 0.5242
+                },
+                "PreSize": {
+                  "X": 0.6885,
+                  "Y": 0.6774
+                },
+                "LeftMargin": 18,
+                "RightMargin": 20,
+                "TopMargin": 17,
+                "BottomMargin": 23,
+                "Tag": 78,
+                "ActionTag": 892448135,
+                "Size": {
+                  "X": 84,
+                  "Y": 84
+                },
+                "Name": "icon",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "x20",
+                "FontResource": {
+                  "Type": "Default",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2,
+                "ShadowOffsetY": -2,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61,
+                  "Y": 15.86
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1279
+                },
+                "PreSize": {
+                  "X": 0.3689,
+                  "Y": 0.2419
+                },
+                "LeftMargin": 38.5,
+                "RightMargin": 38.5,
+                "TopMargin": 93.14,
+                "BottomMargin": 0.86,
+                "Tag": 79,
+                "ActionTag": 2044500083,
+                "Size": {
+                  "X": 45,
+                  "Y": 30
+                },
+                "Name": "aw_fnttype1_haveNum",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "public/publicbtn8.png",
+                  "Plist": "csi/csi_2.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61,
+                  "Y": -30.9813
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": -0.2498
+                },
+                "PreSize": {
+                  "X": 1.1148,
+                  "Y": 0.4758
+                },
+                "LeftMargin": -7,
+                "RightMargin": -7,
+                "TopMargin": 125.4813,
+                "BottomMargin": -60.4813,
+                "Tag": 4,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "1500",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2,
+                    "ShadowOffsetY": -2,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 60,
+                      "Y": 35
+                    },
+                    "Scale": {
+                      "ScaleX": 1,
+                      "ScaleY": 1
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4412,
+                      "Y": 0.5932
+                    },
+                    "PreSize": {
+                      "X": 0.2941,
+                      "Y": 0.339
+                    },
+                    "LeftMargin": 60,
+                    "RightMargin": 36,
+                    "TopMargin": 14,
+                    "BottomMargin": 25,
+                    "Tag": 81,
+                    "ActionTag": -1516943303,
+                    "Size": {
+                      "X": 40,
+                      "Y": 20
+                    },
+                    "Name": "aw_fnttype4_price",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "target/diamond.png",
+                      "Plist": "csi/fntplist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 38,
+                      "Y": 34
+                    },
+                    "Scale": {
+                      "ScaleX": 1,
+                      "ScaleY": 1
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2794,
+                      "Y": 0.5763
+                    },
+                    "PreSize": {
+                      "X": 0.3015,
+                      "Y": 0.5932
+                    },
+                    "LeftMargin": 17.5,
+                    "RightMargin": 77.5,
+                    "TopMargin": 7.5,
+                    "BottomMargin": 16.5,
+                    "Tag": 82,
+                    "ActionTag": 980606018,
+                    "Size": {
+                      "X": 41,
+                      "Y": 35
+                    },
+                    "Name": "diamond",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1095434541,
+                "Size": {
+                  "X": 136,
+                  "Y": 59
+                },
+                "Name": "btnbuy",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 143729038,
+            "Size": {
+              "X": 122,
+              "Y": 124
+            },
+            "Name": "item_4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shop/n_paopao.png",
+              "Plist": "csi/csi_1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.11,
+              "Y": 642
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5002,
+              "Y": 0.5016
+            },
+            "PreSize": {
+              "X": 0.1694,
+              "Y": 0.0969
+            },
+            "LeftMargin": 299.11,
+            "RightMargin": 298.89,
+            "TopMargin": 576,
+            "BottomMargin": 580,
+            "Tag": 5,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "element/star_stone.png",
+                  "Plist": "csi/csi_3.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 60,
+                  "Y": 65
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4918,
+                  "Y": 0.5242
+                },
+                "PreSize": {
+                  "X": 0.6885,
+                  "Y": 0.6774
+                },
+                "LeftMargin": 18,
+                "RightMargin": 20,
+                "TopMargin": 17,
+                "BottomMargin": 23,
+                "Tag": 72,
+                "ActionTag": 1521171806,
+                "Size": {
+                  "X": 84,
+                  "Y": 84
+                },
+                "Name": "icon",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "x20",
+                "FontResource": {
+                  "Type": "Default",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2,
+                "ShadowOffsetY": -2,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61,
+                  "Y": 15.86
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1279
+                },
+                "PreSize": {
+                  "X": 0.3689,
+                  "Y": 0.2419
+                },
+                "LeftMargin": 38.5,
+                "RightMargin": 38.5,
+                "TopMargin": 93.14,
+                "BottomMargin": 0.86,
+                "Tag": 73,
+                "ActionTag": 663230407,
+                "Size": {
+                  "X": 45,
+                  "Y": 30
+                },
+                "Name": "aw_fnttype1_haveNum",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "public/publicbtn8.png",
+                  "Plist": "csi/csi_2.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61,
+                  "Y": -30.9813
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": -0.2498
+                },
+                "PreSize": {
+                  "X": 1.1148,
+                  "Y": 0.4758
+                },
+                "LeftMargin": -7,
+                "RightMargin": -7,
+                "TopMargin": 125.4813,
+                "BottomMargin": -60.4813,
+                "Tag": 5,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "1500",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2,
+                    "ShadowOffsetY": -2,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 60,
+                      "Y": 35
+                    },
+                    "Scale": {
+                      "ScaleX": 1,
+                      "ScaleY": 1
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4412,
+                      "Y": 0.5932
+                    },
+                    "PreSize": {
+                      "X": 0.2941,
+                      "Y": 0.339
+                    },
+                    "LeftMargin": 60,
+                    "RightMargin": 36,
+                    "TopMargin": 14,
+                    "BottomMargin": 25,
+                    "Tag": 75,
+                    "ActionTag": -1642224085,
+                    "Size": {
+                      "X": 40,
+                      "Y": 20
+                    },
+                    "Name": "aw_fnttype4_price",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "target/diamond.png",
+                      "Plist": "csi/fntplist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 38,
+                      "Y": 34
+                    },
+                    "Scale": {
+                      "ScaleX": 1,
+                      "ScaleY": 1
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2794,
+                      "Y": 0.5763
+                    },
+                    "PreSize": {
+                      "X": 0.3015,
+                      "Y": 0.5932
+                    },
+                    "LeftMargin": 17.5,
+                    "RightMargin": 77.5,
+                    "TopMargin": 7.5,
+                    "BottomMargin": 16.5,
+                    "Tag": 76,
+                    "ActionTag": -1640087156,
+                    "Size": {
+                      "X": 41,
+                      "Y": 35
+                    },
+                    "Name": "diamond",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -51708969,
+                "Size": {
+                  "X": 136,
+                  "Y": 59
+                },
+                "Name": "btnbuy",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1454799233,
+            "Size": {
+              "X": 122,
+              "Y": 124
+            },
+            "Name": "item_5",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shop/n_paopao.png",
+              "Plist": "csi/csi_1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 526.37,
+              "Y": 642
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7311,
+              "Y": 0.5016
+            },
+            "PreSize": {
+              "X": 0.1694,
+              "Y": 0.0969
+            },
+            "LeftMargin": 465.37,
+            "RightMargin": 132.63,
+            "TopMargin": 576,
+            "BottomMargin": 580,
+            "Tag": 6,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "element/star_stone.png",
+                  "Plist": "csi/csi_3.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 60,
+                  "Y": 65
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4918,
+                  "Y": 0.5242
+                },
+                "PreSize": {
+                  "X": 0.6885,
+                  "Y": 0.6774
+                },
+                "LeftMargin": 18,
+                "RightMargin": 20,
+                "TopMargin": 17,
+                "BottomMargin": 23,
+                "Tag": 66,
+                "ActionTag": 1913003790,
+                "Size": {
+                  "X": 84,
+                  "Y": 84
+                },
+                "Name": "icon",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "x20",
+                "FontResource": {
+                  "Type": "Default",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2,
+                "ShadowOffsetY": -2,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61,
+                  "Y": 15.86
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1279
+                },
+                "PreSize": {
+                  "X": 0.3689,
+                  "Y": 0.2419
+                },
+                "LeftMargin": 38.5,
+                "RightMargin": 38.5,
+                "TopMargin": 93.14,
+                "BottomMargin": 0.86,
+                "Tag": 67,
+                "ActionTag": -1012398780,
+                "Size": {
+                  "X": 45,
+                  "Y": 30
+                },
+                "Name": "aw_fnttype1_haveNum",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "x20",
+                "FontResource": {
+                  "Type": "Default",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2,
+                "ShadowOffsetY": -2,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 60,
+                  "Y": 65
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4918,
+                  "Y": 0.5242
+                },
+                "PreSize": {
+                  "X": 0.3689,
+                  "Y": 0.2419
+                },
+                "LeftMargin": 37.5,
+                "RightMargin": 39.5,
+                "TopMargin": 44,
+                "BottomMargin": 50,
+                "Tag": 95,
+                "ActionTag": -163457433,
+                "Size": {
+                  "X": 45,
+                  "Y": 30
+                },
+                "Name": "aw_fnttype1_num",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "public/publicbtn8.png",
+                  "Plist": "csi/csi_2.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61,
+                  "Y": -30.9813
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": -0.2498
+                },
+                "PreSize": {
+                  "X": 1.1148,
+                  "Y": 0.4758
+                },
+                "LeftMargin": -7,
+                "RightMargin": -7,
+                "TopMargin": 125.4813,
+                "BottomMargin": -60.4813,
+                "Tag": 6,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "1500",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2,
+                    "ShadowOffsetY": -2,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 60.7219,
+                      "Y": 35
+                    },
+                    "Scale": {
+                      "ScaleX": 1,
+                      "ScaleY": 1
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4465,
+                      "Y": 0.5932
+                    },
+                    "PreSize": {
+                      "X": 0.2941,
+                      "Y": 0.339
+                    },
+                    "LeftMargin": 60.7219,
+                    "RightMargin": 35.2781,
+                    "TopMargin": 14,
+                    "BottomMargin": 25,
+                    "Tag": 69,
+                    "ActionTag": 2059539261,
+                    "Size": {
+                      "X": 40,
+                      "Y": 20
+                    },
+                    "Name": "aw_fnttype4_price",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "target/diamond.png",
+                      "Plist": "csi/fntplist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 38,
+                      "Y": 34
+                    },
+                    "Scale": {
+                      "ScaleX": 1,
+                      "ScaleY": 1
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2794,
+                      "Y": 0.5763
+                    },
+                    "PreSize": {
+                      "X": 0.3015,
+                      "Y": 0.5932
+                    },
+                    "LeftMargin": 17.5,
+                    "RightMargin": 77.5,
+                    "TopMargin": 7.5,
+                    "BottomMargin": 16.5,
+                    "Tag": 70,
+                    "ActionTag": 1511379710,
+                    "Size": {
+                      "X": 41,
+                      "Y": 35
+                    },
+                    "Name": "diamond",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1895101926,
+                "Size": {
+                  "X": 136,
+                  "Y": 59
+                },
+                "Name": "btnbuy",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -392684793,
+            "Size": {
+              "X": 122,
+              "Y": 124
+            },
+            "Name": "item_6",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shop/n_paopao.png",
+              "Plist": "csi/csi_1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 193.53,
+              "Y": 433.47
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2688,
+              "Y": 0.3386
+            },
+            "PreSize": {
+              "X": 0.1694,
+              "Y": 0.0969
+            },
+            "LeftMargin": 132.53,
+            "RightMargin": 465.47,
+            "TopMargin": 784.53,
+            "BottomMargin": 371.47,
+            "Tag": 7,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "element/star_stone.png",
+                  "Plist": "csi/csi_3.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 60,
+                  "Y": 65
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4918,
+                  "Y": 0.5242
+                },
+                "PreSize": {
+                  "X": 0.6885,
+                  "Y": 0.6774
+                },
+                "LeftMargin": 18,
+                "RightMargin": 20,
+                "TopMargin": 17,
+                "BottomMargin": 23,
+                "Tag": 84,
+                "ActionTag": -584861335,
+                "Size": {
+                  "X": 84,
+                  "Y": 84
+                },
+                "Name": "icon",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "x20",
+                "FontResource": {
+                  "Type": "Default",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2,
+                "ShadowOffsetY": -2,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61,
+                  "Y": 15.86
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1279
+                },
+                "PreSize": {
+                  "X": 0.3689,
+                  "Y": 0.2419
+                },
+                "LeftMargin": 38.5,
+                "RightMargin": 38.5,
+                "TopMargin": 93.14,
+                "BottomMargin": 0.86,
+                "Tag": 85,
+                "ActionTag": -1704945254,
+                "Size": {
+                  "X": 45,
+                  "Y": 30
+                },
+                "Name": "aw_fnttype1_haveNum",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "x20",
+                "FontResource": {
+                  "Type": "Default",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2,
+                "ShadowOffsetY": -2,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 60,
+                  "Y": 65
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4918,
+                  "Y": 0.5242
+                },
+                "PreSize": {
+                  "X": 0.3689,
+                  "Y": 0.2419
+                },
+                "LeftMargin": 37.5,
+                "RightMargin": 39.5,
+                "TopMargin": 44,
+                "BottomMargin": 50,
+                "Tag": 96,
+                "ActionTag": 490429329,
+                "Size": {
+                  "X": 45,
+                  "Y": 30
+                },
+                "Name": "aw_fnttype1_num",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "public/publicbtn8.png",
+                  "Plist": "csi/csi_2.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61,
+                  "Y": -30.9813
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": -0.2498
+                },
+                "PreSize": {
+                  "X": 1.1148,
+                  "Y": 0.4758
+                },
+                "LeftMargin": -7,
+                "RightMargin": -7,
+                "TopMargin": 125.4813,
+                "BottomMargin": -60.4813,
+                "Tag": 7,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "1500",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2,
+                    "ShadowOffsetY": -2,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 60,
+                      "Y": 35
+                    },
+                    "Scale": {
+                      "ScaleX": 1,
+                      "ScaleY": 1
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4412,
+                      "Y": 0.5932
+                    },
+                    "PreSize": {
+                      "X": 0.2941,
+                      "Y": 0.339
+                    },
+                    "LeftMargin": 60,
+                    "RightMargin": 36,
+                    "TopMargin": 14,
+                    "BottomMargin": 25,
+                    "Tag": 87,
+                    "ActionTag": 159704372,
+                    "Size": {
+                      "X": 40,
+                      "Y": 20
+                    },
+                    "Name": "aw_fnttype4_price",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "target/diamond.png",
+                      "Plist": "csi/fntplist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 38,
+                      "Y": 34
+                    },
+                    "Scale": {
+                      "ScaleX": 1,
+                      "ScaleY": 1
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2794,
+                      "Y": 0.5763
+                    },
+                    "PreSize": {
+                      "X": 0.3015,
+                      "Y": 0.5932
+                    },
+                    "LeftMargin": 17.5,
+                    "RightMargin": 77.5,
+                    "TopMargin": 7.5,
+                    "BottomMargin": 16.5,
+                    "Tag": 88,
+                    "ActionTag": -1317741138,
+                    "Size": {
+                      "X": 41,
+                      "Y": 35
+                    },
+                    "Name": "diamond",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 474172480,
+                "Size": {
+                  "X": 136,
+                  "Y": 59
+                },
+                "Name": "btnbuy",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -205132997,
+            "Size": {
+              "X": 122,
+              "Y": 124
+            },
+            "Name": "item_7",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shop/n_paopao.png",
+              "Plist": "csi/csi_1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.11,
+              "Y": 433.47
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5002,
+              "Y": 0.3386
+            },
+            "PreSize": {
+              "X": 0.1694,
+              "Y": 0.0969
+            },
+            "LeftMargin": 299.11,
+            "RightMargin": 298.89,
+            "TopMargin": 784.53,
+            "BottomMargin": 371.47,
+            "Tag": 8,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "element/star_stone.png",
+                  "Plist": "csi/csi_3.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 60,
+                  "Y": 65
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4918,
+                  "Y": 0.5242
+                },
+                "PreSize": {
+                  "X": 0.6885,
+                  "Y": 0.6774
+                },
+                "LeftMargin": 18,
+                "RightMargin": 20,
+                "TopMargin": 17,
+                "BottomMargin": 23,
+                "Tag": 90,
+                "ActionTag": -1914368361,
+                "Size": {
+                  "X": 84,
+                  "Y": 84
+                },
+                "Name": "icon",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "x20",
+                "FontResource": {
+                  "Type": "Default",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2,
+                "ShadowOffsetY": -2,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 60,
+                  "Y": 65
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4918,
+                  "Y": 0.5242
+                },
+                "PreSize": {
+                  "X": 0.3689,
+                  "Y": 0.2419
+                },
+                "LeftMargin": 37.5,
+                "RightMargin": 39.5,
+                "TopMargin": 44,
+                "BottomMargin": 50,
+                "Tag": 97,
+                "ActionTag": 779669272,
+                "Size": {
+                  "X": 45,
+                  "Y": 30
+                },
+                "Name": "aw_fnttype1_num",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "x20",
+                "FontResource": {
+                  "Type": "Default",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2,
+                "ShadowOffsetY": -2,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61,
+                  "Y": 15.86
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1279
+                },
+                "PreSize": {
+                  "X": 0.3689,
+                  "Y": 0.2419
+                },
+                "LeftMargin": 38.5,
+                "RightMargin": 38.5,
+                "TopMargin": 93.14,
+                "BottomMargin": 0.86,
+                "Tag": 91,
+                "ActionTag": -382765035,
+                "Size": {
+                  "X": 45,
+                  "Y": 30
+                },
+                "Name": "aw_fnttype1_haveNum",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "public/publicbtn8.png",
+                  "Plist": "csi/csi_2.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61,
+                  "Y": -30.9813
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": -0.2498
+                },
+                "PreSize": {
+                  "X": 1.1148,
+                  "Y": 0.4758
+                },
+                "LeftMargin": -7,
+                "RightMargin": -7,
+                "TopMargin": 125.4813,
+                "BottomMargin": -60.4813,
+                "Tag": 8,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "1500",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2,
+                    "ShadowOffsetY": -2,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 60,
+                      "Y": 35
+                    },
+                    "Scale": {
+                      "ScaleX": 1,
+                      "ScaleY": 1
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4412,
+                      "Y": 0.5932
+                    },
+                    "PreSize": {
+                      "X": 0.2941,
+                      "Y": 0.339
+                    },
+                    "LeftMargin": 60,
+                    "RightMargin": 36,
+                    "TopMargin": 14,
+                    "BottomMargin": 25,
+                    "Tag": 93,
+                    "ActionTag": 764445397,
+                    "Size": {
+                      "X": 40,
+                      "Y": 20
+                    },
+                    "Name": "aw_fnttype4_price",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "target/diamond.png",
+                      "Plist": "csi/fntplist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 38,
+                      "Y": 34
+                    },
+                    "Scale": {
+                      "ScaleX": 1,
+                      "ScaleY": 1
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2794,
+                      "Y": 0.5763
+                    },
+                    "PreSize": {
+                      "X": 0.3015,
+                      "Y": 0.5932
+                    },
+                    "LeftMargin": 17.5,
+                    "RightMargin": 77.5,
+                    "TopMargin": 7.5,
+                    "BottomMargin": 16.5,
+                    "Tag": 94,
+                    "ActionTag": -2125087456,
+                    "Size": {
+                      "X": 41,
+                      "Y": 35
+                    },
+                    "Name": "diamond",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -2052197188,
+                "Size": {
+                  "X": 136,
+                  "Y": 59
+                },
+                "Name": "btnbuy",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 24785425,
+            "Size": {
+              "X": 122,
+              "Y": 124
+            },
+            "Name": "item_8",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720,
+          "Y": 1280
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../csi/csi_1.plist",
+        "../csi/csi_1.png",
+        "../csi/csi_2.plist",
+        "../csi/csi_2.png",
+        "../csi/csi_3.plist",
+        "../csi/csi_3.png",
+        "../csi/csi_6.plist",
+        "../csi/csi_6.png",
+        "../csi/fntplist.plist",
+        "../csi/fntplist.png",
+        "../csi/scaleplist.plist",
+        "../csi/scaleplist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "huojianpao",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "zidanhuojianpao",
+    "_level": 1,
+    "_components": [
+      {
+        "__type__": "b9104ALUkdHhJ08IjKWHH9I",
+        "node": {
+          "__id__": 1
+        }
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "719E1MnRhPE4Dm+SsuBbBs"
+      },
+      "fileId": "1bBsZjeHxMi454knFPT8Mu"
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 50,
+      "height": 50
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": -98
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "groupIndex": 1
+  }
+]

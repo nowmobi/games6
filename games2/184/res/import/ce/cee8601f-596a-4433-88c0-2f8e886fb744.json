@@ -1,0 +1,1284 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "skill",
+  "json": {
+    "101": {
+      "id": 101,
+      "Onskill": 1,
+      "img": "skill_icon_1",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Speed Boost",
+      "tips": "roguelike_text_1",
+      "skillcs": [
+        0.8,
+        0.8,
+        -0.133333
+      ],
+      "weight": 20,
+      "preweight": 0,
+      "extra": [],
+      "config": [
+        3,
+        30,
+        0
+      ],
+      "config2": [
+        30,
+        30,
+        30
+      ],
+      "config3": [
+        0,
+        0,
+        30,
+        20,
+        10,
+        0
+      ],
+      "repeat": 1,
+      "mainTrans": 1
+    },
+    "102": {
+      "id": 102,
+      "Onskill": 1,
+      "img": "skill_icon_1",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Speed Boost",
+      "tips": "roguelike_text_1",
+      "skillcs": [
+        0.66667,
+        0.5,
+        -0.095
+      ],
+      "weight": 20,
+      "preweight": 0,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 1,
+      "mainTrans": 1
+    },
+    "201": {
+      "id": 201,
+      "Onskill": 2,
+      "img": "skill_icon_2",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "ATK Boost",
+      "tips": "roguelike_text_2",
+      "skillcs": [
+        1.25,
+        1.5,
+        0.25
+      ],
+      "weight": 20,
+      "preweight": 0,
+      "extra": [],
+      "config": [
+        3,
+        30,
+        0
+      ],
+      "config2": [
+        30,
+        30,
+        30
+      ],
+      "config3": [
+        0,
+        0,
+        30,
+        20,
+        10,
+        0
+      ],
+      "repeat": 1,
+      "mainTrans": 1
+    },
+    "202": {
+      "id": 202,
+      "Onskill": 2,
+      "img": "skill_icon_2",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "ATK Boost",
+      "tips": "roguelike_text_2",
+      "skillcs": [
+        1.5,
+        2,
+        0.25
+      ],
+      "weight": 20,
+      "preweight": 0,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 1,
+      "mainTrans": 1
+    },
+    "301": {
+      "id": 301,
+      "Onskill": 3,
+      "img": "skill_icon_3",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "HP Boost",
+      "tips": "roguelike_text_3",
+      "skillcs": [
+        1.25,
+        0.25
+      ],
+      "weight": 20,
+      "preweight": 20,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 1,
+      "mainTrans": 0
+    },
+    "302": {
+      "id": 302,
+      "Onskill": 3,
+      "img": "skill_icon_3",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "HP Boost",
+      "tips": "roguelike_text_3",
+      "skillcs": [
+        1.5,
+        0.25
+      ],
+      "weight": 20,
+      "preweight": 20,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 1,
+      "mainTrans": 0
+    },
+    "401": {
+      "id": 401,
+      "Onskill": 4,
+      "img": "skill_icon_4",
+      "ismain": 0,
+      "lock": [
+        4,
+        4
+      ],
+      "desc": "Encircling Collision Ball +2",
+      "tips": "roguelike_text_4",
+      "skillcs": [
+        0,
+        0,
+        -1,
+        43,
+        0,
+        0,
+        300
+      ],
+      "weight": 20,
+      "preweight": 10,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "402": {
+      "id": 402,
+      "Onskill": 4,
+      "img": "skill_icon_4",
+      "ismain": 0,
+      "lock": [
+        4,
+        4
+      ],
+      "desc": "Encircling Collision Ball +4",
+      "tips": "roguelike_text_4",
+      "skillcs": [
+        0,
+        0,
+        -1,
+        45,
+        0,
+        0,
+        300
+      ],
+      "weight": 20,
+      "preweight": 10,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "403": {
+      "id": 403,
+      "Onskill": 4,
+      "img": "skill_icon_4",
+      "ismain": 0,
+      "lock": [
+        4,
+        4
+      ],
+      "desc": "Encircling Collision Ball +6",
+      "tips": "roguelike_text_4",
+      "skillcs": [
+        0,
+        0,
+        -1,
+        47,
+        0,
+        0,
+        300
+      ],
+      "weight": 20,
+      "preweight": 10,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "404": {
+      "id": 404,
+      "Onskill": 4,
+      "img": "skill_icon_4",
+      "ismain": 0,
+      "lock": [
+        4,
+        4
+      ],
+      "desc": "Encircling Collision Ball +8",
+      "tips": "roguelike_text_4",
+      "skillcs": [
+        0,
+        0,
+        -1,
+        284,
+        0,
+        0,
+        800
+      ],
+      "weight": 0,
+      "preweight": 10,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "501": {
+      "id": 501,
+      "Onskill": 5,
+      "img": "skill_icon_5",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Extra Life",
+      "tips": "roguelike_text_7",
+      "skillcs": [
+        1
+      ],
+      "weight": 5,
+      "preweight": 0,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "601": {
+      "id": 601,
+      "Onskill": 6,
+      "img": "skill_icon_6",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Missile",
+      "tips": "roguelike_text_13",
+      "skillcs": [
+        0,
+        -50,
+        8,
+        15,
+        4,
+        0.1,
+        400
+      ],
+      "weight": 0,
+      "preweight": 0,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "602": {
+      "id": 602,
+      "Onskill": 6,
+      "img": "skill_icon_6",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Missile",
+      "tips": "roguelike_text_13",
+      "skillcs": [
+        0,
+        -50,
+        8,
+        15,
+        8,
+        0.1,
+        400
+      ],
+      "weight": 0,
+      "preweight": 0,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "603": {
+      "id": 603,
+      "Onskill": 6,
+      "img": "skill_icon_6",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Missile",
+      "tips": "roguelike_text_13",
+      "skillcs": [
+        0,
+        -50,
+        8,
+        15,
+        12,
+        0.1,
+        400
+      ],
+      "weight": 0,
+      "preweight": 0,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "701": {
+      "id": 701,
+      "Onskill": 7,
+      "img": "skill_icon_7",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Frost Strike",
+      "tips": "roguelike_text_14",
+      "skillcs": [
+        0,
+        -50,
+        5,
+        41,
+        1,
+        5,
+        200,
+        0
+      ],
+      "weight": 10,
+      "preweight": 10,
+      "extra": [
+        1.5
+      ],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "801": {
+      "id": 801,
+      "Onskill": 8,
+      "img": "skill_icon_8",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Blazing Strike",
+      "tips": "roguelike_text_15",
+      "skillcs": [
+        0,
+        20,
+        7,
+        202,
+        6,
+        0.1,
+        600,
+        0
+      ],
+      "weight": 10,
+      "preweight": 10,
+      "extra": [
+        2,
+        20,
+        0.5
+      ],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "901": {
+      "id": 901,
+      "Onskill": 9,
+      "img": "skill_icon_9",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Bolt Strike",
+      "tips": "roguelike_text_16",
+      "skillcs": [
+        0,
+        -50,
+        8,
+        16,
+        1,
+        0.1,
+        100,
+        0,
+        0,
+        0,
+        3
+      ],
+      "weight": 10,
+      "preweight": 10,
+      "extra": [
+        7
+      ],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "1001": {
+      "id": 1001,
+      "Onskill": 10,
+      "img": "skill_icon_10",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Boomerang",
+      "tips": "roguelike_text_17",
+      "skillcs": [
+        0,
+        -50,
+        5,
+        186,
+        1,
+        0,
+        10,
+        0.5
+      ],
+      "weight": 30,
+      "preweight": 10,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "1401": {
+      "id": 1401,
+      "Onskill": 14,
+      "img": "skill_icon_14",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Rage",
+      "tips": "roguelike_text_8",
+      "skillcs": [
+        1
+      ],
+      "weight": 20,
+      "preweight": 20,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "1501": {
+      "id": 1501,
+      "Onskill": 15,
+      "img": "skill_icon_15",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Multishot",
+      "tips": "roguelike_text_30",
+      "skillcs": [],
+      "weight": 30,
+      "preweight": 0,
+      "extra": [],
+      "config": [
+        3,
+        30,
+        0
+      ],
+      "config2": [
+        30,
+        30,
+        30
+      ],
+      "config3": [
+        0,
+        0,
+        30,
+        20,
+        10,
+        0
+      ],
+      "repeat": 0,
+      "mainTrans": 2
+    },
+    "1502": {
+      "id": 1502,
+      "Onskill": 15,
+      "img": "skill_icon_15",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Multishot",
+      "tips": "roguelike_text_30",
+      "skillcs": [],
+      "weight": 30,
+      "preweight": 0,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 2
+    },
+    "1601": {
+      "id": 1601,
+      "Onskill": 16,
+      "img": "skill_icon_16",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Crit Master",
+      "tips": "roguelike_text_9",
+      "skillcs": [
+        0.4,
+        0.2,
+        2
+      ],
+      "weight": 20,
+      "preweight": 0,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [
+        0,
+        0,
+        30,
+        20,
+        10,
+        0
+      ],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "1701": {
+      "id": 1701,
+      "Onskill": 17,
+      "img": "skill_icon_17",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Defence Master",
+      "tips": "roguelike_text_10",
+      "skillcs": [
+        0.4
+      ],
+      "weight": 20,
+      "preweight": 20,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "1801": {
+      "id": 1801,
+      "Onskill": 18,
+      "img": "skill_icon_18",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Coin Machine",
+      "tips": "roguelike_text_11",
+      "skillcs": [
+        600
+      ],
+      "weight": 20,
+      "preweight": 20,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "1901": {
+      "id": 1901,
+      "Onskill": 19,
+      "img": "skill_icon_19",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "ATK Boost",
+      "tips": "roguelike_text_12",
+      "skillcs": [
+        1.5
+      ],
+      "weight": 10,
+      "preweight": 0,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "2301": {
+      "id": 2301,
+      "Onskill": 23,
+      "img": "skill_icon_23",
+      "ismain": 0,
+      "lock": [
+        3,
+        3
+      ],
+      "desc": "Shadow Fighter",
+      "tips": "roguelike_text_18",
+      "skillcs": [
+        0.4,
+        1,
+        0.6
+      ],
+      "weight": 30,
+      "preweight": 0,
+      "extra": [],
+      "config": [
+        3,
+        30,
+        0
+      ],
+      "config2": [
+        30,
+        30,
+        30
+      ],
+      "config3": [
+        0,
+        0,
+        20,
+        10,
+        5,
+        0
+      ],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "2302": {
+      "id": 2302,
+      "Onskill": 23,
+      "img": "skill_icon_23",
+      "ismain": 0,
+      "lock": [
+        3,
+        3
+      ],
+      "desc": "Shadow Fighter Enhancement+100%",
+      "tips": "roguelike_text_19",
+      "skillcs": [
+        0.8,
+        1,
+        0.7
+      ],
+      "weight": 30,
+      "preweight": 0,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "2303": {
+      "id": 2303,
+      "Onskill": 23,
+      "img": "skill_icon_23",
+      "ismain": 0,
+      "lock": [
+        3,
+        3
+      ],
+      "desc": "Shadow Fighter Enhancement+200%",
+      "tips": "roguelike_text_20",
+      "skillcs": [
+        1.2,
+        1,
+        0.8
+      ],
+      "weight": 30,
+      "preweight": 0,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "2401": {
+      "id": 2401,
+      "Onskill": 24,
+      "img": "skill_icon_24",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Earnings+20%",
+      "tips": "roguelike_text_21",
+      "skillcs": [
+        20
+      ],
+      "weight": 20,
+      "preweight": 20,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "2501": {
+      "id": 2501,
+      "Onskill": 25,
+      "img": "skill_icon_25",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "EXP+20%",
+      "tips": "roguelike_text_22",
+      "skillcs": [
+        20
+      ],
+      "weight": 20,
+      "preweight": 1,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "2601": {
+      "id": 2601,
+      "Onskill": 26,
+      "img": "skill_icon_26",
+      "ismain": 1,
+      "lock": [
+        4,
+        4
+      ],
+      "desc": "Follower+1",
+      "tips": "roguelike_text_23",
+      "skillcs": [
+        0
+      ],
+      "weight": 30,
+      "preweight": 30,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "2701": {
+      "id": 2701,
+      "Onskill": 27,
+      "img": "skill_icon_27",
+      "ismain": 1,
+      "lock": [
+        4,
+        4
+      ],
+      "desc": "Speed Boost",
+      "tips": "roguelike_text_24",
+      "skillcs": [
+        0.8
+      ],
+      "weight": 30,
+      "preweight": 30,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "2801": {
+      "id": 2801,
+      "Onskill": 28,
+      "img": "skill_icon_28",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Extra Barrage+1",
+      "tips": "roguelike_text_25",
+      "skillcs": [],
+      "weight": 30,
+      "preweight": 0,
+      "extra": [],
+      "config": [
+        3,
+        30,
+        0
+      ],
+      "config2": [
+        30,
+        30,
+        30
+      ],
+      "config3": [
+        0,
+        0,
+        30,
+        20,
+        10,
+        0
+      ],
+      "repeat": 0,
+      "mainTrans": 3
+    },
+    "2802": {
+      "id": 2802,
+      "Onskill": 28,
+      "img": "skill_icon_28",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Extra Barrage+1",
+      "tips": "roguelike_text_25",
+      "skillcs": [],
+      "weight": 30,
+      "preweight": 0,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 3
+    },
+    "2901": {
+      "id": 2901,
+      "Onskill": 29,
+      "img": "skill_icon_29",
+      "ismain": 0,
+      "lock": [
+        3,
+        3
+      ],
+      "desc": "Ricochet",
+      "tips": "roguelike_text_26",
+      "skillcs": [
+        2,
+        600,
+        0.5
+      ],
+      "weight": 30,
+      "preweight": 0,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [
+        0,
+        0,
+        20,
+        10,
+        5,
+        0
+      ],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "3001": {
+      "id": 3001,
+      "Onskill": 30,
+      "img": "skill_icon_30",
+      "ismain": 0,
+      "lock": [
+        3,
+        3
+      ],
+      "desc": "Death Bomb",
+      "tips": "roguelike_text_27",
+      "skillcs": [
+        200,
+        1.5
+      ],
+      "weight": 30,
+      "preweight": 0,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 1,
+      "mainTrans": 0
+    },
+    "3002": {
+      "id": 3002,
+      "Onskill": 30,
+      "img": "skill_icon_30",
+      "ismain": 0,
+      "lock": [
+        3,
+        3
+      ],
+      "desc": "Death Bomb",
+      "tips": "roguelike_text_27",
+      "skillcs": [
+        200,
+        3
+      ],
+      "weight": 0,
+      "preweight": 0,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 1,
+      "mainTrans": 0
+    },
+    "3003": {
+      "id": 3003,
+      "Onskill": 30,
+      "img": "skill_icon_30",
+      "ismain": 0,
+      "lock": [
+        3,
+        3
+      ],
+      "desc": "Death Bomb",
+      "tips": "roguelike_text_27",
+      "skillcs": [
+        200,
+        4.5
+      ],
+      "weight": 0,
+      "preweight": 0,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 1,
+      "mainTrans": 0
+    },
+    "3101": {
+      "id": 3101,
+      "Onskill": 32,
+      "img": "skill_icon_31",
+      "ismain": 0,
+      "lock": [],
+      "desc": "Power Challenge",
+      "tips": "roguelike_text_28",
+      "skillcs": [
+        0.04,
+        10
+      ],
+      "weight": 0,
+      "preweight": 0,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "3201": {
+      "id": 3201,
+      "Onskill": 31,
+      "img": "skill_icon_32",
+      "ismain": 0,
+      "lock": [],
+      "desc": "Blood Challenge",
+      "tips": "roguelike_text_29",
+      "skillcs": [
+        0.04,
+        10
+      ],
+      "weight": 0,
+      "preweight": 0,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "10701": {
+      "id": 10701,
+      "Onskill": 7,
+      "img": "skill_icon_7",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Frost Strike",
+      "tips": "roguelike_text_14",
+      "skillcs": [
+        0,
+        -50,
+        4,
+        41,
+        1,
+        5,
+        200,
+        0
+      ],
+      "weight": 0,
+      "preweight": 0,
+      "extra": [
+        1.5
+      ],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "10801": {
+      "id": 10801,
+      "Onskill": 8,
+      "img": "skill_icon_8",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Blazing Strike",
+      "tips": "roguelike_text_15",
+      "skillcs": [
+        0,
+        20,
+        6,
+        202,
+        6,
+        0.1,
+        600,
+        0
+      ],
+      "weight": 0,
+      "preweight": 0,
+      "extra": [
+        2,
+        20,
+        0.5
+      ],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "10901": {
+      "id": 10901,
+      "Onskill": 9,
+      "img": "skill_icon_9",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Bolt Strike",
+      "tips": "roguelike_text_16",
+      "skillcs": [
+        0,
+        -50,
+        7,
+        16,
+        1,
+        0.1,
+        100,
+        0,
+        0,
+        0,
+        3
+      ],
+      "weight": 0,
+      "preweight": 0,
+      "extra": [
+        7
+      ],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "101001": {
+      "id": 101001,
+      "Onskill": 10,
+      "img": "skill_icon_10",
+      "ismain": 0,
+      "lock": [
+        0,
+        0
+      ],
+      "desc": "Boomerang",
+      "tips": "roguelike_text_17",
+      "skillcs": [
+        0,
+        -50,
+        4,
+        186,
+        1,
+        0,
+        10,
+        0.5
+      ],
+      "weight": 0,
+      "preweight": 0,
+      "extra": [],
+      "config": [],
+      "config2": [],
+      "config3": [],
+      "repeat": 0,
+      "mainTrans": 0
+    },
+    "allID": [
+      101,
+      102,
+      201,
+      202,
+      301,
+      302,
+      401,
+      402,
+      403,
+      404,
+      501,
+      1401,
+      1501,
+      1502,
+      1601,
+      1701,
+      1801,
+      1901,
+      601,
+      602,
+      603,
+      701,
+      801,
+      901,
+      1001,
+      2301,
+      2302,
+      2303,
+      2401,
+      2501,
+      2601,
+      2701,
+      2801,
+      2802,
+      2901,
+      3001,
+      3002,
+      3003,
+      3101,
+      3201,
+      10701,
+      10801,
+      10901,
+      101001
+    ]
+  }
+}

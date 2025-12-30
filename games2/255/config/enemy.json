@@ -1,0 +1,2652 @@
+{
+  "1": {
+    "slow": 0,
+    "name": "Slime",
+    "move": 61,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 100,
+    "skin": "monsterA1",
+    "drop": 14,
+    "quality": 1,
+    "id": 1,
+    "def": 0,
+    "desc": [
+      "A weak-looking, ordinary little monster"
+    ]
+  },
+  "2": {
+    "slow": 0,
+    "name": "Three eye",
+    "move": 83,
+    "other": [
+      1100,
+      1200,
+      0
+    ],
+    "blood": 140,
+    "skin": "monsterA3",
+    "drop": 14,
+    "quality": 1,
+    "id": 2,
+    "def": 0,
+    "desc": [
+      "More lively little monsters, moving a little faster"
+    ]
+  },
+  "3": {
+    "slow": 0,
+    "name": "Minions",
+    "move": 74,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 180,
+    "skin": "monsterA2",
+    "drop": 14,
+    "quality": 1,
+    "id": 3,
+    "def": 0,
+    "desc": [
+      "Also lively cute little monster, like to jump forward in the form of movement"
+    ]
+  },
+  "4": {
+    "slow": 0,
+    "name": "Snow pellet",
+    "move": 68,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 220,
+    "skin": "monsterA6",
+    "drop": 14,
+    "quality": 1,
+    "id": 4,
+    "def": 0,
+    "desc": [
+      "The elves, who grow in the snow world, have some evil expressions on their faces"
+    ]
+  },
+  "5": {
+    "slow": 0,
+    "name": "Onion head ",
+    "move": 65,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 260,
+    "skin": "monsterA5",
+    "drop": 14,
+    "quality": 1,
+    "id": 5,
+    "def": 0,
+    "desc": [
+      "Minions and Three Eyes are neighbors, but they are often excluded because of their looks"
+    ]
+  },
+  "6": {
+    "slow": 0,
+    "name": "Iron han han",
+    "move": 65,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 320,
+    "skin": "monsterA4",
+    "drop": 16,
+    "quality": 1,
+    "id": 6,
+    "def": 8,
+    "desc": [
+      "Don't pay much attention to appearance at ordinary times, always black, the hat that designs for oneself is quite chic"
+    ]
+  },
+  "7": {
+    "slow": 6,
+    "name": "Ice",
+    "move": 94,
+    "other": [
+      1000,
+      1100,
+      0
+    ],
+    "blood": 360,
+    "skin": "monsterA7",
+    "drop": 18,
+    "quality": 1,
+    "id": 7,
+    "def": 0,
+    "desc": [
+      "Small monsters in the snow, slightly faster and have a bit of deceleration resistance"
+    ]
+  },
+  "8": {
+    "slow": 0,
+    "name": "Ice should",
+    "move": 78,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 260,
+    "skin": "monsterA8",
+    "drop": 14,
+    "quality": 2,
+    "id": 8,
+    "def": 0,
+    "desc": [
+      "He lives in the snow and is the fairy of the snowy world"
+    ]
+  },
+  "9": {
+    "slow": 6,
+    "name": "ClockworkG",
+    "move": 98,
+    "other": [
+      1000,
+      1100,
+      0
+    ],
+    "blood": 320,
+    "skin": "monsterB8",
+    "drop": 14,
+    "quality": 2,
+    "id": 9,
+    "def": 0,
+    "desc": [
+      "Red yellow Blue Green clockwork one of the four sisters, good at puppet show, is the youngest"
+    ]
+  },
+  "10": {
+    "slow": 12,
+    "name": "Small fire",
+    "move": 107,
+    "other": [
+      900,
+      1000,
+      0
+    ],
+    "blood": 380,
+    "skin": "monsterB1",
+    "drop": 14,
+    "quality": 2,
+    "id": 10,
+    "def": 0,
+    "desc": [
+      "The youngest of the four fire brothers, likes to move around"
+    ]
+  },
+  "11": {
+    "slow": 0,
+    "name": "Gray from",
+    "move": 74,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 460,
+    "skin": "monsterA9",
+    "drop": 14,
+    "quality": 2,
+    "id": 11,
+    "def": 0,
+    "desc": [
+      "Because it is black, people do not want to eat it, it is safer"
+    ]
+  },
+  "12": {
+    "slow": 0,
+    "name": "Mummy",
+    "move": 65,
+    "other": [
+      1200,
+      1300,
+      0
+    ],
+    "blood": 520,
+    "skin": "monsterA11",
+    "drop": 16,
+    "quality": 2,
+    "id": 12,
+    "def": 8,
+    "desc": [
+      "Like funny, since the bandage is a masterpiece of his own hands, enough to distinguish real"
+    ]
+  },
+  "13": {
+    "slow": 16,
+    "name": "Purple bats",
+    "move": 120,
+    "other": [
+      900,
+      1000,
+      0
+    ],
+    "blood": 580,
+    "skin": "monsterB4",
+    "drop": 16,
+    "quality": 2,
+    "id": 13,
+    "def": 0,
+    "desc": [
+      "A relatively fast moving unit with some deceleration resistance"
+    ]
+  },
+  "14": {
+    "slow": 0,
+    "name": "Red Hood",
+    "move": 71,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 640,
+    "skin": "monsterC7",
+    "drop": 14,
+    "quality": 2,
+    "id": 14,
+    "def": 0,
+    "desc": [
+      "The luckiest of the sisters, all but herself called a witch, turns down the Justice League for sisterhood"
+    ]
+  },
+  "15": {
+    "slow": 0,
+    "name": "Green bucket",
+    "move": 71,
+    "other": [
+      1300,
+      1400,
+      0
+    ],
+    "blood": 680,
+    "skin": "monsterA17",
+    "drop": 16,
+    "quality": 2,
+    "id": 15,
+    "def": 18,
+    "desc": [
+      "Although the second, fight is also unequivocal, protecting the younger brother always rushed to the front"
+    ]
+  },
+  "16": {
+    "slow": 0,
+    "name": "Adz-eye hammer",
+    "move": 71,
+    "other": [
+      1400,
+      1500,
+      0
+    ],
+    "blood": 720,
+    "skin": "monsterA12",
+    "drop": 18,
+    "quality": 2,
+    "id": 16,
+    "def": 28,
+    "desc": [
+      "Lighter armor unit, armed with a pair of hammers, but slightly less powerful"
+    ]
+  },
+  "17": {
+    "slow": 0,
+    "name": "Jumping from",
+    "move": 71,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 540,
+    "skin": "monsterA10",
+    "drop": 14,
+    "quality": 3,
+    "id": 17,
+    "def": 0,
+    "desc": [
+      "Adult baby, roasted to eat will be more fragrant"
+    ]
+  },
+  "18": {
+    "slow": 8,
+    "name": "ClockworkB",
+    "move": 98,
+    "other": [
+      1100,
+      1200,
+      0
+    ],
+    "blood": 580,
+    "skin": "monsterB9",
+    "drop": 14,
+    "quality": 3,
+    "id": 18,
+    "def": 0,
+    "desc": [
+      "Red yellow blue Green clockwork one of the four sisters, the third, like to dance puppet"
+    ]
+  },
+  "19": {
+    "slow": 0,
+    "name": "Penguin",
+    "move": 71,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 640,
+    "skin": "monsterA14",
+    "drop": 14,
+    "quality": 3,
+    "id": 19,
+    "def": 0,
+    "desc": [
+      "Usually with a Popsicle around patrol, when danger comes, always run the fastest"
+    ]
+  },
+  "20": {
+    "slow": 15,
+    "name": "Flammule",
+    "move": 111,
+    "other": [
+      1000,
+      1100,
+      0
+    ],
+    "blood": 700,
+    "skin": "monsterB2",
+    "drop": 16,
+    "quality": 3,
+    "id": 20,
+    "def": 0,
+    "desc": [
+      "The third of the four flame brothers, Bohemian love freedom, also known as the prairie Nemesis"
+    ]
+  },
+  "21": {
+    "slow": 0,
+    "name": "Stone eggs",
+    "move": 63,
+    "other": [
+      1200,
+      1300,
+      0
+    ],
+    "blood": 760,
+    "skin": "monsterD1",
+    "drop": 16,
+    "quality": 3,
+    "id": 21,
+    "def": 18,
+    "desc": [
+      "A hard rock, with a certain ability to resist blows, with strong will and a clear goal"
+    ]
+  },
+  "22": {
+    "slow": 0,
+    "name": "mmymu",
+    "move": 69,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 820,
+    "skin": "monsterA27",
+    "drop": 14,
+    "quality": 3,
+    "id": 22,
+    "def": 0,
+    "desc": [
+      "Like the mummy, in addition to funny, but also like to pretend to be a pirate to scare people"
+    ]
+  },
+  "23": {
+    "slow": 0,
+    "name": "Tribal elders",
+    "move": 60,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 880,
+    "skin": "monsterA16",
+    "drop": 14,
+    "quality": 3,
+    "id": 23,
+    "def": 0,
+    "desc": [
+      "In fact, in order to keep track of the monster, he infiltrated the enemy's own people, and because of his age, he was convinced that he was a monster when fighting"
+    ]
+  },
+  "24": {
+    "slow": 0,
+    "name": "Blue bucket",
+    "move": 69,
+    "other": [
+      1200,
+      1300,
+      0
+    ],
+    "blood": 940,
+    "skin": "monsterA18",
+    "drop": 14,
+    "quality": 3,
+    "id": 24,
+    "def": 22,
+    "desc": [
+      "He didn't have a name of his own, just the way they were called"
+    ]
+  },
+  "25": {
+    "slow": 0,
+    "name": "Mummy Wizard",
+    "move": 69,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 1000,
+    "skin": "monsterA22",
+    "drop": 14,
+    "quality": 3,
+    "id": 25,
+    "def": 0,
+    "desc": [
+      "The guardian of the mummy's underground palace, who is deliberately mysterious in order to prevent foreign invaders"
+    ]
+  },
+  "26": {
+    "slow": 13,
+    "name": "Red bats",
+    "move": 126,
+    "other": [
+      900,
+      1000,
+      0
+    ],
+    "blood": 1060,
+    "skin": "monsterB5",
+    "drop": 18,
+    "quality": 3,
+    "id": 26,
+    "def": 0,
+    "desc": [
+      "A relatively fast moving unit with some deceleration resistance"
+    ]
+  },
+  "27": {
+    "slow": 0,
+    "name": "WitchW",
+    "move": 71,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 1120,
+    "skin": "monsterC8",
+    "drop": 14,
+    "quality": 3,
+    "id": 27,
+    "def": 0,
+    "desc": [
+      "White hair, wearing purple magic cap, in the hand of the staff is her most proud weapon"
+    ]
+  },
+  "28": {
+    "slow": 0,
+    "name": "Titan",
+    "move": 87,
+    "other": [
+      1300,
+      1400,
+      0
+    ],
+    "blood": 1180,
+    "skin": "monsterD2",
+    "drop": 16,
+    "quality": 3,
+    "id": 28,
+    "def": 26,
+    "desc": [
+      "Simple mechanical combat unit, very clever design, and has a considerable combat performance"
+    ]
+  },
+  "29": {
+    "slow": 0,
+    "name": "Wild boar",
+    "move": 71,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 1240,
+    "skin": "monsterA15",
+    "drop": 14,
+    "quality": 3,
+    "id": 29,
+    "def": 0,
+    "desc": [
+      "Wild monsters, which are more common on the mainland, are not particularly formidable"
+    ]
+  },
+  "30": {
+    "slow": 0,
+    "name": "Lost miner",
+    "move": 60,
+    "other": [
+      1300,
+      1400,
+      0
+    ],
+    "blood": 1300,
+    "skin": "monsterD3",
+    "drop": 14,
+    "quality": 3,
+    "id": 30,
+    "def": 22,
+    "desc": [
+      "The lost miners, survivors of the mine accident, have wandered the earth ever since, never finding themselves"
+    ]
+  },
+  "31": {
+    "slow": 0,
+    "name": "Aquaman Mummy",
+    "move": 69,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 1360,
+    "skin": "monsterA26",
+    "drop": 14,
+    "quality": 3,
+    "id": 31,
+    "def": 0,
+    "desc": [
+      "When he picked up a three-fork spoon, he always felt that he was the sea King as they called him"
+    ]
+  },
+  "32": {
+    "slow": 0,
+    "name": "Black witch",
+    "move": 71,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 1420,
+    "skin": "monsterA36",
+    "drop": 14,
+    "quality": 3,
+    "id": 32,
+    "def": 0,
+    "desc": [
+      "Best at dark magic, often hiding in the shadows, quietly fighting"
+    ]
+  },
+  "33": {
+    "slow": 0,
+    "name": "Small stakes",
+    "move": 68,
+    "other": [
+      1200,
+      1300,
+      0
+    ],
+    "blood": 1480,
+    "skin": "monsterC3",
+    "drop": 14,
+    "quality": 3,
+    "id": 33,
+    "def": 14,
+    "desc": [
+      "The forest elf, by absorbing the essence of the earth growth, has a certain attack power"
+    ]
+  },
+  "34": {
+    "slow": 0,
+    "name": "Green reindeer",
+    "move": 71,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 1540,
+    "skin": "monsterA32",
+    "drop": 14,
+    "quality": 3,
+    "id": 34,
+    "def": 0,
+    "desc": [
+      "Christmas is only one day a year, and most of the time, the green reindeer work part-time"
+    ]
+  },
+  "35": {
+    "slow": 12,
+    "name": "Mini dragon",
+    "move": 68,
+    "other": [
+      1800,
+      2200,
+      3
+    ],
+    "blood": 1600,
+    "skin": "monsterA28",
+    "drop": 38,
+    "quality": 3,
+    "id": 35,
+    "def": 8,
+    "desc": [
+      "The mini Dragon, a distant relative of the dragon race, was forgotten, more like thrown into the evil camp;  Has a frightening ability to leap forward"
+    ]
+  },
+  "36": {
+    "slow": 0,
+    "name": "Medium hammer",
+    "move": 81,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 1680,
+    "skin": "monsterA13",
+    "drop": 20,
+    "quality": 3,
+    "id": 36,
+    "def": 30,
+    "desc": [
+      "Lighter armor units, also armed with a pair of hammers, are larger and do more damage"
+    ]
+  },
+  "37": {
+    "slow": 0,
+    "name": "Mini ninja",
+    "move": 71,
+    "other": [
+      1200,
+      1300,
+      0
+    ],
+    "blood": 1300,
+    "skin": "monsterD6",
+    "drop": 14,
+    "quality": 4,
+    "id": 37,
+    "def": 14,
+    "desc": [
+      "He is not tall, but he has the courage to challenge a cang mouse"
+    ]
+  },
+  "38": {
+    "slow": 0,
+    "name": "Beard old man",
+    "move": 65,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 1360,
+    "skin": "monsterC5",
+    "drop": 14,
+    "quality": 4,
+    "id": 38,
+    "def": 0,
+    "desc": [
+      "Disliking the Justice League, he launched the so-called just war and volunteered to join the opposing camp"
+    ]
+  },
+  "39": {
+    "slow": 0,
+    "name": "Red bucket",
+    "move": 65,
+    "other": [
+      1200,
+      1300,
+      0
+    ],
+    "blood": 1420,
+    "skin": "monsterA19",
+    "drop": 14,
+    "quality": 4,
+    "id": 39,
+    "def": 18,
+    "desc": [
+      "The brothers, who had never felt the warmth of their family since childhood, joined the opposition camp to make a living"
+    ]
+  },
+  "40": {
+    "slow": 10,
+    "name": "ClockworkR",
+    "move": 105,
+    "other": [
+      1100,
+      1200,
+      0
+    ],
+    "blood": 1480,
+    "skin": "monsterB10",
+    "drop": 14,
+    "quality": 4,
+    "id": 40,
+    "def": 0,
+    "desc": [
+      "Red yellow blue green clockwork one of the four sisters, the second, more agile"
+    ]
+  },
+  "41": {
+    "slow": 0,
+    "name": "Swords ninja",
+    "move": 71,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 1540,
+    "skin": "monsterA23",
+    "drop": 14,
+    "quality": 4,
+    "id": 41,
+    "def": 0,
+    "desc": [
+      "A mid-level ninja with a double sword will be able to give feedback on his combat level based on his weapons alone"
+    ]
+  },
+  "42": {
+    "slow": 0,
+    "name": "WitchR",
+    "move": 71,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 1600,
+    "skin": "monsterC9",
+    "drop": 16,
+    "quality": 4,
+    "id": 42,
+    "def": 0,
+    "desc": [
+      "She preferred her sister's white hair because she thought it was so bloody that they would run away when they approached their prey"
+    ]
+  },
+  "43": {
+    "slow": 19,
+    "name": "Blaze",
+    "move": 113,
+    "other": [
+      1000,
+      1100,
+      0
+    ],
+    "blood": 1660,
+    "skin": "monsterB3",
+    "drop": 16,
+    "quality": 4,
+    "id": 43,
+    "def": 0,
+    "desc": [
+      "The fiercer flame, terrible as it is, burns independent of the presence of oxygen"
+    ]
+  },
+  "44": {
+    "slow": 0,
+    "name": "Real warrior",
+    "move": 55,
+    "other": [
+      1200,
+      1300,
+      0
+    ],
+    "blood": 1720,
+    "skin": "monsterD8",
+    "drop": 16,
+    "quality": 4,
+    "id": 44,
+    "def": 20,
+    "desc": [
+      "Thick health and a certain armor value, slow movement"
+    ]
+  },
+  "45": {
+    "slow": 0,
+    "name": "Mummy in cloth",
+    "move": 60,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 1780,
+    "skin": "monsterA25",
+    "drop": 16,
+    "quality": 4,
+    "id": 45,
+    "def": 0,
+    "desc": [
+      "Like cloth art, more like sewing, in fact, it is more like a doll"
+    ]
+  },
+  "46": {
+    "slow": 0,
+    "name": "Blue hat mage",
+    "move": 71,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 1840,
+    "skin": "monsterA30",
+    "drop": 16,
+    "quality": 4,
+    "id": 46,
+    "def": 0,
+    "desc": [
+      "A common feature of mages like this is that they are mostly self-taught magics, and are less willing to engage in academic exchanges, so their skills are uneven"
+    ]
+  },
+  "47": {
+    "slow": 0,
+    "name": "Red reindeer",
+    "move": 71,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 1900,
+    "skin": "monsterA33",
+    "drop": 16,
+    "quality": 4,
+    "id": 47,
+    "def": 0,
+    "desc": [
+      "There is only one day of the year at Christmas, and thanks to Santa's preference, the red reindeer have a relatively easy life"
+    ]
+  },
+  "48": {
+    "slow": 0,
+    "name": "Wizard grandma",
+    "move": 71,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 1960,
+    "skin": "monsterC11",
+    "drop": 16,
+    "quality": 4,
+    "id": 48,
+    "def": 0,
+    "desc": [
+      "Although it is self-taught witchcraft, but she has no reservations to teach little Red Riding Hood sisters"
+    ]
+  },
+  "49": {
+    "slow": 0,
+    "name": "Sword mummy",
+    "move": 71,
+    "other": [
+      1200,
+      1300,
+      0
+    ],
+    "blood": 2020,
+    "skin": "monsterA34",
+    "drop": 18,
+    "quality": 4,
+    "id": 49,
+    "def": 12,
+    "desc": [
+      "The long sword in the hand of the warrior guarding the underground palace reveals a mysterious atmosphere"
+    ]
+  },
+  "50": {
+    "slow": 0,
+    "name": "Red hat mage",
+    "move": 71,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 2080,
+    "skin": "monsterA24",
+    "drop": 18,
+    "quality": 4,
+    "id": 50,
+    "def": 0,
+    "desc": [
+      "As an old master, he still has a huge obsession in his heart, eager to radiate his own light and heat"
+    ]
+  },
+  "51": {
+    "slow": 19,
+    "name": "Large bat",
+    "move": 131,
+    "other": [
+      900,
+      1000,
+      0
+    ],
+    "blood": 2140,
+    "skin": "monsterB6",
+    "drop": 18,
+    "quality": 4,
+    "id": 51,
+    "def": 0,
+    "desc": [
+      "Compared to small bats, large bats are huge and abundant. Six large bats can eat an entire sheep at a time"
+    ]
+  },
+  "52": {
+    "slow": 0,
+    "name": "Gold Skeleton",
+    "move": 60,
+    "other": [
+      1300,
+      1400,
+      0
+    ],
+    "blood": 2200,
+    "skin": "monsterD4",
+    "drop": 18,
+    "quality": 4,
+    "id": 52,
+    "def": 34,
+    "desc": [
+      "The guards and overseers of the mine, who oppressed the miners, were not very effective"
+    ]
+  },
+  "53": {
+    "slow": 0,
+    "name": "Evil Mummy",
+    "move": 71,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 2260,
+    "skin": "monsterA35",
+    "drop": 18,
+    "quality": 4,
+    "id": 53,
+    "def": 0,
+    "desc": [
+      "The contaminated mummy, which carries an ancient curse, keeps ordinary people away from him"
+    ]
+  },
+  "54": {
+    "slow": 0,
+    "name": "Spear stone",
+    "move": 65,
+    "other": [
+      1300,
+      1400,
+      0
+    ],
+    "blood": 2320,
+    "skin": "monsterC13",
+    "drop": 18,
+    "quality": 4,
+    "id": 54,
+    "def": 32,
+    "desc": [
+      "Warriors in the caves, armed with spears, guard the coveted and countless treasures"
+    ]
+  },
+  "55": {
+    "slow": 0,
+    "name": "Wooden guard",
+    "move": 71,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 2380,
+    "skin": "monsterC1",
+    "drop": 18,
+    "quality": 4,
+    "id": 55,
+    "def": 24,
+    "desc": [
+      "Small wooden stake's brother, always miss, his brother is being bullied, but because of work, but too busy to care"
+    ]
+  },
+  "56": {
+    "slow": 0,
+    "name": "Clown actor",
+    "move": 71,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 2440,
+    "skin": "monsterA21",
+    "drop": 18,
+    "quality": 4,
+    "id": 56,
+    "def": 0,
+    "desc": [
+      "Lonely performer, always bring joy to everyone, at the beginning he liked, a single performance repeated, who would have been unbearable"
+    ]
+  },
+  "57": {
+    "slow": 0,
+    "name": "Guarding",
+    "move": 71,
+    "other": [
+      1300,
+      1400,
+      0
+    ],
+    "blood": 2500,
+    "skin": "monsterD13",
+    "drop": 20,
+    "quality": 4,
+    "id": 57,
+    "def": 38,
+    "desc": [
+      "Bodyguards of the Gold King, responsible for guarding the perimeter and loyal to the Gold King"
+    ]
+  },
+  "58": {
+    "slow": 16,
+    "name": "Adult dragon",
+    "move": 73,
+    "other": [
+      1900,
+      2400,
+      4
+    ],
+    "blood": 2580,
+    "skin": "monsterA29",
+    "drop": 48,
+    "quality": 4,
+    "id": 58,
+    "def": 12,
+    "desc": [
+      "An adult dragon, a distant relative of the dragon race, has a noble aura in his bones, so be careful when he makes a dash"
+    ]
+  },
+  "59": {
+    "slow": 0,
+    "name": "Skeleton puppet",
+    "move": 71,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 2660,
+    "skin": "monsterA31",
+    "drop": 20,
+    "quality": 4,
+    "id": 59,
+    "def": 12,
+    "desc": [
+      "He preside over the sacrifices of the evil faction, but he has no soul, and to others, he is more like a tool for accepting death"
+    ]
+  },
+  "60": {
+    "slow": 0,
+    "name": "Gold EF",
+    "move": 65,
+    "other": [
+      1300,
+      1400,
+      0
+    ],
+    "blood": 2740,
+    "skin": "monsterD18",
+    "drop": 22,
+    "quality": 4,
+    "id": 60,
+    "def": 48,
+    "desc": [
+      "The gold King's former submariner who launched the slaughter, so it must be a place where there's no grass, no howling"
+    ]
+  },
+  "61": {
+    "slow": 0,
+    "name": "Primary ninja",
+    "move": 83,
+    "other": [
+      1200,
+      1300,
+      0
+    ],
+    "blood": 2200,
+    "skin": "monsterD7",
+    "drop": 16,
+    "quality": 5,
+    "id": 61,
+    "def": 20,
+    "desc": [
+      "Generally, he was reluctant to admit that he had met a mini ninja and considered himself a real ninja"
+    ]
+  },
+  "62": {
+    "slow": 12,
+    "name": "ClockworkG",
+    "move": 109,
+    "other": [
+      1000,
+      1100,
+      0
+    ],
+    "blood": 2380,
+    "skin": "monsterB11",
+    "drop": 16,
+    "quality": 5,
+    "id": 62,
+    "def": 0,
+    "desc": [
+      "The most powerful clockwork, moving fast, and with a certain deceleration immunity"
+    ]
+  },
+  "63": {
+    "slow": 0,
+    "name": "MageY",
+    "move": 71,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 2560,
+    "skin": "monsterC6",
+    "drop": 16,
+    "quality": 5,
+    "id": 63,
+    "def": 0,
+    "desc": [
+      "The yellow robe is a symbol of respect and power"
+    ]
+  },
+  "64": {
+    "slow": 0,
+    "name": "Black bucket",
+    "move": 65,
+    "other": [
+      1200,
+      1300,
+      0
+    ],
+    "blood": 2720,
+    "skin": "monsterA20",
+    "drop": 18,
+    "quality": 5,
+    "id": 64,
+    "def": 24,
+    "desc": [
+      "As the eldest brother of the iron tube brothers, he is extremely tough and strong in the face of difficulties, and is also deeply loved by his younger brothers"
+    ]
+  },
+  "65": {
+    "slow": 0,
+    "name": "Armored guards",
+    "move": 65,
+    "other": [
+      1300,
+      1400,
+      0
+    ],
+    "blood": 2940,
+    "skin": "monsterD9",
+    "drop": 18,
+    "quality": 5,
+    "id": 65,
+    "def": 28,
+    "desc": [
+      "The heavy armor allows him to survive longer in battle and do more damage than the average monster on the mainland"
+    ]
+  },
+  "66": {
+    "slow": 0,
+    "name": "Purple wizard",
+    "move": 71,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 3140,
+    "skin": "monsterC10",
+    "drop": 16,
+    "quality": 5,
+    "id": 66,
+    "def": 0,
+    "desc": [
+      "Of the sisters, The Purple wizard is the one who keeps a low profile and seems to be quietly studying more powerful magic"
+    ]
+  },
+  "67": {
+    "slow": 24,
+    "name": "Red bats",
+    "move": 140,
+    "other": [
+      900,
+      1000,
+      0
+    ],
+    "blood": 3280,
+    "skin": "monsterB7",
+    "drop": 18,
+    "quality": 5,
+    "id": 67,
+    "def": 0,
+    "desc": [
+      "The most powerful of the bat family, the bigger bat, is also the fastest"
+    ]
+  },
+  "68": {
+    "slow": 0,
+    "name": "Stone monsters warrior",
+    "move": 60,
+    "other": [
+      1300,
+      1400,
+      0
+    ],
+    "blood": 3560,
+    "skin": "monsterC14",
+    "drop": 18,
+    "quality": 5,
+    "id": 68,
+    "def": 38,
+    "desc": [
+      "Warriors in the caves, armed with stone sticks, guard the coveted and countless treasures"
+    ]
+  },
+  "69": {
+    "slow": 0,
+    "name": "Wooden thugs",
+    "move": 65,
+    "other": [
+      1300,
+      1400,
+      0
+    ],
+    "blood": 3780,
+    "skin": "monsterC2",
+    "drop": 20,
+    "quality": 5,
+    "id": 69,
+    "def": 34,
+    "desc": [
+      "The peg beater is more honest than the peg elf, but his brain seems to be a bit slower than others"
+    ]
+  },
+  "70": {
+    "slow": 0,
+    "name": "Skeleton warrior",
+    "move": 74,
+    "other": [
+      1300,
+      1400,
+      0
+    ],
+    "blood": 3940,
+    "skin": "monsterD5",
+    "drop": 20,
+    "quality": 5,
+    "id": 70,
+    "def": 42,
+    "desc": [
+      "The gate guard of the mine usually works in a single way, mainly responsible for the main roads outside the mine"
+    ]
+  },
+  "71": {
+    "slow": 0,
+    "name": "Cross guard",
+    "move": 55,
+    "other": [
+      1400,
+      1500,
+      0
+    ],
+    "blood": 4160,
+    "skin": "monsterD12",
+    "drop": 22,
+    "quality": 5,
+    "id": 71,
+    "def": 58,
+    "desc": [
+      "Guardian of the Gold King's palace, responsible for 72 of the Gold King's palaces throughout the land"
+    ]
+  },
+  "72": {
+    "slow": 20,
+    "name": "Dragon leader",
+    "move": 76,
+    "other": [
+      2000,
+      2600,
+      6
+    ],
+    "blood": 4240,
+    "skin": "monsterC17",
+    "drop": 60,
+    "quality": 5,
+    "id": 72,
+    "def": 20,
+    "desc": [
+      "Dragon leader, in his view, the world is not actually justice and evil points, but more just interests"
+    ]
+  },
+  "73": {
+    "slow": 12,
+    "name": "Flame knight",
+    "move": 107,
+    "other": [
+      1400,
+      1500,
+      0
+    ],
+    "blood": 4480,
+    "skin": "monsterD14",
+    "drop": 24,
+    "quality": 5,
+    "id": 73,
+    "def": 78,
+    "desc": [
+      "Master the power of evil, and can easily drive it into his own mount, wearing armor he is very agile"
+    ]
+  },
+  "74": {
+    "slow": 0,
+    "name": "Wood elves",
+    "move": 61,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 6800,
+    "skin": "monsterC4",
+    "drop": 68,
+    "quality": 6,
+    "id": 74,
+    "def": 40,
+    "desc": [
+      "Due to his larger size, the peg elf always encroaches on less food and assigns his own tasks for him to complete"
+    ]
+  },
+  "75": {
+    "slow": 0,
+    "name": "Golden trident",
+    "move": 61,
+    "other": [
+      1200,
+      1300,
+      0
+    ],
+    "blood": 7800,
+    "skin": "monsterD10",
+    "drop": 74,
+    "quality": 6,
+    "id": 75,
+    "def": 52,
+    "desc": [
+      "The golden boy's playmates, mostly from noble families, are also idlers"
+    ]
+  },
+  "76": {
+    "slow": 0,
+    "name": "Charm legion",
+    "move": 74,
+    "other": [
+      1200,
+      1300,
+      0
+    ],
+    "blood": 8800,
+    "skin": "monsterD17",
+    "drop": 78,
+    "quality": 6,
+    "id": 76,
+    "def": 62,
+    "desc": [
+      "The Army of the Mystique is dressed in pink armor, friendly but deadly, and when you start to underestimate the enemy, you've probably already lost"
+    ]
+  },
+  "77": {
+    "slow": 0,
+    "name": "Gold teenager",
+    "move": 70,
+    "other": [
+      1300,
+      1400,
+      0
+    ],
+    "blood": 11200,
+    "skin": "monsterD11",
+    "drop": 84,
+    "quality": 6,
+    "id": 77,
+    "def": 72,
+    "desc": [
+      "More like a dandy in the evil camp, a loafer who likes to dress himself up more like a samurai than anyone dares to mess with"
+    ]
+  },
+  "78": {
+    "slow": 0,
+    "name": "Blademaster",
+    "move": 72,
+    "other": [
+      1300,
+      1400,
+      0
+    ],
+    "blood": 10000,
+    "skin": "monsterC15",
+    "drop": 90,
+    "quality": 6,
+    "id": 78,
+    "def": 76,
+    "desc": [
+      "Double sword Saint, since the witch queen left, all day long with swords, it is said that one of the knives engraved with the name of the beloved, and anyone who saw this word must have died under the sword, so it is impossible to verify the truth of this rumor"
+    ]
+  },
+  "79": {
+    "slow": 15,
+    "name": "Flame paladin",
+    "move": 107,
+    "other": [
+      1400,
+      1500,
+      0
+    ],
+    "blood": 12680,
+    "skin": "monsterD15",
+    "drop": 128,
+    "quality": 6,
+    "id": 79,
+    "def": 88,
+    "desc": [
+      "The higher order of knights of fire, every paladin of fire, is one of a thousand knights of fire"
+    ]
+  },
+  "80": {
+    "slow": 32,
+    "name": "Witch queen",
+    "move": 92,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 18880,
+    "skin": "monsterC16",
+    "drop": 158,
+    "quality": 7,
+    "id": 80,
+    "def": 46,
+    "desc": [
+      "The witch Queen, originally a couple with the Double Sword Kensei, chose to go to the witch Mountain alone in order to practice higher witchcraft, and the title of queen is just a title"
+    ]
+  },
+  "81": {
+    "slow": 0,
+    "name": "Cross guard",
+    "move": 65,
+    "other": [
+      1150,
+      1250,
+      0
+    ],
+    "blood": 16660,
+    "skin": "monsterD16",
+    "drop": 188,
+    "quality": 7,
+    "id": 81,
+    "def": 120,
+    "desc": [
+      "The king of Gold's own men, whose titles have been handed down from generation to generation, are everywhere he goes"
+    ]
+  },
+  "501": {
+    "slow": 15,
+    "name": "Gold car",
+    "move": 71,
+    "other": [
+      1250,
+      1450,
+      0
+    ],
+    "blood": 2500,
+    "skin": "monsterX31",
+    "drop": 32,
+    "quality": 11,
+    "id": 501,
+    "def": 0,
+    "desc": [
+      "Drop gold"
+    ]
+  },
+  "502": {
+    "slow": 15,
+    "name": "Gold car",
+    "move": 68,
+    "other": [
+      1250,
+      1450,
+      0
+    ],
+    "blood": 5000,
+    "skin": "monsterX31",
+    "drop": 36,
+    "quality": 11,
+    "id": 502,
+    "def": 15,
+    "desc": [
+      "Drop gold"
+    ]
+  },
+  "503": {
+    "slow": 15,
+    "name": "Gold car",
+    "move": 65,
+    "other": [
+      1250,
+      1450,
+      0
+    ],
+    "blood": 7500,
+    "skin": "monsterX31",
+    "drop": 40,
+    "quality": 11,
+    "id": 503,
+    "def": 25,
+    "desc": [
+      "Drop gold"
+    ]
+  },
+  "504": {
+    "slow": 15,
+    "name": "Gold car",
+    "move": 63,
+    "other": [
+      1250,
+      1450,
+      0
+    ],
+    "blood": 11000,
+    "skin": "monsterX31",
+    "drop": 44,
+    "quality": 11,
+    "id": 504,
+    "def": 35,
+    "desc": [
+      "Drop gold"
+    ]
+  },
+  "505": {
+    "slow": 15,
+    "name": "Gold car",
+    "move": 61,
+    "other": [
+      1250,
+      1450,
+      0
+    ],
+    "blood": 15000,
+    "skin": "monsterX31",
+    "drop": 48,
+    "quality": 11,
+    "id": 505,
+    "def": 50,
+    "desc": [
+      "Drop gold"
+    ]
+  },
+  "601": {
+    "slow": 0,
+    "name": "Diamond car",
+    "move": 30,
+    "other": [
+      1150,
+      1250,
+      4
+    ],
+    "blood": 0,
+    "skin": "monsterX61",
+    "drop": 0,
+    "quality": 12,
+    "id": 601,
+    "def": 15,
+    "desc": [
+      "Diamond shipping"
+    ]
+  },
+  "602": {
+    "slow": 0,
+    "name": "Diamond car",
+    "move": 30,
+    "other": [
+      1150,
+      1250,
+      4
+    ],
+    "blood": 0,
+    "skin": "monsterX61",
+    "drop": 0,
+    "quality": 12,
+    "id": 602,
+    "def": 25,
+    "desc": [
+      "Diamond shipping"
+    ]
+  },
+  "603": {
+    "slow": 0,
+    "name": "Diamond car",
+    "move": 30,
+    "other": [
+      1150,
+      1250,
+      4
+    ],
+    "blood": 0,
+    "skin": "monsterX61",
+    "drop": 0,
+    "quality": 12,
+    "id": 603,
+    "def": 40,
+    "desc": [
+      "Diamond shipping"
+    ]
+  },
+  "604": {
+    "slow": 0,
+    "name": "Diamond car",
+    "move": 30,
+    "other": [
+      1150,
+      1250,
+      4
+    ],
+    "blood": 0,
+    "skin": "monsterX61",
+    "drop": 0,
+    "quality": 12,
+    "id": 604,
+    "def": 60,
+    "desc": [
+      "Diamond shipping"
+    ]
+  },
+  "605": {
+    "slow": 0,
+    "name": "Diamond car",
+    "move": 30,
+    "other": [
+      1150,
+      1250,
+      4
+    ],
+    "blood": 0,
+    "skin": "monsterX61",
+    "drop": 0,
+    "quality": 12,
+    "id": 605,
+    "def": 80,
+    "desc": [
+      "Diamond shipping"
+    ]
+  },
+  "701": {
+    "slow": 0,
+    "name": "Fragment car",
+    "move": 45,
+    "other": [],
+    "blood": 0,
+    "skin": "monsterX1",
+    "drop": 0,
+    "quality": 9,
+    "id": 701,
+    "def": 30,
+    "desc": [
+      "Drop fragment"
+    ]
+  },
+  "702": {
+    "slow": 0,
+    "name": "Fragment car",
+    "move": 45,
+    "other": [],
+    "blood": 0,
+    "skin": "monsterX2",
+    "drop": 0,
+    "quality": 9,
+    "id": 702,
+    "def": 42,
+    "desc": [
+      "Drop fragment"
+    ]
+  },
+  "703": {
+    "slow": 0,
+    "name": "Fragment car",
+    "move": 45,
+    "other": [],
+    "blood": 0,
+    "skin": "monsterX3",
+    "drop": 0,
+    "quality": 9,
+    "id": 703,
+    "def": 60,
+    "desc": [
+      "Drop fragment"
+    ]
+  },
+  "704": {
+    "slow": 0,
+    "name": "Fragment car",
+    "move": 45,
+    "other": [],
+    "blood": 0,
+    "skin": "monsterX4",
+    "drop": 0,
+    "quality": 9,
+    "id": 704,
+    "def": 50,
+    "desc": [
+      "Drop fragment"
+    ]
+  },
+  "705": {
+    "slow": 0,
+    "name": "Fragment car",
+    "move": 45,
+    "other": [],
+    "blood": 0,
+    "skin": "monsterX5",
+    "drop": 0,
+    "quality": 9,
+    "id": 705,
+    "def": 60,
+    "desc": [
+      "Drop fragment"
+    ]
+  },
+  "706": {
+    "slow": 0,
+    "name": "Fragment car",
+    "move": 45,
+    "other": [],
+    "blood": 0,
+    "skin": "monsterX6",
+    "drop": 0,
+    "quality": 9,
+    "id": 706,
+    "def": 50,
+    "desc": [
+      "Drop fragment"
+    ]
+  },
+  "707": {
+    "slow": 0,
+    "name": "Fragment car",
+    "move": 45,
+    "other": [],
+    "blood": 0,
+    "skin": "monsterX7",
+    "drop": 0,
+    "quality": 9,
+    "id": 707,
+    "def": 80,
+    "desc": [
+      "Drop fragment"
+    ]
+  },
+  "708": {
+    "slow": 0,
+    "name": "Fragment car",
+    "move": 45,
+    "other": [],
+    "blood": 0,
+    "skin": "monsterX8",
+    "drop": 0,
+    "quality": 9,
+    "id": 708,
+    "def": 100,
+    "desc": [
+      "Drop fragment"
+    ]
+  },
+  "901": {
+    "slow": 15,
+    "name": "Crazy big head",
+    "move": 85,
+    "other": [
+      1250,
+      1450,
+      0
+    ],
+    "blood": 1180,
+    "skin": "monsterC12",
+    "drop": 360,
+    "quality": 9,
+    "id": 901,
+    "def": 50,
+    "desc": [
+      "He has a short temper and a very loose style, but he is also unstable"
+    ]
+  },
+  "902": {
+    "slow": 12,
+    "name": "Honest bear two",
+    "move": 55,
+    "other": [
+      1250,
+      1450,
+      0
+    ],
+    "blood": 1280,
+    "skin": "monsterX1",
+    "drop": 500,
+    "quality": 9,
+    "id": 902,
+    "def": 80,
+    "desc": [
+      "Simple and honest appearance, easy to deceive people's eyes, so that often underestimate his combat effectiveness, need special attention"
+    ]
+  },
+  "903": {
+    "slow": 10,
+    "name": "Skeleton King",
+    "move": 55,
+    "other": [
+      1250,
+      1450,
+      0
+    ],
+    "blood": 1680,
+    "skin": "monsterX2",
+    "drop": 500,
+    "quality": 9,
+    "id": 903,
+    "def": 160,
+    "desc": [
+      "Composed of many skulls summoned by the King of Gold, representing death and fear"
+    ]
+  },
+  "904": {
+    "slow": 10,
+    "name": "Giant stump",
+    "move": 53,
+    "other": [
+      1250,
+      1450,
+      0
+    ],
+    "blood": 1980,
+    "skin": "monsterX3",
+    "drop": 500,
+    "quality": 9,
+    "id": 904,
+    "def": 100,
+    "desc": [
+      "An evil force in the forest, the stump giant is eighteen feet tall and eighteen feet girth, like a giant bucket"
+    ]
+  },
+  "905": {
+    "slow": 30,
+    "name": "Medusa",
+    "move": 55,
+    "other": [
+      1250,
+      1450,
+      0
+    ],
+    "blood": 2280,
+    "skin": "monsterX4",
+    "drop": 500,
+    "quality": 9,
+    "id": 905,
+    "def": 100,
+    "desc": [
+      "Medusa, the gold King's confidant, will be the first to do many tasks that are difficult to describe"
+    ]
+  },
+  "906": {
+    "slow": 10,
+    "name": "Ironclad giant",
+    "move": 49,
+    "other": [
+      1250,
+      1450,
+      0
+    ],
+    "blood": 2580,
+    "skin": "monsterX5",
+    "drop": 500,
+    "quality": 9,
+    "id": 906,
+    "def": 228,
+    "desc": [
+      "The ironclad giant, after being burned by Venerable, was so badly wounded that he never came out of the ironclad and promised to avenge his death"
+    ]
+  },
+  "907": {
+    "slow": 14,
+    "name": "King of the snowman",
+    "move": 54,
+    "other": [
+      1250,
+      1450,
+      0
+    ],
+    "blood": 2880,
+    "skin": "monsterX6",
+    "drop": 500,
+    "quality": 9,
+    "id": 907,
+    "def": 90,
+    "desc": [
+      "Lord of the Snow Kingdom, a relatively early convert to the King of Gold, one of the three patriarchs of the evil camp"
+    ]
+  },
+  "908": {
+    "slow": 10,
+    "name": "Giant rock",
+    "move": 48,
+    "other": [
+      1250,
+      1450,
+      0
+    ],
+    "blood": 3280,
+    "skin": "monsterX7",
+    "drop": 500,
+    "quality": 9,
+    "id": 908,
+    "def": 288,
+    "desc": [
+      "Originating in ancient times, the Skystone came to life after being spiritually infused by the King of Gold"
+    ]
+  },
+  "909": {
+    "slow": 25,
+    "name": "Steam mecha",
+    "move": 52,
+    "other": [
+      1250,
+      1450,
+      0
+    ],
+    "blood": 3680,
+    "skin": "monsterX8",
+    "drop": 500,
+    "quality": 9,
+    "id": 909,
+    "def": 300,
+    "desc": [
+      "Advanced steam powered machine warriors developed by the Evil Faction, with 12 different control members"
+    ]
+  },
+  "910": {
+    "slow": 30,
+    "name": "king of the gold",
+    "move": 56,
+    "other": [
+      1250,
+      1450,
+      0
+    ],
+    "blood": 4080,
+    "skin": "monsterD19",
+    "drop": 500,
+    "quality": 9,
+    "id": 910,
+    "def": 260,
+    "desc": [
+      "The leader of the evil camp, the face of a brutal dictatorship, controls more than 70% of the continent's mineral resources;  One theory is that the Justice League's real purpose is to take the mines"
+    ]
+  },
+  "1001": {
+    "slow": 0,
+    "name": "",
+    "move": 0,
+    "other": [],
+    "blood": 0,
+    "skin": "stand1001",
+    "drop": 0,
+    "quality": 0,
+    "id": 1001,
+    "def": 0,
+    "desc": []
+  },
+  "1002": {
+    "slow": 0,
+    "name": "",
+    "move": 0,
+    "other": [],
+    "blood": 0,
+    "skin": "stand1002",
+    "drop": 0,
+    "quality": 0,
+    "id": 1002,
+    "def": 0,
+    "desc": []
+  },
+  "1003": {
+    "slow": 0,
+    "name": "",
+    "move": 0,
+    "other": [],
+    "blood": 0,
+    "skin": "stand1003",
+    "drop": 0,
+    "quality": 0,
+    "id": 1003,
+    "def": 0,
+    "desc": []
+  },
+  "1004": {
+    "slow": 0,
+    "name": "",
+    "move": 0,
+    "other": [],
+    "blood": 0,
+    "skin": "",
+    "drop": 0,
+    "quality": 0,
+    "id": 1004,
+    "def": 0,
+    "desc": []
+  },
+  "1005": {
+    "slow": 0,
+    "name": "",
+    "move": 0,
+    "other": [],
+    "blood": 0,
+    "skin": "",
+    "drop": 0,
+    "quality": 0,
+    "id": 1005,
+    "def": 0,
+    "desc": []
+  },
+  "1101": {
+    "slow": 22,
+    "name": "Based on the props",
+    "move": 18,
+    "other": [],
+    "blood": 650,
+    "skin": "stand1101",
+    "drop": 60,
+    "quality": 0,
+    "id": 1101,
+    "def": 0,
+    "desc": []
+  },
+  "1102": {
+    "slow": 27,
+    "name": "",
+    "move": 19,
+    "other": [],
+    "blood": 850,
+    "skin": "stand1102",
+    "drop": 70,
+    "quality": 0,
+    "id": 1102,
+    "def": 0,
+    "desc": []
+  },
+  "1103": {
+    "slow": 32,
+    "name": "",
+    "move": 20,
+    "other": [],
+    "blood": 1070,
+    "skin": "stand1103",
+    "drop": 80,
+    "quality": 0,
+    "id": 1103,
+    "def": 0,
+    "desc": []
+  },
+  "1104": {
+    "slow": 38,
+    "name": "",
+    "move": 20,
+    "other": [],
+    "blood": 1340,
+    "skin": "stand1104",
+    "drop": 90,
+    "quality": 0,
+    "id": 1104,
+    "def": 0,
+    "desc": []
+  },
+  "1105": {
+    "slow": 27,
+    "name": "",
+    "move": 21,
+    "other": [],
+    "blood": 1740,
+    "skin": "stand1105",
+    "drop": 75,
+    "quality": 0,
+    "id": 1105,
+    "def": 0,
+    "desc": []
+  },
+  "1106": {
+    "slow": 32,
+    "name": "",
+    "move": 21,
+    "other": [],
+    "blood": 2250,
+    "skin": "stand1106",
+    "drop": 88,
+    "quality": 0,
+    "id": 1106,
+    "def": 0,
+    "desc": []
+  },
+  "1107": {
+    "slow": 37,
+    "name": "",
+    "move": 22,
+    "other": [],
+    "blood": 2850,
+    "skin": "stand1107",
+    "drop": 100,
+    "quality": 0,
+    "id": 1107,
+    "def": 0,
+    "desc": []
+  },
+  "1108": {
+    "slow": 39,
+    "name": "",
+    "move": 22,
+    "other": [],
+    "blood": 2400,
+    "skin": "stand1108",
+    "drop": 105,
+    "quality": 0,
+    "id": 1108,
+    "def": 0,
+    "desc": []
+  },
+  "1109": {
+    "slow": 46,
+    "name": "",
+    "move": 23,
+    "other": [],
+    "blood": 2680,
+    "skin": "stand1109",
+    "drop": 120,
+    "quality": 0,
+    "id": 1109,
+    "def": 0,
+    "desc": []
+  },
+  "1110": {
+    "slow": 53,
+    "name": "",
+    "move": 23,
+    "other": [],
+    "blood": 3250,
+    "skin": "stand1110",
+    "drop": 140,
+    "quality": 0,
+    "id": 1110,
+    "def": 0,
+    "desc": []
+  },
+  "1111": {
+    "slow": 55,
+    "name": "",
+    "move": 24,
+    "other": [],
+    "blood": 3250,
+    "skin": "stand1111",
+    "drop": 140,
+    "quality": 0,
+    "id": 1111,
+    "def": 0,
+    "desc": []
+  },
+  "1112": {
+    "slow": 62,
+    "name": "",
+    "move": 24,
+    "other": [],
+    "blood": 3900,
+    "skin": "stand1112",
+    "drop": 160,
+    "quality": 0,
+    "id": 1112,
+    "def": 0,
+    "desc": []
+  },
+  "1113": {
+    "slow": 72,
+    "name": "",
+    "move": 26,
+    "other": [],
+    "blood": 4550,
+    "skin": "stand1113",
+    "drop": 180,
+    "quality": 0,
+    "id": 1113,
+    "def": 0,
+    "desc": []
+  },
+  "1114": {
+    "slow": 80,
+    "name": "",
+    "move": 26,
+    "other": [],
+    "blood": 3060,
+    "skin": "stand1114",
+    "drop": 200,
+    "quality": 0,
+    "id": 1114,
+    "def": 0,
+    "desc": []
+  },
+  "1115": {
+    "slow": 90,
+    "name": "",
+    "move": 28,
+    "other": [],
+    "blood": 5850,
+    "skin": "stand1115",
+    "drop": 220,
+    "quality": 0,
+    "id": 1115,
+    "def": 0,
+    "desc": []
+  },
+  "1116": {
+    "slow": 74,
+    "name": "",
+    "move": 28,
+    "other": [],
+    "blood": 4550,
+    "skin": "stand1116",
+    "drop": 180,
+    "quality": 0,
+    "id": 1116,
+    "def": 0,
+    "desc": []
+  },
+  "1117": {
+    "slow": 84,
+    "name": "",
+    "move": 30,
+    "other": [],
+    "blood": 5200,
+    "skin": "stand1117",
+    "drop": 200,
+    "quality": 0,
+    "id": 1117,
+    "def": 0,
+    "desc": []
+  },
+  "1118": {
+    "slow": 92,
+    "name": "",
+    "move": 30,
+    "other": [],
+    "blood": 5850,
+    "skin": "stand1118",
+    "drop": 220,
+    "quality": 0,
+    "id": 1118,
+    "def": 0,
+    "desc": []
+  },
+  "1119": {
+    "slow": 103,
+    "name": "",
+    "move": 33,
+    "other": [],
+    "blood": 3900,
+    "skin": "stand1119",
+    "drop": 240,
+    "quality": 0,
+    "id": 1119,
+    "def": 0,
+    "desc": []
+  },
+  "1120": {
+    "slow": 0,
+    "name": "",
+    "move": 0,
+    "other": [],
+    "blood": 8800,
+    "skin": "stand1120",
+    "drop": 460,
+    "quality": 0,
+    "id": 1120,
+    "def": 0,
+    "desc": []
+  },
+  "1201": {
+    "slow": 66,
+    "name": "",
+    "move": 26,
+    "other": [],
+    "blood": 3200,
+    "skin": "stand1201",
+    "drop": 170,
+    "quality": 0,
+    "id": 1201,
+    "def": 0,
+    "desc": []
+  },
+  "1202": {
+    "slow": 84,
+    "name": "",
+    "move": 28,
+    "other": [],
+    "blood": 4000,
+    "skin": "stand1202",
+    "drop": 210,
+    "quality": 0,
+    "id": 1202,
+    "def": 0,
+    "desc": []
+  },
+  "1203": {
+    "slow": 105,
+    "name": "",
+    "move": 30,
+    "other": [],
+    "blood": 4600,
+    "skin": "stand1203",
+    "drop": 260,
+    "quality": 0,
+    "id": 1203,
+    "def": 0,
+    "desc": []
+  },
+  "1204": {
+    "slow": 88,
+    "name": "",
+    "move": 32,
+    "other": [],
+    "blood": 5850,
+    "skin": "stand1204",
+    "drop": 215,
+    "quality": 0,
+    "id": 1204,
+    "def": 0,
+    "desc": []
+  },
+  "1205": {
+    "slow": 108,
+    "name": "",
+    "move": 34,
+    "other": [],
+    "blood": 7800,
+    "skin": "stand1205",
+    "drop": 260,
+    "quality": 0,
+    "id": 1205,
+    "def": 0,
+    "desc": []
+  },
+  "1206": {
+    "slow": 122,
+    "name": "",
+    "move": 36,
+    "other": [],
+    "blood": 5000,
+    "skin": "stand1206",
+    "drop": 290,
+    "quality": 0,
+    "id": 1206,
+    "def": 0,
+    "desc": []
+  },
+  "1207": {
+    "slow": 132,
+    "name": "",
+    "move": 38,
+    "other": [],
+    "blood": 5700,
+    "skin": "stand1207",
+    "drop": 310,
+    "quality": 0,
+    "id": 1207,
+    "def": 0,
+    "desc": []
+  },
+  "1208": {
+    "slow": 129,
+    "name": "",
+    "move": 40,
+    "other": [],
+    "blood": 6000,
+    "skin": "stand1208",
+    "drop": 300,
+    "quality": 0,
+    "id": 1208,
+    "def": 0,
+    "desc": []
+  },
+  "1209": {
+    "slow": 144,
+    "name": "",
+    "move": 42,
+    "other": [],
+    "blood": 6500,
+    "skin": "stand1209",
+    "drop": 330,
+    "quality": 0,
+    "id": 1209,
+    "def": 0,
+    "desc": []
+  },
+  "1210": {
+    "slow": 158,
+    "name": "",
+    "move": 44,
+    "other": [],
+    "blood": 7000,
+    "skin": "stand1210",
+    "drop": 360,
+    "quality": 0,
+    "id": 1210,
+    "def": 0,
+    "desc": []
+  },
+  "1301": {
+    "slow": 90,
+    "name": "",
+    "move": 34,
+    "other": [],
+    "blood": 6300,
+    "skin": "stand1301",
+    "drop": 220,
+    "quality": 0,
+    "id": 1301,
+    "def": 0,
+    "desc": []
+  },
+  "1302": {
+    "slow": 129,
+    "name": "",
+    "move": 36,
+    "other": [],
+    "blood": 9100,
+    "skin": "stand1302",
+    "drop": 300,
+    "quality": 0,
+    "id": 1302,
+    "def": 0,
+    "desc": []
+  },
+  "1401": {
+    "slow": 126,
+    "name": "",
+    "move": 30,
+    "other": [],
+    "blood": 0,
+    "skin": "stand1401",
+    "drop": 315,
+    "quality": 0,
+    "id": 1401,
+    "def": 0,
+    "desc": []
+  },
+  "1402": {
+    "slow": 141,
+    "name": "",
+    "move": 33,
+    "other": [],
+    "blood": 0,
+    "skin": "stand1402",
+    "drop": 345,
+    "quality": 0,
+    "id": 1402,
+    "def": 0,
+    "desc": []
+  },
+  "1403": {
+    "slow": 151,
+    "name": "",
+    "move": 35,
+    "other": [],
+    "blood": 16900,
+    "skin": "stand1403",
+    "drop": 360,
+    "quality": 0,
+    "id": 1403,
+    "def": 0,
+    "desc": []
+  },
+  "1404": {
+    "slow": 172,
+    "name": "",
+    "move": 37,
+    "other": [],
+    "blood": 0,
+    "skin": "stand1404",
+    "drop": 400,
+    "quality": 0,
+    "id": 1404,
+    "def": 0,
+    "desc": []
+  },
+  "1405": {
+    "slow": 189,
+    "name": "",
+    "move": 38,
+    "other": [],
+    "blood": 0,
+    "skin": "stand1405",
+    "drop": 440,
+    "quality": 0,
+    "id": 1405,
+    "def": 0,
+    "desc": []
+  },
+  "1406": {
+    "slow": 202,
+    "name": "",
+    "move": 42,
+    "other": [],
+    "blood": 0,
+    "skin": "stand1406",
+    "drop": 460,
+    "quality": 0,
+    "id": 1406,
+    "def": 0,
+    "desc": []
+  },
+  "1407": {
+    "slow": 216,
+    "name": "",
+    "move": 45,
+    "other": [],
+    "blood": 0,
+    "skin": "stand1407",
+    "drop": 480,
+    "quality": 0,
+    "id": 1407,
+    "def": 0,
+    "desc": []
+  },
+  "1408": {
+    "slow": 223,
+    "name": "",
+    "move": 48,
+    "other": [],
+    "blood": 0,
+    "skin": "stand1408",
+    "drop": 495,
+    "quality": 0,
+    "id": 1408,
+    "def": 0,
+    "desc": []
+  },
+  "1409": {
+    "slow": 235,
+    "name": "",
+    "move": 52,
+    "other": [],
+    "blood": 0,
+    "skin": "stand1409",
+    "drop": 510,
+    "quality": 0,
+    "id": 1409,
+    "def": 0,
+    "desc": []
+  },
+  "1410": {
+    "slow": 244,
+    "name": "",
+    "move": 54,
+    "other": [],
+    "blood": 0,
+    "skin": "stand1410",
+    "drop": 530,
+    "quality": 0,
+    "id": 1410,
+    "def": 0,
+    "desc": []
+  }
+}

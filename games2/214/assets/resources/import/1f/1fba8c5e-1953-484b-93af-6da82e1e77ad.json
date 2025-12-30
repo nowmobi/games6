@@ -1,0 +1,183 @@
+[
+  1,
+  [
+    "f5gd+vOexL/Z2Lwj7YJMoD",
+    "44/J/tbERJEI8b0/6m4uB9"
+  ],
+  [
+    "value"
+  ],
+  [
+    [
+      "cc.AnimationClip",
+      [
+        "_name",
+        "_duration",
+        "wrapMode",
+        "curveData"
+      ],
+      0,
+      11
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  ],
+  [
+    [
+      0,
+      "Hint_effects",
+      0.7666666666666667,
+      2,
+      [
+        {},
+        "paths",
+        11,
+        [
+          {
+            "effect/blow": {
+              "props": {
+                "scaleX": [
+                  {
+                    "frame": 0,
+                    "value": 0.41,
+                    "curve": "cubicOut"
+                  },
+                  {
+                    "frame": 0.7666666666666667,
+                    "value": 1
+                  }
+                ],
+                "scaleY": [
+                  {
+                    "frame": 0,
+                    "value": 0.41,
+                    "curve": "cubicOut"
+                  },
+                  {
+                    "frame": 0.7666666666666667,
+                    "value": 1
+                  }
+                ],
+                "opacity": [
+                  {
+                    "frame": 0,
+                    "value": 180
+                  },
+                  {
+                    "frame": 0.7666666666666667,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            "effect/blow02": {
+              "props": {
+                "scaleX": [
+                  {
+                    "frame": 0.03333333333333333,
+                    "value": 0.35,
+                    "curve": "cubicOut"
+                  },
+                  {
+                    "frame": 0.6666666666666666,
+                    "value": 1.78
+                  }
+                ],
+                "scaleY": [
+                  {
+                    "frame": 0.03333333333333333,
+                    "value": 0.35,
+                    "curve": "cubicOut"
+                  },
+                  {
+                    "frame": 0.6666666666666666,
+                    "value": 1.78
+                  }
+                ],
+                "opacity": [
+                  {
+                    "frame": 0,
+                    "value": 0
+                  },
+                  {
+                    "frame": 0.03333333333333333,
+                    "value": 0
+                  },
+                  {
+                    "frame": 0.2,
+                    "value": 200
+                  },
+                  {
+                    "frame": 0.6666666666666666,
+                    "value": 0
+                  }
+                ]
+              }
+            }
+          },
+          "finger_ani",
+          11,
+          [
+            {},
+            "comps",
+            11,
+            [
+              {},
+              "cc.Sprite",
+              11,
+              [
+                {},
+                "spriteFrame",
+                12,
+                [
+                  [
+                    [
+                      {
+                        "frame": 0
+                      },
+                      "value",
+                      6,
+                      0
+                    ],
+                    [
+                      {
+                        "frame": 0.2
+                      },
+                      "value",
+                      6,
+                      1
+                    ]
+                  ],
+                  11,
+                  11
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0,
+    0
+  ],
+  [
+    0,
+    0
+  ],
+  [
+    0,
+    1
+  ]
+]

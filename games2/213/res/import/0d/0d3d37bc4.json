@@ -1,0 +1,144 @@
+[
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "hz2",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "hz2",
+      "_level": 1,
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 1
+          },
+          "_spriteFrame": {
+            "__uuid__": "deGNEKkqlJub/DOn2QFFcS"
+          },
+          "_type": 1,
+          "_sizeMode": 0
+        },
+        {
+          "__id__": 2
+        },
+        {
+          "__type__": "a2f49i3BsRFUKDHt85zf4EX",
+          "node": {
+            "__id__": 1
+          },
+          "hzbutton": {
+            "__id__": 2
+          },
+          "hcPrefab": {
+            "__uuid__": "74WRAEYLhHzYfrRjixv8mc"
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "6dxxVvoYNPkYa0tM2ZOqfd"
+        },
+        "fileId": "85J8hSAHJAEIPQs0rm+SqT"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 160,
+        "height": 177
+      },
+      "_zIndex": 0
+    },
+    {
+      "__type__": "cc.Button",
+      "node": {
+        "__id__": 1
+      },
+      "clickEvents": [
+        {
+          "__type__": "cc.ClickEvent",
+          "target": {
+            "__id__": 1
+          },
+          "component": "ac_hzScript",
+          "handler": "onbfdh"
+        }
+      ],
+      "_N$transition": 3,
+      "transition": 3,
+      "_N$pressedColor": {
+        "__type__": "cc.Color",
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "pressedColor": {
+        "__type__": "cc.Color",
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "_N$disabledColor": {
+        "__type__": "cc.Color",
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "_N$normalSprite": {
+        "__uuid__": "4aoRUhlJ9P87v9vwTSOc3/"
+      },
+      "_N$pressedSprite": {
+        "__uuid__": "e97GVMl6JHh5Ml5qEDdSGa"
+      },
+      "pressedSprite": {
+        "__uuid__": "e97GVMl6JHh5Ml5qEDdSGa"
+      },
+      "_N$hoverSprite": {
+        "__uuid__": "e97GVMl6JHh5Ml5qEDdSGa"
+      },
+      "hoverSprite": {
+        "__uuid__": "e97GVMl6JHh5Ml5qEDdSGa"
+      },
+      "_N$disabledSprite": {
+        "__uuid__": "29FYIk+N1GYaeWH/q1NxQO"
+      },
+      "_N$target": {
+        "__id__": 1
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "xiangzi2",
+      "texture": "a6PzwyZTRHX7FFHVLt5bmZ",
+      "rect": [
+        0,
+        0,
+        151,
+        154
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        151,
+        154
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

@@ -1,0 +1,462 @@
+[
+  1,
+  [
+    "50HPoUxkRKwLlAYlOaUCZf"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "hq",
+      "\nhq.png\nsize: 396,231\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nhq1\n  rotate: false\n  xy: 309, 156\n  size: 73, 73\n  orig: 77, 76\n  offset: 2, 2\n  index: -1\nhq10\n  rotate: false\n  xy: 154, 158\n  size: 77, 71\n  orig: 81, 76\n  offset: 2, 2\n  index: -1\nhq11\n  rotate: false\n  xy: 2, 162\n  size: 73, 67\n  orig: 78, 71\n  offset: 3, 2\n  index: -1\nhq12\n  rotate: true\n  xy: 158, 82\n  size: 73, 76\n  orig: 76, 80\n  offset: 2, 2\n  index: -1\nhq13\n  rotate: true\n  xy: 78, 7\n  size: 74, 75\n  orig: 79, 78\n  offset: 3, 1\n  index: -1\nhq14\n  rotate: false\n  xy: 2, 86\n  size: 73, 74\n  orig: 78, 78\n  offset: 2, 2\n  index: -1\nhq15\n  rotate: true\n  xy: 233, 157\n  size: 72, 74\n  orig: 76, 77\n  offset: 2, 2\n  index: -1\nhq2\n  rotate: false\n  xy: 236, 80\n  size: 79, 74\n  orig: 82, 78\n  offset: 1, 3\n  index: -1\nhq3\n  rotate: false\n  xy: 77, 83\n  size: 79, 73\n  orig: 82, 77\n  offset: 2, 2\n  index: -1\nhq4\n  rotate: false\n  xy: 235, 3\n  size: 80, 75\n  orig: 84, 79\n  offset: 3, 2\n  index: -1\nhq5\n  rotate: true\n  xy: 317, 2\n  size: 76, 77\n  orig: 81, 80\n  offset: 3, 1\n  index: -1\nhq6\n  rotate: true\n  xy: 155, 5\n  size: 75, 78\n  orig: 80, 82\n  offset: 3, 2\n  index: -1\nhq7\n  rotate: false\n  xy: 317, 80\n  size: 76, 74\n  orig: 81, 77\n  offset: 2, 2\n  index: -1\nhq8\n  rotate: false\n  xy: 2, 7\n  size: 74, 74\n  orig: 78, 78\n  offset: 2, 2\n  index: -1\nhq9\n  rotate: false\n  xy: 77, 158\n  size: 75, 71\n  orig: 79, 75\n  offset: 2, 2\n  index: -1\n",
+      [
+        "hq.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "i1D1O8pznoKfzNKyiX5vO59cEXA",
+          "spine": "3.8.99",
+          "images": "./images/",
+          "audio": "D:/桌面/火球/images"
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "bone",
+            "parent": "root",
+            "length": 60.27,
+            "rotation": 90,
+            "x": -105.9,
+            "y": -8.7
+          }
+        ],
+        "slots": [
+          {
+            "name": "hq1",
+            "bone": "bone"
+          },
+          {
+            "name": "hq2",
+            "bone": "bone"
+          },
+          {
+            "name": "hq3",
+            "bone": "bone"
+          },
+          {
+            "name": "hq4",
+            "bone": "bone"
+          },
+          {
+            "name": "hq5",
+            "bone": "bone"
+          },
+          {
+            "name": "hq6",
+            "bone": "bone"
+          },
+          {
+            "name": "hq7",
+            "bone": "bone"
+          },
+          {
+            "name": "hq8",
+            "bone": "bone"
+          },
+          {
+            "name": "hq9",
+            "bone": "bone"
+          },
+          {
+            "name": "hq10",
+            "bone": "bone"
+          },
+          {
+            "name": "hq11",
+            "bone": "bone"
+          },
+          {
+            "name": "hq12",
+            "bone": "bone"
+          },
+          {
+            "name": "hq13",
+            "bone": "bone"
+          },
+          {
+            "name": "hq14",
+            "bone": "bone"
+          },
+          {
+            "name": "hq15",
+            "bone": "bone"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "hq1": {
+                "hq1": {
+                  "x": 9.2,
+                  "y": -104.45,
+                  "rotation": -90,
+                  "width": 77,
+                  "height": 76
+                }
+              },
+              "hq2": {
+                "hq2": {
+                  "x": 9.2,
+                  "y": -102.95,
+                  "rotation": -90,
+                  "width": 82,
+                  "height": 78
+                }
+              },
+              "hq3": {
+                "hq3": {
+                  "x": 10.7,
+                  "y": -101.95,
+                  "rotation": -90,
+                  "width": 82,
+                  "height": 77
+                }
+              },
+              "hq4": {
+                "hq4": {
+                  "x": 9.7,
+                  "y": -100.95,
+                  "rotation": -90,
+                  "width": 84,
+                  "height": 79
+                }
+              },
+              "hq5": {
+                "hq5": {
+                  "x": 10.2,
+                  "y": -104.45,
+                  "rotation": -90,
+                  "width": 81,
+                  "height": 80
+                }
+              },
+              "hq6": {
+                "hq6": {
+                  "x": 10.2,
+                  "y": -101.95,
+                  "rotation": -90,
+                  "width": 80,
+                  "height": 82
+                }
+              },
+              "hq7": {
+                "hq7": {
+                  "x": 8.7,
+                  "y": -102.45,
+                  "rotation": -90,
+                  "width": 81,
+                  "height": 77
+                }
+              },
+              "hq8": {
+                "hq8": {
+                  "x": 9.2,
+                  "y": -103.95,
+                  "rotation": -90,
+                  "width": 78,
+                  "height": 78
+                }
+              },
+              "hq9": {
+                "hq9": {
+                  "x": 8.7,
+                  "y": -104.45,
+                  "rotation": -90,
+                  "width": 79,
+                  "height": 75
+                }
+              },
+              "hq10": {
+                "hq10": {
+                  "x": 10.2,
+                  "y": -103.45,
+                  "rotation": -90,
+                  "width": 81,
+                  "height": 76
+                }
+              },
+              "hq11": {
+                "hq11": {
+                  "x": 9.7,
+                  "y": -104.95,
+                  "rotation": -90,
+                  "width": 78,
+                  "height": 71
+                }
+              },
+              "hq12": {
+                "hq12": {
+                  "x": 9.2,
+                  "y": -103.95,
+                  "rotation": -90,
+                  "width": 76,
+                  "height": 80
+                }
+              },
+              "hq13": {
+                "hq13": {
+                  "x": 10.2,
+                  "y": -104.45,
+                  "rotation": -90,
+                  "width": 79,
+                  "height": 78
+                }
+              },
+              "hq14": {
+                "hq14": {
+                  "x": 9.2,
+                  "y": -105.95,
+                  "rotation": -90,
+                  "width": 78,
+                  "height": 78
+                }
+              },
+              "hq15": {
+                "hq15": {
+                  "x": 8.7,
+                  "y": -104.95,
+                  "rotation": -90,
+                  "width": 76,
+                  "height": 77
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "hq": {
+            "slots": {
+              "hq1": {
+                "attachment": [
+                  {
+                    "name": "hq1"
+                  },
+                  {
+                    "time": 0.0333,
+                    "name": null
+                  }
+                ]
+              },
+              "hq2": {
+                "attachment": [
+                  {
+                    "time": 0.0333,
+                    "name": "hq2"
+                  },
+                  {
+                    "time": 0.0667,
+                    "name": null
+                  }
+                ]
+              },
+              "hq3": {
+                "attachment": [
+                  {
+                    "time": 0.0667,
+                    "name": "hq3"
+                  },
+                  {
+                    "time": 0.1,
+                    "name": null
+                  }
+                ]
+              },
+              "hq4": {
+                "attachment": [
+                  {
+                    "time": 0.1,
+                    "name": "hq4"
+                  },
+                  {
+                    "time": 0.1333,
+                    "name": null
+                  }
+                ]
+              },
+              "hq5": {
+                "attachment": [
+                  {
+                    "time": 0.1333,
+                    "name": "hq5"
+                  },
+                  {
+                    "time": 0.1667,
+                    "name": null
+                  }
+                ]
+              },
+              "hq6": {
+                "attachment": [
+                  {
+                    "time": 0.1667,
+                    "name": "hq6"
+                  },
+                  {
+                    "time": 0.2,
+                    "name": null
+                  }
+                ]
+              },
+              "hq7": {
+                "attachment": [
+                  {
+                    "time": 0.2,
+                    "name": "hq7"
+                  },
+                  {
+                    "time": 0.2333,
+                    "name": null
+                  }
+                ]
+              },
+              "hq8": {
+                "attachment": [
+                  {
+                    "time": 0.2333,
+                    "name": "hq8"
+                  },
+                  {
+                    "time": 0.2667,
+                    "name": null
+                  }
+                ]
+              },
+              "hq9": {
+                "attachment": [
+                  {
+                    "time": 0.2667,
+                    "name": "hq9"
+                  },
+                  {
+                    "time": 0.3,
+                    "name": null
+                  }
+                ]
+              },
+              "hq10": {
+                "attachment": [
+                  {
+                    "time": 0.3,
+                    "name": "hq10"
+                  },
+                  {
+                    "time": 0.3333,
+                    "name": null
+                  }
+                ]
+              },
+              "hq11": {
+                "attachment": [
+                  {
+                    "time": 0.3333,
+                    "name": "hq11"
+                  },
+                  {
+                    "time": 0.3667,
+                    "name": null
+                  }
+                ]
+              },
+              "hq12": {
+                "attachment": [
+                  {
+                    "time": 0.3667,
+                    "name": "hq12"
+                  },
+                  {
+                    "time": 0.4,
+                    "name": null
+                  }
+                ]
+              },
+              "hq13": {
+                "attachment": [
+                  {
+                    "time": 0.4,
+                    "name": "hq13"
+                  },
+                  {
+                    "time": 0.4333,
+                    "name": null
+                  }
+                ]
+              },
+              "hq14": {
+                "attachment": [
+                  {
+                    "time": 0.4333,
+                    "name": "hq14"
+                  },
+                  {
+                    "time": 0.4667,
+                    "name": null
+                  }
+                ]
+              },
+              "hq15": {
+                "attachment": [
+                  {
+                    "time": 0.4667,
+                    "name": "hq15"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

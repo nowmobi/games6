@@ -1,0 +1,552 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "task_def",
+  "json": {
+    "101": {
+      "id": 101,
+      "type": 1,
+      "lev": 1,
+      "tar": "blueCubeGoal:j38",
+      "award": "250"
+    },
+    "102": {
+      "id": 102,
+      "type": 1,
+      "lev": 2,
+      "tar": "blueCubeGoal:j4*2*lev,redCubeGoal:j5*2*lev,yellowCubeGoal:j4*2*lev,greenCubeGoal:j4*2*lev,purpleCubeGoal:j1*0.8*lev",
+      "award": "250"
+    },
+    "103": {
+      "id": 103,
+      "type": 2,
+      "lev": 2,
+      "tar": "balloonGoal:j4*2*lev,sandwichGoal:j1*1.7*lev",
+      "award": "250"
+    },
+    "104": {
+      "id": 104,
+      "type": 3,
+      "lev": 2,
+      "tar": "bubbleGoal:j14*2*lev,boxGoal:j4*1.3*lev",
+      "award": "250"
+    },
+    "105": {
+      "id": 105,
+      "type": 1,
+      "lev": 3,
+      "tar": "blueCubeGoal:j4*2*lev,redCubeGoal:j5*2*lev,yellowCubeGoal:j4*2*lev,greenCubeGoal:j4*2*lev,purpleCubeGoal:j1*0.8*lev",
+      "award": "270"
+    },
+    "106": {
+      "id": 106,
+      "type": 2,
+      "lev": 3,
+      "tar": "balloonGoal:j4*2*lev,sandwichGoal:j1*1.7*lev,cballonGoal:j3*1.4*lev",
+      "award": "270"
+    },
+    "107": {
+      "id": 107,
+      "type": 3,
+      "lev": 3,
+      "tar": "bubbleGoal:j14*2*lev,boxGoal:j4*1.3*lev",
+      "award": "270"
+    },
+    "108": {
+      "id": 108,
+      "type": 4,
+      "lev": 3,
+      "tar": "toastGoal:j4*0.65*lev",
+      "award": "270"
+    },
+    "109": {
+      "id": 109,
+      "type": 1,
+      "lev": 4,
+      "tar": "blueCubeGoal:j4*2*lev,redCubeGoal:j5*2*lev,yellowCubeGoal:j4*2*lev,greenCubeGoal:j4*2*lev,purpleCubeGoal:j1*0.8*lev",
+      "award": "325"
+    },
+    "110": {
+      "id": 110,
+      "type": 2,
+      "lev": 4,
+      "tar": "balloonGoal:j4*2*lev,sandwichGoal:j1*1.7*lev,cballonGoal:j3*1.4*lev",
+      "award": "325"
+    },
+    "111": {
+      "id": 111,
+      "type": 3,
+      "lev": 4,
+      "tar": "bubbleGoal:j14*2*lev,boxGoal:j4*1.3*lev",
+      "award": "325"
+    },
+    "112": {
+      "id": 112,
+      "type": 4,
+      "lev": 4,
+      "tar": "toastGoal:j4*0.65*lev",
+      "award": "325"
+    },
+    "113": {
+      "id": 113,
+      "type": 5,
+      "lev": 4,
+      "tar": "iceGoal:j2*0.8*lev,bowlingGoal:j5*1.3*lev",
+      "award": "325"
+    },
+    "114": {
+      "id": 114,
+      "type": 1,
+      "lev": 5,
+      "tar": "blueCubeGoal:j4*2*lev,redCubeGoal:j5*2*lev,yellowCubeGoal:j4*2*lev,greenCubeGoal:j4*2*lev,purpleCubeGoal:j1*0.8*lev",
+      "award": "365"
+    },
+    "115": {
+      "id": 115,
+      "type": 2,
+      "lev": 5,
+      "tar": "balloonGoal:j4*2*lev,sandwichGoal:j1*1.7*lev,cballonGoal:j3*1.4*lev",
+      "award": "365"
+    },
+    "116": {
+      "id": 116,
+      "type": 3,
+      "lev": 5,
+      "tar": "bubbleGoal:j14*2*lev,boxGoal:j4*1.3*lev,colorbrickGoal:j3*1.3*lev",
+      "award": "365"
+    },
+    "117": {
+      "id": 117,
+      "type": 4,
+      "lev": 5,
+      "tar": "toastGoal:j4*0.65*lev,sheepGoal:j3*1.3*lev",
+      "award": "365"
+    },
+    "118": {
+      "id": 118,
+      "type": 5,
+      "lev": 5,
+      "tar": "iceGoal:j2*0.8*lev,pinwheelGoal:j1*1.7*lev",
+      "award": "365"
+    },
+    "119": {
+      "id": 119,
+      "type": 1,
+      "lev": 6,
+      "tar": "blueCubeGoal:j4*2*lev,redCubeGoal:j5*2*lev,yellowCubeGoal:j4*2*lev,greenCubeGoal:j4*2*lev,purpleCubeGoal:j1*0.8*lev",
+      "award": "410"
+    },
+    "120": {
+      "id": 120,
+      "type": 2,
+      "lev": 6,
+      "tar": "balloonGoal:j4*2*lev,sandwichGoal:j1*1.7*lev,cballonGoal:j3*1.4*lev",
+      "award": "410"
+    },
+    "121": {
+      "id": 121,
+      "type": 3,
+      "lev": 6,
+      "tar": "bubbleGoal:j14*2*lev,boxGoal:j4*1.3*lev,colorbrickGoal:j3*1.3*lev",
+      "award": "410"
+    },
+    "122": {
+      "id": 122,
+      "type": 4,
+      "lev": 6,
+      "tar": "toastGoal:j4*0.65*lev,sheepGoal:j3*1.3*lev",
+      "award": "410"
+    },
+    "123": {
+      "id": 123,
+      "type": 5,
+      "lev": 6,
+      "tar": "iceGoal:j2*0.8*lev,pinwheelGoal:j1*1.7*lev",
+      "award": "410"
+    },
+    "124": {
+      "id": 124,
+      "type": 1,
+      "lev": 7,
+      "tar": "blueCubeGoal:j4*2*lev,redCubeGoal:j5*2*lev,yellowCubeGoal:j4*2*lev,greenCubeGoal:j4*2*lev,purpleCubeGoal:j1*0.8*lev",
+      "award": "450"
+    },
+    "125": {
+      "id": 125,
+      "type": 2,
+      "lev": 7,
+      "tar": "balloonGoal:j4*2*lev,sandwichGoal:j1*1.7*lev,cballonGoal:j3*1.4*lev",
+      "award": "450"
+    },
+    "126": {
+      "id": 126,
+      "type": 3,
+      "lev": 7,
+      "tar": "bubbleGoal:j14*2*lev,boxGoal:j4*1.3*lev,colorbrickGoal:j3*1.3*lev",
+      "award": "450"
+    },
+    "127": {
+      "id": 127,
+      "type": 4,
+      "lev": 7,
+      "tar": "toastGoal:j4*0.65*lev,sheepGoal:j3*1.3*lev",
+      "award": "450"
+    },
+    "128": {
+      "id": 128,
+      "type": 5,
+      "lev": 7,
+      "tar": "iceGoal:j2*0.8*lev,pinwheelGoal:j1*1.7*lev,dogGoal:j1*1.7*lev",
+      "award": "450"
+    },
+    "129": {
+      "id": 129,
+      "type": 1,
+      "lev": 8,
+      "tar": "blueCubeGoal:j4*2*lev,redCubeGoal:j5*2*lev,yellowCubeGoal:j4*2*lev,greenCubeGoal:j4*2*lev,purpleCubeGoal:j1*0.8*lev",
+      "award": "500"
+    },
+    "130": {
+      "id": 130,
+      "type": 2,
+      "lev": 8,
+      "tar": "balloonGoal:j4*2*lev,sandwichGoal:j1*1.7*lev,cballonGoal:j3*1.4*lev",
+      "award": "500"
+    },
+    "131": {
+      "id": 131,
+      "type": 3,
+      "lev": 8,
+      "tar": "bubbleGoal:j14*2*lev,boxGoal:j4*1.3*lev,colorbrickGoal:j3*1.3*lev",
+      "award": "500"
+    },
+    "132": {
+      "id": 132,
+      "type": 4,
+      "lev": 8,
+      "tar": "toastGoal:j4*0.65*lev,sheepGoal:j3*1.3*lev",
+      "award": "500"
+    },
+    "133": {
+      "id": 133,
+      "type": 5,
+      "lev": 8,
+      "tar": "iceGoal:j2*0.8*lev,pinwheelGoal:j1*1.7*lev,dogGoal:j1*1.7*lev",
+      "award": "500"
+    },
+    "10001": {
+      "id": 10001,
+      "type": 101,
+      "lev": 1,
+      "tar": "blueCubeGoal:42-46,redCubeGoal:80-84,balloonGoal:48-52,sandwichGoal:17-21,bubbleGoal:198-202,yellowCubeGoal:67-71,greenCubeGoal:21-25",
+      "award": "[gold:70-74][gold:75-78][gold:79-81]"
+    },
+    "10002": {
+      "id": 10002,
+      "type": 102,
+      "lev": 1,
+      "tar": "blueCubeGoal:42-46,redCubeGoal:80-84,balloonGoal:48-52,sandwichGoal:17-21,bubbleGoal:198-202,yellowCubeGoal:67-71,greenCubeGoal:21-25",
+      "award": "[gold:70-74][gold:75-78][gold:79-81]"
+    },
+    "10003": {
+      "id": 10003,
+      "type": 103,
+      "lev": 1,
+      "tar": "blueCubeGoal:42-46,redCubeGoal:80-84,balloonGoal:48-52,sandwichGoal:17-21,bubbleGoal:198-202,yellowCubeGoal:67-71,greenCubeGoal:21-25",
+      "award": "[gold:75-79][gold:80-84][gold:85-86]"
+    },
+    "10004": {
+      "id": 10004,
+      "type": 104,
+      "lev": 1,
+      "tar": "blueCubeGoal:42-46,redCubeGoal:80-84,balloonGoal:48-52,sandwichGoal:17-21,bubbleGoal:198-202,yellowCubeGoal:67-71,greenCubeGoal:21-25",
+      "award": "[gold:85-89][gold:90-94][gold:95-98]"
+    },
+    "10005": {
+      "id": 10005,
+      "type": 105,
+      "lev": 1,
+      "tar": "blueCubeGoal:42-46,redCubeGoal:80-84,balloonGoal:48-52,sandwichGoal:17-21,bubbleGoal:198-202,yellowCubeGoal:67-71,greenCubeGoal:21-25",
+      "award": "[gold:95-99][gold:100-104][gold:105-110]"
+    },
+    "10006": {
+      "id": 10006,
+      "type": 101,
+      "lev": 2,
+      "tar": "blueCubeGoal:42-46,redCubeGoal:80-84,balloonGoal:48-52,sandwichGoal:17-21,bubbleGoal:198-202,yellowCubeGoal:67-71,greenCubeGoal:21-25,boxGoal:41-45",
+      "award": "[gold:70-74][gold:75-78][gold:79-82]"
+    },
+    "10007": {
+      "id": 10007,
+      "type": 102,
+      "lev": 2,
+      "tar": "blueCubeGoal:42-46,redCubeGoal:80-84,balloonGoal:48-52,sandwichGoal:17-21,bubbleGoal:198-202,yellowCubeGoal:67-71,greenCubeGoal:21-25,boxGoal:41-45",
+      "award": "[gold:70-74][gold:75-78][gold:79-82]"
+    },
+    "10008": {
+      "id": 10008,
+      "type": 103,
+      "lev": 2,
+      "tar": "blueCubeGoal:42-46,redCubeGoal:80-84,balloonGoal:48-52,sandwichGoal:17-21,bubbleGoal:198-202,yellowCubeGoal:67-71,greenCubeGoal:21-25,boxGoal:41-45",
+      "award": "[gold:75-79][gold:80-83][gold:84-87]"
+    },
+    "10009": {
+      "id": 10009,
+      "type": 104,
+      "lev": 2,
+      "tar": "blueCubeGoal:42-46,redCubeGoal:80-84,balloonGoal:48-52,sandwichGoal:17-21,bubbleGoal:198-202,yellowCubeGoal:67-71,greenCubeGoal:21-25,boxGoal:41-45",
+      "award": "[gold:85-89][gold:90-93][gold:94-97]"
+    },
+    "10010": {
+      "id": 10010,
+      "type": 105,
+      "lev": 2,
+      "tar": "blueCubeGoal:42-46,redCubeGoal:80-84,balloonGoal:48-52,sandwichGoal:17-21,bubbleGoal:198-202,yellowCubeGoal:67-71,greenCubeGoal:21-25,boxGoal:41-45",
+      "award": "[gold:95-99][gold:100-103][gold:104-107]"
+    },
+    "10011": {
+      "id": 10011,
+      "type": 101,
+      "lev": 3,
+      "tar": "blueCubeGoal:42-46,redCubeGoal:80-84,balloonGoal:48-52,sandwichGoal:17-21,bubbleGoal:198-202,yellowCubeGoal:67-71,greenCubeGoal:21-25,boxGoal:41-45,toastGoal:63-67",
+      "award": "[gold:70-73][gold:74-78][gold:79-81]"
+    },
+    "10012": {
+      "id": 10012,
+      "type": 102,
+      "lev": 3,
+      "tar": "blueCubeGoal:42-46,redCubeGoal:80-84,balloonGoal:48-52,sandwichGoal:17-21,bubbleGoal:198-202,yellowCubeGoal:67-71,greenCubeGoal:21-25,boxGoal:41-45,toastGoal:63-67",
+      "award": "[gold:70-73][gold:74-78][gold:79-81]"
+    },
+    "10013": {
+      "id": 10013,
+      "type": 103,
+      "lev": 3,
+      "tar": "blueCubeGoal:42-46,redCubeGoal:80-84,balloonGoal:48-52,sandwichGoal:17-21,bubbleGoal:198-202,yellowCubeGoal:67-71,greenCubeGoal:21-25,boxGoal:41-45,toastGoal:63-67",
+      "award": "[gold:75-78][gold:79-83][gold:84-87]"
+    },
+    "10014": {
+      "id": 10014,
+      "type": 104,
+      "lev": 3,
+      "tar": "blueCubeGoal:42-46,redCubeGoal:80-84,balloonGoal:48-52,sandwichGoal:17-21,bubbleGoal:198-202,yellowCubeGoal:67-71,greenCubeGoal:21-25,boxGoal:41-45,toastGoal:63-67",
+      "award": "[gold:85-88][gold:89-93][gold:94-98]"
+    },
+    "10015": {
+      "id": 10015,
+      "type": 105,
+      "lev": 3,
+      "tar": "blueCubeGoal:42-46,redCubeGoal:80-84,balloonGoal:48-52,sandwichGoal:17-21,bubbleGoal:198-202,yellowCubeGoal:67-71,greenCubeGoal:21-25,boxGoal:41-45,toastGoal:63-67",
+      "award": "[gold:95-98][gold:99-103][gold:104-109]"
+    },
+    "10016": {
+      "id": 10016,
+      "type": 101,
+      "lev": 4,
+      "tar": "blueCubeGoal:42-46,redCubeGoal:80-84,balloonGoal:48-52,sandwichGoal:17-21,bubbleGoal:198-202,yellowCubeGoal:67-71,greenCubeGoal:21-25,boxGoal:41-45,toastGoal:63-67,cballonGoal:90-94",
+      "award": "[gold:70-74][gold:75-78][gold:78-81]"
+    },
+    "10017": {
+      "id": 10017,
+      "type": 102,
+      "lev": 4,
+      "tar": "blueCubeGoal:42-46,redCubeGoal:80-84,balloonGoal:48-52,sandwichGoal:17-21,bubbleGoal:198-202,yellowCubeGoal:67-71,greenCubeGoal:21-25,boxGoal:41-45,toastGoal:63-67,cballonGoal:90-94",
+      "award": "[gold:70-74][gold:75-78][gold:78-81]"
+    },
+    "10018": {
+      "id": 10018,
+      "type": 103,
+      "lev": 4,
+      "tar": "blueCubeGoal:42-46,redCubeGoal:80-84,balloonGoal:48-52,sandwichGoal:17-21,bubbleGoal:198-202,yellowCubeGoal:67-71,greenCubeGoal:21-25,boxGoal:41-45,toastGoal:63-67,cballonGoal:90-94",
+      "award": "[gold:75-79][gold:80-83][gold:84-89]"
+    },
+    "10019": {
+      "id": 10019,
+      "type": 104,
+      "lev": 4,
+      "tar": "blueCubeGoal:42-46,redCubeGoal:80-84,balloonGoal:48-52,sandwichGoal:17-21,bubbleGoal:198-202,yellowCubeGoal:67-71,greenCubeGoal:21-25,boxGoal:41-45,toastGoal:63-67,cballonGoal:90-94",
+      "award": "[gold:85-89][gold:90-93][gold:94-99]"
+    },
+    "10020": {
+      "id": 10020,
+      "type": 105,
+      "lev": 4,
+      "tar": "blueCubeGoal:42-46,redCubeGoal:80-84,balloonGoal:48-52,sandwichGoal:17-21,bubbleGoal:198-202,yellowCubeGoal:67-71,greenCubeGoal:21-25,boxGoal:41-45,toastGoal:63-67,cballonGoal:90-94",
+      "award": "[gold:95-99][gold:100-103][gold:104-110]"
+    },
+    "10021": {
+      "id": 10021,
+      "type": 101,
+      "lev": 5,
+      "tar": "bubbleGoal:159-167,sandwichGoal:10-12,balloonGoal:29-31,boxGoal:38-41,cballonGoal:29-31,blueCubeGoal:29-31,iceGoal:37-40,greenCubeGoal:55-59,bowlingGoal:157-165,purpleCubeGoal:10-11,redCubeGoal:11-13,toastGoal:57-61",
+      "award": "[gold:70-76][gold:77-85][gold:86-89]"
+    },
+    "10022": {
+      "id": 10022,
+      "type": 102,
+      "lev": 5,
+      "tar": "bubbleGoal:159-167,sandwichGoal:10-12,balloonGoal:29-31,boxGoal:38-41,cballonGoal:29-31,blueCubeGoal:29-31,iceGoal:37-40,greenCubeGoal:55-59,bowlingGoal:157-165,purpleCubeGoal:10-11,redCubeGoal:11-13,toastGoal:57-61",
+      "award": "[gold:70-76][gold:77-85][gold:86-89]"
+    },
+    "10023": {
+      "id": 10023,
+      "type": 103,
+      "lev": 5,
+      "tar": "bubbleGoal:159-167,sandwichGoal:10-12,balloonGoal:29-31,boxGoal:38-41,cballonGoal:29-31,blueCubeGoal:29-31,iceGoal:37-40,greenCubeGoal:55-59,bowlingGoal:157-165,purpleCubeGoal:10-11,redCubeGoal:11-13,toastGoal:57-61",
+      "award": "[gold:75-81][gold:82-90][gold:91-95]"
+    },
+    "10024": {
+      "id": 10024,
+      "type": 104,
+      "lev": 5,
+      "tar": "bubbleGoal:159-167,sandwichGoal:10-12,balloonGoal:29-31,boxGoal:38-41,cballonGoal:29-31,blueCubeGoal:29-31,iceGoal:37-40,greenCubeGoal:55-59,bowlingGoal:157-165,purpleCubeGoal:10-11,redCubeGoal:11-13,toastGoal:57-61",
+      "award": "[gold:85-91][gold:92-100][gold:101-105]"
+    },
+    "10025": {
+      "id": 10025,
+      "type": 105,
+      "lev": 5,
+      "tar": "bubbleGoal:159-167,sandwichGoal:10-12,balloonGoal:29-31,boxGoal:38-41,cballonGoal:29-31,blueCubeGoal:29-31,iceGoal:37-40,greenCubeGoal:55-59,bowlingGoal:157-165,purpleCubeGoal:10-11,redCubeGoal:11-13,toastGoal:57-61",
+      "award": "[gold:95-101][gold:102-110][gold:111-115]"
+    },
+    "10026": {
+      "id": 10026,
+      "type": 101,
+      "lev": 6,
+      "tar": "bubbleGoal:48-52,blueCubeGoal:37-40,greenCubeGoal:20-25,yellowCubeGoal:6-9,greenCubeGoal:20-25,cageGoal:4-5,orangeCubeGoal:13-16,sandwichGoal:5-8,boxGoal:6-8,iceGoal:5-6,bowlingGoal:12-14,sheepGoal:4-5,toastGoal:22-25,pinwheelGoal:1-3,tntGoal:4-5,puzzleGoal:5-6",
+      "award": "[gold:70-78][gold:79-89][gold:90-95]"
+    },
+    "10027": {
+      "id": 10027,
+      "type": 102,
+      "lev": 6,
+      "tar": "bubbleGoal:48-52,blueCubeGoal:37-40,greenCubeGoal:20-25,yellowCubeGoal:6-9,greenCubeGoal:20-25,cageGoal:4-5,orangeCubeGoal:13-16,sandwichGoal:5-8,boxGoal:6-8,iceGoal:5-6,bowlingGoal:12-14,sheepGoal:4-5,toastGoal:22-25,pinwheelGoal:1-3,tntGoal:4-5,puzzleGoal:5-6",
+      "award": "[gold:70-78][gold:79-89][gold:90-95]"
+    },
+    "10028": {
+      "id": 10028,
+      "type": 103,
+      "lev": 6,
+      "tar": "bubbleGoal:48-52,blueCubeGoal:37-40,greenCubeGoal:20-25,yellowCubeGoal:6-9,greenCubeGoal:20-25,cageGoal:4-5,orangeCubeGoal:13-16,sandwichGoal:5-8,boxGoal:6-8,iceGoal:5-6,bowlingGoal:12-14,sheepGoal:4-5,toastGoal:22-25,pinwheelGoal:1-3,tntGoal:4-5,puzzleGoal:5-6",
+      "award": "[gold:75-81][gold:82-94][gold:95-100]"
+    },
+    "10029": {
+      "id": 10029,
+      "type": 104,
+      "lev": 6,
+      "tar": "bubbleGoal:48-52,blueCubeGoal:37-40,greenCubeGoal:20-25,yellowCubeGoal:6-9,greenCubeGoal:20-25,cageGoal:4-5,orangeCubeGoal:13-16,sandwichGoal:5-8,boxGoal:6-8,iceGoal:5-6,bowlingGoal:12-14,sheepGoal:4-5,toastGoal:22-25,pinwheelGoal:1-3,tntGoal:4-5,puzzleGoal:5-6",
+      "award": "[gold:85-91][gold:92-104][gold:105-110]"
+    },
+    "10030": {
+      "id": 10030,
+      "type": 105,
+      "lev": 6,
+      "tar": "bubbleGoal:48-52,blueCubeGoal:37-40,greenCubeGoal:20-25,yellowCubeGoal:6-9,greenCubeGoal:20-25,cageGoal:4-5,orangeCubeGoal:13-16,sandwichGoal:5-8,boxGoal:6-8,iceGoal:5-6,bowlingGoal:12-14,sheepGoal:4-5,toastGoal:22-25,pinwheelGoal:1-3,tntGoal:4-5,puzzleGoal:5-6",
+      "award": "[gold:95-101][gold:102-114][gold:115-120]"
+    },
+    "10031": {
+      "id": 10031,
+      "type": 101,
+      "lev": 7,
+      "tar": "bubbleGoal:77-82,redCubeGoal:23-28,blueCubeGoal:28-32,greenCubeGoal:6-10,,yellowCubeGoal:24-30,orangeCubeGoal:27-32,balloonGoal:15-20,sandwichGoal:4-8,boxGoal:6-9,iceGoal:3-5,bowlingGoal:24-29,sheepGoal:5-7,toastGoal:9-12,pinwheelGoal:4-6,",
+      "award": "[gold:70-81][gold:82-95][gold:96-102]"
+    },
+    "10032": {
+      "id": 10032,
+      "type": 102,
+      "lev": 7,
+      "tar": "bubbleGoal:77-82,redCubeGoal:23-28,blueCubeGoal:28-32,greenCubeGoal:6-10,,yellowCubeGoal:24-30,orangeCubeGoal:27-32,balloonGoal:15-20,sandwichGoal:4-8,boxGoal:6-9,iceGoal:3-5,bowlingGoal:24-29,sheepGoal:5-7,toastGoal:9-12,pinwheelGoal:4-6,",
+      "award": "[gold:70-81][gold:82-95][gold:96-102]"
+    },
+    "10033": {
+      "id": 10033,
+      "type": 103,
+      "lev": 7,
+      "tar": "bubbleGoal:77-82,redCubeGoal:23-28,blueCubeGoal:28-32,greenCubeGoal:6-10,,yellowCubeGoal:24-30,orangeCubeGoal:27-32,balloonGoal:15-20,sandwichGoal:4-8,boxGoal:6-9,iceGoal:3-5,bowlingGoal:24-29,sheepGoal:5-7,toastGoal:9-12,pinwheelGoal:4-6,",
+      "award": "[gold:75-86][gold:87-100][gold:101-107]"
+    },
+    "10034": {
+      "id": 10034,
+      "type": 104,
+      "lev": 7,
+      "tar": "bubbleGoal:77-82,redCubeGoal:23-28,blueCubeGoal:28-32,greenCubeGoal:6-10,,yellowCubeGoal:24-30,orangeCubeGoal:27-32,balloonGoal:15-20,sandwichGoal:4-8,boxGoal:6-9,iceGoal:3-5,bowlingGoal:24-29,sheepGoal:5-7,toastGoal:9-12,pinwheelGoal:4-6,",
+      "award": "[gold:85-96][gold:97-110][gold:111-117]"
+    },
+    "10035": {
+      "id": 10035,
+      "type": 105,
+      "lev": 7,
+      "tar": "bubbleGoal:77-82,redCubeGoal:23-28,blueCubeGoal:28-32,greenCubeGoal:6-10,,yellowCubeGoal:24-30,orangeCubeGoal:27-32,balloonGoal:15-20,sandwichGoal:4-8,boxGoal:6-9,iceGoal:3-5,bowlingGoal:24-29,sheepGoal:5-7,toastGoal:9-12,pinwheelGoal:4-6,",
+      "award": "[gold:95-106][gold:107-120][gold:121-127]"
+    },
+    "10036": {
+      "id": 10036,
+      "type": 101,
+      "lev": 8,
+      "tar": "bubbleGoal:47-52,yellowCubeGoal:38-45,orangeCubeGoal:10-15,redCubeGoal:40-45,balloonGoal:12-16,blueCubeGoal:34-39,,greenCubeGoal:63-67,sandwichGoal:4-8,boxGoal:9-15,bowlingGoal:20-26,toastGoal:14-18,pinwheelGoal:2-5,tntGoal:14-18,dogGoal:7-10",
+      "award": "[gold:70-83][gold:84-101][gold:102-109]"
+    },
+    "10037": {
+      "id": 10037,
+      "type": 102,
+      "lev": 8,
+      "tar": "bubbleGoal:47-52,yellowCubeGoal:38-45,orangeCubeGoal:10-15,redCubeGoal:40-45,balloonGoal:12-16,blueCubeGoal:34-39,,greenCubeGoal:63-67,sandwichGoal:4-8,boxGoal:9-15,bowlingGoal:20-26,toastGoal:14-18,pinwheelGoal:2-5,tntGoal:14-18,dogGoal:7-11",
+      "award": "[gold:70-83][gold:84-101][gold:102-109]"
+    },
+    "10038": {
+      "id": 10038,
+      "type": 103,
+      "lev": 8,
+      "tar": "bubbleGoal:47-52,yellowCubeGoal:38-45,orangeCubeGoal:10-15,redCubeGoal:40-45,balloonGoal:12-16,blueCubeGoal:34-39,,greenCubeGoal:63-67,sandwichGoal:4-8,boxGoal:9-15,bowlingGoal:20-26,toastGoal:14-18,pinwheelGoal:2-5,tntGoal:14-18,dogGoal:7-12",
+      "award": "[gold:75-88][gold:89-106][gold:107-114]"
+    },
+    "10039": {
+      "id": 10039,
+      "type": 104,
+      "lev": 8,
+      "tar": "bubbleGoal:47-52,yellowCubeGoal:38-45,orangeCubeGoal:10-15,redCubeGoal:40-45,balloonGoal:12-16,blueCubeGoal:34-39,,greenCubeGoal:63-67,sandwichGoal:4-8,boxGoal:9-15,bowlingGoal:20-26,toastGoal:14-18,pinwheelGoal:2-5,tntGoal:14-18,dogGoal:7-13",
+      "award": "[gold:85-98][gold:99-116][gold:117-124]"
+    },
+    "10040": {
+      "id": 10040,
+      "type": 105,
+      "lev": 8,
+      "tar": "bubbleGoal:47-52,yellowCubeGoal:38-45,orangeCubeGoal:10-15,redCubeGoal:40-45,balloonGoal:12-16,blueCubeGoal:34-39,,greenCubeGoal:63-67,sandwichGoal:4-8,boxGoal:9-15,bowlingGoal:20-26,toastGoal:14-18,pinwheelGoal:2-5,tntGoal:14-18,dogGoal:7-14",
+      "award": "[gold:95-108][gold:109-126][gold:127-134]"
+    },
+    "10041": {
+      "id": 10041,
+      "type": 101,
+      "lev": 9,
+      "tar": "sandwichGoal:3-5,bubbleGoal:56-62,redCubeGoal:69-78,blueCubeGoal:74-83,bubbleGoal:56-62,bowlingGoal:54-62,pinwheelGoal:4-7,tntGoal:12-17,dogGoal:5-9,toastGoal:8-14,greenCubeGoal:65-72",
+      "award": "[gold:70-85][gold:86-107][gold:108-116]"
+    },
+    "10042": {
+      "id": 10042,
+      "type": 102,
+      "lev": 9,
+      "tar": "sandwichGoal:3-5,bubbleGoal:56-62,redCubeGoal:69-78,blueCubeGoal:74-83,bubbleGoal:56-62,bowlingGoal:54-62,pinwheelGoal:4-7,tntGoal:12-17,dogGoal:5-9,toastGoal:8-14",
+      "award": "[gold:70-85][gold:86-107][gold:108-116]"
+    },
+    "10043": {
+      "id": 10043,
+      "type": 103,
+      "lev": 9,
+      "tar": "sandwichGoal:3-5,bubbleGoal:56-62,redCubeGoal:69-78,blueCubeGoal:74-83,bubbleGoal:56-62,bowlingGoal:54-62,pinwheelGoal:4-7,tntGoal:12-17,dogGoal:5-9,toastGoal:8-14",
+      "award": "[gold:75-90][gold:101-112][gold:113-121]"
+    },
+    "10044": {
+      "id": 10044,
+      "type": 104,
+      "lev": 9,
+      "tar": "sandwichGoal:3-5,bubbleGoal:56-62,redCubeGoal:69-78,blueCubeGoal:74-83,bubbleGoal:56-62,bowlingGoal:54-62,pinwheelGoal:4-7,tntGoal:12-17,dogGoal:5-9,toastGoal:8-14",
+      "award": "[gold:85-100][gold:111-122][gold:123-131]"
+    },
+    "10045": {
+      "id": 10045,
+      "type": 105,
+      "lev": 9,
+      "tar": "sandwichGoal:3-5,bubbleGoal:56-62,redCubeGoal:69-78,blueCubeGoal:74-83,bubbleGoal:56-62,bowlingGoal:54-62,pinwheelGoal:4-7,tntGoal:12-17,dogGoal:5-9,toastGoal:8-14",
+      "award": "[gold:95-110][gold:121-132][gold:133-141]"
+    }
+  }
+}

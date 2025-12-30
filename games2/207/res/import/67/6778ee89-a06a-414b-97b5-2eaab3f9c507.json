@@ -1,0 +1,69 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "dialog_common_box_anmi",
+  "_duration": 0.23333333333333334,
+  "curveData": {
+    "paths": {
+      "center": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.98
+            },
+            {
+              "frame": 0.03333333333333333,
+              "value": 1.01
+            },
+            {
+              "frame": 0.13333333333333333,
+              "value": 0.99
+            },
+            {
+              "frame": 0.23333333333333334,
+              "value": 1
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.98
+            },
+            {
+              "frame": 0.03333333333333333,
+              "value": 1.01
+            },
+            {
+              "frame": 0.13333333333333333,
+              "value": 0.99
+            },
+            {
+              "frame": 0.23333333333333334,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "background": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.13333333333333333,
+              "value": 160
+            }
+          ]
+        }
+      }
+    }
+  }
+}

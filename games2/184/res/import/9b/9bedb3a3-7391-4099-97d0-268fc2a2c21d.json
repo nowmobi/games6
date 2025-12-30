@@ -1,0 +1,2646 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "wingman",
+  "json": {
+    "11": {
+      "id": 11,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Base",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin1",
+        "play1"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin1",
+        "play1"
+      ],
+      "ljimage": "lj_1_1",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 1,
+      "shiftingatk": [
+        0,
+        57,
+        3,
+        501,
+        1,
+        0,
+        100
+      ],
+      "Onatk": [
+        10,
+        3
+      ],
+      "Onskill": 1,
+      "skillcs": [
+        0
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        10
+      ],
+      "Onskillla": 2,
+      "Onskilljg": 5,
+      "morewing": 0,
+      "ljlx": [],
+      "link": "0",
+      "linkup": "0",
+      "effcontinue": 0,
+      "towerlight": "0",
+      "planelight1": "",
+      "planelight2": "",
+      "extra": "",
+      "tipAnim": ""
+    },
+    "12": {
+      "id": 12,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Base",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin1",
+        "play2"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin1",
+        "play2"
+      ],
+      "ljimage": "lj_1_2",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 2,
+      "shiftingatk": [
+        0,
+        62,
+        2.736,
+        502,
+        1,
+        0,
+        200
+      ],
+      "Onatk": [
+        10,
+        10
+      ],
+      "Onskill": 1,
+      "skillcs": [
+        0
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        20
+      ],
+      "Onskillla": 2,
+      "Onskilljg": 5,
+      "morewing": 0,
+      "ljlx": [],
+      "link": "0",
+      "linkup": "0",
+      "effcontinue": 0,
+      "towerlight": "0",
+      "planelight1": "",
+      "planelight2": "",
+      "extra": "",
+      "tipAnim": ""
+    },
+    "13": {
+      "id": 13,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Base",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin1",
+        "play3"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin1",
+        "play3"
+      ],
+      "ljimage": "lj_1_3",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 3,
+      "shiftingatk": [
+        0,
+        67,
+        2.472,
+        503,
+        1,
+        0,
+        300
+      ],
+      "Onatk": [
+        10,
+        23
+      ],
+      "Onskill": 1,
+      "skillcs": [
+        0
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        30
+      ],
+      "Onskillla": 2,
+      "Onskilljg": 5,
+      "morewing": 0,
+      "ljlx": [],
+      "link": "0",
+      "linkup": "0",
+      "effcontinue": 0,
+      "towerlight": "0",
+      "planelight1": "",
+      "planelight2": "",
+      "extra": "",
+      "tipAnim": ""
+    },
+    "14": {
+      "id": 14,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Base",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin1",
+        "play4"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin1",
+        "play4"
+      ],
+      "ljimage": "lj_1_4",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 4,
+      "shiftingatk": [
+        0,
+        72,
+        2.208,
+        504,
+        1,
+        0,
+        400
+      ],
+      "Onatk": [
+        10,
+        33
+      ],
+      "Onskill": 1,
+      "skillcs": [
+        0
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        40
+      ],
+      "Onskillla": 2,
+      "Onskilljg": 5,
+      "morewing": 0,
+      "ljlx": [],
+      "link": "0",
+      "linkup": "0",
+      "effcontinue": 0,
+      "towerlight": "0",
+      "planelight1": "",
+      "planelight2": "",
+      "extra": "",
+      "tipAnim": ""
+    },
+    "15": {
+      "id": 15,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Base",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin1",
+        "play5"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin1",
+        "play5"
+      ],
+      "ljimage": "lj_1_5",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 5,
+      "shiftingatk": [
+        0,
+        77,
+        1.944,
+        505,
+        1,
+        0,
+        500
+      ],
+      "Onatk": [
+        10,
+        43
+      ],
+      "Onskill": 1,
+      "skillcs": [
+        0
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        50
+      ],
+      "Onskillla": 2,
+      "Onskilljg": 5,
+      "morewing": 0,
+      "ljlx": [],
+      "link": "0",
+      "linkup": "0",
+      "effcontinue": 0,
+      "towerlight": "0",
+      "planelight1": "",
+      "planelight2": "",
+      "extra": "",
+      "tipAnim": ""
+    },
+    "16": {
+      "id": 16,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Base",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin1",
+        "play6"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin1",
+        "play6"
+      ],
+      "ljimage": "lj_1_6",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 6,
+      "shiftingatk": [
+        0,
+        77,
+        1.68,
+        507,
+        1,
+        0,
+        6000
+      ],
+      "Onatk": [
+        10,
+        53
+      ],
+      "Onskill": 1,
+      "skillcs": [
+        0
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        60
+      ],
+      "Onskillla": 2,
+      "Onskilljg": 5,
+      "morewing": 0,
+      "ljlx": [],
+      "link": "0",
+      "linkup": "0",
+      "effcontinue": 0,
+      "towerlight": "0",
+      "planelight1": "",
+      "planelight2": "",
+      "extra": "",
+      "tipAnim": ""
+    },
+    "21": {
+      "id": 21,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Shield",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin2",
+        "play1"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin2",
+        "play1"
+      ],
+      "ljimage": "lj_2_1",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 1,
+      "shiftingatk": [
+        0,
+        57,
+        3.2,
+        501,
+        1,
+        0,
+        100
+      ],
+      "Onatk": [
+        10,
+        3
+      ],
+      "Onskill": 2,
+      "skillcs": [
+        100,
+        157,
+        22,
+        0,
+        13,
+        150,
+        6,
+        0,
+        120,
+        0.45
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        10
+      ],
+      "Onskillla": 2,
+      "Onskilljg": 8,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_blue1",
+        "ljlx_blue2"
+      ],
+      "link": "4,140,251",
+      "linkup": "2,227,253",
+      "effcontinue": 0,
+      "towerlight": "fire1",
+      "planelight1": "",
+      "planelight2": "",
+      "extra": "",
+      "tipAnim": "play1"
+    },
+    "22": {
+      "id": 22,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Shield",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin2",
+        "play2"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin2",
+        "play2"
+      ],
+      "ljimage": "lj_2_2",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 2,
+      "shiftingatk": [
+        0,
+        62,
+        3,
+        502,
+        1,
+        0,
+        200
+      ],
+      "Onatk": [
+        10,
+        10
+      ],
+      "Onskill": 2,
+      "skillcs": [
+        150,
+        210,
+        30,
+        0,
+        18,
+        150,
+        6,
+        0,
+        120,
+        0.6
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        20
+      ],
+      "Onskillla": 2,
+      "Onskilljg": 8,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_blue1",
+        "ljlx_blue2"
+      ],
+      "link": "4,140,251",
+      "linkup": "2,227,253",
+      "effcontinue": 0,
+      "towerlight": "fire1",
+      "planelight1": "",
+      "planelight2": "",
+      "extra": "",
+      "tipAnim": "play1"
+    },
+    "23": {
+      "id": 23,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Shield",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin2",
+        "play3"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin2",
+        "play3"
+      ],
+      "ljimage": "lj_2_3",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 3,
+      "shiftingatk": [
+        0,
+        67,
+        2.8,
+        503,
+        1,
+        0,
+        300
+      ],
+      "Onatk": [
+        10,
+        23
+      ],
+      "Onskill": 2,
+      "skillcs": [
+        200,
+        210,
+        30,
+        0,
+        18,
+        150,
+        6,
+        0,
+        120,
+        0.6
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        30
+      ],
+      "Onskillla": 2,
+      "Onskilljg": 8,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_blue1",
+        "ljlx_blue2"
+      ],
+      "link": "4,140,251",
+      "linkup": "2,227,253",
+      "effcontinue": 0,
+      "towerlight": "fire1",
+      "planelight1": "",
+      "planelight2": "",
+      "extra": "",
+      "tipAnim": "play1"
+    },
+    "24": {
+      "id": 24,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Shield",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin2",
+        "play4"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin2",
+        "play4"
+      ],
+      "ljimage": "lj_2_4",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 4,
+      "shiftingatk": [
+        0,
+        72,
+        2.6,
+        504,
+        1,
+        0,
+        400
+      ],
+      "Onatk": [
+        10,
+        33
+      ],
+      "Onskill": 2,
+      "skillcs": [
+        250,
+        287,
+        41,
+        0,
+        24,
+        150,
+        6,
+        0,
+        120,
+        0.82
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        40
+      ],
+      "Onskillla": 2,
+      "Onskilljg": 8,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_blue1",
+        "ljlx_blue2"
+      ],
+      "link": "4,140,251",
+      "linkup": "2,227,253",
+      "effcontinue": 0,
+      "towerlight": "fire1",
+      "planelight1": "",
+      "planelight2": "",
+      "extra": "",
+      "tipAnim": "play1"
+    },
+    "25": {
+      "id": 25,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Shield",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin2",
+        "play5"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin2",
+        "play5"
+      ],
+      "ljimage": "lj_2_5",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 5,
+      "shiftingatk": [
+        0,
+        77,
+        2.4,
+        505,
+        1,
+        0,
+        500
+      ],
+      "Onatk": [
+        10,
+        43
+      ],
+      "Onskill": 2,
+      "skillcs": [
+        300,
+        287,
+        41,
+        0,
+        24,
+        150,
+        6,
+        0,
+        120,
+        0.82
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        50
+      ],
+      "Onskillla": 2,
+      "Onskilljg": 8,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_blue1",
+        "ljlx_blue2"
+      ],
+      "link": "4,140,251",
+      "linkup": "2,227,253",
+      "effcontinue": 0,
+      "towerlight": "fire1",
+      "planelight1": "",
+      "planelight2": "",
+      "extra": "",
+      "tipAnim": "play1"
+    },
+    "26": {
+      "id": 26,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Shield",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin2",
+        "play6"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin2",
+        "play6"
+      ],
+      "ljimage": "lj_2_6",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 6,
+      "shiftingatk": [
+        0,
+        77,
+        2.2,
+        506,
+        1,
+        0,
+        600
+      ],
+      "Onatk": [
+        10,
+        53
+      ],
+      "Onskill": 2,
+      "skillcs": [
+        400,
+        350,
+        50,
+        0,
+        30,
+        150,
+        6,
+        0,
+        120,
+        1
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        60
+      ],
+      "Onskillla": 2,
+      "Onskilljg": 8,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_blue1",
+        "ljlx_blue2"
+      ],
+      "link": "4,140,251",
+      "linkup": "2,227,253",
+      "effcontinue": 0,
+      "towerlight": "fire1",
+      "planelight1": "",
+      "planelight2": "",
+      "extra": "",
+      "tipAnim": "play1"
+    },
+    "31": {
+      "id": 31,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Heal",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin3",
+        "play1"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin3",
+        "play1"
+      ],
+      "ljimage": "lj_3_1",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 1,
+      "shiftingatk": [
+        0,
+        57,
+        3.1,
+        501,
+        1,
+        0,
+        100
+      ],
+      "Onatk": [
+        10,
+        3
+      ],
+      "Onskill": 3,
+      "skillcs": [
+        100
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        10
+      ],
+      "Onskillla": 5,
+      "Onskilljg": 15,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_gre1",
+        "ljlx_gre2"
+      ],
+      "link": "102,204,51",
+      "linkup": "102,255,0",
+      "effcontinue": 1,
+      "towerlight": "fire3",
+      "planelight1": "skel_hpback",
+      "planelight2": "skel_hpfront",
+      "extra": "",
+      "tipAnim": "play2"
+    },
+    "32": {
+      "id": 32,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Heal",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin3",
+        "play2"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin3",
+        "play2"
+      ],
+      "ljimage": "lj_3_2",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 2,
+      "shiftingatk": [
+        0,
+        62,
+        2.95,
+        502,
+        1,
+        0,
+        200
+      ],
+      "Onatk": [
+        10,
+        10
+      ],
+      "Onskill": 3,
+      "skillcs": [
+        150
+      ],
+      "lvone": [
+        1.5
+      ],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        20
+      ],
+      "Onskillla": 5,
+      "Onskilljg": 15,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_gre1",
+        "ljlx_gre2"
+      ],
+      "link": "102,204,51",
+      "linkup": "102,255,0",
+      "effcontinue": 1,
+      "towerlight": "fire3",
+      "planelight1": "skel_hpback",
+      "planelight2": "skel_hpfront",
+      "extra": "",
+      "tipAnim": "play2"
+    },
+    "33": {
+      "id": 33,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Heal",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin3",
+        "play3"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin3",
+        "play3"
+      ],
+      "ljimage": "lj_3_3",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 3,
+      "shiftingatk": [
+        0,
+        67,
+        2.7,
+        503,
+        1,
+        0,
+        300
+      ],
+      "Onatk": [
+        10,
+        23
+      ],
+      "Onskill": 3,
+      "skillcs": [
+        200
+      ],
+      "lvone": [
+        2
+      ],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        30
+      ],
+      "Onskillla": 5,
+      "Onskilljg": 15,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_gre1",
+        "ljlx_gre2"
+      ],
+      "link": "102,204,51",
+      "linkup": "102,255,0",
+      "effcontinue": 1,
+      "towerlight": "fire3",
+      "planelight1": "skel_hpback",
+      "planelight2": "skel_hpfront",
+      "extra": "",
+      "tipAnim": "play2"
+    },
+    "34": {
+      "id": 34,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Heal",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin3",
+        "play4"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin3",
+        "play4"
+      ],
+      "ljimage": "lj_3_4",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 4,
+      "shiftingatk": [
+        0,
+        72,
+        2.45,
+        504,
+        1,
+        0,
+        400
+      ],
+      "Onatk": [
+        10,
+        33
+      ],
+      "Onskill": 3,
+      "skillcs": [
+        300
+      ],
+      "lvone": [
+        3
+      ],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        40
+      ],
+      "Onskillla": 5,
+      "Onskilljg": 15,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_gre1",
+        "ljlx_gre2"
+      ],
+      "link": "102,204,51",
+      "linkup": "102,255,0",
+      "effcontinue": 1,
+      "towerlight": "fire3",
+      "planelight1": "skel_hpback",
+      "planelight2": "skel_hpfront",
+      "extra": "",
+      "tipAnim": "play2"
+    },
+    "35": {
+      "id": 35,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Heal",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin3",
+        "play5"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin3",
+        "play5"
+      ],
+      "ljimage": "lj_3_5",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 5,
+      "shiftingatk": [
+        0,
+        77,
+        2.2,
+        505,
+        1,
+        0,
+        500
+      ],
+      "Onatk": [
+        10,
+        43
+      ],
+      "Onskill": 3,
+      "skillcs": [
+        400
+      ],
+      "lvone": [
+        4
+      ],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        50
+      ],
+      "Onskillla": 5,
+      "Onskilljg": 15,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_gre1",
+        "ljlx_gre2"
+      ],
+      "link": "102,204,51",
+      "linkup": "102,255,0",
+      "effcontinue": 1,
+      "towerlight": "fire3",
+      "planelight1": "skel_hpback",
+      "planelight2": "skel_hpfront",
+      "extra": "",
+      "tipAnim": "play2"
+    },
+    "36": {
+      "id": 36,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Heal",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin3",
+        "play6"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin3",
+        "play6"
+      ],
+      "ljimage": "lj_3_6",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 6,
+      "shiftingatk": [
+        0,
+        77,
+        1.95,
+        506,
+        1,
+        0,
+        600
+      ],
+      "Onatk": [
+        10,
+        53
+      ],
+      "Onskill": 3,
+      "skillcs": [
+        500
+      ],
+      "lvone": [
+        5
+      ],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        60
+      ],
+      "Onskillla": 5,
+      "Onskilljg": 15,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_gre1",
+        "ljlx_gre2"
+      ],
+      "link": "102,204,51",
+      "linkup": "102,255,0",
+      "effcontinue": 1,
+      "towerlight": "fire3",
+      "planelight1": "skel_hpback",
+      "planelight2": "skel_hpfront",
+      "extra": "",
+      "tipAnim": "play2"
+    },
+    "41": {
+      "id": 41,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Missile",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin4",
+        "play1"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin4",
+        "play1"
+      ],
+      "ljimage": "lj_4_1",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 1,
+      "shiftingatk": [
+        0,
+        57,
+        3.2,
+        501,
+        1,
+        0,
+        100
+      ],
+      "Onatk": [
+        10,
+        3
+      ],
+      "Onskill": 4,
+      "skillcs": [
+        0,
+        -50,
+        2,
+        15,
+        2,
+        0.1,
+        100
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        10
+      ],
+      "Onskillla": 2,
+      "Onskilljg": 5,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_red1",
+        "ljlx_red2"
+      ],
+      "link": "255,0,255",
+      "linkup": "255,153,255",
+      "effcontinue": 0,
+      "towerlight": "fire4",
+      "planelight1": "",
+      "planelight2": "skel_bulletlight",
+      "extra": "",
+      "tipAnim": "play4"
+    },
+    "42": {
+      "id": 42,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Missile",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin4",
+        "play2"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin4",
+        "play2"
+      ],
+      "ljimage": "lj_4_2",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 2,
+      "shiftingatk": [
+        0,
+        62,
+        3,
+        502,
+        1,
+        0,
+        200
+      ],
+      "Onatk": [
+        10,
+        10
+      ],
+      "Onskill": 4,
+      "skillcs": [
+        0,
+        -50,
+        2,
+        15,
+        4,
+        0.1,
+        100
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        20
+      ],
+      "Onskillla": 2,
+      "Onskilljg": 5,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_red1",
+        "ljlx_red2"
+      ],
+      "link": "255,0,255",
+      "linkup": "255,153,255",
+      "effcontinue": 0,
+      "towerlight": "fire4",
+      "planelight1": "",
+      "planelight2": "skel_bulletlight",
+      "extra": "",
+      "tipAnim": "play4"
+    },
+    "43": {
+      "id": 43,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Missile",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin4",
+        "play3"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin4",
+        "play3"
+      ],
+      "ljimage": "lj_4_3",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 3,
+      "shiftingatk": [
+        0,
+        67,
+        2.8,
+        503,
+        1,
+        0,
+        300
+      ],
+      "Onatk": [
+        10,
+        23
+      ],
+      "Onskill": 4,
+      "skillcs": [
+        0,
+        -50,
+        2,
+        15,
+        6,
+        0.1,
+        100
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        30
+      ],
+      "Onskillla": 2,
+      "Onskilljg": 5,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_red1",
+        "ljlx_red2"
+      ],
+      "link": "255,0,255",
+      "linkup": "255,153,255",
+      "effcontinue": 0,
+      "towerlight": "fire4",
+      "planelight1": "",
+      "planelight2": "skel_bulletlight",
+      "extra": "",
+      "tipAnim": "play4"
+    },
+    "44": {
+      "id": 44,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Missile",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin4",
+        "play4"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin4",
+        "play4"
+      ],
+      "ljimage": "lj_4_4",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 4,
+      "shiftingatk": [
+        0,
+        72,
+        2.6,
+        504,
+        1,
+        0,
+        400
+      ],
+      "Onatk": [
+        10,
+        33
+      ],
+      "Onskill": 4,
+      "skillcs": [
+        0,
+        -50,
+        2,
+        15,
+        8,
+        0.1,
+        100
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        40
+      ],
+      "Onskillla": 2,
+      "Onskilljg": 5,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_red1",
+        "ljlx_red2"
+      ],
+      "link": "255,0,255",
+      "linkup": "255,153,255",
+      "effcontinue": 0,
+      "towerlight": "fire4",
+      "planelight1": "",
+      "planelight2": "skel_bulletlight",
+      "extra": "",
+      "tipAnim": "play4"
+    },
+    "45": {
+      "id": 45,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Missile",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin4",
+        "play5"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin4",
+        "play5"
+      ],
+      "ljimage": "lj_4_5",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 5,
+      "shiftingatk": [
+        0,
+        77,
+        2.4,
+        505,
+        1,
+        0,
+        500
+      ],
+      "Onatk": [
+        10,
+        43
+      ],
+      "Onskill": 4,
+      "skillcs": [
+        0,
+        -50,
+        2,
+        15,
+        8,
+        0.1,
+        125
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        50
+      ],
+      "Onskillla": 2,
+      "Onskilljg": 5,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_red1",
+        "ljlx_red2"
+      ],
+      "link": "255,0,255",
+      "linkup": "255,153,255",
+      "effcontinue": 0,
+      "towerlight": "fire4",
+      "planelight1": "",
+      "planelight2": "skel_bulletlight",
+      "extra": "",
+      "tipAnim": "play4"
+    },
+    "46": {
+      "id": 46,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Missile",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin4",
+        "play6"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin4",
+        "play6"
+      ],
+      "ljimage": "lj_4_6",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 6,
+      "shiftingatk": [
+        0,
+        77,
+        2.2,
+        506,
+        1,
+        0,
+        600
+      ],
+      "Onatk": [
+        10,
+        53
+      ],
+      "Onskill": 4,
+      "skillcs": [
+        0,
+        -50,
+        2,
+        15,
+        8,
+        0.1,
+        150
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        60
+      ],
+      "Onskillla": 2,
+      "Onskilljg": 5,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_red1",
+        "ljlx_red2"
+      ],
+      "link": "255,0,255",
+      "linkup": "255,153,255",
+      "effcontinue": 0,
+      "towerlight": "fire4",
+      "planelight1": "",
+      "planelight2": "skel_bulletlight",
+      "extra": "",
+      "tipAnim": "play4"
+    },
+    "101": {
+      "id": 101,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Fury",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin5",
+        "play1"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin5",
+        "play1"
+      ],
+      "ljimage": "lj_5_1",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 1,
+      "shiftingatk": [
+        0,
+        57,
+        3.45,
+        501,
+        1,
+        0,
+        100
+      ],
+      "Onatk": [
+        10,
+        3
+      ],
+      "Onskill": 10,
+      "skillcs": [
+        0,
+        57,
+        0.2,
+        511,
+        1,
+        0,
+        100
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        10
+      ],
+      "Onskillla": 4,
+      "Onskilljg": 12,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_red1",
+        "ljlx_red2"
+      ],
+      "link": "255,153,0",
+      "linkup": "255,255,0",
+      "effcontinue": 0,
+      "towerlight": "fire2",
+      "planelight1": "",
+      "planelight2": "skel_bulletlight",
+      "extra": "",
+      "tipAnim": "play3"
+    },
+    "102": {
+      "id": 102,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Fury",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin5",
+        "play2"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin5",
+        "play2"
+      ],
+      "ljimage": "lj_5_2",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 2,
+      "shiftingatk": [
+        0,
+        62,
+        3.17,
+        502,
+        1,
+        0,
+        200
+      ],
+      "Onatk": [
+        10,
+        10
+      ],
+      "Onskill": 10,
+      "skillcs": [
+        0,
+        62,
+        0.2,
+        512,
+        1,
+        0,
+        200
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        20
+      ],
+      "Onskillla": 4,
+      "Onskilljg": 12,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_red1",
+        "ljlx_red2"
+      ],
+      "link": "255,153,0",
+      "linkup": "255,255,0",
+      "effcontinue": 0,
+      "towerlight": "fire2",
+      "planelight1": "",
+      "planelight2": "skel_bulletlight",
+      "extra": "",
+      "tipAnim": "play3"
+    },
+    "103": {
+      "id": 103,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Fury",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin5",
+        "play3"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin5",
+        "play3"
+      ],
+      "ljimage": "lj_5_3",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 3,
+      "shiftingatk": [
+        0,
+        67,
+        2.89,
+        503,
+        1,
+        0,
+        300
+      ],
+      "Onatk": [
+        10,
+        23
+      ],
+      "Onskill": 10,
+      "skillcs": [
+        0,
+        67,
+        0.15,
+        513,
+        1,
+        0,
+        250
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        30
+      ],
+      "Onskillla": 4,
+      "Onskilljg": 12,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_red1",
+        "ljlx_red2"
+      ],
+      "link": "255,153,0",
+      "linkup": "255,255,0",
+      "effcontinue": 0,
+      "towerlight": "fire2",
+      "planelight1": "",
+      "planelight2": "skel_bulletlight",
+      "extra": "",
+      "tipAnim": "play3"
+    },
+    "104": {
+      "id": 104,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Fury",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin5",
+        "play4"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin5",
+        "play4"
+      ],
+      "ljimage": "lj_5_4",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 4,
+      "shiftingatk": [
+        0,
+        72,
+        2.61,
+        504,
+        1,
+        0,
+        400
+      ],
+      "Onatk": [
+        10,
+        33
+      ],
+      "Onskill": 10,
+      "skillcs": [
+        0,
+        72,
+        0.15,
+        514,
+        1,
+        0,
+        300
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        40
+      ],
+      "Onskillla": 4,
+      "Onskilljg": 12,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_red1",
+        "ljlx_red2"
+      ],
+      "link": "255,153,0",
+      "linkup": "255,255,0",
+      "effcontinue": 0,
+      "towerlight": "fire2",
+      "planelight1": "",
+      "planelight2": "skel_bulletlight",
+      "extra": "",
+      "tipAnim": "play3"
+    },
+    "105": {
+      "id": 105,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Fury",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin5",
+        "play5"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin5",
+        "play5"
+      ],
+      "ljimage": "lj_5_5",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 5,
+      "shiftingatk": [
+        0,
+        77,
+        2.33,
+        505,
+        1,
+        0,
+        500
+      ],
+      "Onatk": [
+        10,
+        43
+      ],
+      "Onskill": 10,
+      "skillcs": [
+        0,
+        77,
+        0.15,
+        515,
+        1,
+        0,
+        350
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        50
+      ],
+      "Onskillla": 4,
+      "Onskilljg": 12,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_red1",
+        "ljlx_red2"
+      ],
+      "link": "255,153,0",
+      "linkup": "255,255,0",
+      "effcontinue": 0,
+      "towerlight": "fire2",
+      "planelight1": "",
+      "planelight2": "skel_bulletlight",
+      "extra": "",
+      "tipAnim": "play3"
+    },
+    "106": {
+      "id": 106,
+      "initiallv": 1,
+      "seat": 2,
+      "highestlv": -1,
+      "describe": "Fury",
+      "istogether": 1,
+      "ratio": 30,
+      "icon": [
+        "skin5",
+        "play6"
+      ],
+      "initialatk": 100,
+      "upatk": [
+        0
+      ],
+      "initialskill": 1,
+      "upskill": [
+        0.01
+      ],
+      "baoji": 0,
+      "mingzhong": [
+        0
+      ],
+      "gedang": [
+        0
+      ],
+      "materialup": [
+        0
+      ],
+      "goldin": 0,
+      "upgoldin": 1,
+      "rampage": [
+        0
+      ],
+      "ljam": [
+        "skin5",
+        "play6"
+      ],
+      "ljimage": "lj_5_6",
+      "ljyzam": "",
+      "ljyzimage": "",
+      "sound": "",
+      "onsitelv": 6,
+      "shiftingatk": [
+        0,
+        77,
+        2.05,
+        506,
+        1,
+        0,
+        600
+      ],
+      "Onatk": [
+        10,
+        53
+      ],
+      "Onskill": 10,
+      "skillcs": [
+        0,
+        77,
+        0.15,
+        516,
+        1,
+        0,
+        400
+      ],
+      "lvone": [],
+      "lvtwo": [],
+      "Onskillup": [
+        1,
+        60
+      ],
+      "Onskillla": 4,
+      "Onskilljg": 12,
+      "morewing": 0,
+      "ljlx": [
+        "ljlx_red1",
+        "ljlx_red2"
+      ],
+      "link": "255,153,0",
+      "linkup": "255,255,0",
+      "effcontinue": 0,
+      "towerlight": "fire2",
+      "planelight1": "",
+      "planelight2": "skel_bulletlight",
+      "extra": "",
+      "tipAnim": "play3"
+    },
+    "allID": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
+    ]
+  }
+}

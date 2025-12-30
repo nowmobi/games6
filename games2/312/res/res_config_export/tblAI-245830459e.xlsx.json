@@ -1,0 +1,56 @@
+[
+  {
+    "id": 0,
+    "key": "delimitDefenceTrack",
+    "value": 3,
+    "notes": "临界值：防守者的impair大于这个值，才会去主动攻击带球着，不然就退防"
+  },
+  {
+    "id": 1,
+    "key": "delimiDistanceEnableDodge",
+    "value": 10,
+    "notes": "临界值：开启闪避的距离"
+  },
+  {
+    "id": 2,
+    "key": "maxRobotCountDefenceBack",
+    "value": 3,
+    "notes": "防守错过的时候，退防的人数"
+  },
+  {
+    "id": 3,
+    "key": "distanceToPenaltyDefenceBack",
+    "value": 7,
+    "notes": "退防到禁区前N米的位置"
+  },
+  {
+    "id": 4,
+    "key": "maxRobotCountDefenceForward",
+    "value": 1,
+    "notes": "防守错过的时候，往前跑的人数"
+  },
+  {
+    "id": 5,
+    "key": "distanceToPenaltyDefenceForward",
+    "value": 20,
+    "notes": "往前跑到禁区前N米的位置"
+  },
+  {
+    "id": 6,
+    "key": "biasDefenceBack",
+    "value": 1,
+    "notes": "0:机器人错过之后，会首先考虑往敌方禁区跑。1：机器人错过之后，会首先考虑往本方禁区跑。"
+  },
+  {
+    "id": 7,
+    "key": "maxTimeDefenceBack",
+    "value": 3,
+    "notes": "往后跑最大时间"
+  },
+  {
+    "id": 8,
+    "key": "maxTimeDefenceForward",
+    "value": 3,
+    "notes": "往前跑最大时间"
+  }
+]

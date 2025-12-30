@@ -1,0 +1,368 @@
+{
+  "ID": "00a409ef-8ed3-4d7a-9926-32df2a240acb",
+  "Version": "3.10.0.0",
+  "Name": "goto_next_page_layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/scalesprite3.png",
+              "Plist": "csi/scaleplist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 65,
+            "Scale9OriginY": 65,
+            "Scale9Width": 68,
+            "Scale9Height": 69,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360,
+              "Y": 636.8738
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4976
+            },
+            "PreSize": {
+              "X": 0.8889,
+              "Y": 0.2954
+            },
+            "LeftMargin": 40,
+            "RightMargin": 40,
+            "TopMargin": 454.0905,
+            "BottomMargin": 447.8381,
+            "Tag": 2,
+            "ActionTag": -2065946587,
+            "Size": {
+              "X": 640,
+              "Y": 378.0714
+            },
+            "Name": "bgimg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/n_titlebg1.png",
+              "Plist": "csi/csi_2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360,
+              "Y": 824.2673
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.644
+            },
+            "PreSize": {
+              "X": 0.9361,
+              "Y": 0.1289
+            },
+            "LeftMargin": 23,
+            "RightMargin": 23,
+            "TopMargin": 373.2327,
+            "BottomMargin": 741.7673,
+            "Tag": 225,
+            "ActionTag": 987323290,
+            "Size": {
+              "X": 674,
+              "Y": 165
+            },
+            "Name": "titlesp",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/publicbtn12.png",
+              "Plist": "csi/csi_2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 240,
+              "Y": 543.19
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3333,
+              "Y": 0.4244
+            },
+            "PreSize": {
+              "X": 0.2722,
+              "Y": 0.0734
+            },
+            "LeftMargin": 142,
+            "RightMargin": 382,
+            "TopMargin": 689.81,
+            "BottomMargin": 496.19,
+            "Tag": 226,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "public/n_return.png",
+                  "Plist": "csi/fntplist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 96,
+                  "Y": 52
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4898,
+                  "Y": 0.5532
+                },
+                "PreSize": {
+                  "X": 0.6582,
+                  "Y": 0.3404
+                },
+                "LeftMargin": 31.5,
+                "RightMargin": 35.5,
+                "TopMargin": 26,
+                "BottomMargin": 36,
+                "Tag": 230,
+                "ActionTag": -950190018,
+                "Size": {
+                  "X": 119,
+                  "Y": 33
+                },
+                "Name": "returnsp",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 646169573,
+            "Size": {
+              "X": 196,
+              "Y": 94
+            },
+            "Name": "returnbtn",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/publicbtn11.png",
+              "Plist": "csi/csi_2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 480,
+              "Y": 543.19
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6667,
+              "Y": 0.4244
+            },
+            "PreSize": {
+              "X": 0.2722,
+              "Y": 0.0734
+            },
+            "LeftMargin": 382,
+            "RightMargin": 142,
+            "TopMargin": 689.81,
+            "BottomMargin": 496.19,
+            "Tag": 227,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "public/n_confirm.png",
+                  "Plist": "csi/fntplist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 96.0004,
+                  "Y": 53.1704
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4898,
+                  "Y": 0.5656
+                },
+                "PreSize": {
+                  "X": 0.7704,
+                  "Y": 0.3404
+                },
+                "LeftMargin": 20.5004,
+                "RightMargin": 24.4996,
+                "TopMargin": 24.8296,
+                "BottomMargin": 37.1704,
+                "Tag": 229,
+                "ActionTag": 1876704837,
+                "Size": {
+                  "X": 135,
+                  "Y": 43
+                },
+                "Name": "confimesp",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1802515603,
+            "Size": {
+              "X": 196,
+              "Y": 94
+            },
+            "Name": "confimebtn",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 35,
+            "LabelText": "Go to the next map. The map is loading,sure to play the next stage?",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/jellyboom_font.ttf",
+              "Plist": ""
+            },
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2,
+            "ShadowOffsetY": -2,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 374,
+              "Y": 674.48
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5194,
+              "Y": 0.5269
+            },
+            "PreSize": {
+              "X": 0.7222,
+              "Y": 0.1172
+            },
+            "LeftMargin": 114,
+            "RightMargin": 86,
+            "TopMargin": 530.52,
+            "BottomMargin": 599.48,
+            "Tag": 228,
+            "ActionTag": 146705919,
+            "Size": {
+              "X": 520,
+              "Y": 150
+            },
+            "Name": "destxt",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720,
+          "Y": 1280
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../csi/csi_2.plist",
+        "../csi/csi_2.png",
+        "../csi/fntplist.plist",
+        "../csi/fntplist.png",
+        "../csi/scaleplist.plist",
+        "../csi/scaleplist.png",
+        "../font/jellyboom_font.ttf"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

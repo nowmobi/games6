@@ -1,0 +1,953 @@
+{
+  "ID": "8a756504-c4cd-4fc7-8293-3393fe0eb229",
+  "Version": "3.10.0.0",
+  "Name": "payment_shop_layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/scalesprite3.png",
+              "Plist": "csi/scaleplist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 99,
+            "Scale9OriginY": 99,
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 1
+            },
+            "Position": {
+              "X": 360.0004,
+              "Y": 1105.3853
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.8636
+            },
+            "PreSize": {
+              "X": 0.8861,
+              "Y": 0.8031
+            },
+            "LeftMargin": 41.0004,
+            "RightMargin": 40.9996,
+            "TopMargin": 174.6147,
+            "BottomMargin": 77.3853,
+            "Tag": 62,
+            "ActionTag": -702222430,
+            "Size": {
+              "X": 638,
+              "Y": 1028
+            },
+            "Name": "bg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/scalesprite4.png",
+              "Plist": "csi/scaleplist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 49,
+            "Scale9OriginY": 49,
+            "Scale9Width": 36,
+            "Scale9Height": 36,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360,
+              "Y": 570.0015
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4453
+            },
+            "PreSize": {
+              "X": 0.825,
+              "Y": 0.6984
+            },
+            "LeftMargin": 63,
+            "RightMargin": 63,
+            "TopMargin": 262.9985,
+            "BottomMargin": 123.0015,
+            "Tag": 73,
+            "ActionTag": 1663985410,
+            "Size": {
+              "X": 594,
+              "Y": 894
+            },
+            "Name": "Image_2",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shop/bg1.png",
+              "Plist": "csi/fbpayshopplist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 214,
+              "Y": 902
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2972,
+              "Y": 0.7047
+            },
+            "PreSize": {
+              "X": 0.3833,
+              "Y": 0.1516
+            },
+            "LeftMargin": 76,
+            "RightMargin": 368,
+            "TopMargin": 281,
+            "BottomMargin": 805,
+            "Tag": 75,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "shop/bg6.png",
+                  "Plist": "csi/fbpayshopplist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 138.0001,
+                  "Y": 127.0001
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6546
+                },
+                "PreSize": {
+                  "X": 0.8659,
+                  "Y": 0.5464
+                },
+                "LeftMargin": 18.5001,
+                "RightMargin": 18.4999,
+                "TopMargin": 13.9999,
+                "BottomMargin": 74.0001,
+                "Tag": 81,
+                "ActionTag": -86098280,
+                "Size": {
+                  "X": 239,
+                  "Y": 106
+                },
+                "Name": "bg6_53",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "shop/price1.png",
+                  "Plist": "csi/fbpayshopplist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 137.9999,
+                  "Y": 30
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1546
+                },
+                "PreSize": {
+                  "X": 0.3152,
+                  "Y": 0.1649
+                },
+                "LeftMargin": 94.4999,
+                "RightMargin": 94.5001,
+                "TopMargin": 148,
+                "BottomMargin": 14,
+                "Tag": 83,
+                "ActionTag": 1867609603,
+                "Size": {
+                  "X": 87,
+                  "Y": 32
+                },
+                "Name": "price",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -19208686,
+            "Size": {
+              "X": 276,
+              "Y": 194
+            },
+            "Name": "paybtn_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shop/bg1.png",
+              "Plist": "csi/fbpayshopplist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 213.1579,
+              "Y": 703.0491
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2961,
+              "Y": 0.5493
+            },
+            "PreSize": {
+              "X": 0.3833,
+              "Y": 0.1516
+            },
+            "LeftMargin": 75.1579,
+            "RightMargin": 368.8422,
+            "TopMargin": 479.9509,
+            "BottomMargin": 606.0491,
+            "Tag": 76,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "shop/bg5.png",
+                  "Plist": "csi/fbpayshopplist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 138,
+                  "Y": 127.0001
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6546
+                },
+                "PreSize": {
+                  "X": 0.8804,
+                  "Y": 0.5464
+                },
+                "LeftMargin": 16.5,
+                "RightMargin": 16.5,
+                "TopMargin": 13.9999,
+                "BottomMargin": 74.0001,
+                "Tag": 80,
+                "ActionTag": 1994063621,
+                "Size": {
+                  "X": 243,
+                  "Y": 106
+                },
+                "Name": "bg5_52",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "shop/price1.png",
+                  "Plist": "csi/fbpayshopplist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 138,
+                  "Y": 30
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1546
+                },
+                "PreSize": {
+                  "X": 0.3152,
+                  "Y": 0.1649
+                },
+                "LeftMargin": 94.5,
+                "RightMargin": 94.5,
+                "TopMargin": 148,
+                "BottomMargin": 14,
+                "Tag": 82,
+                "ActionTag": 888631742,
+                "Size": {
+                  "X": 87,
+                  "Y": 32
+                },
+                "Name": "price",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1216813872,
+            "Size": {
+              "X": 276,
+              "Y": 194
+            },
+            "Name": "paybtn_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shop/bg2.png",
+              "Plist": "csi/fbpayshopplist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 504,
+              "Y": 802
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7,
+              "Y": 0.6266
+            },
+            "PreSize": {
+              "X": 0.3833,
+              "Y": 0.3063
+            },
+            "LeftMargin": 366,
+            "RightMargin": 78,
+            "TopMargin": 282,
+            "BottomMargin": 606,
+            "Tag": 77,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "shop/price2.png",
+                  "Plist": "csi/fbpayshopplist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 138.0002,
+                  "Y": 41.0001
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1046
+                },
+                "PreSize": {
+                  "X": 0.3841,
+                  "Y": 0.0944
+                },
+                "LeftMargin": 85.0002,
+                "RightMargin": 84.9998,
+                "TopMargin": 332.4999,
+                "BottomMargin": 22.5001,
+                "Tag": 84,
+                "ActionTag": 321970903,
+                "Size": {
+                  "X": 106,
+                  "Y": 37
+                },
+                "Name": "price",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1426465914,
+            "Size": {
+              "X": 276,
+              "Y": 392
+            },
+            "Name": "paybtn_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FlipX": true,
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shop/n_titlebg.png",
+              "Plist": "csi/csi_6.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 521.0004,
+              "Y": 1078.0188
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7236,
+              "Y": 0.8422
+            },
+            "PreSize": {
+              "X": 0.45,
+              "Y": 0.1398
+            },
+            "LeftMargin": 359.0004,
+            "RightMargin": 36.9996,
+            "TopMargin": 112.4812,
+            "BottomMargin": 988.5188,
+            "Tag": 60,
+            "ActionTag": 1453196985,
+            "Size": {
+              "X": 324,
+              "Y": 179
+            },
+            "Name": "titlebg_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shop/n_titlebg.png",
+              "Plist": "csi/csi_6.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 196.9987,
+              "Y": 1078.3184
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2736,
+              "Y": 0.8424
+            },
+            "PreSize": {
+              "X": 0.45,
+              "Y": 0.1398
+            },
+            "LeftMargin": 34.9987,
+            "RightMargin": 361.0013,
+            "TopMargin": 112.1816,
+            "BottomMargin": 988.8184,
+            "Tag": 61,
+            "ActionTag": -50632343,
+            "Size": {
+              "X": 324,
+              "Y": 179
+            },
+            "Name": "titlebg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shop/shop.png",
+              "Plist": "csi/fntplist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0009,
+              "Y": 1146.0037
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.8953
+            },
+            "PreSize": {
+              "X": 0.4319,
+              "Y": 0.0695
+            },
+            "LeftMargin": 204.5009,
+            "RightMargin": 204.4991,
+            "TopMargin": 89.4963,
+            "BottomMargin": 1101.5037,
+            "Tag": 59,
+            "ActionTag": 1194238882,
+            "Size": {
+              "X": 311,
+              "Y": 89
+            },
+            "Name": "shop_47",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shop/bg3.png",
+              "Plist": "csi/fbpayshopplist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360,
+              "Y": 433
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.3383
+            },
+            "PreSize": {
+              "X": 0.7917,
+              "Y": 0.2594
+            },
+            "LeftMargin": 75,
+            "RightMargin": 75,
+            "TopMargin": 681,
+            "BottomMargin": 267,
+            "Tag": 78,
+            "ActionTag": 917382549,
+            "Size": {
+              "X": 570,
+              "Y": 332
+            },
+            "Name": "bg3_50",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shop/bg4.png",
+              "Plist": "csi/fbpayshopplist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0001,
+              "Y": 202.2445
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.158
+            },
+            "PreSize": {
+              "X": 0.7861,
+              "Y": 0.0984
+            },
+            "LeftMargin": 77.0001,
+            "RightMargin": 76.9999,
+            "TopMargin": 1014.7555,
+            "BottomMargin": 139.2445,
+            "Tag": 79,
+            "ActionTag": -259024455,
+            "Size": {
+              "X": 566,
+              "Y": 126
+            },
+            "Name": "bg4_51",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/n_close.png",
+              "Plist": "csi/csi_2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 639.1614,
+              "Y": 1127.9951
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8877,
+              "Y": 0.8812
+            },
+            "PreSize": {
+              "X": 0.0986,
+              "Y": 0.0578
+            },
+            "LeftMargin": 603.6614,
+            "RightMargin": 45.3386,
+            "TopMargin": 115.0049,
+            "BottomMargin": 1090.9951,
+            "Tag": 74,
+            "ActionTag": -1000802787,
+            "Size": {
+              "X": 71,
+              "Y": 74
+            },
+            "Name": "btnClose",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/publicbtn33.png",
+              "Plist": "csi/csi_6.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 535.0001,
+              "Y": 203
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7431,
+              "Y": 0.1586
+            },
+            "PreSize": {
+              "X": 0.2417,
+              "Y": 0.0484
+            },
+            "LeftMargin": 448.0001,
+            "RightMargin": 97.9999,
+            "TopMargin": 1046,
+            "BottomMargin": 172,
+            "Tag": 87,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "shop/price3.png",
+                  "Plist": "csi/fbpayshopplist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 87,
+                  "Y": 31
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.5805,
+                  "Y": 0.5806
+                },
+                "LeftMargin": 36.5,
+                "RightMargin": 36.5,
+                "TopMargin": 13,
+                "BottomMargin": 13,
+                "Tag": 85,
+                "ActionTag": -1612495068,
+                "Size": {
+                  "X": 101,
+                  "Y": 36
+                },
+                "Name": "price3_57",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1056522914,
+            "Size": {
+              "X": 174,
+              "Y": 62
+            },
+            "Name": "paybtn_5",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/publicbtn33.png",
+              "Plist": "csi/csi_6.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 535.0001,
+              "Y": 313
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7431,
+              "Y": 0.2445
+            },
+            "PreSize": {
+              "X": 0.2417,
+              "Y": 0.0484
+            },
+            "LeftMargin": 448.0001,
+            "RightMargin": 97.9999,
+            "TopMargin": 936,
+            "BottomMargin": 282,
+            "Tag": 88,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "shop/price4.png",
+                  "Plist": "csi/fbpayshopplist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 87,
+                  "Y": 31
+                },
+                "Scale": {
+                  "ScaleX": 1,
+                  "ScaleY": 1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.5805,
+                  "Y": 0.5806
+                },
+                "LeftMargin": 36.5,
+                "RightMargin": 36.5,
+                "TopMargin": 13,
+                "BottomMargin": 13,
+                "Tag": 86,
+                "ActionTag": 1392366347,
+                "Size": {
+                  "X": 101,
+                  "Y": 36
+                },
+                "Name": "price4_58",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -754006369,
+            "Size": {
+              "X": 174,
+              "Y": 62
+            },
+            "Name": "paybtn_4",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720,
+          "Y": 1280
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../csi/csi_2.plist",
+        "../csi/csi_2.png",
+        "../csi/csi_6.plist",
+        "../csi/csi_6.png",
+        "../csi/fbpayshopplist.plist",
+        "../csi/fbpayshopplist.png",
+        "../csi/fntplist.plist",
+        "../csi/fntplist.png",
+        "../csi/scaleplist.plist",
+        "../csi/scaleplist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

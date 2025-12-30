@@ -1,0 +1,416 @@
+{
+  "success": true,
+  "result": {
+    "game": {
+      "gameMd5": "01645070ce594b38a4d1bb17c70a0fb1",
+      "title": "Pocket Parking",
+      "status": 2,
+      "activeStatus": 1,
+      "description": "Get all the cars out of the parking lot wthin the time limit! The car goes straight forward and backward. Move it in a direction where there are no walls or cars.",
+      "publishedAt": "2024-04-03T08:00:04.000Z",
+      "category": "Puzzle",
+      "tags": [
+        {
+          "id": 410,
+          "title": "car"
+        },
+        {
+          "id": 2037,
+          "title": "parking"
+        },
+        {
+          "id": 2571,
+          "title": "slide"
+        },
+        {
+          "id": 7464,
+          "title": "Kids Friendly"
+        },
+        {
+          "id": 7465,
+          "title": "No Blood"
+        }
+      ],
+      "assets": [
+        {
+          "id": 120867,
+          "name": "01645070ce594b38a4d1bb17c70a0fb1-512x384.jpg",
+          "width": 512,
+          "height": 384
+        },
+        {
+          "id": 120868,
+          "name": "01645070ce594b38a4d1bb17c70a0fb1-512x512.jpg",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "id": 120869,
+          "name": "01645070ce594b38a4d1bb17c70a0fb1-1280x720.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "id": 120870,
+          "name": "01645070ce594b38a4d1bb17c70a0fb1-1280x550.jpg",
+          "width": 1280,
+          "height": 550
+        },
+        {
+          "id": 120871,
+          "name": "01645070ce594b38a4d1bb17c70a0fb1-200x120.jpg",
+          "width": 200,
+          "height": 120
+        }
+      ],
+      "slug": "pocket-parking",
+      "preRoll": true,
+      "rewardedAds": true,
+      "type": 0,
+      "externalUrl": null,
+      "timeAds": 2,
+      "androidBundleId": null,
+      "iosBundleId": null,
+      "ctry": "HK",
+      "company": "Synk Inc.",
+      "dmain": false,
+      "crtv": null,
+      "dname": "Synk Inc.",
+      "dmn": "yang.com:8080",
+      "mobileMode": "Portrait",
+      "meta": {
+        "ast": {
+          "c": 0.1039
+        }
+      },
+      "enableAds": {
+        "default": false,
+        "interstitial": false,
+        "rewarded": false
+      },
+      "push_cuda": {
+        "enabled": true
+      },
+      "loader": {
+        "enabled": true,
+        "sdk_version": "1.15.2"
+      },
+      "dads": {
+        "enabled": true,
+        "left": {
+          "enabled": false,
+          "script": {
+            "src": "https://pm.gamedistribution.com/@bygd/gd-tag-js/0.5.2/dist/default/iife/index.js",
+            "data-slot-id": "pluto-splash-slot-left",
+            "data-flow": "hl"
+          }
+        }
+      },
+      "pads": {
+        "vmap": {
+          "enabled": false
+        },
+        "dp": {
+          "enabled": true
+        }
+      },
+      "mads": {
+        "vmap": {
+          "enabled": false
+        },
+        "dp": {
+          "enabled": true
+        }
+      },
+      "rads": {
+        "vmap": {
+          "enabled": false
+        },
+        "dp": {
+          "enabled": true
+        }
+      },
+      "sdk": {
+        "afg": {
+          "enabled": true
+        }
+      },
+      "diagnostic": {
+        "useTopDomains": true,
+        "gameDock": {
+          "adViewEvent": true,
+          "heartbeatConfig": [
+            60000,
+            240000,
+            300000,
+            300000,
+            300000,
+            600000
+          ]
+        }
+      },
+      "splash": {
+        "template": "pluto",
+        "package_version": "1.3.16",
+        "package": "gd-sdk-air-dynamic"
+      },
+      "promo": {
+        "puzzle": {
+          "enabled": false
+        },
+        "rainbow": {
+          "enabled": true,
+          "position": {
+            "rewarded": true,
+            "preroll": false,
+            "midroll": false
+          },
+          "gift": false,
+          "duration": 10
+        },
+        "videoEnabled": true
+      },
+      "cmp": {
+        "enabled": true,
+        "checkDepthOnly": true
+      },
+      "gft": [
+        {
+          "weight": 2,
+          "preroll": {
+            "enabled": false,
+            "durations": [
+              {
+                "after": 1,
+                "wait": 1
+              }
+            ]
+          },
+          "midroll": {
+            "enabled": true,
+            "durations": [
+              {
+                "after": 2,
+                "wait": 1
+              },
+              {
+                "after": 4,
+                "wait": 1
+              },
+              {
+                "after": 5,
+                "wait": 1
+              }
+            ]
+          },
+          "rewarded": {
+            "enabled": true,
+            "durations": [
+              {
+                "after": 2,
+                "wait": 1
+              },
+              {
+                "after": 4,
+                "wait": 1
+              },
+              {
+                "after": 5,
+                "wait": 1
+              }
+            ]
+          }
+        }
+      ],
+      "sgpid": {
+        "id": 99999
+      },
+      "sdkfw": {
+        "enabled": true,
+        "handshake": true,
+        "sgForward": true
+      },
+      "sgpr": {
+        "enabled": true
+      },
+      "lp": {
+        "load": false
+      },
+      "dbglg": {
+        "enabled": true,
+        "topics": [
+          "hl.gameplay",
+          "hl.gameload",
+          "hl.gameplay.error",
+          "hl.gameload.error"
+        ]
+      },
+      "__t4r": [
+        {
+          "weight": 7,
+          "preroll": {
+            "enabled": true,
+            "min": 6234,
+            "max": 5432,
+            "viper": 0.7
+          },
+          "midroll": {
+            "enabled": true,
+            "min": 6234,
+            "max": 5432,
+            "viper": 0.7
+          },
+          "rewarded": {
+            "enabled": true,
+            "min": 6234,
+            "max": 5432,
+            "viper": 0.7
+          },
+          "meta": {
+            "ast": {
+              "c": 0.22
+            },
+            "sit": {
+              "c": 0.22
+            }
+          }
+        },
+        {
+          "weight": 3,
+          "preroll": {
+            "enabled": false
+          },
+          "midroll": {
+            "enabled": false
+          },
+          "rewarded": {
+            "enabled": false
+          }
+        }
+      ],
+      "dp": {
+        "preroll": {
+          "enabled": true
+        },
+        "midroll": {
+          "enabled": true
+        },
+        "rewarded": {
+          "enabled": true
+        }
+      },
+      "adflw": {
+        "adapters": {
+          "default": [
+            "ima",
+            "ima",
+            "adsense",
+            "ima",
+            "adsense",
+            "ima"
+          ],
+          "preroll": [
+            "ima",
+            "adsense",
+            "ima"
+          ],
+          "midroll": [
+            "ima",
+            "adsense",
+            "ima"
+          ],
+          "rewarded": [
+            "ima",
+            "adsense",
+            "ima"
+          ]
+        }
+      },
+      "aws_tst": {
+        "enabled": false,
+        "ep": {
+          "api": false,
+          "atm": false,
+          "msgrt": false,
+          "loader": false
+        }
+      },
+      "afgszf": {
+        "enabled": true,
+        "rHeight": "115vh",
+        "rScrolls": true
+      },
+      "fllc": {
+        "enabled": false
+      },
+      "lotm": {
+        "enabled": false
+      },
+      "t4rc": [
+        {
+          "weight": 1,
+          "bidder_exc": [
+            "improvedigital",
+            "pubmatic"
+          ],
+          "bidder_exc_rate": {
+            "enabled": true,
+            "rate": 0.4
+          }
+        }
+      ],
+      "midroll_plus": {
+        "enabled": true,
+        "interval": 2,
+        "timer": 3
+      },
+      "gmky": [
+        {
+          "weight": 5,
+          "url": "https://cdn.gamemonkey.org/gamemonkey-sdk-javascript/5.1.1/script/gamemonkey-sdk.js"
+        }
+      ],
+      "dtu": {
+        "enabled": true,
+        "behavior": "to-loader"
+      },
+      "advlm": {
+        "mode": "auto"
+      },
+      "ad_blcks": {
+        "removeOtherAdaptors": {
+          "enabled": false
+        },
+        "adsenseTimeout": {
+          "enabled": true,
+          "timeout": {
+            "default": 5,
+            "preroll": 5,
+            "midroll": 5
+          }
+        }
+      },
+      "gs_trc": [
+        {
+          "weight": 1,
+          "enabled": true
+        },
+        {
+          "weight": 3,
+          "enabled": false
+        }
+      ],
+      "rmblck": [
+        {
+          "weight": 6,
+          "enabled": false
+        },
+        {
+          "weight": 4,
+          "enabled": true
+        }
+      ],
+      "ctry_vst": 105651
+    }
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "shapePath": {
+    "crashParticle": [
+      {
+        "x": 24,
+        "y": 81
+      },
+      {
+        "x": 24,
+        "y": 81
+      },
+      {
+        "x": 55,
+        "y": 63
+      }
+    ],
+    "wall_0": [
+      {
+        "x": 0,
+        "y": 71
+      },
+      {
+        "x": 15,
+        "y": 79
+      },
+      {
+        "x": 66,
+        "y": 49
+      }
+    ],
+    "car_0": [
+      {
+        "x": 13,
+        "y": 88
+      },
+      {
+        "x": 100,
+        "y": 135
+      },
+      {
+        "x": 138,
+        "y": 115
+      },
+      {
+        "x": 138,
+        "y": 90
+      },
+      {
+        "x": 106,
+        "y": 44
+      },
+      {
+        "x": 85,
+        "y": 30
+      },
+      {
+        "x": 56,
+        "y": 30
+      },
+      {
+        "x": 28,
+        "y": 48
+      },
+      {
+        "x": 13,
+        "y": 74
+      }
+    ],
+    "car_3": [
+      {
+        "x": 13,
+        "y": 90
+      },
+      {
+        "x": 100,
+        "y": 140
+      },
+      {
+        "x": 139,
+        "y": 115
+      },
+      {
+        "x": 140,
+        "y": 88
+      },
+      {
+        "x": 82,
+        "y": 31
+      },
+      {
+        "x": 37,
+        "y": 48
+      },
+      {
+        "x": 13,
+        "y": 74
+      }
+    ],
+    "car_4": [
+      {
+        "x": 17,
+        "y": 95
+      },
+      {
+        "x": 96,
+        "y": 140
+      },
+      {
+        "x": 137,
+        "y": 117
+      },
+      {
+        "x": 137,
+        "y": 78
+      },
+      {
+        "x": 128,
+        "y": 49
+      },
+      {
+        "x": 63,
+        "y": 9
+      },
+      {
+        "x": 22,
+        "y": 34
+      },
+      {
+        "x": 17,
+        "y": 55
+      }
+    ],
+    "car_6": [
+      {
+        "x": 14,
+        "y": 94
+      },
+      {
+        "x": 99,
+        "y": 142
+      },
+      {
+        "x": 138,
+        "y": 119
+      },
+      {
+        "x": 139,
+        "y": 78
+      },
+      {
+        "x": 130,
+        "y": 45
+      },
+      {
+        "x": 97,
+        "y": 23
+      },
+      {
+        "x": 69,
+        "y": 39
+      },
+      {
+        "x": 59,
+        "y": 34
+      },
+      {
+        "x": 19,
+        "y": 58
+      }
+    ],
+    "car_8": [
+      {
+        "x": 16,
+        "y": 92
+      },
+      {
+        "x": 98,
+        "y": 139
+      },
+      {
+        "x": 137,
+        "y": 116
+      },
+      {
+        "x": 138,
+        "y": 87
+      },
+      {
+        "x": 118,
+        "y": 70
+      },
+      {
+        "x": 84,
+        "y": 29
+      },
+      {
+        "x": 63,
+        "y": 33
+      },
+      {
+        "x": 56,
+        "y": 33
+      },
+      {
+        "x": 16,
+        "y": 58
+      }
+    ],
+    "car_13": [
+      {
+        "x": 12,
+        "y": 91
+      },
+      {
+        "x": 87,
+        "y": 135
+      },
+      {
+        "x": 139,
+        "y": 111
+      },
+      {
+        "x": 106,
+        "y": 35
+      },
+      {
+        "x": 54,
+        "y": 26
+      },
+      {
+        "x": 9,
+        "y": 53
+      }
+    ]
+  },
+  "textures": {
+    "crashParticle": {
+      "spritesheet": "ui",
+      "frontTextureName": "effect_0_crash.png",
+      "backTextureName": "effect_0_crash.png",
+      "size": {
+        "x": 1,
+        "y": 1
+      },
+      "points": "crashParticle"
+    },
+    "wall_0": {
+      "spritesheet": "ui",
+      "frontTextureName": "wall_0_front.png",
+      "backTextureName": "wall_0_back.png",
+      "size": {
+        "x": 1,
+        "y": 1
+      },
+      "points": "wall_0"
+    },
+    "car_0": {
+      "spritesheet": "car",
+      "frontTextureName": "car_0_?_front.png",
+      "backTextureName": "car_0_?_back.png",
+      "size": {
+        "x": 2,
+        "y": 1
+      },
+      "points": "car_0"
+    },
+    "car_1": {
+      "spritesheet": "car",
+      "frontTextureName": "car_1_?_front.png",
+      "backTextureName": "car_1_?_back.png",
+      "size": {
+        "x": 2,
+        "y": 1
+      },
+      "points": "car_0"
+    },
+    "car_2": {
+      "spritesheet": "car",
+      "frontTextureName": "car_2_?_front.png",
+      "backTextureName": "car_2_?_back.png",
+      "size": {
+        "x": 2,
+        "y": 1
+      },
+      "points": "car_0"
+    },
+    "car_3": {
+      "spritesheet": "car",
+      "frontTextureName": "car_3_?_front.png",
+      "backTextureName": "car_3_?_back.png",
+      "size": {
+        "x": 2,
+        "y": 1
+      },
+      "points": "car_3"
+    },
+    "car_4": {
+      "spritesheet": "car",
+      "frontTextureName": "car_4_?_front.png",
+      "backTextureName": "car_4_?_back.png",
+      "size": {
+        "x": 2,
+        "y": 1
+      },
+      "points": "car_4"
+    },
+    "car_5": {
+      "spritesheet": "car",
+      "frontTextureName": "car_5_?_front.png",
+      "backTextureName": "car_5_?_back.png",
+      "size": {
+        "x": 2,
+        "y": 1
+      },
+      "points": "car_4"
+    },
+    "car_6": {
+      "spritesheet": "car",
+      "frontTextureName": "car_6_?_front.png",
+      "backTextureName": "car_6_?_back.png",
+      "size": {
+        "x": 2,
+        "y": 1
+      },
+      "points": "car_6"
+    },
+    "car_7": {
+      "spritesheet": "car",
+      "frontTextureName": "car_7_?_front.png",
+      "backTextureName": "car_7_?_back.png",
+      "size": {
+        "x": 2,
+        "y": 1
+      },
+      "points": "car_6"
+    },
+    "car_8": {
+      "spritesheet": "car",
+      "frontTextureName": "car_8_?_front.png",
+      "backTextureName": "car_8_?_back.png",
+      "size": {
+        "x": 2,
+        "y": 1
+      },
+      "points": "car_8"
+    },
+    "car_9": {
+      "spritesheet": "car",
+      "frontTextureName": "car_9_?_front.png",
+      "backTextureName": "car_9_?_back.png",
+      "size": {
+        "x": 2,
+        "y": 1
+      },
+      "points": "car_8"
+    },
+    "car_10": {
+      "spritesheet": "car",
+      "frontTextureName": "car_10_?_front.png",
+      "backTextureName": "car_10_?_back.png",
+      "size": {
+        "x": 2,
+        "y": 1
+      },
+      "points": "car_8"
+    },
+    "car_11": {
+      "spritesheet": "car",
+      "frontTextureName": "car_11_?_front.png",
+      "backTextureName": "car_11_?_back.png",
+      "size": {
+        "x": 2,
+        "y": 1
+      },
+      "points": "car_8"
+    },
+    "car_12": {
+      "spritesheet": "car",
+      "frontTextureName": "car_12_?_front.png",
+      "backTextureName": "car_12_?_back.png",
+      "size": {
+        "x": 2,
+        "y": 1
+      },
+      "points": "car_4"
+    },
+    "car_13": {
+      "spritesheet": "car",
+      "frontTextureName": "car_13_?_front.png",
+      "backTextureName": "car_13_?_back.png",
+      "size": {
+        "x": 2,
+        "y": 1
+      },
+      "points": "car_13"
+    },
+    "car_14": {
+      "spritesheet": "car",
+      "frontTextureName": "car_14_?_front.png",
+      "backTextureName": "car_14_?_back.png",
+      "size": {
+        "x": 2,
+        "y": 1
+      },
+      "points": "car_13"
+    }
+  }
+}

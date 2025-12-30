@@ -1,0 +1,80 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "FrameAnim",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "FrameAnim",
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__type__": "253f5uW3/9CfaiZ8xGYaBha",
+        "node": {
+          "__id__": 1
+        },
+        "sprite": {
+          "__id__": 2
+        }
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "13dM5dTXZO0pdH0KE7OsuA"
+      },
+      "fileId": "9a+mIntA5PXKA7+Q3lBoxu"
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 515,
+      "height": 372
+    },
+    "_position": {
+      "__type__": "cc.Vec3"
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "__type__": "cc.Sprite",
+    "node": {
+      "__id__": 1
+    },
+    "_materials": [
+      {
+        "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+      }
+    ],
+    "_sizeMode": 2,
+    "_isTrimmedMode": false
+  }
+]

@@ -1,0 +1,280 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "HP_6",
+      "texture": "1a231dd02",
+      "rect": [
+        3,
+        694,
+        200,
+        204
+      ],
+      "offset": [
+        0.5,
+        -1
+      ],
+      "originalSize": [
+        341,
+        340
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "HP_1",
+      "texture": "1a231dd02",
+      "rect": [
+        119,
+        904,
+        83,
+        85
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        341,
+        340
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "HP_2",
+      "texture": "1a231dd02",
+      "rect": [
+        3,
+        904,
+        110,
+        112
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        341,
+        340
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "HP_7",
+      "texture": "1a231dd02",
+      "rect": [
+        3,
+        469,
+        212,
+        219
+      ],
+      "offset": [
+        0.5,
+        -0.5
+      ],
+      "originalSize": [
+        341,
+        340
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "HP_9",
+      "texture": "1a231dd02",
+      "rect": [
+        3,
+        236,
+        225,
+        227
+      ],
+      "offset": [
+        4,
+        -0.5
+      ],
+      "originalSize": [
+        341,
+        340
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "HP_3",
+      "texture": "1a231dd02",
+      "rect": [
+        390,
+        469,
+        154,
+        147
+      ],
+      "offset": [
+        0.5,
+        -0.5
+      ],
+      "originalSize": [
+        341,
+        340
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "HP_4",
+      "texture": "1a231dd02",
+      "rect": [
+        221,
+        469,
+        163,
+        171
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        341,
+        340
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "HP_5",
+      "texture": "1a231dd02",
+      "rect": [
+        209,
+        694,
+        195,
+        199
+      ],
+      "offset": [
+        2,
+        3.5
+      ],
+      "originalSize": [
+        341,
+        340
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "huojianpaoexplode",
+    "_duration": 0.25,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "38RrORCkBHGI7/SjNrEeXD"
+              }
+            },
+            {
+              "frame": 0.03333333333333333,
+              "value": {
+                "__uuid__": "53JMJ7fhtGX7qbJqNTjA40"
+              }
+            },
+            {
+              "frame": 0.06666666666666667,
+              "value": {
+                "__uuid__": "9dQXiVlOhHXL2fI1agIeMS"
+              }
+            },
+            {
+              "frame": 0.1,
+              "value": {
+                "__uuid__": "a3AJOw3thPjqZhRH6AelDY"
+              }
+            },
+            {
+              "frame": 0.13333333333333333,
+              "value": {
+                "__uuid__": "a8BntAAEJB25DM/kndFdCl"
+              }
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__uuid__": "26P/dVCCVNeZ2G1jtVd7df"
+              }
+            },
+            {
+              "frame": 0.2,
+              "value": {
+                "__uuid__": "61XfkesF9EBrOZWKpaztN8"
+              }
+            },
+            {
+              "frame": 0.23333333333333334,
+              "value": {
+                "__uuid__": "6bdfiege1JY5tyKhOivZQq"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]

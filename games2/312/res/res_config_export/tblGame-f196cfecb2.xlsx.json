@@ -1,0 +1,669 @@
+[
+  {
+    "id": 0,
+    "key": "groundLength",
+    "value": 81.5,
+    "notes": "场地长度"
+  },
+  {
+    "id": 1,
+    "key": "groundWidth",
+    "value": 42,
+    "notes": "场地宽度"
+  },
+  {
+    "id": 2,
+    "key": "playGroundLength",
+    "value": 63.7,
+    "notes": "场地长度（界内）"
+  },
+  {
+    "id": 3,
+    "key": "playGroundWidth",
+    "value": 40,
+    "notes": "场地宽度（界内）"
+  },
+  {
+    "id": 4,
+    "key": "penaltyLength",
+    "value": 9,
+    "notes": "禁区Z方向上的长度"
+  },
+  {
+    "id": 5,
+    "key": "penaltyWidth",
+    "value": 7,
+    "notes": "禁区X方向上的宽度"
+  },
+  {
+    "id": 6,
+    "key": "penaltyPosition0",
+    "value": "0|0|25.32",
+    "notes": "本方禁区中心点"
+  },
+  {
+    "id": 7,
+    "key": "penaltyPosition1",
+    "value": "0|0|-25.32",
+    "notes": "对方禁区中心点"
+  },
+  {
+    "id": 8,
+    "key": "backboardPosition0",
+    "value": "0|6.61|30.75",
+    "notes": "本方篮板的位置X"
+  },
+  {
+    "id": 9,
+    "key": "backboardPosition1",
+    "value": "0|6.61|-30.75",
+    "notes": "对方篮板的位置X"
+  },
+  {
+    "id": 10,
+    "key": "backboardSize",
+    "value": "1.75|1.1|1",
+    "notes": "篮板的尺寸（宽，高，厚，厚一点防止穿透）"
+  },
+  {
+    "id": 11,
+    "key": "rimRadius",
+    "value": 0.4,
+    "notes": "篮筐的半径"
+  },
+  {
+    "id": 12,
+    "key": "rimThickness",
+    "value": 0.025,
+    "notes": "篮筐的厚度"
+  },
+  {
+    "id": 13,
+    "key": "rimPosition0",
+    "value": "0|6|30",
+    "notes": "本方篮筐位置X"
+  },
+  {
+    "id": 14,
+    "key": "rimPosition1",
+    "value": "0|6|-30",
+    "notes": "对方篮筐位置X"
+  },
+  {
+    "id": 15,
+    "key": "ballRadius",
+    "value": 0.25,
+    "notes": "球半径"
+  },
+  {
+    "id": 16,
+    "key": "playerRadius",
+    "value": 1.2,
+    "notes": "人半径"
+  },
+  {
+    "id": 17,
+    "key": "playerHeight",
+    "value": 1,
+    "notes": "人高度"
+  },
+  {
+    "id": 18,
+    "key": "blockPosition00",
+    "value": "0.5|0|29.5",
+    "notes": "我方盖帽位置，X>0 XX"
+  },
+  {
+    "id": 19,
+    "key": "blockPosition01",
+    "value": "-0.5|0|29.5",
+    "notes": "我方盖帽位置，X<0 XX"
+  },
+  {
+    "id": 20,
+    "key": "blockPosition10",
+    "value": "0.5|0|-29.5",
+    "notes": "对方盖帽位置，X>0 XX"
+  },
+  {
+    "id": 21,
+    "key": "blockPosition11",
+    "value": "-0.5|0|-29.5",
+    "notes": "对方盖帽位置，X<0 XX"
+  },
+  {
+    "id": 22,
+    "key": "blockLookAt0",
+    "value": "0|0|29",
+    "notes": "我方盖帽朝向"
+  },
+  {
+    "id": 23,
+    "key": "blockLookAt1",
+    "value": "0|0|-29",
+    "notes": "对方盖帽朝向"
+  },
+  {
+    "id": 24,
+    "key": "playerInitPosition00",
+    "value": "0.2|0|9",
+    "notes": "玩家初始点位"
+  },
+  {
+    "id": 25,
+    "key": "playerInitPosition01",
+    "value": "-5|0|16"
+  },
+  {
+    "id": 26,
+    "key": "playerInitPosition02",
+    "value": "5|0|16"
+  },
+  {
+    "id": 27,
+    "key": "playerInitPosition03",
+    "value": "-10|0|10"
+  },
+  {
+    "id": 28,
+    "key": "playerInitPosition04",
+    "value": "10|0|10"
+  },
+  {
+    "id": 29,
+    "key": "playerInitPosition10",
+    "value": "0.2|0|-9"
+  },
+  {
+    "id": 30,
+    "key": "playerInitPosition11",
+    "value": "-5|0|-16"
+  },
+  {
+    "id": 31,
+    "key": "playerInitPosition12",
+    "value": "5|0|-16"
+  },
+  {
+    "id": 32,
+    "key": "playerInitPosition13",
+    "value": "-10|0|-10"
+  },
+  {
+    "id": 33,
+    "key": "playerInitPosition14",
+    "value": "10|0|-10"
+  },
+  {
+    "id": 34,
+    "key": "playerInitRotation0",
+    "value": 3.14,
+    "notes": "玩家初始旋转"
+  },
+  {
+    "id": 35,
+    "key": "playerInitRotation1",
+    "value": 0
+  },
+  {
+    "id": 36,
+    "key": "ballInitPosition",
+    "value": "0|0.26|0",
+    "notes": "球的初始位置"
+  },
+  {
+    "id": 37,
+    "key": "timeScaleOnShoot",
+    "value": 0.1,
+    "notes": "投篮时候的时间缩放"
+  },
+  {
+    "id": 38,
+    "key": "timeScaleOnShootRobot",
+    "value": 0.2
+  },
+  {
+    "id": 39,
+    "key": "timeScaleOnSlamDunk",
+    "value": 0.15,
+    "notes": "扣篮时候的时间缩放"
+  },
+  {
+    "id": 40,
+    "key": "doubleHitTolerances",
+    "value": 0.5,
+    "notes": "碰撞时，X = A对B产生的冲量, Y = B对A产生的冲量， abs(X-Y) < double_hit_tolerances时，两个玩家都击退或者击飞"
+  },
+  {
+    "id": 41,
+    "key": "hitDistance",
+    "value": 4,
+    "notes": "碰撞时的击飞距离（米）"
+  },
+  {
+    "id": 42,
+    "key": "hitDuration",
+    "value": 0.8,
+    "notes": "碰撞时的击飞时间（秒）"
+  },
+  {
+    "id": 43,
+    "key": "hitAniSpeed",
+    "value": 0.6,
+    "notes": "受击动画速度"
+  },
+  {
+    "id": 44,
+    "key": "playerSpeedChangeDirectionImmediately",
+    "value": 4,
+    "notes": "小于此速度的玩家，立刻转向，而不是绕个圆弧来变幻方向。（只适用于真人）"
+  },
+  {
+    "id": 45,
+    "key": "matchTime",
+    "value": 90,
+    "notes": "比赛时间"
+  },
+  {
+    "id": 46,
+    "key": "matchTimeScale",
+    "value": 1,
+    "notes": "现实世界中的N秒等于游戏中的1秒"
+  },
+  {
+    "id": 47,
+    "key": "threePointsLineRadius",
+    "value": 10,
+    "notes": "三分线半径"
+  },
+  {
+    "id": 48,
+    "key": "threePointsLineCenter0",
+    "value": "0|0|26.2",
+    "notes": "三分线圆心"
+  },
+  {
+    "id": 49,
+    "key": "threePointsLineCenter1",
+    "value": "0|0|-26.2"
+  },
+  {
+    "id": 50,
+    "key": "farShootDistanceToThreePointsLine",
+    "value": 20,
+    "notes": "离三分线X米距离，视为超远投篮"
+  },
+  {
+    "id": 51,
+    "key": "playerBuffers",
+    "value": "1|2|3|4|5|16|17|18|19|20|21|22|23|135|178"
+  },
+  {
+    "id": 52,
+    "key": "playerBuffersRookie",
+    "value": "96|97|98|99|100|101|102|103|151|152|154|155|165|166|232|250"
+  },
+  {
+    "id": 53,
+    "key": "AIBuffersRookie",
+    "value": "84|85|86|87|88|89|105|174|175|251"
+  },
+  {
+    "id": 54,
+    "key": "targetScore",
+    "value": 8,
+    "notes": "目标分数"
+  },
+  {
+    "id": 55,
+    "key": "crashEnableDistance",
+    "value": 3.5,
+    "notes": "允许发起冲撞的距离"
+  },
+  {
+    "id": 56,
+    "key": "maxDistanceTeammateToDribble",
+    "value": 15,
+    "notes": "友方AI向带球者跑的时候，距离不得小于N米"
+  },
+  {
+    "id": 57,
+    "key": "playerWinPosition0",
+    "value": "0|0|0",
+    "notes": "胜利跳舞的位置"
+  },
+  {
+    "id": 58,
+    "key": "playerWinPosition1",
+    "value": "1|0|0.5"
+  },
+  {
+    "id": 59,
+    "key": "playerWinPosition2",
+    "value": "-1|0|0.5"
+  },
+  {
+    "id": 60,
+    "key": "playerWinPosition3",
+    "value": "2|0|0"
+  },
+  {
+    "id": 61,
+    "key": "playerWinPosition4",
+    "value": "-2|0|0"
+  },
+  {
+    "id": 62,
+    "key": "playerWinRotation0",
+    "value": 0
+  },
+  {
+    "id": 63,
+    "key": "playerWinRotation1",
+    "value": -0.5
+  },
+  {
+    "id": 64,
+    "key": "playerWinRotation2",
+    "value": 0.5
+  },
+  {
+    "id": 65,
+    "key": "playerWinRotation3",
+    "value": 0
+  },
+  {
+    "id": 66,
+    "key": "playerWinRotation4",
+    "value": 0
+  },
+  {
+    "id": 67,
+    "key": "maxPower",
+    "value": 6,
+    "notes": "最大体力点数"
+  },
+  {
+    "id": 68,
+    "key": "secondsAddPower",
+    "value": 10,
+    "notes": "几分钟加一点体力"
+  },
+  {
+    "id": 69,
+    "key": "addPowerCountOnVedio",
+    "value": 3,
+    "notes": "看视频或者分享增加体力数"
+  },
+  {
+    "id": 70,
+    "key": "rookieMatchCount",
+    "value": 4,
+    "notes": "新手"
+  },
+  {
+    "id": 71,
+    "key": "rewardCoinOnWin",
+    "value": 50,
+    "notes": "胜利奖金"
+  },
+  {
+    "id": 72,
+    "key": "rewardCoinOnLose",
+    "value": 30,
+    "notes": "失败奖金"
+  },
+  {
+    "id": 73,
+    "key": "rewardCoinOnCrash",
+    "value": 5,
+    "notes": "冲撞奖金"
+  },
+  {
+    "id": 74,
+    "key": "rewardCoinOnGrab",
+    "value": 5,
+    "notes": "抢断奖金"
+  },
+  {
+    "id": 75,
+    "key": "rewardCoinOnScore",
+    "value": 10,
+    "notes": "得分奖金"
+  },
+  {
+    "id": 76,
+    "key": "distanceAccepterRunTowardsBall",
+    "value": 15,
+    "notes": "传球距离低于此距离，接球者向球跑"
+  },
+  {
+    "id": 77,
+    "key": "maxGuideTimesShoot",
+    "value": 1,
+    "notes": "投篮的引导次数"
+  },
+  {
+    "id": 78,
+    "key": "maxGuideTimesCrash",
+    "value": 1,
+    "notes": "冲撞的引导次数"
+  },
+  {
+    "id": 79,
+    "key": "maxGuideTimesPass",
+    "value": 1,
+    "notes": "传球的引导次数"
+  },
+  {
+    "id": 80,
+    "key": "distanceEnableBlock",
+    "value": 6,
+    "notes": "允许盖帽的距离"
+  },
+  {
+    "id": 81,
+    "key": "restitution",
+    "value": 0.5,
+    "notes": "弹力"
+  },
+  {
+    "id": 82,
+    "key": "friction",
+    "value": 5,
+    "notes": "摩擦力"
+  },
+  {
+    "id": 83,
+    "key": "randomHitRate",
+    "value": 0.5,
+    "notes": "投篮命中率"
+  },
+  {
+    "id": 84,
+    "key": "maxCoinPoolCount",
+    "value": 500,
+    "notes": "金币池上限"
+  },
+  {
+    "id": 85,
+    "key": "batchCoinDuration",
+    "value": 12,
+    "notes": "金币池每N秒产出一批金币"
+  },
+  {
+    "id": 86,
+    "key": "batchCoinCountOnline",
+    "value": 2,
+    "notes": "在线时候，每批金币数量"
+  },
+  {
+    "id": 87,
+    "key": "batchCoinCountOffline",
+    "value": 0.25,
+    "notes": "离线时候，每批金币数量"
+  },
+  {
+    "id": 88,
+    "key": "coinCountEnableMultiGet",
+    "value": 50,
+    "notes": "超过N个金币，就允许翻倍领取"
+  },
+  {
+    "id": 89,
+    "key": "angerAddOnCrash",
+    "value": 0.13,
+    "notes": "发动肘击成功时，增加的怒气，百分比"
+  },
+  {
+    "id": 90,
+    "key": "angerAddOnHit",
+    "value": 0.1,
+    "notes": "被撞击时，增加的怒气"
+  },
+  {
+    "id": 91,
+    "key": "angerAddOnFly",
+    "value": 0.3,
+    "notes": "被撞飞时，增加的怒气"
+  },
+  {
+    "id": 92,
+    "key": "angerAddOnGrab",
+    "value": 0.13,
+    "notes": "抢断时增加的怒气"
+  },
+  {
+    "id": 93,
+    "key": "angerMainBuffer",
+    "value": 133,
+    "notes": "怒气主buffer，这个buffer比较特殊，程序通过玩家是否带这个buffer来确定玩家是否发怒中,可以在这个buffer中配置上无敌的效果。"
+  },
+  {
+    "id": 94,
+    "key": "angerSubBuffers",
+    "value": "134|176",
+    "notes": "怒气的其它buffer，怒气的所有buffer需要配置一致的时间。"
+  },
+  {
+    "id": 95,
+    "key": "taskReward",
+    "value": "30|50|75|100",
+    "notes": "任务奖励"
+  },
+  {
+    "id": 96,
+    "key": "playerTouchBallBuffers",
+    "value": 144,
+    "notes": "玩家触球获得无敌buffer"
+  },
+  {
+    "id": 97,
+    "key": "alleyoopRadius",
+    "value": 12,
+    "notes": "玩家距离篮筐多少米可以空接"
+  },
+  {
+    "id": 98,
+    "key": "angerMainBufferEnhanced1",
+    "value": 168,
+    "notes": "怒气主buffer(加强版)"
+  },
+  {
+    "id": 99,
+    "key": "angerSubBuffersEnhanced1",
+    "value": "169|170|176|268",
+    "notes": "怒气其他buffer(加强版)"
+  },
+  {
+    "id": 100,
+    "key": "angerMainBufferEnhanced2",
+    "value": 274,
+    "notes": "怒气主buffer(熊猫人专属)"
+  },
+  {
+    "id": 101,
+    "key": "angerSubBuffersEnhanced2",
+    "value": "275|276|278",
+    "notes": "怒气其他buffer(熊猫人专属)"
+  },
+  {
+    "id": 102,
+    "key": "trainRookieVideoBuffers",
+    "value": "1|2|3|4|179",
+    "notes": "新手教学buffer"
+  },
+  {
+    "id": 103,
+    "key": "trainSlamDunkBuffers",
+    "value": "1|2|3|4|180",
+    "notes": "新手教学扣篮阶段buffer"
+  },
+  {
+    "id": 104,
+    "key": "trainCrashBuffers",
+    "value": "1|2|3|3|3|4|180|181|184",
+    "notes": "新手教学冲撞阶段buffer"
+  },
+  {
+    "id": 105,
+    "key": "trainShootBuffers",
+    "value": "1|2|3|4|181|165|182|183",
+    "notes": "新手教学扣篮阶段buffer"
+  },
+  {
+    "id": 106,
+    "key": "trainGround",
+    "value": 1
+  },
+  {
+    "id": 107,
+    "key": "rankGameGround",
+    "value": 0
+  },
+  {
+    "id": 108,
+    "key": "angerJumpRadius",
+    "value": 3,
+    "notes": "怒气起跳半径"
+  },
+  {
+    "id": 109,
+    "key": "angerDifficulty",
+    "value": "11|12|13|14|15",
+    "notes": "只有当难度为N的时候，才允许去刷出怒气"
+  },
+  {
+    "id": 110,
+    "key": "angerScore",
+    "value": "4|5|6|7",
+    "notes": "只有当分差为N的时候，才允许去刷出怒气"
+  },
+  {
+    "id": 111,
+    "key": "angerRate",
+    "value": "0.2|0.4|0.6|0.7",
+    "notes": "刷出怒气的概率"
+  },
+  {
+    "id": 112,
+    "key": "giftTrick",
+    "value": 8
+  },
+  {
+    "id": 113,
+    "key": "giftShoe",
+    "value": 2
+  },
+  {
+    "id": 114,
+    "key": "giftBall",
+    "value": 7
+  },
+  {
+    "id": 115,
+    "key": "shootPerfectPercent",
+    "value": "0.15|0.07|0.11",
+    "notes": "完美区间（正常情况|严重干扰|普通干扰）"
+  }
+]

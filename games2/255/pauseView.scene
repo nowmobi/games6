@@ -1,0 +1,40 @@
+{
+	"type": "View",
+	"props": {
+		"width": 750,
+		"height": 1334
+	},
+	"compId": 2,
+	"child": [
+		{
+			"type": "Box",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "pngBg",
+				"top": 0,
+				"styleSkin": "images/grid/maskLight.png",
+				"sizeGrid": "2,2,2,2",
+				"right": 0,
+				"left": 0,
+				"bottom": 0
+			},
+			"compId": 15
+		},
+		{
+			"type": "Image",
+			"props": {
+				"y": 621,
+				"x": 330,
+				"visible": false,
+				"skin": "images/main/icon_bd.png"
+			},
+			"compId": 43
+		}
+	],
+	"loadList": [
+		"images/grid/maskLight.png",
+		"images/main/icon_bd.png"
+	],
+	"loadList3D": []
+}

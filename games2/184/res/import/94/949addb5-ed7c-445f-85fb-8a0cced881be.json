@@ -1,0 +1,162 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "pay",
+  "json": {
+    "1": {
+      "id": 1,
+      "name": "688钻石",
+      "des": "购买6元钻石可以获得688钻石",
+      "num": 1,
+      "coin": 600,
+      "price": 600,
+      "reward": "2*688",
+      "iosname": "com.gameley.larkroad.kfc.ios.diamond.6"
+    },
+    "2": {
+      "id": 2,
+      "name": "3688钻石",
+      "des": "购买30元钻石可以获得3688钻石",
+      "num": 1,
+      "coin": 3000,
+      "price": 3000,
+      "reward": "2*3688",
+      "iosname": "com.gameley.larkroad.kfc.ios.diamond.30"
+    },
+    "3": {
+      "id": 3,
+      "name": "8688钻石",
+      "des": "购买68元钻石可以获得8688钻石",
+      "num": 1,
+      "coin": 6800,
+      "price": 6800,
+      "reward": "2*8688",
+      "iosname": "com.gameley.larkroad.kfc.ios.diamond.68"
+    },
+    "4": {
+      "id": 4,
+      "name": "18元特惠礼包",
+      "des": "购买18元特惠礼包可获得免广告券*70、钻石奖励*1698",
+      "num": 1,
+      "coin": 1800,
+      "price": 1800,
+      "reward": "2*998",
+      "iosname": "com.gameley.larkroad.kfc.ios.weeklymembership.18"
+    },
+    "5": {
+      "id": 5,
+      "name": "30元终极礼包",
+      "des": "购买30元终极礼包可获得免广告券*70、钻石奖励*2700、 稀有宝箱钥匙*7",
+      "num": 1,
+      "coin": 3000,
+      "price": 3000,
+      "reward": "2*2000",
+      "iosname": "com.gameley.larkroad.kfc.ios.membership.30"
+    },
+    "6": {
+      "id": 6,
+      "name": "1元章节礼包",
+      "des": "购买1元章节礼包可获得主炮升级材料*20、僚机升级材料*20、引擎升级材料*20、装甲升级材料*20、金币*10000、钻石*100",
+      "num": 1,
+      "coin": 100,
+      "price": 100,
+      "reward": "502*20#503*20#504*20#507*20#1*10000#2*100",
+      "iosname": "com.gameley.larkroad.kfc.ios.levelup.1"
+    },
+    "7": {
+      "id": 7,
+      "name": "6元战机礼包",
+      "des": "购买6元战机礼包可获得新主机*1、主机升级材料*5、钻石*100、主机科技升级材料*50、炮塔科技升级材料*50、金币*10000",
+      "num": 1,
+      "coin": 600,
+      "price": 600,
+      "reward": "708*1#308*5#2*100#501*50#505*50#1*10000",
+      "iosname": "com.gameley.larkroad.kfc.ios.dragonpacks.6"
+    },
+    "8": {
+      "id": 8,
+      "name": "3元史诗礼包1",
+      "des": "购买3元诗史礼包1可获得诗史装备*1",
+      "num": 1,
+      "coin": 300,
+      "price": 300,
+      "reward": "",
+      "iosname": "com.gameley.larkroad.kfc.ios.equipmentpacks1.3"
+    },
+    "9": {
+      "id": 9,
+      "name": "3元史诗礼包2",
+      "des": "购买3元诗史礼包2可获得诗史装备*1",
+      "num": 1,
+      "coin": 300,
+      "price": 300,
+      "reward": "",
+      "iosname": "com.gameley.larkroad.kfc.ios.equipmentpacks2.3"
+    },
+    "10": {
+      "id": 10,
+      "name": "25元战机礼包",
+      "des": "购买25元战机礼包可获得新主机*1",
+      "num": 1,
+      "coin": 2500,
+      "price": 2500,
+      "reward": "708*1",
+      "iosname": "com.gameley.larkroad.kfc.ios.dragon.25"
+    },
+    "11": {
+      "id": 11,
+      "name": "18元星际礼包",
+      "des": "购买10元星际礼包可获得领取豪华奖励门票*1",
+      "num": 1,
+      "coin": 1800,
+      "price": 1800,
+      "reward": "",
+      "iosname": "com.gameley.larkroad.kfc.ios.starpass.18"
+    },
+    "12": {
+      "id": 12,
+      "name": "12元套装礼包",
+      "des": "购买12元套装礼包可获得诗史装备套装*1",
+      "num": 1,
+      "coin": 1200,
+      "price": 1200,
+      "reward": "814*1#914*1#1014*1#1114*1",
+      "iosname": "com.gameley.larkroad.kfc.ios.purplepacks.12"
+    },
+    "13": {
+      "id": 13,
+      "name": "12元传说礼包",
+      "des": "购买12元传说礼包可获得传说装备*1",
+      "num": 1,
+      "coin": 1200,
+      "price": 1200,
+      "reward": "805*1",
+      "iosname": "com.gameley.larkroad.kfc.ios.orangeequipment.12"
+    },
+    "14": {
+      "id": 14,
+      "name": "",
+      "des": "貂蝉礼包",
+      "num": 1,
+      "coin": 2500,
+      "price": 2500,
+      "reward": "",
+      "iosname": ""
+    },
+    "allID": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  }
+}

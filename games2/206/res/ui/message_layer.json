@@ -1,0 +1,78 @@
+{
+  "ID": "b6cfe9a7-bb89-46d5-9f56-ee4aa56b65df",
+  "Version": "3.10.0.0",
+  "Name": "message_layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 72,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "choose_map/message_openbtn.png",
+              "Plist": "csi/csi_6.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360,
+              "Y": 191.8864
+            },
+            "Scale": {
+              "ScaleX": 1,
+              "ScaleY": 1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.1499
+            },
+            "PreSize": {
+              "X": 0.45,
+              "Y": 0.0953
+            },
+            "LeftMargin": 198,
+            "RightMargin": 198,
+            "TopMargin": 1027.1136,
+            "BottomMargin": 130.8864,
+            "Tag": 74,
+            "ActionTag": -820875810,
+            "Size": {
+              "X": 324,
+              "Y": 122
+            },
+            "Name": "openbtn",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720,
+          "Y": 1280
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../csi/csi_6.plist",
+        "../csi/csi_6.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

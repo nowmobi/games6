@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<templates>		
+	<element id="tElement" relativeWidth="1.0" relativeHeight="1.0" />
+		
+	<image id="tBlock" image="ui/block.png" nss="2, 2, 12, 12" />
+	<image id="tDarkBG" name="uiImgDarkBG" absolute="true" relativeWidth="1.0" relativeHeight="1.0" color="0x000000" alpha="0.7" visible="false" clickable="true" template="tBlock" />
+	
+	<image id="tProgressBox" image="ui/box.png" nss="6,11,87,77" />
+	<image id="tFrame" image="ui/frame.png" nss="9,9,20,20" />
+	<image id="tBox" image="ui/dark.png" nss="20,23,3,4">
+		<!--state state="landscape" nssScale="0.9"/>
+		<state state="portrait" nssScale="1.0" /-->
+	</image>
+	
+	<image id="tBarButton" image="ui/barbutton_01.png" nss="45,35,11,3" />
+	<image id="tShopGround" image="ui/shopground.png" nss="18,18,10,10" />			
+	<image id="tRewardGround" image="ui/rewardground.png" nss="18,18,10,10" />			
+	
+	<emitter id="tEmitter" duration="0.9" gravity="0.0" startSize="25" endColor="0x70FFFFFF" range="40" numParticlesPerSecond="50"/>
+	<emitter id="tEmitterShort" duration="0.9" gravity="0.0" startSize="25"endColor="0x70FFFFFF" range="50" numParticlesPerSecond="60" />
+	
+	<list id="tList" template="tElement">		
+		<element name="uiListField" template="tElement">
+			<state state="scrollbarOn" marginRight="50"/>
+			<state state="scrollbarOff" marginRight="0"/>
+			<area name="uiClipArea" template="tElement" >
+				<element name="uiContent" template="tElement" />
+			</area>			
+		</element>	
+		<image name="uiImgScrollbar" image="ui/regler_vertical.png" nss="26,33,8,140" nssScale="0.5" width="38" height="100%" halign="right" >
+			<state state="scrollbarOn" visible="true" />
+			<state state="scrollbarOff" visible="false"/>
+			<image name="uiImgScrollPin" image="ui/pin_vertical.png" nss="27,40,5,7" nssScale="0.5" width="100%" height="100" halign="center" valign="top" />			
+		</image>
+	</list>
+	<list id="tListHorizontal" vertical="false">		
+		<element name="uiListField" template="tElement">
+			<state state="scrollbarOn" marginBottom="35"/>
+			<state state="scrollbarOff" marginBottom="0"/>
+			<area name="uiClipArea" template="tElement">
+				<element name="uiContent" template="tElement" />
+			</area>
+		</element>	
+		<image name="uiImgScrollbar" image="ui/regler_horizontal.png" nss="16,13,70,4" nssScale="1.0" width="100%" height="25" valign="bottom" >
+			<state state="scrollbarOn" visible="true" />
+			<state state="scrollbarOff" visible="false"/>			
+			<image name="uiImgScrollPin" image="ui/pin_horizontal.png" nss="20,14,4,3" nssScale="1.0" width="100" height="110%" halign="left" valign="center" />			
+		</image>
+	</list>
+	
+	<text id="tFontGold" color="0xFFFFCF" />
+	<text id="tFontWhite" color="0xFFFFFF" colorOffset="0x0A0A0A" />
+	<text id="tFontSpecial" color="0xFFCF28" />
+	<text id="tFontSmall" size="33" />
+	<text id="tFontMedium" size="45" />
+	<text id="tFontLarge" size="60" />
+	<text id="tFontUltra" size="65" />
+	
+	<button id="tSquareButton" image="ui/SquareButton.png" width="100" ratio="1" paddingBottom="7" >
+		<image name="uiImgIcon" template="tElement" margin="0" marginBottom="-7" />
+	</button>
+	<button id="tSquareButtonRed" image="ui/SquareButtonRed.png" template="tSquareButton" />
+
+	<rewardedAd id="tRewardedAd" width="660" height="260" visible="true" padding="40" clickableChildren="false">
+		<image name="uiImgAd" template="tElement,tRewardGround">
+			<image name="uiBtWatch" image="ui/SquareButton.png" width="140" height="140" valign="center" x="20" >
+				<emitter template="tEmitter" />
+				<image image="ui/movie.png" template="tElement" margin="10" />
+			</image>
+			<image name="uiImgArrow" image="ui/arrow_white.png" width="130" height="90" halign="center" valign="center" />
+			<image name="uiImgRewardConti" width="140" height="140" halign="right" valign="center" x="-20" />
+		</image>
+		<image name="uiImgNoAd" halign="center" valign="center" image="ui/ZooBoom_Logo.png" width="100%" ratio="2.4" />
+	</rewardedAd>
+				
+	<image id="tRay" image="dynamic/strahlen.png" halign="left" valign="center" width="100" ratio="2" pivotX="0.0" pivotY="0.5" />
+	<image id="tRays" animation="rotation" width="1" ratio="1" color="0xE9D387">
+		<image template="tRay" />
+		<image template="tRay" rotation="45" />
+		<image template="tRay" rotation="90" />
+		<image template="tRay" rotation="135" />
+		<image template="tRay" rotation="180" />
+		<image template="tRay" rotation="225" />
+		<image template="tRay" rotation="270" />
+		<image template="tRay" rotation="315" />
+	</image>
+			
+	<image id="tTournamentFrame2" image="dynamic/frame_02.png" halign="center" valign="center" width="100%" ratio="1" />
+	<image id="tTournamentFrame3" image="dynamic/frame_03.png" template="tTournamentFrame2" />
+	
+	<element id="tTeamItem" template="tElement">
+		<image name="uiImg2" template="tElement"  />
+		<image name="uiImgOverlay" template="tElement" />		
+	</element>
+	<button id="tTeam" width="100" height="100" clickable="false">
+		<image name="uiImg0" template="tElement"/>
+		<image name="uiImg1" template="tElement"/>
+		<element template="tTeamItem" halign="center" valign="center" scale="0.5"/>
+		<image name="uiImgFlag" width="35%" ratio="1.25" x="5" y="-5" halign="left" valign="bottom" />
+	</button>	
+	
+	<button id="tPlayer" width="100" height="100" clickable="false">
+		<image name="uiImgPlayerBG" template="tElement"/>
+		<image name="uiImgPlayerHead" width="86%" ratio="1" halign="center" valign="center" />
+		<image image="dynamic/frame.png" width="100%" height="105%"  />
+		<!--image template="tElement,tFrame" margin="-4" marginRight="-4" marginBottom="-4"/-->
+		<image name="uiImgTournamentWinner" visible="false" template="tTournamentFrame2" />		
+		<image name="uiImgFlag" width="35%" ratio="1.25" x="5" y="-5" halign="left" valign="bottom" />
+		<team name="uiAvatarTeam" width="35%" ratio="1.0" x="0" y="0" halign="right" valign="bottom" />
+	</button>
+	<!-- Resources -->
+	<template id="tBaseReward" name="uiRewardItem" width="100%" height="100%" halign="center" valign="center" >
+		<image name="uiImgRewardIcon" halign="center" valign="center" width="100%" height="100%">			
+			<text name="uiTxtRewardAmount" x="-2" y="-3" halign="center" valign="center" width="200%" height="100%" halignText="center" valignText="bottom" template="tFontWhite,tFontMedium" >
+				<state state="moreMoves" y="0" valignText="center" />
+			</text>			
+		</image>
+	</template>
+	<template id="tUnlimitedLifesReward" template="tBaseReward" >
+		<image name="uiImgRewardIcon">			
+			<image name="uiImgInfinity" image="ui/infinity.png" width="25%" height="25%" halign="center" valign="center" rotation="-45" y="-7">
+				<animation animation="wobble" />
+			</image>				
+			<text name="uiTxtRewardAmount"y="0" x="-2" valignText="bottom" />
+		</image>
+	</template>
+	
+	<image id="tTabButton" image="ui/tab_dark.png" nss="18,19,20,84" nssScale="1.9" width="190" height="100%" >		
+		<state state="enabled" image="ui/tab_light.png" />
+		<state state="disabled" image="ui/tab_dark.png" />
+		<button name="uiBtTab" template="tElement" >			
+			<image width="160" ratio="1.3" image="ui/glow.png" valign="center" halign="center" y="-19" >				
+				<state state="enabled" alpha="1.0" />
+				<state state="disabled" alpha="0.4" />
+			</image>
+			<image name="uiImgTabIcon" width="100" ratio="1" valign="center" halign="center" y="-19" >
+				<state state="enabled" color="0xFFFFFF" />
+				<state state="disabled" color="0xA0A0A0" />
+			</image>
+		</button>		
+	</image>
+	
+	<button id="tClose" x="0" halign="right" width="80" ratio="1" highlight="true" clickable="true" margin="-20" padding="20" clickableChildren="false">
+		<!--state state="landscape" margin="0" padding="0" />
+		<state state="portrait" margin="-20" padding="20" /-->		
+		<image image="ui/close.png" template="tElement" />
+	</button>
+	
+	<image id="tStar" halign="center" valign="center" width="150" ratio="1" image="ui/star_on.png"/>
+	<image id="tStarOff" image="ui/star_off.png" template="tStar" />
+	<image id="tBoard" image="ui/box_brown.png" nss="67,71,25,167" nssScale="0.5"/>
+	<image id="tStdButtonColor" color="0xF7BB00" />
+		
+	<image id="tButtonImage" image="ui/button4.png" width="100" height="100" nss="20,20,25,54" nssScale="1.0" />	
+	<button id="tButton" width="450" height="150" >
+		<image name="uiImgButton" relativeWidth="1.0" relativeHeight="1.0" template="tButtonImage" />
+		<image name="uiImgRight" x="-20" relativeHeight="0.8" ratio="1" halign="right" valign="center" y="-3"/>
+		<text name="uiTxtLabel" halignText="center" valignText="center" halign="center" valign="center" template="tFontWhite,tFontUltra,tElement" />
+	</button>	
+	
+	<buy id="tBtMTX" template="tButton" >				
+		<image x="20" name="uiImgCostIcon" relativeHeight="0.9" ratio="1" image="ui/gold.png" halign="left" valign="center" y="-3">
+			<text name="uiTxtPrice" relativeWidth="1" relativeHeight="1" halignText="center" valignText="center" halign="center" valign="center" template="tFontWhite,tFontLarge" />
+		</image>		
+		<text name="uiTxtLabel" halignText="right" halign="right" marginRight="40" />		
+	</buy>	
+	
+	<button id="tBigButton" label="SID_PLAY" template="tButton" width="540" height="170" halign="center" valign="bottom" >
+		<image name="uiImgButton" nssScale="1.5" />	
+	</button>
+	
+	<image id="tJenny" image="dynamic/JennyJungle.png" ratio="0.416" />
+	<image id="tJennyPresenting" image="dynamic/Jenny_Presenting.png" ratio="0.5470588235" />
+	<image id="tJennyTrophy" image="dynamic/Jenny_Trophy.png" ratio="0.57843137" />
+	<image id="tJennyCurious" image="dynamic/Jenny_Curious.png" ratio="0.4264705882352941" />
+	<image id="tJennyHappy" image="dynamic/Jenny_Happy.png" ratio="0.43823529411" />
+	<image id="tJennySad" image="dynamic/Jenny_Sad.png" ratio="0.339215686274" />
+
+	<imageSpecial id="tBGSmall" image="ui/screen2.png" halign="center" valign="center" pX='[{"left":0,"u":2}, {"left":50,"u":52}, {"right":50,"u":52}, {"right":0,"u":2}]' pY='[{"top":0, "v":1}, {"top":47,"v":48}, {"bottom":73,"v":927}, {"bottom":0,"v":1000}]'  marginBottom="-15" paddingBottom="-15"/>
+	<imageSpecial id="tBG" image="ui/screen2.png" halign="center" valign="center" pX='[{"left":0,"u":2}, {"left":50,"u":52}, {"right":147,"u":73}, {"right":0,"u":217}]' pY='[{"top":0, "v":1}, {"top":147,"v":148}, {"bottom":73,"v":927}, {"bottom":0,"v":1000}]' marginBottom="-15" paddingBottom="-15"/>
+	<imageSpecial id="tBGNoHead" image="ui/screen2.png" halign="center" valign="center" pX='[{"left":0,"u":217}, {"left":60,"u":157}, {"right":60,"u":157}, {"right":0,"u":217}]' pY='[{"top":0, "v":1}, {"top":147,"v":148}, {"bottom":73,"v":927}, {"bottom":0,"v":1000}]'  marginBottom="-15" paddingBottom="-15"/>
+			
+	<screen id="tTab" template="tElement">	
+		
+	</screen>	
+
+	<screen id="tPopUp" width="900" height="750" halign="center" valign="center" y="-50">	
+		<state state="landscape" scale="1.0" />
+		<state state="portrait" scale="0.85" />
+		<!--image name="uiImgDarkBG" image="ui/block.png" relativeHeight="1000.0" relativeWidth="1000.0" halign="center" valign="center" color="0x00" alpha="0.7" clickable="true" /-->		
+		<image name="uiImgGlow" width="1" height="1" halign="center" valign="center" visible="false" />				
+		<image name="uiBGLayer" template="tElement" />
+		<image name="uiImgJennyBack" />
+		<imageSpecial name="uiImgBg" template="tBG" relativeHeight="1.0" relativeWidth="1.0" clickable="true"/>
+			
+		<button name="uiBtClose" template="tClose" x="-21" y="21" />
+		<text name="uiTxtHeadText" width="100%" height="180" valign="top" halignText="center" valignText="center" template="tFontWhite,tFontUltra" marginRight="40" />	
+		
+		<element name="uiContent" template="tElement" margin="50" marginTop="100" marginBottom="25" />
+		<image name="uiImgJennyFront" />
+	</screen>
+	<screen id="tPopUpGlow" template="tPopUp" >	
+		<image name="uiImgGlow" template="tRays" scale="7" visible="true" />						
+	</screen>
+	<screen id="tPopUpJenny" template="tPopUp" width="980" height="1250" >	
+		<image name="uiImgJennyBack" image="dynamic/Jenny_Presenting.png" ratio="0.5470588235" halign="leftOf" height="2000" x="400" valign="bottomOf" >
+			<state state="landscape" visible="true" halign="leftOf" height="2000" x="400" valign="bottomOf" y="-940" />
+			<state state="portrait" visible="false" height="1500" halign="leftOf" valign="bottomOf" x="600" y="-400" />
+		</image>
+		<image name="uiImgJennyFront" image="dynamic/Jenny_Presenting.png" height="1500" ratio="0.5470588235" halign="leftOf" valign="bottomOf" >
+			<state state="landscape" visible="false" height="2000" x="200" y="-940" />
+			<state state="portrait" visible="true" height="1300" x="450" y="-320" />
+		</image>
+	</screen>	
+	<screen id="tPopUpJennyCurious" template="tPopUpJenny" >	
+		<image name="uiImgJennyBack" template="tJennyCurious" >
+			<state state="landscape"  visible="false" />
+			<state state="portrait" visible="false" />
+		</image>
+		<image name="uiImgJennyFront" template="tJennyCurious" >
+			<state state="landscape" visible="true" height="2000" x="200" y="-940" />
+			<state state="portrait" visible="true" height="1300" x="130" y="-670" />
+		</image>
+	</screen>	
+	<screen id="tPopUpJennySad" template="tPopUpJenny" >	
+		<image name="uiImgJennyBack" image="" />
+		<image name="uiImgJennyFront" template="tJennySad" >
+			<state state="landscape" visible="true" height="2500" x="300" y="-940" />
+			<state state="portrait" visible="true" x="330" y="-650" />
+		</image>
+	</screen>	
+	<screen id="tPopUpJennyHappy" template="tPopUpJenny" >	
+		<image name="uiImgJennyBack" image="" />
+		<image name="uiImgJennyFront" template="tJennyHappy" >
+			<state state="landscape" visible="true" height="2500" x="250" y="-940" />
+			<state state="portrait" visible="true" x="330" y="-840" />
+		</image>
+	</screen>	
+	<screen id="tPopUpJennyTab" template="tPopUpJenny" height="1250" >	
+		<imageSpecial name="uiImgBg" pX='[{"left":0,"u":217}, {"left":60,"u":157}, {"right":60,"u":157}, {"right":0,"u":217}]' pY='[{"top":0, "v":1}, {"top":50,"v":51}, {"top":190,"v":148}, {"bottom":73,"v":927}, {"bottom":0,"v":1000}]'>		
+			<image name="uiTabBar" width="100%" paddingLeft="0.0" height="210.0" padding="16" y="2" >			
+				<image name="uiBGTab0" template="tTabButton" >
+					<state state="enabled" image="ui/tab_light0.png" />
+					<state state="disabled" image="ui/tab_dark0.png" />
+					<button name="uiBtTab" data='{"idx":0}' />
+				</image>
+				<image name="uiBGTab1" template="tTabButton" x="190">	
+					<button name="uiBtTab" data='{"idx":1}' />
+				</image>
+				<image name="uiBGTab2" template="tTabButton" x="380" visible="false" >
+					<button name="uiBtTab" data='{"idx":2}' />
+				</image>
+				<image name="uiBGTab3" template="tTabButton" x="570" visible="false">
+					<button name="uiBtTab" data='{"idx":3}' />
+				</image>
+			</image>
+		</imageSpecial>
+		<button name="uiBtClose" template="tClose" x="-23" y="40" />
+	</screen>
+	
+	<screen id="tFullScreen" halign="center" valign="center">	
+		<state state="landscape" width="2048" height="1400" paddingLeft="0" paddingRight="0" />
+		<state state="portrait" width="1100" height="1536"  paddingLeft="50" paddingRight="50" />
+		<image image="ui/ZooBoom_Logo.png" width="580" ratio="2.4" y="-60" halign="center" >
+			<state state="landscape" visible="true" />
+			<state state="portrait" visible="false" />
+		</image>
+		<image name="uiBGLayer" template="tElement" />
+		<image name="uiScreenBg" template="tElement,tBG" >
+			<state state="landscape" marginTop="200" nssScale="1.1"/>
+			<state state="portrait" marginTop="0" nssScale="1.65" />
+			<button name="uiBtClose" image="ui/close.png" halign="right" valign="top" ratio="1" >
+				<state state="landscape" width="90" x="-15" y="14" />
+				<state state="portrait" width="130" x="-24" y="32" />		
+			</button>
+		</image>
+		<element name="uiContent" template="tElement">
+			<state state="landscape" padding="50" marginTop="290"/>
+			<state state="portrait" padding="50" marginTop="150"/>
+		</element>
+	</screen>		
+	
+	<screen id="tScreen" width="1000" height="1536" halign="center" valign="center" >	
+		<image name="uiBGLayer" template="tElement" />
+		<image name="uiScreenBg" template="tElement,tBG" />		
+		<button name="uiBtClose" template="tClose" x="-15" y="13" />
+		<text name="uiTxtHeadText" width="100%"  height="120" valign="top" halignText="center" valignText="center" template="tFontWhite,tFontLarge"  />	
+		<element name="uiContent" width="100%" height="100%" marginTop="120" marginBottom="100" marginLeft="50" marginRight="50" halign="center" />	
+	</screen>
+	
+	<element id="tHardLevel" name="uiHardLevel" width="300" height="300" x="-150" y="-60" rotation="-7">
+		<image name="uiImgDifficultyGlow" template="tRays" halign="center" valign="center" scale="5" color="0xFF7070" >
+			<animation animation="rotation" speed="20.5" />
+		</image>
+		<image name="uiImgDifficulty" image="dynamic/difficulty_2.png" template="tElement" halign="center" valign="center" >
+			<image template="tBarButton" y="100" width="70%" height="150" halign="center" valign="bottom" marginLeft="-50" marginRight="-50" if="locaSupported" >
+				<text name="uiTxtDifficulty" halignText="center" valignText="center" halign="center" valign="center" template="tFontWhite,tElement,tFontSmall" marginBottom="10" color="0xFF0000" marginLeft="30" marginRight="30" />
+			</image>
+		</image>
+	</element>
+	
+	<element id="tBaseSettings" width="1" height="1" halign="right" valign="bottom">
+		<state state="landscape" scale="1.2" />
+		<state state="portrait" scale="1.3" />
+		<image name="uiImgSettingsBG" template="tDarkBG" visible="true" />
+		
+		<button name="uiBtCloseSettings" image="ui/close.png" halign="right" valign="bottom" width="100" height="100" highlight="true" clickable="true" />		
+		<button clickable="false" width="100" height="100" halign="right" valign="bottom">
+			<button name="uiBtMusic"  image="dynamic/music.png" width="100" height="100" halign="center" valign="center" />
+			<button name="uiBtSound"  image="dynamic/sound.png" x="-110" width="100" height="100" halign="center" valign="center" />		
+		</button>
+		<button clickable="false" width="300" height="100" halign="right" valign="bottom">
+			<button name="en-US" image="dynamic/flag-en-US.png" width="100" height="100" valign="center" halign="right"/>		
+			<button name="de-DE" image="dynamic/flag-de-DE.png" x="-110" width="100" height="100" valign="center" halign="right"/>		
+			<button name="fr-Fr" image="dynamic/flag-fr-FR.png" x="-220" width="100" height="100" valign="center" halign="right"/>
+			<button name="ru-RU" image="dynamic/flag-ru-RU.png" x="-330" width="100" height="100" valign="center" halign="right"/>		
+		</button>
+		<button name="uiBtShop"  image="dynamic/shop.png" y="-330" width="100" height="100" halign="right" valign="bottom" />		
+		<button name="uiBtInfo" image="dynamic/info.png" x="-110" width="100" height="100" halign="right" valign="bottom" visible="false" />	
+		<button name="uiBtDebug" image="dynamic/repeat.png" x="-220" width="100" height="100" halign="right" valign="bottom" unless="final" />	
+	</element>
+	
+	<button id="tSmallStatBox" width="290" height="80" padding="10" template="tBox">
+		<image name="uiImgIcon" image="ui/life.png" relativeHeight="1.0" ratio="1.0" halign="left" valign="center" scale="1.8" />
+		<text x="-5" name="uiTxtAmount" template="tElement,tFontWhite,tFontSmall" halignText="right" valignText="center" />	
+	</button>
+	
+	<image id="tPlayerContainer" width="150" height="230" valign="center" template="tBox" marginTop="2">	
+		<player name="uiPlayer" width="90" ratio="1" y="25" halign="center" valign="center">
+			<text name="uiTxtPlayerName" width="200" y="6" height="40" halignText="center" valignText="top" halign="center" valign="bottomOf" template="tFontSpecial,tFontSmall" />					
+		</player>
+		<text name="uiTxtRank" halignText="center" valignText="top" marginTop="9" template="tFontLarge,tFontWhite,tElement" />
+		<text name="uiTxtScore" halignText="center" valignText="top" marginTop="63" template="tFontWhite,tFontSmall,tElement" />				
+	</image>
+	
+	<image id="tPlayerContainerLong" valign="top" width="100%" height="150" padding="10" paddingLeft="0" paddingRight="10" template="tBox">
+		<text name="uiTxtRank" width="80" height="40" halignText="center" valignText="center" halign="left" valign="center" template="tFontWhite,tFontUltra" />
+		<player x="80" name="uiPlayer" halign="left" valign="center" >
+			<text name="uiTxtPlayerName" halign="rightOf" valign="center" width="300" height="50" halignText="left" valignText="center" template="tFontSpecial,tFontMedium" x="14" />
+		</player>
+	</image>	
+	<image id="tPlayerContainerStars" template="tPlayerContainerLong">
+		<image name="uiImgStarBox" width="130" height="60" halign="right" valign="center" template="tBox" x="-10" >
+			<image x="40" width="70" ratio="1" halign="leftOf" valign="center" image="ui/star_on.png" />
+			<text name="uiTxtStars" halignText="center" valignText="center" template="tElement,tFontWhite,tFontMedium" marginLeft="10"/>		
+		</image>
+	</image>
+	<image id="tPlayerContainerTournamentWithReward" template="tPlayerContainerStars" >
+		<image name="uiImgRewardGlow" x="-160" width="200" height="140" image="ui/glow2.png" halign="right" valign="center" visible="false" >
+			<image name="uiImgRewardConti" width="100" height="100" halign="center" valign="center" />
+		</image>
+	</image>
+	<image id="tPlayerContainerWeekly" template="tPlayerContainerLong" >		
+		<text name="uiTxtLevels" x="-20" width="100%" height="40" halignText="right" valignText="center" halign="right" valign="center" template="tFontWhite,tFontLarge" />		
+	</image>
+	<button id="tResourceStatBox" width="350" height="80" padding="0">
+		<!--image name="uiBG" template="tElement" image="ui/barbutton.png" width="100%" ratio="4.1379310344827" valign="center" y="2" /-->
+		<image name="uiBG" template="tElement" image="ui/barbutton_01.png" nss="45,35,11,3" width="100%" ratio="4.1379310344827" valign="center" y="2" paddingBottom="4" nssScale="0.5">
+			<image name="uiImgPlus" image="ui/barbutton_02.png" height="100%" ratio="1.0" halign="right" valign="center" marginBottom="-4" x="4" />
+		</image>
+		
+		<image name="uiImgIcon" image="ui/life.png" height="120" ratio="1.0" halign="left" valign="center" x="-20" >
+			<animation animation="wobble" />
+		</image>		
+	</button>
+				
+	<element id="tBaseTextInput" width="100%" height="100">				
+		<image template="tBox,tElement" />
+		<input name="uiInput" template="tElement,tFontLarge" margin="5" marginLeft="15" marginRight="15" autocomplete="off" />	
+		<image name="uiImgWarning" image="ui/arrow_white.png" height="100%" ratio="1.4" halign="leftOf" valign="center" x="10" visible="false" color="0xFFA000" >
+			<animation animation="wobble" speed="3.5" size="0.6" angle="1.0" />
+		</image>
+		<image name="uiImgOK" image="ui/ok.png" height="100%" ratio="1" halign="rightOf" valign="center" x="0" visible="false" colorOffset="0x202020" />
+	</element>
+</templates>

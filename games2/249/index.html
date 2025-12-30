@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<script src="lib/createjs.1.0.0.min.js?v=1.0.0"></script>
+		<script src="lib/howler.core.2.2.3.min.js?v=2.2.3"></script>
+		<script src="lib/pixi-legacy.5.3.9.min.js?v=5.3.9"></script>
+		<script src="lib/Pixim.min.js?v=1.14.0"></script>
+		<script src="lib/Pixim-animate-container.min.js?v=1.4.0"></script>
+		<title>Pocket Parking</title>
+	</head>
+	<body style="margin:0px; overflow: hidden; background-color:#000000;">
+		<script src="lib/SCG-gd-pixim.min.js?v=1.10.17"></script>
+		<script>
+			SCG.init ( {
+				basepath : './',
+				version : '202312221204' ,
+				pixiOptions : { resolution : 2 }				
+			} , {
+				gameId: "01645070ce594b38a4d1bb17c70a0fb1",
+				sdk: "main.min.js",
+				contentKey: "pocketparking",
+				usePrerollAd: true,
+				introOptions: {
+					icon: "icon.png",
+				}
+			} , {
+				languages: [ "en", "ja" ],
+				languageOptions: 'language.json'
+			} ) ;
+		</script>
+		<script src="bundle.js?v=202312221204"></script>
+	<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"5c8adb3476774536859fc56135d4501a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

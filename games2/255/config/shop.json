@@ -1,0 +1,474 @@
+{
+  "1": {
+    "name": "Gold chest",
+    "title": "icon_rc_jbbx",
+    "needVideo": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "needDiamond": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "iconSkin": "icon_rc_bx_jb",
+    "coldWait": [
+      0,
+      300,
+      300,
+      300,
+      300,
+      300,
+      300,
+      300,
+      300,
+      300
+    ],
+    "getNum": [
+      360,
+      2200,
+      2600,
+      3000,
+      3400,
+      3400,
+      3400,
+      3400,
+      3400,
+      3400
+    ],
+    "other": "",
+    "getItem": "freeGold",
+    "type": 1,
+    "id": 1
+  },
+  "2": {
+    "name": "钻石宝箱",
+    "title": "icon_rc_zsbx",
+    "needVideo": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "needDiamond": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "iconSkin": "icon_rc_bx_zs",
+    "coldWait": [
+      0,
+      300,
+      300,
+      300,
+      300,
+      300,
+      300,
+      300,
+      300,
+      300
+    ],
+    "getNum": [
+      98,
+      588,
+      588,
+      588,
+      588,
+      588,
+      588,
+      588,
+      588,
+      588
+    ],
+    "other": "",
+    "getItem": "diamond",
+    "type": 1,
+    "id": 2
+  },
+  "3": {
+    "name": "碎片宝箱",
+    "title": "icon_rc_spbx",
+    "needVideo": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "needDiamond": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "iconSkin": "icon_rc_bx_sp",
+    "coldWait": [
+      0,
+      300,
+      300,
+      300,
+      300
+    ],
+    "getNum": [
+      68,
+      88,
+      108,
+      108,
+      108
+    ],
+    "other": "15,5;25,4;30,3;40,2;50,1|25,5;35,4;30,3;40,2;50,1|35,5;45,4;30,3;40,2;50,1",
+    "getItem": "rndPatch1",
+    "type": 1,
+    "id": 3
+  },
+  "4": {
+    "name": "超级宝箱",
+    "title": "",
+    "needVideo": [
+      0
+    ],
+    "needDiamond": [
+      588
+    ],
+    "iconSkin": "icon_rc_bg_cjbx",
+    "coldWait": [
+      10800
+    ],
+    "getNum": [
+      68
+    ],
+    "other": "20,5;20,4;20,3;20,2;20,1",
+    "getItem": "rndPatch2",
+    "type": 2,
+    "id": 4
+  },
+  "5": {
+    "name": "至尊宝箱",
+    "title": "",
+    "needVideo": [
+      0
+    ],
+    "needDiamond": [
+      888
+    ],
+    "iconSkin": "icon_rc_bg_zzbx",
+    "coldWait": [
+      28800
+    ],
+    "getNum": [
+      108
+    ],
+    "other": "80,5;70,4;60,3;50,2;40,1",
+    "getItem": "rndPatch3",
+    "type": 2,
+    "id": 5
+  },
+  "6": {
+    "name": "视频碎片",
+    "title": "",
+    "needVideo": [
+      1
+    ],
+    "needDiamond": [
+      0
+    ],
+    "iconSkin": "",
+    "coldWait": [
+      -1
+    ],
+    "getNum": [
+      1
+    ],
+    "other": "",
+    "getItem": "patch",
+    "type": 3,
+    "id": 6
+  },
+  "7": {
+    "name": "",
+    "title": "",
+    "needVideo": [
+      0
+    ],
+    "needDiamond": [
+      0
+    ],
+    "iconSkin": "",
+    "coldWait": [
+      -1
+    ],
+    "getNum": [
+      1
+    ],
+    "other": "",
+    "getItem": "patch",
+    "type": 3,
+    "id": 7
+  },
+  "8": {
+    "name": "",
+    "title": "",
+    "needVideo": [
+      0
+    ],
+    "needDiamond": [
+      0
+    ],
+    "iconSkin": "",
+    "coldWait": [
+      -1
+    ],
+    "getNum": [
+      1
+    ],
+    "other": "",
+    "getItem": "patch",
+    "type": 3,
+    "id": 8
+  },
+  "9": {
+    "name": "",
+    "title": "",
+    "needVideo": [
+      0
+    ],
+    "needDiamond": [
+      0
+    ],
+    "iconSkin": "",
+    "coldWait": [
+      -1
+    ],
+    "getNum": [
+      1
+    ],
+    "other": "",
+    "getItem": "patch",
+    "type": 3,
+    "id": 9
+  },
+  "10": {
+    "name": "",
+    "title": "",
+    "needVideo": [
+      0
+    ],
+    "needDiamond": [
+      0
+    ],
+    "iconSkin": "",
+    "coldWait": [
+      -1
+    ],
+    "getNum": [
+      1
+    ],
+    "other": "",
+    "getItem": "patch",
+    "type": 3,
+    "id": 10
+  },
+  "11": {
+    "name": "",
+    "title": "",
+    "needVideo": [
+      0
+    ],
+    "needDiamond": [
+      0
+    ],
+    "iconSkin": "",
+    "coldWait": [
+      -1
+    ],
+    "getNum": [
+      1
+    ],
+    "other": "",
+    "getItem": "patch",
+    "type": 3,
+    "id": 11
+  },
+  "12": {
+    "name": "",
+    "title": "",
+    "needVideo": [
+      0
+    ],
+    "needDiamond": [
+      0
+    ],
+    "iconSkin": "",
+    "coldWait": [
+      -1
+    ],
+    "getNum": [
+      1
+    ],
+    "other": "",
+    "getItem": "patch",
+    "type": 3,
+    "id": 12
+  },
+  "13": {
+    "name": "",
+    "title": "",
+    "needVideo": [
+      0
+    ],
+    "needDiamond": [
+      0
+    ],
+    "iconSkin": "",
+    "coldWait": [
+      -1
+    ],
+    "getNum": [
+      1
+    ],
+    "other": "",
+    "getItem": "patch",
+    "type": 3,
+    "id": 13
+  },
+  "14": {
+    "name": "",
+    "title": "",
+    "needVideo": [
+      1
+    ],
+    "needDiamond": [
+      0
+    ],
+    "iconSkin": "",
+    "coldWait": [
+      900
+    ],
+    "getNum": [],
+    "other": "",
+    "getItem": "",
+    "type": -3,
+    "id": 14
+  },
+  "15": {
+    "name": "",
+    "title": "",
+    "needVideo": [
+      0
+    ],
+    "needDiamond": [
+      120
+    ],
+    "iconSkin": "icon_jp_dh_jb1",
+    "coldWait": [
+      0
+    ],
+    "getNum": [
+      1600
+    ],
+    "other": "",
+    "getItem": "diamondGold",
+    "type": 4,
+    "id": 15
+  },
+  "16": {
+    "name": "",
+    "title": "",
+    "needVideo": [
+      0
+    ],
+    "needDiamond": [
+      200
+    ],
+    "iconSkin": "icon_jp_dh_jb2",
+    "coldWait": [
+      0
+    ],
+    "getNum": [
+      2800
+    ],
+    "other": "",
+    "getItem": "diamondGold",
+    "type": 4,
+    "id": 16
+  },
+  "17": {
+    "name": "视频天赋",
+    "title": "",
+    "needVideo": [
+      0
+    ],
+    "needDiamond": [
+      888
+    ],
+    "iconSkin": "icon_jp_dh_tf1",
+    "coldWait": [
+      0
+    ],
+    "getNum": [
+      8
+    ],
+    "other": "",
+    "getItem": "diamondTalent",
+    "type": 4,
+    "id": 17
+  },
+  "18": {
+    "name": "",
+    "title": "",
+    "needVideo": [
+      1,
+      1,
+      1
+    ],
+    "needDiamond": [
+      0,
+      0,
+      0
+    ],
+    "iconSkin": "icon_jp_dh_tf2",
+    "coldWait": [
+      0,
+      0,
+      0
+    ],
+    "getNum": [
+      5,
+      5,
+      5
+    ],
+    "other": "",
+    "getItem": "diamondTalent",
+    "type": 4,
+    "id": 18
+  }
+}

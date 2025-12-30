@@ -1,0 +1,318 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "spaceshipnormal",
+    "_duration": 1.35,
+    "wrapMode": "2",
+    "curveData": {
+      "paths": {
+        "fire": {
+          "comps": {
+            "cc.Sprite": {
+              "spriteFrame": [
+                {
+                  "frame": 0,
+                  "value": {
+                    "__uuid__": "b715ii19RLF40okvI+7XDz"
+                  }
+                },
+                {
+                  "frame": 0.08333333333333333,
+                  "value": {
+                    "__uuid__": "a1cCYRVDtIq7SWrH4wA6y9"
+                  }
+                },
+                {
+                  "frame": 0.16666666666666666,
+                  "value": {
+                    "__uuid__": "b715ii19RLF40okvI+7XDz"
+                  }
+                },
+                {
+                  "frame": 0.25,
+                  "value": {
+                    "__uuid__": "a1cCYRVDtIq7SWrH4wA6y9"
+                  }
+                },
+                {
+                  "frame": 0.3333333333333333,
+                  "value": {
+                    "__uuid__": "b715ii19RLF40okvI+7XDz"
+                  }
+                },
+                {
+                  "frame": 0.4166666666666667,
+                  "value": {
+                    "__uuid__": "a1cCYRVDtIq7SWrH4wA6y9"
+                  }
+                },
+                {
+                  "frame": 0.5,
+                  "value": {
+                    "__uuid__": "b715ii19RLF40okvI+7XDz"
+                  }
+                },
+                {
+                  "frame": 0.5833333333333334,
+                  "value": {
+                    "__uuid__": "a1cCYRVDtIq7SWrH4wA6y9"
+                  }
+                },
+                {
+                  "frame": 0.6666666666666666,
+                  "value": {
+                    "__uuid__": "b715ii19RLF40okvI+7XDz"
+                  }
+                },
+                {
+                  "frame": 0.75,
+                  "value": {
+                    "__uuid__": "a1cCYRVDtIq7SWrH4wA6y9"
+                  }
+                },
+                {
+                  "frame": 0.8333333333333334,
+                  "value": {
+                    "__uuid__": "b715ii19RLF40okvI+7XDz"
+                  }
+                },
+                {
+                  "frame": 0.9166666666666666,
+                  "value": {
+                    "__uuid__": "a1cCYRVDtIq7SWrH4wA6y9"
+                  }
+                },
+                {
+                  "frame": 1,
+                  "value": {
+                    "__uuid__": "b715ii19RLF40okvI+7XDz"
+                  }
+                },
+                {
+                  "frame": 1.0833333333333333,
+                  "value": {
+                    "__uuid__": "a1cCYRVDtIq7SWrH4wA6y9"
+                  }
+                },
+                {
+                  "frame": 1.1666666666666667,
+                  "value": {
+                    "__uuid__": "b715ii19RLF40okvI+7XDz"
+                  }
+                },
+                {
+                  "frame": 1.25,
+                  "value": {
+                    "__uuid__": "a1cCYRVDtIq7SWrH4wA6y9"
+                  }
+                },
+                {
+                  "frame": 1.3333333333333333,
+                  "value": {
+                    "__uuid__": "b715ii19RLF40okvI+7XDz"
+                  }
+                }
+              ]
+            }
+          },
+          "props": {
+            "scale": [
+              {
+                "frame": 0,
+                "value": {
+                  "__type__": "cc.Vec2",
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              {
+                "frame": 0.08333333333333333,
+                "value": {
+                  "__type__": "cc.Vec2",
+                  "x": 1.189,
+                  "y": 1.189
+                }
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": {
+                  "__type__": "cc.Vec2",
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              {
+                "frame": 0.25,
+                "value": {
+                  "__type__": "cc.Vec2",
+                  "x": 1.189,
+                  "y": 1.189
+                }
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": {
+                  "__type__": "cc.Vec2",
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              {
+                "frame": 0.4166666666666667,
+                "value": {
+                  "__type__": "cc.Vec2",
+                  "x": 1.189,
+                  "y": 1.189
+                }
+              },
+              {
+                "frame": 0.5,
+                "value": {
+                  "__type__": "cc.Vec2",
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              {
+                "frame": 0.5833333333333334,
+                "value": {
+                  "__type__": "cc.Vec2",
+                  "x": 1.089,
+                  "y": 1.089
+                }
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": {
+                  "__type__": "cc.Vec2",
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              {
+                "frame": 0.75,
+                "value": {
+                  "__type__": "cc.Vec2",
+                  "x": 1.089,
+                  "y": 1.089
+                }
+              },
+              {
+                "frame": 0.8333333333333334,
+                "value": {
+                  "__type__": "cc.Vec2",
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              {
+                "frame": 0.9166666666666666,
+                "value": {
+                  "__type__": "cc.Vec2",
+                  "x": 1.089,
+                  "y": 1.089
+                }
+              },
+              {
+                "frame": 1,
+                "value": {
+                  "__type__": "cc.Vec2",
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              {
+                "frame": 1.0833333333333333,
+                "value": {
+                  "__type__": "cc.Vec2",
+                  "x": 1.089,
+                  "y": 1.089
+                }
+              },
+              {
+                "frame": 1.1666666666666667,
+                "value": {
+                  "__type__": "cc.Vec2",
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              {
+                "frame": 1.25,
+                "value": {
+                  "__type__": "cc.Vec2",
+                  "x": 1.089,
+                  "y": 1.089
+                }
+              },
+              {
+                "frame": 1.3333333333333333,
+                "value": {
+                  "__type__": "cc.Vec2",
+                  "x": 1,
+                  "y": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "FIRE_2",
+      "texture": "136027491",
+      "rect": [
+        180,
+        782,
+        43,
+        94
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        150,
+        150
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "FIRE_1",
+      "texture": "136027491",
+      "rect": [
+        280,
+        782,
+        43,
+        94
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        150,
+        150
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

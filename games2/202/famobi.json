@@ -1,0 +1,270 @@
+{
+  "features": {
+    "highscores": 1,
+    "rewarded": 1,
+    "leaderboard": 0,
+    "multiplayer": 0,
+    "standalone": 1,
+    "credits": 0,
+    "multiplayer_local": 1,
+    "audio": 1,
+    "hide_unfilled_ads": 1,
+    "external_mute": 1
+  },
+  "game_i18n": {},
+  "game_info": {
+    "client_version": "1.1.2",
+    "api_version": "2.1",
+    "forced_mode": {
+      "state": {
+        "level": {
+          "description": "The current level",
+          "type": "number",
+          "min": 1,
+          "max": 1000
+        },
+        "levelData": {
+          "description": "custom level created in the level editor",
+          "type": "json"
+        }
+      },
+      "override": {
+        "moves": {
+          "description": "Number of moves, 0 means unlimited",
+          "type": "number",
+          "min": 0,
+          "max": 1000000
+        },
+        "hide_score_board": {
+          "description": "Hide in-level score board display",
+          "type": "boolean"
+        },
+        "hide_score": {
+          "description": "Hide in-level score display",
+          "type": "boolean"
+        },
+        "hide_tasks": {
+          "description": "Hide in-level task display",
+          "type": "boolean"
+        },
+        "hide_floating_points": {
+          "description": "Hide +X animation ingame",
+          "type": "boolean"
+        },
+        "hide_boosters": {
+          "description": "Hide in-level booster display",
+          "type": "boolean"
+        },
+        "hide_shop": {
+          "description": "Hide shop display",
+          "type": "boolean"
+        },
+        "single_boost": {
+          "description": "landing net - will remove one field",
+          "type": "number",
+          "min": 0,
+          "max": 99
+        },
+        "row_boost": {
+          "description": "horizontal bee - will remove one row",
+          "type": "number",
+          "min": 0,
+          "max": 99
+        },
+        "column_boost": {
+          "description": "vertical bee - will remove one column",
+          "type": "number",
+          "min": 0,
+          "max": 99
+        },
+        "swizzle_boost": {
+          "description": "will rearrange all fields randomly",
+          "type": "number",
+          "min": 0,
+          "max": 99
+        },
+        "background": {
+          "description": "Ability to change level's background",
+          "type": "string",
+          "values": [
+            "landscape",
+            "desert",
+            "jungle",
+            "winter",
+            "water",
+            "mountain",
+            "beach",
+            "forest",
+            "farm",
+            "waterfall",
+            "medieval",
+            "egypt",
+            "forest2",
+            "lava",
+            "meadow",
+            "tundra",
+            "cave"
+          ]
+        }
+      }
+    },
+    "track_stats": {
+      "move_completed": {
+        "description": "user makes a move",
+        "type": "number"
+      },
+      "stars": {
+        "description": "Number of stars for last level",
+        "type": "number"
+      },
+      "level_played": {
+        "description": "Playerfinished a level",
+        "type": "number"
+      },
+      "plopped_animal": {
+        "description": "Player plopped an animal",
+        "params": {
+          "color": {
+            "type": "string",
+            "values": [
+              "blue",
+              "green",
+              "red",
+              "yellow",
+              "purple",
+              "white"
+            ]
+          }
+        }
+      },
+      "plopped_box": {
+        "description": "Player plopped a colored box",
+        "params": {
+          "color": {
+            "type": "string",
+            "values": [
+              "blue",
+              "green",
+              "red",
+              "yellow",
+              "purple",
+              "white"
+            ]
+          }
+        }
+      },
+      "plopped_special": {
+        "description": "Player plopped an special item",
+        "params": {
+          "type": {
+            "type": "string",
+            "values": [
+              "breaker",
+              "skunk",
+              "orb"
+            ]
+          }
+        }
+      },
+      "plopped_combination": {
+        "description": "Player plopped an combination of special items",
+        "params": {
+          "type": {
+            "type": "string",
+            "values": [
+              "breaker_breaker",
+              "breaker_skunk",
+              "breaker_orb",
+              "skunk_skunk",
+              "skunk_orb",
+              "orb_orb"
+            ]
+          }
+        }
+      },
+      "plopped_field": {
+        "description": "Player plopped normal item",
+        "params": {
+          "type": {
+            "type": "string",
+            "values": [
+              "soft_cage",
+              "hard_cage",
+              "coin",
+              "ore",
+              "chest",
+              "bag",
+              "crackling",
+              "box",
+              "color_box",
+              "anvil",
+              "fat_anvil",
+              "coins",
+              "multi_cage",
+              "ore_pile",
+              "blob",
+              "color_egg",
+              "fat_multi",
+              "apple",
+              "food_bowl",
+              "fat_multi2",
+              "fat_multi_color",
+              "fat_multi_color_twister",
+              "ticker",
+              "coconut",
+              "chameleon",
+              "honeypot",
+              "chicken",
+              "flies",
+              "dung",
+              "beehive",
+              "water",
+              "gift",
+              "timebomb",
+              "x_hit",
+              "group_single_hit_each",
+              "dung_pile",
+              "snowman",
+              "snowflake",
+              "group_5_hits_one_place",
+              "leaf",
+              "fertilizer"
+            ]
+          }
+        }
+      },
+      "create_special": {
+        "description": "Player grouped animals to a special item",
+        "params": {
+          "type": {
+            "type": "string",
+            "values": [
+              "breaker",
+              "skunk",
+              "orb"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "aid": "A1234-5",
+  "logging": false,
+  "api": "famobi",
+  "name": "Google GameSnacks",
+  "more_games_url": "",
+  "more_games_button_image": "logo",
+  "show_splash": "",
+  "splash_duration": 3000,
+  "branch": "offline",
+  "gameParams": {
+    "ad_type": "off"
+  },
+  "menuless": true,
+  "disable_console": false,
+  "includeJS": [
+    "gamesnacks.js"
+  ],
+  "version": "6910454c",
+  "supportedLanguages": []
+}

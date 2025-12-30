@@ -1,0 +1,2430 @@
+{
+  "1": {
+    "level": 1,
+    "car_id": 1001,
+    "name": "乞丐",
+    "icon": 1002,
+    "model": "car_2",
+    "output_gold": 20,
+    "unlock_diamond": 0,
+    "diamond": 0,
+    "bonusCar_level": -1,
+    "unlock_buy_gold_level": 0,
+    "buy_gold": 100,
+    "add_gold": 1.07,
+    "unlock_buy_diamond_level": 6,
+    "buy_diamond": 0,
+    "add_diamond": 0,
+    "sell_gold": 80,
+    "income": 4,
+    "income_add": 8,
+    "interval": 5,
+    "desccontrol": 0.05,
+    "carspeed": 18,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.25,
+    "random_level": [
+      1
+    ],
+    "random_weight": [
+      100
+    ],
+    "random_level_m": [
+      1
+    ],
+    "random_weight_m": [
+      100
+    ],
+    "random_level_d": [
+      1
+    ],
+    "random_weight_d": [
+      100
+    ]
+  },
+  "2": {
+    "level": 2,
+    "car_id": 1002,
+    "name": "流浪汉",
+    "icon": 1001,
+    "model": "car_1",
+    "output_gold": 20,
+    "unlock_diamond": 50,
+    "diamond": 0,
+    "bonusCar_level": -1,
+    "unlock_buy_gold_level": 6,
+    "buy_gold": 1500,
+    "add_gold": 1.07,
+    "unlock_buy_diamond_level": 6,
+    "buy_diamond": 0,
+    "add_diamond": 0,
+    "sell_gold": 1200,
+    "income": 4,
+    "income_add": 8,
+    "interval": 5,
+    "desccontrol": 0.1,
+    "carspeed": 20,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.25,
+    "random_level": [
+      2
+    ],
+    "random_weight": [
+      100
+    ],
+    "random_level_m": [
+      1
+    ],
+    "random_weight_m": [
+      100
+    ],
+    "random_level_d": [
+      1
+    ],
+    "random_weight_d": [
+      100
+    ]
+  },
+  "3": {
+    "level": 3,
+    "car_id": 1003,
+    "name": "包身工",
+    "icon": 1003,
+    "model": "car_3",
+    "output_gold": 26,
+    "unlock_diamond": 60,
+    "diamond": 0,
+    "bonusCar_level": -1,
+    "unlock_buy_gold_level": 7,
+    "buy_gold": 6750,
+    "add_gold": 1.2,
+    "unlock_buy_diamond_level": 6,
+    "buy_diamond": 15,
+    "add_diamond": 0,
+    "sell_gold": 5400,
+    "income": 5,
+    "income_add": 10,
+    "interval": 5,
+    "desccontrol": 0.15,
+    "carspeed": 22,
+    "scale": 1,
+    "trail": 0.2,
+    "scale_z": 1.5,
+    "random_level": [
+      2
+    ],
+    "random_weight": [
+      100
+    ],
+    "random_level_m": [
+      1
+    ],
+    "random_weight_m": [
+      100
+    ],
+    "random_level_d": [
+      1
+    ],
+    "random_weight_d": [
+      100
+    ]
+  },
+  "4": {
+    "level": 4,
+    "car_id": 1023,
+    "name": "长工",
+    "icon": 1004,
+    "model": "car_4",
+    "output_gold": 41,
+    "unlock_diamond": 0,
+    "diamond": 80,
+    "bonusCar_level": -1,
+    "unlock_buy_gold_level": 8,
+    "buy_gold": 17900,
+    "add_gold": 1.2,
+    "unlock_buy_diamond_level": 6,
+    "buy_diamond": 20,
+    "add_diamond": 3,
+    "sell_gold": 14320,
+    "income": 8,
+    "income_add": 16,
+    "interval": 5,
+    "desccontrol": 0.2,
+    "carspeed": 22,
+    "scale": 1,
+    "trail": 0.2,
+    "scale_z": 1.5,
+    "random_level": [
+      2,
+      3
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      1,
+      2
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      1,
+      2
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "5": {
+    "level": 5,
+    "car_id": 1004,
+    "name": "佃户",
+    "icon": 1005,
+    "model": "car_5",
+    "output_gold": 109,
+    "unlock_diamond": 0,
+    "diamond": 95,
+    "bonusCar_level": -1,
+    "unlock_buy_gold_level": 9,
+    "buy_gold": 47700,
+    "add_gold": 1.2,
+    "unlock_buy_diamond_level": 7,
+    "buy_diamond": 26,
+    "add_diamond": 5,
+    "sell_gold": 38160,
+    "income": 21,
+    "income_add": 42,
+    "interval": 5,
+    "desccontrol": 0.25,
+    "carspeed": 22,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.3,
+    "random_level": [
+      2,
+      3
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      1,
+      2
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      1,
+      2
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "6": {
+    "level": 6,
+    "car_id": 1005,
+    "name": "店小二",
+    "icon": 1006,
+    "model": "car_6",
+    "output_gold": 819,
+    "unlock_diamond": 0,
+    "diamond": 110,
+    "bonusCar_level": -1,
+    "unlock_buy_gold_level": 10,
+    "buy_gold": 126882,
+    "add_gold": 1.2,
+    "unlock_buy_diamond_level": 8,
+    "buy_diamond": 35,
+    "add_diamond": 9,
+    "sell_gold": 101505,
+    "income": 163,
+    "income_add": 326,
+    "interval": 5,
+    "desccontrol": 0.3,
+    "carspeed": 23,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.3,
+    "random_level": [
+      3
+    ],
+    "random_weight": [
+      100
+    ],
+    "random_level_m": [
+      2
+    ],
+    "random_weight_m": [
+      100
+    ],
+    "random_level_d": [
+      2
+    ],
+    "random_weight_d": [
+      100
+    ]
+  },
+  "7": {
+    "level": 7,
+    "car_id": 1006,
+    "name": "雇农",
+    "icon": 1007,
+    "model": "car_7",
+    "output_gold": 1844,
+    "unlock_diamond": 0,
+    "diamond": 125,
+    "bonusCar_level": -1,
+    "unlock_buy_gold_level": 11,
+    "buy_gold": 337506,
+    "add_gold": 1.2,
+    "unlock_buy_diamond_level": 9,
+    "buy_diamond": 47,
+    "add_diamond": 15,
+    "sell_gold": 270004,
+    "income": 368,
+    "income_add": 736,
+    "interval": 5,
+    "desccontrol": 0.35,
+    "carspeed": 23,
+    "scale": 2,
+    "trail": 0.2,
+    "scale_z": 5,
+    "random_level": [
+      3,
+      4
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      2,
+      3
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      2,
+      3
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "8": {
+    "level": 8,
+    "car_id": 1007,
+    "name": "屠夫",
+    "icon": 1008,
+    "model": "car_8",
+    "output_gold": 4891,
+    "unlock_diamond": 0,
+    "diamond": 140,
+    "bonusCar_level": 3,
+    "unlock_buy_gold_level": 12,
+    "buy_gold": 897766,
+    "add_gold": 1.2,
+    "unlock_buy_diamond_level": 10,
+    "buy_diamond": 62,
+    "add_diamond": 23,
+    "sell_gold": 718212,
+    "income": 978,
+    "income_add": 1956,
+    "interval": 5,
+    "desccontrol": 0.4,
+    "carspeed": 23,
+    "scale": 2,
+    "trail": 0.2,
+    "scale_z": 5,
+    "random_level": [
+      4
+    ],
+    "random_weight": [
+      100
+    ],
+    "random_level_m": [
+      3
+    ],
+    "random_weight_m": [
+      100
+    ],
+    "random_level_d": [
+      3
+    ],
+    "random_weight_d": [
+      100
+    ]
+  },
+  "9": {
+    "level": 9,
+    "car_id": 1021,
+    "name": "兵卒",
+    "icon": 1009,
+    "model": "car_9",
+    "output_gold": 7138,
+    "unlock_diamond": 0,
+    "diamond": 155,
+    "bonusCar_level": 4,
+    "unlock_buy_gold_level": 13,
+    "buy_gold": 2388058,
+    "add_gold": 1.21,
+    "unlock_buy_diamond_level": 11,
+    "buy_diamond": 80,
+    "add_diamond": 33,
+    "sell_gold": 1910446,
+    "income": 1427,
+    "income_add": 2854,
+    "interval": 5,
+    "desccontrol": 0.45,
+    "carspeed": 23,
+    "scale": 2,
+    "trail": 0.2,
+    "scale_z": 5,
+    "random_level": [
+      4
+    ],
+    "random_weight": [
+      100
+    ],
+    "random_level_m": [
+      3
+    ],
+    "random_weight_m": [
+      100
+    ],
+    "random_level_d": [
+      3
+    ],
+    "random_weight_d": [
+      100
+    ]
+  },
+  "10": {
+    "level": 10,
+    "car_id": 1008,
+    "name": "渔夫",
+    "icon": 1010,
+    "model": "car_10",
+    "output_gold": 18988,
+    "unlock_diamond": 0,
+    "diamond": 170,
+    "bonusCar_level": 5,
+    "unlock_buy_gold_level": 14,
+    "buy_gold": 6352235,
+    "add_gold": 1.21,
+    "unlock_buy_diamond_level": 12,
+    "buy_diamond": 101,
+    "add_diamond": 45,
+    "sell_gold": 5081788,
+    "income": 3797,
+    "income_add": 7594,
+    "interval": 5,
+    "desccontrol": 0.5,
+    "carspeed": 23,
+    "scale": 2,
+    "trail": 0.2,
+    "scale_z": 5,
+    "random_level": [
+      4,
+      5
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      3,
+      4
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      3,
+      4
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "11": {
+    "level": 11,
+    "car_id": 1009,
+    "name": "猎户",
+    "icon": 1011,
+    "model": "car_11",
+    "output_gold": 50509,
+    "unlock_diamond": 0,
+    "diamond": 185,
+    "bonusCar_level": 6,
+    "unlock_buy_gold_level": 15,
+    "buy_gold": 16896945,
+    "add_gold": 1.21,
+    "unlock_buy_diamond_level": 13,
+    "buy_diamond": 125,
+    "add_diamond": 59,
+    "sell_gold": 13517556,
+    "income": 10101,
+    "income_add": 20202,
+    "interval": 5,
+    "desccontrol": 0.55,
+    "carspeed": 23,
+    "scale": 2,
+    "trail": 0.2,
+    "scale_z": 5,
+    "random_level": [
+      5
+    ],
+    "random_weight": [
+      100
+    ],
+    "random_level_m": [
+      4
+    ],
+    "random_weight_m": [
+      100
+    ],
+    "random_level_d": [
+      4
+    ],
+    "random_weight_d": [
+      100
+    ]
+  },
+  "12": {
+    "level": 12,
+    "car_id": 1010,
+    "name": "富农",
+    "icon": 1012,
+    "model": "car_12",
+    "output_gold": 67178,
+    "unlock_diamond": 0,
+    "diamond": 200,
+    "bonusCar_level": 7,
+    "unlock_buy_gold_level": 16,
+    "buy_gold": 44945875,
+    "add_gold": 1.21,
+    "unlock_buy_diamond_level": 14,
+    "buy_diamond": 152,
+    "add_diamond": 75,
+    "sell_gold": 35956700,
+    "income": 13435,
+    "income_add": 26870,
+    "interval": 5,
+    "desccontrol": 0.6,
+    "carspeed": 23,
+    "scale": 0.8,
+    "trail": 0.2,
+    "scale_z": 1.3,
+    "random_level": [
+      5
+    ],
+    "random_weight": [
+      100
+    ],
+    "random_level_m": [
+      4
+    ],
+    "random_weight_m": [
+      100
+    ],
+    "random_level_d": [
+      4
+    ],
+    "random_weight_d": [
+      100
+    ]
+  },
+  "13": {
+    "level": 13,
+    "car_id": 1011,
+    "name": "武卒",
+    "icon": 1013,
+    "model": "car_13",
+    "output_gold": 195773,
+    "unlock_diamond": 0,
+    "diamond": 215,
+    "bonusCar_level": 8,
+    "unlock_buy_gold_level": 17,
+    "buy_gold": 119556026,
+    "add_gold": 1.22,
+    "unlock_buy_diamond_level": 15,
+    "buy_diamond": 182,
+    "add_diamond": 93,
+    "sell_gold": 95644820,
+    "income": 39154,
+    "income_add": 78308,
+    "interval": 5,
+    "desccontrol": 0.65,
+    "carspeed": 23,
+    "scale": 0.8,
+    "trail": 0.2,
+    "scale_z": 1.25,
+    "random_level": [
+      5,
+      6
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      4,
+      5
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      4,
+      5
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "14": {
+    "level": 14,
+    "car_id": 1012,
+    "name": "掌柜",
+    "icon": 1014,
+    "model": "car_14",
+    "output_gold": 520756,
+    "unlock_diamond": 0,
+    "diamond": 230,
+    "bonusCar_level": 9,
+    "unlock_buy_gold_level": 18,
+    "buy_gold": 318019030,
+    "add_gold": 1.22,
+    "unlock_buy_diamond_level": 16,
+    "buy_diamond": 215,
+    "add_diamond": 113,
+    "sell_gold": 254415224,
+    "income": 104151,
+    "income_add": 208302,
+    "interval": 5,
+    "desccontrol": 0.7,
+    "carspeed": 23,
+    "scale": 0.8,
+    "trail": 0.2,
+    "scale_z": 1.25,
+    "random_level": [
+      6
+    ],
+    "random_weight": [
+      100
+    ],
+    "random_level_m": [
+      5
+    ],
+    "random_weight_m": [
+      100
+    ],
+    "random_level_d": [
+      5
+    ],
+    "random_weight_d": [
+      100
+    ]
+  },
+  "15": {
+    "level": 15,
+    "car_id": 1013,
+    "name": "商人",
+    "icon": 1015,
+    "model": "car_15",
+    "output_gold": 692606,
+    "unlock_diamond": 0,
+    "diamond": 245,
+    "bonusCar_level": 9,
+    "unlock_buy_gold_level": 19,
+    "buy_gold": 845930620,
+    "add_gold": 1.22,
+    "unlock_buy_diamond_level": 17,
+    "buy_diamond": 251,
+    "add_diamond": 135,
+    "sell_gold": 676744496,
+    "income": 138521,
+    "income_add": 277042,
+    "interval": 5,
+    "desccontrol": 0.75,
+    "carspeed": 23,
+    "scale": 2,
+    "trail": 0.2,
+    "scale_z": 5,
+    "random_level": [
+      6,
+      7
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      5,
+      6
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      5,
+      6
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "16": {
+    "level": 16,
+    "car_id": 1014,
+    "name": "捕快",
+    "icon": 1016,
+    "model": "car_16",
+    "output_gold": 1842333,
+    "unlock_diamond": 0,
+    "diamond": 260,
+    "bonusCar_level": 10,
+    "unlock_buy_gold_level": 20,
+    "buy_gold": 2250175449,
+    "add_gold": 1.22,
+    "unlock_buy_diamond_level": 18,
+    "buy_diamond": 296,
+    "add_diamond": 159,
+    "sell_gold": 1800140359,
+    "income": 368466,
+    "income_add": 736932,
+    "interval": 5,
+    "desccontrol": 0.8,
+    "carspeed": 24.5,
+    "scale": 2.5,
+    "trail": 0.2,
+    "scale_z": 6,
+    "random_level": [
+      7,
+      8
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      6,
+      7
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      6,
+      7
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "17": {
+    "level": 17,
+    "car_id": 1015,
+    "name": "财主",
+    "icon": 1017,
+    "model": "car_17",
+    "output_gold": 4900606,
+    "unlock_diamond": 0,
+    "diamond": 275,
+    "bonusCar_level": 11,
+    "unlock_buy_gold_level": 21,
+    "buy_gold": 5985466695,
+    "add_gold": 1.22,
+    "unlock_buy_diamond_level": 19,
+    "buy_diamond": 350,
+    "add_diamond": 185,
+    "sell_gold": 4788373356,
+    "income": 980121,
+    "income_add": 1960242,
+    "interval": 5,
+    "desccontrol": 0.85,
+    "carspeed": 24.5,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.4,
+    "random_level": [
+      8,
+      9
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      7,
+      8
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      7,
+      8
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "18": {
+    "level": 18,
+    "car_id": 1016,
+    "name": "伍长",
+    "icon": 1018,
+    "model": "car_18",
+    "output_gold": 6517806,
+    "unlock_diamond": 0,
+    "diamond": 290,
+    "bonusCar_level": 12,
+    "unlock_buy_gold_level": 22,
+    "buy_gold": 15921341409,
+    "add_gold": 1.22,
+    "unlock_buy_diamond_level": 20,
+    "buy_diamond": 413,
+    "add_diamond": 213,
+    "sell_gold": 12737073127,
+    "income": 1303561,
+    "income_add": 2607122,
+    "interval": 5,
+    "desccontrol": 0.9,
+    "carspeed": 24.5,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.4,
+    "random_level": [
+      9
+    ],
+    "random_weight": [
+      100
+    ],
+    "random_level_m": [
+      8
+    ],
+    "random_weight_m": [
+      100
+    ],
+    "random_level_d": [
+      8
+    ],
+    "random_weight_d": [
+      100
+    ]
+  },
+  "19": {
+    "level": 19,
+    "car_id": 1017,
+    "name": "富商",
+    "icon": 1019,
+    "model": "car_19",
+    "output_gold": 18997645,
+    "unlock_diamond": 0,
+    "diamond": 305,
+    "bonusCar_level": 13,
+    "unlock_buy_gold_level": 23,
+    "buy_gold": 42350768149,
+    "add_gold": 1.23,
+    "unlock_buy_diamond_level": 21,
+    "buy_diamond": 485,
+    "add_diamond": 243,
+    "sell_gold": 33880614519,
+    "income": 3799529,
+    "income_add": 7599058,
+    "interval": 5,
+    "desccontrol": 0.95,
+    "carspeed": 24.5,
+    "scale": 2,
+    "trail": 0.2,
+    "scale_z": 5,
+    "random_level": [
+      9,
+      10
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      8,
+      9
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      8,
+      9
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "20": {
+    "level": 20,
+    "car_id": 1018,
+    "name": "衙内",
+    "icon": 1020,
+    "model": "car_20",
+    "output_gold": 50533735,
+    "unlock_diamond": 0,
+    "diamond": 320,
+    "bonusCar_level": 14,
+    "unlock_buy_gold_level": 24,
+    "buy_gold": 112653043276,
+    "add_gold": 1.23,
+    "unlock_buy_diamond_level": 22,
+    "buy_diamond": 566,
+    "add_diamond": 275,
+    "sell_gold": 90122434620,
+    "income": 10106747,
+    "income_add": 20213494,
+    "interval": 5,
+    "desccontrol": 1,
+    "carspeed": 24.5,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.4,
+    "random_level": [
+      10
+    ],
+    "random_weight": [
+      100
+    ],
+    "random_level_m": [
+      9
+    ],
+    "random_weight_m": [
+      100
+    ],
+    "random_level_d": [
+      9
+    ],
+    "random_weight_d": [
+      100
+    ]
+  },
+  "21": {
+    "level": 21,
+    "car_id": 1019,
+    "name": "行商",
+    "icon": 1021,
+    "model": "car_21",
+    "output_gold": 134419737,
+    "unlock_diamond": 0,
+    "diamond": 335,
+    "bonusCar_level": 15,
+    "unlock_buy_gold_level": 25,
+    "buy_gold": 299657095114,
+    "add_gold": 1.23,
+    "unlock_buy_diamond_level": 23,
+    "buy_diamond": 656,
+    "add_diamond": 309,
+    "sell_gold": 239725676091,
+    "income": 26883947,
+    "income_add": 53767894,
+    "interval": 5,
+    "desccontrol": 1.05,
+    "carspeed": 24.5,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.5,
+    "random_level": [
+      10,
+      11
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      9,
+      10
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      9,
+      10
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "22": {
+    "level": 22,
+    "car_id": 1020,
+    "name": "百夫长",
+    "icon": 1022,
+    "model": "car_22",
+    "output_gold": 357556501,
+    "unlock_diamond": 0,
+    "diamond": 350,
+    "bonusCar_level": 15,
+    "unlock_buy_gold_level": 26,
+    "buy_gold": 797087873003,
+    "add_gold": 1.23,
+    "unlock_buy_diamond_level": 24,
+    "buy_diamond": 755,
+    "add_diamond": 345,
+    "sell_gold": 637670298402,
+    "income": 71511300,
+    "income_add": 143022600,
+    "interval": 5,
+    "desccontrol": 1.11,
+    "carspeed": 24.5,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.3,
+    "random_level": [
+      11,
+      12
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      10,
+      11
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      10,
+      11
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "23": {
+    "level": 23,
+    "car_id": 1022,
+    "name": "千夫长",
+    "icon": 1023,
+    "model": "car_23",
+    "output_gold": 951100293,
+    "unlock_diamond": 0,
+    "diamond": 365,
+    "bonusCar_level": 16,
+    "unlock_buy_gold_level": 27,
+    "buy_gold": 2120253742188,
+    "add_gold": 1.23,
+    "unlock_buy_diamond_level": 25,
+    "buy_diamond": 863,
+    "add_diamond": 383,
+    "sell_gold": 1696202993750,
+    "income": 190220058,
+    "income_add": 380440116,
+    "interval": 5,
+    "desccontrol": 1.17,
+    "carspeed": 24.5,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.3,
+    "random_level": [
+      12,
+      13
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      11,
+      12
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      11,
+      12
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "24": {
+    "level": 24,
+    "car_id": 1024,
+    "name": "步军副尉",
+    "icon": 1024,
+    "model": "car_24",
+    "output_gold": 1386278994,
+    "unlock_diamond": 0,
+    "diamond": 380,
+    "bonusCar_level": 17,
+    "unlock_buy_gold_level": 28,
+    "buy_gold": 5639874954219,
+    "add_gold": 1.24,
+    "unlock_buy_diamond_level": 26,
+    "buy_diamond": 980,
+    "add_diamond": 423,
+    "sell_gold": 4511899963375,
+    "income": 277255798,
+    "income_add": 554511596,
+    "interval": 5,
+    "desccontrol": 1.23,
+    "carspeed": 24.5,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.3,
+    "random_level": [
+      13,
+      14
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      12,
+      13
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      12,
+      13
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "25": {
+    "level": 25,
+    "car_id": 1025,
+    "name": "防守尉",
+    "icon": 1025,
+    "model": "car_25",
+    "output_gold": 3687502125,
+    "unlock_diamond": 0,
+    "diamond": 395,
+    "bonusCar_level": 18,
+    "unlock_buy_gold_level": 29,
+    "buy_gold": 15002067378223,
+    "add_gold": 1.24,
+    "unlock_buy_diamond_level": 27,
+    "buy_diamond": 1106,
+    "add_diamond": 465,
+    "sell_gold": 12001653902578,
+    "income": 737500425,
+    "income_add": 1475000850,
+    "interval": 5,
+    "desccontrol": 1.29,
+    "carspeed": 24.5,
+    "scale": 0.8,
+    "trail": 0.2,
+    "scale_z": 1.4,
+    "random_level": [
+      14
+    ],
+    "random_weight": [
+      100
+    ],
+    "random_level_m": [
+      13
+    ],
+    "random_weight_m": [
+      100
+    ],
+    "random_level_d": [
+      13
+    ],
+    "random_weight_d": [
+      100
+    ]
+  },
+  "26": {
+    "level": 26,
+    "car_id": 1026,
+    "name": "师爷",
+    "icon": 1026,
+    "model": "car_26",
+    "output_gold": 9808755654,
+    "unlock_diamond": 0,
+    "diamond": 410,
+    "bonusCar_level": 19,
+    "unlock_buy_gold_level": 30,
+    "buy_gold": 39905499226073,
+    "add_gold": 1.24,
+    "unlock_buy_diamond_level": 28,
+    "buy_diamond": 1241,
+    "add_diamond": 509,
+    "sell_gold": 31924399380858,
+    "income": 1961751130,
+    "income_add": 3923502260,
+    "interval": 5,
+    "desccontrol": 1.35,
+    "carspeed": 26,
+    "scale": 0.8,
+    "trail": 0.2,
+    "scale_z": 1.4,
+    "random_level": [
+      14,
+      15
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      13,
+      14
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      13,
+      14
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "27": {
+    "level": 27,
+    "car_id": 1027,
+    "name": "知县",
+    "icon": 1027,
+    "model": "car_27",
+    "output_gold": 26091290041,
+    "unlock_diamond": 0,
+    "diamond": 425,
+    "bonusCar_level": 20,
+    "unlock_buy_gold_level": 31,
+    "buy_gold": 106148627941353,
+    "add_gold": 1.24,
+    "unlock_buy_diamond_level": 29,
+    "buy_diamond": 1385,
+    "add_diamond": 555,
+    "sell_gold": 84918902353082,
+    "income": 5218258008,
+    "income_add": 10436516016,
+    "interval": 5,
+    "desccontrol": 1.41,
+    "carspeed": 26,
+    "scale": 0.8,
+    "trail": 0.2,
+    "scale_z": 1.25,
+    "random_level": [
+      15,
+      16
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      14,
+      15
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      14,
+      15
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "28": {
+    "level": 28,
+    "car_id": 1028,
+    "name": "知府",
+    "icon": 1028,
+    "model": "car_28",
+    "output_gold": 76065911723,
+    "unlock_diamond": 0,
+    "diamond": 440,
+    "bonusCar_level": 21,
+    "unlock_buy_gold_level": 32,
+    "buy_gold": 282355350323999,
+    "add_gold": 1.25,
+    "unlock_buy_diamond_level": 30,
+    "buy_diamond": 1538,
+    "add_diamond": 603,
+    "sell_gold": 225884280259199,
+    "income": 15213182344,
+    "income_add": 30426364688,
+    "interval": 5,
+    "desccontrol": 1.47,
+    "carspeed": 26,
+    "scale": 0.6,
+    "trail": 0.6,
+    "scale_z": 1.25,
+    "random_level": [
+      15,
+      16
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      14,
+      15
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      14,
+      15
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "29": {
+    "level": 29,
+    "car_id": 1029,
+    "name": "骁骑参领",
+    "icon": 1029,
+    "model": "car_29",
+    "output_gold": 202335325183,
+    "unlock_diamond": 0,
+    "diamond": 455,
+    "bonusCar_level": 22,
+    "unlock_buy_gold_level": 33,
+    "buy_gold": 751065231861838,
+    "add_gold": 1.25,
+    "unlock_buy_diamond_level": 31,
+    "buy_diamond": 1700,
+    "add_diamond": 653,
+    "sell_gold": 600852185489470,
+    "income": 40467065036,
+    "income_add": 80934130072,
+    "interval": 5,
+    "desccontrol": 1.53,
+    "carspeed": 26,
+    "scale": 0.6,
+    "trail": 0.6,
+    "scale_z": 1.25,
+    "random_level": [
+      16,
+      17
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      15,
+      16
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      15,
+      16
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "30": {
+    "level": 30,
+    "car_id": 1030,
+    "name": "巡抚",
+    "icon": 1030,
+    "model": "car_30",
+    "output_gold": 538211964989,
+    "unlock_diamond": 0,
+    "diamond": 470,
+    "bonusCar_level": 23,
+    "unlock_buy_gold_level": 34,
+    "buy_gold": 1997833516752490,
+    "add_gold": 1.25,
+    "unlock_buy_diamond_level": 32,
+    "buy_diamond": 1871,
+    "add_diamond": 705,
+    "sell_gold": 1598266813401992,
+    "income": 107642392997,
+    "income_add": 215284785994,
+    "interval": 5,
+    "desccontrol": 1.59,
+    "carspeed": 26,
+    "scale": 0.6,
+    "trail": 0.6,
+    "scale_z": 1.25,
+    "random_level": [
+      17,
+      18
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      16,
+      17
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      16,
+      17
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "31": {
+    "level": 31,
+    "car_id": 1031,
+    "name": "副将",
+    "icon": 1031,
+    "model": "car_31",
+    "output_gold": 1431643826871,
+    "unlock_diamond": 0,
+    "diamond": 485,
+    "bonusCar_level": 24,
+    "unlock_buy_gold_level": 35,
+    "buy_gold": 5314237154561620,
+    "add_gold": 1.25,
+    "unlock_buy_diamond_level": 33,
+    "buy_diamond": 2051,
+    "add_diamond": 759,
+    "sell_gold": 4251389723649296,
+    "income": 286328765374,
+    "income_add": 572657530748,
+    "interval": 5,
+    "desccontrol": 1.65,
+    "carspeed": 26,
+    "scale": 0.6,
+    "trail": 0.6,
+    "scale_z": 1.25,
+    "random_level": [
+      18,
+      19
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      17,
+      18
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      17,
+      18
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "32": {
+    "level": 32,
+    "car_id": 1032,
+    "name": "将军",
+    "icon": 1032,
+    "model": "car_32",
+    "output_gold": 6024101116343,
+    "unlock_diamond": 0,
+    "diamond": 500,
+    "bonusCar_level": 25,
+    "unlock_buy_gold_level": 36,
+    "buy_gold": 14135870831133900,
+    "add_gold": 1.3,
+    "unlock_buy_diamond_level": 34,
+    "buy_diamond": 2240,
+    "add_diamond": 815,
+    "sell_gold": 11308696664907120,
+    "income": 1204820223268,
+    "income_add": 2409640446536,
+    "interval": 5,
+    "desccontrol": 1.72,
+    "carspeed": 26,
+    "scale": 0.8,
+    "trail": 0.2,
+    "scale_z": 1.35,
+    "random_level": [
+      19,
+      20
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      18,
+      19
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      18,
+      19
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "33": {
+    "level": 33,
+    "car_id": 1033,
+    "name": "总督",
+    "icon": 1033,
+    "model": "car_33",
+    "output_gold": 16024108969474,
+    "unlock_diamond": 0,
+    "diamond": 515,
+    "bonusCar_level": 26,
+    "unlock_buy_gold_level": 37,
+    "buy_gold": 37601416410816200,
+    "add_gold": 1.3,
+    "unlock_buy_diamond_level": 35,
+    "buy_diamond": 2438,
+    "add_diamond": 873,
+    "sell_gold": 30081133128652960,
+    "income": 3204821793894,
+    "income_add": 6409643587788,
+    "interval": 5,
+    "desccontrol": 1.79,
+    "carspeed": 26,
+    "scale": 0.8,
+    "trail": 0.2,
+    "scale_z": 1.35,
+    "random_level": [
+      20,
+      21
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      19,
+      20
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      19,
+      20
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "34": {
+    "level": 34,
+    "car_id": 1034,
+    "name": "尚书",
+    "icon": 1034,
+    "model": "car_34",
+    "output_gold": 42624129858802,
+    "unlock_diamond": 0,
+    "diamond": 530,
+    "bonusCar_level": 27,
+    "unlock_buy_gold_level": 38,
+    "buy_gold": 100019767652771000,
+    "add_gold": 1.3,
+    "unlock_buy_diamond_level": 36,
+    "buy_diamond": 2645,
+    "add_diamond": 933,
+    "sell_gold": 80015814122216820,
+    "income": 8524825971760,
+    "income_add": 17049651943520,
+    "interval": 5,
+    "desccontrol": 1.86,
+    "carspeed": 26,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.5,
+    "random_level": [
+      21,
+      22
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      20,
+      21
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      20,
+      21
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "35": {
+    "level": 35,
+    "car_id": 1035,
+    "name": "大学士",
+    "icon": 1035,
+    "model": "car_35",
+    "output_gold": 56690092712207,
+    "unlock_diamond": 0,
+    "diamond": 545,
+    "bonusCar_level": 28,
+    "unlock_buy_gold_level": 39,
+    "buy_gold": 266052581956371000,
+    "add_gold": 1.3,
+    "unlock_buy_diamond_level": 37,
+    "buy_diamond": 2861,
+    "add_diamond": 995,
+    "sell_gold": 212842065565096830,
+    "income": 11338018542441,
+    "income_add": 22676037084882,
+    "interval": 5,
+    "desccontrol": 1.93,
+    "carspeed": 26,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.5,
+    "random_level": [
+      22,
+      23
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      21,
+      22
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      21,
+      22
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "36": {
+    "level": 36,
+    "car_id": 1036,
+    "name": "宰相",
+    "icon": 1036,
+    "model": "car_36",
+    "output_gold": 150795646614473,
+    "unlock_diamond": 0,
+    "diamond": 560,
+    "bonusCar_level": 29,
+    "unlock_buy_gold_level": 40,
+    "buy_gold": 707699868003948000,
+    "add_gold": 1.3,
+    "unlock_buy_diamond_level": 38,
+    "buy_diamond": 3086,
+    "add_diamond": 1059,
+    "sell_gold": 566159894403158460,
+    "income": 30159129322894,
+    "income_add": 60318258645788,
+    "interval": 5,
+    "desccontrol": 2,
+    "carspeed": 28,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.5,
+    "random_level": [
+      23,
+      24
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      22,
+      23
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      22,
+      23
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "37": {
+    "level": 37,
+    "car_id": 1037,
+    "name": "侯爷",
+    "icon": 1037,
+    "model": "car_37",
+    "output_gold": 401116419994498,
+    "unlock_diamond": 0,
+    "diamond": 575,
+    "bonusCar_level": 30,
+    "unlock_buy_gold_level": 41,
+    "buy_gold": 1882481648890500000,
+    "add_gold": 1.3,
+    "unlock_buy_diamond_level": 39,
+    "buy_diamond": 3320,
+    "add_diamond": 1125,
+    "sell_gold": 1505985319112400100,
+    "income": 80223283998899,
+    "income_add": 160446567997798,
+    "interval": 5,
+    "desccontrol": 2.07,
+    "carspeed": 28,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.5,
+    "random_level": [
+      24,
+      25
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      23,
+      24
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      23,
+      24
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "38": {
+    "level": 38,
+    "car_id": 1038,
+    "name": "伯爷",
+    "icon": 1038,
+    "model": "car_38",
+    "output_gold": 1066969677185360,
+    "unlock_diamond": 0,
+    "diamond": 590,
+    "bonusCar_level": 31,
+    "unlock_buy_gold_level": 42,
+    "buy_gold": 5007401186048730000,
+    "add_gold": 1.3,
+    "unlock_buy_diamond_level": 40,
+    "buy_diamond": 3563,
+    "add_diamond": 1193,
+    "sell_gold": 4005920948838984000,
+    "income": 213393935437073,
+    "income_add": 426787870874146,
+    "interval": 5,
+    "desccontrol": 2.14,
+    "carspeed": 28,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.5,
+    "random_level": [
+      25,
+      26
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      24,
+      25
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      24,
+      25
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "39": {
+    "level": 39,
+    "car_id": 1039,
+    "name": "公爵",
+    "icon": 1039,
+    "model": "car_39",
+    "output_gold": 2838139341313070,
+    "unlock_diamond": 0,
+    "diamond": 605,
+    "bonusCar_level": 32,
+    "unlock_buy_gold_level": 43,
+    "buy_gold": 13319687154889600000,
+    "add_gold": 1.3,
+    "unlock_buy_diamond_level": 41,
+    "buy_diamond": 3812,
+    "add_diamond": 1277,
+    "sell_gold": 10655749723911682000,
+    "income": 567627868262613,
+    "income_add": 1135255736525226,
+    "interval": 5,
+    "desccontrol": 2.21,
+    "carspeed": 28,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.3,
+    "random_level": [
+      26,
+      27
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      25,
+      26
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      25,
+      26
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "40": {
+    "level": 40,
+    "car_id": 1040,
+    "name": "亲王",
+    "icon": 1040,
+    "model": "car_40",
+    "output_gold": 7549450647892770,
+    "unlock_diamond": 0,
+    "diamond": 620,
+    "bonusCar_level": 33,
+    "unlock_buy_gold_level": 44,
+    "buy_gold": 35430367832006400000,
+    "add_gold": 1.3,
+    "unlock_buy_diamond_level": 42,
+    "buy_diamond": 4079,
+    "add_diamond": 1366,
+    "sell_gold": 28344294265605124000,
+    "income": 1509890129578550,
+    "income_add": 3019780259157100,
+    "interval": 5,
+    "desccontrol": 2.28,
+    "carspeed": 28,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.5,
+    "random_level": [
+      27,
+      28
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      26,
+      27
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      26,
+      27
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "41": {
+    "level": 41,
+    "car_id": 1041,
+    "name": "皇子",
+    "icon": 1041,
+    "model": "car_41",
+    "output_gold": 20081538723394800,
+    "unlock_diamond": 0,
+    "diamond": 635,
+    "bonusCar_level": 34,
+    "unlock_buy_gold_level": 45,
+    "buy_gold": 94244778433137000000,
+    "add_gold": 1.3,
+    "unlock_buy_diamond_level": 43,
+    "buy_diamond": 4365,
+    "add_diamond": 1462,
+    "sell_gold": 75395822746509600000,
+    "income": 4016307744678950,
+    "income_add": 8032615489357900,
+    "interval": 5,
+    "desccontrol": 2.35,
+    "carspeed": 28,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.5,
+    "random_level": [
+      28,
+      29
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      27,
+      28
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      27,
+      28
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "42": {
+    "level": 42,
+    "car_id": 1042,
+    "name": "太子",
+    "icon": 1042,
+    "model": "car_42",
+    "output_gold": 53416893004230000,
+    "unlock_diamond": 0,
+    "diamond": 650,
+    "bonusCar_level": 35,
+    "unlock_buy_gold_level": 46,
+    "buy_gold": 250691110632144000000,
+    "add_gold": 1.3,
+    "unlock_buy_diamond_level": 44,
+    "buy_diamond": 4671,
+    "add_diamond": 1564,
+    "sell_gold": 200552888505715230000,
+    "income": 10683378600846000,
+    "income_add": 21366757201692000,
+    "interval": 5,
+    "desccontrol": 2.42,
+    "carspeed": 28,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.5,
+    "random_level": [
+      29,
+      30
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      28,
+      29
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      28,
+      29
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "43": {
+    "level": 43,
+    "car_id": 1043,
+    "name": "皇上",
+    "icon": 1043,
+    "model": "car_43",
+    "output_gold": 142088935391252000,
+    "unlock_diamond": 0,
+    "diamond": 665,
+    "bonusCar_level": 36,
+    "unlock_buy_gold_level": 47,
+    "buy_gold": 666838354281504000000,
+    "add_gold": 1.3,
+    "unlock_buy_diamond_level": 45,
+    "buy_diamond": 4998,
+    "add_diamond": 1673,
+    "sell_gold": 533470683425203300000,
+    "income": 28417787078250300,
+    "income_add": 56835574156500600,
+    "interval": 5,
+    "desccontrol": 2.49,
+    "carspeed": 28,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.5,
+    "random_level": [
+      30,
+      31
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      29,
+      30
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      29,
+      30
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "44": {
+    "level": 44,
+    "car_id": 1044,
+    "name": "太上皇",
+    "icon": 1044,
+    "model": "car_44",
+    "output_gold": 377956568140730000,
+    "unlock_diamond": 0,
+    "diamond": 680,
+    "bonusCar_level": 37,
+    "unlock_buy_gold_level": 48,
+    "buy_gold": 1.7737900223888e+21,
+    "add_gold": 1.3,
+    "unlock_buy_diamond_level": 46,
+    "buy_diamond": 5348,
+    "add_diamond": 1790,
+    "sell_gold": 1.4190320179110402e+21,
+    "income": 75591313628146000,
+    "income_add": 151182627256292000,
+    "interval": 5,
+    "desccontrol": 2.56,
+    "carspeed": 28,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.5,
+    "random_level": [
+      31,
+      32
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      30,
+      31
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      30,
+      31
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "45": {
+    "level": 45,
+    "car_id": 1045,
+    "name": "半仙",
+    "icon": 1045,
+    "model": "car_45",
+    "output_gold": 1005364471254340000,
+    "unlock_diamond": 0,
+    "diamond": 695,
+    "bonusCar_level": 38,
+    "unlock_buy_gold_level": 49,
+    "buy_gold": 4.718281459554208e+21,
+    "add_gold": 1.3,
+    "unlock_buy_diamond_level": 47,
+    "buy_diamond": 5723,
+    "add_diamond": 1910,
+    "sell_gold": 3.7746251676433667e+21,
+    "income": 201072894250868000,
+    "income_add": 402145788501736000,
+    "interval": 5,
+    "desccontrol": 2.56,
+    "carspeed": 28,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.5,
+    "random_level": [
+      32,
+      33
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      31,
+      32
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      31,
+      32
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "46": {
+    "level": 46,
+    "car_id": 1046,
+    "name": "财神",
+    "icon": 1046,
+    "model": "car_46",
+    "output_gold": 2674269493536550000,
+    "unlock_diamond": 0,
+    "diamond": 710,
+    "bonusCar_level": 39,
+    "unlock_buy_gold_level": 50,
+    "buy_gold": 1.2550628682414195e+22,
+    "add_gold": 1.3,
+    "unlock_buy_diamond_level": 48,
+    "buy_diamond": 6123,
+    "add_diamond": 2124,
+    "sell_gold": 1.0040502945931357e+22,
+    "income": 534853898707309000,
+    "income_add": 1069707797414618000,
+    "interval": 5,
+    "desccontrol": 2.56,
+    "carspeed": 28,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.5,
+    "random_level": [
+      33,
+      34
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      32,
+      33
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      32,
+      33
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "47": {
+    "level": 47,
+    "car_id": 1047,
+    "name": "月老",
+    "icon": 1047,
+    "model": "car_47",
+    "output_gold": 7113556852807220000,
+    "unlock_diamond": 0,
+    "diamond": 725,
+    "bonusCar_level": 40,
+    "unlock_buy_gold_level": 51,
+    "buy_gold": 3.3384672295221763e+22,
+    "add_gold": 1.3,
+    "unlock_buy_diamond_level": 49,
+    "buy_diamond": 6548,
+    "add_diamond": 2323,
+    "sell_gold": 2.670773783617741e+22,
+    "income": 1422711370561440000,
+    "income_add": 2845422741122880000,
+    "interval": 5,
+    "desccontrol": 2.56,
+    "carspeed": 28,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.5,
+    "random_level": [
+      34,
+      35
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      33,
+      34
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      33,
+      34
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "48": {
+    "level": 48,
+    "car_id": 1048,
+    "name": "文曲星君",
+    "icon": 1048,
+    "model": "car_48",
+    "output_gold": 18922061228467200000,
+    "unlock_diamond": 0,
+    "diamond": 740,
+    "bonusCar_level": 41,
+    "unlock_buy_gold_level": 52,
+    "buy_gold": 8.880322830528989e+22,
+    "add_gold": 1.3,
+    "unlock_buy_diamond_level": 50,
+    "buy_diamond": 6998,
+    "add_diamond": 2556,
+    "sell_gold": 7.1042582644231915e+22,
+    "income": 3784412245693440000,
+    "income_add": 7568824491386880000,
+    "interval": 5,
+    "desccontrol": 2.56,
+    "carspeed": 28,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.5,
+    "random_level": [
+      35,
+      36
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      34,
+      35
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      34,
+      35
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "49": {
+    "level": 49,
+    "car_id": 1049,
+    "name": "真人",
+    "icon": 1049,
+    "model": "car_49",
+    "output_gold": 50332682867722700000,
+    "unlock_diamond": 0,
+    "diamond": 755,
+    "bonusCar_level": 42,
+    "unlock_buy_gold_level": 53,
+    "buy_gold": 2.362165872920711e+23,
+    "add_gold": 1.3,
+    "unlock_buy_diamond_level": 51,
+    "buy_diamond": 7943,
+    "add_diamond": 2798,
+    "sell_gold": 1.889732698336569e+23,
+    "income": 10066536573544600000,
+    "income_add": 20133073147089200000,
+    "interval": 5,
+    "desccontrol": 2.56,
+    "carspeed": 28,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.5,
+    "random_level": [
+      36,
+      37
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      35,
+      36
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      35,
+      36
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  },
+  "50": {
+    "level": 50,
+    "car_id": 1050,
+    "name": "玉皇大帝",
+    "icon": 1050,
+    "model": "car_50",
+    "output_gold": 133884936428143000000,
+    "unlock_diamond": 0,
+    "diamond": 770,
+    "bonusCar_level": 43,
+    "unlock_buy_gold_level": 54,
+    "buy_gold": 6.283361221969092e+23,
+    "add_gold": 1.3,
+    "unlock_buy_diamond_level": 52,
+    "buy_diamond": 7973,
+    "add_diamond": 3000,
+    "sell_gold": 5.026688977575274e+23,
+    "income": 26776987285628500000,
+    "income_add": 53553974571257000000,
+    "interval": 5,
+    "desccontrol": 2.56,
+    "carspeed": 28,
+    "scale": 0.9,
+    "trail": 0.2,
+    "scale_z": 1.5,
+    "random_level": [
+      37,
+      38
+    ],
+    "random_weight": [
+      100,
+      20
+    ],
+    "random_level_m": [
+      36,
+      37
+    ],
+    "random_weight_m": [
+      100,
+      30
+    ],
+    "random_level_d": [
+      36,
+      37
+    ],
+    "random_weight_d": [
+      100,
+      30
+    ]
+  }
+}

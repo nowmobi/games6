@@ -1,0 +1,147 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "zidanexplode1",
+    "_duration": 0.11666666666666667,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "ecx07JmLdK8IQfvYObScJ7"
+              }
+            },
+            {
+              "frame": 0.03333333333333333,
+              "value": {
+                "__uuid__": "aaj7atMphKqrCMTgmzTv38"
+              }
+            },
+            {
+              "frame": 0.06666666666666667,
+              "value": {
+                "__uuid__": "f4OZGsBYhE1oS05fNO6yIT"
+              }
+            },
+            {
+              "frame": 0.1,
+              "value": {
+                "__uuid__": "dc1lrWNU9OXa5GNvC37SCq"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "02",
+      "texture": "16ff3c37b",
+      "rect": [
+        95,
+        433,
+        97,
+        126
+      ],
+      "offset": [
+        -4.5,
+        1
+      ],
+      "originalSize": [
+        152,
+        222
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "04",
+      "texture": "16ff3c37b",
+      "rect": [
+        217,
+        87,
+        54,
+        56
+      ],
+      "offset": [
+        -10,
+        4
+      ],
+      "originalSize": [
+        152,
+        222
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "01",
+      "texture": "16ff3c37b",
+      "rect": [
+        134,
+        286,
+        103,
+        109
+      ],
+      "offset": [
+        -7.5,
+        4.5
+      ],
+      "originalSize": [
+        152,
+        222
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "03",
+      "texture": "16ff3c37b",
+      "rect": [
+        3,
+        149,
+        115,
+        142
+      ],
+      "offset": [
+        1.5,
+        -2
+      ],
+      "originalSize": [
+        152,
+        222
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

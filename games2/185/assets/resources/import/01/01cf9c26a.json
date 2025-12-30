@@ -1,0 +1,647 @@
+[
+  1,
+  [
+    "ef+THU1wxGEbdlS6wj+Jz4",
+    "16a3b8aec",
+    "155220a82",
+    "1blx3AUPxM6I+aY4sMKSDf",
+    "aa8msixZtEOqvuMcjcGhn6",
+    "c9csvtLQlNZ4A5+AxMiens",
+    "48w7bj5A1EtofshmwR8zfI",
+    "7a/QZLET9IDreTiBfRn2PD",
+    "05GimcmvpMuZVTPouknjZz",
+    "23LcyhXQ9EY4GoGj6YaSP1",
+    "8anwS4qDlOyoc2DldmpsGA"
+  ],
+  [
+    "_textureSetter",
+    "node",
+    "root",
+    "data",
+    "_N$skeletonData",
+    "m_game_e_prefab"
+  ],
+  [
+    "cc.SpriteFrame",
+    [
+      "cc.Node",
+      [
+        "_name",
+        "_components",
+        "_prefab",
+        "_children",
+        "_trs",
+        "_parent",
+        "_contentSize"
+      ],
+      2,
+      9,
+      4,
+      2,
+      7,
+      1,
+      5
+    ],
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ],
+    [
+      "cc.Prefab",
+      [
+        "_name"
+      ],
+      2
+    ],
+    [
+      "e1deahDfMxEe6qgNag187Sm",
+      [
+        "m_game_num",
+        "node",
+        "m_game_texture",
+        "m_game_circle",
+        "m_game_e_prefab"
+      ],
+      2,
+      1,
+      3,
+      2,
+      6
+    ],
+    [
+      "cc.PrefabInfo",
+      [
+        "fileId",
+        "root"
+      ],
+      2,
+      1
+    ],
+    [
+      "sp.Skeleton",
+      [
+        "defaultAnimation",
+        "_preCacheMode",
+        "_animationName",
+        "node",
+        "_materials",
+        "_N$skeletonData"
+      ],
+      0,
+      1,
+      3,
+      6
+    ]
+  ],
+  [
+    [
+      5,
+      0,
+      1,
+      2
+    ],
+    [
+      2,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    [
+      3,
+      0,
+      2
+    ],
+    [
+      1,
+      0,
+      3,
+      1,
+      2,
+      4,
+      2
+    ],
+    [
+      1,
+      0,
+      5,
+      1,
+      2,
+      6,
+      2
+    ],
+    [
+      4,
+      0,
+      1,
+      2,
+      3,
+      4,
+      2
+    ],
+    [
+      6,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      4
+    ]
+  ],
+  [
+    [
+      [
+        [
+          1,
+          "shuijing",
+          "\nshuijing.png\nsize: 1024,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nshuijing0001\n  rotate: false\n  xy: 2, 630\n  size: 307, 312\n  orig: 307, 312\n  offset: 0, 0\n  index: -1\nshuijing0002\n  rotate: false\n  xy: 2, 316\n  size: 307, 312\n  orig: 307, 312\n  offset: 0, 0\n  index: -1\nshuijing0003\n  rotate: false\n  xy: 311, 630\n  size: 307, 312\n  orig: 307, 312\n  offset: 0, 0\n  index: -1\nshuijing0004\n  rotate: false\n  xy: 2, 2\n  size: 307, 312\n  orig: 307, 312\n  offset: 0, 0\n  index: -1\nshuijing0005\n  rotate: false\n  xy: 311, 316\n  size: 307, 312\n  orig: 307, 312\n  offset: 0, 0\n  index: -1\nshuijing0006\n  rotate: false\n  xy: 620, 630\n  size: 307, 312\n  orig: 307, 312\n  offset: 0, 0\n  index: -1\nshuijing0007\n  rotate: false\n  xy: 311, 2\n  size: 307, 312\n  orig: 307, 312\n  offset: 0, 0\n  index: -1\nshuijing0008\n  rotate: false\n  xy: 620, 388\n  size: 240, 240\n  orig: 240, 240\n  offset: 0, 0\n  index: -1\n",
+          [
+            "shuijing.png"
+          ],
+          {
+            "skeleton": {
+              "hash": "8i07/Ky5DOTpCyEHKbOgr3oxqSU",
+              "spine": "3.7.94",
+              "width": 307.01,
+              "height": 312.01,
+              "images": "",
+              "audio": ""
+            },
+            "bones": [
+              {
+                "name": "root"
+              }
+            ],
+            "slots": [
+              {
+                "name": "shuijing0001",
+                "bone": "root",
+                "attachment": "shuijing0001"
+              }
+            ],
+            "skins": {
+              "default": {
+                "shuijing0001": {
+                  "shuijing0001": {
+                    "width": 307,
+                    "height": 312
+                  },
+                  "shuijing0002": {
+                    "width": 307,
+                    "height": 312
+                  },
+                  "shuijing0003": {
+                    "width": 307,
+                    "height": 312
+                  },
+                  "shuijing0004": {
+                    "width": 307,
+                    "height": 312
+                  },
+                  "shuijing0005": {
+                    "width": 307,
+                    "height": 312
+                  },
+                  "shuijing0006": {
+                    "width": 307,
+                    "height": 312
+                  },
+                  "shuijing0007": {
+                    "width": 307,
+                    "height": 312
+                  },
+                  "shuijing0008": {
+                    "width": 240,
+                    "height": 240
+                  }
+                }
+              }
+            },
+            "animations": {
+              "animation": {
+                "slots": {
+                  "shuijing0001": {
+                    "attachment": [
+                      {
+                        "time": 0.0667,
+                        "name": "shuijing0002"
+                      },
+                      {
+                        "time": 0.1333,
+                        "name": "shuijing0003"
+                      },
+                      {
+                        "time": 0.2,
+                        "name": "shuijing0004"
+                      },
+                      {
+                        "time": 0.2667,
+                        "name": "shuijing0005"
+                      },
+                      {
+                        "time": 0.3333,
+                        "name": "shuijing0006"
+                      },
+                      {
+                        "time": 0.4,
+                        "name": "shuijing0007"
+                      },
+                      {
+                        "time": 0.4667,
+                        "name": null
+                      },
+                      {
+                        "time": 0.5333,
+                        "name": null
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          [
+            0
+          ]
+        ]
+      ],
+      0,
+      0,
+      [
+        0
+      ],
+      [
+        -1
+      ],
+      [
+        6
+      ]
+    ],
+    [
+      [
+        {
+          "name": "png_4",
+          "rect": [
+            812,
+            934,
+            84,
+            84
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            84,
+            84
+          ],
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        2
+      ]
+    ],
+    [
+      [
+        {
+          "name": "png_cube_1",
+          "rect": [
+            902,
+            934,
+            84,
+            84
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            84,
+            84
+          ],
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        2
+      ]
+    ],
+    [
+      [
+        {
+          "name": "png_cube_3",
+          "rect": [
+            3,
+            936,
+            84,
+            84
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            84,
+            84
+          ],
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    [
+      [
+        {
+          "name": "png_cube_2",
+          "rect": [
+            93,
+            936,
+            84,
+            84
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            84,
+            84
+          ],
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    [
+      [
+        [
+          2,
+          "effect"
+        ],
+        [
+          3,
+          "effect",
+          [
+            -4
+          ],
+          [
+            [
+              5,
+              30,
+              -3,
+              [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              [
+                -2
+              ],
+              2
+            ]
+          ],
+          [
+            0,
+            "2eKCJbKnxGaJWTMK6Aa8Gq",
+            -1
+          ],
+          [
+            258,
+            8,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        [
+          4,
+          "quan",
+          1,
+          [
+            [
+              6,
+              "animation",
+              0,
+              "animation",
+              -5,
+              [
+                0
+              ],
+              1
+            ]
+          ],
+          [
+            0,
+            "e3moJKyytHX5fRs9udB1YK",
+            1
+          ],
+          [
+            5,
+            307.01,
+            312.01
+          ]
+        ]
+      ],
+      0,
+      [
+        0,
+        2,
+        1,
+        0,
+        -1,
+        2,
+        0,
+        1,
+        1,
+        0,
+        -1,
+        2,
+        0,
+        1,
+        2,
+        0,
+        3,
+        1,
+        5
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        -1,
+        4,
+        5,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5,
+        -6,
+        -7,
+        -8,
+        -9,
+        -10,
+        -11
+      ],
+      [
+        7,
+        8,
+        9,
+        0,
+        3,
+        4,
+        5,
+        0,
+        10,
+        5,
+        4,
+        3,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        {
+          "name": "png_5",
+          "rect": [
+            183,
+            936,
+            84,
+            84
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            84,
+            84
+          ],
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ]
+  ]
+]

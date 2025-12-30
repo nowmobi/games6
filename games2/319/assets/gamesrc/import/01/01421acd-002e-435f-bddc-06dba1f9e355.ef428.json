@@ -1,0 +1,153 @@
+[
+  1,
+  [
+    "8e24U1DrVFwbWvIbo9BOyT"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "jieshupiaozi",
+      "\njieshupiaozi.png\nsize: 593,258\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\njx\n  rotate: false\n  xy: 2, 2\n  size: 589, 254\n  orig: 589, 254\n  offset: 0, 0\n  index: -1\n",
+      [
+        "jieshupiaozi.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "1erfwT40/rdEN6cPDOz+4R+B/hg",
+          "spine": "3.8.99",
+          "images": "./images/",
+          "audio": "D:/桌面/结束飘字/images"
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "bone",
+            "parent": "root",
+            "length": 218.43,
+            "rotation": 1.74,
+            "x": -163.44,
+            "y": -473.18
+          },
+          {
+            "name": "jx",
+            "parent": "root",
+            "length": 148.27,
+            "rotation": 90.55,
+            "x": 1.21,
+            "y": -0.52
+          }
+        ],
+        "slots": [
+          {
+            "name": "jx",
+            "bone": "jx"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "jx": {
+                "jx": {
+                  "x": 16.5,
+                  "y": -2.44,
+                  "rotation": -90.55,
+                  "width": 589,
+                  "height": 254
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "jieshupiaozi": {
+            "slots": {
+              "jx": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.2,
+                    "color": "ffffffff"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "name": "jx"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "jx": {
+                "scale": [
+                  {
+                    "x": 0.2,
+                    "y": 0.2,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.1667,
+                    "x": 1.2,
+                    "y": 1.2,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.2667
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

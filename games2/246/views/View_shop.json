@@ -1,0 +1,289 @@
+{
+  "type": "View",
+  "props": {
+    "width": 1334,
+    "top": 0,
+    "right": 0,
+    "left": 0,
+    "height": 750,
+    "bottom": 0
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "var": "topBg",
+        "skin": "main/top_di.png",
+        "right": 0,
+        "left": 0
+      },
+      "compId": 313,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "visible": true,
+            "var": "goldBtn",
+            "top": 8,
+            "skin": "main/icon_gold_di.png",
+            "left": 255
+          },
+          "compId": 326,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "var": "goldNum",
+                "text": "5688",
+                "fontSize": 30,
+                "color": "#ffffff",
+                "centerY": 0,
+                "centerX": 20
+              },
+              "compId": 327
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 213,
+            "visible": true,
+            "var": "backBtn",
+            "top": 0,
+            "skin": "main/common_btn_back.png",
+            "left": 0,
+            "height": 70
+          },
+          "compId": 260,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 14,
+                "text": "Store",
+                "strokeColor": "#000000",
+                "stroke": 2,
+                "right": 49,
+                "fontSize": 36,
+                "color": "#ffffff",
+                "bold": true
+              },
+              "compId": 325
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 265,
+            "var": "hotSellBtn",
+            "top": 110,
+            "skin": "main/btn_rexiao.png",
+            "height": 85,
+            "centerX": -146
+          },
+          "compId": 314,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "text": "Hot Products",
+                "fontSize": 36,
+                "color": "#ffffff",
+                "centerY": 0,
+                "centerX": 0,
+                "bold": true
+              },
+              "compId": 321
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "width": 265,
+            "var": "viedeo",
+            "top": 110,
+            "skin": "main/btn_guanjun.png",
+            "height": 85,
+            "centerX": 154
+          },
+          "compId": 315,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 25,
+                "x": 59,
+                "text": "Champion car",
+                "fontSize": 36,
+                "color": "#ffffff",
+                "centerY": 0,
+                "centerX": 0,
+                "bold": true
+              },
+              "compId": 322
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 79,
+                "top": -38,
+                "skin": "main/icon_guanjun.png",
+                "right": -29,
+                "height": 77
+              },
+              "compId": 316
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 622,
+        "x": 0,
+        "skin": "main/shop_di.png",
+        "right": 0,
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 317,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "y": 46,
+            "x": 541,
+            "text": "Get a random vehicle",
+            "fontSize": 36,
+            "color": "#ffffff",
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 320
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 22,
+            "x": 138,
+            "width": 79,
+            "var": "garageBtn",
+            "skin": "main/btn_jiangchi.png",
+            "left": 138,
+            "height": 79,
+            "centerY": 0
+          },
+          "compId": 319
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -285,
+            "visible": true,
+            "var": "buyBtn",
+            "skin": "main/btn_yellow.png",
+            "right": 58,
+            "centerY": 0
+          },
+          "compId": 308,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "text": "3000",
+                "fontSize": 35,
+                "color": "#A30000",
+                "centerX": -21,
+                "bottom": 44,
+                "bold": true,
+                "align": "right"
+              },
+              "compId": 309
+            },
+            {
+              "type": "Image",
+              "props": {
+                "width": 50,
+                "skin": "main/common_icon_gold.png",
+                "height": 50,
+                "centerX": -102,
+                "bottom": 39
+              },
+              "compId": 310
+            },
+            {
+              "type": "Label",
+              "props": {
+                "top": 32,
+                "text": "Buy",
+                "fontSize": 40,
+                "color": "#903B06",
+                "centerX": 82,
+                "bold": true
+              },
+              "compId": 318
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -285,
+            "x": 0,
+            "visible": false,
+            "var": "videoBtn",
+            "skin": "main/btn_yellow.png",
+            "right": 58,
+            "centerY": 0
+          },
+          "compId": 328,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "skin": "main/icon_shipin.png",
+                "left": 25,
+                "centerY": 0
+              },
+              "compId": 330
+            },
+            {
+              "type": "Label",
+              "props": {
+                "text": "Receive",
+                "fontSize": 40,
+                "color": "#903B06",
+                "centerY": 0,
+                "centerX": 40,
+                "bold": true,
+                "align": "right"
+              },
+              "compId": 331
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "main/top_di.png",
+    "main/icon_gold_di.png",
+    "main/common_btn_back.png",
+    "main/btn_rexiao.png",
+    "main/btn_guanjun.png",
+    "main/icon_guanjun.png",
+    "main/shop_di.png",
+    "main/btn_jiangchi.png",
+    "main/btn_yellow.png",
+    "main/common_icon_gold.png",
+    "main/icon_shipin.png"
+  ],
+  "loadList3D": []
+}

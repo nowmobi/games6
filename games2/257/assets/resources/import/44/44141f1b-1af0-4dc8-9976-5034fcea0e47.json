@@ -1,0 +1,112 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "store",
+      [
+        {
+          "type": "common",
+          "data": [
+            {
+              "cost": 2,
+              "maxEnergy": 5,
+              "energyRecharge": 0.3,
+              "maxHP": 8
+            },
+            {
+              "cost": 3,
+              "maxEnergy": 6,
+              "energyRecharge": 0.4,
+              "maxHP": 10
+            },
+            {
+              "cost": 4,
+              "maxEnergy": 7,
+              "energyRecharge": 0.5,
+              "maxHP": 12
+            },
+            {
+              "cost": 5,
+              "maxEnergy": 8,
+              "energyRecharge": 0.6,
+              "maxHP": 16
+            },
+            {
+              "cost": 6,
+              "maxEnergy": 10,
+              "energyRecharge": 0.7,
+              "maxHP": 20
+            }
+          ]
+        },
+        {
+          "type": "towers",
+          "data": [
+            {
+              "cost": 2,
+              "gun": "0.MG-2",
+              "cannon": "Smash.3R",
+              "laser": "Pulsar"
+            },
+            {
+              "cost": 2,
+              "gun": "Bullz-i",
+              "cannon": "Comet-T",
+              "laser": "Plasma-Q"
+            },
+            {
+              "cost": 4,
+              "gun": "0.MG-4",
+              "cannon": "S.4R",
+              "laser": "Puls.3R"
+            },
+            {
+              "cost": 4,
+              "gun": "3.MG-V",
+              "cannon": "H3ll",
+              "laser": "Thunder-B"
+            },
+            {
+              "cost": 4,
+              "gun": "01.HKO",
+              "cannon": "Meteor-U",
+              "laser": "Omega Beam"
+            },
+            {
+              "cost": 4,
+              "gun": "Tunneller",
+              "cannon": "Starfall",
+              "laser": "Electroneer"
+            }
+          ]
+        }
+      ]
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

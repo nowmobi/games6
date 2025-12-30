@@ -1,0 +1,437 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "mission",
+  "json": {
+    "1000": {
+      "id": 1000,
+      "no": 1,
+      "type": 1,
+      "weight": 100,
+      "mission": "Login",
+      "gift": [
+        "1,20"
+      ],
+      "total": 1,
+      "icontype": 7
+    },
+    "2000": {
+      "id": 2000,
+      "no": 2,
+      "type": 2,
+      "weight": 1000000,
+      "mission": "Claim Daily Benefits 1 times",
+      "gift": [
+        "1,20"
+      ],
+      "total": 1,
+      "icontype": 7
+    },
+    "2001": {
+      "id": 2001,
+      "no": 2,
+      "type": 5,
+      "weight": 1,
+      "mission": "Claim Autoplay Earnings 1times",
+      "gift": [
+        "1,20"
+      ],
+      "total": 1,
+      "icontype": 7
+    },
+    "3000": {
+      "id": 3000,
+      "no": 3,
+      "type": 3,
+      "weight": 0,
+      "mission": "Conduct battle 2 times",
+      "gift": [
+        "1,20"
+      ],
+      "total": 2,
+      "icontype": 7
+    },
+    "3001": {
+      "id": 3001,
+      "no": 3,
+      "type": 11,
+      "weight": 40,
+      "mission": "Destroy 100 enemy planes",
+      "gift": [
+        "1,20"
+      ],
+      "total": 100,
+      "icontype": 7
+    },
+    "3002": {
+      "id": 3002,
+      "no": 3,
+      "type": 11,
+      "weight": 20,
+      "mission": "Destroy 120 enemy planes",
+      "gift": [
+        "1,20"
+      ],
+      "total": 120,
+      "icontype": 7
+    },
+    "3003": {
+      "id": 3003,
+      "no": 3,
+      "type": 11,
+      "weight": 20,
+      "mission": "Destroy 150 enemy planes",
+      "gift": [
+        "1,20"
+      ],
+      "total": 150,
+      "icontype": 7
+    },
+    "3004": {
+      "id": 3004,
+      "no": 3,
+      "type": 11,
+      "weight": 10,
+      "mission": "Destroy 180 enemy planes",
+      "gift": [
+        "1,20"
+      ],
+      "total": 180,
+      "icontype": 7
+    },
+    "3005": {
+      "id": 3005,
+      "no": 3,
+      "type": 9,
+      "weight": 0,
+      "mission": "Eliminate Boss 2 times",
+      "gift": [
+        "1,20"
+      ],
+      "total": 2,
+      "icontype": 7
+    },
+    "3006": {
+      "id": 3006,
+      "no": 3,
+      "type": 9,
+      "weight": 0,
+      "mission": "Eliminate Boss 3 times",
+      "gift": [
+        "1,20"
+      ],
+      "total": 3,
+      "icontype": 7
+    },
+    "3007": {
+      "id": 3007,
+      "no": 3,
+      "type": 13,
+      "weight": 30,
+      "mission": "Select a total of 10 turrets",
+      "gift": [
+        "1,20"
+      ],
+      "total": 10,
+      "icontype": 7
+    },
+    "3008": {
+      "id": 3008,
+      "no": 3,
+      "type": 13,
+      "weight": 20,
+      "mission": "Select a total of 12 turrets",
+      "gift": [
+        "1,20"
+      ],
+      "total": 12,
+      "icontype": 7
+    },
+    "3009": {
+      "id": 3009,
+      "no": 3,
+      "type": 13,
+      "weight": 10,
+      "mission": "Select a total of 15 turrets",
+      "gift": [
+        "1,20"
+      ],
+      "total": 15,
+      "icontype": 7
+    },
+    "3010": {
+      "id": 3010,
+      "no": 3,
+      "type": 12,
+      "weight": 30,
+      "mission": "Continuously advanced 10 stages",
+      "gift": [
+        "1,20"
+      ],
+      "total": 10,
+      "icontype": 7
+    },
+    "3011": {
+      "id": 3011,
+      "no": 3,
+      "type": 12,
+      "weight": 0,
+      "mission": "Continuously advanced 15 stages",
+      "gift": [
+        "1,20"
+      ],
+      "total": 15,
+      "icontype": 7
+    },
+    "4000": {
+      "id": 4000,
+      "no": 4,
+      "type": 6,
+      "weight": 400000,
+      "mission": "Upgrade Leader tech x3",
+      "gift": [
+        "1,20"
+      ],
+      "total": 3,
+      "icontype": 7
+    },
+    "4001": {
+      "id": 4001,
+      "no": 4,
+      "type": 6,
+      "weight": 300000,
+      "mission": "Upgrade Leader tech x4",
+      "gift": [
+        "1,20"
+      ],
+      "total": 4,
+      "icontype": 7
+    },
+    "4002": {
+      "id": 4002,
+      "no": 4,
+      "type": 7,
+      "weight": 400000,
+      "mission": "Upgrade Turret Tech 3 times",
+      "gift": [
+        "1,20"
+      ],
+      "total": 3,
+      "icontype": 7
+    },
+    "4003": {
+      "id": 4003,
+      "no": 4,
+      "type": 7,
+      "weight": 300000,
+      "mission": "Upgrade Turret Tech 4 times",
+      "gift": [
+        "1,20"
+      ],
+      "total": 4,
+      "icontype": 7
+    },
+    "4004": {
+      "id": 4004,
+      "no": 4,
+      "type": 8,
+      "weight": 0,
+      "mission": "Upgrade gear 2 times",
+      "gift": [
+        "1,20"
+      ],
+      "total": 2,
+      "icontype": 7
+    },
+    "4005": {
+      "id": 4005,
+      "no": 4,
+      "type": 8,
+      "weight": 0,
+      "mission": "Upgrade gear 3 times",
+      "gift": [
+        "1,20"
+      ],
+      "total": 3,
+      "icontype": 7
+    },
+    "4006": {
+      "id": 4006,
+      "no": 4,
+      "type": 16,
+      "weight": 1,
+      "mission": "Fuse gear 1 times",
+      "gift": [
+        "1,20"
+      ],
+      "total": 1,
+      "icontype": 7
+    },
+    "5000": {
+      "id": 5000,
+      "no": 5,
+      "type": 4,
+      "weight": 0,
+      "mission": "Open battle chests 1 times",
+      "gift": [
+        "1,20"
+      ],
+      "total": 1,
+      "icontype": 7
+    },
+    "5001": {
+      "id": 5001,
+      "no": 5,
+      "type": 10,
+      "weight": 0,
+      "mission": "Advance current stage 1 times",
+      "gift": [
+        "1,20"
+      ],
+      "total": 1,
+      "icontype": 7
+    },
+    "5002": {
+      "id": 5002,
+      "no": 5,
+      "type": 15,
+      "weight": 30,
+      "mission": "Get Stamina 1 times through purchase or watching videos",
+      "gift": [
+        "1,20"
+      ],
+      "total": 1,
+      "icontype": 7
+    },
+    "5003": {
+      "id": 5003,
+      "no": 5,
+      "type": 14,
+      "weight": 50,
+      "mission": "Watch video 5 times",
+      "gift": [
+        "1,20"
+      ],
+      "total": 5,
+      "icontype": 7
+    },
+    "5004": {
+      "id": 5004,
+      "no": 5,
+      "type": 14,
+      "weight": 100,
+      "mission": "Watch ad video 2 times",
+      "gift": [
+        "1,20"
+      ],
+      "total": 2,
+      "icontype": 7
+    },
+    "6001": {
+      "id": 6001,
+      "no": 6,
+      "type": 3,
+      "weight": 100,
+      "mission": "Conduct battle 2 times",
+      "gift": [
+        "1,20"
+      ],
+      "total": 2,
+      "icontype": 7
+    },
+    "7001": {
+      "id": 7001,
+      "no": 7,
+      "type": 17,
+      "weight": 100,
+      "mission": "Start 2 Star Trek stages",
+      "gift": [
+        "1,20"
+      ],
+      "total": 2,
+      "icontype": 7
+    },
+    "7002": {
+      "id": 7002,
+      "no": 7,
+      "type": 11,
+      "weight": 100,
+      "mission": "Destroy 500 enemy planes",
+      "gift": [
+        "1,20"
+      ],
+      "total": 500,
+      "icontype": 7
+    },
+    "8001": {
+      "id": 8001,
+      "no": 8,
+      "type": 18,
+      "weight": 100,
+      "mission": "Open chest 1 times in the Mall",
+      "gift": [
+        "1,20"
+      ],
+      "total": 1,
+      "icontype": 7
+    },
+    "9001": {
+      "id": 9001,
+      "no": 9,
+      "type": 19,
+      "weight": 100,
+      "mission": "Select skills 10 times for stages",
+      "gift": [
+        "1,20"
+      ],
+      "total": 10,
+      "icontype": 7
+    },
+    "10001": {
+      "id": 10001,
+      "no": 10,
+      "type": 9,
+      "weight": 100,
+      "mission": "Eliminate Boss 3 times",
+      "gift": [
+        "1,20"
+      ],
+      "total": 3,
+      "icontype": 7
+    },
+    "allID": [
+      1000,
+      2000,
+      2001,
+      3000,
+      3001,
+      3002,
+      3003,
+      3004,
+      3005,
+      3006,
+      3007,
+      3008,
+      3009,
+      3010,
+      3011,
+      4000,
+      4001,
+      4002,
+      4003,
+      4004,
+      4005,
+      4006,
+      5000,
+      5001,
+      5002,
+      5003,
+      5004,
+      6001,
+      7001,
+      7002,
+      8001,
+      9001,
+      10001
+    ]
+  }
+}
