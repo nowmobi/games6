@@ -16,12 +16,13 @@
 
     <div id="content"></div>
     <div id="dummy" style="position:fixed;right:0;bottom:0"></div>
-    <div id="orientation"></div>
+    <div id="orientation">
+        <div id="phone-icon" class="rotate"></div>
+    </div>
     <div id="loader">Loading...</div>
 
     <script type="text/javascript">
         var gameName = "parking-fury-3.min.js";
-
 
 
 
@@ -45,6 +46,21 @@
             });
 
         });
+        
+        function checkOrientation() {
+            var orientationDiv = document.getElementById('orientation');
+            
+            if (window.innerHeight > window.innerWidth) {
+                orientationDiv.className = 'landscape';
+            } else {
+                orientationDiv.className = '';
+            }
+        }
+        
+        window.addEventListener('resize', checkOrientation);
+        window.addEventListener('orientationchange', checkOrientation);
+        
+        window.addEventListener('load', checkOrientation);
     </script>
 </body>
 

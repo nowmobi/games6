@@ -14,7 +14,11 @@
 
 <body>
     <div id="content"></div>
-    <div id="orientation"></div>
+    <div id="orientation">
+        <div id="orientation-message">
+            <div class="phone-icon rotate-animation"></div>
+        </div>
+    </div>
     <div id="loader">Loading ...</div>
     <!-- <script type="text/javascript" src="https://imasdk.googleapis.com/js/sdkloader/ima3.js"></script> -->
     <script type="text/javascript" src="assets/box2dweb/nape.min.js">
@@ -88,6 +92,31 @@
         gtag('js', new Date());
         gtag('config', 'UA-60415712-16');
     </script>
+    
+    <script>
+
+        function checkOrientation() {
+            const orientationDiv = document.getElementById('orientation');
+            
+            if (window.innerHeight > window.innerWidth) {
+                orientationDiv.style.display = 'block';
+            } else {
+                orientationDiv.style.display = 'none';
+            }
+        }
+
+        window.addEventListener('load', function() {
+
+            checkOrientation();
+            
+            window.addEventListener('resize', checkOrientation);
+            
+            window.addEventListener('orientationchange', function() {
+                setTimeout(checkOrientation, 100);
+            });
+        });
+    </script>
+    
 <script type="text/javascript" src="motox3m4.min.js?691008a15c637df4dcc4"></script></body>
 
 </html>

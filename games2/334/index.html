@@ -10,10 +10,75 @@
     <link rel="stylesheet" href="assets/css/app.css" type="text/css" />
     <title>MotoX3M3</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      #orientation.landscape-hint {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+      }
+
+      .phone-icon {
+        width: 80px;
+        height: 160px;
+        border: 4px solid #fff;
+        border-radius: 16px;
+        position: relative;
+        margin-bottom: 20px;
+        margin: 50% auto;
+      }
+
+      .phone-icon::before {
+        content: '';
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40px;
+        height: 4px;
+        background: #fff;
+        border-radius: 2px;
+      }
+
+      .phone-icon::after {
+        content: '';
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 10px;
+        height: 10px;
+        background: #fff;
+        border-radius: 50%;
+      }
+
+      .phone-rotate {
+        animation: rotate 2s linear infinite;
+      }
+
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(90deg);
+        }
+      }
+
+      .orientation-text {
+        color: #fff;
+        font-size: 24px;
+        text-align: center;
+        margin-top: 20px;
+      }
+    </style>
   </head>
   <body>
     <div id="content"></div>
-    <div id="orientation"></div>
+    <div id="orientation" class="landscape-hint">
+      <div class="phone-icon phone-rotate"></div>
+    </div>
     <div id="loader">Loading ...</div>
     <script type="text/javascript" src="assets/box2dweb/nape.min.js">
       var nape = "nape.min.js";
@@ -45,5 +110,21 @@
       data-cf-beacon='{"version":"2024.11.0","token":"5c8adb3476774536859fc56135d4501a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
       crossorigin="anonymous"
     ></script>
+    <script>
+      function checkOrientation() {
+        const orientationDiv = document.getElementById('orientation');
+        const isPortrait = window.innerHeight > window.innerWidth;
+        
+        if (isPortrait) {
+          orientationDiv.style.display = 'flex';
+        } else {
+          orientationDiv.style.display = 'none';
+        }
+      }
+
+      window.addEventListener('orientationchange', checkOrientation);
+      window.addEventListener('resize', checkOrientation);
+      window.addEventListener('load', checkOrientation);
+    </script>
   </body>
 </html>
