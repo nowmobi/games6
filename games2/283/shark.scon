@@ -1,0 +1,879 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 100,
+					"length": 700,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -156.19047704526207,
+										"abs_y": -159.28571367784576,
+										"file": 0,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "ndut-08",
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 359.34038899999996,
+										"abs_pivot_x": 0.735537,
+										"abs_pivot_y": 0.852868,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -40.92735025959094,
+										"abs_y": -24.931623789257728,
+										"file": 1,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "ndut-09",
+										"parent": 0,
+										"timeline": "2",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -156.971194334573,
+										"abs_y": -158.86107444395782,
+										"file": 3,
+										"folder": 0,
+										"id": 2,
+										"key": 0,
+										"name": "ndut-07",
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999974752427e-7,
+										"abs_pivot_x": 0.193182,
+										"abs_pivot_y": 0.418033,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 149.57555477008646,
+										"abs_y": 16.913668915192396,
+										"file": 2,
+										"folder": 0,
+										"id": 3,
+										"key": 0,
+										"name": "ndut-10",
+										"parent": 1,
+										"timeline": "3",
+										"z_index": "3"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": "2",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"parent": 1,
+										"timeline": "3",
+										"z_index": "3"
+									}
+								],
+								"time": 201
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": "2",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"parent": 1,
+										"timeline": "3",
+										"z_index": "3"
+									}
+								],
+								"time": 325
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": "2",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"parent": 1,
+										"timeline": "3",
+										"z_index": "3"
+									}
+								],
+								"time": 399
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": "2",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"parent": 1,
+										"timeline": "3",
+										"z_index": "3"
+									}
+								],
+								"time": 467
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 5,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"parent": 0,
+										"timeline": "2",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"parent": 1,
+										"timeline": "3",
+										"z_index": "3"
+									}
+								],
+								"time": 469
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 6,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"parent": 0,
+										"timeline": "2",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 3,
+										"parent": 1,
+										"timeline": "3",
+										"z_index": "3"
+									}
+								],
+								"time": 548
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 7,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"parent": 0,
+										"timeline": "2",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 4,
+										"parent": 1,
+										"timeline": "3",
+										"z_index": "3"
+									}
+								],
+								"time": 549
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 4,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 8,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"parent": 0,
+										"timeline": "2",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 5,
+										"parent": 1,
+										"timeline": "3",
+										"z_index": "3"
+									}
+								],
+								"time": 700
+							}
+						]
+					},
+					"name": "Chase",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 183.437059,
+										"file": 0,
+										"folder": 0,
+										"x": 254.248416,
+										"y": -139.978244
+									},
+									"spin": 0
+								}
+							],
+							"name": "ndut-08",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 183.437059,
+										"file": 3,
+										"folder": 0,
+										"x": 255.002271,
+										"y": -139.507563
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 183.437059,
+										"file": 3,
+										"folder": 0,
+										"x": 254.004575,
+										"y": -139.575411
+									},
+									"spin": 0,
+									"time": 467
+								}
+							],
+							"name": "ndut-07",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 182.777448,
+										"file": 1,
+										"folder": 0,
+										"x": 131.137818,
+										"y": -12.77608
+									},
+									"spin": -1
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 175.55007,
+										"file": 1,
+										"folder": 0,
+										"x": 112.611872,
+										"y": -25.759002
+									},
+									"time": 201
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 181.028717,
+										"file": 1,
+										"folder": 0,
+										"x": 122.689541,
+										"y": -34.418444
+									},
+									"spin": -1,
+									"time": 325
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 176.06419,
+										"file": 1,
+										"folder": 0,
+										"x": 127.728012,
+										"y": -7.793484
+									},
+									"time": 469
+								}
+							],
+							"name": "ndut-09",
+							"obj": 2
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 4.361573000000021,
+										"file": 2,
+										"folder": 0,
+										"x": 12.984921,
+										"y": -0.820625
+									},
+									"spin": -1
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0.36195700000001807,
+										"file": 2,
+										"folder": 0,
+										"scale_x": 0.813401,
+										"x": 12.984921,
+										"y": -0.820625
+									},
+									"time": 201
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 4.361573000000021,
+										"file": 2,
+										"folder": 0,
+										"x": 12.984921,
+										"y": -0.820625
+									},
+									"spin": -1,
+									"time": 399
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0.3805730000000267,
+										"file": 2,
+										"folder": 0,
+										"scale_x": 0.859035,
+										"x": 12.984921,
+										"y": -0.820625
+									},
+									"time": 548
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 1.3615730000000212,
+										"file": 2,
+										"folder": 0,
+										"scale_x": 0.795794,
+										"x": 12.984921,
+										"y": -0.820625
+									},
+									"time": 549
+								},
+								{
+									"id": 5,
+									"object": {
+										"angle": 4.361573000000021,
+										"file": 2,
+										"folder": 0,
+										"x": 12.984921,
+										"y": -0.820625
+									},
+									"spin": 0,
+									"time": 700
+								}
+							],
+							"name": "ndut-10",
+							"obj": 3
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 176.562941,
+										"x": 89.208633,
+										"y": 4.316547
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 175.563,
+										"x": 89.208633,
+										"y": 5.755396
+									},
+									"id": 1,
+									"time": 201
+								},
+								{
+									"bone": {
+										"angle": 176.562941,
+										"x": 89.208633,
+										"y": 4.316547
+									},
+									"id": 2,
+									"spin": -1,
+									"time": 399
+								},
+								{
+									"bone": {
+										"angle": 175.563,
+										"x": 87.769784,
+										"y": -1.438849
+									},
+									"id": 3,
+									"time": 549
+								},
+								{
+									"bone": {
+										"angle": 176.562941,
+										"x": 89.208633,
+										"y": 4.316547
+									},
+									"id": 4,
+									"spin": 0,
+									"time": 700
+								}
+							],
+							"name": "bone_000",
+							"obj": 4,
+							"object_type": "bone"
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"bone": {
+										"angle": 179.075487,
+										"x": -48.561142,
+										"y": 16.542878
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 190.823102,
+										"x": -48.561142,
+										"y": 16.542878
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 201
+								},
+								{
+									"bone": {
+										"angle": 179.075487,
+										"x": -48.561142,
+										"y": 16.542878
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 399
+								},
+								{
+									"bone": {
+										"angle": 179.075487,
+										"x": -48.561142,
+										"y": 16.542878
+									},
+									"id": 3,
+									"spin": 0,
+									"time": 700
+								}
+							],
+							"name": "bone_001",
+							"obj": 5,
+							"object_type": "bone"
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "Shark",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 0
+						}
+					],
+					"name": "Shark_ndut-08",
+					"realname": "ndut-08",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 3,
+							"folder": 0
+						}
+					],
+					"name": "Shark_ndut-07",
+					"realname": "ndut-07",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 0
+						}
+					],
+					"name": "Shark_ndut-09",
+					"realname": "ndut-09",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 2,
+							"folder": 0
+						}
+					],
+					"name": "Shark_ndut-10",
+					"realname": "ndut-10",
+					"type": "sprite"
+				},
+				{
+					"h": 10,
+					"name": "Shark_bone_000",
+					"realname": "bone_000",
+					"type": "bone",
+					"w": 240
+				},
+				{
+					"h": 10,
+					"name": "Shark_bone_001",
+					"realname": "bone_001",
+					"type": "bone",
+					"w": 85.1386
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 261,
+					"id": 0,
+					"name": "ndut-08.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 325
+				},
+				{
+					"height": 123,
+					"id": 1,
+					"name": "ndut-09.png",
+					"pivot_x": 0.735537,
+					"pivot_y": 0.852868,
+					"width": 112
+				},
+				{
+					"height": 122,
+					"id": 2,
+					"name": "ndut-10.png",
+					"pivot_x": 0.193182,
+					"pivot_y": 0.418033,
+					"width": 88
+				},
+				{
+					"height": 172,
+					"id": 3,
+					"name": "ndut-07.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 175
+				},
+				{
+					"height": 122,
+					"id": 4,
+					"name": "ndut-11.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 88
+				}
+			],
+			"id": 0
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r7",
+	"scon_version": "1.0"
+}

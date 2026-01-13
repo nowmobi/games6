@@ -1,0 +1,111 @@
+{
+  "atlas": {
+    "image": "texture0",
+    "animations": [
+      {
+        "name": "preloader_bar_back",
+        "frames": [
+          {
+            "x": 212,
+            "y": 794,
+            "width": 602,
+            "height": 22,
+            "offsetX": -1,
+            "offsetY": -1
+          }
+        ]
+      },
+      {
+        "name": "preloader_bar_front",
+        "frames": [
+          {
+            "x": 0,
+            "y": 900,
+            "width": 602,
+            "height": 22,
+            "offsetX": -1,
+            "offsetY": -1
+          }
+        ]
+      },
+      {
+        "name": "bcg_mainmenu",
+        "frames": [
+          {
+            "x": 0,
+            "y": 0,
+            "width": 962,
+            "height": 642,
+            "offsetX": -1,
+            "offsetY": -1
+          }
+        ]
+      },
+      {
+        "name": "plashka",
+        "frames": [
+          {
+            "x": 0,
+            "y": 642,
+            "width": 302,
+            "height": 152,
+            "offsetX": -1,
+            "offsetY": -1
+          }
+        ]
+      },
+      {
+        "name": "button_sound_on_out",
+        "frames": [
+          {
+            "x": 0,
+            "y": 794,
+            "width": 106,
+            "height": 106,
+            "offsetX": -1,
+            "offsetY": -1
+          }
+        ]
+      },
+      {
+        "name": "button_sound_off_out",
+        "frames": [
+          {
+            "x": 106,
+            "y": 794,
+            "width": 106,
+            "height": 106,
+            "offsetX": -1,
+            "offsetY": -1
+          }
+        ]
+      },
+      {
+        "name": "logo_sponsor",
+        "frames": [
+          {
+            "x": 302,
+            "y": 642,
+            "width": 486,
+            "height": 123,
+            "offsetX": -1,
+            "offsetY": -1
+          }
+        ]
+      },
+      {
+        "name": "button_rotare",
+        "frames": [
+          {
+            "x": 788,
+            "y": 642,
+            "width": 110,
+            "height": 110,
+            "offsetX": -1,
+            "offsetY": -1
+          }
+        ]
+      }
+    ]
+  }
+}

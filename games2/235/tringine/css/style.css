@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "font";
+    src: url("font.ttf") format("truetype");
+}
+
+@-ms-viewport { width: 100vw ; zoom: 100% ; }   
+@viewport { width: 100vw ; zoom: 100% ; }
+@-ms-viewport { user-zoom: fixed ; }                                    
+@viewport { user-zoom: fixed ; }
+
+body { -webkit-overflow-scrolling: touch;}
